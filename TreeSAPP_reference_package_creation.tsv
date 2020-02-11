@@ -1,0 +1,106 @@
+RefPkg	Full Protein Name	Pathway	Cycle	TIGRFAM	PFam	EggNOG	EC number	KEGG Orthology number	HMM download DB	Seq download DB	Cluster similarity	Filtered*	Bootstrapped**	evaluate***	purity****	Server	Created	Phylogenetically obedient	Integrated	Methods:
+Acd	AMP-forming acetyl-CoA synthetase	Acetogenesis	C																	*Filtering by `hmmsearch --cut_tc` and obvious outgroups in a draft phylogenetic tree
+Pta	phosphate acetyltransferase	Acetogenesis	C	TIGR00651																**Look if a high portion of bifurcations have a low bootstrap support (<50)
+AckA	Acetate kinase	Ambiguous	C	TIGR00016	PF00871	COG0282	2.7.2.1													***Run all sequences from either FunGene or NCBI clustered at 99% identity against the reference package using treesapp evaluate
+Adh	alcohol dehydrogenase	Ambiguous	C		PF00106	COG1028	1.1.1.1													****Use treesapp purity to determine whether the reference package recruits unwanted domains or genes
+AldH	aldehyde dehydrogenase	Ambiguous	C																	
+PflD	formate C-acetyltransferase	Ambiguous	C	TIGR01255																
+FdoG	Formate dehydrogenase	Ambiguous	C																	
+FdhA	formate dehydrogenase, alpha subunit	Ambiguous	C	TIGR01591																
+FdhB	formate dehydrogenase, beta subunit	Ambiguous	C	TIGR01582																
+FdhG	formate dehydrogenase, gamma subunit	Ambiguous	C	TIGR01583																
+GH31	Alpha-glucosidase, glycosyl hydrolase family GH31	Carbohydrate degradation	C																	
+GH3	Glycoside hydrolase family 3	Carbohydrate degradation	C																	
+GH115	xylan α-1,2-glucuronidase; α-(4-O-methyl)-glucuronidase	Carbohydrate degradation	C		PF17829|PF15979		3.2.1.131													
+GH36	α-galactosidase; α-N-acetylgalactosaminidase; stachyose synthase; raffinose synthase	Carbohydrate degradation	C				3.2.1.22|3.2.1.49|2.4.1.67|2.4.1.82													
+GH67	α-glucuronidase; xylan α-1,2-glucuronidase	Carbohydrate degradation	C				3.2.1.139|3.2.1.131													
+GH109	α-N-acetylgalactosaminidase	Carbohydrate degradation	C	TIGR01409	PF01408|PF10518	COG1820	3.2.1.49													
+GH43		Carbohydrate degradation	C																	
+ABC transporters		Carbon degradation	C																	
+ACoA	ACoA_crb (acetylCoA carboxylase)	Carbon fixation	C	TIGR03182	PF00676	COG1071	1.2.4.1													
+rTCA	oxy_syn (2-oxoglutarate synthase)	Carbon fixation	C																	
+cbbS	ribulose bisphosphate carboxylase, type III	Carbon fixation	C	TIGR03326	PF00101	COG4451	4.1.1.39													
+CdhC	acetyl-CoA decarbonylase/synthase beta subunit	Carbon fixation/Methanogenesis	C	TIGR00316	PF03598	COG1614	1.2.99.2 2.3.1.169													
+CdhD	acetyl-CoA decarbonylase/synthase delta subunit	Carbon fixation/Methanogenesis	C	TIGR00381	PF03599	COG2069	1.2.99.2													
+CdhA	CO dehydrogenase/acetyl-CoA synthase complex, epsilon subunit	Carbon fixation/Methanogenesis	C	TIGR00314		COG1152	1.2.7.4			TIGRFAM										
+CdhB	CO dehydrogenase/acetyl-CoA synthase complex, epsilon subunit	Carbon fixation/Methanogenesis	C	TIGR00315		COG1880														
+F420_Mer	5,10-methylenetetrahydromethanopterin reductase	Methanogenesis	C	TIGR03555																
+Mtd/HmD	F420-dependent methylene (CH2)-H4 MPT dehydrogenase and H2-forming methylene-H4MPT dehydrogenase	Methanogenesis	C																	
+Fwd/FmdA	formylmethanofuran dehydrogenase subunit A (tungsten or molybdenum)	Methanogenesis	C	TIGR03121		COG1229														
+Fwd/FmdB	formylmethanofuran dehydrogenase subunit B (tungsten or molybdenum)	Methanogenesis	C	TIGR03129		COG1029														
+Fwd/FmdC	formylmethanofuran dehydrogenase subunit C (tungsten or molybdenum)	Methanogenesis	C	TIGR03122		COG2218														
+FmdD	formylmethanofuran dehydrogenase subunit D (molybdenum)	Methanogenesis	C																	
+FmdE	Formylmethanofuran dehydrogenase subunit E (molybdenum)	Methanogenesis	C		PF02663	COG2191	1.2.99.5|1.2.7.12													
+Ftr	Formylmethanofuran-tetrahydromethanopterin formyltransferase	Methanogenesis	C	TIGR03119	PF01913	COG2037	2.3.1.101													
+Mch	methenyltetrahydromethanopterin cyclohydrolase	Methanogenesis	C	TIGR03120	PF02289	COG3252														
+McrA	Methyl-coenzyme M reductase alpha subunit	Methanogenesis	C	TIGR03256	PF02249	arCOG04857|ENOG502XTF8	2.8.4.1													
+McrB	Methyl-coenzyme M reductase beta subunit	Methanogenesis	C	TIGR03257	PF02783		2.8.4.1													
+McrG	Methyl-coenzyme M reductase gamma subunit	Methanogenesis	C	TIGR03259	PF02240		2.8.4.1													
+McrC	Methyl-coenzyme M reductase  I operon protein C	Methanogenesis	C	TIGR03264																
+McrD	Methyl-coenzyme M reductase operon protein D	Methanogenesis	C	TIGR03260																
+DUF2102	Uncharacterized protein conserved in archaea	Methanogenesis	C	TIGR03272	PF09875	COG4029 														
+DUF2112	Uncharacterized protein	Methanogenesis	C		PF02680	COG1888														
+MtrA	Tetrahydromethanopterin methyltransferase subunit A	Methanogenesis	C	TIGR01111	PF04208	COG4063														
+MtrC	Tetrahydromethanopterin methyltransferase subunit C	Methanogenesis	C	TIGR01148	PF04211	COG4061														
+MtrH	Tetrahydromethanopterin methyltransferase subunit H	Methanogenesis	C	TIGR01114	PF02007	COG1962														
+MtrF	tetrahydromethanopterin S-methyltransferase, F subunit	Methanogenesis	C	TIGR02507	PF09472	COG4218														
+MtrB	tetrahydromethanopterin S-methyltransferase, subunit B	Methanogenesis	C	TIGR04166	PF05440	COG4062														
+MtrD	tetrahydromethanopterin S-methyltransferase, subunit D	Methanogenesis	C	TIGR01112	PF04207	COG4060														
+MtrE	tetrahydromethanopterin S-methyltransferase, subunit E	Methanogenesis	C	TIGR01113	PF04206	COG4059														
+MtrG	tetrahydromethanopterin S-methyltransferase, subunit G	Methanogenesis	C	TIGR01149		COG1401 														
+Methyltransferases(?)		Methanogenesis	C																	
+PuhA	photosynthetic reaction center H subunit	Photosynthesis	C	TIGR01150	PF03967	COG3861														
+PsbC	photosystem II 44 kDa subunit reaction center protein	Photosynthesis	C	TIGR01153	PF00421	ENOG410XQVF														
+PsbD	photosystem II D2 protein (photosystem q(a) protein)	Photosynthesis	C	TIGR01152	PF00124	ENOG410XRUT														
+PsbA	photosystem II P680 reaction center D1 protein	Photosynthesis	C	TIGR01151	PF00124 	ENOG502DBBD	1.10.3.9													
+PilA		DIET	E	TIGR02532	PF07963|PF00114															
+OmcS		DIET	E			ENOG4111IC9														
+OmcZ		DIET	E		PF01833															
+Hzo	hydrazine oxidoreductase	Annamox	N																	
+Hzs	hydrazine synthase	Annamox	N		PF18582															
+NasA	assimilatory nitrate reductase catalytic subunit	Assimilitory nitrate reduction	N				1.7.99.-													
+NasB	assimilatory nitrate reductase electron transfer subunit	Assimilitory nitrate reduction	N				1.7.99.-													
+NarB	ferredoxin-nitrate reductase	Assimilitory nitrate reduction	N				1.7.7.2													
+NirA	ferredoxin-nitrite reductase	Assimilitory nitrate reduction	N				1.7.7.1													
+NarG|NxrA|NarZ	nitrate reductase / nitrite oxidoreductase, alpha subunit	Denitrification	N	TIGR01580		COG5013	1.7.5.1|1.7.99.-	K00370												
+NarH|NarY	nitrate reductase, beta subunit	Denitrification	N	TIGR01660		COG1140|ENOG501MW9Q														
+NorB	nitric oxide reductase subunit B	Denitrification	N																	
+NorC	nitric oxide reductase subunit C	Denitrification	N																	
+NosZ	Nitrous-oxide reductase (TAT-dependent|Sec-dependent)	Denitrification	N	TIGR04244|TIGR04246		COG4263														
+NapA	periplasmic nitrate reductase, large subunit	Denitrification	N	TIGR01706		ENOG501NS3T														
+NarI	respiratory nitrate reductase, gamma subunit	Denitrification	N	TIGR00351	PF02665	COG2181														
+NirK	nitrite reductase (NO-forming)	Denitrification,Annamox	N																	
+NirS	nitrite reductase (NO-forming) / hydroxylamine reductase	Denitrification,Annamox	N																	
+NirB	nitrite reductase (NADH) large subunit	Dissimilitory nitrate reduction	N	TIGR02374		COG1251	1.7.1.15													
+NirD	nitrite reductase (NADH) small subunit	Dissimilitory nitrate reduction	N	TIGR02378		COG2146	1.7.1.15													
+NrfH	cytochrome c nitrite reductase, small subunit	Dissimilitory nitrate reduction (DNRA)	N	TIGR03153																
+NrfA	nitrite reductase (cytochrome c-552)	Dissimilitory nitrate reduction (DNRA)	N				1.7.2.2													
+AmoA, PmoA	ammonia monooxygenase subunit A, particulate methane monooxygenase subunit A	Nitrification	N	TIGR03080	PF02461	ENOG5028JPK	1.14.18.3|1.14.99.39													
+Hao	hydroxylamine dehydrogenase	Nitrification	N				1.7.2.6													
+NxrB	nitrate reductase / nitrite oxidoreductase, beta subunit	Nitrification	N				1.7.5.1|1.7.99.-													
+NifH	nitrogenase iron protein	Nitrogen fixation	N	TIGR01287			1.18.6.1	K02588												
+NifD	nitrogenase molybdenum-iron protein alpha chain	Nitrogen fixation	N	TIGR01282	PF00148			K02586												
+NifK	nitrogenase molybdenum-iron protein beta chain	Nitrogen fixation	N	TIGR01286		cl31088														
+AprA	adenylylsulfate reductase, alpha subunit	Sulfur metabolism	S	TIGR02061																
+AprB	adenylylsulfate reductase, beta subunit	Sulfur metabolism	S	TIGR02060																
+APS_red	adenylylsulfate reductase, thioredoxin dependent	Sulfur metabolism	S	TIGR02055	PF01507	COG1404	1.8.99.2													
+DsrAB	Dissimilatory sulfite reductase	Sulfur metabolism	S	TIGR02064|TIGR02066	PF01077	COG2221|ENOG502E52Z	1.8.99.3|1.8.99.5													
+SoxX	L-cysteine S-thiosulfotransferase	Sulfur metabolism	S	TIGR04485			2.8.5.2													
+CysH	phosophoadenylyl-sulfate reductase	Sulfur metabolism	S	TIGR00434		COG0175|ENOG501MXUR														
+SoxD	S-disulfanyl-L-cysteine oxidoreductase	Sulfur metabolism	S				1.8.2.6													
+SoxB	S-sulfosulfanyl-L-cysteine sulfohydrolase	Sulfur metabolism	S	TIGR04486			3.1.6.20													
+SoxC	sulfane (sulfite?) dehydrogenase subunit	Sulfur metabolism	S	TIGR04555																
+Sat/SopT	sulfate adenylyltransferase	Sulfur metabolism	S	TIGR00339		cl29098|cl29097:COG2046	2.7.7.4													
+CysN	sulfate adenylyltransferase, large subunit	Sulfur metabolism	S	TIGR02034		COG2895														
+CysD	sulfate adenylyltransferase, small subunit	Sulfur metabolism	S	TIGR02039																
+CysI	sulfite reductase (NADPH) hemoprotein, beta-component	Sulfur metabolism	S	TIGR02041		COG0155	1.8.7.1													
+CysJ	sulfite reductase [NADPH] flavoprotein, alpha-component	Sulfur metabolism	S	TIGR01931		COG0369														
+Sir	sulfite reductase, ferredoxin dependent	Sulfur metabolism	S	TIGR02042		COG0155														
+SoxA	Sulfur oxidation c-type cytochrome	Sulfur metabolism	S	TIGR04484			2.8.5.2													
+DsrC	sulfur relay protein, TusE/DsrC/DsvC family	Sulfur metabolism	S	TIGR03342	PF04358	COG2920														
+SoxZ	thiosulfate oxidation carrier complex protein	Sulfur metabolism	S	TIGR04490	PF08770	ENOG501N097														
+SoxY	thiosulfate oxidation carrier protein	Sulfur metabolism	S	TIGR04488	PF13501	COG5501|ENOG501RH4J														
+RecA	Bacterial recombination protein/Archaeal RecA family recombinase	Translation	X	TIGR02012		COG0468|ENOG501MU3C														
+RpS3	Ribosomal protein subunit 3, 30S	Translation	X																	
+RpoB	RNA polymerase beta subunit	Translation	X	TIGR02013|TIGR03670		COG0085														
+Corrinoid proteins																				
