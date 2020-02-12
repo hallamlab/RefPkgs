@@ -1,0 +1,1562 @@
+12/02 10:16:22 INFO:
+
+##			Creating TreeSAPP reference package			##
+
+12/02 10:16:22 INFO:
+Arguments used:
+-i /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/COG1152.txt -c CdhA -p 0.97 --trim_align -o /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/ --overwrite -n 2 -b 0 --fast --screen Bacteria,Archaea --headless -t c -m prot --cluster --guarantee /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed.faa
+
+12/02 10:16:22 DEBUG:
+Continuing with stage 'lineages'
+
+12/02 10:16:22 DEBUG:
+Read 108 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/COG1152.txt.
+
+12/02 10:16:22 INFO:
+Sequence summary:
+	Number of sequences: 108
+	Longest sequence length: 811
+	Shortest sequence length: 139
+	Mean sequence length: 735.0
+	Median sequence length: 736.0
+
+12/02 10:16:22 DEBUG:
+Read 4 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed.faa.
+
+12/02 10:16:22 INFO:
+Extracting information from headers... 
+12/02 10:16:22 INFO:
+done.
+
+12/02 10:16:22 DEBUG:
+	Number of input sequences =	112
+
+12/02 10:16:22 DEBUG:
+	Number of queries =	112
+
+12/02 10:16:22 INFO:
+Preparing Bio.Entrez for NCBI queries... 
+12/02 10:16:22 INFO:
+done.
+
+12/02 10:16:22 INFO:
+Retrieving Entrez taxonomy records for each accession... 
+12/02 10:16:23 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 100	0.0:0.66
+
+12/02 10:16:23 INFO:
+done.
+
+12/02 10:16:23 DEBUG:
+0 unique organism queries.
+
+12/02 10:16:23 INFO:
+Retrieving NCBI taxonomy IDs for each organism... 
+12/02 10:16:23 INFO:
+done.
+
+12/02 10:16:23 INFO:
+Preparing Bio.Entrez for NCBI queries... 
+12/02 10:16:23 INFO:
+done.
+
+12/02 10:16:23 INFO:
+Retrieving lineage information for each taxonomy ID... 
+12/02 10:16:24 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 100	0.0:0.98
+
+12/02 10:16:24 INFO:
+done.
+
+12/02 10:16:24 DEBUG:
+Queries mapped ideally = 107
+Queries with organism unmapped = 0
+Queries with NCBI taxonomy ID unmapped = 5
+Queries mapped with alternative accessions = 0
+Queries that outright failed = 0
+
+12/02 10:16:24 DEBUG:
+Entrez.efetch query stats:
+	Downloaded	112
+	Provided	0
+	Total		112
+
+
+12/02 10:16:24 DEBUG:
+	1 sequences removed after failing screen.
+	0 sequences removed after failing filter.
+	111 sequences retained.
+
+12/02 10:16:24 DEBUG:
+	0 sequences removed with truncated taxonomic lineages.
+	111 sequences retained for building tree.
+
+12/02 10:16:24 INFO:
+Clustering sequences with UCLUST... 
+12/02 10:16:24 INFO:
+done.
+
+12/02 10:16:24 DEBUG:
+usearch v9.2.64_i86linux32, 4.0Gb RAM (16.4Gb total), 4 cores
+(C) Copyright 2013-16 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: c.morganlang@gmail.com
+
+00:00 37Mb      0.1% Reading /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/COG1152_uclust_input.fasta00:00 40Mb    100.0% Reading /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/COG1152_uclust_input.fasta
+00:00 36Mb      4.8% DF                                                                                                                                  00:00 34Mb    100.0% DF
+00:00 35Mb   111 seqs, 105 uniques, 99 singletons (94.3%)
+00:00 35Mb   Min size 1, median 1, max 2, avg 1.06
+00:00 38Mb      1.0% DB00:00 38Mb    100.0% DB
+00:00 38Mb   Sort length... done.
+00:00 77Mb      0.9% Clustering00:00 77Mb      0.9% 0 clusters, max size 0, avg 0.000:00 91Mb    100.0% 101 clusters, max size 3, avg 1.1
+00:00 91Mb      1.0% Writing centroids to /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/COG1152_uclust0.97.fa00:00 91Mb    100.0% Writing centroids to /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/COG1152_uclust0.97.fa
+                                                                                                                                                                 
+      Seqs  105
+  Clusters  101
+  Max size  3
+  Avg size  1.1
+  Min size  1
+Singletons  93, 88.6% of seqs, 92.1% of clusters
+   Max mem  91Mb
+      Time  1.00s
+Throughput  105.0 seqs/sec.
+
+
+12/02 10:16:24 DEBUG:
+Reading usearch cluster file... 
+12/02 10:16:24 DEBUG:
+done.
+
+12/02 10:16:24 DEBUG:
+	101 sequence clusters
+
+12/02 10:16:24 DEBUG:
+0 former representative sequences were succeeded by 'guaranteed-sequences'.
+
+12/02 10:16:24 DEBUG:
+Finalizing representative sequence clusters... 
+12/02 10:16:24 DEBUG:
+done.
+
+12/02 10:16:24 DEBUG:
+Re-enumerating the reference sequences in taxonomic order... 
+12/02 10:16:24 DEBUG:
+done.
+
+12/02 10:16:24 INFO:
+Detecting outlier reference sequences... 
+12/02 10:16:46 INFO:
+done.
+
+12/02 10:16:46 DEBUG:
+0 outlier sequences detected and discarded.
+	
+
+12/02 10:16:46 DEBUG:
+Re-enumerating the reference sequences in taxonomic order... 
+12/02 10:16:46 DEBUG:
+done.
+
+12/02 10:16:46 INFO:
+Generated the taxonomic lineage map /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/final_outputs/tax_ids_CdhA.txt
+
+12/02 10:16:46 INFO:
+Number of unique lineages:
+	Kingdoms   2
+	Phyla      7
+	Classes   12
+	Orders    20
+	Families  33
+	Genera    57
+	Species   73
+Unclassified lineages account for 2/101 (2.0%) references.
+
+12/02 10:16:46 INFO:
+Aligning the sequences using MAFFT... 
+12/02 10:17:06 INFO:
+done.
+
+12/02 10:17:06 DEBUG:
+Reference alignment contains 101 sequences with 1318 character positions.
+
+12/02 10:17:06 DEBUG:
+Building HMM profile... 
+12/02 10:17:07 DEBUG:
+done.
+
+12/02 10:17:07 INFO:
+Running BMGE... 
+12/02 10:17:07 DEBUG:
+STAGE: Multiple alignment trimming with BMGE
+	COMMAND:
+java -Xmx512m -jar /home/connor/Bioinformatics/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp/sub_binaries/BMGE.jar -t AA -m BLOSUM30 -g 0.99:0.33 -i /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/final_outputs/CdhA.fa -of /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/final_outputs/CdhA-BMGE.fasta
+
+12/02 10:17:08 INFO:
+done.
+
+12/02 10:17:08 DEBUG:
+	BMGE time required: 0.0:0.0:0.48
+
+12/02 10:17:08 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/final_outputs/CdhA-BMGE.fasta = 0 (retained)
+
+12/02 10:17:08 INFO:
+Building phylogenetic tree with FastTree... 
+12/02 10:17:13 INFO:
+done.
+
+12/02 10:17:13 DEBUG:
+FastTree Version 2.1.10 Double precision (No SSE3)
+Alignment: /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/CdhA.phy
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Le-Gascuel 2008, CAT approximation with 20 rate categories
+Initial topology in 0.09 seconds
+Refining topology: 27 rounds ME-NNIs, 2 rounds ME-SPRs, 13 rounds ML-NNIs
+      0.10 seconds: ME NNI round 3 of 27, 1 of 99 splits
+      0.22 seconds: SPR round   1 of   2, 101 of 200 nodes
+      0.34 seconds: ME NNI round 10 of 27, 1 of 99 splits
+      0.46 seconds: SPR round   2 of   2, 101 of 200 nodes
+      0.59 seconds: ME NNI round 19 of 27, 1 of 99 splits
+Total branch-length 18.016 after 0.62 sec
+      0.84 seconds: ML NNI round 1 of 13, 1 of 99 splits
+ML-NNI round 1: LogLk = -33991.528 NNIs 18 max delta 8.01 Time 1.69
+      1.70 seconds: Site likelihoods with rate category 1 of 20
+      1.81 seconds: Site likelihoods with rate category 6 of 20
+      1.93 seconds: Site likelihoods with rate category 11 of 20
+      2.05 seconds: Site likelihoods with rate category 16 of 20
+Switched to using 20 rate categories (CAT approximation)
+Rate categories were divided by 1.004 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+Use -gamma for approximate but comparable Gamma(20) log-likelihoods
+      2.19 seconds: ML NNI round 2 of 13, 1 of 99 splits
+ML-NNI round 2: LogLk = -32669.329 NNIs 8 max delta 3.56 Time 2.75
+      2.75 seconds: ML NNI round 3 of 13, 1 of 99 splits
+ML-NNI round 3: LogLk = -32667.089 NNIs 1 max delta 1.31 Time 3.07
+      3.06 seconds: ML NNI round 4 of 13, 1 of 99 splits
+ML-NNI round 4: LogLk = -32667.061 NNIs 0 max delta 0.00 Time 3.23
+Turning off heuristics for final round of ML NNIs (converged)
+      3.23 seconds: ML NNI round 5 of 13, 1 of 99 splits
+ML-NNI round 5: LogLk = -32662.471 NNIs 1 max delta 1.56 Time 4.15 (final)
+      4.15 seconds: ML Lengths 1 of 99 splits
+Optimize all lengths: LogLk = -32662.328 Time 4.40
+Total time: 5.09 seconds Unique: 101/101 Bad splits: 0/98
+
+
+12/02 10:17:13 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+12/02 10:17:13 DEBUG:
+done.
+
+12/02 10:17:13 DEBUG:
+Unable to remove /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/phylogeny_files/CdhA.raxml.reduced.phy as it doesn't exist.
+
+12/02 10:17:13 DEBUG:
+Lowest reliable rank for taxonomic classification is: Classes
+
+12/02 10:17:13 INFO:
+
+##			Train taxonomic rank-placement distance model			##
+
+12/02 10:17:13 INFO:
+Arguments used:
+-i /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/COG1152_filtered.fa -c CdhA -p /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/final_outputs/ -o /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/ -m prot -a /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates//accession_id_lineage_map.tsv -n 2 --trim_align
+
+12/02 10:17:13 DEBUG:
+Reading build parameters of reference markers... 
+12/02 10:17:13 DEBUG:
+done.
+
+12/02 10:17:13 DEBUG:
+Skipped the following lines:
+	#hzs
+	#hzao
+	#nirA
+	#MtrA
+	#MtrC
+	#MtrH
+	#CO_dh
+	#RBsCO
+	#OGFOxy
+	#CitSyn
+	#GH36
+	#GH31
+	#GH109
+	#GH115
+	#nirK	D0301	prot	PROTGAMMALG	functional	0.97	120	RAxML	-11.3207,6.9484	Orders	07_Dec_2018	nitrite reductase (NO-forming)
+	#RecA	P0001	prot	PROTGAMMALG	taxonomic	0.80	1110	RAxML	-5.4758,6.3838	Classes	12_Dec_2018
+	#McrA	M0701	prot	PROTGAMMALG	functional	0.97	211	FastTree	-4.08046639871,6.03601100802	Classes	04_Dec_2018
+	#McrB	M0702	prot	PROTGAMMALG	functional	0.97	157	FastTree	-4.82025271473,6.52717228329	Classes	04_Dec_2018
+	#McrG	M0705	prot	PROTGAMMALG	functional	0.97	155	FastTree	-5.23147387413,6.5926235222	Genera	04_Dec_2018
+	#napA	D0201	prot	PROTGAMMALG	functional	0.90	332	FastTree	-7.03985324603,6.60314540283	Classes	04_Dec_2018
+	#nifD	N0401	prot	PROTGAMMALG	functional	0.90	402	FastTree	-7.72039669919,6.16543737552	Orders	04_Dec_2018
+	#nifH	N0402	prot	PROTGAMMALG	functional	0.95	301	FastTree	-6.48773434909,6.41218539511	Phyla	04_Dec_2018
+	#nirK	D0301	prot	PROTGAMMALG	functional	0.97	120	FastTree	-11.8842768413,6.77906128214	Orders	04_Dec_2018
+	#nirS	D0302	prot	PROTGAMMALG	functional	0.97	184	FastTree	-5.49173161577,6.23728973299	Classes	04_Dec_2018
+	#norB	D0501	prot	PROTGAMMALG	functional	0.80	329	FastTree	-7.6070183552,6.48567258868	Orders	04_Dec_2018
+	#norC	D0502	prot	PROTGAMMALG	functional	0.90	223	FastTree	-6.61551453189,6.60317398186	Classes	04_Dec_2018
+	#norC	D0502	prot	PROTGAMMALG	functional	0.90	223	RAxML	-5.3221,6.3809	Classes	08_Dec_2018	nitric oxide reductase subunit C
+	#p_amoA	N0102	prot	PROTGAMMALG	functional	0.97	80	FastTree	-2.83232814805,5.67790899421	Families	04_Dec_2018
+	#nosZ	D0601	prot	PROTGAMMALG	functional	0.95	449	FastTree	-6.1988,6.095	Phyla	13_Mar_2019
+	#McrA	M0701	prot	PROTGAMMALG	functional	0.97	228	RAxML	-5.3509,7.0	Classes	29_Apr_2019	Methyl coenzyme M reductase alpha subunit
+
+12/02 10:17:13 DEBUG:
+Read 101 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/final_outputs/CdhA.fa.
+
+12/02 10:17:13 DEBUG:
+Unable to open stage file '' for reading. Defaulting to stage 2.
+
+12/02 10:17:13 DEBUG:
+Continuing with stage 'place'
+
+12/02 10:17:13 DEBUG:
+Read 111 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/COG1152_filtered.fa.
+
+12/02 10:17:13 INFO:
+Extracting information from headers... 
+12/02 10:17:13 INFO:
+done.
+
+12/02 10:17:13 DEBUG:
+	Number of input sequences =	111
+
+12/02 10:17:13 INFO:
+Reading cached lineages in '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates//accession_id_lineage_map.tsv'... 
+12/02 10:17:13 INFO:
+done.
+
+12/02 10:17:13 DEBUG:
+Read 111 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/COG1152_filtered.fa.
+
+12/02 10:17:13 DEBUG:
+Checking for redundant sequences with duplicate accessions.
+
+12/02 10:17:13 DEBUG:
+Checking for redundant FASTA records with duplicate sequences... 
+12/02 10:17:13 DEBUG:
+done.
+
+12/02 10:17:13 DEBUG:
+Removed 6 sequences with duplicate sequences.
+
+12/02 10:17:13 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	WP_010877316.1 CO dehydrogenase/acetyl-CoA synthase complex subunit epsilon [Methanothermobacter thermautotrophicus]
+	WP_010879884.1 CO dehydrogenase/acetyl-CoA synthase complex subunit epsilon [Archaeoglobus fulgidus]
+	243164.DET0700
+	536227.CcarbDRAFT_2956
+	WP_010869648.1 CO dehydrogenase/acetyl-CoA synthase complex subunit epsilon [Methanocaldococcus jannaschii]
+	WP_010878596.1 CO dehydrogenase/acetyl-CoA synthase complex subunit epsilon [Archaeoglobus fulgidus]
+
+12/02 10:17:13 DEBUG:
+0 lineages truncated before Kingdom were removed during lineage trimming.
+0 lineages unclassified at or before Kingdom also removed.
+
+12/02 10:17:13 WARNING:
+6 sequences were not mapped to FASTA dictionary.
+
+12/02 10:17:13 DEBUG:
+Headers that were not mapped to FASTA dictionary:
+	243164.DET0700
+	536227.CcarbDRAFT_2956
+	WP_010869648
+	WP_010877316
+	WP_010878596
+	WP_010879884
+
+12/02 10:17:13 DEBUG:
+0 lineages truncated before Class were removed during lineage trimming.
+0 lineages unclassified at or before Class also removed.
+
+12/02 10:17:13 DEBUG:
+58.3% of optimal  Class lineages are present in the pruned trees.
+
+12/02 10:17:13 DEBUG:
+1 lineages truncated before Species were removed during lineage trimming.
+2 lineages unclassified at or before Species also removed.
+
+12/02 10:17:13 DEBUG:
+33.8% of optimal  Species lineages are present in the pruned trees.
+
+12/02 10:17:13 DEBUG:
+Optimal placement target was not found in the pruned tree for following taxa:
+	Bacteria; Chloroflexi
+	Bacteria; Nitrospirae
+	Bacteria; Proteobacteria
+	Bacteria; Spirochaetes
+	Bacteria; Thermodesulfobacteria
+	Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales; Archaeoglobaceae; Ferroglobus
+	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobacterium
+	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanothermaceae; Methanothermus
+	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanotorris
+	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanothermococcus
+	Archaea; Euryarchaeota; Methanomicrobia; Methanocellales; Methanocellaceae; Methanocella
+	Archaea; Euryarchaeota; Methanomicrobia; Methanomicrobiales; Methanoregulaceae; Methanoregula
+	Archaea; Euryarchaeota; Methanomicrobia; Methanomicrobiales; Methanoregulaceae; Methanosphaerula
+	Archaea; Euryarchaeota; Methanomicrobia; Methanomicrobiales; Methanospirillaceae; Methanospirillum
+	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanococcoides
+	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanohalobium
+	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanohalophilus
+	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosalsum
+	Archaea; Euryarchaeota; Methanopyri; Methanopyrales; Methanopyraceae; Methanopyrus
+	Bacteria; Chloroflexi; Dehalococcoidia; Dehalococcoidales; Dehalococcoidaceae; Dehalococcoides
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Alkaliphilus
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Eubacteriaceae; Acetobacterium
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Eubacteriaceae; Eubacterium
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Marvinbryantia
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Candidatus Desulforudis
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfitobacterium
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfofarcimen
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfofundulus
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfosporosinus
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Thermincola
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptostreptococcaceae; Acetoanaerobium
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptostreptococcaceae; Clostridioides
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptostreptococcaceae; Intestinibacter
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Syntrophomonadaceae; Dethiobacter
+	Bacteria; Firmicutes; Clostridia; Halanaerobiales; Halobacteroidaceae; Acetohalobium
+	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Ammonifex
+	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Carboxydothermus
+	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Moorella
+	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Tepidanaerobacter
+	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Thermosediminibacter
+	Bacteria; Firmicutes; Negativicutes; Selenomonadales; Sporomusaceae; Acetonema
+	Bacteria; Nitrospirae; Nitrospira; Nitrospirales; Nitrospiraceae; Thermodesulfovibrio
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfarculales; Desulfarculaceae; Desulfarculus
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfatibacillum
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfobacterium
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfococcus
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobulbaceae; Desulfurivibrio
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfohalobiaceae; Desulfonatronospira
+	Bacteria; Proteobacteria; Deltaproteobacteria; Syntrophobacterales; Syntrophaceae; Desulfobacca
+	Bacteria; Proteobacteria; Deltaproteobacteria; Syntrophobacterales; Syntrophobacteraceae; Syntrophobacter
+	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae; Thermodesulfatator
+	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae; Thermodesulfobacterium
+
+12/02 10:17:13 DEBUG:
+Sequences available for training Class-level placement distances:
+	4	Archaea; Euryarchaeota; Archaeoglobi
+	7	Archaea; Euryarchaeota; Methanobacteria
+	21	Archaea; Euryarchaeota; Methanococci
+	20	Archaea; Euryarchaeota; Methanomicrobia
+	2	Archaea; Euryarchaeota; Methanopyri
+	0	Bacteria; Chloroflexi; Dehalococcoidia
+	33	Bacteria; Firmicutes; Clostridia
+	1	Bacteria; Firmicutes; Negativicutes
+	0	Bacteria; Nitrospirae; Nitrospira
+	0	Bacteria; Proteobacteria; Deltaproteobacteria
+	0	Bacteria; Spirochaetes; Spirochaetia
+	0	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria
+7/12 Class have training sequences.
+Sequences available for training Species-level placement distances:
+	2	Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales; Archaeoglobaceae; Archaeoglobus; Archaeoglobus fulgidus
+	1	Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales; Archaeoglobaceae; Archaeoglobus; Archaeoglobus veneficus
+	0	Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales; Archaeoglobaceae; Ferroglobus; Ferroglobus placidus
+	0	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobacterium; Methanobacterium paludis
+	4	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanothermobacter; Methanothermobacter marburgensis
+	1	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanothermobacter; Methanothermobacter thermautotrophicus
+	0	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanothermaceae; Methanothermus; Methanothermus fervidus
+	1	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus fervens
+	2	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus infernus
+	2	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus jannaschii
+	2	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus vulcanius
+	0	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanotorris; Methanotorris igneus
+	3	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus aeolicus
+	4	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus maripaludis
+	1	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus vannielii
+	0	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanothermococcus; Methanothermococcus okinawensis
+	0	Archaea; Euryarchaeota; Methanomicrobia; Methanocellales; Methanocellaceae; Methanocella; Methanocella arvoryzae
+	0	Archaea; Euryarchaeota; Methanomicrobia; Methanomicrobiales; Methanoregulaceae; Methanoregula; Methanoregula boonei
+	0	Archaea; Euryarchaeota; Methanomicrobia; Methanomicrobiales; Methanoregulaceae; Methanosphaerula; Methanosphaerula palustris
+	0	Archaea; Euryarchaeota; Methanomicrobia; Methanomicrobiales; Methanospirillaceae; Methanospirillum; Methanospirillum hungatei
+	0	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanococcoides; Methanococcoides burtonii
+	0	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanohalobium; Methanohalobium evestigatum
+	0	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanohalophilus; Methanohalophilus mahii
+	0	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosalsum; Methanosalsum zhilinae
+	3	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina acetivorans
+	2	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina barkeri
+	2	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina mazei
+	2	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanotrichaceae; Methanothrix; Methanosaeta harundinacea
+	1	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanotrichaceae; Methanothrix; Methanothrix soehngenii
+	1	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanotrichaceae; Methanothrix; Methanothrix thermoacetophila
+	0	Archaea; Euryarchaeota; Methanopyri; Methanopyrales; Methanopyraceae; Methanopyrus; Methanopyrus kandleri
+	0	Bacteria; Chloroflexi; Dehalococcoidia; Dehalococcoidales; Dehalococcoidaceae; Dehalococcoides; Dehalococcoides mccartyi
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Alkaliphilus; Alkaliphilus metalliredigens
+	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium carboxidivorans
+	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium ljungdahlii
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Eubacteriaceae; Acetobacterium; Acetobacterium woodii
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Eubacteriaceae; Eubacterium; Eubacterium limosum
+	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Blautia; Blautia hansenii
+	3	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Blautia; Blautia hydrogenotrophica
+	2	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Blautia; Blautia obeum
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Marvinbryantia; Marvinbryantia formatexigens
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Candidatus Desulforudis; Candidatus Desulforudis audaxviator
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfitobacterium; Desulfitobacterium hafniense
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfofarcimen; Desulfofarcimen acetoxidans
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfofundulus; Desulfofundulus kuznetsovii
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfosporosinus; Desulfosporosinus orientis
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Thermincola; Thermincola potens
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptostreptococcaceae; Acetoanaerobium; Acetoanaerobium sticklandii
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptostreptococcaceae; Clostridioides; Clostridioides difficile
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptostreptococcaceae; Intestinibacter; Intestinibacter bartlettii
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Syntrophomonadaceae; Dethiobacter; Dethiobacter alkaliphilus
+	0	Bacteria; Firmicutes; Clostridia; Halanaerobiales; Halobacteroidaceae; Acetohalobium; Acetohalobium arabaticum
+	0	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Ammonifex; Ammonifex degensii
+	0	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Carboxydothermus; Carboxydothermus hydrogenoformans
+	0	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Moorella; Moorella thermoacetica
+	0	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Tepidanaerobacter; Tepidanaerobacter acetatoxydans
+	0	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Thermosediminibacter; Thermosediminibacter oceani
+	0	Bacteria; Firmicutes; Negativicutes; Selenomonadales; Sporomusaceae; Acetonema; Acetonema longum
+	0	Bacteria; Nitrospirae; Nitrospira; Nitrospirales; Nitrospiraceae; Thermodesulfovibrio; Thermodesulfovibrio yellowstonii
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfarculales; Desulfarculaceae; Desulfarculus; Desulfarculus baarsii
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfatibacillum; Desulfatibacillum alkenivorans
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfobacterium; Desulfobacterium autotrophicum
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfococcus; Desulfococcus oleovorans
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobulbaceae; Desulfurivibrio; Desulfurivibrio alkaliphilus
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfohalobiaceae; Desulfonatronospira; Desulfonatronospira thiodismutans
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Syntrophobacterales; Syntrophaceae; Desulfobacca; Desulfobacca acetoxidans
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Syntrophobacterales; Syntrophobacteraceae; Syntrophobacter; Syntrophobacter fumaroxidans
+	1	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Spirochaetaceae; Treponema; Treponema azotonutricium
+	1	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Spirochaetaceae; Treponema; Treponema primitia
+	0	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae; Thermodesulfatator; Thermodesulfatator indicus
+	0	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae; Thermodesulfobacterium; Thermodesulfobacterium geofontis
+24/71 Species have training sequences.
+
+12/02 10:17:13 INFO:
+Clustering sequences with UCLUST... 
+12/02 10:17:13 INFO:
+done.
+
+12/02 10:17:13 DEBUG:
+usearch v9.2.64_i86linux32, 4.0Gb RAM (16.4Gb total), 4 cores
+(C) Copyright 2013-16 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: c.morganlang@gmail.com
+
+00:00 37Mb      0.1% Reading /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates//uclust_input.fasta00:00 40Mb    100.0% Reading /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates//uclust_input.fasta
+00:00 38Mb      4.8% DF                                                                                                                                                           00:00 35Mb    100.0% DF
+00:00 35Mb   105 seqs, 105 uniques, 105 singletons (100.0%)
+00:00 35Mb   Min size 1, median 1, max 1, avg 1.00
+00:00 38Mb      1.0% DB00:00 38Mb    100.0% DB
+00:00 38Mb   Sort length... done.
+00:00 77Mb      0.9% Clustering00:00 77Mb      0.9% 0 clusters, max size 0, avg 0.000:00 91Mb    100.0% 105 clusters, max size 1, avg 1.0
+00:00 91Mb      1.0% Writing centroids to /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates//uclust0.99.fa00:00 91Mb    100.0% Writing centroids to /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates//uclust0.99.fa
+                                                                                                                                                                                          
+      Seqs  105
+  Clusters  105
+  Max size  1
+  Avg size  1.0
+  Min size  1
+Singletons  105, 100.0% of seqs, 100.0% of clusters
+   Max mem  91Mb
+      Time  1.00s
+Throughput  105.0 seqs/sec.
+
+
+12/02 10:17:13 DEBUG:
+Reading usearch cluster file... 
+12/02 10:17:13 DEBUG:
+done.
+
+12/02 10:17:13 DEBUG:
+	105 sequence clusters
+
+12/02 10:17:13 INFO:
+Preparing deduplicated sequence set for training... 
+12/02 10:17:13 DEBUG:
+0 lineages truncated before Class were removed during lineage trimming.
+0 lineages unclassified at or before Class also removed.
+
+12/02 10:17:13 DEBUG:
+1 lineages truncated before Species were removed during lineage trimming.
+2 lineages unclassified at or before Species also removed.
+
+12/02 10:17:13 INFO:
+done.
+
+12/02 10:17:13 INFO:
+
+Estimating branch-length placement distances for taxonomic ranks. Progress:
+
+12/02 10:17:13 DEBUG:
+85 sequences to train Class-level placement distances
+
+12/02 10:17:13 DEBUG:
+44 sequences to train Species-level placement distances
+
+12/02 10:17:13 DEBUG:
+1 lineages truncated before Species were removed during lineage trimming.
+2 lineages unclassified at or before Species also removed.
+
+12/02 10:17:13 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales; Archaeoglobaceae; Archaeoglobus; Archaeoglobus fulgidus:
+
+12/02 10:17:13 DEBUG:
+	2 query sequences.
+
+12/02 10:17:13 DEBUG:
+	5 sequences pruned from tree.
+
+12/02 10:17:13 DEBUG:
+	96 leaves in pruned tree.
+
+12/02 10:17:13 DEBUG:
+Building HMM profile... 
+12/02 10:17:14 DEBUG:
+done.
+
+12/02 10:17:14 DEBUG:
+
+
+12/02 10:17:14 DEBUG:
+Columns = 348
+
+12/02 10:17:14 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 10:17:14 DEBUG:
+Read 98 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 10:17:14 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales; Archaeoglobaceae; Archaeoglobus; Archaeoglobus veneficus:
+
+12/02 10:17:14 DEBUG:
+	1 query sequences.
+
+12/02 10:17:14 DEBUG:
+	4 sequences pruned from tree.
+
+12/02 10:17:14 DEBUG:
+	97 leaves in pruned tree.
+
+12/02 10:17:14 DEBUG:
+Building HMM profile... 
+12/02 10:17:15 DEBUG:
+done.
+
+12/02 10:17:15 DEBUG:
+
+
+12/02 10:17:16 DEBUG:
+Columns = 356
+
+12/02 10:17:16 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 10:17:16 DEBUG:
+Read 98 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 10:17:16 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanothermobacter; Methanothermobacter marburgensis:
+
+12/02 10:17:16 DEBUG:
+	4 query sequences.
+
+12/02 10:17:16 DEBUG:
+	7 sequences pruned from tree.
+
+12/02 10:17:16 DEBUG:
+	94 leaves in pruned tree.
+
+12/02 10:17:16 DEBUG:
+Building HMM profile... 
+12/02 10:17:17 DEBUG:
+done.
+
+12/02 10:17:17 DEBUG:
+
+
+12/02 10:17:17 DEBUG:
+Columns = 357
+
+12/02 10:17:17 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 1 (retained)
+
+12/02 10:17:17 DEBUG:
+Read 98 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 10:17:18 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanothermobacter; Methanothermobacter thermautotrophicus:
+
+12/02 10:17:18 DEBUG:
+	1 query sequences.
+
+12/02 10:17:18 DEBUG:
+	4 sequences pruned from tree.
+
+12/02 10:17:18 DEBUG:
+	97 leaves in pruned tree.
+
+12/02 10:17:18 DEBUG:
+Building HMM profile... 
+12/02 10:17:18 DEBUG:
+done.
+
+12/02 10:17:18 DEBUG:
+
+
+12/02 10:17:19 DEBUG:
+Columns = 356
+
+12/02 10:17:19 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 10:17:19 DEBUG:
+Read 98 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 10:17:19 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus fervens:
+
+12/02 10:17:19 DEBUG:
+	1 query sequences.
+
+12/02 10:17:19 DEBUG:
+	4 sequences pruned from tree.
+
+12/02 10:17:19 DEBUG:
+	97 leaves in pruned tree.
+
+12/02 10:17:19 DEBUG:
+Building HMM profile... 
+12/02 10:17:20 DEBUG:
+done.
+
+12/02 10:17:20 DEBUG:
+
+
+12/02 10:17:20 DEBUG:
+Columns = 356
+
+12/02 10:17:20 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 10:17:20 DEBUG:
+Read 98 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 10:17:21 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus infernus:
+
+12/02 10:17:21 DEBUG:
+	2 query sequences.
+
+12/02 10:17:21 DEBUG:
+	5 sequences pruned from tree.
+
+12/02 10:17:21 DEBUG:
+	96 leaves in pruned tree.
+
+12/02 10:17:21 DEBUG:
+Building HMM profile... 
+12/02 10:17:21 DEBUG:
+done.
+
+12/02 10:17:22 DEBUG:
+
+
+12/02 10:17:22 DEBUG:
+Columns = 354
+
+12/02 10:17:22 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 10:17:22 DEBUG:
+Read 98 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 10:17:22 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus jannaschii:
+
+12/02 10:17:22 DEBUG:
+	2 query sequences.
+
+12/02 10:17:22 DEBUG:
+	5 sequences pruned from tree.
+
+12/02 10:17:22 DEBUG:
+	96 leaves in pruned tree.
+
+12/02 10:17:22 DEBUG:
+Building HMM profile... 
+12/02 10:17:23 DEBUG:
+done.
+
+12/02 10:17:23 DEBUG:
+
+
+12/02 10:17:24 DEBUG:
+Columns = 357
+
+12/02 10:17:24 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 10:17:24 DEBUG:
+Read 98 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 10:17:24 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus vulcanius:
+
+12/02 10:17:24 DEBUG:
+	2 query sequences.
+
+12/02 10:17:24 DEBUG:
+	5 sequences pruned from tree.
+
+12/02 10:17:24 DEBUG:
+	96 leaves in pruned tree.
+
+12/02 10:17:24 DEBUG:
+Building HMM profile... 
+12/02 10:17:25 DEBUG:
+done.
+
+12/02 10:17:25 DEBUG:
+
+
+12/02 10:17:25 DEBUG:
+Columns = 356
+
+12/02 10:17:25 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 10:17:25 DEBUG:
+Read 98 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 10:17:25 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus aeolicus:
+
+12/02 10:17:25 DEBUG:
+	3 query sequences.
+
+12/02 10:17:25 DEBUG:
+	6 sequences pruned from tree.
+
+12/02 10:17:25 DEBUG:
+	95 leaves in pruned tree.
+
+12/02 10:17:25 DEBUG:
+Building HMM profile... 
+12/02 10:17:26 DEBUG:
+done.
+
+12/02 10:17:26 DEBUG:
+
+
+12/02 10:17:27 DEBUG:
+Columns = 356
+
+12/02 10:17:27 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 10:17:27 DEBUG:
+Read 98 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 10:17:27 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus maripaludis:
+
+12/02 10:17:27 DEBUG:
+	4 query sequences.
+
+12/02 10:17:27 DEBUG:
+	6 sequences pruned from tree.
+
+12/02 10:17:27 DEBUG:
+	95 leaves in pruned tree.
+
+12/02 10:17:27 DEBUG:
+Building HMM profile... 
+12/02 10:17:28 DEBUG:
+done.
+
+12/02 10:17:28 DEBUG:
+
+
+12/02 10:17:29 DEBUG:
+Columns = 357
+
+12/02 10:17:29 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 10:17:29 DEBUG:
+Read 99 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 10:17:29 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus vannielii:
+
+12/02 10:17:29 DEBUG:
+	1 query sequences.
+
+12/02 10:17:29 DEBUG:
+	4 sequences pruned from tree.
+
+12/02 10:17:29 DEBUG:
+	97 leaves in pruned tree.
+
+12/02 10:17:29 DEBUG:
+Building HMM profile... 
+12/02 10:17:30 DEBUG:
+done.
+
+12/02 10:17:30 DEBUG:
+
+
+12/02 10:17:30 DEBUG:
+Columns = 356
+
+12/02 10:17:30 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 10:17:30 DEBUG:
+Read 98 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 10:17:30 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina acetivorans:
+
+12/02 10:17:30 DEBUG:
+	3 query sequences.
+
+12/02 10:17:30 DEBUG:
+	5 sequences pruned from tree.
+
+12/02 10:17:30 DEBUG:
+	96 leaves in pruned tree.
+
+12/02 10:17:30 DEBUG:
+Building HMM profile... 
+12/02 10:17:31 DEBUG:
+done.
+
+12/02 10:17:31 DEBUG:
+
+
+12/02 10:17:32 DEBUG:
+Columns = 347
+
+12/02 10:17:32 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 10:17:32 DEBUG:
+Read 99 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 10:17:32 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina barkeri:
+
+12/02 10:17:32 DEBUG:
+	2 query sequences.
+
+12/02 10:17:32 DEBUG:
+	5 sequences pruned from tree.
+
+12/02 10:17:32 DEBUG:
+	96 leaves in pruned tree.
+
+12/02 10:17:32 DEBUG:
+Building HMM profile... 
+12/02 10:17:33 DEBUG:
+done.
+
+12/02 10:17:33 DEBUG:
+
+
+12/02 10:17:34 DEBUG:
+Columns = 346
+
+12/02 10:17:34 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 10:17:34 DEBUG:
+Read 98 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 10:17:34 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina mazei:
+
+12/02 10:17:34 DEBUG:
+	2 query sequences.
+
+12/02 10:17:34 DEBUG:
+	5 sequences pruned from tree.
+
+12/02 10:17:34 DEBUG:
+	96 leaves in pruned tree.
+
+12/02 10:17:34 DEBUG:
+Building HMM profile... 
+12/02 10:17:35 DEBUG:
+done.
+
+12/02 10:17:35 DEBUG:
+
+
+12/02 10:17:36 DEBUG:
+Columns = 346
+
+12/02 10:17:36 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 10:17:36 DEBUG:
+Read 98 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 10:17:36 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanotrichaceae; Methanothrix; Methanosaeta harundinacea:
+
+12/02 10:17:36 DEBUG:
+	2 query sequences.
+
+12/02 10:17:36 DEBUG:
+	5 sequences pruned from tree.
+
+12/02 10:17:36 DEBUG:
+	96 leaves in pruned tree.
+
+12/02 10:17:36 DEBUG:
+Building HMM profile... 
+12/02 10:17:37 DEBUG:
+done.
+
+12/02 10:17:37 DEBUG:
+
+
+12/02 10:17:37 DEBUG:
+Columns = 348
+
+12/02 10:17:37 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 10:17:37 DEBUG:
+Read 98 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 10:17:37 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanotrichaceae; Methanothrix; Methanothrix soehngenii:
+
+12/02 10:17:37 DEBUG:
+	1 query sequences.
+
+12/02 10:17:37 DEBUG:
+	4 sequences pruned from tree.
+
+12/02 10:17:37 DEBUG:
+	97 leaves in pruned tree.
+
+12/02 10:17:37 DEBUG:
+Building HMM profile... 
+12/02 10:17:38 DEBUG:
+done.
+
+12/02 10:17:38 DEBUG:
+
+
+12/02 10:17:39 DEBUG:
+Columns = 356
+
+12/02 10:17:39 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 10:17:39 DEBUG:
+Read 98 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 10:17:39 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanotrichaceae; Methanothrix; Methanothrix thermoacetophila:
+
+12/02 10:17:39 DEBUG:
+	1 query sequences.
+
+12/02 10:17:39 DEBUG:
+	4 sequences pruned from tree.
+
+12/02 10:17:39 DEBUG:
+	97 leaves in pruned tree.
+
+12/02 10:17:39 DEBUG:
+Building HMM profile... 
+12/02 10:17:40 DEBUG:
+done.
+
+12/02 10:17:40 DEBUG:
+
+
+12/02 10:17:40 DEBUG:
+Columns = 356
+
+12/02 10:17:40 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 10:17:40 DEBUG:
+Read 98 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 10:17:41 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium carboxidivorans:
+
+12/02 10:17:41 DEBUG:
+	1 query sequences.
+
+12/02 10:17:41 DEBUG:
+	4 sequences pruned from tree.
+
+12/02 10:17:41 DEBUG:
+	97 leaves in pruned tree.
+
+12/02 10:17:41 DEBUG:
+Building HMM profile... 
+12/02 10:17:41 DEBUG:
+done.
+
+12/02 10:17:41 DEBUG:
+
+
+12/02 10:17:42 DEBUG:
+Columns = 356
+
+12/02 10:17:42 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 10:17:42 DEBUG:
+Read 98 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 10:17:42 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium ljungdahlii:
+
+12/02 10:17:42 DEBUG:
+	1 query sequences.
+
+12/02 10:17:42 DEBUG:
+	4 sequences pruned from tree.
+
+12/02 10:17:42 DEBUG:
+	97 leaves in pruned tree.
+
+12/02 10:17:42 DEBUG:
+Building HMM profile... 
+12/02 10:17:43 DEBUG:
+done.
+
+12/02 10:17:43 DEBUG:
+
+
+12/02 10:17:44 DEBUG:
+Columns = 356
+
+12/02 10:17:44 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 10:17:44 DEBUG:
+Read 98 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 10:17:44 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Blautia; Blautia hansenii:
+
+12/02 10:17:44 DEBUG:
+	1 query sequences.
+
+12/02 10:17:44 DEBUG:
+	4 sequences pruned from tree.
+
+12/02 10:17:44 DEBUG:
+	97 leaves in pruned tree.
+
+12/02 10:17:44 DEBUG:
+Building HMM profile... 
+12/02 10:17:45 DEBUG:
+done.
+
+12/02 10:17:45 DEBUG:
+
+
+12/02 10:17:45 DEBUG:
+Columns = 356
+
+12/02 10:17:45 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 10:17:45 DEBUG:
+Read 98 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 10:17:46 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Blautia; Blautia hydrogenotrophica:
+
+12/02 10:17:46 DEBUG:
+	3 query sequences.
+
+12/02 10:17:46 DEBUG:
+	6 sequences pruned from tree.
+
+12/02 10:17:46 DEBUG:
+	95 leaves in pruned tree.
+
+12/02 10:17:46 DEBUG:
+Building HMM profile... 
+12/02 10:17:46 DEBUG:
+done.
+
+12/02 10:17:46 DEBUG:
+
+
+12/02 10:17:47 DEBUG:
+Columns = 356
+
+12/02 10:17:47 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 10:17:47 DEBUG:
+Read 98 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 10:17:47 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Blautia; Blautia obeum:
+
+12/02 10:17:47 DEBUG:
+	2 query sequences.
+
+12/02 10:17:47 DEBUG:
+	5 sequences pruned from tree.
+
+12/02 10:17:47 DEBUG:
+	96 leaves in pruned tree.
+
+12/02 10:17:47 DEBUG:
+Building HMM profile... 
+12/02 10:17:48 DEBUG:
+done.
+
+12/02 10:17:48 DEBUG:
+
+
+12/02 10:17:49 DEBUG:
+Columns = 356
+
+12/02 10:17:49 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 10:17:49 DEBUG:
+Read 98 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 10:17:49 DEBUG:
+Testing placements for Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Spirochaetaceae; Treponema; Treponema azotonutricium:
+
+12/02 10:17:49 DEBUG:
+	1 query sequences.
+
+12/02 10:17:49 DEBUG:
+	4 sequences pruned from tree.
+
+12/02 10:17:49 DEBUG:
+	97 leaves in pruned tree.
+
+12/02 10:17:49 DEBUG:
+Building HMM profile... 
+12/02 10:17:50 DEBUG:
+done.
+
+12/02 10:17:50 DEBUG:
+
+
+12/02 10:17:50 DEBUG:
+Columns = 356
+
+12/02 10:17:50 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 10:17:50 DEBUG:
+Read 98 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 10:17:50 DEBUG:
+Testing placements for Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Spirochaetaceae; Treponema; Treponema primitia:
+
+12/02 10:17:50 DEBUG:
+	1 query sequences.
+
+12/02 10:17:50 DEBUG:
+	4 sequences pruned from tree.
+
+12/02 10:17:50 DEBUG:
+	97 leaves in pruned tree.
+
+12/02 10:17:50 DEBUG:
+Building HMM profile... 
+12/02 10:17:51 DEBUG:
+done.
+
+12/02 10:17:51 DEBUG:
+
+
+12/02 10:17:52 DEBUG:
+Columns = 356
+
+12/02 10:17:52 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 10:17:52 DEBUG:
+Read 98 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 10:17:52 DEBUG:
+RANK: Species
+	Samples = 43
+	Median = 0.1533
+	Mean = 0.2162
+
+12/02 10:17:52 DEBUG:
+0 lineages truncated before Class were removed during lineage trimming.
+0 lineages unclassified at or before Class also removed.
+
+12/02 10:17:52 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Archaeoglobi:
+
+12/02 10:17:52 DEBUG:
+	4 query sequences.
+
+12/02 10:17:52 DEBUG:
+	4 sequences pruned from tree.
+
+12/02 10:17:52 DEBUG:
+	97 leaves in pruned tree.
+
+12/02 10:17:52 DEBUG:
+Building HMM profile... 
+12/02 10:17:53 DEBUG:
+done.
+
+12/02 10:17:53 DEBUG:
+
+
+12/02 10:17:53 DEBUG:
+Columns = 351
+
+12/02 10:17:53 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 10:17:53 DEBUG:
+Read 101 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 10:17:54 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanobacteria:
+
+12/02 10:17:54 DEBUG:
+	7 query sequences.
+
+12/02 10:17:54 DEBUG:
+	7 sequences pruned from tree.
+
+12/02 10:17:54 DEBUG:
+	94 leaves in pruned tree.
+
+12/02 10:17:54 DEBUG:
+Building HMM profile... 
+12/02 10:17:55 DEBUG:
+done.
+
+12/02 10:17:55 DEBUG:
+
+
+12/02 10:17:56 DEBUG:
+Columns = 355
+
+12/02 10:17:56 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 10:17:56 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 10:17:56 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanococci:
+
+12/02 10:17:56 DEBUG:
+	21 query sequences.
+
+12/02 10:17:56 DEBUG:
+	19 sequences pruned from tree.
+
+12/02 10:17:56 DEBUG:
+	82 leaves in pruned tree.
+
+12/02 10:17:56 DEBUG:
+Building HMM profile... 
+12/02 10:17:57 DEBUG:
+done.
+
+12/02 10:17:57 DEBUG:
+
+
+12/02 10:17:58 DEBUG:
+Columns = 354
+
+12/02 10:17:58 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 10:17:58 DEBUG:
+Read 103 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 10:17:58 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanomicrobia:
+
+12/02 10:17:58 DEBUG:
+	20 query sequences.
+
+12/02 10:17:58 DEBUG:
+	19 sequences pruned from tree.
+
+12/02 10:17:58 DEBUG:
+	82 leaves in pruned tree.
+
+12/02 10:17:58 DEBUG:
+Building HMM profile... 
+12/02 10:17:59 DEBUG:
+done.
+
+12/02 10:18:00 DEBUG:
+
+
+12/02 10:18:00 DEBUG:
+Columns = 341
+
+12/02 10:18:00 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 10:18:00 DEBUG:
+Read 102 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 10:18:00 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanopyri:
+
+12/02 10:18:00 DEBUG:
+	2 query sequences.
+
+12/02 10:18:00 DEBUG:
+	2 sequences pruned from tree.
+
+12/02 10:18:00 DEBUG:
+	99 leaves in pruned tree.
+
+12/02 10:18:01 DEBUG:
+Building HMM profile... 
+12/02 10:18:01 DEBUG:
+done.
+
+12/02 10:18:01 DEBUG:
+
+
+12/02 10:18:02 DEBUG:
+Columns = 353
+
+12/02 10:18:02 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 10:18:02 DEBUG:
+Read 101 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 10:18:02 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia:
+
+12/02 10:18:02 DEBUG:
+	30 query sequences.
+
+12/02 10:18:02 DEBUG:
+	33 sequences pruned from tree.
+
+12/02 10:18:02 DEBUG:
+	68 leaves in pruned tree.
+
+12/02 10:18:02 DEBUG:
+Building HMM profile... 
+12/02 10:18:03 DEBUG:
+done.
+
+12/02 10:18:04 DEBUG:
+
+
+12/02 10:18:04 DEBUG:
+Columns = 355
+
+12/02 10:18:04 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 10:18:04 DEBUG:
+Read 98 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 10:18:05 DEBUG:
+Testing placements for Bacteria; Firmicutes; Negativicutes:
+
+12/02 10:18:05 DEBUG:
+	1 query sequences.
+
+12/02 10:18:05 DEBUG:
+	1 sequences pruned from tree.
+
+12/02 10:18:05 DEBUG:
+	100 leaves in pruned tree.
+
+12/02 10:18:05 DEBUG:
+Building HMM profile... 
+12/02 10:18:05 DEBUG:
+done.
+
+12/02 10:18:05 DEBUG:
+
+
+12/02 10:18:06 DEBUG:
+Columns = 349
+
+12/02 10:18:06 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 10:18:06 DEBUG:
+Read 101 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 10:18:06 DEBUG:
+RANK: Class
+	Samples = 84
+	Median = 0.7823
+	Mean = 0.9453
+
+12/02 10:18:06 INFO:
+Placement distance regression model complete.
+
+12/02 10:18:06 DEBUG:
+Read 101 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/final_outputs/CdhA.fa.
+
+12/02 10:18:06 INFO:
+
+To integrate this package for use in TreeSAPP the following steps must be performed:
+1. Write a properly formatted reference package 'code' in /home/connor/Bioinformatics/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp/data/ref_build_parameters.tsv
+2. $ cp /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/final_outputs/tax_ids_CdhA.txt /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/final_outputs/CdhA_tree.txt /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/final_outputs/CdhA_bestModel.txt /home/connor/Bioinformatics/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp/data/tree_data/
+3. $ cp /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/final_outputs/CdhA.hmm /home/connor/Bioinformatics/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp/data/hmm_data/
+4. $ cp /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Methanogenesis/CdhA/seed_refpkg/final_outputs/CdhA.fa /home/connor/Bioinformatics/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp/data/alignment_data/
+
+12/02 10:18:06 INFO:
+Data for CdhA has been generated successfully.
+
+12/02 10:18:06 INFO:
+TreeSAPP has finished successfully.
+

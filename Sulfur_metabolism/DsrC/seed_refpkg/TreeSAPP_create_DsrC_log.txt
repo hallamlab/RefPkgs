@@ -1,0 +1,5760 @@
+12/02 14:27:39 INFO:
+
+##			Creating TreeSAPP reference package			##
+
+12/02 14:27:39 INFO:
+Arguments used:
+-i Sulfur_metabolism/DsrC/COG2920_PF04358_seed.faa -o Sulfur_metabolism/DsrC/seed_refpkg -c DsrC -p 0.95 --trim_align --overwrite -n 2 -b 0 --fast --screen Bacteria,Archaea --headless -t c -m prot --cluster
+
+12/02 14:27:39 DEBUG:
+Continuing with stage 'lineages'
+
+12/02 14:27:39 DEBUG:
+Read 524 headers from Sulfur_metabolism/DsrC/COG2920_PF04358_seed.faa.
+
+12/02 14:27:39 INFO:
+Sequence summary:
+	Number of sequences: 524
+	Longest sequence length: 573
+	Shortest sequence length: 79
+	Mean sequence length: 112.3
+	Median sequence length: 109.0
+
+12/02 14:27:39 INFO:
+Extracting information from headers... 
+12/02 14:27:39 INFO:
+done.
+
+12/02 14:27:39 DEBUG:
+	Number of input sequences =	524
+
+12/02 14:27:39 DEBUG:
+	Number of queries =	524
+
+12/02 14:27:39 INFO:
+Preparing Bio.Entrez for NCBI queries... 
+12/02 14:27:40 INFO:
+done.
+
+12/02 14:27:40 INFO:
+Retrieving Entrez taxonomy records for each accession... 
+12/02 14:27:54 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 100	0.0:8.86
+	100 - 200	0.0:5.3
+
+12/02 14:27:54 INFO:
+done.
+
+12/02 14:27:54 DEBUG:
+31 unique organism queries.
+
+12/02 14:27:54 INFO:
+Retrieving NCBI taxonomy IDs for each organism... 
+12/02 14:28:14 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 1	0.0:0.66
+	1 - 2	0.0:0.66
+	2 - 3	0.0:0.66
+	3 - 4	0.0:0.66
+	4 - 5	0.0:0.66
+	5 - 6	0.0:0.66
+	6 - 7	0.0:0.66
+	7 - 8	0.0:0.66
+	8 - 9	0.0:0.66
+	9 - 10	0.0:0.66
+	10 - 11	0.0:0.66
+	11 - 12	0.0:0.66
+	12 - 13	0.0:0.66
+	13 - 14	0.0:0.66
+	14 - 15	0.0:0.66
+	15 - 16	0.0:0.66
+	16 - 17	0.0:0.66
+	17 - 18	0.0:0.66
+	18 - 19	0.0:0.66
+	19 - 20	0.0:0.66
+	20 - 21	0.0:0.66
+	21 - 22	0.0:0.66
+	22 - 23	0.0:0.66
+	23 - 24	0.0:0.66
+	24 - 25	0.0:0.66
+	25 - 26	0.0:0.66
+	26 - 27	0.0:0.66
+	27 - 28	0.0:0.66
+	28 - 29	0.0:0.66
+	29 - 30	0.0:0.66
+	30 - 31	0.0:0.66
+
+12/02 14:28:14 INFO:
+done.
+
+12/02 14:28:14 INFO:
+Preparing Bio.Entrez for NCBI queries... 
+12/02 14:28:15 INFO:
+done.
+
+12/02 14:28:15 INFO:
+Retrieving lineage information for each taxonomy ID... 
+12/02 14:28:18 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 100	0.0:0.89
+	100 - 200	0.0:0.91
+	200 - 300	0.0:0.84
+	300 - 400	0.0:0.8
+
+12/02 14:28:18 INFO:
+done.
+
+12/02 14:28:18 DEBUG:
+Queries mapped ideally = 410
+Queries with organism unmapped = 0
+Queries with NCBI taxonomy ID unmapped = 114
+Queries mapped with alternative accessions = 0
+Queries that outright failed = 0
+
+12/02 14:28:18 WARNING:
+Entrez did not return a record for every accession queried.
+Don't worry, though. We'll figure out which ones are missing.
+
+12/02 14:28:18 DEBUG:
+Entrez.efetch query stats:
+	Downloaded	491
+	Provided	0
+	Total		524
+
+
+12/02 14:28:18 DEBUG:
+	3 sequences removed after failing screen.
+	0 sequences removed after failing filter.
+	521 sequences retained.
+
+12/02 14:28:18 DEBUG:
+	0 sequences removed with truncated taxonomic lineages.
+	521 sequences retained for building tree.
+
+12/02 14:28:18 INFO:
+Clustering sequences with UCLUST... 
+12/02 14:28:18 INFO:
+done.
+
+12/02 14:28:18 DEBUG:
+usearch v9.2.64_i86linux32, 4.0Gb RAM (16.4Gb total), 4 cores
+(C) Copyright 2013-16 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: c.morganlang@gmail.com
+
+00:00 37Mb      0.1% Reading Sulfur_metabolism/DsrC/seed_refpkg/intermediates/COG2920_PF04358_seed_uclust_input.fasta00:00 40Mb    100.0% Reading Sulfur_metabolism/DsrC/seed_refpkg/intermediates/COG2920_PF04358_seed_uclust_input.fasta
+00:00 32Mb      0.8% DF                                                                                              00:00 35Mb    100.0% DF
+00:00 35Mb   521 seqs, 403 uniques, 302 singletons (74.9%)
+00:00 35Mb   Min size 1, median 1, max 5, avg 1.29
+00:00 38Mb      0.2% DB00:00 38Mb    100.0% DB
+00:00 38Mb   Sort length... done.
+00:00 77Mb      0.2% Clustering00:00 77Mb      0.2% 0 clusters, max size 0, avg 0.000:00 90Mb    100.0% 353 clusters, max size 11, avg 1.5
+00:00 90Mb      0.3% Writing centroids to Sulfur_metabolism/DsrC/seed_refpkg/intermediates/COG2920_PF04358_seed_uclust0.95.fa00:00 90Mb    100.0% Writing centroids to Sulfur_metabolism/DsrC/seed_refpkg/intermediates/COG2920_PF04358_seed_uclust0.95.fa
+                                                                                                                             
+      Seqs  403
+  Clusters  353
+  Max size  11
+  Avg size  1.5
+  Min size  1
+Singletons  232, 57.6% of seqs, 65.7% of clusters
+   Max mem  90Mb
+      Time  1.00s
+Throughput  403.0 seqs/sec.
+
+
+12/02 14:28:18 DEBUG:
+Reading usearch cluster file... 
+12/02 14:28:18 DEBUG:
+done.
+
+12/02 14:28:18 DEBUG:
+	353 sequence clusters
+
+12/02 14:28:18 DEBUG:
+Finalizing representative sequence clusters... 
+12/02 14:28:18 DEBUG:
+done.
+
+12/02 14:28:18 DEBUG:
+Re-enumerating the reference sequences in taxonomic order... 
+12/02 14:28:18 DEBUG:
+done.
+
+12/02 14:28:18 INFO:
+Detecting outlier reference sequences... 
+12/02 14:28:27 INFO:
+done.
+
+12/02 14:28:27 DEBUG:
+2 outlier sequences detected and discarded.
+	WP_013188796
+	585198.HMPREF0574
+
+12/02 14:28:27 DEBUG:
+Re-enumerating the reference sequences in taxonomic order... 
+12/02 14:28:27 DEBUG:
+done.
+
+12/02 14:28:27 INFO:
+Generated the taxonomic lineage map Sulfur_metabolism/DsrC/seed_refpkg/final_outputs/tax_ids_DsrC.txt
+
+12/02 14:28:27 INFO:
+Number of unique lineages:
+	Kingdoms   2
+	Phyla     14
+	Classes   21
+	Orders    47
+	Families  79
+	Genera   161
+	Species  265
+Unclassified lineages account for 53/351 (15.1%) references.
+
+12/02 14:28:27 INFO:
+Aligning the sequences using MAFFT... 
+12/02 14:28:32 INFO:
+done.
+
+12/02 14:28:32 DEBUG:
+Reference alignment contains 351 sequences with 435 character positions.
+
+12/02 14:28:32 DEBUG:
+Building HMM profile... 
+12/02 14:28:32 DEBUG:
+done.
+
+12/02 14:28:32 INFO:
+Running BMGE... 
+12/02 14:28:32 DEBUG:
+STAGE: Multiple alignment trimming with BMGE
+	COMMAND:
+java -Xmx512m -jar /home/connor/Bioinformatics/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp/sub_binaries/BMGE.jar -t AA -m BLOSUM30 -g 0.99:0.33 -i Sulfur_metabolism/DsrC/seed_refpkg/final_outputs/DsrC.fa -of Sulfur_metabolism/DsrC/seed_refpkg/final_outputs/DsrC-BMGE.fasta
+
+12/02 14:28:32 INFO:
+done.
+
+12/02 14:28:32 DEBUG:
+	BMGE time required: 0.0:0.0:0.3
+
+12/02 14:28:32 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/final_outputs/DsrC-BMGE.fasta = 0 (retained)
+
+12/02 14:28:32 INFO:
+Building phylogenetic tree with FastTree... 
+12/02 14:28:40 INFO:
+done.
+
+12/02 14:28:40 DEBUG:
+FastTree Version 2.1.10 Double precision (No SSE3)
+Alignment: Sulfur_metabolism/DsrC/seed_refpkg/intermediates/DsrC.phy
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Le-Gascuel 2008, CAT approximation with 20 rate categories
+Initial topology in 0.08 seconds
+Refining topology: 34 rounds ME-NNIs, 2 rounds ME-SPRs, 17 rounds ML-NNIs
+      0.12 seconds: SPR round   1 of   2, 101 of 700 nodes
+      0.24 seconds: SPR round   1 of   2, 501 of 700 nodes
+      0.35 seconds: SPR round   2 of   2, 101 of 700 nodes
+      0.47 seconds: SPR round   2 of   2, 501 of 700 nodes
+Total branch-length 56.255 after 0.56 sec
+      0.62 seconds: ML Lengths 101 of 349 splits
+      0.74 seconds: ML Lengths 301 of 349 splits
+      1.01 seconds: ML NNI round 1 of 17, 101 of 349 splits, 17 changes (max delta 3.319)
+      1.26 seconds: ML NNI round 1 of 17, 201 of 349 splits, 43 changes (max delta 6.199)
+      1.51 seconds: ML NNI round 1 of 17, 301 of 349 splits, 57 changes (max delta 6.199)
+ML-NNI round 1: LogLk = -28291.247 NNIs 67 max delta 6.20 Time 1.64
+      1.65 seconds: Site likelihoods with rate category 1 of 20
+      1.77 seconds: Site likelihoods with rate category 7 of 20
+      1.89 seconds: Site likelihoods with rate category 13 of 20
+      1.99 seconds: Site likelihoods with rate category 18 of 20
+Switched to using 20 rate categories (CAT approximation)
+Rate categories were divided by 1.085 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+Use -gamma for approximate but comparable Gamma(20) log-likelihoods
+      2.40 seconds: ML NNI round 2 of 17, 101 of 349 splits, 12 changes (max delta 6.162)
+      2.67 seconds: ML NNI round 2 of 17, 201 of 349 splits, 21 changes (max delta 6.162)
+      3.03 seconds: ML NNI round 2 of 17, 301 of 349 splits, 37 changes (max delta 6.162)
+ML-NNI round 2: LogLk = -26543.967 NNIs 46 max delta 6.16 Time 3.20
+      3.20 seconds: ML NNI round 3 of 17, 1 of 349 splits
+      3.51 seconds: ML NNI round 3 of 17, 101 of 349 splits, 5 changes (max delta 1.885)
+      3.81 seconds: ML NNI round 3 of 17, 201 of 349 splits, 16 changes (max delta 3.185)
+ML-NNI round 3: LogLk = -26515.650 NNIs 22 max delta 3.19 Time 4.08
+      4.07 seconds: ML NNI round 4 of 17, 1 of 349 splits
+      4.40 seconds: ML NNI round 4 of 17, 101 of 349 splits, 7 changes (max delta 0.906)
+ML-NNI round 4: LogLk = -26508.265 NNIs 11 max delta 0.91 Time 4.65
+      4.65 seconds: ML NNI round 5 of 17, 1 of 349 splits
+      4.94 seconds: ML NNI round 5 of 17, 101 of 349 splits, 4 changes (max delta 0.742)
+ML-NNI round 5: LogLk = -26506.121 NNIs 4 max delta 0.74 Time 5.00
+ML-NNI round 6: LogLk = -26502.693 NNIs 1 max delta 3.26 Time 5.22
+      5.22 seconds: ML NNI round 7 of 17, 1 of 349 splits
+ML-NNI round 7: LogLk = -26502.667 NNIs 0 max delta 0.00 Time 5.33
+Turning off heuristics for final round of ML NNIs (converged)
+      5.33 seconds: ML NNI round 8 of 17, 1 of 349 splits
+      5.74 seconds: ML NNI round 8 of 17, 101 of 349 splits, 0 changes
+      6.15 seconds: ML NNI round 8 of 17, 201 of 349 splits, 3 changes (max delta 0.213)
+      6.57 seconds: ML NNI round 8 of 17, 301 of 349 splits, 3 changes (max delta 0.213)
+ML-NNI round 8: LogLk = -26491.681 NNIs 3 max delta 0.21 Time 6.77 (final)
+      6.77 seconds: ML Lengths 1 of 349 splits
+      6.95 seconds: ML Lengths 201 of 349 splits
+Optimize all lengths: LogLk = -26491.292 Time 7.09
+      7.42 seconds: ML split tests for    100 of    348 internal splits
+      7.73 seconds: ML split tests for    200 of    348 internal splits
+      8.05 seconds: ML split tests for    300 of    348 internal splits
+Total time: 8.20 seconds Unique: 351/351 Bad splits: 0/348
+
+
+12/02 14:28:40 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+12/02 14:28:41 DEBUG:
+done.
+
+12/02 14:28:41 DEBUG:
+Unable to remove /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Sulfur_metabolism/DsrC/seed_refpkg/intermediates/phylogeny_files/DsrC.raxml.reduced.phy as it doesn't exist.
+
+12/02 14:28:41 DEBUG:
+Lowest reliable rank for taxonomic classification is: Kingdoms
+
+12/02 14:28:41 INFO:
+
+##			Train taxonomic rank-placement distance model			##
+
+12/02 14:28:41 INFO:
+Arguments used:
+-i Sulfur_metabolism/DsrC/seed_refpkg/intermediates/COG2920_PF04358_seed_filtered.fa -c DsrC -p Sulfur_metabolism/DsrC/seed_refpkg/final_outputs/ -o Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/ -m prot -a Sulfur_metabolism/DsrC/seed_refpkg/intermediates//accession_id_lineage_map.tsv -n 2 --trim_align
+
+12/02 14:28:41 DEBUG:
+Reading build parameters of reference markers... 
+12/02 14:28:41 DEBUG:
+done.
+
+12/02 14:28:41 DEBUG:
+Skipped the following lines:
+	#hzs
+	#hzao
+	#nirA
+	#MtrA
+	#MtrC
+	#MtrH
+	#CO_dh
+	#RBsCO
+	#OGFOxy
+	#CitSyn
+	#GH36
+	#GH31
+	#GH109
+	#GH115
+	#nirK	D0301	prot	PROTGAMMALG	functional	0.97	120	RAxML	-11.3207,6.9484	Orders	07_Dec_2018	nitrite reductase (NO-forming)
+	#RecA	P0001	prot	PROTGAMMALG	taxonomic	0.80	1110	RAxML	-5.4758,6.3838	Classes	12_Dec_2018
+	#McrA	M0701	prot	PROTGAMMALG	functional	0.97	211	FastTree	-4.08046639871,6.03601100802	Classes	04_Dec_2018
+	#McrB	M0702	prot	PROTGAMMALG	functional	0.97	157	FastTree	-4.82025271473,6.52717228329	Classes	04_Dec_2018
+	#McrG	M0705	prot	PROTGAMMALG	functional	0.97	155	FastTree	-5.23147387413,6.5926235222	Genera	04_Dec_2018
+	#napA	D0201	prot	PROTGAMMALG	functional	0.90	332	FastTree	-7.03985324603,6.60314540283	Classes	04_Dec_2018
+	#nifD	N0401	prot	PROTGAMMALG	functional	0.90	402	FastTree	-7.72039669919,6.16543737552	Orders	04_Dec_2018
+	#nifH	N0402	prot	PROTGAMMALG	functional	0.95	301	FastTree	-6.48773434909,6.41218539511	Phyla	04_Dec_2018
+	#nirK	D0301	prot	PROTGAMMALG	functional	0.97	120	FastTree	-11.8842768413,6.77906128214	Orders	04_Dec_2018
+	#nirS	D0302	prot	PROTGAMMALG	functional	0.97	184	FastTree	-5.49173161577,6.23728973299	Classes	04_Dec_2018
+	#norB	D0501	prot	PROTGAMMALG	functional	0.80	329	FastTree	-7.6070183552,6.48567258868	Orders	04_Dec_2018
+	#norC	D0502	prot	PROTGAMMALG	functional	0.90	223	FastTree	-6.61551453189,6.60317398186	Classes	04_Dec_2018
+	#norC	D0502	prot	PROTGAMMALG	functional	0.90	223	RAxML	-5.3221,6.3809	Classes	08_Dec_2018	nitric oxide reductase subunit C
+	#p_amoA	N0102	prot	PROTGAMMALG	functional	0.97	80	FastTree	-2.83232814805,5.67790899421	Families	04_Dec_2018
+	#nosZ	D0601	prot	PROTGAMMALG	functional	0.95	449	FastTree	-6.1988,6.095	Phyla	13_Mar_2019
+	#McrA	M0701	prot	PROTGAMMALG	functional	0.97	228	RAxML	-5.3509,7.0	Classes	29_Apr_2019	Methyl coenzyme M reductase alpha subunit
+
+12/02 14:28:41 DEBUG:
+Read 351 headers from Sulfur_metabolism/DsrC/seed_refpkg/final_outputs/DsrC.fa.
+
+12/02 14:28:41 DEBUG:
+Unable to open stage file '' for reading. Defaulting to stage 2.
+
+12/02 14:28:41 DEBUG:
+Continuing with stage 'place'
+
+12/02 14:28:41 DEBUG:
+Read 521 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/COG2920_PF04358_seed_filtered.fa.
+
+12/02 14:28:41 INFO:
+Extracting information from headers... 
+12/02 14:28:41 INFO:
+done.
+
+12/02 14:28:41 DEBUG:
+	Number of input sequences =	521
+
+12/02 14:28:41 INFO:
+Reading cached lineages in 'Sulfur_metabolism/DsrC/seed_refpkg/intermediates//accession_id_lineage_map.tsv'... 
+12/02 14:28:41 INFO:
+done.
+
+12/02 14:28:41 DEBUG:
+Read 521 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/COG2920_PF04358_seed_filtered.fa.
+
+12/02 14:28:41 DEBUG:
+Checking for redundant sequences with duplicate accessions.
+
+12/02 14:28:41 DEBUG:
+Removed 33 sequences with duplicate accessions:
+	34
+	100
+	99
+	98
+	97
+	96
+	95
+	158
+	168
+	167
+	166
+	182
+	181
+	185
+	184
+	193
+	205
+	223
+	232
+	250
+	249
+	248
+	264
+	263
+	270
+	269
+	268
+	267
+	317
+	316
+	337
+	341
+	340
+
+12/02 14:28:41 DEBUG:
+Checking for redundant FASTA records with duplicate sequences... 
+12/02 14:28:41 DEBUG:
+done.
+
+12/02 14:28:41 DEBUG:
+Removed 105 sequences with duplicate sequences.
+
+12/02 14:28:41 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	WP_012969276.1 TusE/DsrC/DsvC family sulfur relay protein [Allochromatium vinosum]
+	WP_010960615.1 TusE/DsrC/DsvC family sulfur relay protein [Methylococcus capsulatus]
+	WP_011521442.1 TusE/DsrC/DsvC family sulfur relay protein [Candidatus Koribacter versatilis]
+	WP_011706490.1 MULTISPECIES: TusE/DsrC/DsvC family sulfur relay protein [Aeromonas]
+	WP_011459007.1 TusE/DsrC/DsvC family sulfur relay protein [Desulfitobacterium hafniense]
+	WP_012303252.1 TusE/DsrC/DsvC family sulfur relay protein [Candidatus Desulforudis audaxviator]
+	WP_013261659.1 TusE/DsrC/DsvC family sulfur relay protein [gamma proteobacterium HdN1]
+	WP_013784154.1 TusE/DsrC/DsvC family sulfur relay protein [Alteromonas naphthalenivorans]
+	362663.ECP_0975
+	WP_011608483.1 TusE/DsrC/DsvC family sulfur relay protein [Histophilus somni]
+	WP_014292835.1 TusE/DsrC/DsvC family sulfur relay protein [Oceanimonas sp. GK1]
+	WP_010932532.1 TusE/DsrC/DsvC family sulfur relay protein [Chlorobaculum tepidum]
+	444157.Tneu_0347
+	WP_012475252.1 TusE/DsrC/DsvC family sulfur relay protein [Chlorobium phaeobacteroides]
+	WP_013493096.1 TusE/DsrC/DsvC family sulfur relay protein [Intrasporangium calvum]
+	WP_012504631.1 MULTISPECIES: TusE/DsrC/DsvC family sulfur relay protein [Prosthecochloris]
+	WP_005223277.1 MULTISPECIES: TusE/DsrC/DsvC family sulfur relay protein [Marichromatium]
+	WP_012941106.1 TusE/DsrC/DsvC family sulfur relay protein [Archaeoglobus profundus]
+	WP_004244693.1 MULTISPECIES: sulfurtransferase TusE [Proteus]
+	WP_013418278.1 MULTISPECIES: TusE/DsrC/DsvC family sulfur relay protein [Rhodomicrobium]
+	NP_717969.1 tRNA 2-thiouridine synthesizing protein sulfur mediator TusE [Shewanella oneidensis MR-1]
+	WP_011311877.1 TusE/DsrC/DsvC family sulfur relay protein [Thiobacillus denitrificans]
+	WP_006250062.1 TusE/DsrC/DsvC family sulfur relay protein [Mannheimia haemolytica]
+	316407.4062536
+	469008.ECD_00973
+	WP_013087664.1 TusE/DsrC/DsvC family sulfur relay protein [Candidatus Riesia pediculicola]
+	WP_013561137.1 TusE/DsrC/DsvC family sulfur relay protein [Anaerolinea thermophila]
+	WP_013661951.1 TusE/DsrC/DsvC family sulfur relay protein [Marinomonas mediterranea]
+	WP_014126343.1 TusE/DsrC/DsvC family sulfur relay protein [Thermoproteus tenax]
+	WP_012546467.1 MULTISPECIES: TusE/DsrC/DsvC family sulfur relay protein [Thermodesulfovibrio]
+	WP_013907513.1 MULTISPECIES: TusE/DsrC/DsvC family sulfur relay protein [Thermodesulfatator]
+	WP_012813492.1 TusE/DsrC/DsvC family sulfur relay protein [Desulfofarcimen acetoxidans]
+	WP_011385732.1 MULTISPECIES: TusE/DsrC/DsvC family sulfur relay protein [Magnetospirillum]
+	NP_793124.1 hypothetical protein PSPTO_3341 [[Pseudomonas syringae] pv. tomato str. DC3000]
+	WP_011905508.1 TusE/DsrC/DsvC family sulfur relay protein [Salinispora tropica]
+	WP_004927084.1 TusE/DsrC/DsvC family sulfur relay protein [Acinetobacter baylyi]
+	WP_012636952.1 TusE/DsrC/DsvC family sulfur relay protein [Thioalkalivibrio sulfidiphilus]
+	WP_011126687.1 TusE/DsrC/DsvC family sulfur relay protein [Candidatus Blochmannia floridanus]
+	NP_663123.1 sulfite reductase, dissimilatory-type subunit gamma [Chlorobaculum tepidum TLS]
+	NP_661745.1 sulfite reductase, dissimilatory-type subunit gamma [Chlorobaculum tepidum TLS]
+	674977.VMC_42080
+	WP_011280493.1 TusE/DsrC/DsvC family sulfur relay protein [Psychrobacter arcticus]
+	WP_010616552.1 MULTISPECIES: sulfurtransferase TusE [Pantoea]
+	WP_011526984.1 TusE/DsrC/DsvC family sulfur relay protein [Lawsonia intracellularis]
+	WP_011735441.1 TusE/DsrC/DsvC family sulfur relay protein [Pelobacter propionicus]
+	WP_015696703.1 sulfurtransferase TusE [Rahnella aquatilis]
+	WP_013818491.1 TusE/DsrC/DsvC family sulfur relay protein [Methylomonas methanica]
+	511145.b0969
+	WP_011711751.1 TusE/DsrC/DsvC family sulfur relay protein [Magnetococcus marinus]
+	416269.APL_0273
+	WP_015904072.1 TusE/DsrC/DsvC family sulfur relay protein [Desulfobacterium autotrophicum]
+	316385.ECDH10B_1039
+	WP_012185910.1 TusE/DsrC/DsvC family sulfur relay protein [Caldivirga maquilingensis]
+	WP_003240638.1 MULTISPECIES: TusE/DsrC/DsvC family sulfur relay protein [Pseudomonas]
+	481805.EcolC_2627
+	YP_204884.1 sulfur transfer protein TusE [Aliivibrio fischeri ES114]
+	WP_005721637.1 TusE/DsrC/DsvC family sulfur relay protein [Pasteurella multocida]
+	WP_013051566.1 TusE/DsrC/DsvC family sulfur relay protein [Shewanella violacea]
+	99287.STM1084
+	WP_011756473.1 MULTISPECIES: TusE/DsrC/DsvC family sulfur relay protein [unclassified Nocardioides]
+	YP_857184.1 dissimilatory sulfite reductase subunit gamma [Aeromonas hydrophila subsp. hydrophila ATCC 7966]
+	YP_002247857.1 dissimilatory-type sulfite reductase subuit gamma [Thermodesulfovibrio yellowstonii DSM 11347]
+	WP_011637266.1 TusE/DsrC/DsvC family sulfur relay protein [Shewanella frigidimarina]
+	WP_014108779.1 TusE/DsrC/DsvC family sulfur relay protein [Glaciecola nitratireducens]
+	NP_231000.1 sulfite reductase subunit gamma-like protein [Vibrio cholerae O1 biovar El Tor str. N16961]
+	WP_013258806.1 TusE/DsrC/DsvC family sulfur relay protein [Desulfarculus baarsii]
+	YP_169495.1 anaerobic sulfite reductase subunit [Francisella tularensis subsp. tularensis SCHU S4]
+	WP_013164234.1 TusE/DsrC/DsvC family sulfur relay protein [Desulfurivibrio alkaliphilus]
+	WP_005767383.1 MULTISPECIES: TusE/DsrC/DsvC family sulfur relay protein [Pseudomonas syringae group]
+	WP_013975739.1 TusE/DsrC/DsvC family sulfur relay protein [Candidatus Moranella endobia]
+	WP_011393134.1 TusE/DsrC/DsvC family sulfur relay protein [Moorella thermoacetica]
+	WP_012729434.1 TusE/DsrC/DsvC family sulfur relay protein [Tolumonas auensis]
+	WP_003542676.1 TusE/DsrC/DsvC family sulfur relay protein [Desulfotomaculum nigrificans]
+	WP_012987337.1 sulfurtransferase TusE [Xenorhabdus bovienii]
+	WP_012070927.1 TusE/DsrC/DsvC family sulfur relay protein [Marinomonas sp. MWYL1]
+	WP_013345333.1 TusE/DsrC/DsvC family sulfur relay protein [Ferrimonas balearica]
+	WP_011700824.1 TusE/DsrC/DsvC family sulfur relay protein [Syntrophobacter fumaroxidans]
+	194439.CT2250
+	WP_012814256.1 TusE/DsrC/DsvC family sulfur relay protein [Nakamurella multipartita]
+	345073.VC395_1475
+	WP_003020235.1 MULTISPECIES: TusE/DsrC/DsvC family sulfur relay protein [Francisella]
+	WP_011072361.1 TusE/DsrC/DsvC family sulfur relay protein [Shewanella oneidensis]
+	WP_000895407.1 MULTISPECIES: TusE/DsrC/DsvC family sulfur relay protein [Vibrio]
+	WP_013756706.1 MULTISPECIES: TusE/DsrC/DsvC family sulfur relay protein [Thermodesulfobium]
+	YP_430477.1 DsrC-like protein [Moorella thermoacetica ATCC 39073]
+	WP_005808391.1 MULTISPECIES: TusE/DsrC/DsvC family sulfur relay protein [Desulfitobacterium]
+	WP_010954804.1 MULTISPECIES: TusE/DsrC/DsvC family sulfur relay protein [Pseudomonas]
+	WP_012173892.1 TusE/DsrC/DsvC family sulfur relay protein [Desulfococcus oleovorans]
+	WP_011496246.1 TusE/DsrC/DsvC family sulfur relay protein [Shewanella denitrificans]
+	WP_011507220.1 TusE/DsrC/DsvC family sulfur relay protein [Chromohalobacter salexigens]
+	WP_015870759.1 sulfurtransferase TusE [Edwardsiella ictaluri]
+	WP_011345272.1 MULTISPECIES: TusE/DsrC/DsvC family sulfur relay protein [Carboxydothermus]
+	575584.HMPREF0010_00329
+	WP_013745113.1 TusE/DsrC/DsvC family sulfur relay protein [Gallibacterium anatis]
+	WP_011043160.1 TusE/DsrC/DsvC family sulfur relay protein [Colwellia psychrerythraea]
+	WP_012499202.1 TusE/DsrC/DsvC family sulfur relay protein [Chloroherpeton thalassium]
+	WP_011396415.1 TusE/DsrC/DsvC family sulfur relay protein [Hahella chejuensis]
+	345073.VC0395_A0970
+	WP_011328365.1 MULTISPECIES: TusE/DsrC/DsvC family sulfur relay protein [Pseudoalteromonas]
+	NP_746126.1 sulfur transfer protein [Pseudomonas putida KT2440]
+	WP_011233915.1 MULTISPECIES: TusE/DsrC/DsvC family sulfur relay protein [Idiomarina]
+	WP_013684347.1 TusE/DsrC/DsvC family sulfur relay protein [Archaeoglobus veneficus]
+	WP_005419649.1 TusE/DsrC/DsvC family sulfur relay protein [Aliivibrio fischeri]
+	WP_011744037.1 TusE/DsrC/DsvC family sulfur relay protein [Chlorobium phaeobacteroides]
+	WP_012818192.1 MULTISPECIES: TusE/DsrC/DsvC family sulfur relay protein [Ammonifex]
+
+12/02 14:28:41 DEBUG:
+0 lineages truncated before Kingdom were removed during lineage trimming.
+0 lineages unclassified at or before Kingdom also removed.
+
+12/02 14:28:41 WARNING:
+105 sequences were not mapped to FASTA dictionary.
+
+12/02 14:28:41 DEBUG:
+Headers that were not mapped to FASTA dictionary:
+	194439.CT2250
+	316385.ECDH10B
+	316407
+	345073.VC0395
+	345073.VC395
+	362663.ECP
+	416269.APL
+	444157.Tneu
+	469008.ECD
+	481805.EcolC
+	511145.b0969
+	575584.HMPREF0010
+	674977.VMC
+	99287.STM1084
+	NP_231000
+	NP_661745
+	NP_663123
+	NP_717969
+	NP_746126
+	NP_793124
+	WP_000895407
+	WP_003020235
+	WP_003240638
+	WP_003542676
+	WP_004244693
+	WP_004927084
+	WP_005223277
+	WP_005419649
+	WP_005721637
+	WP_005767383
+	WP_005808391
+	WP_006250062
+	WP_010616552
+	WP_010932532
+	WP_010954804
+	WP_010960615
+	WP_011043160
+	WP_011072361
+	WP_011126687
+	WP_011233915
+	WP_011280493
+	WP_011311877
+	WP_011328365
+	WP_011345272
+	WP_011385732
+	WP_011393134
+	WP_011396415
+	WP_011459007
+	WP_011496246
+	WP_011507220
+	WP_011521442
+	WP_011526984
+	WP_011608483
+	WP_011637266
+	WP_011700824
+	WP_011706490
+	WP_011711751
+	WP_011735441
+	WP_011744037
+	WP_011756473
+	WP_011905508
+	WP_012070927
+	WP_012173892
+	WP_012185910
+	WP_012303252
+	WP_012475252
+	WP_012499202
+	WP_012504631
+	WP_012546467
+	WP_012636952
+	WP_012729434
+	WP_012813492
+	WP_012814256
+	WP_012818192
+	WP_012941106
+	WP_012969276
+	WP_012987337
+	WP_013051566
+	WP_013087664
+	WP_013164234
+	WP_013258806
+	WP_013261659
+	WP_013345333
+	WP_013418278
+	WP_013493096
+	WP_013561137
+	WP_013661951
+	WP_013684347
+	WP_013745113
+	WP_013756706
+	WP_013784154
+	WP_013818491
+	WP_013907513
+	WP_013975739
+	WP_014108779
+	WP_014126343
+	WP_014292835
+	WP_015696703
+	WP_015870759
+	WP_015904072
+	YP_002247857
+	YP_169495
+	YP_204884
+	YP_430477
+	YP_857184
+
+12/02 14:28:41 DEBUG:
+0 lineages truncated before Class were removed during lineage trimming.
+0 lineages unclassified at or before Class also removed.
+
+12/02 14:28:41 DEBUG:
+57.1% of optimal  Class lineages are present in the pruned trees.
+
+12/02 14:28:41 DEBUG:
+25 lineages truncated before Species were removed during lineage trimming.
+38 lineages unclassified at or before Species also removed.
+
+12/02 14:28:41 DEBUG:
+58.9% of optimal  Species lineages are present in the pruned trees.
+
+12/02 14:28:41 DEBUG:
+Optimal placement target was not found in the pruned tree for following taxa:
+	Archaea; Crenarchaeota
+	Archaea; Euryarchaeota
+	Bacteria; Acidobacteria
+	Bacteria; Calditrichaeota
+	Bacteria; Chlorobi
+	Bacteria; Ignavibacteriae
+	Bacteria; Nitrospirae
+	Bacteria; Thermodesulfobacteria
+	Bacteria; Verrucomicrobia
+	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Caldivirga
+	Bacteria; Actinobacteria; Actinobacteria; Micrococcales; Intrasporangiaceae; Intrasporangium
+	Bacteria; Actinobacteria; Actinobacteria; Micromonosporales; Micromonosporaceae; Salinispora
+	Bacteria; Actinobacteria; Actinobacteria; Nakamurellales; Nakamurellaceae; Nakamurella
+	Bacteria; Actinobacteria; Actinobacteria; Streptomycetales; Streptomycetaceae; Streptomyces
+	Bacteria; Calditrichaeota; Calditrichae; Calditrichales; Calditrichaceae; Caldithrix
+	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chloroherpeton
+	Bacteria; Chloroflexi; Anaerolineae; Anaerolineales; Anaerolineaceae; Anaerolinea
+	Bacteria; Chloroflexi; Caldilineae; Caldilineales; Caldilineaceae; Caldilinea
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Candidatus Desulforudis
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfallas
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfitobacterium
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfofarcimen
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfofundulus
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Pelotomaculum
+	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Ammonifex
+	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Moorella
+	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermodesulfobiaceae; Thermodesulfobium
+	Bacteria; Firmicutes; Negativicutes; Selenomonadales; Sporomusaceae; Acetonema
+	Bacteria; Firmicutes; Negativicutes; Selenomonadales; Sporomusaceae; Thermosinus
+	Bacteria; Ignavibacteriae; Ignavibacteria; Ignavibacteriales; Melioribacteraceae; Melioribacter
+	Bacteria; Proteobacteria; Alphaproteobacteria; Magnetococcales; Magnetococcaceae; Magnetococcus
+	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Rhodomicrobium
+	Bacteria; Proteobacteria; Betaproteobacteria; Nitrosomonadales; Gallionellaceae; Sideroxydans
+	Bacteria; Proteobacteria; Betaproteobacteria; Nitrosomonadales; Thiobacillaceae; Thiobacillus
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfarculales; Desulfarculaceae; Desulfarculus
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfatibacillum
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfobacterium
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfococcus
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobulbaceae; Desulfobulbus
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobulbaceae; Desulfocapsa
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobulbaceae; Desulfotalea
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobulbaceae; Desulfurivibrio
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfohalobiaceae; Desulfohalobium
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfohalobiaceae; Desulfonatronospira
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfomicrobiaceae; Desulfomicrobium
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Bilophila
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfocurvibacter
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Lawsonia
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Pseudodesulfovibrio
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Desulfuromonadaceae; Pelobacter
+	Bacteria; Proteobacteria; Deltaproteobacteria; Syntrophobacterales; Syntrophaceae; Desulfobacca
+	Bacteria; Proteobacteria; Deltaproteobacteria; Syntrophobacterales; Syntrophaceae; Desulfomonile
+	Bacteria; Proteobacteria; Deltaproteobacteria; Syntrophobacterales; Syntrophobacteraceae; Syntrophobacter
+	Bacteria; Proteobacteria; Gammaproteobacteria; Aeromonadales; Aeromonadaceae; Tolumonas
+	Bacteria; Proteobacteria; Gammaproteobacteria; Aeromonadales; Succinivibrionaceae; Succinatimonas
+	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae; Glaciecola
+	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae; Paraglaciecola
+	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Colwelliaceae; Colwellia
+	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Ferrimonadaceae; Ferrimonas
+	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Idiomarinaceae; Idiomarina
+	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Psychromonadaceae; Psychromonas
+	Bacteria; Proteobacteria; Gammaproteobacteria; Cellvibrionales; Cellvibrionaceae; Cellvibrio
+	Bacteria; Proteobacteria; Gammaproteobacteria; Cellvibrionales; Cellvibrionaceae; Simiduia
+	Bacteria; Proteobacteria; Gammaproteobacteria; Cellvibrionales; Halieaceae; Congregibacter
+	Bacteria; Proteobacteria; Gammaproteobacteria; Cellvibrionales; Halieaceae; Luminiphilus
+	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Allochromatium
+	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Marichromatium
+	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Thiocystis
+	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Thioflavicoccus
+	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Ectothiorhodospiraceae; Alkalilimnicola
+	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Ectothiorhodospiraceae; Halorhodospira
+	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; Candidatus Moranella
+	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; Candidatus Riesia
+	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; Cronobacter
+	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; Enterobacter
+	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; Salmonella
+	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; Shigella
+	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; ant endosymbionts
+	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Erwiniaceae; Buchnera
+	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Erwiniaceae; Pantoea
+	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Hafniaceae; Edwardsiella
+	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Morganellaceae; Proteus
+	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Pectobacteriaceae; Sodalis
+	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Yersiniaceae; Rahnella
+	Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales; Coxiellaceae; Rickettsiella
+	Bacteria; Proteobacteria; Gammaproteobacteria; Methylococcales; Methylococcaceae; Methylobacter
+	Bacteria; Proteobacteria; Gammaproteobacteria; Methylococcales; Methylococcaceae; Methylococcus
+	Bacteria; Proteobacteria; Gammaproteobacteria; Methylococcales; Methylococcaceae; Methylomonas
+	Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales; Hahellaceae; Hahella
+	Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Chromohalobacter
+	Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas
+	Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales; Kangiellaceae; Kangiella
+	Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales; Oceanospirillaceae; Bermanella
+	Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales; Oceanospirillaceae; Neptuniibacter
+	Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales; Oceanospirillaceae; Thalassolituus
+	Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales; Saccharospirillaceae; Reinekea
+	Bacteria; Proteobacteria; Gammaproteobacteria; Orbales; Orbaceae; Gilliamella
+	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Basfia
+	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Bibersteinia
+	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Gallibacterium
+	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Glaesserella
+	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Histophilus
+	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Mannheimia
+	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Moraxella
+	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Azotobacter
+	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Grimontia
+	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae; Thermodesulfatator
+	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae; Thermodesulfobacterium
+
+12/02 14:28:41 DEBUG:
+Sequences available for training Class-level placement distances:
+	0	Archaea; Crenarchaeota; Thermoprotei
+	0	Archaea; Euryarchaeota; Archaeoglobi
+	0	Bacteria; Acidobacteria; Acidobacteriia
+	10	Bacteria; Actinobacteria; Actinobacteria
+	1	Bacteria; Actinobacteria; Coriobacteriia
+	1	Bacteria; Bacteroidetes; Bacteroidia
+	1	Bacteria; Bacteroidetes; Flavobacteriia
+	0	Bacteria; Calditrichaeota; Calditrichae
+	0	Bacteria; Chlorobi; Chlorobia
+	1	Bacteria; Chloroflexi; Anaerolineae
+	1	Bacteria; Chloroflexi; Caldilineae
+	16	Bacteria; Firmicutes; Clostridia
+	2	Bacteria; Firmicutes; Negativicutes
+	0	Bacteria; Ignavibacteriae; Ignavibacteria
+	0	Bacteria; Nitrospirae; Nitrospirales
+	5	Bacteria; Proteobacteria; Alphaproteobacteria
+	10	Bacteria; Proteobacteria; Betaproteobacteria
+	33	Bacteria; Proteobacteria; Deltaproteobacteria
+	269	Bacteria; Proteobacteria; Gammaproteobacteria
+	0	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria
+	0	Bacteria; Verrucomicrobia; Verrucomicrobiae
+12/21 Class have training sequences.
+Sequences available for training Species-level placement distances:
+	0	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Caldivirga; Caldivirga maquilingensis
+	1	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Pyrobaculum; Pyrobaculum calidifontis
+	1	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Pyrobaculum; Pyrobaculum ferrireducens
+	1	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Pyrobaculum; Pyrobaculum islandicum
+	0	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Pyrobaculum; Pyrobaculum neutrophilum
+	1	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Pyrobaculum; Pyrobaculum oguniense
+	1	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Thermoproteus; Thermoproteus tenax
+	1	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Thermoproteus; Thermoproteus uzoniensis
+	1	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Vulcanisaeta; Vulcanisaeta distributa
+	1	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Vulcanisaeta; Vulcanisaeta moutnovskia
+	1	Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales; Archaeoglobaceae; Archaeoglobus; Archaeoglobus fulgidus
+	1	Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales; Archaeoglobaceae; Archaeoglobus; Archaeoglobus profundus
+	1	Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales; Archaeoglobaceae; Archaeoglobus; Archaeoglobus sulfaticallidus
+	1	Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales; Archaeoglobaceae; Archaeoglobus; Archaeoglobus veneficus
+	0	Bacteria; Actinobacteria; Actinobacteria; Micrococcales; Intrasporangiaceae; Intrasporangium; Intrasporangium calvum
+	0	Bacteria; Actinobacteria; Actinobacteria; Micromonosporales; Micromonosporaceae; Salinispora; Salinispora arenicola
+	0	Bacteria; Actinobacteria; Actinobacteria; Nakamurellales; Nakamurellaceae; Nakamurella; Nakamurella multipartita
+	0	Bacteria; Actinobacteria; Actinobacteria; Streptomycetales; Streptomycetaceae; Streptomyces; Streptomyces davaonensis
+	0	Bacteria; Calditrichaeota; Calditrichae; Calditrichales; Calditrichaceae; Caldithrix; Caldithrix abyssi
+	1	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobaculum; Chlorobaculum parvum
+	1	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobaculum; Chlorobaculum tepidum
+	1	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobium; Chlorobium chlorochromatii
+	1	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobium; Chlorobium limicola
+	2	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobium; Chlorobium phaeobacteroides
+	1	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobium; Chlorobium phaeovibrioides
+	0	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chloroherpeton; Chloroherpeton thalassium
+	1	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Pelodictyon; Pelodictyon luteolum
+	1	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Pelodictyon; Pelodictyon phaeoclathratiforme
+	0	Bacteria; Chloroflexi; Anaerolineae; Anaerolineales; Anaerolineaceae; Anaerolinea; Anaerolinea thermophila
+	0	Bacteria; Chloroflexi; Caldilineae; Caldilineales; Caldilineaceae; Caldilinea; Caldilinea aerophila
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Candidatus Desulforudis; Candidatus Desulforudis audaxviator
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfallas; Desulfallas gibsoniae
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfitobacterium; Desulfitobacterium hafniense
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfofarcimen; Desulfofarcimen acetoxidans
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfofundulus; Desulfofundulus kuznetsovii
+	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfosporosinus; Desulfosporosinus acidiphilus
+	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfosporosinus; Desulfosporosinus orientis
+	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfotomaculum; Desulfotomaculum nigrificans
+	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfotomaculum; Desulfotomaculum reducens
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Pelotomaculum; Pelotomaculum thermopropionicum
+	0	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Ammonifex; Ammonifex degensii
+	0	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Moorella; Moorella thermoacetica
+	0	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermodesulfobiaceae; Thermodesulfobium; Thermodesulfobium narugense
+	0	Bacteria; Firmicutes; Negativicutes; Selenomonadales; Sporomusaceae; Acetonema; Acetonema longum
+	0	Bacteria; Firmicutes; Negativicutes; Selenomonadales; Sporomusaceae; Thermosinus; Thermosinus carboxydivorans
+	0	Bacteria; Ignavibacteriae; Ignavibacteria; Ignavibacteriales; Melioribacteraceae; Melioribacter; Melioribacter roseus
+	0	Bacteria; Proteobacteria; Alphaproteobacteria; Magnetococcales; Magnetococcaceae; Magnetococcus; Magnetococcus marinus
+	0	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Rhodomicrobium; Rhodomicrobium vannielii
+	1	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales; Rhodospirillaceae; Magnetospirillum; Magnetospirillum gryphiswaldense
+	1	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales; Rhodospirillaceae; Magnetospirillum; Magnetospirillum magneticum
+	0	Bacteria; Proteobacteria; Betaproteobacteria; Nitrosomonadales; Gallionellaceae; Sideroxydans; Sideroxydans lithotrophicus
+	0	Bacteria; Proteobacteria; Betaproteobacteria; Nitrosomonadales; Thiobacillaceae; Thiobacillus; Thiobacillus denitrificans
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfarculales; Desulfarculaceae; Desulfarculus; Desulfarculus baarsii
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfatibacillum; Desulfatibacillum alkenivorans
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfobacterium; Desulfobacterium autotrophicum
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfococcus; Desulfococcus oleovorans
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobulbaceae; Desulfobulbus; Desulfobulbus propionicus
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobulbaceae; Desulfocapsa; Desulfocapsa sulfexigens
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobulbaceae; Desulfotalea; Desulfotalea psychrophila
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobulbaceae; Desulfurivibrio; Desulfurivibrio alkaliphilus
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfohalobiaceae; Desulfohalobium; Desulfohalobium retbaense
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfohalobiaceae; Desulfonatronospira; Desulfonatronospira thiodismutans
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfomicrobiaceae; Desulfomicrobium; Desulfomicrobium baculatum
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Bilophila; Bilophila wadsworthia
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfocurvibacter; Desulfocurvibacter africanus
+	1	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio; Desulfovibrio alaskensis
+	2	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio; Desulfovibrio desulfuricans
+	1	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio; Desulfovibrio gigas
+	1	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio; Desulfovibrio magneticus
+	1	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio; Desulfovibrio piger
+	1	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio; Desulfovibrio salexigens
+	2	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio; Desulfovibrio vulgaris
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Lawsonia; Lawsonia intracellularis
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Pseudodesulfovibrio; Pseudodesulfovibrio aespoeensis
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Desulfuromonadaceae; Pelobacter; Pelobacter propionicus
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Syntrophobacterales; Syntrophaceae; Desulfobacca; Desulfobacca acetoxidans
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Syntrophobacterales; Syntrophaceae; Desulfomonile; Desulfomonile tiedjei
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Syntrophobacterales; Syntrophobacteraceae; Syntrophobacter; Syntrophobacter fumaroxidans
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Aeromonadales; Aeromonadaceae; Aeromonas; Aeromonas caviae
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Aeromonadales; Aeromonadaceae; Aeromonas; Aeromonas salmonicida
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Aeromonadales; Aeromonadaceae; Aeromonas; Aeromonas veronii
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Aeromonadales; Aeromonadaceae; Tolumonas; Tolumonas auensis
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Aeromonadales; Succinivibrionaceae; Succinatimonas; Succinatimonas hippei
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae; Alteromonas; Alteromonas mediterranea
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae; Alteromonas; Alteromonas naphthalenivorans
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae; Glaciecola; Glaciecola nitratireducens
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae; Marinobacter; Marinobacter adhaerens
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae; Marinobacter; Marinobacter algicola
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae; Marinobacter; Marinobacter hydrocarbonoclasticus
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae; Paraglaciecola; Paraglaciecola psychrophila
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Colwelliaceae; Colwellia; Colwellia psychrerythraea
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Ferrimonadaceae; Ferrimonas; Ferrimonas balearica
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Idiomarinaceae; Idiomarina; Idiomarina baltica
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Pseudoalteromonadaceae; Pseudoalteromonas; Pseudoalteromonas atlantica
+	2	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Pseudoalteromonadaceae; Pseudoalteromonas; Pseudoalteromonas haloplanktis
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Pseudoalteromonadaceae; Pseudoalteromonas; Pseudoalteromonas tunicata
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Psychromonadaceae; Psychromonas; Psychromonas ingrahamii
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella amazonensis
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella baltica
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella benthica
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella denitrificans
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella frigidimarina
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella halifaxensis
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella loihica
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella oneidensis
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella pealeana
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella piezotolerans
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella putrefaciens
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella sediminis
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella violacea
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella woodyi
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Cellvibrionales; Cellvibrionaceae; Cellvibrio; Cellvibrio japonicus
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Cellvibrionales; Cellvibrionaceae; Simiduia; Simiduia agarivorans
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Cellvibrionales; Halieaceae; Congregibacter; Congregibacter litoralis
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Cellvibrionales; Halieaceae; Luminiphilus; Luminiphilus syltensis
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Allochromatium; Allochromatium vinosum
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Marichromatium; Marichromatium purpuratum
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Thiocystis; Thiocystis violascens
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Thioflavicoccus; Thioflavicoccus mobilis
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Ectothiorhodospiraceae; Alkalilimnicola; Alkalilimnicola ehrlichii
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Ectothiorhodospiraceae; Halorhodospira; Halorhodospira halophila
+	3	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Ectothiorhodospiraceae; Thioalkalivibrio; Thioalkalivibrio nitratireducens
+	3	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Ectothiorhodospiraceae; Thioalkalivibrio; Thioalkalivibrio sulfidiphilus
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; Candidatus Moranella; Candidatus Moranella endobia
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; Candidatus Riesia; Candidatus Riesia pediculicola
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; Citrobacter; Citrobacter koseri
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; Citrobacter; Citrobacter rodentium
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; Cronobacter; Cronobacter sakazakii
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; Enterobacter; Enterobacter cloacae
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; Klebsiella; Klebsiella aerogenes
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; Klebsiella; Klebsiella michiganensis
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; Salmonella; Salmonella enterica
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; Shigella; Shigella flexneri
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; ant endosymbionts; Candidatus Blochmannia
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Erwiniaceae; Buchnera; Buchnera aphidicola
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Erwiniaceae; Erwinia; Erwinia billingiae
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Erwiniaceae; Erwinia; Erwinia pyrifoliae
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Erwiniaceae; Erwinia; Erwinia tasmaniensis
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Erwiniaceae; Pantoea; Pantoea ananatis
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Hafniaceae; Edwardsiella; Edwardsiella ictaluri
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Morganellaceae; Photorhabdus; Photorhabdus asymbiotica
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Morganellaceae; Photorhabdus; Photorhabdus laumondii
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Morganellaceae; Proteus; Proteus penneri
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Morganellaceae; Providencia; Providencia rettgeri
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Morganellaceae; Providencia; Providencia rustigianii
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Morganellaceae; Providencia; Providencia stuartii
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Morganellaceae; Xenorhabdus; Xenorhabdus bovienii
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Morganellaceae; Xenorhabdus; Xenorhabdus nematophila
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Pectobacteriaceae; Dickeya; Dickeya dadantii
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Pectobacteriaceae; Dickeya; Dickeya paradisiaca
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Pectobacteriaceae; Dickeya; Dickeya zeae
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Pectobacteriaceae; Pectobacterium; Pectobacterium carotovorum
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Pectobacteriaceae; Pectobacterium; Pectobacterium parmentieri
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Pectobacteriaceae; Sodalis; Sodalis glossinidius
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Yersiniaceae; Rahnella; Rahnella aquatilis
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Yersiniaceae; Serratia; Serratia odorifera
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Yersiniaceae; Serratia; Serratia plymuthica
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Yersiniaceae; Serratia; Serratia proteamaculans
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Yersiniaceae; Serratia; Serratia symbiotica
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Yersiniaceae; Yersinia; Yersinia enterocolitica
+	2	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Yersiniaceae; Yersinia; Yersinia pestis
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales; Coxiellaceae; Rickettsiella; Rickettsiella grylli
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Methylococcales; Methylococcaceae; Methylobacter; Methylobacter tundripaludum
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Methylococcales; Methylococcaceae; Methylococcus; Methylococcus capsulatus
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Methylococcales; Methylococcaceae; Methylomicrobium; Methylomicrobium agile
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Methylococcales; Methylococcaceae; Methylomicrobium; Methylomicrobium alcaliphilum
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Methylococcales; Methylococcaceae; Methylomonas; Methylomonas methanica
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales; Hahellaceae; Hahella; Hahella chejuensis
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Chromohalobacter; Chromohalobacter salexigens
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales; Halomonadaceae; Halomonas; Halomonas elongata
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales; Kangiellaceae; Kangiella; Kangiella koreensis
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales; Oceanospirillaceae; Bermanella; Bermanella marisrubri
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales; Oceanospirillaceae; Marinomonas; Marinomonas mediterranea
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales; Oceanospirillaceae; Marinomonas; Marinomonas posidonica
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales; Oceanospirillaceae; Neptuniibacter; Neptuniibacter caesariensis
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales; Oceanospirillaceae; Thalassolituus; Thalassolituus oleivorans
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales; Saccharospirillaceae; Reinekea; Reinekea blandensis
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Orbales; Orbaceae; Gilliamella; Gilliamella apicola
+	2	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Actinobacillus; Actinobacillus minor
+	2	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Actinobacillus; Actinobacillus pleuropneumoniae
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Actinobacillus; Actinobacillus succinogenes
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Actinobacillus; Actinobacillus ureae
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Aggregatibacter; Aggregatibacter actinomycetemcomitans
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Aggregatibacter; Aggregatibacter aphrophilus
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Aggregatibacter; Aggregatibacter segnis
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Basfia; Mannheimia succiniciproducens
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Bibersteinia; Bibersteinia trehalosi
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Gallibacterium; Gallibacterium anatis
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Glaesserella; Glaesserella parasuis
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Haemophilus; Haemophilus ducreyi
+	2	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Haemophilus; Haemophilus haemolyticus
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Haemophilus; Haemophilus influenzae
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Haemophilus; Haemophilus parainfluenzae
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Haemophilus; Haemophilus pittmaniae
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Histophilus; Histophilus somni
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Mannheimia; Mannheimia haemolytica
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Pasteurella; Pasteurella dagmatis
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Pasteurella; Pasteurella multocida
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter; Acinetobacter baylyi
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter; Acinetobacter johnsonii
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter; Acinetobacter junii
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter; Acinetobacter lwoffii
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter; Acinetobacter oleivorans
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter; Acinetobacter radioresistens
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Moraxella; Moraxella catarrhalis
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Psychrobacter; Psychrobacter arcticus
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Psychrobacter; Psychrobacter cryohalolentis
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Azotobacter; Azotobacter vinelandii
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas aeruginosa
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas entomophila
+	4	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas fluorescens
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas fulva
+	2	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas mendocina
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas protegens
+	5	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas putida
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas savastanoi
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas stutzeri subgroup
+	3	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas syringae
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas syringae pv. maculicola
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas syringae pv. tomato
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Thiotrichales; Francisellaceae; Francisella; Francisella philomiragia
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Thiotrichales; Francisellaceae; Francisella; Francisella salina
+	3	Bacteria; Proteobacteria; Gammaproteobacteria; Thiotrichales; Francisellaceae; Francisella; Francisella tularensis
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Aliivibrio; Aliivibrio fischeri
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Aliivibrio; Aliivibrio salmonicida
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Grimontia; Grimontia hollisae
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Photobacterium; Photobacterium angustum
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Photobacterium; Photobacterium damselae
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Photobacterium; Photobacterium leiognathi
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Photobacterium; Photobacterium profundum
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio; Vibrio anguillarum
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio; Vibrio brasiliensis
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio; Vibrio caribbeanicus
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio; Vibrio furnissii
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio; Vibrio metschnikovii
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio; Vibrio mimicus
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio; Vibrio sinaloensis
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio; Vibrio tasmaniensis
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio; Vibrio vulnificus
+	0	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae; Thermodesulfatator; Thermodesulfatator indicus
+	0	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae; Thermodesulfobacterium; Thermodesulfobacterium geofontis
+141/241 Species have training sequences.
+
+12/02 14:28:41 INFO:
+Clustering sequences with UCLUST... 
+12/02 14:28:41 INFO:
+done.
+
+12/02 14:28:41 DEBUG:
+usearch v9.2.64_i86linux32, 4.0Gb RAM (16.4Gb total), 4 cores
+(C) Copyright 2013-16 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: c.morganlang@gmail.com
+
+00:00 37Mb      0.1% Reading Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates//uclust_input.fasta00:00 40Mb    100.0% Reading Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates//uclust_input.fasta
+00:00 38Mb      1.0% DF                                                                                                          00:00 35Mb    100.0% DF
+00:00 35Mb   383 seqs, 383 uniques, 383 singletons (100.0%)
+00:00 35Mb   Min size 1, median 1, max 1, avg 1.00
+00:00 38Mb      0.3% DB00:00 38Mb    100.0% DB
+00:00 38Mb   Sort length... done.
+00:00 77Mb      0.3% Clustering00:00 77Mb      0.3% 0 clusters, max size 0, avg 0.000:00 89Mb    100.0% 375 clusters, max size 4, avg 1.0
+00:00 89Mb      0.3% Writing centroids to Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates//uclust0.99.fa00:00 89Mb    100.0% Writing centroids to Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates//uclust0.99.fa
+                                                                                                                                         
+      Seqs  383
+  Clusters  375
+  Max size  4
+  Avg size  1.0
+  Min size  1
+Singletons  370, 96.6% of seqs, 98.7% of clusters
+   Max mem  89Mb
+      Time  1.00s
+Throughput  383.0 seqs/sec.
+
+
+12/02 14:28:41 DEBUG:
+Reading usearch cluster file... 
+12/02 14:28:41 DEBUG:
+done.
+
+12/02 14:28:41 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	469008.B21_00980
+	857571.EA1_05482
+	199310.c1107
+	220341.STY1111
+	177416.FTT_0457c
+	214092.YPO1447
+	218493.SBG_0885
+	155864.Z1321
+
+12/02 14:28:41 DEBUG:
+	375 sequence clusters
+
+12/02 14:28:41 INFO:
+Preparing deduplicated sequence set for training... 
+12/02 14:28:42 DEBUG:
+0 lineages truncated before Class were removed during lineage trimming.
+0 lineages unclassified at or before Class also removed.
+
+12/02 14:28:42 DEBUG:
+25 lineages truncated before Species were removed during lineage trimming.
+38 lineages unclassified at or before Species also removed.
+
+12/02 14:28:42 INFO:
+done.
+
+12/02 14:28:42 INFO:
+
+Estimating branch-length placement distances for taxonomic ranks. Progress:
+
+12/02 14:28:42 DEBUG:
+108 sequences to train Class-level placement distances
+
+12/02 14:28:42 DEBUG:
+163 sequences to train Species-level placement distances
+
+12/02 14:28:42 DEBUG:
+25 lineages truncated before Species were removed during lineage trimming.
+38 lineages unclassified at or before Species also removed.
+
+12/02 14:28:42 DEBUG:
+Testing placements for Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Pyrobaculum; Pyrobaculum calidifontis:
+
+12/02 14:28:42 DEBUG:
+	1 query sequences.
+
+12/02 14:28:42 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:28:42 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:28:42 DEBUG:
+Building HMM profile... 
+12/02 14:28:43 DEBUG:
+done.
+
+12/02 14:28:43 DEBUG:
+
+
+12/02 14:28:43 DEBUG:
+Columns = 92
+
+12/02 14:28:43 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:28:43 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:28:43 DEBUG:
+Testing placements for Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Pyrobaculum; Pyrobaculum ferrireducens:
+
+12/02 14:28:43 DEBUG:
+	1 query sequences.
+
+12/02 14:28:43 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:28:44 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:28:44 DEBUG:
+Building HMM profile... 
+12/02 14:28:44 DEBUG:
+done.
+
+12/02 14:28:44 DEBUG:
+
+
+12/02 14:28:44 DEBUG:
+Columns = 92
+
+12/02 14:28:44 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:28:44 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:28:44 DEBUG:
+Testing placements for Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Pyrobaculum; Pyrobaculum islandicum:
+
+12/02 14:28:44 DEBUG:
+	1 query sequences.
+
+12/02 14:28:44 DEBUG:
+	65 sequences pruned from tree.
+
+12/02 14:28:45 DEBUG:
+	286 leaves in pruned tree.
+
+12/02 14:28:45 DEBUG:
+Building HMM profile... 
+12/02 14:28:45 DEBUG:
+done.
+
+12/02 14:28:45 DEBUG:
+
+
+12/02 14:28:45 DEBUG:
+Columns = 93
+
+12/02 14:28:45 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:28:45 DEBUG:
+Read 287 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:28:45 DEBUG:
+Testing placements for Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Pyrobaculum; Pyrobaculum oguniense:
+
+12/02 14:28:45 DEBUG:
+	1 query sequences.
+
+12/02 14:28:45 DEBUG:
+	66 sequences pruned from tree.
+
+12/02 14:28:46 DEBUG:
+	285 leaves in pruned tree.
+
+12/02 14:28:46 DEBUG:
+Building HMM profile... 
+12/02 14:28:46 DEBUG:
+done.
+
+12/02 14:28:46 DEBUG:
+
+
+12/02 14:28:46 DEBUG:
+Columns = 92
+
+12/02 14:28:46 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:28:46 DEBUG:
+Read 286 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:28:47 DEBUG:
+Testing placements for Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Thermoproteus; Thermoproteus tenax:
+
+12/02 14:28:47 DEBUG:
+	1 query sequences.
+
+12/02 14:28:47 DEBUG:
+	66 sequences pruned from tree.
+
+12/02 14:28:47 DEBUG:
+	285 leaves in pruned tree.
+
+12/02 14:28:47 DEBUG:
+Building HMM profile... 
+12/02 14:28:47 DEBUG:
+done.
+
+12/02 14:28:47 DEBUG:
+
+
+12/02 14:28:47 DEBUG:
+Columns = 93
+
+12/02 14:28:47 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:28:47 DEBUG:
+Read 286 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:28:48 DEBUG:
+Testing placements for Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Thermoproteus; Thermoproteus uzoniensis:
+
+12/02 14:28:48 DEBUG:
+	1 query sequences.
+
+12/02 14:28:48 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:28:48 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:28:48 DEBUG:
+Building HMM profile... 
+12/02 14:28:48 DEBUG:
+done.
+
+12/02 14:28:48 DEBUG:
+
+
+12/02 14:28:48 DEBUG:
+Columns = 92
+
+12/02 14:28:48 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:28:48 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:28:49 DEBUG:
+Testing placements for Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Vulcanisaeta; Vulcanisaeta distributa:
+
+12/02 14:28:49 DEBUG:
+	1 query sequences.
+
+12/02 14:28:49 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:28:49 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:28:49 DEBUG:
+Building HMM profile... 
+12/02 14:28:49 DEBUG:
+done.
+
+12/02 14:28:49 DEBUG:
+
+
+12/02 14:28:50 DEBUG:
+Columns = 92
+
+12/02 14:28:50 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:28:50 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:28:50 DEBUG:
+Testing placements for Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Vulcanisaeta; Vulcanisaeta moutnovskia:
+
+12/02 14:28:50 DEBUG:
+	1 query sequences.
+
+12/02 14:28:50 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:28:50 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:28:50 DEBUG:
+Building HMM profile... 
+12/02 14:28:50 DEBUG:
+done.
+
+12/02 14:28:50 DEBUG:
+
+
+12/02 14:28:51 DEBUG:
+Columns = 92
+
+12/02 14:28:51 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:28:51 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:28:51 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales; Archaeoglobaceae; Archaeoglobus; Archaeoglobus fulgidus:
+
+12/02 14:28:51 DEBUG:
+	1 query sequences.
+
+12/02 14:28:51 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:28:51 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:28:51 DEBUG:
+Building HMM profile... 
+12/02 14:28:51 DEBUG:
+done.
+
+12/02 14:28:51 DEBUG:
+
+
+12/02 14:28:52 DEBUG:
+Columns = 92
+
+12/02 14:28:52 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:28:52 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:28:52 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales; Archaeoglobaceae; Archaeoglobus; Archaeoglobus profundus:
+
+12/02 14:28:52 DEBUG:
+	1 query sequences.
+
+12/02 14:28:52 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:28:52 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:28:52 DEBUG:
+Building HMM profile... 
+12/02 14:28:53 DEBUG:
+done.
+
+12/02 14:28:53 DEBUG:
+
+
+12/02 14:28:53 DEBUG:
+Columns = 92
+
+12/02 14:28:53 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:28:53 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:28:53 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales; Archaeoglobaceae; Archaeoglobus; Archaeoglobus sulfaticallidus:
+
+12/02 14:28:53 DEBUG:
+	1 query sequences.
+
+12/02 14:28:53 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:28:53 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:28:53 DEBUG:
+Building HMM profile... 
+12/02 14:28:54 DEBUG:
+done.
+
+12/02 14:28:54 DEBUG:
+
+
+12/02 14:28:54 DEBUG:
+Columns = 92
+
+12/02 14:28:54 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:28:54 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:28:54 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales; Archaeoglobaceae; Archaeoglobus; Archaeoglobus veneficus:
+
+12/02 14:28:54 DEBUG:
+	1 query sequences.
+
+12/02 14:28:54 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:28:55 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:28:55 DEBUG:
+Building HMM profile... 
+12/02 14:28:55 DEBUG:
+done.
+
+12/02 14:28:55 DEBUG:
+
+
+12/02 14:28:55 DEBUG:
+Columns = 92
+
+12/02 14:28:55 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:28:55 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:28:55 DEBUG:
+Testing placements for Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobaculum; Chlorobaculum parvum:
+
+12/02 14:28:55 DEBUG:
+	1 query sequences.
+
+12/02 14:28:55 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:28:56 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:28:56 DEBUG:
+Building HMM profile... 
+12/02 14:28:56 DEBUG:
+done.
+
+12/02 14:28:56 DEBUG:
+
+
+12/02 14:28:56 DEBUG:
+Columns = 92
+
+12/02 14:28:56 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:28:56 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:28:56 DEBUG:
+Testing placements for Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobaculum; Chlorobaculum tepidum:
+
+12/02 14:28:56 DEBUG:
+	1 query sequences.
+
+12/02 14:28:56 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:28:57 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:28:57 DEBUG:
+Building HMM profile... 
+12/02 14:28:57 DEBUG:
+done.
+
+12/02 14:28:57 DEBUG:
+
+
+12/02 14:28:57 DEBUG:
+Columns = 92
+
+12/02 14:28:57 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:28:57 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:28:57 DEBUG:
+Testing placements for Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobium; Chlorobium chlorochromatii:
+
+12/02 14:28:57 DEBUG:
+	1 query sequences.
+
+12/02 14:28:57 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:28:58 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:28:58 DEBUG:
+Building HMM profile... 
+12/02 14:28:58 DEBUG:
+done.
+
+12/02 14:28:58 DEBUG:
+
+
+12/02 14:28:58 DEBUG:
+Columns = 92
+
+12/02 14:28:58 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:28:58 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:28:59 DEBUG:
+Testing placements for Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobium; Chlorobium limicola:
+
+12/02 14:28:59 DEBUG:
+	1 query sequences.
+
+12/02 14:28:59 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:28:59 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:28:59 DEBUG:
+Building HMM profile... 
+12/02 14:28:59 DEBUG:
+done.
+
+12/02 14:28:59 DEBUG:
+
+
+12/02 14:28:59 DEBUG:
+Columns = 92
+
+12/02 14:28:59 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:28:59 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:00 DEBUG:
+Testing placements for Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobium; Chlorobium phaeobacteroides:
+
+12/02 14:29:00 DEBUG:
+	2 query sequences.
+
+12/02 14:29:00 DEBUG:
+	65 sequences pruned from tree.
+
+12/02 14:29:00 DEBUG:
+	286 leaves in pruned tree.
+
+12/02 14:29:00 DEBUG:
+Building HMM profile... 
+12/02 14:29:00 DEBUG:
+done.
+
+12/02 14:29:00 DEBUG:
+
+
+12/02 14:29:00 DEBUG:
+Columns = 92
+
+12/02 14:29:00 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:00 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:01 DEBUG:
+Testing placements for Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobium; Chlorobium phaeovibrioides:
+
+12/02 14:29:01 DEBUG:
+	1 query sequences.
+
+12/02 14:29:01 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:01 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:01 DEBUG:
+Building HMM profile... 
+12/02 14:29:01 DEBUG:
+done.
+
+12/02 14:29:01 DEBUG:
+
+
+12/02 14:29:02 DEBUG:
+Columns = 92
+
+12/02 14:29:02 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:02 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:02 DEBUG:
+Testing placements for Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Pelodictyon; Pelodictyon luteolum:
+
+12/02 14:29:02 DEBUG:
+	1 query sequences.
+
+12/02 14:29:02 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:02 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:02 DEBUG:
+Building HMM profile... 
+12/02 14:29:03 DEBUG:
+done.
+
+12/02 14:29:03 DEBUG:
+
+
+12/02 14:29:03 DEBUG:
+Columns = 92
+
+12/02 14:29:03 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:03 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:03 DEBUG:
+Testing placements for Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Pelodictyon; Pelodictyon phaeoclathratiforme:
+
+12/02 14:29:03 DEBUG:
+	1 query sequences.
+
+12/02 14:29:03 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:03 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:03 DEBUG:
+Building HMM profile... 
+12/02 14:29:04 DEBUG:
+done.
+
+12/02 14:29:04 DEBUG:
+
+
+12/02 14:29:04 DEBUG:
+Columns = 92
+
+12/02 14:29:04 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:04 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:04 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfosporosinus; Desulfosporosinus acidiphilus:
+
+12/02 14:29:04 DEBUG:
+	1 query sequences.
+
+12/02 14:29:04 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:05 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:05 DEBUG:
+Building HMM profile... 
+12/02 14:29:05 DEBUG:
+done.
+
+12/02 14:29:05 DEBUG:
+
+
+12/02 14:29:05 DEBUG:
+Columns = 92
+
+12/02 14:29:05 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:05 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:05 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfosporosinus; Desulfosporosinus orientis:
+
+12/02 14:29:05 DEBUG:
+	1 query sequences.
+
+12/02 14:29:05 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:06 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:06 DEBUG:
+Building HMM profile... 
+12/02 14:29:06 DEBUG:
+done.
+
+12/02 14:29:06 DEBUG:
+
+
+12/02 14:29:06 DEBUG:
+Columns = 92
+
+12/02 14:29:06 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:06 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:07 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfotomaculum; Desulfotomaculum nigrificans:
+
+12/02 14:29:07 DEBUG:
+	1 query sequences.
+
+12/02 14:29:07 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:07 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:07 DEBUG:
+Building HMM profile... 
+12/02 14:29:07 DEBUG:
+done.
+
+12/02 14:29:07 DEBUG:
+
+
+12/02 14:29:07 DEBUG:
+Columns = 92
+
+12/02 14:29:07 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:07 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:08 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfotomaculum; Desulfotomaculum reducens:
+
+12/02 14:29:08 DEBUG:
+	1 query sequences.
+
+12/02 14:29:08 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:08 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:08 DEBUG:
+Building HMM profile... 
+12/02 14:29:08 DEBUG:
+done.
+
+12/02 14:29:08 DEBUG:
+
+
+12/02 14:29:08 DEBUG:
+Columns = 92
+
+12/02 14:29:08 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:08 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:09 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales; Rhodospirillaceae; Magnetospirillum; Magnetospirillum gryphiswaldense:
+
+12/02 14:29:09 DEBUG:
+	1 query sequences.
+
+12/02 14:29:09 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:09 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:09 DEBUG:
+Building HMM profile... 
+12/02 14:29:09 DEBUG:
+done.
+
+12/02 14:29:09 DEBUG:
+
+
+12/02 14:29:10 DEBUG:
+Columns = 92
+
+12/02 14:29:10 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:10 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:10 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales; Rhodospirillaceae; Magnetospirillum; Magnetospirillum magneticum:
+
+12/02 14:29:10 DEBUG:
+	1 query sequences.
+
+12/02 14:29:10 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:10 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:10 DEBUG:
+Building HMM profile... 
+12/02 14:29:10 DEBUG:
+done.
+
+12/02 14:29:10 DEBUG:
+
+
+12/02 14:29:11 DEBUG:
+Columns = 92
+
+12/02 14:29:11 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:11 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:11 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio; Desulfovibrio alaskensis:
+
+12/02 14:29:11 DEBUG:
+	1 query sequences.
+
+12/02 14:29:11 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:11 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:11 DEBUG:
+Building HMM profile... 
+12/02 14:29:11 DEBUG:
+done.
+
+12/02 14:29:11 DEBUG:
+
+
+12/02 14:29:12 DEBUG:
+Columns = 92
+
+12/02 14:29:12 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:12 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:12 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio; Desulfovibrio desulfuricans:
+
+12/02 14:29:12 DEBUG:
+	2 query sequences.
+
+12/02 14:29:12 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:12 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:12 DEBUG:
+Building HMM profile... 
+12/02 14:29:13 DEBUG:
+done.
+
+12/02 14:29:13 DEBUG:
+
+
+12/02 14:29:13 DEBUG:
+Columns = 93
+
+12/02 14:29:13 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:13 DEBUG:
+Read 289 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:13 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio; Desulfovibrio gigas:
+
+12/02 14:29:13 DEBUG:
+	1 query sequences.
+
+12/02 14:29:13 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:13 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:13 DEBUG:
+Building HMM profile... 
+12/02 14:29:14 DEBUG:
+done.
+
+12/02 14:29:14 DEBUG:
+
+
+12/02 14:29:14 DEBUG:
+Columns = 92
+
+12/02 14:29:14 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:14 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:14 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio; Desulfovibrio magneticus:
+
+12/02 14:29:14 DEBUG:
+	1 query sequences.
+
+12/02 14:29:14 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:15 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:15 DEBUG:
+Building HMM profile... 
+12/02 14:29:15 DEBUG:
+done.
+
+12/02 14:29:15 DEBUG:
+
+
+12/02 14:29:15 DEBUG:
+Columns = 92
+
+12/02 14:29:15 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:15 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:15 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio; Desulfovibrio piger:
+
+12/02 14:29:15 DEBUG:
+	1 query sequences.
+
+12/02 14:29:15 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:16 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:16 DEBUG:
+Building HMM profile... 
+12/02 14:29:16 DEBUG:
+done.
+
+12/02 14:29:16 DEBUG:
+
+
+12/02 14:29:16 DEBUG:
+Columns = 92
+
+12/02 14:29:16 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:16 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:16 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio; Desulfovibrio salexigens:
+
+12/02 14:29:16 DEBUG:
+	1 query sequences.
+
+12/02 14:29:16 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:17 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:17 DEBUG:
+Building HMM profile... 
+12/02 14:29:17 DEBUG:
+done.
+
+12/02 14:29:17 DEBUG:
+
+
+12/02 14:29:17 DEBUG:
+Columns = 92
+
+12/02 14:29:17 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:17 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:18 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio; Desulfovibrio vulgaris:
+
+12/02 14:29:18 DEBUG:
+	2 query sequences.
+
+12/02 14:29:18 DEBUG:
+	65 sequences pruned from tree.
+
+12/02 14:29:18 DEBUG:
+	286 leaves in pruned tree.
+
+12/02 14:29:18 DEBUG:
+Building HMM profile... 
+12/02 14:29:18 DEBUG:
+done.
+
+12/02 14:29:18 DEBUG:
+
+
+12/02 14:29:18 DEBUG:
+Columns = 92
+
+12/02 14:29:18 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:18 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:19 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Aeromonadales; Aeromonadaceae; Aeromonas; Aeromonas caviae:
+
+12/02 14:29:19 DEBUG:
+	1 query sequences.
+
+12/02 14:29:19 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:19 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:19 DEBUG:
+Building HMM profile... 
+12/02 14:29:19 DEBUG:
+done.
+
+12/02 14:29:19 DEBUG:
+
+
+12/02 14:29:20 DEBUG:
+Columns = 92
+
+12/02 14:29:20 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:20 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:20 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Aeromonadales; Aeromonadaceae; Aeromonas; Aeromonas salmonicida:
+
+12/02 14:29:20 DEBUG:
+	1 query sequences.
+
+12/02 14:29:20 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:20 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:20 DEBUG:
+Building HMM profile... 
+12/02 14:29:20 DEBUG:
+done.
+
+12/02 14:29:20 DEBUG:
+
+
+12/02 14:29:21 DEBUG:
+Columns = 92
+
+12/02 14:29:21 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:21 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:21 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Aeromonadales; Aeromonadaceae; Aeromonas; Aeromonas veronii:
+
+12/02 14:29:21 DEBUG:
+	1 query sequences.
+
+12/02 14:29:21 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:21 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:21 DEBUG:
+Building HMM profile... 
+12/02 14:29:21 DEBUG:
+done.
+
+12/02 14:29:21 DEBUG:
+
+
+12/02 14:29:22 DEBUG:
+Columns = 92
+
+12/02 14:29:22 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:22 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:22 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae; Alteromonas; Alteromonas mediterranea:
+
+12/02 14:29:22 DEBUG:
+	1 query sequences.
+
+12/02 14:29:22 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:22 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:22 DEBUG:
+Building HMM profile... 
+12/02 14:29:22 DEBUG:
+done.
+
+12/02 14:29:23 DEBUG:
+
+
+12/02 14:29:23 DEBUG:
+Columns = 92
+
+12/02 14:29:23 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:23 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:23 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae; Alteromonas; Alteromonas naphthalenivorans:
+
+12/02 14:29:23 DEBUG:
+	1 query sequences.
+
+12/02 14:29:23 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:23 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:23 DEBUG:
+Building HMM profile... 
+12/02 14:29:24 DEBUG:
+done.
+
+12/02 14:29:24 DEBUG:
+
+
+12/02 14:29:24 DEBUG:
+Columns = 92
+
+12/02 14:29:24 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:24 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:24 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae; Marinobacter; Marinobacter adhaerens:
+
+12/02 14:29:24 DEBUG:
+	1 query sequences.
+
+12/02 14:29:24 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:25 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:25 DEBUG:
+Building HMM profile... 
+12/02 14:29:25 DEBUG:
+done.
+
+12/02 14:29:25 DEBUG:
+
+
+12/02 14:29:25 DEBUG:
+Columns = 92
+
+12/02 14:29:25 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:25 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:25 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae; Marinobacter; Marinobacter algicola:
+
+12/02 14:29:25 DEBUG:
+	1 query sequences.
+
+12/02 14:29:25 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:26 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:26 DEBUG:
+Building HMM profile... 
+12/02 14:29:26 DEBUG:
+done.
+
+12/02 14:29:26 DEBUG:
+
+
+12/02 14:29:26 DEBUG:
+Columns = 92
+
+12/02 14:29:26 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:26 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:26 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae; Marinobacter; Marinobacter hydrocarbonoclasticus:
+
+12/02 14:29:26 DEBUG:
+	1 query sequences.
+
+12/02 14:29:26 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:27 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:27 DEBUG:
+Building HMM profile... 
+12/02 14:29:27 DEBUG:
+done.
+
+12/02 14:29:27 DEBUG:
+
+
+12/02 14:29:27 DEBUG:
+Columns = 92
+
+12/02 14:29:27 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:27 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:27 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Pseudoalteromonadaceae; Pseudoalteromonas; Pseudoalteromonas atlantica:
+
+12/02 14:29:27 DEBUG:
+	1 query sequences.
+
+12/02 14:29:27 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:28 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:28 DEBUG:
+Building HMM profile... 
+12/02 14:29:28 DEBUG:
+done.
+
+12/02 14:29:28 DEBUG:
+
+
+12/02 14:29:28 DEBUG:
+Columns = 92
+
+12/02 14:29:28 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:28 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:29 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Pseudoalteromonadaceae; Pseudoalteromonas; Pseudoalteromonas haloplanktis:
+
+12/02 14:29:29 DEBUG:
+	2 query sequences.
+
+12/02 14:29:29 DEBUG:
+	65 sequences pruned from tree.
+
+12/02 14:29:29 DEBUG:
+	286 leaves in pruned tree.
+
+12/02 14:29:29 DEBUG:
+Building HMM profile... 
+12/02 14:29:29 DEBUG:
+done.
+
+12/02 14:29:29 DEBUG:
+
+
+12/02 14:29:29 DEBUG:
+Columns = 92
+
+12/02 14:29:29 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:29 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:30 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Pseudoalteromonadaceae; Pseudoalteromonas; Pseudoalteromonas tunicata:
+
+12/02 14:29:30 DEBUG:
+	1 query sequences.
+
+12/02 14:29:30 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:30 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:30 DEBUG:
+Building HMM profile... 
+12/02 14:29:30 DEBUG:
+done.
+
+12/02 14:29:30 DEBUG:
+
+
+12/02 14:29:30 DEBUG:
+Columns = 92
+
+12/02 14:29:30 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:30 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:31 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella amazonensis:
+
+12/02 14:29:31 DEBUG:
+	1 query sequences.
+
+12/02 14:29:31 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:31 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:31 DEBUG:
+Building HMM profile... 
+12/02 14:29:31 DEBUG:
+done.
+
+12/02 14:29:31 DEBUG:
+
+
+12/02 14:29:32 DEBUG:
+Columns = 92
+
+12/02 14:29:32 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:32 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:32 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella baltica:
+
+12/02 14:29:32 DEBUG:
+	1 query sequences.
+
+12/02 14:29:32 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:32 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:32 DEBUG:
+Building HMM profile... 
+12/02 14:29:32 DEBUG:
+done.
+
+12/02 14:29:32 DEBUG:
+
+
+12/02 14:29:33 DEBUG:
+Columns = 92
+
+12/02 14:29:33 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:33 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:33 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella benthica:
+
+12/02 14:29:33 DEBUG:
+	1 query sequences.
+
+12/02 14:29:33 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:33 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:33 DEBUG:
+Building HMM profile... 
+12/02 14:29:33 DEBUG:
+done.
+
+12/02 14:29:33 DEBUG:
+
+
+12/02 14:29:34 DEBUG:
+Columns = 92
+
+12/02 14:29:34 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:34 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:34 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella denitrificans:
+
+12/02 14:29:34 DEBUG:
+	1 query sequences.
+
+12/02 14:29:34 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:34 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:34 DEBUG:
+Building HMM profile... 
+12/02 14:29:34 DEBUG:
+done.
+
+12/02 14:29:35 DEBUG:
+
+
+12/02 14:29:35 DEBUG:
+Columns = 92
+
+12/02 14:29:35 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:35 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:35 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella frigidimarina:
+
+12/02 14:29:35 DEBUG:
+	1 query sequences.
+
+12/02 14:29:35 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:35 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:35 DEBUG:
+Building HMM profile... 
+12/02 14:29:36 DEBUG:
+done.
+
+12/02 14:29:36 DEBUG:
+
+
+12/02 14:29:36 DEBUG:
+Columns = 92
+
+12/02 14:29:36 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:36 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:36 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella halifaxensis:
+
+12/02 14:29:36 DEBUG:
+	1 query sequences.
+
+12/02 14:29:36 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:36 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:36 DEBUG:
+Building HMM profile... 
+12/02 14:29:37 DEBUG:
+done.
+
+12/02 14:29:37 DEBUG:
+
+
+12/02 14:29:37 DEBUG:
+Columns = 92
+
+12/02 14:29:37 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:37 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:37 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella loihica:
+
+12/02 14:29:37 DEBUG:
+	1 query sequences.
+
+12/02 14:29:37 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:38 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:38 DEBUG:
+Building HMM profile... 
+12/02 14:29:38 DEBUG:
+done.
+
+12/02 14:29:38 DEBUG:
+
+
+12/02 14:29:38 DEBUG:
+Columns = 92
+
+12/02 14:29:38 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:38 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:38 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella oneidensis:
+
+12/02 14:29:38 DEBUG:
+	1 query sequences.
+
+12/02 14:29:38 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:39 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:39 DEBUG:
+Building HMM profile... 
+12/02 14:29:39 DEBUG:
+done.
+
+12/02 14:29:39 DEBUG:
+
+
+12/02 14:29:39 DEBUG:
+Columns = 92
+
+12/02 14:29:39 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:39 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:39 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella pealeana:
+
+12/02 14:29:39 DEBUG:
+	1 query sequences.
+
+12/02 14:29:39 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:40 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:40 DEBUG:
+Building HMM profile... 
+12/02 14:29:40 DEBUG:
+done.
+
+12/02 14:29:40 DEBUG:
+
+
+12/02 14:29:40 DEBUG:
+Columns = 92
+
+12/02 14:29:40 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:40 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:40 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella piezotolerans:
+
+12/02 14:29:40 DEBUG:
+	1 query sequences.
+
+12/02 14:29:40 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:41 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:41 DEBUG:
+Building HMM profile... 
+12/02 14:29:41 DEBUG:
+done.
+
+12/02 14:29:41 DEBUG:
+
+
+12/02 14:29:41 DEBUG:
+Columns = 92
+
+12/02 14:29:41 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:41 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:42 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella putrefaciens:
+
+12/02 14:29:42 DEBUG:
+	1 query sequences.
+
+12/02 14:29:42 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:42 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:42 DEBUG:
+Building HMM profile... 
+12/02 14:29:42 DEBUG:
+done.
+
+12/02 14:29:42 DEBUG:
+
+
+12/02 14:29:42 DEBUG:
+Columns = 92
+
+12/02 14:29:42 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:42 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:43 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella sediminis:
+
+12/02 14:29:43 DEBUG:
+	1 query sequences.
+
+12/02 14:29:43 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:43 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:43 DEBUG:
+Building HMM profile... 
+12/02 14:29:43 DEBUG:
+done.
+
+12/02 14:29:43 DEBUG:
+
+
+12/02 14:29:44 DEBUG:
+Columns = 92
+
+12/02 14:29:44 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:44 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:44 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella violacea:
+
+12/02 14:29:44 DEBUG:
+	1 query sequences.
+
+12/02 14:29:44 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:44 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:44 DEBUG:
+Building HMM profile... 
+12/02 14:29:44 DEBUG:
+done.
+
+12/02 14:29:44 DEBUG:
+
+
+12/02 14:29:45 DEBUG:
+Columns = 92
+
+12/02 14:29:45 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:45 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:45 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella woodyi:
+
+12/02 14:29:45 DEBUG:
+	1 query sequences.
+
+12/02 14:29:45 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:45 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:45 DEBUG:
+Building HMM profile... 
+12/02 14:29:45 DEBUG:
+done.
+
+12/02 14:29:45 DEBUG:
+
+
+12/02 14:29:46 DEBUG:
+Columns = 92
+
+12/02 14:29:46 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:46 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:46 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Ectothiorhodospiraceae; Thioalkalivibrio; Thioalkalivibrio nitratireducens:
+
+12/02 14:29:46 DEBUG:
+	3 query sequences.
+
+12/02 14:29:46 DEBUG:
+	66 sequences pruned from tree.
+
+12/02 14:29:46 DEBUG:
+	285 leaves in pruned tree.
+
+12/02 14:29:46 DEBUG:
+Building HMM profile... 
+12/02 14:29:47 DEBUG:
+done.
+
+12/02 14:29:47 DEBUG:
+
+
+12/02 14:29:47 DEBUG:
+Columns = 93
+
+12/02 14:29:47 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:47 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:47 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Ectothiorhodospiraceae; Thioalkalivibrio; Thioalkalivibrio sulfidiphilus:
+
+12/02 14:29:47 DEBUG:
+	3 query sequences.
+
+12/02 14:29:47 DEBUG:
+	66 sequences pruned from tree.
+
+12/02 14:29:47 DEBUG:
+	285 leaves in pruned tree.
+
+12/02 14:29:47 DEBUG:
+Building HMM profile... 
+12/02 14:29:48 DEBUG:
+done.
+
+12/02 14:29:48 DEBUG:
+
+
+12/02 14:29:48 DEBUG:
+Columns = 89
+
+12/02 14:29:48 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:48 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:48 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; Citrobacter; Citrobacter koseri:
+
+12/02 14:29:48 DEBUG:
+	1 query sequences.
+
+12/02 14:29:48 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:49 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:49 DEBUG:
+Building HMM profile... 
+12/02 14:29:49 DEBUG:
+done.
+
+12/02 14:29:49 DEBUG:
+
+
+12/02 14:29:49 DEBUG:
+Columns = 92
+
+12/02 14:29:49 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:49 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:49 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; Citrobacter; Citrobacter rodentium:
+
+12/02 14:29:49 DEBUG:
+	1 query sequences.
+
+12/02 14:29:49 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:50 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:50 DEBUG:
+Building HMM profile... 
+12/02 14:29:50 DEBUG:
+done.
+
+12/02 14:29:50 DEBUG:
+
+
+12/02 14:29:50 DEBUG:
+Columns = 92
+
+12/02 14:29:50 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:50 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:50 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; Klebsiella; Klebsiella aerogenes:
+
+12/02 14:29:50 DEBUG:
+	1 query sequences.
+
+12/02 14:29:50 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:51 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:51 DEBUG:
+Building HMM profile... 
+12/02 14:29:51 DEBUG:
+done.
+
+12/02 14:29:51 DEBUG:
+
+
+12/02 14:29:51 DEBUG:
+Columns = 92
+
+12/02 14:29:51 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:51 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:51 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; Klebsiella; Klebsiella michiganensis:
+
+12/02 14:29:51 DEBUG:
+	1 query sequences.
+
+12/02 14:29:51 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:52 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:52 DEBUG:
+Building HMM profile... 
+12/02 14:29:52 DEBUG:
+done.
+
+12/02 14:29:52 DEBUG:
+
+
+12/02 14:29:52 DEBUG:
+Columns = 92
+
+12/02 14:29:52 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:52 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:53 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Erwiniaceae; Erwinia; Erwinia billingiae:
+
+12/02 14:29:53 DEBUG:
+	1 query sequences.
+
+12/02 14:29:53 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:53 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:53 DEBUG:
+Building HMM profile... 
+12/02 14:29:53 DEBUG:
+done.
+
+12/02 14:29:53 DEBUG:
+
+
+12/02 14:29:53 DEBUG:
+Columns = 92
+
+12/02 14:29:53 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:53 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:54 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Erwiniaceae; Erwinia; Erwinia pyrifoliae:
+
+12/02 14:29:54 DEBUG:
+	1 query sequences.
+
+12/02 14:29:54 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:54 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:54 DEBUG:
+Building HMM profile... 
+12/02 14:29:54 DEBUG:
+done.
+
+12/02 14:29:54 DEBUG:
+
+
+12/02 14:29:54 DEBUG:
+Columns = 92
+
+12/02 14:29:54 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:54 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:55 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Erwiniaceae; Erwinia; Erwinia tasmaniensis:
+
+12/02 14:29:55 DEBUG:
+	1 query sequences.
+
+12/02 14:29:55 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:55 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:55 DEBUG:
+Building HMM profile... 
+12/02 14:29:55 DEBUG:
+done.
+
+12/02 14:29:55 DEBUG:
+
+
+12/02 14:29:56 DEBUG:
+Columns = 92
+
+12/02 14:29:56 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:56 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:56 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Morganellaceae; Photorhabdus; Photorhabdus asymbiotica:
+
+12/02 14:29:56 DEBUG:
+	1 query sequences.
+
+12/02 14:29:56 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:56 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:56 DEBUG:
+Building HMM profile... 
+12/02 14:29:56 DEBUG:
+done.
+
+12/02 14:29:56 DEBUG:
+
+
+12/02 14:29:57 DEBUG:
+Columns = 92
+
+12/02 14:29:57 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:57 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:57 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Morganellaceae; Photorhabdus; Photorhabdus laumondii:
+
+12/02 14:29:57 DEBUG:
+	1 query sequences.
+
+12/02 14:29:57 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:57 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:57 DEBUG:
+Building HMM profile... 
+12/02 14:29:57 DEBUG:
+done.
+
+12/02 14:29:57 DEBUG:
+
+
+12/02 14:29:58 DEBUG:
+Columns = 92
+
+12/02 14:29:58 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:58 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:58 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Morganellaceae; Providencia; Providencia rettgeri:
+
+12/02 14:29:58 DEBUG:
+	1 query sequences.
+
+12/02 14:29:58 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:58 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:58 DEBUG:
+Building HMM profile... 
+12/02 14:29:58 DEBUG:
+done.
+
+12/02 14:29:59 DEBUG:
+
+
+12/02 14:29:59 DEBUG:
+Columns = 92
+
+12/02 14:29:59 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:29:59 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:29:59 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Morganellaceae; Providencia; Providencia rustigianii:
+
+12/02 14:29:59 DEBUG:
+	1 query sequences.
+
+12/02 14:29:59 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:29:59 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:29:59 DEBUG:
+Building HMM profile... 
+12/02 14:30:00 DEBUG:
+done.
+
+12/02 14:30:00 DEBUG:
+
+
+12/02 14:30:00 DEBUG:
+Columns = 92
+
+12/02 14:30:00 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:00 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:00 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Morganellaceae; Providencia; Providencia stuartii:
+
+12/02 14:30:00 DEBUG:
+	1 query sequences.
+
+12/02 14:30:00 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:00 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:00 DEBUG:
+Building HMM profile... 
+12/02 14:30:01 DEBUG:
+done.
+
+12/02 14:30:01 DEBUG:
+
+
+12/02 14:30:01 DEBUG:
+Columns = 92
+
+12/02 14:30:01 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:01 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:01 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Morganellaceae; Xenorhabdus; Xenorhabdus bovienii:
+
+12/02 14:30:01 DEBUG:
+	1 query sequences.
+
+12/02 14:30:01 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:02 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:02 DEBUG:
+Building HMM profile... 
+12/02 14:30:02 DEBUG:
+done.
+
+12/02 14:30:02 DEBUG:
+
+
+12/02 14:30:02 DEBUG:
+Columns = 92
+
+12/02 14:30:02 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:02 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:02 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Morganellaceae; Xenorhabdus; Xenorhabdus nematophila:
+
+12/02 14:30:02 DEBUG:
+	1 query sequences.
+
+12/02 14:30:02 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:03 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:03 DEBUG:
+Building HMM profile... 
+12/02 14:30:03 DEBUG:
+done.
+
+12/02 14:30:03 DEBUG:
+
+
+12/02 14:30:03 DEBUG:
+Columns = 92
+
+12/02 14:30:03 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:03 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:03 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Pectobacteriaceae; Dickeya; Dickeya dadantii:
+
+12/02 14:30:03 DEBUG:
+	1 query sequences.
+
+12/02 14:30:03 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:04 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:04 DEBUG:
+Building HMM profile... 
+12/02 14:30:04 DEBUG:
+done.
+
+12/02 14:30:04 DEBUG:
+
+
+12/02 14:30:04 DEBUG:
+Columns = 92
+
+12/02 14:30:04 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:04 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:05 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Pectobacteriaceae; Dickeya; Dickeya paradisiaca:
+
+12/02 14:30:05 DEBUG:
+	1 query sequences.
+
+12/02 14:30:05 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:05 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:05 DEBUG:
+Building HMM profile... 
+12/02 14:30:05 DEBUG:
+done.
+
+12/02 14:30:05 DEBUG:
+
+
+12/02 14:30:05 DEBUG:
+Columns = 92
+
+12/02 14:30:05 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:05 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:06 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Pectobacteriaceae; Dickeya; Dickeya zeae:
+
+12/02 14:30:06 DEBUG:
+	1 query sequences.
+
+12/02 14:30:06 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:06 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:06 DEBUG:
+Building HMM profile... 
+12/02 14:30:06 DEBUG:
+done.
+
+12/02 14:30:06 DEBUG:
+
+
+12/02 14:30:06 DEBUG:
+Columns = 92
+
+12/02 14:30:06 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:06 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:07 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Pectobacteriaceae; Pectobacterium; Pectobacterium carotovorum:
+
+12/02 14:30:07 DEBUG:
+	1 query sequences.
+
+12/02 14:30:07 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:07 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:07 DEBUG:
+Building HMM profile... 
+12/02 14:30:07 DEBUG:
+done.
+
+12/02 14:30:07 DEBUG:
+
+
+12/02 14:30:08 DEBUG:
+Columns = 92
+
+12/02 14:30:08 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:08 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:08 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Pectobacteriaceae; Pectobacterium; Pectobacterium parmentieri:
+
+12/02 14:30:08 DEBUG:
+	1 query sequences.
+
+12/02 14:30:08 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:08 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:08 DEBUG:
+Building HMM profile... 
+12/02 14:30:08 DEBUG:
+done.
+
+12/02 14:30:08 DEBUG:
+
+
+12/02 14:30:09 DEBUG:
+Columns = 92
+
+12/02 14:30:09 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:09 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:09 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Yersiniaceae; Serratia; Serratia odorifera:
+
+12/02 14:30:09 DEBUG:
+	1 query sequences.
+
+12/02 14:30:09 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:09 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:09 DEBUG:
+Building HMM profile... 
+12/02 14:30:09 DEBUG:
+done.
+
+12/02 14:30:09 DEBUG:
+
+
+12/02 14:30:10 DEBUG:
+Columns = 92
+
+12/02 14:30:10 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:10 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:10 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Yersiniaceae; Serratia; Serratia plymuthica:
+
+12/02 14:30:10 DEBUG:
+	1 query sequences.
+
+12/02 14:30:10 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:10 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:10 DEBUG:
+Building HMM profile... 
+12/02 14:30:10 DEBUG:
+done.
+
+12/02 14:30:11 DEBUG:
+
+
+12/02 14:30:11 DEBUG:
+Columns = 92
+
+12/02 14:30:11 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:11 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:11 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Yersiniaceae; Serratia; Serratia proteamaculans:
+
+12/02 14:30:11 DEBUG:
+	1 query sequences.
+
+12/02 14:30:11 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:11 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:11 DEBUG:
+Building HMM profile... 
+12/02 14:30:12 DEBUG:
+done.
+
+12/02 14:30:12 DEBUG:
+
+
+12/02 14:30:12 DEBUG:
+Columns = 92
+
+12/02 14:30:12 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:12 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:12 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Yersiniaceae; Serratia; Serratia symbiotica:
+
+12/02 14:30:12 DEBUG:
+	1 query sequences.
+
+12/02 14:30:12 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:12 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:12 DEBUG:
+Building HMM profile... 
+12/02 14:30:13 DEBUG:
+done.
+
+12/02 14:30:13 DEBUG:
+
+
+12/02 14:30:13 DEBUG:
+Columns = 92
+
+12/02 14:30:13 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:13 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:13 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Yersiniaceae; Yersinia; Yersinia enterocolitica:
+
+12/02 14:30:13 DEBUG:
+	1 query sequences.
+
+12/02 14:30:13 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:14 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:14 DEBUG:
+Building HMM profile... 
+12/02 14:30:14 DEBUG:
+done.
+
+12/02 14:30:14 DEBUG:
+
+
+12/02 14:30:14 DEBUG:
+Columns = 92
+
+12/02 14:30:14 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:14 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:14 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Yersiniaceae; Yersinia; Yersinia pestis:
+
+12/02 14:30:14 DEBUG:
+	1 query sequences.
+
+12/02 14:30:14 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:15 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:15 DEBUG:
+Building HMM profile... 
+12/02 14:30:15 DEBUG:
+done.
+
+12/02 14:30:15 DEBUG:
+
+
+12/02 14:30:15 DEBUG:
+Columns = 92
+
+12/02 14:30:15 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:15 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:15 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Methylococcales; Methylococcaceae; Methylomicrobium; Methylomicrobium agile:
+
+12/02 14:30:15 DEBUG:
+	1 query sequences.
+
+12/02 14:30:15 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:16 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:16 DEBUG:
+Building HMM profile... 
+12/02 14:30:16 DEBUG:
+done.
+
+12/02 14:30:16 DEBUG:
+
+
+12/02 14:30:16 DEBUG:
+Columns = 92
+
+12/02 14:30:16 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:16 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:17 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Methylococcales; Methylococcaceae; Methylomicrobium; Methylomicrobium alcaliphilum:
+
+12/02 14:30:17 DEBUG:
+	1 query sequences.
+
+12/02 14:30:17 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:17 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:17 DEBUG:
+Building HMM profile... 
+12/02 14:30:17 DEBUG:
+done.
+
+12/02 14:30:17 DEBUG:
+
+
+12/02 14:30:17 DEBUG:
+Columns = 92
+
+12/02 14:30:17 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:17 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:18 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales; Oceanospirillaceae; Marinomonas; Marinomonas mediterranea:
+
+12/02 14:30:18 DEBUG:
+	1 query sequences.
+
+12/02 14:30:18 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:18 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:18 DEBUG:
+Building HMM profile... 
+12/02 14:30:18 DEBUG:
+done.
+
+12/02 14:30:18 DEBUG:
+
+
+12/02 14:30:18 DEBUG:
+Columns = 92
+
+12/02 14:30:18 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:18 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:19 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales; Oceanospirillaceae; Marinomonas; Marinomonas posidonica:
+
+12/02 14:30:19 DEBUG:
+	1 query sequences.
+
+12/02 14:30:19 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:19 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:19 DEBUG:
+Building HMM profile... 
+12/02 14:30:19 DEBUG:
+done.
+
+12/02 14:30:19 DEBUG:
+
+
+12/02 14:30:20 DEBUG:
+Columns = 92
+
+12/02 14:30:20 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:20 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:20 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Actinobacillus; Actinobacillus minor:
+
+12/02 14:30:20 DEBUG:
+	2 query sequences.
+
+12/02 14:30:20 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:20 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:20 DEBUG:
+Building HMM profile... 
+12/02 14:30:20 DEBUG:
+done.
+
+12/02 14:30:20 DEBUG:
+
+
+12/02 14:30:21 DEBUG:
+Columns = 93
+
+12/02 14:30:21 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:21 DEBUG:
+Read 289 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:21 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Actinobacillus; Actinobacillus pleuropneumoniae:
+
+12/02 14:30:21 DEBUG:
+	2 query sequences.
+
+12/02 14:30:21 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:21 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:21 DEBUG:
+Building HMM profile... 
+12/02 14:30:21 DEBUG:
+done.
+
+12/02 14:30:21 DEBUG:
+
+
+12/02 14:30:22 DEBUG:
+Columns = 93
+
+12/02 14:30:22 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:22 DEBUG:
+Read 289 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:22 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Actinobacillus; Actinobacillus succinogenes:
+
+12/02 14:30:22 DEBUG:
+	1 query sequences.
+
+12/02 14:30:22 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:22 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:22 DEBUG:
+Building HMM profile... 
+12/02 14:30:22 DEBUG:
+done.
+
+12/02 14:30:23 DEBUG:
+
+
+12/02 14:30:23 DEBUG:
+Columns = 92
+
+12/02 14:30:23 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:23 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:23 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Actinobacillus; Actinobacillus ureae:
+
+12/02 14:30:23 DEBUG:
+	1 query sequences.
+
+12/02 14:30:23 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:23 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:23 DEBUG:
+Building HMM profile... 
+12/02 14:30:24 DEBUG:
+done.
+
+12/02 14:30:24 DEBUG:
+
+
+12/02 14:30:24 DEBUG:
+Columns = 92
+
+12/02 14:30:24 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:24 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:24 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Aggregatibacter; Aggregatibacter actinomycetemcomitans:
+
+12/02 14:30:24 DEBUG:
+	1 query sequences.
+
+12/02 14:30:24 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:25 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:25 DEBUG:
+Building HMM profile... 
+12/02 14:30:25 DEBUG:
+done.
+
+12/02 14:30:25 DEBUG:
+
+
+12/02 14:30:25 DEBUG:
+Columns = 92
+
+12/02 14:30:25 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:25 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:25 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Aggregatibacter; Aggregatibacter aphrophilus:
+
+12/02 14:30:25 DEBUG:
+	1 query sequences.
+
+12/02 14:30:25 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:26 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:26 DEBUG:
+Building HMM profile... 
+12/02 14:30:26 DEBUG:
+done.
+
+12/02 14:30:26 DEBUG:
+
+
+12/02 14:30:26 DEBUG:
+Columns = 92
+
+12/02 14:30:26 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:26 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:26 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Aggregatibacter; Aggregatibacter segnis:
+
+12/02 14:30:26 DEBUG:
+	1 query sequences.
+
+12/02 14:30:26 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:27 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:27 DEBUG:
+Building HMM profile... 
+12/02 14:30:27 DEBUG:
+done.
+
+12/02 14:30:27 DEBUG:
+
+
+12/02 14:30:27 DEBUG:
+Columns = 92
+
+12/02 14:30:27 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:27 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:27 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Haemophilus; Haemophilus ducreyi:
+
+12/02 14:30:27 DEBUG:
+	1 query sequences.
+
+12/02 14:30:27 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:28 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:28 DEBUG:
+Building HMM profile... 
+12/02 14:30:28 DEBUG:
+done.
+
+12/02 14:30:28 DEBUG:
+
+
+12/02 14:30:28 DEBUG:
+Columns = 92
+
+12/02 14:30:28 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:28 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:29 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Haemophilus; Haemophilus haemolyticus:
+
+12/02 14:30:29 DEBUG:
+	2 query sequences.
+
+12/02 14:30:29 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:29 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:29 DEBUG:
+Building HMM profile... 
+12/02 14:30:29 DEBUG:
+done.
+
+12/02 14:30:29 DEBUG:
+
+
+12/02 14:30:29 DEBUG:
+Columns = 92
+
+12/02 14:30:29 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:29 DEBUG:
+Read 289 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:30 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Haemophilus; Haemophilus influenzae:
+
+12/02 14:30:30 DEBUG:
+	1 query sequences.
+
+12/02 14:30:30 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:30 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:30 DEBUG:
+Building HMM profile... 
+12/02 14:30:30 DEBUG:
+done.
+
+12/02 14:30:30 DEBUG:
+
+
+12/02 14:30:30 DEBUG:
+Columns = 92
+
+12/02 14:30:30 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:30 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:31 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Haemophilus; Haemophilus parainfluenzae:
+
+12/02 14:30:31 DEBUG:
+	1 query sequences.
+
+12/02 14:30:31 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:31 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:31 DEBUG:
+Building HMM profile... 
+12/02 14:30:31 DEBUG:
+done.
+
+12/02 14:30:31 DEBUG:
+
+
+12/02 14:30:32 DEBUG:
+Columns = 92
+
+12/02 14:30:32 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:32 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:32 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Haemophilus; Haemophilus pittmaniae:
+
+12/02 14:30:32 DEBUG:
+	1 query sequences.
+
+12/02 14:30:32 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:32 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:32 DEBUG:
+Building HMM profile... 
+12/02 14:30:32 DEBUG:
+done.
+
+12/02 14:30:32 DEBUG:
+
+
+12/02 14:30:33 DEBUG:
+Columns = 92
+
+12/02 14:30:33 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:33 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:33 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Pasteurella; Pasteurella dagmatis:
+
+12/02 14:30:33 DEBUG:
+	1 query sequences.
+
+12/02 14:30:33 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:33 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:33 DEBUG:
+Building HMM profile... 
+12/02 14:30:33 DEBUG:
+done.
+
+12/02 14:30:34 DEBUG:
+
+
+12/02 14:30:34 DEBUG:
+Columns = 92
+
+12/02 14:30:34 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:34 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:34 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Pasteurella; Pasteurella multocida:
+
+12/02 14:30:34 DEBUG:
+	1 query sequences.
+
+12/02 14:30:34 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:34 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:34 DEBUG:
+Building HMM profile... 
+12/02 14:30:35 DEBUG:
+done.
+
+12/02 14:30:35 DEBUG:
+
+
+12/02 14:30:35 DEBUG:
+Columns = 92
+
+12/02 14:30:35 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:35 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:35 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter; Acinetobacter baylyi:
+
+12/02 14:30:35 DEBUG:
+	1 query sequences.
+
+12/02 14:30:35 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:36 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:36 DEBUG:
+Building HMM profile... 
+12/02 14:30:36 DEBUG:
+done.
+
+12/02 14:30:36 DEBUG:
+
+
+12/02 14:30:36 DEBUG:
+Columns = 92
+
+12/02 14:30:36 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:36 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:36 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter; Acinetobacter johnsonii:
+
+12/02 14:30:36 DEBUG:
+	1 query sequences.
+
+12/02 14:30:36 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:37 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:37 DEBUG:
+Building HMM profile... 
+12/02 14:30:37 DEBUG:
+done.
+
+12/02 14:30:37 DEBUG:
+
+
+12/02 14:30:37 DEBUG:
+Columns = 92
+
+12/02 14:30:37 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:37 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:38 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter; Acinetobacter junii:
+
+12/02 14:30:38 DEBUG:
+	1 query sequences.
+
+12/02 14:30:38 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:38 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:38 DEBUG:
+Building HMM profile... 
+12/02 14:30:38 DEBUG:
+done.
+
+12/02 14:30:38 DEBUG:
+
+
+12/02 14:30:39 DEBUG:
+Columns = 92
+
+12/02 14:30:39 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:39 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:39 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter; Acinetobacter lwoffii:
+
+12/02 14:30:39 DEBUG:
+	1 query sequences.
+
+12/02 14:30:39 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:39 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:39 DEBUG:
+Building HMM profile... 
+12/02 14:30:39 DEBUG:
+done.
+
+12/02 14:30:39 DEBUG:
+
+
+12/02 14:30:40 DEBUG:
+Columns = 92
+
+12/02 14:30:40 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:40 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:40 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter; Acinetobacter oleivorans:
+
+12/02 14:30:40 DEBUG:
+	1 query sequences.
+
+12/02 14:30:40 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:40 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:40 DEBUG:
+Building HMM profile... 
+12/02 14:30:41 DEBUG:
+done.
+
+12/02 14:30:41 DEBUG:
+
+
+12/02 14:30:41 DEBUG:
+Columns = 92
+
+12/02 14:30:41 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:41 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:41 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter; Acinetobacter radioresistens:
+
+12/02 14:30:41 DEBUG:
+	1 query sequences.
+
+12/02 14:30:41 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:42 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:42 DEBUG:
+Building HMM profile... 
+12/02 14:30:42 DEBUG:
+done.
+
+12/02 14:30:42 DEBUG:
+
+
+12/02 14:30:42 DEBUG:
+Columns = 92
+
+12/02 14:30:42 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:42 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:42 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Psychrobacter; Psychrobacter arcticus:
+
+12/02 14:30:42 DEBUG:
+	1 query sequences.
+
+12/02 14:30:42 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:43 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:43 DEBUG:
+Building HMM profile... 
+12/02 14:30:43 DEBUG:
+done.
+
+12/02 14:30:43 DEBUG:
+
+
+12/02 14:30:43 DEBUG:
+Columns = 92
+
+12/02 14:30:43 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:43 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:43 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Psychrobacter; Psychrobacter cryohalolentis:
+
+12/02 14:30:43 DEBUG:
+	1 query sequences.
+
+12/02 14:30:43 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:44 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:44 DEBUG:
+Building HMM profile... 
+12/02 14:30:44 DEBUG:
+done.
+
+12/02 14:30:44 DEBUG:
+
+
+12/02 14:30:44 DEBUG:
+Columns = 92
+
+12/02 14:30:44 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:44 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:45 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas aeruginosa:
+
+12/02 14:30:45 DEBUG:
+	1 query sequences.
+
+12/02 14:30:45 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:45 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:45 DEBUG:
+Building HMM profile... 
+12/02 14:30:45 DEBUG:
+done.
+
+12/02 14:30:45 DEBUG:
+
+
+12/02 14:30:45 DEBUG:
+Columns = 92
+
+12/02 14:30:45 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:45 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:46 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas entomophila:
+
+12/02 14:30:46 DEBUG:
+	1 query sequences.
+
+12/02 14:30:46 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:46 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:46 DEBUG:
+Building HMM profile... 
+12/02 14:30:46 DEBUG:
+done.
+
+12/02 14:30:46 DEBUG:
+
+
+12/02 14:30:47 DEBUG:
+Columns = 92
+
+12/02 14:30:47 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:47 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:47 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas fluorescens:
+
+12/02 14:30:47 DEBUG:
+	4 query sequences.
+
+12/02 14:30:47 DEBUG:
+	67 sequences pruned from tree.
+
+12/02 14:30:47 DEBUG:
+	284 leaves in pruned tree.
+
+12/02 14:30:47 DEBUG:
+Building HMM profile... 
+12/02 14:30:47 DEBUG:
+done.
+
+12/02 14:30:47 DEBUG:
+
+
+12/02 14:30:48 DEBUG:
+Columns = 92
+
+12/02 14:30:48 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:48 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:48 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas fulva:
+
+12/02 14:30:48 DEBUG:
+	1 query sequences.
+
+12/02 14:30:48 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:48 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:48 DEBUG:
+Building HMM profile... 
+12/02 14:30:48 DEBUG:
+done.
+
+12/02 14:30:49 DEBUG:
+
+
+12/02 14:30:49 DEBUG:
+Columns = 92
+
+12/02 14:30:49 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:49 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:49 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas mendocina:
+
+12/02 14:30:49 DEBUG:
+	2 query sequences.
+
+12/02 14:30:49 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:49 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:49 DEBUG:
+Building HMM profile... 
+12/02 14:30:50 DEBUG:
+done.
+
+12/02 14:30:50 DEBUG:
+
+
+12/02 14:30:50 DEBUG:
+Columns = 93
+
+12/02 14:30:50 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:50 DEBUG:
+Read 289 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:50 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas protegens:
+
+12/02 14:30:50 DEBUG:
+	1 query sequences.
+
+12/02 14:30:50 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:50 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:50 DEBUG:
+Building HMM profile... 
+12/02 14:30:51 DEBUG:
+done.
+
+12/02 14:30:51 DEBUG:
+
+
+12/02 14:30:51 DEBUG:
+Columns = 92
+
+12/02 14:30:51 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:51 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:51 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas putida:
+
+12/02 14:30:51 DEBUG:
+	5 query sequences.
+
+12/02 14:30:51 DEBUG:
+	66 sequences pruned from tree.
+
+12/02 14:30:52 DEBUG:
+	285 leaves in pruned tree.
+
+12/02 14:30:52 DEBUG:
+Building HMM profile... 
+12/02 14:30:52 DEBUG:
+done.
+
+12/02 14:30:52 DEBUG:
+
+
+12/02 14:30:52 DEBUG:
+Columns = 93
+
+12/02 14:30:52 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:52 DEBUG:
+Read 290 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:52 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas savastanoi:
+
+12/02 14:30:52 DEBUG:
+	1 query sequences.
+
+12/02 14:30:52 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:53 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:53 DEBUG:
+Building HMM profile... 
+12/02 14:30:53 DEBUG:
+done.
+
+12/02 14:30:53 DEBUG:
+
+
+12/02 14:30:53 DEBUG:
+Columns = 92
+
+12/02 14:30:53 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:53 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:53 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas stutzeri subgroup:
+
+12/02 14:30:53 DEBUG:
+	1 query sequences.
+
+12/02 14:30:53 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:54 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:54 DEBUG:
+Building HMM profile... 
+12/02 14:30:54 DEBUG:
+done.
+
+12/02 14:30:54 DEBUG:
+
+
+12/02 14:30:54 DEBUG:
+Columns = 92
+
+12/02 14:30:54 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:54 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:55 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas syringae:
+
+12/02 14:30:55 DEBUG:
+	3 query sequences.
+
+12/02 14:30:55 DEBUG:
+	66 sequences pruned from tree.
+
+12/02 14:30:55 DEBUG:
+	285 leaves in pruned tree.
+
+12/02 14:30:55 DEBUG:
+Building HMM profile... 
+12/02 14:30:55 DEBUG:
+done.
+
+12/02 14:30:55 DEBUG:
+
+
+12/02 14:30:55 DEBUG:
+Columns = 92
+
+12/02 14:30:55 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:55 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:56 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas syringae pv. maculicola:
+
+12/02 14:30:56 DEBUG:
+	1 query sequences.
+
+12/02 14:30:56 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:56 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:56 DEBUG:
+Building HMM profile... 
+12/02 14:30:56 DEBUG:
+done.
+
+12/02 14:30:56 DEBUG:
+
+
+12/02 14:30:56 DEBUG:
+Columns = 92
+
+12/02 14:30:56 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:56 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:57 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas syringae pv. tomato:
+
+12/02 14:30:57 DEBUG:
+	1 query sequences.
+
+12/02 14:30:57 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:57 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:57 DEBUG:
+Building HMM profile... 
+12/02 14:30:57 DEBUG:
+done.
+
+12/02 14:30:57 DEBUG:
+
+
+12/02 14:30:58 DEBUG:
+Columns = 92
+
+12/02 14:30:58 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:58 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:58 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Thiotrichales; Francisellaceae; Francisella; Francisella philomiragia:
+
+12/02 14:30:58 DEBUG:
+	1 query sequences.
+
+12/02 14:30:58 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:58 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:58 DEBUG:
+Building HMM profile... 
+12/02 14:30:58 DEBUG:
+done.
+
+12/02 14:30:58 DEBUG:
+
+
+12/02 14:30:59 DEBUG:
+Columns = 92
+
+12/02 14:30:59 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:30:59 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:30:59 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Thiotrichales; Francisellaceae; Francisella; Francisella salina:
+
+12/02 14:30:59 DEBUG:
+	1 query sequences.
+
+12/02 14:30:59 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:30:59 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:30:59 DEBUG:
+Building HMM profile... 
+12/02 14:30:59 DEBUG:
+done.
+
+12/02 14:30:59 DEBUG:
+
+
+12/02 14:31:00 DEBUG:
+Columns = 92
+
+12/02 14:31:00 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:31:00 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:31:00 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Thiotrichales; Francisellaceae; Francisella; Francisella tularensis:
+
+12/02 14:31:00 DEBUG:
+	2 query sequences.
+
+12/02 14:31:00 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:31:00 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:31:00 DEBUG:
+Building HMM profile... 
+12/02 14:31:00 DEBUG:
+done.
+
+12/02 14:31:00 DEBUG:
+
+
+12/02 14:31:01 DEBUG:
+Columns = 92
+
+12/02 14:31:01 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:31:01 DEBUG:
+Read 289 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:31:01 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Aliivibrio; Aliivibrio fischeri:
+
+12/02 14:31:01 DEBUG:
+	1 query sequences.
+
+12/02 14:31:01 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:31:01 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:31:01 DEBUG:
+Building HMM profile... 
+12/02 14:31:02 DEBUG:
+done.
+
+12/02 14:31:02 DEBUG:
+
+
+12/02 14:31:02 DEBUG:
+Columns = 92
+
+12/02 14:31:02 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:31:02 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:31:02 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Aliivibrio; Aliivibrio salmonicida:
+
+12/02 14:31:02 DEBUG:
+	1 query sequences.
+
+12/02 14:31:02 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:31:03 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:31:03 DEBUG:
+Building HMM profile... 
+12/02 14:31:03 DEBUG:
+done.
+
+12/02 14:31:03 DEBUG:
+
+
+12/02 14:31:03 DEBUG:
+Columns = 92
+
+12/02 14:31:03 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:31:03 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:31:03 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Photobacterium; Photobacterium angustum:
+
+12/02 14:31:03 DEBUG:
+	1 query sequences.
+
+12/02 14:31:03 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:31:04 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:31:04 DEBUG:
+Building HMM profile... 
+12/02 14:31:04 DEBUG:
+done.
+
+12/02 14:31:04 DEBUG:
+
+
+12/02 14:31:04 DEBUG:
+Columns = 92
+
+12/02 14:31:04 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:31:04 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:31:05 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Photobacterium; Photobacterium damselae:
+
+12/02 14:31:05 DEBUG:
+	1 query sequences.
+
+12/02 14:31:05 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:31:05 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:31:05 DEBUG:
+Building HMM profile... 
+12/02 14:31:05 DEBUG:
+done.
+
+12/02 14:31:05 DEBUG:
+
+
+12/02 14:31:05 DEBUG:
+Columns = 92
+
+12/02 14:31:05 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:31:05 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:31:06 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Photobacterium; Photobacterium leiognathi:
+
+12/02 14:31:06 DEBUG:
+	1 query sequences.
+
+12/02 14:31:06 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:31:06 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:31:06 DEBUG:
+Building HMM profile... 
+12/02 14:31:06 DEBUG:
+done.
+
+12/02 14:31:06 DEBUG:
+
+
+12/02 14:31:07 DEBUG:
+Columns = 92
+
+12/02 14:31:07 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:31:07 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:31:07 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Photobacterium; Photobacterium profundum:
+
+12/02 14:31:07 DEBUG:
+	1 query sequences.
+
+12/02 14:31:07 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:31:07 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:31:07 DEBUG:
+Building HMM profile... 
+12/02 14:31:07 DEBUG:
+done.
+
+12/02 14:31:07 DEBUG:
+
+
+12/02 14:31:08 DEBUG:
+Columns = 92
+
+12/02 14:31:08 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:31:08 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:31:08 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio; Vibrio anguillarum:
+
+12/02 14:31:08 DEBUG:
+	1 query sequences.
+
+12/02 14:31:08 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:31:08 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:31:08 DEBUG:
+Building HMM profile... 
+12/02 14:31:09 DEBUG:
+done.
+
+12/02 14:31:09 DEBUG:
+
+
+12/02 14:31:09 DEBUG:
+Columns = 92
+
+12/02 14:31:09 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:31:09 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:31:09 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio; Vibrio brasiliensis:
+
+12/02 14:31:09 DEBUG:
+	1 query sequences.
+
+12/02 14:31:09 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:31:10 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:31:10 DEBUG:
+Building HMM profile... 
+12/02 14:31:10 DEBUG:
+done.
+
+12/02 14:31:10 DEBUG:
+
+
+12/02 14:31:10 DEBUG:
+Columns = 92
+
+12/02 14:31:10 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:31:10 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:31:10 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio; Vibrio caribbeanicus:
+
+12/02 14:31:10 DEBUG:
+	1 query sequences.
+
+12/02 14:31:10 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:31:11 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:31:11 DEBUG:
+Building HMM profile... 
+12/02 14:31:11 DEBUG:
+done.
+
+12/02 14:31:11 DEBUG:
+
+
+12/02 14:31:11 DEBUG:
+Columns = 92
+
+12/02 14:31:11 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:31:11 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:31:12 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio; Vibrio furnissii:
+
+12/02 14:31:12 DEBUG:
+	1 query sequences.
+
+12/02 14:31:12 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:31:12 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:31:12 DEBUG:
+Building HMM profile... 
+12/02 14:31:12 DEBUG:
+done.
+
+12/02 14:31:12 DEBUG:
+
+
+12/02 14:31:13 DEBUG:
+Columns = 92
+
+12/02 14:31:13 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:31:13 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:31:13 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio; Vibrio metschnikovii:
+
+12/02 14:31:13 DEBUG:
+	1 query sequences.
+
+12/02 14:31:13 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:31:13 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:31:13 DEBUG:
+Building HMM profile... 
+12/02 14:31:13 DEBUG:
+done.
+
+12/02 14:31:13 DEBUG:
+
+
+12/02 14:31:14 DEBUG:
+Columns = 92
+
+12/02 14:31:14 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:31:14 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:31:14 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio; Vibrio mimicus:
+
+12/02 14:31:14 DEBUG:
+	1 query sequences.
+
+12/02 14:31:14 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:31:14 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:31:14 DEBUG:
+Building HMM profile... 
+12/02 14:31:15 DEBUG:
+done.
+
+12/02 14:31:15 DEBUG:
+
+
+12/02 14:31:15 DEBUG:
+Columns = 92
+
+12/02 14:31:15 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:31:15 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:31:15 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio; Vibrio sinaloensis:
+
+12/02 14:31:15 DEBUG:
+	1 query sequences.
+
+12/02 14:31:15 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:31:15 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:31:15 DEBUG:
+Building HMM profile... 
+12/02 14:31:16 DEBUG:
+done.
+
+12/02 14:31:16 DEBUG:
+
+
+12/02 14:31:16 DEBUG:
+Columns = 92
+
+12/02 14:31:16 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:31:16 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:31:16 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio; Vibrio tasmaniensis:
+
+12/02 14:31:16 DEBUG:
+	1 query sequences.
+
+12/02 14:31:16 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:31:17 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:31:17 DEBUG:
+Building HMM profile... 
+12/02 14:31:17 DEBUG:
+done.
+
+12/02 14:31:17 DEBUG:
+
+
+12/02 14:31:17 DEBUG:
+Columns = 92
+
+12/02 14:31:17 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:31:17 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:31:18 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio; Vibrio vulnificus:
+
+12/02 14:31:18 DEBUG:
+	1 query sequences.
+
+12/02 14:31:18 DEBUG:
+	64 sequences pruned from tree.
+
+12/02 14:31:18 DEBUG:
+	287 leaves in pruned tree.
+
+12/02 14:31:18 DEBUG:
+Building HMM profile... 
+12/02 14:31:18 DEBUG:
+done.
+
+12/02 14:31:18 DEBUG:
+
+
+12/02 14:31:18 DEBUG:
+Columns = 92
+
+12/02 14:31:18 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:31:18 DEBUG:
+Read 288 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:31:19 DEBUG:
+RANK: Species
+	Samples = 154
+	Median = 0.1254
+	Mean = 0.1865
+
+12/02 14:31:19 DEBUG:
+0 lineages truncated before Class were removed during lineage trimming.
+0 lineages unclassified at or before Class also removed.
+
+12/02 14:31:19 DEBUG:
+Testing placements for Bacteria; Actinobacteria; Actinobacteria:
+
+12/02 14:31:19 DEBUG:
+	10 query sequences.
+
+12/02 14:31:19 DEBUG:
+	7 sequences pruned from tree.
+
+12/02 14:31:19 DEBUG:
+	344 leaves in pruned tree.
+
+12/02 14:31:19 DEBUG:
+Building HMM profile... 
+12/02 14:31:19 DEBUG:
+done.
+
+12/02 14:31:19 DEBUG:
+
+
+12/02 14:31:20 DEBUG:
+Columns = 92
+
+12/02 14:31:20 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:31:20 DEBUG:
+Read 354 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:31:20 DEBUG:
+Testing placements for Bacteria; Actinobacteria; Coriobacteriia:
+
+12/02 14:31:20 DEBUG:
+	1 query sequences.
+
+12/02 14:31:20 DEBUG:
+	1 sequences pruned from tree.
+
+12/02 14:31:21 DEBUG:
+	350 leaves in pruned tree.
+
+12/02 14:31:21 DEBUG:
+Building HMM profile... 
+12/02 14:31:21 DEBUG:
+done.
+
+12/02 14:31:21 DEBUG:
+
+
+12/02 14:31:21 DEBUG:
+Columns = 92
+
+12/02 14:31:21 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:31:21 DEBUG:
+Read 351 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:31:21 DEBUG:
+Testing placements for Bacteria; Bacteroidetes; Bacteroidia:
+
+12/02 14:31:21 DEBUG:
+	1 query sequences.
+
+12/02 14:31:21 DEBUG:
+	1 sequences pruned from tree.
+
+12/02 14:31:22 DEBUG:
+	350 leaves in pruned tree.
+
+12/02 14:31:22 DEBUG:
+Building HMM profile... 
+12/02 14:31:22 DEBUG:
+done.
+
+12/02 14:31:22 DEBUG:
+
+
+12/02 14:31:22 DEBUG:
+Columns = 92
+
+12/02 14:31:22 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:31:22 DEBUG:
+Read 351 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:31:23 DEBUG:
+Testing placements for Bacteria; Bacteroidetes; Flavobacteriia:
+
+12/02 14:31:23 DEBUG:
+	1 query sequences.
+
+12/02 14:31:23 DEBUG:
+	1 sequences pruned from tree.
+
+12/02 14:31:23 DEBUG:
+	350 leaves in pruned tree.
+
+12/02 14:31:23 DEBUG:
+Building HMM profile... 
+12/02 14:31:23 DEBUG:
+done.
+
+12/02 14:31:23 DEBUG:
+
+
+12/02 14:31:24 DEBUG:
+Columns = 92
+
+12/02 14:31:24 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:31:24 DEBUG:
+Read 351 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:31:24 DEBUG:
+Testing placements for Bacteria; Chloroflexi; Anaerolineae:
+
+12/02 14:31:24 DEBUG:
+	1 query sequences.
+
+12/02 14:31:24 DEBUG:
+	1 sequences pruned from tree.
+
+12/02 14:31:24 DEBUG:
+	350 leaves in pruned tree.
+
+12/02 14:31:24 DEBUG:
+Building HMM profile... 
+12/02 14:31:25 DEBUG:
+done.
+
+12/02 14:31:25 DEBUG:
+
+
+12/02 14:31:25 DEBUG:
+Columns = 92
+
+12/02 14:31:25 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:31:25 DEBUG:
+Read 351 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:31:25 DEBUG:
+Testing placements for Bacteria; Chloroflexi; Caldilineae:
+
+12/02 14:31:25 DEBUG:
+	1 query sequences.
+
+12/02 14:31:25 DEBUG:
+	1 sequences pruned from tree.
+
+12/02 14:31:26 DEBUG:
+	350 leaves in pruned tree.
+
+12/02 14:31:26 DEBUG:
+Building HMM profile... 
+12/02 14:31:26 DEBUG:
+done.
+
+12/02 14:31:26 DEBUG:
+
+
+12/02 14:31:26 DEBUG:
+Columns = 92
+
+12/02 14:31:26 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:31:26 DEBUG:
+Read 351 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:31:27 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia:
+
+12/02 14:31:27 DEBUG:
+	16 query sequences.
+
+12/02 14:31:27 DEBUG:
+	16 sequences pruned from tree.
+
+12/02 14:31:27 DEBUG:
+	335 leaves in pruned tree.
+
+12/02 14:31:27 DEBUG:
+Building HMM profile... 
+12/02 14:31:27 DEBUG:
+done.
+
+12/02 14:31:27 DEBUG:
+
+
+12/02 14:31:28 DEBUG:
+Columns = 92
+
+12/02 14:31:28 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:31:28 DEBUG:
+Read 351 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:31:28 DEBUG:
+Testing placements for Bacteria; Firmicutes; Negativicutes:
+
+12/02 14:31:28 DEBUG:
+	2 query sequences.
+
+12/02 14:31:28 DEBUG:
+	2 sequences pruned from tree.
+
+12/02 14:31:28 DEBUG:
+	349 leaves in pruned tree.
+
+12/02 14:31:28 DEBUG:
+Building HMM profile... 
+12/02 14:31:29 DEBUG:
+done.
+
+12/02 14:31:29 DEBUG:
+
+
+12/02 14:31:29 DEBUG:
+Columns = 92
+
+12/02 14:31:29 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:31:29 DEBUG:
+Read 351 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:31:29 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Alphaproteobacteria:
+
+12/02 14:31:29 DEBUG:
+	5 query sequences.
+
+12/02 14:31:29 DEBUG:
+	5 sequences pruned from tree.
+
+12/02 14:31:30 DEBUG:
+	346 leaves in pruned tree.
+
+12/02 14:31:30 DEBUG:
+Building HMM profile... 
+12/02 14:31:30 DEBUG:
+done.
+
+12/02 14:31:30 DEBUG:
+
+
+12/02 14:31:30 DEBUG:
+Columns = 92
+
+12/02 14:31:30 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:31:30 DEBUG:
+Read 351 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:31:31 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Betaproteobacteria:
+
+12/02 14:31:31 DEBUG:
+	10 query sequences.
+
+12/02 14:31:31 DEBUG:
+	14 sequences pruned from tree.
+
+12/02 14:31:31 DEBUG:
+	337 leaves in pruned tree.
+
+12/02 14:31:31 DEBUG:
+Building HMM profile... 
+12/02 14:31:31 DEBUG:
+done.
+
+12/02 14:31:31 DEBUG:
+
+
+12/02 14:31:32 DEBUG:
+Columns = 92
+
+12/02 14:31:32 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:31:32 DEBUG:
+Read 347 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:31:32 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Deltaproteobacteria:
+
+12/02 14:31:32 DEBUG:
+	30 query sequences.
+
+12/02 14:31:32 DEBUG:
+	32 sequences pruned from tree.
+
+12/02 14:31:32 DEBUG:
+	319 leaves in pruned tree.
+
+12/02 14:31:32 DEBUG:
+Building HMM profile... 
+12/02 14:31:33 DEBUG:
+done.
+
+12/02 14:31:33 DEBUG:
+
+
+12/02 14:31:33 DEBUG:
+Columns = 95
+
+12/02 14:31:33 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:31:33 DEBUG:
+Read 349 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:31:33 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria:
+
+12/02 14:31:33 DEBUG:
+	30 query sequences.
+
+12/02 14:31:33 DEBUG:
+	232 sequences pruned from tree.
+
+12/02 14:31:33 DEBUG:
+	119 leaves in pruned tree.
+
+12/02 14:31:33 DEBUG:
+Building HMM profile... 
+12/02 14:31:33 DEBUG:
+done.
+
+12/02 14:31:34 DEBUG:
+
+
+12/02 14:31:34 DEBUG:
+Columns = 89
+
+12/02 14:31:34 DEBUG:
+Number of sequences discarded: 
+		Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+12/02 14:31:34 DEBUG:
+Read 149 headers from Sulfur_metabolism/DsrC/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+12/02 14:31:34 DEBUG:
+RANK: Class
+	Samples = 104
+	Median = 0.8128
+	Mean = 0.836
+
+12/02 14:31:34 INFO:
+Placement distance regression model complete.
+
+12/02 14:31:34 DEBUG:
+Read 351 headers from Sulfur_metabolism/DsrC/seed_refpkg/final_outputs/DsrC.fa.
+
+12/02 14:31:34 INFO:
+
+To integrate this package for use in TreeSAPP the following steps must be performed:
+1. Write a properly formatted reference package 'code' in /home/connor/Bioinformatics/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp/data/ref_build_parameters.tsv
+2. $ cp Sulfur_metabolism/DsrC/seed_refpkg/final_outputs/tax_ids_DsrC.txt Sulfur_metabolism/DsrC/seed_refpkg/final_outputs/DsrC_tree.txt Sulfur_metabolism/DsrC/seed_refpkg/final_outputs/DsrC_bestModel.txt /home/connor/Bioinformatics/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp/data/tree_data/
+3. $ cp Sulfur_metabolism/DsrC/seed_refpkg/final_outputs/DsrC.hmm /home/connor/Bioinformatics/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp/data/hmm_data/
+4. $ cp Sulfur_metabolism/DsrC/seed_refpkg/final_outputs/DsrC.fa /home/connor/Bioinformatics/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp/data/alignment_data/
+
+12/02 14:31:34 INFO:
+Data for DsrC has been generated successfully.
+
+12/02 14:31:34 INFO:
+TreeSAPP has finished successfully.
+

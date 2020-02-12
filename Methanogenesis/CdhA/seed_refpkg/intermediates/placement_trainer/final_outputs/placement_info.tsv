@@ -1,0 +1,128 @@
+#Marker	Rank	Lineage	Query.Name	Internal.Node	Placement.LWR	Tree.Likelihood	Dist.Distal	Dist.Pendant	Dist.MeanTip	Dist.Total
+CdhA	Species	Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales; Archaeoglobaceae; Archaeoglobus; Archaeoglobus fulgidus	224325.AF2397	94	1.0	-32901.7791075932	0.209414	0.188193	0.155318	0.55292
+CdhA	Species	Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales; Archaeoglobaceae; Archaeoglobus; Archaeoglobus fulgidus	224325.AF1100	67	1.0	-32745.9896641663	0.101222	0.046315	0.0	0.14754
+CdhA	Species	Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales; Archaeoglobaceae; Archaeoglobus; Archaeoglobus veneficus	693661.Arcve_1121	97	1.0	-33868.5754846889	0.124659	0.123655	0.089319	0.33763
+CdhA	Species	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanothermobacter; Methanothermobacter marburgensis	79929.MTBMA_c02870	45	1.0	-33610.3831214862	0.030111	0.016432	0.0	0.04654
+CdhA	Species	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanothermobacter; Methanothermobacter marburgensis	79929.MTBMA_c14210	103	1.0	-33673.526331827	0.098288	0.174776	0.0	0.27306
+CdhA	Species	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanothermobacter; Methanothermobacter marburgensis	79929.MTBMA_c14200	103	0.8184053495	-33702.2451775041	0.083435	0.384073	0.0	0.46751
+CdhA	Species	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanothermobacter; Methanothermobacter thermautotrophicus	187420.MTH1708	45	1.0	-33925.1709985008	0.022167	0.022408	0.0	0.04458
+CdhA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus fervens	573064.Mefer_0203	56	1.0	-33933.3297324639	0.021825	0.037118	0.038496	0.09744
+CdhA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus infernus	573063.Metin_1030	110	0.9689263541	-33409.786140049	0.059624	0.207402	0.440141	0.70717
+CdhA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus infernus	573063.Metin_1228	150	1.0	-33425.5161966478	0.036013	0.183265	0.064589	0.28387
+CdhA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus jannaschii	243232.MJ_0152	150	0.9997064439	-34025.9819831926	0.027468	0.038542	0.120441	0.18645
+CdhA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus jannaschii	243232.MJ_0153	55	1.0	-33897.388560222	0.046812	0.003604	0.0	0.05042
+CdhA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus vulcanius	579137.Metvu_1187	55	1.0	-33741.7509938751	0.003171	0.040049	0.0	0.04322
+CdhA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus vulcanius	579137.Metvu_0967	148	1.0	-33849.3640033647	0.022105	0.105361	0.0	0.12747
+CdhA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus aeolicus	419665.Maeo_0475	104	1.0	-33264.3803668861	5e-05	0.079996	0.464682	0.54473
+CdhA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus aeolicus	419665.Maeo_1174	56	1.0	-33198.2653209892	0.066111	0.105361	0.0	0.17147
+CdhA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus aeolicus	419665.Maeo_1171	152	1.0	-33432.3464370548	0.133748	0.196797	0.0	0.33054
+CdhA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus maripaludis	426368.MmarC7_0227	36	1.0	-33926.7285659732	0.088447	0.067521	0.0	0.15597
+CdhA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus maripaludis	267377.MMP0985	36	1.0	-33908.7813256585	0.081102	0.047493	0.0	0.12859
+CdhA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus maripaludis	402880.MmarC5_0805	36	1.0	-33919.6683645767	0.081908	0.060488	0.0	0.1424
+CdhA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus maripaludis	444158.MmarC6_1673	36	1.0	-33926.7908016885	0.085789	0.067538	0.0	0.15333
+CdhA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus vannielii	406327.Mevan_0311	40	1.0	-33885.4628456311	0.070748	0.056835	0.026178	0.15376
+CdhA	Species	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina acetivorans	188937.MA3860	83	0.9151446596	-33025.9914150284	0.057191	0.136522	0.027631	0.22134
+CdhA	Species	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina acetivorans	188937.MA4399	83	0.9173990584	-33010.101199782	0.057527	0.116218	0.027631	0.20138
+CdhA	Species	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina acetivorans	188937.MA1016	79	1.0	-32878.8938184699	0.007144	0.007518	0.0	0.01466
+CdhA	Species	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina barkeri	269797.Mbar_A0204	74	0.9987588124	-32844.4865893821	0.014457	0.01455	0.01653	0.04554
+CdhA	Species	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina barkeri	269797.Mbar_A0434	75	1.0	-32862.3846790468	0.016141	0.0264	0.0	0.04254
+CdhA	Species	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina mazei	192952.MM_2089	75	1.0	-32890.7183733403	0.026425	0.01435	0.0	0.04077
+CdhA	Species	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina mazei	192952.MM_0684	73	1.0	-32867.9637252668	0.016101	0.004727	0.0	0.02083
+CdhA	Species	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanotrichaceae; Methanothrix; Methanosaeta harundinacea	1110509.Mhar_0789	93	0.9817244992	-33001.589664121	0.056013	0.125819	0.084284	0.26612
+CdhA	Species	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanotrichaceae; Methanothrix; Methanosaeta harundinacea	1110509.Mhar_2328	91	1.0	-32994.953078028	0.082655	0.16211	0.0	0.24477
+CdhA	Species	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanotrichaceae; Methanothrix; Methanothrix soehngenii	990316.MCON_1332	94	1.0	-33825.5397310316	0.045775	0.074733	0.0	0.12051
+CdhA	Species	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanotrichaceae; Methanothrix; Methanothrix thermoacetophila	349307.Mthe_0292	94	1.0	-33890.0396897756	0.097105	0.038975	0.0	0.13608
+CdhA	Species	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium carboxidivorans	536227.CLCAR_0179	188	1.0	-33968.5733875956	0.05915	0.074989	0.0	0.13414
+CdhA	Species	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium ljungdahlii	748727.CLJU_c37550	188	1.0	-33968.7139700992	0.072877	0.06002	0.0	0.1329
+CdhA	Species	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Blautia; Blautia hansenii	537007.BLAHAN_05772	178	1.0	-33971.3222822183	0.036543	0.084916	0.139305	0.26076
+CdhA	Species	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Blautia; Blautia hydrogenotrophica	476272.RUMHYD_03381	170	0.7328966532	-33432.8836278418	0.047228	0.111187	0.484976	0.64339
+CdhA	Species	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Blautia; Blautia hydrogenotrophica	476272.RUMHYD_00318	172	1.0	-33377.0577241932	0.038703	0.08045	0.0	0.11915
+CdhA	Species	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Blautia; Blautia hydrogenotrophica	476272.RUMHYD_00317	169	1.0	-33563.5240532528	0.347764	0.128758	0.160288	0.63681
+CdhA	Species	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Blautia; Blautia obeum	411459.RUMOBE_04047	175	1.0	-33861.4465555868	0.061877	0.053163	0.0	0.11504
+CdhA	Species	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Blautia; Blautia obeum	411459.RUMOBE_04048	174	0.7279723189	-33822.2941669957	0.073523	0.068249	0.0	0.14177
+CdhA	Species	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Spirochaetaceae; Treponema; Treponema azotonutricium	545695.TREAZ_1648	169	1.0	-33964.539031311	0.143984	0.154259	0.0	0.29824
+CdhA	Species	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Spirochaetaceae; Treponema; Treponema primitia	545694.TREPR_3067	169	1.0	-33987.1907634458	0.155246	0.159509	0.0	0.31476
+CdhA	Class	Archaea; Euryarchaeota; Archaeoglobi	589924.Ferp_0731	92	1.0	-33266.2406308416	0.093494	0.242646	0.568211	0.90435
+CdhA	Class	Archaea; Euryarchaeota; Archaeoglobi	224325.AF1100	92	1.0	-33247.6610008623	0.070588	0.211368	0.568211	0.85017
+CdhA	Class	Archaea; Euryarchaeota; Archaeoglobi	224325.AF2397	91	1.0	-33252.0135555888	0.214838	0.175646	0.155318	0.5458
+CdhA	Class	Archaea; Euryarchaeota; Archaeoglobi	693661.Arcve_1121	92	1.0	-33245.9183821971	0.048089	0.213421	0.568211	0.82972
+CdhA	Class	Archaea; Euryarchaeota; Methanobacteria	868131.MSWAN_1934	94	1.0	-33401.0932103901	0.085151	0.150457	0.092908	0.32852
+CdhA	Class	Archaea; Euryarchaeota; Methanobacteria	187420.MTH1708	94	1.0	-33386.9167738129	0.146225	0.105361	0.092908	0.34449
+CdhA	Class	Archaea; Euryarchaeota; Methanobacteria	79929.MTBMA_c14200	97	1.0	-33333.4189941646	0.069994	0.385046	0.0	0.45504
+CdhA	Class	Archaea; Euryarchaeota; Methanobacteria	523846.Mfer_0527	94	1.0	-33431.7581817344	0.127586	0.19728	0.092908	0.41777
+CdhA	Class	Archaea; Euryarchaeota; Methanobacteria	79929.MTBMA_c02870	94	1.0	-33390.7165854475	0.146225	0.105361	0.092908	0.34449
+CdhA	Class	Archaea; Euryarchaeota; Methanobacteria	79929.MTBMA_c14210	97	1.0	-33302.4599566978	0.085272	0.170314	0.0	0.25559
+CdhA	Class	Archaea; Euryarchaeota; Methanococci	267377.MMP0985	40	1.0	-30274.7542223706	0.120897	0.155856	0.0	0.27675
+CdhA	Class	Archaea; Euryarchaeota; Methanococci	406327.Mevan_0311	40	1.0	-30275.2598157496	0.140466	0.149791	0.0	0.29026
+CdhA	Class	Archaea; Euryarchaeota; Methanococci	402880.MmarC5_0805	40	1.0	-30280.6867554553	0.12706	0.167234	0.0	0.29429
+CdhA	Class	Archaea; Euryarchaeota; Methanococci	573063.Metin_1030	86	1.0	-30354.3286072163	5e-05	0.181479	0.464682	0.64621
+CdhA	Class	Archaea; Euryarchaeota; Methanococci	573064.Mefer_0203	88	1.0	-30300.6016065847	0.154761	0.105361	0.526291	0.78641
+CdhA	Class	Archaea; Euryarchaeota; Methanococci	647113.Metok_0747	88	1.0	-30314.5168711144	0.154761	0.105361	0.526291	0.78641
+CdhA	Class	Archaea; Euryarchaeota; Methanococci	644281.MFS40622_0120	88	1.0	-30289.8236717438	0.154761	0.105361	0.526291	0.78641
+CdhA	Class	Archaea; Euryarchaeota; Methanococci	419665.Maeo_1174	88	1.0	-30341.2463926946	0.154761	0.105361	0.526291	0.78641
+CdhA	Class	Archaea; Euryarchaeota; Methanococci	419665.Maeo_1171	92	1.0	-30736.4201948348	1.561952	0.470628	1.346629	3.37921
+CdhA	Class	Archaea; Euryarchaeota; Methanococci	573063.Metin_1228	92	1.0	-30687.1799298147	1.61158	0.327671	1.346629	3.28588
+CdhA	Class	Archaea; Euryarchaeota; Methanococci	647113.Metok_0743	92	1.0	-30546.2893250885	1.378148	0.243041	1.346629	2.96782
+CdhA	Class	Archaea; Euryarchaeota; Methanococci	444158.MmarC6_1673	40	1.0	-30284.4616555646	0.128035	0.170914	0.0	0.29895
+CdhA	Class	Archaea; Euryarchaeota; Methanococci	426368.MmarC7_0227	40	1.0	-30280.6930004339	0.125608	0.166676	0.0	0.29228
+CdhA	Class	Archaea; Euryarchaeota; Methanococci	880724.Metig_1381	82	0.716457853	-30281.6450324818	0.064087	0.154251	0.626263	0.8446
+CdhA	Class	Archaea; Euryarchaeota; Methanococci	419665.Maeo_0475	86	1.0	-30295.8778892153	5e-05	0.095916	0.464682	0.56065
+CdhA	Class	Archaea; Euryarchaeota; Methanococci	579137.Metvu_1187	88	1.0	-30306.6492784345	0.154761	0.105361	0.526291	0.78641
+CdhA	Class	Archaea; Euryarchaeota; Methanococci	243232.MJ_0153	88	1.0	-30297.3959253972	0.154761	0.105361	0.526291	0.78641
+CdhA	Class	Archaea; Euryarchaeota; Methanococci	644281.MFS40622_0121	92	1.0	-30699.5009264111	1.528762	0.316501	1.346629	3.19189
+CdhA	Class	Archaea; Euryarchaeota; Methanococci	243232.MJ_0152	92	1.0	-30678.3449491072	1.55064	0.294397	1.346629	3.19167
+CdhA	Class	Archaea; Euryarchaeota; Methanococci	579137.Metvu_0967	92	1.0	-30687.7614125001	1.589167	0.329554	1.346629	3.26535
+CdhA	Class	Archaea; Euryarchaeota; Methanococci	880724.Metig_1382	92	1.0	-30673.8312446715	1.579847	0.273324	1.346629	3.1998
+CdhA	Class	Archaea; Euryarchaeota; Methanomicrobia	192952.MM_0684	94	0.6629268846	-28335.9972543043	0.096095	0.474863	0.181436	0.75239
+CdhA	Class	Archaea; Euryarchaeota; Methanomicrobia	188937.MA4399	96	0.5297482068	-28344.7273954644	0.069531	0.487695	0.342482	0.89971
+CdhA	Class	Archaea; Euryarchaeota; Methanomicrobia	269797.Mbar_A0204	94	0.7097014574	-28335.9340534549	0.095764	0.477158	0.181436	0.75436
+CdhA	Class	Archaea; Euryarchaeota; Methanomicrobia	990316.MCON_1332	95	1.0	-28292.6960743701	0.178159	0.33011	0.0	0.50827
+CdhA	Class	Archaea; Euryarchaeota; Methanomicrobia	1110509.Mhar_0789	95	1.0	-28282.2360199518	0.162281	0.326054	0.0	0.48834
+CdhA	Class	Archaea; Euryarchaeota; Methanomicrobia	349307.Mthe_0292	95	1.0	-28264.2513563325	0.176806	0.269376	0.0	0.44618
+CdhA	Class	Archaea; Euryarchaeota; Methanomicrobia	323259.Mhun_0690	96	1.0	-28231.6168455396	0.110601	0.240867	0.342482	0.69395
+CdhA	Class	Archaea; Euryarchaeota; Methanomicrobia	351160.LRC456	96	1.0	-28264.6762987245	0.117459	0.318298	0.342482	0.77824
+CdhA	Class	Archaea; Euryarchaeota; Methanomicrobia	679901.Mzhil_1137	96	1.0	-28284.6981876198	0.0589	0.356573	0.342482	0.75795
+CdhA	Class	Archaea; Euryarchaeota; Methanomicrobia	192952.MM_2089	96	1.0	-28351.6687558951	0.0733	0.506322	0.342482	0.9221
+CdhA	Class	Archaea; Euryarchaeota; Methanomicrobia	456442.Mboo_1196	111	1.0	-28395.1167951196	1.407593	0.341377	1.132449	2.88142
+CdhA	Class	Archaea; Euryarchaeota; Methanomicrobia	188937.MA3860	96	0.7035082895	-28344.7135561554	0.075366	0.484241	0.342482	0.90209
+CdhA	Class	Archaea; Euryarchaeota; Methanomicrobia	188937.MA1016	94	0.6586612664	-28337.1251430974	0.095547	0.483769	0.181436	0.76075
+CdhA	Class	Archaea; Euryarchaeota; Methanomicrobia	547558.Mmah_1166	95	1.0	-28281.8105395228	0.233452	0.313041	0.0	0.54649
+CdhA	Class	Archaea; Euryarchaeota; Methanomicrobia	259564.Mbur_0858	95	1.0	-28280.436486303	0.21748	0.33254	0.0	0.55002
+CdhA	Class	Archaea; Euryarchaeota; Methanomicrobia	1110509.Mhar_2328	95	1.0	-28278.170982655	0.161915	0.323635	0.0	0.48555
+CdhA	Class	Archaea; Euryarchaeota; Methanomicrobia	269797.Mbar_A0434	96	1.0	-28353.5974234009	0.071745	0.50656	0.342482	0.92079
+CdhA	Class	Archaea; Euryarchaeota; Methanomicrobia	456442.Mboo_1373	96	1.0	-28271.34945226	0.103241	0.295118	0.342482	0.74084
+CdhA	Class	Archaea; Euryarchaeota; Methanomicrobia	644295.Metev_0426	96	1.0	-28267.4133954781	0.058456	0.307003	0.342482	0.70794
+CdhA	Class	Archaea; Euryarchaeota; Methanomicrobia	521011.Mpal_0803	111	1.0	-28394.7550463548	1.339008	0.352809	1.132449	2.82427
+CdhA	Class	Archaea; Euryarchaeota; Methanopyri	190192.MK0717	114	0.5726512063	-33749.5035030871	0.041976	0.317153	0.646197	1.00533
+CdhA	Class	Archaea; Euryarchaeota; Methanopyri	190192.MK0719	115	1.0	-33872.1823174736	0.470487	0.312122	0.706623	1.48923
+CdhA	Class	Bacteria; Firmicutes; Clostridia	477974.Daud_0871	91	0.7901374553	-24247.3760776231	0.116215	0.306945	0.312633	0.73579
+CdhA	Class	Bacteria; Firmicutes; Clostridia	429009.Adeg_0336	109	1.0	-24149.8239993191	0.277114	0.175328	0.0	0.45244
+CdhA	Class	Bacteria; Firmicutes; Clostridia	138119.DSY1652	129	1.0	-24276.1238149643	0.153379	0.300395	0.0	0.45377
+CdhA	Class	Bacteria; Firmicutes; Clostridia	485916.Dtox_3781	129	1.0	-24308.5170980069	0.201272	0.292873	0.0	0.49415
+CdhA	Class	Bacteria; Firmicutes; Clostridia	574087.Acear_1304	129	1.0	-24391.8110118275	0.322999	0.430291	0.0	0.75329
+CdhA	Class	Bacteria; Firmicutes; Clostridia	768706.Desor_3273	129	1.0	-24278.1648650575	0.146087	0.3036	0.0	0.44969
+CdhA	Class	Bacteria; Firmicutes; Clostridia	635013.TherJR_1158	129	1.0	-24339.6879977601	0.261447	0.322887	0.0	0.58433
+CdhA	Class	Bacteria; Firmicutes; Clostridia	264732.Moth_1202	129	1.0	-24295.7255568759	0.191451	0.280157	0.0	0.47161
+CdhA	Class	Bacteria; Firmicutes; Clostridia	476272.RUMHYD_03381	133	1.0	-24280.0438179201	0.616633	0.105361	0.160288	0.88228
+CdhA	Class	Bacteria; Firmicutes; Clostridia	555079.Toce_0813	133	1.0	-24287.3505661471	0.616633	0.105361	0.160288	0.88228
+CdhA	Class	Bacteria; Firmicutes; Clostridia	293826.Amet_2028	133	1.0	-24293.4174129248	0.616633	0.105361	0.160288	0.88228
+CdhA	Class	Bacteria; Firmicutes; Clostridia	445973.CLOBAR_01263	133	1.0	-24354.4144981087	0.616633	0.105361	0.160288	0.88228
+CdhA	Class	Bacteria; Firmicutes; Clostridia	476272.RUMHYD_00318	133	1.0	-24281.9202745668	0.616633	0.105361	0.160288	0.88228
+CdhA	Class	Bacteria; Firmicutes; Clostridia	499177.CLOST_1171	133	1.0	-24274.3073744829	0.616633	0.105361	0.160288	0.88228
+CdhA	Class	Bacteria; Firmicutes; Clostridia	537007.BLAHAN_05772	133	1.0	-24289.1355456366	0.616633	0.105361	0.160288	0.88228
+CdhA	Class	Bacteria; Firmicutes; Clostridia	411459.RUMOBE_04047	133	1.0	-24274.6371224004	0.616633	0.105361	0.160288	0.88228
+CdhA	Class	Bacteria; Firmicutes; Clostridia	477974.Daud_0105	80	1.0	-24118.3330663152	0.083076	0.305676	0.646197	1.03495
+CdhA	Class	Bacteria; Firmicutes; Clostridia	485916.Dtox_1271	129	1.0	-24304.0723156989	0.201523	0.282877	0.0	0.4844
+CdhA	Class	Bacteria; Firmicutes; Clostridia	246194.CHY_1222	129	1.0	-24273.2921454868	0.205424	0.242301	0.0	0.44772
+CdhA	Class	Bacteria; Firmicutes; Clostridia	760568.Desku_2149	129	1.0	-24332.0463415042	0.21262	0.329147	0.0	0.54177
+CdhA	Class	Bacteria; Firmicutes; Clostridia	555088.DealDRAFT_1106	129	1.0	-24247.6177807102	0.220644	0.197441	0.0	0.41809
+CdhA	Class	Bacteria; Firmicutes; Clostridia	760568.Desku_1491	129	1.0	-24319.0929501367	0.197948	0.315918	0.0	0.51387
+CdhA	Class	Bacteria; Firmicutes; Clostridia	476272.RUMHYD_00317	133	1.0	-24297.7578007456	0.616633	0.105361	0.160288	0.88228
+CdhA	Class	Bacteria; Firmicutes; Clostridia	536227.CLCAR_0179	133	1.0	-24290.8060014884	0.616633	0.105361	0.160288	0.88228
+CdhA	Class	Bacteria; Firmicutes; Clostridia	748727.CLJU_c37550	133	1.0	-24295.1226699681	0.616633	0.105361	0.160288	0.88228
+CdhA	Class	Bacteria; Firmicutes; Clostridia	411459.RUMOBE_04048	133	1.0	-24126.5429934828	0.616633	0.105361	0.160288	0.88228
+CdhA	Class	Bacteria; Firmicutes; Clostridia	457412.RSAG_00615	133	1.0	-24274.7617988699	0.616633	0.105361	0.160288	0.88228
+CdhA	Class	Bacteria; Firmicutes; Clostridia	478749.BRYFOR_06357	133	1.0	-24290.409326538	0.616633	0.105361	0.160288	0.88228
+CdhA	Class	Bacteria; Firmicutes; Clostridia	499229.TepRe1_0561	133	1.0	-24300.8425926296	0.616633	0.105361	0.160288	0.88228
+CdhA	Class	Bacteria; Firmicutes; Clostridia	272563.CD0728	133	1.0	-24296.8263115545	0.616633	0.105361	0.160288	0.88228
+CdhA	Class	Bacteria; Firmicutes; Negativicutes	1009370.ALO_06373	28	1.0	-34035.4675024672	0.073092	0.197541	0.383586	0.65422

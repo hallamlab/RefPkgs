@@ -1,0 +1,259 @@
+#Marker	Rank	Lineage	Query.Name	Internal.Node	Placement.LWR	Tree.Likelihood	Dist.Distal	Dist.Pendant	Dist.MeanTip	Dist.Total
+DsrC	Species	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Pyrobaculum; Pyrobaculum calidifontis	410359.Pcal	245	0.9379779721	-22801.0162621294	0.024105	0.05987	0.053695	0.13767
+DsrC	Species	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Pyrobaculum; Pyrobaculum ferrireducens	1104324.P186	240	1.0	-22800.7392534586	0.038559	0.013966	0.0	0.05253
+DsrC	Species	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Pyrobaculum; Pyrobaculum islandicum	384616.Pisl	234	1.0	-23378.7585871333	0.032592	0.066929	0.0	0.09952
+DsrC	Species	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Pyrobaculum; Pyrobaculum oguniense	698757.Pogu	243	1.0	-22753.3787499615	0.038251	0.105361	0.163087	0.3067
+DsrC	Species	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Thermoproteus; Thermoproteus tenax	768679.TTX	236	1.0	-23351.2257837781	0.051861	0.0001	0.026168	0.07813
+DsrC	Species	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Thermoproteus; Thermoproteus uzoniensis	999630.TUZN	247	1.0	-22786.7923868836	0.222868	0.42979	0.0	0.65266
+DsrC	Species	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Vulcanisaeta; Vulcanisaeta distributa	572478.Vdis	245	1.0	-22797.3206986995	0.035405	0.08085	0.0	0.11625
+DsrC	Species	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Vulcanisaeta; Vulcanisaeta moutnovskia	985053.VMUT	245	1.0	-22797.2415502682	0.086129	0.03001	0.0	0.11614
+DsrC	Species	Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales; Archaeoglobaceae; Archaeoglobus; Archaeoglobus fulgidus	224325.AF2228	346	1.0	-22809.3863377764	0.136612	0.067336	0.0	0.20395
+DsrC	Species	Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales; Archaeoglobaceae; Archaeoglobus; Archaeoglobus profundus	572546.Arcpr	346	1.0	-22811.7264706701	0.068035	0.149889	0.0	0.21792
+DsrC	Species	Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales; Archaeoglobaceae; Archaeoglobus; Archaeoglobus sulfaticallidus	WP_015591840	348	1.0	-22781.5965422614	0.066747	0.166711	0.158416	0.39187
+DsrC	Species	Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales; Archaeoglobaceae; Archaeoglobus; Archaeoglobus veneficus	693661.Arcve	347	1.0	-22781.6037591357	0.104614	0.12886	0.058235	0.29171
+DsrC	Species	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobaculum; Chlorobaculum parvum	517417.Cpar	431	1.0	-22781.3825289215	0.084723	0.022595	0.0	0.10732
+DsrC	Species	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobaculum; Chlorobaculum tepidum	194439.CT0851	431	1.0	-22781.3765051911	0.023218	0.084377	0.0	0.10759
+DsrC	Species	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobium; Chlorobium chlorochromatii	340177.Cag	427	0.8977429491	-22781.5418471413	0.117286	0.077792	0.0	0.19508
+DsrC	Species	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobium; Chlorobium limicola	290315.Clim	432	1.0	-22781.5639217629	0.059967	0.039226	0.043569	0.14276
+DsrC	Species	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobium; Chlorobium phaeobacteroides	290317.Cpha266	430	0.8361788761	-22694.0713378603	0.032303	0.076479	0.100154	0.20894
+DsrC	Species	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobium; Chlorobium phaeobacteroides	331678.Cphamn1	432	1.0	-22732.6073904567	0.146161	0.155969	0.165311	0.46744
+DsrC	Species	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobium; Chlorobium phaeovibrioides	290318.Cvib	422	1.0	-22781.5959300516	0.032656	0.050908	0.0	0.08356
+DsrC	Species	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Pelodictyon; Pelodictyon luteolum	319225.Plut	422	1.0	-22781.528687898	0.056862	0.029816	0.0	0.08668
+DsrC	Species	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Pelodictyon; Pelodictyon phaeoclathratiforme	324925.Ppha	427	0.8259210317	-22781.5552935736	0.07662	0.117268	0.0	0.19389
+DsrC	Species	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfosporosinus; Desulfosporosinus acidiphilus	WP_014827244	338	1.0	-22797.5166076106	0.050415	0.075089	0.0	0.1255
+DsrC	Species	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfosporosinus; Desulfosporosinus orientis	768706.Desor	338	1.0	-22797.8223139955	0.062324	0.05869	0.0	0.12101
+DsrC	Species	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfotomaculum; Desulfotomaculum nigrificans	696369.DesniDRAFT	320	1.0	-22800.9275146285	0.057747	0.0001	0.0	0.05785
+DsrC	Species	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfotomaculum; Desulfotomaculum reducens	349161.Dred	320	1.0	-22797.5772609459	5e-05	0.062376	0.0	0.06243
+DsrC	Species	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales; Rhodospirillaceae; Magnetospirillum; Magnetospirillum gryphiswaldense	WP_024081175	379	1.0	-22781.0985424329	0.53103	0.105361	0.0	0.63639
+DsrC	Species	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales; Rhodospirillaceae; Magnetospirillum; Magnetospirillum magneticum	342108.amb3372	414	1.0	-22781.4172519909	0.289249	0.076827	0.0	0.36608
+DsrC	Species	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio; Desulfovibrio alaskensis	207559.Dde	278	0.9992761047	-22795.7384210556	0.095246	0.0001	0.0	0.09535
+DsrC	Species	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio; Desulfovibrio desulfuricans	641491.DND132	284	1.0	-23481.5083466858	0.028368	0.023902	0.0	0.05227
+DsrC	Species	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio; Desulfovibrio desulfuricans	525146.Ddes	274	1.0	-23476.7870554723	0.031234	0.013263	0.0	0.0445
+DsrC	Species	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio; Desulfovibrio gigas	WP_021760357	288	0.9410916603	-22798.8762410355	0.014329	0.008608	0.176404	0.19934
+DsrC	Species	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio; Desulfovibrio piger	411464.DESPIG	274	1.0	-22798.2261471915	0.017273	0.02757	0.0	0.04484
+DsrC	Species	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio; Desulfovibrio salexigens	526222.Desal	289	0.517653797	-22802.0255654625	0.029046	0.106706	0.175892	0.31164
+DsrC	Species	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio; Desulfovibrio vulgaris	882.DVU2776	276	1.0	-22773.1964186653	0.036094	0.03878	0.020354	0.09523
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Aeromonadales; Aeromonadaceae; Aeromonas; Aeromonas caviae	878320.AcavA	62	0.9994038058	-22781.5956958718	0.053788	0.031664	0.031227	0.11668
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Aeromonadales; Aeromonadaceae; Aeromonas; Aeromonas salmonicida	382245.ASA	61	1.0	-22781.5322757036	0.024259	0.035953	0.0	0.06021
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Aeromonadales; Aeromonadaceae; Aeromonas; Aeromonas veronii	998088.B565	61	1.0	-22781.5412363932	0.035423	0.024503	0.0	0.05993
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae; Alteromonas; Alteromonas mediterranea	314275.MADE	506	1.0	-22781.8986348147	0.146723	0.063872	0.0	0.21059
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae; Alteromonas; Alteromonas naphthalenivorans	715451.ambt	506	1.0	-22781.2053756184	0.072704	0.138991	0.0	0.2117
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae; Marinobacter; Marinobacter adhaerens	225937.HP15	109	1.0	-22781.4608993439	0.062745	0.089503	0.138553	0.2908
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae; Marinobacter; Marinobacter algicola	443152.MDG893	108	1.0	-22772.7841923636	0.108746	0.108688	0.0	0.21743
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Alteromonadaceae; Marinobacter; Marinobacter hydrocarbonoclasticus	351348.Maqu	108	1.0	-22770.6262367033	0.122453	0.096255	0.0	0.21871
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Pseudoalteromonadaceae; Pseudoalteromonas; Pseudoalteromonas atlantica	342610.Patl	562	0.8191425656	-22780.596985992	0.168062	0.110039	0.0	0.2781
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Pseudoalteromonadaceae; Pseudoalteromonas; Pseudoalteromonas haloplanktis	722419.PH505	526	0.6351150079	-22755.6233126637	0.09924	0.120566	0.0	0.21981
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Pseudoalteromonadaceae; Pseudoalteromonas; Pseudoalteromonas haloplanktis	326442.PSHAa1687	524	1.0	-22750.7041537859	0.057314	0.092429	0.840718	0.99046
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Pseudoalteromonadaceae; Pseudoalteromonas; Pseudoalteromonas tunicata	87626.PTD2	528	1.0	-22781.0487100166	0.116639	0.105361	0.03423	0.25623
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella amazonensis	326297.Sama	558	1.0	-22781.2631887908	0.068167	0.104825	0.199413	0.3724
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella baltica	325240.Sbal	536	1.0	-22780.331109485	0.068515	0.021542	0.0	0.09006
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella benthica	314608.KT99	549	1.0	-22781.4987583511	0.022422	0.053334	0.0	0.07576
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella denitrificans	318161.Sden	556	1.0	-22781.5670994419	0.049898	0.110301	0.1043	0.2645
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella frigidimarina	318167.Sfri	555	0.5167671612	-22781.5578208966	5e-05	0.132313	0.127024	0.25939
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella halifaxensis	458817.Shal	543	1.0	-22781.5551019361	0.056157	0.013217	0.0	0.06937
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella loihica	323850.Shew	553	0.5000945	-22781.3290308447	0.03358	0.12115	0.090808	0.24554
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella oneidensis	211586.SO	538	1.0	-22781.3994416064	0.04772	0.086633	0.048413	0.18277
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella pealeana	398579.Spea	543	1.0	-22781.49381821	0.012962	0.057112	0.0	0.07007
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella piezotolerans	225849.swp	555	1.0	-22781.4827374273	0.037675	0.063008	0.035107	0.13579
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella putrefaciens	319224.Sputcn32	536	1.0	-22781.242330202	0.018342	0.069992	0.0	0.08833
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella sediminis	425104.Ssed	551	1.0	-22781.4129867927	0.036116	0.107533	0.037937	0.18159
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella violacea	637905.SVI	549	1.0	-22781.5397720329	0.052487	0.022774	0.0	0.07526
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella woodyi	392500.Swoo	553	1.0	-22781.5122056573	0.021014	0.041579	0.086734	0.14933
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Ectothiorhodospiraceae; Thioalkalivibrio; Thioalkalivibrio nitratireducens	WP_015258467	355	0.9228905916	-22663.5385391863	0.791459	0.951581	0.0	1.74304
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Ectothiorhodospiraceae; Thioalkalivibrio; Thioalkalivibrio nitratireducens	WP_015258538	374	1.0	-22589.1960544505	0.356535	0.236745	0.0	0.59328
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Ectothiorhodospiraceae; Thioalkalivibrio; Thioalkalivibrio nitratireducens	WP_015257688	433	1.0	-22521.5162501147	0.088022	0.050528	0.503145	0.6417
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Ectothiorhodospiraceae; Thioalkalivibrio; Thioalkalivibrio sulfidiphilus	396588.Tgr7	377	1.0	-21859.6481299337	0.171451	0.40052	0.0	0.57197
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Ectothiorhodospiraceae; Thioalkalivibrio; Thioalkalivibrio sulfidiphilus	WP_012639608	371	1.0	-21850.4502342133	0.234201	0.364403	0.0	0.5986
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Ectothiorhodospiraceae; Thioalkalivibrio; Thioalkalivibrio sulfidiphilus	WP_012638739	393	1.0	-21850.4023736623	0.319188	0.258211	0.146813	0.72421
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; Citrobacter; Citrobacter koseri	290338.CKO	49	0.9921632736	-22781.557436206	0.044338	0.013015	0.0	0.05735
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; Klebsiella; Klebsiella aerogenes	1028307.EAE	54	1.0	-22781.5573202979	0.04482	0.011286	0.0	0.05611
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; Klebsiella; Klebsiella michiganensis	1006551.KOX	54	1.0	-22781.5105049576	0.011106	0.045534	0.0	0.05664
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Erwiniaceae; Erwinia; Erwinia billingiae	634500.EbC	74	0.98714934	-22781.5412548638	0.048674	0.019457	0.056298	0.12443
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Erwiniaceae; Erwinia; Erwinia pyrifoliae	634499.EpC	68	1.0	-22781.6095635174	0.068676	0.039845	0.0	0.10852
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Erwiniaceae; Erwinia; Erwinia tasmaniensis	465817.ETA	68	0.9361077657	-22781.5410114081	0.040842	0.068048	0.0	0.10889
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Morganellaceae; Photorhabdus; Photorhabdus asymbiotica	553480.PAU	36	1.0	-22781.5249871201	0.062796	0.043057	0.0	0.10585
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Morganellaceae; Photorhabdus; Photorhabdus laumondii	243265.plu1786	36	1.0	-22781.4810610551	0.042237	0.063991	0.0	0.10623
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Morganellaceae; Providencia; Providencia rettgeri	521000.PROVRETT	5	1.0	-22781.4753632629	0.011267	0.050983	0.0	0.06225
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Morganellaceae; Providencia; Providencia rustigianii	500637.PROVRUST	5	1.0	-22781.5994048521	0.050723	0.010626	0.0	0.06135
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Morganellaceae; Providencia; Providencia stuartii	471874.PROSTU	5	1.0	-22784.3068764009	0.005147	0.105361	0.0	0.11051
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Morganellaceae; Xenorhabdus; Xenorhabdus bovienii	406818.XBJ1	36	1.0	-22781.4766709885	0.011393	0.059158	0.0	0.07055
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Morganellaceae; Xenorhabdus; Xenorhabdus nematophila	406817.XNC1	36	0.7062497004	-22781.5929214834	0.058507	0.011438	0.0	0.06995
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Pectobacteriaceae; Dickeya; Dickeya dadantii	198628.Dda3937	14	1.0	-22781.5249119184	0.011331	0.034552	0.0	0.04588
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Pectobacteriaceae; Dickeya; Dickeya paradisiaca	579405.Dd703	16	1.0	-22781.4999517486	0.022474	0.047639	0.047793	0.11791
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Pectobacteriaceae; Dickeya; Dickeya zeae	590409.Dd586	14	1.0	-22781.555248488	0.034038	0.01151	0.0	0.04555
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Pectobacteriaceae; Pectobacterium; Pectobacterium carotovorum	561230.PC1	26	1.0	-22781.5761894181	0.057099	0.0001	0.0	0.0572
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Pectobacteriaceae; Pectobacterium; Pectobacterium parmentieri	561231.Pecwa	26	1.0	-22781.5048776932	5e-05	0.054149	0.0	0.0542
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Yersiniaceae; Serratia; Serratia proteamaculans	399741.Spro	20	1.0	-22781.5583707829	0.022614	0.011511	0.065053	0.09918
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Yersiniaceae; Serratia; Serratia symbiotica	568817.SCc	20	1.0	-22773.1550874827	0.009497	0.267164	0.0	0.27666
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Yersiniaceae; Yersinia; Yersinia enterocolitica	393305.YE1597	27	0.971430258	-22781.598778945	0.076	0.020464	0.028866	0.12533
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Yersiniaceae; Yersinia; Yersinia pestis	187410.y2723	28	1.0	-22781.5342933208	0.021799	0.021163	0.080607	0.12357
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Methylococcales; Methylococcaceae; Methylomicrobium; Methylomicrobium agile	WP_005371320	193	1.0	-22781.6738154341	0.25646	0.106086	0.0	0.36255
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Methylococcales; Methylococcaceae; Methylomicrobium; Methylomicrobium alcaliphilum	WP_014146908	193	1.0	-22768.8834199468	0.120399	0.220671	0.0	0.34107
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales; Oceanospirillaceae; Marinomonas; Marinomonas mediterranea	717774.Marme	185	1.0	-22780.7891259009	0.114771	0.145809	0.0	0.26058
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Oceanospirillales; Oceanospirillaceae; Marinomonas; Marinomonas posidonica	491952.Mar181	185	1.0	-22779.0656897991	0.216887	0.105361	0.0	0.32225
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Actinobacillus; Actinobacillus minor	637911.AM305	499	1.0	-23460.1958307564	0.045036	0.076144	0.0	0.12118
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Actinobacillus; Actinobacillus minor	591023.AM202	499	1.0	-23456.268590433	0.031711	0.063798	0.0	0.09551
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Actinobacillus; Actinobacillus pleuropneumoniae	228399.appser1	498	1.0	-23459.8933180792	0.021965	0.023509	0.0	0.04547
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Actinobacillus; Actinobacillus pleuropneumoniae	228399.Aple02001879	498	1.0	-23472.9876943372	0.036642	0.042358	0.0	0.079
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Actinobacillus; Actinobacillus succinogenes	339671.Asuc	470	1.0	-22781.5623327355	0.013347	0.070855	0.051785	0.13599
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Actinobacillus; Actinobacillus ureae	887324.HMPREF0027	498	1.0	-22781.574095226	0.011936	0.022246	0.0	0.03418
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Aggregatibacter; Aggregatibacter actinomycetemcomitans	694569.D7S	484	0.6851403265	-22781.5917720005	0.07013	0.043254	0.0	0.11338
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Aggregatibacter; Aggregatibacter aphrophilus	634176.NT05HA	485	1.0	-22781.5699822536	0.013602	0.03564	0.059521	0.10876
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Aggregatibacter; Aggregatibacter segnis	888057.HMPREF9064	484	0.6882127794	-22781.5646282403	0.043629	0.070482	0.0	0.11411
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Haemophilus; Haemophilus ducreyi	233412.HD1815	499	0.936137303	-22781.4913045471	0.06319	0.136658	0.017152	0.217
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Haemophilus; Haemophilus haemolyticus	1028805.GGC	476	1.0	-22781.5694307053	0.035309	0.022033	0.0	0.05734
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Haemophilus; Haemophilus haemolyticus	1028803.GG9	476	1.0	-22774.3018883246	0.023371	0.010802	0.0	0.03417
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Haemophilus; Haemophilus influenzae	71421.HI1371	476	1.0	-22781.5586800459	0.022439	0.034793	0.0	0.05723
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Haemophilus; Haemophilus parainfluenzae	862965.PARA	474	0.5008781506	-22784.083332856	0.035725	0.035098	0.0	0.07082
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Haemophilus; Haemophilus pittmaniae	1035188.HMPREF9952	478	0.935710762	-22781.5740126315	0.012133	0.036096	0.102229	0.15046
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Pasteurella; Pasteurella dagmatis	667128.HMPREF0621	469	0.7898847222	-22781.5897763388	0.05177	0.050656	0.0	0.10243
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Pasteurella; Pasteurella multocida	272843.PM0401	469	0.7884612015	-22781.5664327816	0.050853	0.051948	0.0	0.1028
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter; Acinetobacter baylyi	62977.ACIAD1895	126	1.0	-22797.2438071667	0.055045	0.091839	0.0	0.14688
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter; Acinetobacter johnsonii	575586.HMPREF0016	126	0.5422828199	-22796.8712143187	0.023909	0.062176	0.103085	0.18917
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter; Acinetobacter junii	575587.HMPREF0026	126	1.0	-22792.4634161262	0.08817	0.054284	0.0	0.14245
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter; Acinetobacter lwoffii	575588.HMPREF0017	125	0.9564366675	-22796.7204730538	0.14682	0.049069	0.0	0.19589
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter; Acinetobacter oleivorans	436717.AOLE	128	0.9737826001	-22797.4750456683	0.034241	0.017365	0.133337	0.18494
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter; Acinetobacter radioresistens	575589.HMPREF0018	125	1.0	-22802.4515738485	0.047665	0.156295	0.0	0.20396
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Psychrobacter; Psychrobacter arcticus	259536.Psyc	132	1.0	-22802.7648649388	0.032595	0.059912	0.0	0.09251
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Psychrobacter; Psychrobacter cryohalolentis	335284.Pcryo	132	1.0	-22800.9267264484	0.062584	0.030038	0.0	0.09262
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas aeruginosa	208964.PA2608	168	1.0	-22781.5391321656	0.080044	0.12566	0.0	0.2057
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas entomophila	384676.PSEEN2220	144	0.5278393274	-22781.3342278281	0.014442	0.087384	0.058149	0.15998
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas fluorescens	205922.Pfl01	156	0.9513679465	-22663.976340214	0.113327	0.030896	0.0	0.14422
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas fluorescens	1114970.PSF113	156	0.6668391621	-22685.2026330337	0.096638	0.095027	0.0	0.19167
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas fluorescens	216595.PFLU3793	157	1.0	-22685.5535699736	0.041207	0.094272	0.195595	0.33107
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas fluorescens	746360.PFWH6	155	0.5112439823	-22675.9703544315	0.003272	0.105361	0.204649	0.31328
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas fulva	743720.Psefu	158	1.0	-22781.5625118991	0.024036	0.089724	0.057451	0.17121
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas mendocina	399739.Pmen	168	0.978960537	-23460.2500106507	0.140566	0.082357	0.0	0.22292
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas mendocina	1001585.MDS	168	0.561530713	-23469.3656601437	0.158435	0.120755	0.0	0.27919
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas putida	390235.PputW619	159	1.0	-23395.7097162762	0.085677	0.02711	0.0	0.11279
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas putida	76869.PputGB1	159	1.0	-23413.7541013463	0.097463	0.072449	0.0	0.16991
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas putida	351746.Pput	159	1.0	-23413.1150217413	0.085814	0.070414	0.0	0.15623
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas putida	160488.PP	159	1.0	-23413.0024852299	0.084867	0.06993	0.0	0.1548
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas putida	1042876.PPS	159	1.0	-23403.784057756	0.09109	0.049882	0.0	0.14097
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas savastanoi	264730.PSPPH	151	1.0	-22781.5652625712	0.029316	0.004309	0.058329	0.09195
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas syringae	629265.PMA4326	148	1.0	-22711.6992928221	0.055714	0.016139	0.0	0.07185
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas syringae	205918.Psyr	148	1.0	-22706.9592193753	0.066966	0.006723	0.0	0.07369
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas syringae	223283.PSPTO	148	1.0	-22733.0792964346	0.05369	0.069772	0.0	0.12346
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas syringae pv. maculicola	629265.PMA4326	150	1.0	-22781.520966879	0.083922	0.035001	0.0	0.11892
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas syringae pv. tomato	223283.PSPTO	150	1.0	-22781.4572022948	0.034362	0.085275	0.0	0.11964
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Thiotrichales; Francisellaceae; Francisella; Francisella philomiragia	484022.Fphi	515	0.8847707683	-22782.0108246809	0.169038	0.047347	0.0	0.21638
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Thiotrichales; Francisellaceae; Francisella; Francisella salina	573569.F7308	514	1.0	-22783.7779879533	0.036936	0.021131	0.0	0.05807
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Thiotrichales; Francisellaceae; Francisella; Francisella tularensis	376619.FTL	515	1.0	-22781.1162884478	0.047648	0.175703	0.0	0.22335
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Thiotrichales; Francisellaceae; Francisella; Francisella tularensis	676032.FN3523	515	0.6498795043	-22764.4964517923	0.042545	0.169494	0.0	0.21204
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Aliivibrio; Aliivibrio fischeri	312309.VF	99	1.0	-22781.6216948467	0.061512	0.048787	0.0	0.1103
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Aliivibrio; Aliivibrio salmonicida	316275.VSAL	99	1.0	-22781.5223439296	0.051981	0.058173	0.0	0.11015
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Photobacterium; Photobacterium angustum	314292.VAS14	77	1.0	-22781.5270645448	0.031611	0.039327	0.0	0.07094
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Photobacterium; Photobacterium damselae	675817.VDA	489	0.9640226136	-22781.5389646094	0.082177	0.025456	0.0	0.10763
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Photobacterium; Photobacterium leiognathi	1001530.PMSV	77	1.0	-22781.5401022993	0.038568	0.032252	0.0	0.07082
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Photobacterium; Photobacterium profundum	298386.PBPRA2191	489	1.0	-22781.4630452156	0.024976	0.083589	0.0	0.10856
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio; Vibrio anguillarum	882102.VAA	91	0.9851796949	-22781.684617006	0.112272	0.062729	0.0	0.175
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio; Vibrio brasiliensis	945543.VIBR0546	94	0.6743327744	-22781.6537269457	0.019981	0.024161	0.093916	0.13806
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio; Vibrio caribbeanicus	796620.VIBC2010	91	1.0	-22781.5512524158	0.063592	0.112938	0.0	0.17653
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio; Vibrio furnissii	903510.vfu	86	1.0	-22781.7806604086	0.115292	0.035784	0.0	0.15108
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio; Vibrio metschnikovii	675813.VIB	86	1.0	-22781.4351552016	0.039011	0.113619	0.0	0.15263
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio; Vibrio mimicus	675806.VII	98	1.0	-22781.7037040339	0.042807	0.061039	0.081968	0.18581
+DsrC	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio; Vibrio sinaloensis	945550.VISI1226	93	0.9828629923	-22781.6659414536	0.037329	0.011146	0.092612	0.14109
+DsrC	Class	Bacteria; Actinobacteria; Actinobacteria	710696.Intca	263	0.9400942389	-27685.5492502769	0.072455	0.561059	0.547226	1.18074
+DsrC	Class	Bacteria; Actinobacteria; Actinobacteria	391037.Sare	265	1.0	-27694.5184348583	0.209963	0.55152	0.0	0.76148
+DsrC	Class	Bacteria; Actinobacteria; Actinobacteria	479431.Namu	268	0.5850775819	-27698.8895245611	0.067633	0.588628	0.736279	1.39254
+DsrC	Class	Bacteria; Actinobacteria; Actinobacteria	585198.HMPREF0574	266	1.0	-27723.3716149428	0.617527	0.653012	0.0	1.27054
+DsrC	Class	Bacteria; Actinobacteria; Actinobacteria	196162.Noca	268	1.0	-27687.7858757928	0.026779	0.446257	0.736279	1.20932
+DsrC	Class	Bacteria; Actinobacteria; Actinobacteria	313589.JNB	259	1.0	-27703.95178703	0.395249	0.563662	0.0	0.95891
+DsrC	Class	Bacteria; Actinobacteria; Actinobacteria	369723.Strop	265	1.0	-27695.2795561773	0.22248	0.565686	0.0	0.78817
+DsrC	Class	Bacteria; Actinobacteria; Actinobacteria	WP_015747799	266	1.0	-27699.9738762484	0.652831	0.477144	0.0	1.12997
+DsrC	Class	Bacteria; Actinobacteria; Actinobacteria	WP_015655054	268	1.0	-27681.3123543252	0.024806	0.410393	0.736279	1.17148
+DsrC	Class	Bacteria; Actinobacteria; Actinobacteria	WP_013188796	422	1.0	-27721.2284316545	0.890079	0.61101	0.274914	1.776
+DsrC	Class	Bacteria; Actinobacteria; Coriobacteriia	WP_015539531	412	1.0	-28308.3259148539	0.06723	0.328512	0.066958	0.4627
+DsrC	Class	Bacteria; Bacteroidetes; Bacteroidia	WP_022546826	405	0.8879481545	-28307.6374866442	0.032781	0.42694	1.155087	1.61481
+DsrC	Class	Bacteria; Bacteroidetes; Flavobacteriia	313603.FB2170	259	1.0	-28307.2734331907	0.344424	0.820311	0.0	1.16474
+DsrC	Class	Bacteria; Chloroflexi; Anaerolineae	926569.ANT	280	1.0	-28305.7514687955	0.182118	0.303743	0.490931	0.97679
+DsrC	Class	Bacteria; Chloroflexi; Caldilineae	WP_014432440	279	1.0	-28308.2781192656	0.774645	0.267243	0.0	1.04189
+DsrC	Class	Bacteria; Firmicutes; Clostridia	485916.Dtox	323	0.9207090206	-27278.0279161188	0.138639	0.271882	0.0	0.41052
+DsrC	Class	Bacteria; Firmicutes; Clostridia	WP_006520419	324	1.0	-27271.6763756356	0.046574	0.242752	0.0	0.28933
+DsrC	Class	Bacteria; Firmicutes; Clostridia	WP_006522281	324	0.9456365923	-27274.6867646395	0.100794	0.232465	0.0	0.33326
+DsrC	Class	Bacteria; Firmicutes; Clostridia	370438.PTH	324	1.0	-27267.2333480985	0.031588	0.223086	0.0	0.25467
+DsrC	Class	Bacteria; Firmicutes; Clostridia	246194.CHY	326	1.0	-27265.3045824987	0.133857	0.175528	0.0	0.30939
+DsrC	Class	Bacteria; Firmicutes; Clostridia	747365.Thena	380	1.0	-27265.5758424243	0.183219	0.166948	0.421001	0.77117
+DsrC	Class	Bacteria; Firmicutes; Clostridia	138119.DSY0317	383	1.0	-27272.1936263638	0.288339	0.155597	0.0	0.44394
+DsrC	Class	Bacteria; Firmicutes; Clostridia	768706.Desor	383	1.0	-27269.1371750879	0.272028	0.105361	0.0	0.37739
+DsrC	Class	Bacteria; Firmicutes; Clostridia	138119.DSY4469	276	1.0	-27329.6420438625	0.621682	0.424242	0.0	1.04592
+DsrC	Class	Bacteria; Firmicutes; Clostridia	696369.DesniDRAFT	324	1.0	-27260.925280517	0.071364	0.164368	0.0	0.23573
+DsrC	Class	Bacteria; Firmicutes; Clostridia	349161.Dred	324	1.0	-27277.9851001131	0.088094	0.229449	0.0	0.31754
+DsrC	Class	Bacteria; Firmicutes; Clostridia	760568.Desku	326	1.0	-27261.7093534873	0.156093	0.105361	0.0	0.26145
+DsrC	Class	Bacteria; Firmicutes; Clostridia	264732.Moth	326	1.0	-27271.1783158054	0.094321	0.199774	0.0	0.29409
+DsrC	Class	Bacteria; Firmicutes; Clostridia	429009.Adeg	326	1.0	-27272.2104547067	0.148289	0.200926	0.0	0.34921
+DsrC	Class	Bacteria; Firmicutes; Clostridia	477974.Daud	380	1.0	-27307.5801871892	0.153753	0.357684	0.421001	0.93244
+DsrC	Class	Bacteria; Firmicutes; Clostridia	WP_014827244	383	1.0	-27282.9661391371	0.255299	0.207635	0.0	0.46293
+DsrC	Class	Bacteria; Firmicutes; Negativicutes	401526.TcarDRAFT	400	0.6782611306	-28257.0297219613	0.135181	0.089362	0.03521	0.25975
+DsrC	Class	Bacteria; Firmicutes; Negativicutes	1009370.ALO	401	0.9478487695	-28280.5766194194	0.029171	0.197404	0.271153	0.49773
+DsrC	Class	Bacteria; Proteobacteria; Alphaproteobacteria	WP_024081175	455	1.0	-27934.6738976143	0.53103	0.105361	0.0	0.63639
+DsrC	Class	Bacteria; Proteobacteria; Alphaproteobacteria	156889.Mmc1	519	0.7127466371	-27892.7853529791	0.036934	0.205644	0.141572	0.38415
+DsrC	Class	Bacteria; Proteobacteria; Alphaproteobacteria	342108.amb3372	518	1.0	-27894.8601651681	0.092373	0.172005	0.0	0.26438
+DsrC	Class	Bacteria; Proteobacteria; Alphaproteobacteria	553217.ENHAE0001	172	1.0	-27944.7530743267	0.068663	0.250983	0.342612	0.66226
+DsrC	Class	Bacteria; Proteobacteria; Betaproteobacteria	580332.Slit	443	1.0	-26823.0008512905	0.099059	0.32771	0.370558	0.79733
+DsrC	Class	Bacteria; Proteobacteria; Betaproteobacteria	WP_011312838	444	1.0	-26865.2367045339	0.295402	0.532891	0.0	0.82829
+DsrC	Class	Bacteria; Proteobacteria; Betaproteobacteria	WP_011313170	471	1.0	-26853.8751283608	1.094387	0.283543	0.0	1.37793
+DsrC	Class	Bacteria; Proteobacteria; Betaproteobacteria	WP_011312992	481	1.0	-26764.0812521978	0.09799	0.105361	0.219053	0.4224
+DsrC	Class	Bacteria; Proteobacteria; Betaproteobacteria	WP_013029812	501	1.0	-26763.4405283848	0.210213	0.081501	0.310057	0.60177
+DsrC	Class	Bacteria; Proteobacteria; Betaproteobacteria	292415.Tbd	433	1.0	-26903.4194523127	0.977403	0.812792	0.274914	2.06511
+DsrC	Class	Bacteria; Proteobacteria; Betaproteobacteria	WP_009551567	468	1.0	-26864.6614374278	0.196073	0.646738	0.717935	1.56075
+DsrC	Class	Bacteria; Proteobacteria; Betaproteobacteria	WP_013029820	468	1.0	-26865.5293721243	0.167483	0.588787	0.717935	1.4742
+DsrC	Class	Bacteria; Proteobacteria; Betaproteobacteria	WP_011313000	471	1.0	-26893.7992560134	0.991727	0.763481	0.0	1.75521
+DsrC	Class	Bacteria; Proteobacteria; Betaproteobacteria	WP_009551559	481	1.0	-26766.3379151757	0.101733	0.11406	0.219053	0.43485
+DsrC	Class	Bacteria; Proteobacteria; Deltaproteobacteria	WP_014808985	339	0.8897370061	-26662.9974964789	0.122289	0.193776	0.0	0.31606
+DsrC	Class	Bacteria; Proteobacteria; Deltaproteobacteria	338966.Ppro	311	1.0	-26737.3856948613	0.108248	0.648438	0.653676	1.41036
+DsrC	Class	Bacteria; Proteobacteria; Deltaproteobacteria	589865.DaAHT2	315	0.5077570212	-26668.1773403258	0.056808	0.152955	0.082803	0.29257
+DsrC	Class	Bacteria; Proteobacteria; Deltaproteobacteria	880072.Desac	313	0.5174724998	-26666.7313293738	0.053113	0.201686	0.0	0.2548
+DsrC	Class	Bacteria; Proteobacteria; Deltaproteobacteria	207559.Dde	314	0.6076837174	-26654.9147747323	0.063362	0.173321	0.0	0.23668
+DsrC	Class	Bacteria; Proteobacteria; Deltaproteobacteria	526222.Desal	314	0.502043896	-26668.0942371345	0.063886	0.217253	0.0	0.28114
+DsrC	Class	Bacteria; Proteobacteria; Deltaproteobacteria	882.DVU2776	313	0.6672951644	-26666.8972008877	0.053113	0.244387	0.0	0.2975
+DsrC	Class	Bacteria; Proteobacteria; Deltaproteobacteria	573370.DMR	314	1.0	-26662.0048743646	0.056282	0.173932	0.0	0.23021
+DsrC	Class	Bacteria; Proteobacteria; Deltaproteobacteria	596151.DesfrDRAFT	314	0.6573992418	-26663.1852304248	0.056281	0.175638	0.0	0.23192
+DsrC	Class	Bacteria; Proteobacteria; Deltaproteobacteria	363253.LI0901	313	0.5708973406	-26669.134042418	0.053113	0.247878	0.0	0.30099
+DsrC	Class	Bacteria; Proteobacteria; Deltaproteobacteria	641491.DND132	315	0.8994188829	-26662.0221756616	0.066723	0.133072	0.082803	0.2826
+DsrC	Class	Bacteria; Proteobacteria; Deltaproteobacteria	643562.Daes	315	0.9044132092	-26660.1113827008	0.070109	0.123957	0.082803	0.27687
+DsrC	Class	Bacteria; Proteobacteria; Deltaproteobacteria	883.DvMF	313	0.534194115	-26672.0350215109	0.049138	0.255593	0.0	0.30473
+DsrC	Class	Bacteria; Proteobacteria; Deltaproteobacteria	439235.Dalk	315	1.0	-26663.9822641442	0.103416	0.105361	0.082803	0.29158
+DsrC	Class	Bacteria; Proteobacteria; Deltaproteobacteria	177439.DP0997	315	1.0	-26673.4580392495	0.114122	0.163479	0.082803	0.3604
+DsrC	Class	Bacteria; Proteobacteria; Deltaproteobacteria	96561.Dole	315	0.8820779204	-26674.4402373397	0.085682	0.159892	0.082803	0.32838
+DsrC	Class	Bacteria; Proteobacteria; Deltaproteobacteria	577650.Despr	310	1.0	-26753.369986779	0.346814	0.850793	0.0	1.19761
+DsrC	Class	Bacteria; Proteobacteria; Deltaproteobacteria	177437.HRM2	313	0.8850013395	-26663.2029893711	5e-05	0.234564	0.0	0.23461
+DsrC	Class	Bacteria; Proteobacteria; Deltaproteobacteria	555779.Dthio	314	0.5028249086	-26651.8683061867	0.064408	0.143063	0.0	0.20747
+DsrC	Class	Bacteria; Proteobacteria; Deltaproteobacteria	563192.HMPREF0179	314	0.5731338275	-26664.0863429677	0.062043	0.232705	0.0	0.29475
+DsrC	Class	Bacteria; Proteobacteria; Deltaproteobacteria	485915.Dret	314	1.0	-26648.6864589681	0.062	0.13743	0.0	0.19943
+DsrC	Class	Bacteria; Proteobacteria; Deltaproteobacteria	690850.Desaf	314	1.0	-26654.8367433183	0.06371	0.171627	0.0	0.23534
+DsrC	Class	Bacteria; Proteobacteria; Deltaproteobacteria	644282.Deba	315	1.0	-26669.3201716569	0.156159	0.150613	0.082803	0.38958
+DsrC	Class	Bacteria; Proteobacteria; Deltaproteobacteria	335543.Sfum	315	1.0	-26658.0150655825	0.147466	0.072695	0.082803	0.30296
+DsrC	Class	Bacteria; Proteobacteria; Deltaproteobacteria	525897.Dbac	315	1.0	-26668.0631546722	0.085526	0.171975	0.082803	0.3403
+DsrC	Class	Bacteria; Proteobacteria; Deltaproteobacteria	WP_015402730	315	1.0	-26688.6761769342	0.110155	0.233109	0.082803	0.42607
+DsrC	Class	Bacteria; Proteobacteria; Deltaproteobacteria	WP_014808601	377	1.0	-26754.8272325204	0.333344	0.794765	0.229928	1.35804
+DsrC	Class	Bacteria; Proteobacteria; Gammaproteobacteria	1045856.EcWSU1	0	1.0	-11189.1387528296	1.175159	0.202953	0.0	1.37811
+DsrC	Class	Bacteria; Proteobacteria; Gammaproteobacteria	1051646.VITU9109	0	1.0	-11188.9692192183	1.250635	0.147306	0.0	1.39794
+DsrC	Class	Bacteria; Proteobacteria; Gammaproteobacteria	156578.ATW7	0	1.0	-11183.4498525979	1.221035	0.061886	0.0	1.28292
+DsrC	Class	Bacteria; Proteobacteria; Gammaproteobacteria	187410.y2723	0	1.0	-11187.7880654875	1.291721	0.188044	0.0	1.47976
+DsrC	Class	Bacteria; Proteobacteria; Gammaproteobacteria	203907.Bfl418	0	1.0	-11217.2306535475	1.114259	0.105361	0.0	1.21962
+DsrC	Class	Bacteria; Proteobacteria; Gammaproteobacteria	1005057.BUAMB	0	1.0	-11190.7843374378	1.147024	0.220344	0.0	1.36737
+DsrC	Class	Bacteria; Proteobacteria; Gammaproteobacteria	1028307.EAE	0	1.0	-11191.2111900471	1.202198	0.231875	0.0	1.43407
+DsrC	Class	Bacteria; Proteobacteria; Gammaproteobacteria	1036674.A28LD	0	1.0	-11189.6064655792	1.114885	0.142174	0.0	1.25706
+DsrC	Class	Bacteria; Proteobacteria; Gammaproteobacteria	107806.BU467	0	1.0	-11215.3575777739	1.001848	0.421794	0.0	1.42364
+DsrC	Class	Bacteria; Proteobacteria; Gammaproteobacteria	1001585.MDS	0	1.0	-11190.165994262	1.114259	0.105361	0.0	1.21962
+DsrC	Class	Bacteria; Proteobacteria; Gammaproteobacteria	167879.CPS	0	1.0	-11202.3464943	1.114259	0.105361	0.0	1.21962
+DsrC	Class	Bacteria; Proteobacteria; Gammaproteobacteria	198804.BUsg451	0	1.0	-11190.0002955691	1.115507	0.232502	0.0	1.34801
+DsrC	Class	Bacteria; Proteobacteria; Gammaproteobacteria	205918.Psyr	0	1.0	-11198.6993209605	1.114259	0.105361	0.0	1.21962
+DsrC	Class	Bacteria; Proteobacteria; Gammaproteobacteria	1005058.UMN179	202	0.9999396683	-11161.6619802335	0.056896	0.39435	0.392416	0.84366
+DsrC	Class	Bacteria; Proteobacteria; Gammaproteobacteria	1028803.GG9	0	1.0	-11173.6514013826	1.246342	0.005089	0.0	1.25143
+DsrC	Class	Bacteria; Proteobacteria; Gammaproteobacteria	1001530.PMSV	202	0.9348033783	-11174.4673120561	0.097715	0.534909	0.392416	1.02504
+DsrC	Class	Bacteria; Proteobacteria; Gammaproteobacteria	1028805.GGC	0	1.0	-11172.1991982555	1.222335	0.0001	0.0	1.22243
+DsrC	Class	Bacteria; Proteobacteria; Gammaproteobacteria	1085623.GNIT	0	1.0	-11179.6753333429	1.200123	0.106099	0.0	1.30622
+DsrC	Class	Bacteria; Proteobacteria; Gammaproteobacteria	1116375.VEJY3	0	1.0	-11196.313947183	1.199183	0.226513	0.0	1.4257
+DsrC	Class	Bacteria; Proteobacteria; Gammaproteobacteria	187272.Mlg	0	1.0	-11193.0752596367	1.100675	0.21575	0.0	1.31643
+DsrC	Class	Bacteria; Proteobacteria; Gammaproteobacteria	198628.Dda3937	0	1.0	-11198.4092704839	1.199655	0.276604	0.0	1.47626
+DsrC	Class	Bacteria; Proteobacteria; Gammaproteobacteria	1002339.HMPREF9373	0	1.0	-11155.7258121897	0.471531	0.0001	0.0	0.47163
+DsrC	Class	Bacteria; Proteobacteria; Gammaproteobacteria	1005090.BAKON	0	1.0	-11218.2664920238	1.026969	0.434026	0.0	1.461
+DsrC	Class	Bacteria; Proteobacteria; Gammaproteobacteria	1042876.PPS	0	1.0	-11193.0388889526	1.114259	0.105361	0.0	1.21962
+DsrC	Class	Bacteria; Proteobacteria; Gammaproteobacteria	1114970.PSF113	0	1.0	-11191.8997933356	1.114259	0.105361	0.0	1.21962
+DsrC	Class	Bacteria; Proteobacteria; Gammaproteobacteria	160488.PP	0	1.0	-11188.9995162495	1.114259	0.105361	0.0	1.21962
+DsrC	Class	Bacteria; Proteobacteria; Gammaproteobacteria	198214.SF0971	0	1.0	-11187.6915800183	1.214831	0.215214	0.0	1.43005
+DsrC	Class	Bacteria; Proteobacteria; Gammaproteobacteria	205914.HS	0	1.0	-11181.3453567815	1.234345	0.042225	0.0	1.27657
+DsrC	Class	Bacteria; Proteobacteria; Gammaproteobacteria	1006551.KOX	0	1.0	-11192.3945366085	1.241184	0.254743	0.0	1.49593
+DsrC	Class	Bacteria; Proteobacteria; Gammaproteobacteria	1035188.HMPREF9952	234	1.0	-11158.0645937868	0.036878	0.342028	0.765505	1.14441
