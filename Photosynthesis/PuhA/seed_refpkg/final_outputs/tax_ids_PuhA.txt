@@ -1,0 +1,48 @@
+1	Brevundimonas subvibrioides ATCC 15264 | 633149.Bresu	Bacteria; Proteobacteria; Alphaproteobacteria; Caulobacterales; Caulobacteraceae; Brevundimonas; Brevundimonas subvibrioides
+2	Fulvimarina pelagi HTCC2506 | 314231.FP2506	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Aurantimonadaceae; Fulvimarina; Fulvimarina pelagi
+3	Methylocella silvestris BL2 | 395965.Msil	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Beijerinckiaceae; Methylocella; Methylocella silvestris
+4	Bradyrhizobium sp. ORS 278 | 114615.BRADO1645	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Bradyrhizobiaceae; Bradyrhizobium; unclassified Bradyrhizobium
+5	Bradyrhizobium sp. BTAi1 | 288000.BBta	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Bradyrhizobiaceae; Bradyrhizobium; unclassified Bradyrhizobium
+6	Rhodopseudomonas palustris BisA53 | 316055.RPE	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Bradyrhizobiaceae; Rhodopseudomonas; Rhodopseudomonas palustris
+7	Rhodopseudomonas palustris BisB18 | 316056.RPC	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Bradyrhizobiaceae; Rhodopseudomonas; Rhodopseudomonas palustris
+8	Rhodopseudomonas palustris BisB5 | 316057.RPD	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Bradyrhizobiaceae; Rhodopseudomonas; Rhodopseudomonas palustris
+9	Rhodopseudomonas palustris HaA2 | 316058.RPB	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Bradyrhizobiaceae; Rhodopseudomonas; Rhodopseudomonas palustris
+10	Rhodopseudomonas palustris DX-1 | 652103.Rpdx1	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Bradyrhizobiaceae; Rhodopseudomonas; Rhodopseudomonas palustris
+11	Rhodopseudomonas palustris | WP_011157107	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Bradyrhizobiaceae; Rhodopseudomonas; Rhodopseudomonas palustris
+12	Rhodomicrobium vannielii ATCC 17100 | 648757.Rvan	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Rhodomicrobium; Rhodomicrobium vannielii
+13	Methylobacterium radiotolerans JCM 2831 | 426355.Mrad2831	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Methylobacteriaceae; Methylobacterium; Methylobacterium radiotolerans
+14	Methylobacterium sp. 4-46 | 426117.M446	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Methylobacteriaceae; Methylobacterium; unclassified Methylobacterium
+15	Methylorubrum extorquens | WP_003607116	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Methylobacteriaceae; Methylorubrum; Methylorubrum extorquens
+16	Methylorubrum populi BJ001 | 441620.Mpop	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Methylobacteriaceae; Methylorubrum; Methylorubrum populi
+17	Hoeflea phototrophica DFL-43 | 411684.HPDFL43	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Phyllobacteriaceae; Hoeflea; Hoeflea phototrophica
+18	Ahrensia sp. R2A130 | 744979.R2A130	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Ahrensia; unclassified Ahrensia
+19	Dinoroseobacter shibae DFL 12 = DSM 16493 | 398580.Dshi	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Dinoroseobacter; Dinoroseobacter shibae
+20	Jannaschia sp. CCS1 | 290400.Jann	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Jannaschia; unclassified Jannaschia
+21	Labrenzia alexandrii DFL-11 | 244592.SADFL11	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Labrenzia; Labrenzia alexandrii
+22	Rhodobacter capsulatus | WP_013066403	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Rhodobacter; Rhodobacter capsulatus
+23	Rhodobacter sphaeroides 2.4.1 | 272943.RSP	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Rhodobacter; Rhodobacter sphaeroides
+24	Rhodobacter sphaeroides ATCC 17025 | 349102.Rsph17025	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Rhodobacter; Rhodobacter sphaeroides
+25	Rhodobacter sp. SW2 | 371731.Rsw2DRAFT	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Rhodobacter; unclassified Rhodobacter
+26	Roseibacterium elongatum | WP_025311369	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseibacterium; Roseibacterium elongatum
+27	Roseobacter denitrificans OCh 114 | 375451.RD1	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseobacter; Roseobacter denitrificans
+28	Roseobacter sp. AzwK-3b | 351016.RAZWK3B	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseobacter; unclassified Roseobacter
+29	Roseobacter sp. CCS2 | 391593.RCCS2	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseobacter; unclassified Roseobacter
+30	Roseovarius sp. 217 | 314264.ROS217	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseovarius; unclassified Roseovarius
+31	Roseovarius sp. TM1035 | 391613.RTM1035	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseovarius; unclassified Roseovarius
+32	Thalassobium sp. R2A62 | 633131.TR2A62	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Thalassobium; unclassified Thalassobium
+33	Yoonia vestfoldensis SKA53 | 314232.SKA53	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Yoonia; Yoonia vestfoldensis
+34	Rhodobacteraceae bacterium HTCC2083 | 314270.RB2083	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; unclassified Rhodobacteraceae
+35	Rhodospirillum centenum SW | 414684.RC1	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales; Rhodospirillaceae; Rhodospirillum; Rhodospirillum centenum
+36	Rhodospirillum rubrum | WP_011388375	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales; Rhodospirillaceae; Rhodospirillum; Rhodospirillum rubrum
+37	Citromicrobium bathyomarinum JL354 | 685035.CbatJ	Bacteria; Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Citromicrobium; Citromicrobium bathyomarinum
+38	Citromicrobium bathyomarinum JL354 | 685035.CbatJ	Bacteria; Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Citromicrobium; Citromicrobium bathyomarinum
+39	Sphingomonas sanxanigenens | WP_025293521	Bacteria; Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Sphingomonas; Sphingomonas sanxanigenens
+40	Rubrivivax benzoatilyticus JA2 = ATCC BAA-35 | 987059.RBXJA2T	Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales; unclassified Burkholderiales; Burkholderiales Genera incertae sedis; Rubrivivax; Rubrivivax benzoatilyticus
+41	Rubrivivax gelatinosus | WP_014429552	Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales; unclassified Burkholderiales; Burkholderiales Genera incertae sedis; Rubrivivax; Rubrivivax gelatinosus
+42	Methyloversatilis universalis FAM5 | 1000565.METUNv1	Bacteria; Proteobacteria; Betaproteobacteria; Nitrosomonadales; Sterolibacteriaceae; Methyloversatilis; Methyloversatilis universalis
+43	Congregibacter litoralis KT71 | 314285.KT71	Bacteria; Proteobacteria; Gammaproteobacteria; Cellvibrionales; Halieaceae; Congregibacter; Congregibacter litoralis
+44	marine gamma proteobacterium HTCC2080 | 247639.MGP2080	Bacteria; Proteobacteria; Gammaproteobacteria; Cellvibrionales; Halieaceae; unclassified Halieaceae
+45	Allochromatium vinosum DSM 180 | 572477.Alvin	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Allochromatium; Allochromatium vinosum
+46	Marichromatium purpuratum 984 | 765910.MarpuDRAFT	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Marichromatium; Marichromatium purpuratum
+47	Thioflavicoccus mobilis | WP_015281614	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Thioflavicoccus; Thioflavicoccus mobilis
+48	Halorhodospira halophila SL1 | 349124.Hhal	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Ectothiorhodospiraceae; Halorhodospira; Halorhodospira halophila

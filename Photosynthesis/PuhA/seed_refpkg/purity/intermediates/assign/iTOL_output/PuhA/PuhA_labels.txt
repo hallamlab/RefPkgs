@@ -1,0 +1,52 @@
+LABELS
+SEPARATOR COMMA
+DATA
+#NODE_ID,LABEL
+1_PuhA,Brevundimonas subvibrioides ATCC 15264 | 633149.Bresu
+2_PuhA,Fulvimarina pelagi HTCC2506 | 314231.FP2506
+3_PuhA,Methylocella silvestris BL2 | 395965.Msil
+4_PuhA,Bradyrhizobium sp. ORS 278 | 114615.BRADO1645
+5_PuhA,Bradyrhizobium sp. BTAi1 | 288000.BBta
+6_PuhA,Rhodopseudomonas palustris BisA53 | 316055.RPE
+7_PuhA,Rhodopseudomonas palustris BisB18 | 316056.RPC
+8_PuhA,Rhodopseudomonas palustris BisB5 | 316057.RPD
+9_PuhA,Rhodopseudomonas palustris HaA2 | 316058.RPB
+10_PuhA,Rhodopseudomonas palustris DX-1 | 652103.Rpdx1
+11_PuhA,Rhodopseudomonas palustris | WP_011157107
+12_PuhA,Rhodomicrobium vannielii ATCC 17100 | 648757.Rvan
+13_PuhA,Methylobacterium radiotolerans JCM 2831 | 426355.Mrad2831
+14_PuhA,Methylobacterium sp. 4-46 | 426117.M446
+15_PuhA,Methylorubrum extorquens | WP_003607116
+16_PuhA,Methylorubrum populi BJ001 | 441620.Mpop
+17_PuhA,Hoeflea phototrophica DFL-43 | 411684.HPDFL43
+18_PuhA,Ahrensia sp. R2A130 | 744979.R2A130
+19_PuhA,Dinoroseobacter shibae DFL 12 = DSM 16493 | 398580.Dshi
+20_PuhA,Jannaschia sp. CCS1 | 290400.Jann
+21_PuhA,Labrenzia alexandrii DFL-11 | 244592.SADFL11
+22_PuhA,Rhodobacter capsulatus | WP_013066403
+23_PuhA,Rhodobacter sphaeroides 2.4.1 | 272943.RSP
+24_PuhA,Rhodobacter sphaeroides ATCC 17025 | 349102.Rsph17025
+25_PuhA,Rhodobacter sp. SW2 | 371731.Rsw2DRAFT
+26_PuhA,Roseibacterium elongatum | WP_025311369
+27_PuhA,Roseobacter denitrificans OCh 114 | 375451.RD1
+28_PuhA,Roseobacter sp. AzwK-3b | 351016.RAZWK3B
+29_PuhA,Roseobacter sp. CCS2 | 391593.RCCS2
+30_PuhA,Roseovarius sp. 217 | 314264.ROS217
+31_PuhA,Roseovarius sp. TM1035 | 391613.RTM1035
+32_PuhA,Thalassobium sp. R2A62 | 633131.TR2A62
+33_PuhA,Yoonia vestfoldensis SKA53 | 314232.SKA53
+34_PuhA,Rhodobacteraceae bacterium HTCC2083 | 314270.RB2083
+35_PuhA,Rhodospirillum centenum SW | 414684.RC1
+36_PuhA,Rhodospirillum rubrum | WP_011388375
+37_PuhA,Citromicrobium bathyomarinum JL354 | 685035.CbatJ
+38_PuhA,Citromicrobium bathyomarinum JL354 | 685035.CbatJ
+39_PuhA,Sphingomonas sanxanigenens | WP_025293521
+40_PuhA,Rubrivivax benzoatilyticus JA2 = ATCC BAA-35 | 987059.RBXJA2T
+41_PuhA,Rubrivivax gelatinosus | WP_014429552
+42_PuhA,Methyloversatilis universalis FAM5 | 1000565.METUNv1
+43_PuhA,Congregibacter litoralis KT71 | 314285.KT71
+44_PuhA,marine gamma proteobacterium HTCC2080 | 247639.MGP2080
+45_PuhA,Allochromatium vinosum DSM 180 | 572477.Alvin
+46_PuhA,Marichromatium purpuratum 984 | 765910.MarpuDRAFT
+47_PuhA,Thioflavicoccus mobilis | WP_015281614
+48_PuhA,Halorhodospira halophila SL1 | 349124.Hhal

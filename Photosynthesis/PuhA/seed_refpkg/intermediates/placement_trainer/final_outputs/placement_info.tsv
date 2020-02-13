@@ -1,0 +1,48 @@
+#Marker	Rank	Lineage	Query.Name	Internal.Node	Placement.LWR	Tree.Likelihood	Dist.Distal	Dist.Pendant	Dist.MeanTip	Dist.Total
+PuhA	Species	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Methylobacteriaceae; Methylorubrum; Methylorubrum extorquens	272630.MexAM1	56	1.0	-10376.7468575136	0.004654	0.032231	0.0	0.03689
+PuhA	Species	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Methylobacteriaceae; Methylorubrum; Methylorubrum populi	441620.Mpop	56	1.0	-10376.8497300231	0.032304	0.00462	0.0	0.03692
+PuhA	Species	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Rhodobacter; Rhodobacter capsulatus	272942.RCAP	30	1.0	-10381.2745124654	0.241254	0.27289	0.019352	0.5335
+PuhA	Species	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Rhodobacter; Rhodobacter sphaeroides	272943.RSP	28	1.0	-10327.975129755	0.256761	0.253539	0.0	0.5103
+PuhA	Species	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Rhodobacter; Rhodobacter sphaeroides	349102.Rsph17025	28	1.0	-10334.6656998831	0.254293	0.268153	0.0	0.52245
+PuhA	Species	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales; Rhodospirillaceae; Rhodospirillum; Rhodospirillum centenum	414684.RC1	3	1.0	-10376.3465022485	0.339459	0.399324	0.0	0.73878
+PuhA	Species	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales; Rhodospirillaceae; Rhodospirillum; Rhodospirillum rubrum	269796.Rru	44	0.769774592	-10367.9814500176	0.058678	0.459673	1.023546	1.5419
+PuhA	Class	Bacteria; Proteobacteria; Alphaproteobacteria	316055.RPE	4	0.9573593761	-3482.1834869431	0.080092	0.437994	0.370498	0.88858
+PuhA	Class	Bacteria; Proteobacteria; Alphaproteobacteria	391613.RTM1035	7	0.5438894939	-3538.3144145869	0.047946	0.6185	0.38598	1.05243
+PuhA	Class	Bacteria; Proteobacteria; Alphaproteobacteria	114615.BRADO1645	8	0.99128488	-3491.3261859141	0.038218	0.438029	0.549937	1.02618
+PuhA	Class	Bacteria; Proteobacteria; Alphaproteobacteria	316057.RPD	7	1.0	-3469.2181213449	0.11086	0.385191	0.38598	0.88203
+PuhA	Class	Bacteria; Proteobacteria; Alphaproteobacteria	244592.SADFL11	7	1.0	-3526.7020356968	0.085989	0.554052	0.38598	1.02602
+PuhA	Class	Bacteria; Proteobacteria; Alphaproteobacteria	258594.RPA1548	7	1.0	-3475.5194717222	0.110701	0.417514	0.38598	0.91419
+PuhA	Class	Bacteria; Proteobacteria; Alphaproteobacteria	314231.FP2506	0	0.8619242775	-3620.583362207	0.319058	1.102446	0.0	1.4215
+PuhA	Class	Bacteria; Proteobacteria; Alphaproteobacteria	316056.RPC	7	1.0	-3470.2704290845	0.118923	0.395199	0.38598	0.9001
+PuhA	Class	Bacteria; Proteobacteria; Alphaproteobacteria	351016.RAZWK3B	7	1.0	-3546.149687069	0.06104	0.624067	0.38598	1.07109
+PuhA	Class	Bacteria; Proteobacteria; Alphaproteobacteria	391593.RCCS2	12	0.9852090006	-3545.7762562476	0.282148	0.681246	0.04118	1.00457
+PuhA	Class	Bacteria; Proteobacteria; Alphaproteobacteria	272943.RSP	7	1.0	-3558.7468954733	0.05433	0.748553	0.38598	1.18886
+PuhA	Class	Bacteria; Proteobacteria; Alphaproteobacteria	314232.SKA53	12	1.0	-3580.4205842565	0.266774	0.795437	0.04118	1.10339
+PuhA	Class	Bacteria; Proteobacteria; Alphaproteobacteria	272630.MexAM1	12	1.0	-3544.3718766414	0.33107	0.606052	0.04118	0.9783
+PuhA	Class	Bacteria; Proteobacteria; Alphaproteobacteria	426117.M446	14	1.0	-3485.6013705979	0.411591	0.398727	0.0	0.81032
+PuhA	Class	Bacteria; Proteobacteria; Alphaproteobacteria	288000.BBta	8	1.0	-3487.3872404976	0.042436	0.430519	0.549937	1.02289
+PuhA	Class	Bacteria; Proteobacteria; Alphaproteobacteria	426355.Mrad2831	8	1.0	-3539.7752259756	0.062406	0.647292	0.549937	1.25964
+PuhA	Class	Bacteria; Proteobacteria; Alphaproteobacteria	314264.ROS217	5	0.5608412371	-3534.7217088523	0.351286	0.587082	0.0	0.93837
+PuhA	Class	Bacteria; Proteobacteria; Alphaproteobacteria	349102.Rsph17025	7	1.0	-3558.406211834	0.054315	0.738566	0.38598	1.17886
+PuhA	Class	Bacteria; Proteobacteria; Alphaproteobacteria	375451.RD1	7	1.0	-3541.108190974	0.068869	0.621168	0.38598	1.07602
+PuhA	Class	Bacteria; Proteobacteria; Alphaproteobacteria	398580.Dshi	7	1.0	-3560.8769666828	0.060387	0.675231	0.38598	1.1216
+PuhA	Class	Bacteria; Proteobacteria; Alphaproteobacteria	269796.Rru	7	1.0	-3495.1507484228	0.094007	0.469822	0.38598	0.94981
+PuhA	Class	Bacteria; Proteobacteria; Alphaproteobacteria	316058.RPB	7	1.0	-3480.9742196119	0.106367	0.442961	0.38598	0.93531
+PuhA	Class	Bacteria; Proteobacteria; Alphaproteobacteria	371731.Rsw2DRAFT	7	1.0	-3576.149404465	0.044893	0.797843	0.38598	1.22872
+PuhA	Class	Bacteria; Proteobacteria; Alphaproteobacteria	414684.RC1	7	1.0	-3489.6651627043	0.112602	0.395176	0.38598	0.89376
+PuhA	Class	Bacteria; Proteobacteria; Alphaproteobacteria	290400.Jann	12	0.7904567966	-3589.1795282783	0.305235	0.793745	0.04118	1.14016
+PuhA	Class	Bacteria; Proteobacteria; Alphaproteobacteria	314270.RB2083	12	1.0	-3563.1288073289	0.273621	0.673806	0.04118	0.98861
+PuhA	Class	Bacteria; Proteobacteria; Alphaproteobacteria	441620.Mpop	12	1.0	-3541.6558781201	0.33174	0.595259	0.04118	0.96818
+PuhA	Class	Bacteria; Proteobacteria; Alphaproteobacteria	272942.RCAP	14	1.0	-3559.6424690322	0.346422	0.710435	0.0	1.05686
+PuhA	Class	Bacteria; Proteobacteria; Alphaproteobacteria	411684.HPDFL43	8	1.0	-3530.6631207929	0.032745	0.564412	0.549937	1.14709
+PuhA	Class	Bacteria; Proteobacteria; Alphaproteobacteria	395965.Msil	8	1.0	-3477.5907301043	0.058587	0.412489	0.549937	1.02101
+PuhA	Class	Bacteria; Proteobacteria; Betaproteobacteria	987059.RBXJA2T	83	1.0	-12704.0410724638	0.146399	0.507352	0.366616	1.02037
+PuhA	Class	Bacteria; Proteobacteria; Betaproteobacteria	WP_014429552	83	1.0	-12702.3108714338	0.138969	0.492835	0.366616	0.99842
+PuhA	Class	Bacteria; Proteobacteria; Betaproteobacteria	1000565.METUNv1	3	1.0	-12637.1746188695	0.506942	0.291816	0.0	0.79876
+PuhA	Class	Bacteria; Proteobacteria; Gammaproteobacteria	349124.Hhal	7	0.984662542	-11557.3539710461	0.124821	0.526886	0.396157	1.04786
+PuhA	Class	Bacteria; Proteobacteria; Gammaproteobacteria	314285.KT71	61	1.0	-11533.1868609429	0.356018	0.43906	0.730491	1.52557
+PuhA	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_015281614	61	1.0	-11543.7618433765	0.324584	0.327371	0.730491	1.38245
+PuhA	Class	Bacteria; Proteobacteria; Gammaproteobacteria	565045.NOR51B	62	1.0	-11253.5609198038	0.017466	0.161538	0.890859	1.06986
+PuhA	Class	Bacteria; Proteobacteria; Gammaproteobacteria	572477.Alvin	80	0.927615143	-11521.0743378934	0.049017	0.405075	0.478795	0.93289
+PuhA	Class	Bacteria; Proteobacteria; Gammaproteobacteria	247639.MGP2080	61	1.0	-11544.6308347604	0.338682	0.369706	0.730491	1.43888
+PuhA	Class	Bacteria; Proteobacteria; Gammaproteobacteria	765910.MarpuDRAFT	62	1.0	-11525.4027017039	0.140187	0.415873	0.890859	1.44692
