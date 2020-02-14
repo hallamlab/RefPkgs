@@ -2,13 +2,14 @@
 
 from treesapp import classy
 from treesapp import create_refpkg
-from treesapp.fasta import read_fasta_to_dict
+from treesapp.file_parsers import load_json_build
 from collections import namedtuple
 import glob
 import shutil
 import argparse
 import re
 import os
+import sys
 
 
 def get_arguments():
@@ -31,7 +32,8 @@ def get_arguments():
 
 RefPkg_Patterns = [re.compile(r"(\w{2,10}).hmm"), re.compile(r"(\w{2,10}).fa"),
                    re.compile(r"(\w{2,10})_bestModel.txt"), re.compile(r"(\w{2,10})_tree.txt"),
-                   re.compile(r"tax_ids_(\w{2,10}).txt"), re.compile(r"(\w{2,10})_bipartitions.txt")]
+                   re.compile(r"tax_ids_(\w{2,10}).txt"), re.compile(r"(\w{2,10})_bipartitions.txt"),
+                   re.compile(r"(\w{2,10})_build.json")]
 
 
 def gather_refpkg_dirs() -> list:
@@ -51,6 +53,36 @@ def gather_refpkg_dirs() -> list:
         if len(dir_files) == 0:
             refpkg_dirs.append(final_dir)
     return refpkg_dirs
+
+
+def load_marker_build_instances(refpkg_dirs: list, targets=None) -> list:
+    if targets is None:
+        targets = {}
+    markers = []
+    empty_dirs = []
+
+    for refpkg_dir in refpkg_dirs:
+        marker_build = classy.MarkerBuild()
+        for fname in glob.glob(refpkg_dir + "*"):
+            build_file = re.match(r"(\w{2,10})_build.json", os.path.basename(fname))
+            if build_file and build_file.group(1) in targets:
+                marker_build.cog = build_file.group(1)
+                targets.remove(marker_build.cog)
+                build_params = load_json_build(fname)
+                if marker_build.cog != build_params["RefPkg"]["name"]:
+                    print("Discrepancy between RefPkg names from file name (%s) and JSON (%s)." %
+                          (marker_build.cog, build_params["RefPkg"]["name"]))
+                    sys.exit(5)
+                marker_build.dict_to_attributes(build_params)
+                markers.append(marker_build)
+                break
+        if not marker_build.cog:
+            empty_dirs.append(refpkg_dir)
+
+    if targets:
+        [print("Warning: unable to find JSON file in refpkg directory '%s'." % refpkg_dir) for refpkg_dir in empty_dirs]
+
+    return markers
 
 
 def consensus_name(dir_files: list) -> str:
@@ -140,21 +172,8 @@ def copy_refpkg_files_to_treesapp(ref_packages, refpkg_repository) -> None:
     return
 
 
-def update_refpkg_table(ref_packages, param_file):
-    for refpkg in ref_packages:  # type: classy.ReferencePackage
-        marker_build = classy.MarkerBuild()
-        marker_build.cog = refpkg.prefix
-        marker_build.num_reps = len(read_fasta_to_dict(refpkg.msa))
-        marker_build.model = ""
-        marker_build.molecule = ""
-        marker_build.tree_tool = ""
-        marker_build.pid = ""
-        marker_build.kind = ""
-        marker_build.pfit = create_refpkg.parse_model_parameters(re.sub("final_outputs.*", "intermediates" + os.sep,
-                                                                        refpkg.msa) +
-                                                                 os.sep.join(["placement_trainer",
-                                                                              "final_outputs",
-                                                                              "placement_trainer_results.txt"]))
+def update_refpkg_table(marker_builds, param_file):
+    for marker_build in marker_builds:  # type: classy.MarkerBuild()
         create_refpkg.update_build_parameters(param_file, marker_build)
     return
 
@@ -168,6 +187,7 @@ def main():
         return
     if args.name:
         filter_refpkgs_by_name(ref_packages, args.name)
+    marker_builds = load_marker_build_instances(refpkg_dirs, {refpkg.prefix for refpkg in ref_packages})
 
     refpkg_repo = validate_treesapp_refpkg_dir(args.treesapp_install)
 
@@ -175,7 +195,7 @@ def main():
     copy_refpkg_files_to_treesapp(ref_packages, refpkg_repo)
 
     param_file = args.treesapp_install + os.sep + "ref_build_parameters.tsv"
-    update_refpkg_table(ref_packages, param_file)
+    update_refpkg_table(marker_builds, param_file)
 
     return
 

@@ -1,0 +1,1 @@
+{"RefPkg": {"model": "PROTGAMMALG", "sequences": 48, "code": "Z1111", "name": "PuhA", "kind": "functional", "lowest_confident_rank": "Orders", "molecule": "prot", "tree-tool": "FastTree", "description": "", "regression-parameters": ["-3.2471", "7.0"], "cluster-similarity": "0.97"}}

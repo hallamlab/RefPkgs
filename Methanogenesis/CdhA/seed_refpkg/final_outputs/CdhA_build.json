@@ -1,0 +1,1 @@
+{"RefPkg": {"sequences": 101, "name": "CdhA", "tree-tool": "FastTree", "lowest_confident_rank": "Classes", "model": "PROTGAMMALG", "molecule": "prot", "cluster-similarity": "0.97", "description": "", "code": "Z1111", "regression-parameters": ["-4.9551", "7.0"], "kind": "functional"}}

@@ -1,0 +1,1 @@
+{"RefPkg": {"code": "Z1111", "molecule": "prot", "cluster-similarity": "0.95", "lowest_confident_rank": "Kingdoms", "kind": "functional", "description": "", "tree-tool": "FastTree", "sequences": 351, "regression-parameters": ["-3.4643", "7.0"], "name": "DsrC", "model": "PROTGAMMALG"}}

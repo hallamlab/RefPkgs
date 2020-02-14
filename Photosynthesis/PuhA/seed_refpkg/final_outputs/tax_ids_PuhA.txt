@@ -3,12 +3,12 @@
 3	Methylocella silvestris BL2 | 395965.Msil	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Beijerinckiaceae; Methylocella; Methylocella silvestris
 4	Bradyrhizobium sp. ORS 278 | 114615.BRADO1645	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Bradyrhizobiaceae; Bradyrhizobium; unclassified Bradyrhizobium
 5	Bradyrhizobium sp. BTAi1 | 288000.BBta	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Bradyrhizobiaceae; Bradyrhizobium; unclassified Bradyrhizobium
-6	Rhodopseudomonas palustris BisA53 | 316055.RPE	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Bradyrhizobiaceae; Rhodopseudomonas; Rhodopseudomonas palustris
-7	Rhodopseudomonas palustris BisB18 | 316056.RPC	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Bradyrhizobiaceae; Rhodopseudomonas; Rhodopseudomonas palustris
-8	Rhodopseudomonas palustris BisB5 | 316057.RPD	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Bradyrhizobiaceae; Rhodopseudomonas; Rhodopseudomonas palustris
-9	Rhodopseudomonas palustris HaA2 | 316058.RPB	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Bradyrhizobiaceae; Rhodopseudomonas; Rhodopseudomonas palustris
-10	Rhodopseudomonas palustris DX-1 | 652103.Rpdx1	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Bradyrhizobiaceae; Rhodopseudomonas; Rhodopseudomonas palustris
-11	Rhodopseudomonas palustris | WP_011157107	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Bradyrhizobiaceae; Rhodopseudomonas; Rhodopseudomonas palustris
+6	Rhodopseudomonas palustris BisB5 | 316057.RPD	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Bradyrhizobiaceae; Rhodopseudomonas; Rhodopseudomonas palustris
+7	Rhodopseudomonas palustris DX-1 | 652103.Rpdx1	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Bradyrhizobiaceae; Rhodopseudomonas; Rhodopseudomonas palustris
+8	Rhodopseudomonas palustris HaA2 | 316058.RPB	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Bradyrhizobiaceae; Rhodopseudomonas; Rhodopseudomonas palustris
+9	Rhodopseudomonas palustris BisB18 | 316056.RPC	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Bradyrhizobiaceae; Rhodopseudomonas; Rhodopseudomonas palustris
+10	Rhodopseudomonas palustris | WP_011157107	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Bradyrhizobiaceae; Rhodopseudomonas; Rhodopseudomonas palustris
+11	Rhodopseudomonas palustris BisA53 | 316055.RPE	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Bradyrhizobiaceae; Rhodopseudomonas; Rhodopseudomonas palustris
 12	Rhodomicrobium vannielii ATCC 17100 | 648757.Rvan	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Rhodomicrobium; Rhodomicrobium vannielii
 13	Methylobacterium radiotolerans JCM 2831 | 426355.Mrad2831	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Methylobacteriaceae; Methylobacterium; Methylobacterium radiotolerans
 14	Methylobacterium sp. 4-46 | 426117.M446	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Methylobacteriaceae; Methylobacterium; unclassified Methylobacterium
@@ -27,8 +27,8 @@
 27	Roseobacter denitrificans OCh 114 | 375451.RD1	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseobacter; Roseobacter denitrificans
 28	Roseobacter sp. AzwK-3b | 351016.RAZWK3B	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseobacter; unclassified Roseobacter
 29	Roseobacter sp. CCS2 | 391593.RCCS2	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseobacter; unclassified Roseobacter
-30	Roseovarius sp. 217 | 314264.ROS217	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseovarius; unclassified Roseovarius
-31	Roseovarius sp. TM1035 | 391613.RTM1035	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseovarius; unclassified Roseovarius
+30	Roseovarius sp. TM1035 | 391613.RTM1035	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseovarius; unclassified Roseovarius
+31	Roseovarius sp. 217 | 314264.ROS217	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseovarius; unclassified Roseovarius
 32	Thalassobium sp. R2A62 | 633131.TR2A62	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Thalassobium; unclassified Thalassobium
 33	Yoonia vestfoldensis SKA53 | 314232.SKA53	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Yoonia; Yoonia vestfoldensis
 34	Rhodobacteraceae bacterium HTCC2083 | 314270.RB2083	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; unclassified Rhodobacteraceae
