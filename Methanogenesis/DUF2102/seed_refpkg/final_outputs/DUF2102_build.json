@@ -1,0 +1,1 @@
+{"RefPkg": {"name": "DUF2102", "code": "Z1111", "molecule": "prot", "sequences": 49, "model": "PROTGAMMALG", "lowest_confident_rank": "Orders", "kind": "functional", "tree-tool": "FastTree", "regression-parameters": ["-2.6131", "7.0"], "cluster-similarity": "0.97", "description": ""}}

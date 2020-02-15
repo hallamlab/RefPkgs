@@ -1,0 +1,84 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+192952.MM_0913       -            147 TIGR03272            TIGR03272    132   2.3e-60  194.3   0.2   1   1   2.7e-60   2.7e-60  194.0   0.2     1   131    12   144    12   145 0.96 -
+259564.Mbur_1904     -            144 TIGR03272            TIGR03272    132     6e-59  189.7   0.1   1   1   6.7e-59   6.7e-59  189.5   0.1     1   131    12   143    12   144 0.97 -
+WP_011499929.1       -            144 TIGR03272            TIGR03272    132     6e-59  189.7   0.1   1   1   6.7e-59   6.7e-59  189.5   0.1     1   131    12   143    12   144 0.97 methanogenesis marker 6 protein [Methanococcoides burtonii]
+243232.MJ_0498       -            156 TIGR03272            TIGR03272    132   1.1e-58  188.8   0.9   1   1   1.3e-58   1.3e-58  188.6   0.9     1   131     8   149     8   150 0.96 -
+269797.Mbar_A0705    -            147 TIGR03272            TIGR03272    132   7.3e-58  186.2   0.2   1   1   8.4e-58   8.4e-58  186.0   0.2     1   131    12   144    12   145 0.95 -
+644281.MFS40622_1769 -            155 TIGR03272            TIGR03272    132   9.4e-58  185.8   0.4   1   1   1.1e-57   1.1e-57  185.6   0.4     1   131     7   148     7   149 0.95 -
+188937.MA3996        -            158 TIGR03272            TIGR03272    132     1e-57  185.7   0.1   1   1   1.3e-57   1.3e-57  185.4   0.1     1   131    23   155    23   156 0.95 -
+579137.Metvu_0535    -            155 TIGR03272            TIGR03272    132   2.7e-56  181.1   0.3   1   1   3.6e-56   3.6e-56  180.7   0.3     1   131     7   148     7   149 0.93 -
+573064.Mefer_0714    -            155 TIGR03272            TIGR03272    132   4.1e-56  180.5   0.4   1   1   4.8e-56   4.8e-56  180.3   0.4     1   131     7   148     7   149 0.95 -
+339860.Msp_1029      -            132 TIGR03272            TIGR03272    132   7.7e-56  179.6   0.0   1   1   8.7e-56   8.7e-56  179.5   0.0     1   131     2   128     2   129 0.99 -
+547558.Mmah_1854     -            144 TIGR03272            TIGR03272    132   4.5e-55  177.2   0.0   1   1   5.1e-55   5.1e-55  177.0   0.0     1   131    12   143    12   144 0.96 -
+WP_013038291.1       -            144 TIGR03272            TIGR03272    132   4.5e-55  177.2   0.0   1   1   5.1e-55   5.1e-55  177.0   0.0     1   131    12   143    12   144 0.96 methanogenesis marker 6 protein [Methanohalophilus mahii]
+323259.Mhun_2309     -            151 TIGR03272            TIGR03272    132     7e-55  176.5   0.1   1   1   7.8e-55   7.8e-55  176.4   0.1     1   131    16   150    16   151 0.98 -
+WP_011449272.1       -            151 TIGR03272            TIGR03272    132     7e-55  176.5   0.1   1   1   7.8e-55   7.8e-55  176.4   0.1     1   131    16   150    16   151 0.98 methanogenesis marker 6 protein [Methanospirillum hungatei]
+187420.MTH1866       -            135 TIGR03272            TIGR03272    132   9.6e-55  176.1   0.0   1   1   1.1e-54   1.1e-54  175.9   0.0     1   131     2   128     2   129 0.99 -
+880724.Metig_0346    -            150 TIGR03272            TIGR03272    132   1.1e-54  175.9   0.8   1   1   1.3e-54   1.3e-54  175.6   0.8     1   131     6   145     6   146 0.93 -
+644295.Metev_1815    -            152 TIGR03272            TIGR03272    132     2e-54  175.0   0.0   1   1   2.4e-54   2.4e-54  174.8   0.0     2   130    19   148    18   150 0.97 -
+WP_013195216.1       -            152 TIGR03272            TIGR03272    132     2e-54  175.0   0.0   1   1   2.4e-54   2.4e-54  174.8   0.0     2   130    19   148    18   150 0.97 methanogenesis marker 6 protein [Methanohalobium evestigatum]
+WP_015323618.1       -            143 TIGR03272            TIGR03272    132   4.2e-54  174.0   0.1   1   1   4.8e-54   4.8e-54  173.8   0.1     1   130    11   141    11   143 0.97 methanogenesis marker 6 protein [Methanomethylovorans hollandica]
+190192.MK0332        -            141 TIGR03272            TIGR03272    132   2.6e-53  171.4   0.0   1   1   2.9e-53   2.9e-53  171.3   0.0     2   131    10   140     9   141 0.98 -
+79929.MTBMA_c04370   -            148 TIGR03272            TIGR03272    132   1.4e-52  169.1   0.0   1   1   1.7e-52   1.7e-52  168.8   0.0     1   130    15   140    15   142 0.98 -
+WP_023992421.1       -            140 TIGR03272            TIGR03272    132   2.3e-52  168.4   0.0   1   1   2.7e-52   2.7e-52  168.2   0.0     1   130    12   137    12   139 0.98 methanogenesis marker 6 protein [Methanobacterium sp. MB1]
+868132.Metbo_0685    -            141 TIGR03272            TIGR03272    132   3.1e-52  168.0   0.1   1   1   3.5e-52   3.5e-52  167.8   0.1     1   130    13   138    13   140 0.98 -
+573063.Metin_0783    -            153 TIGR03272            TIGR03272    132   1.4e-51  165.8   0.3   1   1   1.8e-51   1.8e-51  165.5   0.3     1   131     7   149     7   150 0.93 -
+679901.Mzhil_1888    -            148 TIGR03272            TIGR03272    132   2.9e-51  164.8   0.1   1   1   3.3e-51   3.3e-51  164.6   0.1     1   130    16   147    16   148 0.98 -
+WP_013899159.1       -            148 TIGR03272            TIGR03272    132   2.9e-51  164.8   0.1   1   1   3.3e-51   3.3e-51  164.6   0.1     1   130    16   147    16   148 0.98 methanogenesis marker 6 protein [Methanosalsum zhilinae]
+647113.Metok_1246    -            147 TIGR03272            TIGR03272    132   3.7e-51  164.5   0.6   1   1   4.8e-51   4.8e-51  164.1   0.6     1   131     6   146     6   147 0.93 -
+868131.MSWAN_1570    -            172 TIGR03272            TIGR03272    132   6.2e-51  163.8   0.1   1   1   7.8e-51   7.8e-51  163.4   0.1     1   130    40   165    40   167 0.98 -
+523846.Mfer_1092     -            141 TIGR03272            TIGR03272    132     6e-50  160.6   0.2   1   1   7.1e-50   7.1e-50  160.3   0.2     1   130    12   137    12   139 0.98 -
+WP_013414164.1       -            141 TIGR03272            TIGR03272    132     6e-50  160.6   0.2   1   1   7.1e-50   7.1e-50  160.3   0.2     1   130    12   137    12   139 0.98 methanogenesis marker 6 protein [Methanothermus fervidus]
+444158.MmarC6_0615   -            148 TIGR03272            TIGR03272    132   7.3e-50  160.3   0.3   1   1   8.6e-50   8.6e-50  160.1   0.3     1   131     6   144     6   145 0.92 -
+267377.MMP0337       -            148 TIGR03272            TIGR03272    132   1.4e-49  159.4   0.8   1   1   1.7e-49   1.7e-49  159.1   0.8     1   131     6   144     6   145 0.92 -
+402880.MmarC5_1337   -            148 TIGR03272            TIGR03272    132   1.5e-49  159.3   0.2   1   1   1.8e-49   1.8e-49  159.1   0.2     1   131     6   144     6   145 0.92 -
+426368.MmarC7_1338   -            148 TIGR03272            TIGR03272    132   1.6e-49  159.2   0.3   1   1   1.9e-49   1.9e-49  159.0   0.3     1   131     6   144     6   145 0.92 -
+304371.MCP_1061      -            149 TIGR03272            TIGR03272    132   4.8e-49  157.6   0.0   1   1   6.1e-49   6.1e-49  157.3   0.0     4   131    12   139     9   140 0.94 -
+406327.Mevan_1348    -            144 TIGR03272            TIGR03272    132   9.4e-49  156.7   0.8   1   1   1.1e-48   1.1e-48  156.5   0.8     1   130     6   143     6   144 0.93 -
+419665.Maeo_0616     -            162 TIGR03272            TIGR03272    132   1.1e-48  156.5   1.0   1   1   1.4e-48   1.4e-48  156.2   1.0     2   131    16   158    15   159 0.98 -
+456320.Mvol_1709     -            163 TIGR03272            TIGR03272    132   4.9e-48  154.4   1.3   1   1   1.1e-47   1.1e-47  153.2   1.3     1   130     6   152     6   154 0.91 -
+WP_013181092.1       -            163 TIGR03272            TIGR03272    132   4.9e-48  154.4   1.3   1   1   1.1e-47   1.1e-47  153.2   1.3     1   130     6   152     6   154 0.91 methanogenesis marker 6 protein [Methanococcus voltae]
+349307.Mthe_0498     -            141 TIGR03272            TIGR03272    132   5.8e-48  154.1   0.0   1   1   7.1e-48   7.1e-48  153.9   0.0     2   131     8   139     7   140 0.92 -
+420247.Msm_0812      -            158 TIGR03272            TIGR03272    132   2.8e-47  151.9   0.0   1   1   3.3e-47   3.3e-47  151.7   0.0     1   130    25   150    25   152 0.98 -
+WP_004033116.1       -            158 TIGR03272            TIGR03272    132   2.8e-47  151.9   0.0   1   1   3.3e-47   3.3e-47  151.7   0.0     1   130    25   150    25   152 0.98 MULTISPECIES: methanogenesis marker 6 protein [Methanobrevibacter]
+521011.Mpal_0253     -            157 TIGR03272            TIGR03272    132   1.3e-46  149.8   0.0   1   1   1.5e-46   1.5e-46  149.5   0.0     1   131    15   156    15   157 0.92 -
+WP_012616956.1       -            157 TIGR03272            TIGR03272    132   1.3e-46  149.8   0.0   1   1   1.5e-46   1.5e-46  149.5   0.0     1   131    15   156    15   157 0.92 methanogenesis marker 6 protein [Methanosphaerula palustris]
+WP_004077504.1       -            156 TIGR03272            TIGR03272    132   2.5e-46  148.9   0.0   1   1   2.9e-46   2.9e-46  148.7   0.0     1   131    18   154    18   155 0.96 methanogenesis marker 6 protein [Methanoplanus limicola]
+WP_015284258.1       -            152 TIGR03272            TIGR03272    132   2.6e-46  148.8   0.0   1   1   2.9e-46   2.9e-46  148.6   0.0     1   131    15   150    15   151 0.93 methanogenesis marker 6 protein [Methanoregula formicica]
+990316.MCON_0395     -            137 TIGR03272            TIGR03272    132     3e-46  148.6   0.0   1   1   3.5e-46   3.5e-46  148.4   0.0     2   130     8   136     7   137 0.96 -
+WP_013718317.1       -            137 TIGR03272            TIGR03272    132     3e-46  148.6   0.0   1   1   3.5e-46   3.5e-46  148.4   0.0     2   130     8   136     7   137 0.96 methanogenesis marker 6 protein [Methanothrix soehngenii]
+351160.LRC168        -            151 TIGR03272            TIGR03272    132   3.2e-46  148.5   0.0   1   1   3.8e-46   3.8e-46  148.3   0.0     4   130    16   143    13   145 0.95 -
+WP_012037313.1       -            151 TIGR03272            TIGR03272    132   3.2e-46  148.5   0.0   1   1   3.8e-46   3.8e-46  148.3   0.0     4   130    16   143    13   145 0.95 methanogenesis marker 6 protein [Methanocella arvoryzae]
+368407.Memar_2063    -            153 TIGR03272            TIGR03272    132     1e-45  146.9   0.0   1   1   1.2e-45   1.2e-45  146.7   0.0     1   131    15   151    15   152 0.95 -
+WP_011844898.1       -            153 TIGR03272            TIGR03272    132     1e-45  146.9   0.0   1   1   1.2e-45   1.2e-45  146.7   0.0     1   131    15   151    15   152 0.95 methanogenesis marker 6 protein [Methanoculleus marisnigri]
+WP_016358901.1       -            160 TIGR03272            TIGR03272    132   2.1e-45  145.8   0.0   1   1   2.7e-45   2.7e-45  145.5   0.0     1   130    25   150    25   152 0.97 MULTISPECIES: methanogenesis marker 6 protein [Methanobrevibacter]
+1110509.Mhar_1405    -            141 TIGR03272            TIGR03272    132   2.4e-45  145.7   0.0   1   1   2.6e-45   2.6e-45  145.6   0.0     2   131     8   139     6   140 0.91 -
+WP_014586953.1       -            141 TIGR03272            TIGR03272    132   2.4e-45  145.7   0.0   1   1   2.6e-45   2.6e-45  145.6   0.0     2   131     8   139     6   140 0.91 methanogenesis marker 6 protein [Methanosaeta harundinacea]
+634498.mru_1773      -            168 TIGR03272            TIGR03272    132   4.4e-45  144.8   0.0   1   1   5.5e-45   5.5e-45  144.5   0.0     1   131    25   151    25   152 0.98 -
+WP_012956571.1       -            168 TIGR03272            TIGR03272    132   4.4e-45  144.8   0.0   1   1   5.5e-45   5.5e-45  144.5   0.0     1   131    25   151    25   152 0.98 methanogenesis marker 6 protein [Methanobrevibacter ruminantium]
+456442.Mboo_2436     -            152 TIGR03272            TIGR03272    132     5e-44  141.4   0.0   1   1   5.6e-44   5.6e-44  141.2   0.0     1   131    15   150    15   151 0.93 -
+WP_012108013.1       -            152 TIGR03272            TIGR03272    132     5e-44  141.4   0.0   1   1   5.6e-44   5.6e-44  141.2   0.0     1   131    15   150    15   151 0.93 methanogenesis marker 6 protein [Methanoregula boonei]
+WP_004037571.1       -            146 TIGR03272            TIGR03272    132     6e-44  141.2   0.0   1   1   6.8e-44   6.8e-44  141.0   0.0     1   131    15   144    15   145 0.95 methanogenesis marker 6 protein [Methanofollis liminatans]
+679926.Mpet_1906     -            156 TIGR03272            TIGR03272    132   1.9e-42  136.3   0.0   1   1   2.2e-42   2.2e-42  136.1   0.0     1   130    18   153    18   155 0.89 -
+WP_013329835.1       -            156 TIGR03272            TIGR03272    132   1.9e-42  136.3   0.0   1   1   2.2e-42   2.2e-42  136.1   0.0     1   130    18   153    18   155 0.89 methanogenesis marker 6 protein [Methanolacinia petrolearia]
+410358.Mlab_0553     -            153 TIGR03272            TIGR03272    132   3.5e-42  135.4   0.0   1   1   3.8e-42   3.8e-42  135.3   0.0     1   126    15   147    15   153 0.88 -
+WP_011832928.1       -            153 TIGR03272            TIGR03272    132   3.5e-42  135.4   0.0   1   1   3.8e-42   3.8e-42  135.3   0.0     1   126    15   147    15   153 0.88 methanogenesis marker 6 protein [Methanocorpusculum labreanum]
+WP_020448534.1       -            141 TIGR03272            TIGR03272    132   4.7e-40  128.6   0.0   1   1   5.7e-40   5.7e-40  128.3   0.0     2   131    11   139    10   140 0.94 methanogenesis marker 6 protein [Candidatus Methanomassiliicoccus intestinalis]
+WP_015504302.1       -            141 TIGR03272            TIGR03272    132   1.1e-38  124.2   0.0   1   1   1.3e-38   1.3e-38  123.9   0.0     3   130    12   139    10   141 0.94 methanogenesis marker protein 6 [Candidatus Methanomethylophilus alvus]
+WP_015492000.1       -            141 TIGR03272            TIGR03272    132     2e-38  123.3   0.0   1   1   2.3e-38   2.3e-38  123.1   0.0     3   130    12   139    10   141 0.94 methanogenesis marker protein 6 [Thermoplasmatales archaeon BRNA1]
+990316.MCON_0664     -            139 TIGR03272            TIGR03272    132     3e-34  109.8   0.1   1   2   1.8e-28   1.8e-28   91.0   0.0     5    81    18    94    13    97 0.93 -
+990316.MCON_0664     -            139 TIGR03272            TIGR03272    132     3e-34  109.8   0.1   2   2   1.5e-05   1.5e-05   16.9   0.0    76   107   104   135   100   138 0.89 -
+351160.RCIX1021      -             97 TIGR03272            TIGR03272    132     1e-12   40.1   0.0   1   1   1.1e-12   1.1e-12   39.9   0.0     1    77     2    78     2    91 0.94 -
+304371.MCP_0021      -            102 TIGR03272            TIGR03272    132   5.7e-11   34.4   0.2   1   1   6.9e-11   6.9e-11   34.2   0.2    23    74    27    77    13    86 0.89 -
+#
+# Program:         hmmsearch
+# Version:         3.2.1 (June 2018)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/nfs/sharknado/LimsData/Hallam_Databases/formatted/HMMs/Protein/TIGRFAMs/TIGR03272.HMM
+# Target file:     COG4029_PF09875_seed.faa
+# Option settings: /usr/local/bin/hmmsearch --domtblout seed_refpkg/intermediates/TIGR03272.HMM_to_ORFs_domtbl.txt --noali --cpu 2 /mnt/nfs/sharknado/LimsData/Hallam_Databases/formatted/HMMs/Protein/TIGRFAMs/TIGR03272.HMM COG4029_PF09875_seed.faa 
+# Current dir:     /home/cmorganlang/Hallam_projects/RefPkgs/Methanogenesis/DUF2102
+# Date:            Fri Feb 14 16:17:09 2020
+# [ok]

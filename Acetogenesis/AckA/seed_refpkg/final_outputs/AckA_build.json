@@ -1,0 +1,1 @@
+{"RefPkg": {"name": "AckA", "code": "Z1111", "molecule": "prot", "sequences": 1177, "model": "PROTGAMMALG", "lowest_confident_rank": "Kingdoms", "kind": "functional", "tree-tool": "FastTree", "regression-parameters": ["-5.6068", "7.0"], "cluster-similarity": "0.90", "description": ""}}

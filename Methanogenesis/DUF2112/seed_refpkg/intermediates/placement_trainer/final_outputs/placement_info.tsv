@@ -1,0 +1,104 @@
+#Marker	Rank	Lineage	Query.Name	Internal.Node	Placement.LWR	Tree.Likelihood	Dist.Distal	Dist.Pendant	Dist.MeanTip	Dist.Total
+DUF2112	Species	Archaea; Crenarchaeota; Thermoprotei; Desulfurococcales; Desulfurococcaceae; Desulfurococcus; Desulfurococcus amylolyticus	490899.DKAM_0644	68	1.0	-6997.1084396058	0.081703	0.14204	0.0	0.22374
+DUF2112	Species	Archaea; Crenarchaeota; Thermoprotei; Desulfurococcales; Desulfurococcaceae; Desulfurococcus; Desulfurococcus mucosus	765177.Desmu_0492	68	1.0	-6997.7702044408	0.154571	0.059091	0.0	0.21366
+DUF2112	Species	Archaea; Crenarchaeota; Thermoprotei; Sulfolobales; Sulfolobaceae; Metallosphaera; Metallosphaera cuprina	1006006.Mcup_0347	26	1.0	-6997.6117677375	0.032962	0.065576	0.0	0.09854
+DUF2112	Species	Archaea; Crenarchaeota; Thermoprotei; Sulfolobales; Sulfolobaceae; Metallosphaera; Metallosphaera sedula	399549.Msed_1937	26	1.0	-6997.7995810397	0.066951	0.032125	0.0	0.09908
+DUF2112	Species	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Pyrobaculum; Pyrobaculum aerophilum	178306.PAE0866	55	1.0	-6997.7049944115	0.042009	0.015376	0.07548	0.13287
+DUF2112	Species	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Pyrobaculum; Pyrobaculum calidifontis	410359.Pcal_0055	49	0.7928934781	-6994.5550748431	0.183669	0.055651	0.12202	0.36134
+DUF2112	Species	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Pyrobaculum; Pyrobaculum islandicum	384616.Pisl_1129	53	1.0	-6997.0440699741	0.045994	0.0001	0.0	0.04609
+DUF2112	Species	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Pyrobaculum; Pyrobaculum neutrophilum	444157.Tneu_0081	53	1.0	-6997.3391436003	5e-05	0.046018	0.0	0.04607
+DUF2112	Species	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Pyrobaculum; Pyrobaculum oguniense	698757.Pogu_2399	56	0.6397836966	-6997.1973955822	0.01548	0.095161	0.108543	0.21918
+DUF2112	Species	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Thermoproteus; Thermoproteus tenax	768679.TTX_1862	56	1.0	-6996.9602212483	0.053339	0.111317	0.0	0.16466
+DUF2112	Species	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Thermoproteus; Thermoproteus uzoniensis	999630.TUZN_1627	56	1.0	-6997.8801291485	0.128431	0.032397	0.0	0.16083
+DUF2112	Species	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Vulcanisaeta; Vulcanisaeta distributa	572478.Vdis_1810	61	1.0	-6997.7511497626	0.066071	0.012053	0.0	0.07812
+DUF2112	Species	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermoproteaceae; Vulcanisaeta; Vulcanisaeta moutnovskia	985053.VMUT_0251	61	1.0	-6997.1434958306	0.025651	0.052327	0.0	0.07798
+DUF2112	Species	Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales; Archaeoglobaceae; Archaeoglobus; Archaeoglobus fulgidus	224325.AF1549	80	1.0	-6997.8340225278	0.110455	0.193755	0.129355	0.43356
+DUF2112	Species	Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales; Archaeoglobaceae; Archaeoglobus; Archaeoglobus profundus	572546.Arcpr_0573	78	1.0	-6997.6564321936	0.100985	0.181879	0.0	0.28286
+DUF2112	Species	Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales; Archaeoglobaceae; Archaeoglobus; Archaeoglobus veneficus	693661.Arcve_0097	78	1.0	-6997.885385118	0.178955	0.104795	0.0	0.28375
+DUF2112	Species	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae; Haloarcula; Haloarcula hispanica	634497.HAH_4307	140	1.0	-6997.7646770299	0.053183	0.043413	0.0	0.0966
+DUF2112	Species	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae; Haloarcula; Haloarcula marismortui	272569.rrnB0191	140	1.0	-6997.7025137853	0.046276	0.050178	0.0	0.09645
+DUF2112	Species	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae; Halorhabdus; Halorhabdus tiamatea	1033806.HLRTI_01314	148	1.0	-6997.1881483812	0.130808	0.042377	0.0	0.17319
+DUF2112	Species	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae; Halorhabdus; Halorhabdus utahensis	519442.Huta_0138	148	1.0	-6997.4934984568	0.04498	0.12292	0.0	0.1679
+DUF2112	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus fervens	573064.Mefer_1274	100	1.0	-6997.7580255668	0.027717	0.029502	0.0	0.05722
+DUF2112	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus infernus	573063.Metin_0569	125	0.8098868687	-6997.7187918357	0.037461	0.074664	0.367624	0.47975
+DUF2112	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus vulcanius	579137.Metvu_0496	100	1.0	-6997.7703621903	0.030096	0.025478	0.0	0.05557
+DUF2112	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus aeolicus	419665.Maeo_1311	95	1.0	-6997.7209510036	0.044574	0.167317	0.0	0.21189
+DUF2112	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus maripaludis	426368.MmarC7_1426	89	1.0	-6992.2715916238	0.01291	0.105361	0.0	0.11827
+DUF2112	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus maripaludis	402880.MmarC5_1208	89	1.0	-6985.6444104175	5e-05	0.081072	0.0	0.08112
+DUF2112	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus maripaludis	444158.MmarC6_0482	89	1.0	-6992.2715916238	0.01291	0.105361	0.0	0.11827
+DUF2112	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus maripaludis	267377.MMP0429	89	1.0	-6985.8881098752	0.013969	0.067677	0.0	0.08165
+DUF2112	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus vannielii	406327.Mevan_1414	91	1.0	-6998.0264106512	0.081061	0.0001	0.014465	0.09563
+DUF2112	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus voltae	456320.Mvol_1629	95	1.0	-6997.4662741906	0.038286	0.160834	0.05646	0.25558
+DUF2112	Species	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanotrichaceae; Methanothrix; Methanosaeta harundinacea	1110509.Mhar_0962	1	1.0	-6998.4698537366	0.309835	0.105361	0.0	0.4152
+DUF2112	Species	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanotrichaceae; Methanothrix; Methanothrix thermoacetophila	349307.Mthe_0275	1	1.0	-6995.4127259936	0.173654	0.241126	0.0	0.41478
+DUF2112	Species	Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Pyrococcus; Pyrococcus abyssi	272844.PAB1228	115	1.0	-6997.2516872581	0.031265	0.015673	0.0	0.04694
+DUF2112	Species	Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Pyrococcus; Pyrococcus furiosus	186497.PF0231	115	1.0	-6984.4857955069	0.034938	0.0001	0.03106	0.0661
+DUF2112	Species	Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Pyrococcus; Pyrococcus horikoshii	70601.PH1931	115	1.0	-6997.0406702235	0.015069	0.031166	0.0	0.04623
+DUF2112	Species	Archaea; Euryarchaeota; Thermoplasmata; Thermoplasmatales; Thermoplasmataceae; Thermoplasma; Thermoplasma acidophilum	273075.Ta1183	34	1.0	-6996.9147187588	0.040571	0.025725	0.0	0.0663
+DUF2112	Species	Archaea; Euryarchaeota; Thermoplasmata; Thermoplasmatales; Thermoplasmataceae; Thermoplasma; Thermoplasma volcanium	273116.TVN0389	34	1.0	-6997.7349284936	0.026376	0.036647	0.0	0.06302
+DUF2112	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Hafniaceae; Edwardsiella; Edwardsiella ictaluri	634503.NT01EI_3508	39	1.0	-6997.6198145443	5e-05	0.021788	0.0	0.02184
+DUF2112	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Hafniaceae; Edwardsiella; Edwardsiella tarda	498217.ETAE_3156	39	1.0	-6997.6257137728	0.021765	0.0001	0.0	0.02186
+DUF2112	Class	Archaea; Euryarchaeota; Aciduliprofundum	439481.Aboo_1414	83	1.0	-7974.938756572	0.118831	0.19198	1.00172	1.31253
+DUF2112	Class	Archaea; Euryarchaeota; Archaeoglobi	693661.Arcve_0097	165	0.6127229899	-7672.0321386197	0.066041	0.334771	0.391506	0.79232
+DUF2112	Class	Archaea; Euryarchaeota; Archaeoglobi	572546.Arcpr_0573	72	0.5906581186	-7673.3590989024	0.060547	0.380921	1.168911	1.61038
+DUF2112	Class	Archaea; Euryarchaeota; Archaeoglobi	589924.Ferp_1298	151	0.8124624835	-7651.7006319558	0.063847	0.226069	0.804981	1.0949
+DUF2112	Class	Archaea; Euryarchaeota; Archaeoglobi	224325.AF1549	119	0.736348646	-7658.1648478556	0.059698	0.244713	0.501506	0.80592
+DUF2112	Class	Archaea; Euryarchaeota; Archaeoglobi	WP_015590663	165	0.6109680558	-7656.5373417732	0.054407	0.289696	0.391506	0.73561
+DUF2112	Class	Archaea; Euryarchaeota; Halobacteria	309800.HVO_2863	84	0.5867113958	-7168.0152869291	0.105449	0.562163	1.00172	1.66933
+DUF2112	Class	Archaea; Euryarchaeota; Halobacteria	634497.HAH_4307	153	1.0	-7173.8122755092	0.102023	0.55006	1.123973	1.77606
+DUF2112	Class	Archaea; Euryarchaeota; Halobacteria	272569.rrnB0191	153	1.0	-7168.2444963384	0.099748	0.515534	1.123973	1.73925
+DUF2112	Class	Archaea; Euryarchaeota; Halobacteria	WP_020447468	153	0.9509621333	-7178.3520086279	0.129469	0.619673	1.123973	1.87312
+DUF2112	Class	Archaea; Euryarchaeota; Halobacteria	WP_006056136	153	1.0	-7189.4589182717	0.150763	0.694622	1.123973	1.96936
+DUF2112	Class	Archaea; Euryarchaeota; Halobacteria	WP_012945333	153	1.0	-7169.4728357917	0.192924	0.449905	1.123973	1.7668
+DUF2112	Class	Archaea; Euryarchaeota; Halobacteria	WP_005578807	153	0.7745928395	-7180.4619718915	0.074482	0.585749	1.123973	1.7842
+DUF2112	Class	Archaea; Euryarchaeota; Halobacteria	519442.Huta_0138	153	1.0	-7162.8396579045	0.146298	0.452915	1.123973	1.72319
+DUF2112	Class	Archaea; Euryarchaeota; Halobacteria	1033806.HLRTI_01314	153	1.0	-7158.2976818998	0.171052	0.418074	1.123973	1.7131
+DUF2112	Class	Archaea; Euryarchaeota; Methanobacteria	868131.MSWAN_0327	133	1.0	-7713.9996194043	0.175517	0.338657	0.090982	0.60516
+DUF2112	Class	Archaea; Euryarchaeota; Methanobacteria	79929.MTBMA_c12840	165	0.6600172025	-7713.6085926842	0.058304	0.347061	1.040448	1.44581
+DUF2112	Class	Archaea; Euryarchaeota; Methanobacteria	187420.MTH889	165	0.6980472598	-7715.5703683269	0.05796	0.36452	1.040448	1.46293
+DUF2112	Class	Archaea; Euryarchaeota; Methanobacteria	523846.Mfer_1283	145	1.0	-7736.1294293485	0.185284	0.448414	1.123973	1.75767
+DUF2112	Class	Archaea; Euryarchaeota; Methanococci	402880.MmarC5_1208	154	0.6704595153	-7523.1632512499	0.049441	0.405959	0.882237	1.33764
+DUF2112	Class	Archaea; Euryarchaeota; Methanococci	647113.Metok_0578	153	1.0	-7527.7650691258	0.055527	0.331429	0.39978	0.78674
+DUF2112	Class	Archaea; Euryarchaeota; Methanococci	426368.MmarC7_1426	154	0.5532715501	-7522.2791467575	0.05082	0.398474	0.882237	1.33153
+DUF2112	Class	Archaea; Euryarchaeota; Methanococci	573063.Metin_0569	153	1.0	-7488.1119286753	0.057247	0.166264	0.39978	0.62329
+DUF2112	Class	Archaea; Euryarchaeota; Methanococci	267377.MMP0429	154	0.9232265381	-7522.5072497759	0.051342	0.390541	0.882237	1.32412
+DUF2112	Class	Archaea; Euryarchaeota; Methanococci	444158.MmarC6_0482	154	0.5532715501	-7522.2791467575	0.05082	0.398474	0.882237	1.33153
+DUF2112	Class	Archaea; Euryarchaeota; Methanococci	579137.Metvu_0496	153	1.0	-7499.1750047414	0.055339	0.215802	0.39978	0.67092
+DUF2112	Class	Archaea; Euryarchaeota; Methanococci	243232.MJ_0319	153	0.7519698072	-7495.2731249569	0.061462	0.198687	0.39978	0.65993
+DUF2112	Class	Archaea; Euryarchaeota; Methanococci	573064.Mefer_1274	153	1.0	-7496.104253524	0.061244	0.199593	0.39978	0.66062
+DUF2112	Class	Archaea; Euryarchaeota; Methanococci	406327.Mevan_1414	154	0.8331218418	-7514.6625449973	0.047657	0.329189	0.882237	1.25908
+DUF2112	Class	Archaea; Euryarchaeota; Methanococci	456320.Mvol_1629	106	1.0	-7530.3617500138	0.143666	0.337208	1.123973	1.60485
+DUF2112	Class	Archaea; Euryarchaeota; Methanococci	419665.Maeo_1311	154	0.8962890748	-7528.7983392059	0.052075	0.421786	0.882237	1.3561
+DUF2112	Class	Archaea; Euryarchaeota; Methanococci	880724.Metig_1722	153	1.0	-7517.0115283988	0.057512	0.280973	0.39978	0.73826
+DUF2112	Class	Archaea; Euryarchaeota; Methanomicrobia	547558.Mmah_0512	83	0.9753396379	-7488.697393741	0.116912	0.312508	0.21598	0.6454
+DUF2112	Class	Archaea; Euryarchaeota; Methanomicrobia	304371.MCP_1826	83	0.5882514617	-7486.6193374399	0.145302	0.315864	0.21598	0.67715
+DUF2112	Class	Archaea; Euryarchaeota; Methanomicrobia	259564.Mbur_1191	72	0.574830365	-7487.8762725374	0.068083	0.265762	1.168911	1.50276
+DUF2112	Class	Archaea; Euryarchaeota; Methanomicrobia	1110509.Mhar_0962	73	1.0	-7487.4734237253	0.310319	0.216122	0.0	0.52644
+DUF2112	Class	Archaea; Euryarchaeota; Methanomicrobia	WP_015324009	83	0.6832835146	-7477.4360433186	0.140939	0.237175	0.21598	0.59409
+DUF2112	Class	Archaea; Euryarchaeota; Methanomicrobia	349307.Mthe_0275	73	1.0	-7497.1130225868	0.344809	0.27367	0.0	0.61848
+DUF2112	Class	Archaea; Euryarchaeota; Methanopyri	190192.MK1384	170	1.0	-7976.4277478633	0.187804	0.179723	1.123973	1.4915
+DUF2112	Class	Archaea; Euryarchaeota; Thermococci	523850.TON_1662	121	0.7644283776	-7783.9737392935	0.230634	0.211014	0.2521	0.69375
+DUF2112	Class	Archaea; Euryarchaeota; Thermococci	69014.TK1882	121	0.9252631671	-7783.7687358556	0.228505	0.21742	0.2521	0.69803
+DUF2112	Class	Archaea; Euryarchaeota; Thermococci	272844.PAB1228	121	1.0	-7786.4846260903	0.195198	0.231221	0.2521	0.67852
+DUF2112	Class	Archaea; Euryarchaeota; Thermococci	1042877.GQS_07080	121	0.9283175027	-7780.4126675617	0.236071	0.196007	0.2521	0.68418
+DUF2112	Class	Archaea; Euryarchaeota; Thermococci	246969.TAM4_1441	153	0.5982279454	-7784.3508729015	0.060181	0.258111	1.040448	1.35874
+DUF2112	Class	Archaea; Euryarchaeota; Thermococci	186497.PF0231	121	1.0	-7782.9963492078	0.217681	0.216515	0.2521	0.6863
+DUF2112	Class	Archaea; Euryarchaeota; Thermococci	342949.PNA2_0877	121	1.0	-7788.1330556586	0.203942	0.249293	0.2521	0.70534
+DUF2112	Class	Archaea; Euryarchaeota; Thermococci	604354.TSIB_1967	121	1.0	-7765.1441349945	0.198054	0.204087	0.2521	0.65424
+DUF2112	Class	Archaea; Euryarchaeota; Thermococci	529709.PYCH_13100	121	0.6295256647	-7782.7433665103	0.237092	0.21758	0.2521	0.70677
+DUF2112	Class	Archaea; Euryarchaeota; Thermococci	391623.TERMP_01885	121	1.0	-7787.8700729434	0.222802	0.231913	0.2521	0.70681
+DUF2112	Class	Archaea; Euryarchaeota; Thermococci	70601.PH1931	121	1.0	-7786.58978349	0.203569	0.235994	0.2521	0.69166
+DUF2112	Class	Archaea; Euryarchaeota; Thermoplasmata	273075.Ta1183	43	1.0	-7683.2964359108	0.072799	0.21402	0.539622	0.82644
+DUF2112	Class	Archaea; Euryarchaeota; Thermoplasmata	333146.Faci_050500001759	44	1.0	-7713.0212109532	0.149744	0.329753	0.730053	1.20955
+DUF2112	Class	Archaea; Euryarchaeota; Thermoplasmata	273116.TVN0389	43	1.0	-7683.192242713	0.066226	0.217381	0.539622	0.82323
+DUF2112	Class	Archaea; Euryarchaeota; Thermoplasmata	263820.PTO1016	44	1.0	-7707.7611564396	0.149656	0.324083	0.730053	1.20379
+DUF2112	Class	Archaea; Euryarchaeota; Thermoplasmata	WP_020448394	3	1.0	-7686.8251015329	0.082763	0.369005	0.29201	0.74378
+DUF2112	Class	Bacteria; Proteobacteria; Acidithiobacillia	637389.ACA_2270	51	0.5456541184	-7971.8681450507	0.057464	0.436664	0.539622	1.03375
+DUF2112	Class	Bacteria; Proteobacteria; Alphaproteobacteria	WP_015073434	48	1.0	-7975.9763787968	0.437326	0.325685	0.0	0.76301
+DUF2112	Class	Bacteria; Proteobacteria; Deltaproteobacteria	177439.DP2436	149	1.0	-7953.6851988696	0.123882	0.260676	0.615457	1.00002
+DUF2112	Class	Bacteria; Proteobacteria; Gammaproteobacteria	318167.Sfri_2293	140	1.0	-7378.8892488736	0.298642	0.278644	0.0	0.57729
+DUF2112	Class	Bacteria; Proteobacteria; Gammaproteobacteria	472759.Nhal_1187	140	1.0	-7365.8620898409	0.365585	0.233169	0.0	0.59875
+DUF2112	Class	Bacteria; Proteobacteria; Gammaproteobacteria	498217.ETAE_3156	46	1.0	-7385.3850881903	0.358387	0.339874	0.0	0.69826
+DUF2112	Class	Bacteria; Proteobacteria; Gammaproteobacteria	634503.NT01EI_3508	46	1.0	-7385.087928358	0.353763	0.333849	0.0	0.68761
+DUF2112	Class	Bacteria; Proteobacteria; Gammaproteobacteria	1085623.GNIT_3270	140	1.0	-7398.4591230407	0.304992	0.543227	0.0	0.84822
+DUF2112	Class	Bacteria; Proteobacteria; Gammaproteobacteria	314283.MED297_08161	140	1.0	-7407.3690914458	0.385141	0.563504	0.0	0.94864

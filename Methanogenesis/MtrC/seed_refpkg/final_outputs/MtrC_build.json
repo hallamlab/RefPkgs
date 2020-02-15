@@ -1,0 +1,1 @@
+{"RefPkg": {"name": "MtrC", "code": "Z1111", "molecule": "prot", "sequences": 44, "model": "PROTGAMMALG", "lowest_confident_rank": "Orders", "kind": "functional", "tree-tool": "FastTree", "regression-parameters": ["-2.9575", "7.0"], "cluster-similarity": "0.97", "description": ""}}

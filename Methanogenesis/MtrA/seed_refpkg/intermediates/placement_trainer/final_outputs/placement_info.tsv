@@ -1,0 +1,107 @@
+#Marker	Rank	Lineage	Query.Name	Internal.Node	Placement.LWR	Tree.Likelihood	Dist.Distal	Dist.Pendant	Dist.MeanTip	Dist.Total
+MtrA	Species	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobrevibacter; Methanobrevibacter ruminantium	634498.mru_0441	7	1.0	-14239.5686167159	0.1283	0.105361	0.0	0.23366
+MtrA	Species	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobrevibacter; Methanobrevibacter ruminantium	634498.mru_1919	7	1.0	-14248.2391757261	0.1283	0.105361	0.0	0.23366
+MtrA	Species	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobrevibacter; Methanobrevibacter smithii	420247.Msm_1010	9	1.0	-14354.3857766497	0.086625	0.12623	0.107515	0.32037
+MtrA	Species	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanothermobacter; Methanothermobacter marburgensis	79929.MTBMA_c15430	7	1.0	-14240.7383283855	0.112804	0.075385	0.04142	0.22961
+MtrA	Species	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanothermobacter; Methanothermobacter marburgensis	79929.MTBMA_c14500	140	1.0	-14234.0192484259	0.051182	0.079356	0.0	0.13054
+MtrA	Species	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanothermobacter; Methanothermobacter thermautotrophicus	187420.MTH1062	142	1.0	-14357.890063447	0.112736	0.018201	0.0	0.13094
+MtrA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus fervens	573064.Mefer_0944	72	0.9908600222	-14238.7849813433	0.149573	0.154085	0.229937	0.5336
+MtrA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus fervens	573064.Mefer_0943	75	0.8375684049	-14183.120398185	0.021153	0.106745	0.551157	0.67905
+MtrA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus infernus	573063.Metin_0276	57	0.9940514176	-14350.6649756782	0.019448	0.065646	0.025155	0.11025
+MtrA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus jannaschii	243232.MJ_0851	56	1.0	-14351.1259862918	0.016398	0.028216	0.0	0.04461
+MtrA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus vulcanius	579137.Metvu_0154	56	1.0	-14351.5098260174	0.028201	0.016342	0.0	0.04454
+MtrA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus aeolicus	419665.Maeo_1273	76	1.0	-14192.9663556796	0.045308	0.06318	0.158762	0.26725
+MtrA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus aeolicus	419665.Maeo_1274	57	1.0	-14251.2430191057	0.082401	0.11638	0.171884	0.37067
+MtrA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus maripaludis	426368.MmarC7_0811	43	1.0	-14570.1687333969	0.027391	0.125095	0.0	0.15249
+MtrA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus maripaludis	444158.MmarC6_1105	56	1.0	-14586.5353445174	0.106679	0.123428	0.0	0.23011
+MtrA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus maripaludis	267377.MMP1564	43	1.0	-14506.1990283501	0.071652	0.036272	0.0	0.10792
+MtrA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus maripaludis	267377.MMP1565	56	1.0	-14542.6964840951	0.094521	0.06442	0.0	0.15894
+MtrA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus maripaludis	402880.MmarC5_0012	43	1.0	-14492.2307138926	0.05186	0.027684	0.0	0.07954
+MtrA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus maripaludis	426368.MmarC7_0812	56	1.0	-14583.6510483186	0.104575	0.119546	0.0	0.22412
+MtrA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus maripaludis	444158.MmarC6_1106	43	1.0	-14549.5598291914	0.029033	0.097152	0.0	0.12618
+MtrA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus maripaludis	402880.MmarC5_0011	56	1.0	-14535.7176084196	0.080255	0.063728	0.0	0.14398
+MtrA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus vannielii	406327.Mevan_0878	66	1.0	-14280.4244589129	0.043205	0.093188	0.05296	0.18935
+MtrA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus vannielii	406327.Mevan_0877	46	1.0	-14237.9212310169	0.079508	0.051336	0.01789	0.14873
+MtrA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus voltae	456320.Mvol_1133	50	1.0	-14197.0451353552	0.069094	0.115677	0.088126	0.2729
+MtrA	Species	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus voltae	456320.Mvol_1134	67	1.0	-14215.6902683436	0.099631	0.120937	0.083988	0.30456
+MtrA	Species	Archaea; Euryarchaeota; Methanomicrobia; Methanocellales; Methanocellaceae; Methanocella; Methanocella arvoryzae	351160.RCIX2069	133	1.0	-14254.3644285302	0.146688	0.315389	0.0	0.46208
+MtrA	Species	Archaea; Euryarchaeota; Methanomicrobia; Methanocellales; Methanocellaceae; Methanocella; Methanocella arvoryzae	351160.RCIX2068	133	1.0	-14155.6207284992	0.145975	0.125011	0.0	0.27099
+MtrA	Species	Archaea; Euryarchaeota; Methanomicrobia; Methanocellales; Methanocellaceae; Methanocella; Methanocella paludicola	304371.MCP_0543	135	1.0	-14345.4740795679	0.123338	0.126306	0.153115	0.40276
+MtrA	Species	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina acetivorans	188937.MA1805	21	1.0	-14233.9097431575	0.169775	0.105361	0.0	0.27514
+MtrA	Species	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina acetivorans	188937.MA0272	130	1.0	-14183.1156942431	0.046456	0.067312	0.041545	0.15531
+MtrA	Species	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina barkeri	269797.Mbar_A0410	25	1.0	-14063.7173178384	0.209291	0.256461	0.0	0.46575
+MtrA	Species	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina barkeri	269797.Mbar_A1713	25	0.9999672722	-13947.1822793608	0.320085	0.023291	0.0	0.34338
+MtrA	Species	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina barkeri	269797.Mbar_A2073	21	1.0	-14011.7683608654	0.16789	0.105361	0.0	0.27325
+MtrA	Species	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina barkeri	269797.Mbar_A1258	114	1.0	-13919.0961546806	0.058934	0.029056	0.0	0.08799
+MtrA	Species	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina mazei	192952.MM_2251	29	1.0	-14291.7418023878	0.027425	0.091014	0.0	0.11844
+MtrA	Species	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina mazei	192952.MM_1543	118	1.0	-14276.5796768251	0.027938	0.059072	0.0	0.08701
+MtrA	Species	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanotrichaceae; Methanothrix; Methanosaeta harundinacea	1110509.Mhar_2094	131	1.0	-14089.9596657938	0.072568	0.137776	0.130585	0.34093
+MtrA	Species	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanotrichaceae; Methanothrix; Methanosaeta harundinacea	1110509.Mhar_1269	34	1.0	-14122.3673173679	0.126114	0.352308	0.504362	0.98278
+MtrA	Species	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanotrichaceae; Methanothrix; Methanothrix soehngenii	990316.MCON_1071	115	1.0	-14351.7347048073	0.075907	0.160805	0.0	0.23671
+MtrA	Species	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanotrichaceae; Methanothrix; Methanothrix thermoacetophila	349307.Mthe_1381	115	1.0	-14355.8677095439	0.163804	0.077337	0.0	0.24114
+MtrA	Class	Archaea; Euryarchaeota; Methanobacteria	WP_016359087	99	0.9800906814	-12867.792454453	0.129761	0.291272	0.689173	1.11021
+MtrA	Class	Archaea; Euryarchaeota; Methanobacteria	339860.Msp_0304	127	0.9658617601	-12917.3756950216	0.039323	0.394356	1.477285	1.91096
+MtrA	Class	Archaea; Euryarchaeota; Methanobacteria	79929.MTBMA_c14500	126	0.7669409175	-12829.9401807543	0.004131	0.319177	1.425519	1.74883
+MtrA	Class	Archaea; Euryarchaeota; Methanobacteria	868131.MSWAN_2051	127	0.8978232564	-12884.3552873137	0.050579	0.300558	1.477285	1.82842
+MtrA	Class	Archaea; Euryarchaeota; Methanobacteria	634498.mru_1919	127	0.9195907362	-12844.2441480265	0.040195	0.196169	1.477285	1.71365
+MtrA	Class	Archaea; Euryarchaeota; Methanobacteria	187420.MTH1062	126	1.0	-12825.83282467	0.00985	0.291182	1.425519	1.72655
+MtrA	Class	Archaea; Euryarchaeota; Methanobacteria	523846.Mfer_0779	127	0.9045622589	-12811.7670716705	0.04806	0.146291	1.477285	1.67164
+MtrA	Class	Archaea; Euryarchaeota; Methanobacteria	420247.Msm_1010	127	1.0	-12824.5752212584	0.062443	0.173927	1.477285	1.71365
+MtrA	Class	Archaea; Euryarchaeota; Methanobacteria	634498.mru_0441	126	1.0	-12788.4148393662	0.028982	0.171654	1.425519	1.62616
+MtrA	Class	Archaea; Euryarchaeota; Methanobacteria	WP_023991392	126	0.6740031537	-12828.1215297657	5e-05	0.298163	1.425519	1.72373
+MtrA	Class	Archaea; Euryarchaeota; Methanobacteria	523846.Mfer_0072	127	0.6122879076	-12729.0566290795	0.027419	0.124776	1.477285	1.62948
+MtrA	Class	Archaea; Euryarchaeota; Methanobacteria	79929.MTBMA_c15430	127	1.0	-12832.7082804267	0.062856	0.190432	1.477285	1.73057
+MtrA	Class	Archaea; Euryarchaeota; Methanococci	267377.MMP1565	16	1.0	-12304.7552516804	1.110643	0.166278	0.0	1.27692
+MtrA	Class	Archaea; Euryarchaeota; Methanococci	426368.MmarC7_0812	16	1.0	-12307.0638837169	1.105137	0.181004	0.0	1.28614
+MtrA	Class	Archaea; Euryarchaeota; Methanococci	426368.MmarC7_0811	40	0.8842470249	-12266.9932254652	0.042866	0.426751	1.425519	1.89514
+MtrA	Class	Archaea; Euryarchaeota; Methanococci	573063.Metin_0276	40	1.0	-12237.784990778	0.063159	0.336272	1.425519	1.82495
+MtrA	Class	Archaea; Euryarchaeota; Methanococci	419665.Maeo_1273	99	0.9977843199	-12222.6497154698	0.146111	0.347543	0.689173	1.18283
+MtrA	Class	Archaea; Euryarchaeota; Methanococci	456320.Mvol_1133	40	1.0	-12256.5391391262	0.042603	0.370535	1.425519	1.83866
+MtrA	Class	Archaea; Euryarchaeota; Methanococci	267377.MMP1564	99	0.999136459	-12237.3221215638	0.126987	0.380382	0.689173	1.19654
+MtrA	Class	Archaea; Euryarchaeota; Methanococci	647113.Metok_0951	99	0.5819747607	-12229.0048151593	0.139753	0.365496	0.689173	1.19442
+MtrA	Class	Archaea; Euryarchaeota; Methanococci	456320.Mvol_1134	16	1.0	-12312.4027254682	1.056557	0.190662	0.0	1.24722
+MtrA	Class	Archaea; Euryarchaeota; Methanococci	406327.Mevan_0878	16	1.0	-12306.596658152	1.079441	0.169653	0.0	1.24909
+MtrA	Class	Archaea; Euryarchaeota; Methanococci	419665.Maeo_1274	16	1.0	-12299.3740808104	1.111367	0.152531	0.0	1.2639
+MtrA	Class	Archaea; Euryarchaeota; Methanococci	243232.MJ_0851	99	0.993648856	-12242.6980229394	0.121807	0.368261	0.689173	1.17924
+MtrA	Class	Archaea; Euryarchaeota; Methanococci	406327.Mevan_0877	40	1.0	-12245.1224476073	0.035405	0.345505	1.425519	1.80643
+MtrA	Class	Archaea; Euryarchaeota; Methanococci	402880.MmarC5_0012	40	1.0	-12245.6270871819	0.04314	0.359891	1.425519	1.82855
+MtrA	Class	Archaea; Euryarchaeota; Methanococci	644281.MFS40622_1310	40	1.0	-12238.1493195125	0.064081	0.31813	1.425519	1.80773
+MtrA	Class	Archaea; Euryarchaeota; Methanococci	444158.MmarC6_1105	16	1.0	-12306.684065851	1.086557	0.183311	0.0	1.26987
+MtrA	Class	Archaea; Euryarchaeota; Methanococci	402880.MmarC5_0011	16	1.0	-12302.3741117369	1.098136	0.166166	0.0	1.2643
+MtrA	Class	Archaea; Euryarchaeota; Methanococci	573064.Mefer_0944	39	0.9988567351	-12269.5580963252	0.162255	0.416346	1.240998	1.8196
+MtrA	Class	Archaea; Euryarchaeota; Methanococci	880724.Metig_1243	40	0.9999824737	-12277.1428845766	0.064613	0.461433	1.425519	1.95156
+MtrA	Class	Archaea; Euryarchaeota; Methanococci	579137.Metvu_0154	40	1.0	-12240.6370328906	0.06421	0.328902	1.425519	1.81863
+MtrA	Class	Archaea; Euryarchaeota; Methanococci	444158.MmarC6_1106	40	0.9079619625	-12264.3406125536	0.044794	0.437831	1.425519	1.90814
+MtrA	Class	Archaea; Euryarchaeota; Methanococci	880724.Metig_1242	99	0.6237318641	-12217.8254909432	0.145637	0.324562	0.689173	1.15937
+MtrA	Class	Archaea; Euryarchaeota; Methanococci	573064.Mefer_0943	40	1.0	-12223.2161237423	0.041006	0.299474	1.425519	1.766
+MtrA	Class	Archaea; Euryarchaeota; Methanomicrobia	351160.RCIX2069	18	1.0	-6935.5543667946	0.670949	0.371375	0.61531	1.65763
+MtrA	Class	Archaea; Euryarchaeota; Methanomicrobia	547558.Mmah_1780	18	1.0	-6899.5959544341	0.7626	0.259576	0.61531	1.63749
+MtrA	Class	Archaea; Euryarchaeota; Methanomicrobia	349307.Mthe_1381	65	0.999999995	-6877.7460777161	0.357749	0.364349	0.0	0.7221
+MtrA	Class	Archaea; Euryarchaeota; Methanomicrobia	547558.Mmah_1285	18	1.0	-6839.4511013436	0.453977	0.476953	0.61531	1.54624
+MtrA	Class	Archaea; Euryarchaeota; Methanomicrobia	1110509.Mhar_2094	63	0.9999999999	-6879.5524599452	0.228004	0.445384	0.418666	1.09205
+MtrA	Class	Archaea; Euryarchaeota; Methanomicrobia	259564.Mbur_1521	71	0.9999999993	-6881.8535286932	0.047401	0.456496	0.498333	1.00223
+MtrA	Class	Archaea; Euryarchaeota; Methanomicrobia	521011.Mpal_2316	18	1.0	-6925.7294171205	0.774916	0.345505	0.61531	1.73573
+MtrA	Class	Archaea; Euryarchaeota; Methanomicrobia	304371.MCP_0543	63	0.9836588249	-6860.5806171648	0.229499	0.412278	0.418666	1.06044
+MtrA	Class	Archaea; Euryarchaeota; Methanomicrobia	323259.Mhun_2174	18	1.0	-6910.051236324	0.662516	0.25115	0.61531	1.52898
+MtrA	Class	Archaea; Euryarchaeota; Methanomicrobia	521011.Mpal_2572	18	1.0	-6854.6579493383	0.377927	0.721857	0.61531	1.71509
+MtrA	Class	Archaea; Euryarchaeota; Methanomicrobia	368407.Memar_0608	18	1.0	-6887.7482147846	0.755486	0.19333	0.61531	1.56413
+MtrA	Class	Archaea; Euryarchaeota; Methanomicrobia	192952.MM_1543	18	1.0	-6911.8462318966	0.734478	0.290835	0.61531	1.64062
+MtrA	Class	Archaea; Euryarchaeota; Methanomicrobia	323259.Mhun_2172	18	1.0	-6859.964567163	0.767182	0.098052	0.61531	1.48054
+MtrA	Class	Archaea; Euryarchaeota; Methanomicrobia	644295.Metev_1388	18	1.0	-6829.793007526	0.508986	0.418232	0.61531	1.54253
+MtrA	Class	Archaea; Euryarchaeota; Methanomicrobia	410358.Mlab_1554	18	1.0	-6919.661781681	0.786178	0.298434	0.61531	1.69992
+MtrA	Class	Archaea; Euryarchaeota; Methanomicrobia	269797.Mbar_A1258	18	1.0	-6902.5973828752	0.757443	0.262072	0.61531	1.63483
+MtrA	Class	Archaea; Euryarchaeota; Methanomicrobia	1110509.Mhar_1269	18	1.0	-6806.1876787484	0.447018	0.373637	0.61531	1.43596
+MtrA	Class	Archaea; Euryarchaeota; Methanomicrobia	269797.Mbar_A1713	18	1.0	-6832.60310051	0.447235	0.454039	0.61531	1.51658
+MtrA	Class	Archaea; Euryarchaeota; Methanomicrobia	521011.Mpal_2314	18	1.0	-6884.567257779	0.779155	0.197652	0.61531	1.59212
+MtrA	Class	Archaea; Euryarchaeota; Methanomicrobia	456442.Mboo_0569	18	1.0	-6887.279371387	0.736443	0.226129	0.61531	1.57788
+MtrA	Class	Archaea; Euryarchaeota; Methanomicrobia	269797.Mbar_A2073	18	1.0	-6807.7173676736	0.528116	0.320591	0.61531	1.46402
+MtrA	Class	Archaea; Euryarchaeota; Methanomicrobia	188937.MA0272	18	1.0	-6901.5878607411	0.753176	0.263159	0.61531	1.63164
+MtrA	Class	Archaea; Euryarchaeota; Methanomicrobia	351160.RCIX2068	63	0.9982617355	-6860.8340515155	0.24972	0.413066	0.418666	1.08145
+MtrA	Class	Archaea; Euryarchaeota; Methanomicrobia	410358.Mlab_1556	18	1.0	-6878.9236451853	0.801504	0.193355	0.61531	1.61017
+MtrA	Class	Archaea; Euryarchaeota; Methanomicrobia	192952.MM_2251	18	1.0	-6823.178381821	0.452456	0.388637	0.61531	1.4564
+MtrA	Class	Archaea; Euryarchaeota; Methanomicrobia	456442.Mboo_0567	18	1.0	-6934.9379832457	0.714493	0.382801	0.61531	1.7126
+MtrA	Class	Archaea; Euryarchaeota; Methanomicrobia	269797.Mbar_A0410	18	1.0	-6833.7565664119	0.426982	0.537312	0.61531	1.5796
+MtrA	Class	Archaea; Euryarchaeota; Methanomicrobia	547558.Mmah_0402	18	1.0	-6785.22752305	0.527695	0.339921	0.61531	1.48293
+MtrA	Class	Archaea; Euryarchaeota; Methanomicrobia	368407.Memar_0606	18	1.0	-6932.1135734961	0.754498	0.341138	0.61531	1.71095
+MtrA	Class	Archaea; Euryarchaeota; Methanomicrobia	188937.MA1805	18	1.0	-6817.9618544454	0.489868	0.361129	0.61531	1.46631
+MtrA	Class	Archaea; Euryarchaeota; Methanopyri	190192.MK0660	39	0.8620834395	-14822.6824555616	0.039844	0.318399	1.425519	1.78376
