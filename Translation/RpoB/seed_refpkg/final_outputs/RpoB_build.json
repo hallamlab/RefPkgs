@@ -1,0 +1,1 @@
+{"RefPkg": {"name": "RpoB", "code": "P0002", "molecule": "prot", "sequences": 599, "model": "PROTGAMMALG", "lowest_confident_rank": "Phyla", "kind": "functional", "tree-tool": "FastTree", "regression-parameters": ["-6.7201", "7.0"], "cluster-similarity": "0.85", "description": "Beta subunit of RNA polymerase"}}
