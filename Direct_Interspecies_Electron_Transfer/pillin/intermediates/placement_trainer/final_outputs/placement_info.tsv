@@ -1,0 +1,77 @@
+#Marker	Rank	Lineage	Query.Name	Internal.Node	Placement.LWR	Tree.Likelihood	Dist.Distal	Dist.Pendant	Dist.MeanTip	Dist.Total
+pillin	Species	Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae; Neisseria; Neisseria gonorrhoeae	AAA25466	52	1.0	-3815.7261425771	5e-05	0.0001	0.0	0.00015
+pillin	Species	Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae; Neisseria; Neisseria meningitidis	NP_273084	52	1.0	-3817.8018299008	5e-05	0.0001	0.0	0.00015
+pillin	Species	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfobacula; Desulfobacula phenolica	WP_092237916	10	1.0	-3819.9999766915	0.057998	0.0001	0.0	0.0581
+pillin	Species	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfobacula; Desulfobacula toluolica	CCK80296	10	1.0	-3820.1130151338	0.023413	0.030593	0.0	0.05401
+pillin	Species	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfurellales; Desulfurellaceae; Hippea; Hippea maritima	AEA33707	97	0.7576882619	-3822.0381749584	0.032792	0.021277	0.446616	0.50069
+pillin	Species	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geoalkalibacter; Geoalkalibacter ferrihydriticus	WP_040097998	88	1.0	-3820.0966344539	0.040588	0.033201	0.0	0.07379
+pillin	Species	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geoalkalibacter; Geoalkalibacter subterraneus	WP_040199521	88	1.0	-3820.784765661	0.038157	0.036071	0.0	0.07423
+pillin	Species	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geobacter; Geobacter bemidjiensis	ACH39598	115	0.8282951042	-3818.2041969708	0.021418	0.0001	0.275895	0.29741
+pillin	Species	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geobacter; Geobacter bremensis	WP_026840453	114	1.0	-3820.4910945583	0.020509	0.019711	0.0	0.04022
+pillin	Species	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geobacter; Geobacter lovleyi	ACD95812	1	1.0	-3819.6775838796	5e-05	0.171257	0.0	0.17131
+pillin	Species	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geobacter; Geobacter metallireducens	ABB31633	104	1.0	-3820.2146608671	0.073523	0.032395	0.0	0.10592
+pillin	Species	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geobacter; Geobacter sulfurreducens	NP_952547	1	1.0	-3727.2156087468	0.171246	0.0001	0.0	0.17135
+pillin	Species	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geobacter; Geobacter sulfurreducens	AAR35153	39	1.0	-3801.794012972	0.367215	0.370576	0.0	0.73779
+pillin	Species	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geobacter; Geobacter uraniireducens	ABQ26851	115	1.0	-3816.6885452582	0.02841	0.220772	0.060806	0.30999
+pillin	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Moraxella; Moraxella bovis	P07640	64	1.0	-3814.1819015723	0.3953	0.105361	0.0	0.50066
+pillin	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas aeruginosa	P04739	58	0.9743869303	-3744.4967993415	0.31899	0.02351	0.0	0.3425
+pillin	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas aeruginosa	WP_003103532	29	1.0	-3760.7248155895	0.183569	0.023844	0.83421	1.04162
+pillin	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas stutzeri	WP_011912242	66	1.0	-3814.5194917543	0.144564	0.105361	0.855706	1.10563
+pillin	Class	Bacteria; Firmicutes; Bacilli	WP_000738626	28	1.0	-4427.5273432168	2.148085	1.158527	0.0	3.30661
+pillin	Class	Bacteria; Firmicutes; Bacilli	AFQ58422	25	0.685546031	-4431.4440772149	0.719712	0.874152	0.0	1.59386
+pillin	Class	Bacteria; Firmicutes; Clostridia	WP_084710848	72	1.0	-4421.837797357	0.486712	0.229605	0.610401	1.32672
+pillin	Class	Bacteria; Firmicutes; Clostridia	CAC94922	26	1.0	-4426.3581652712	0.204676	0.458135	0.0	0.66281
+pillin	Class	Bacteria; Proteobacteria; Alphaproteobacteria	AAK58496	30	1.0	-4525.9075020716	0.828748	0.740525	0.0	1.56927
+pillin	Class	Bacteria; Proteobacteria; Betaproteobacteria	AAC28468	71	1.0	-4273.7393545299	0.424573	0.105361	0.0	0.52993
+pillin	Class	Bacteria; Proteobacteria; Betaproteobacteria	NP_273084	71	1.0	-4265.6273778016	0.424573	0.105361	0.0	0.52993
+pillin	Class	Bacteria; Proteobacteria; Betaproteobacteria	WP_019390097	71	1.0	-4269.7336323767	0.424573	0.105361	0.0	0.52993
+pillin	Class	Bacteria; Proteobacteria; Betaproteobacteria	CAH34774	71	1.0	-4297.4675087762	0.064206	0.397986	0.0	0.46219
+pillin	Class	Bacteria; Proteobacteria; Betaproteobacteria	CAD14088	71	1.0	-4276.2287138985	0.424573	0.105361	0.0	0.52993
+pillin	Class	Bacteria; Proteobacteria; Betaproteobacteria	AAA25466	71	1.0	-4265.6273778016	0.424573	0.105361	0.0	0.52993
+pillin	Class	Bacteria; Proteobacteria; Deltaproteobacteria	ABB31633	0	0.6408455811	-2870.2625654686	0.12895	0.105361	0.0	0.23431
+pillin	Class	Bacteria; Proteobacteria; Deltaproteobacteria	CCK80296	1	0.5263822156	-2905.6431921115	0.070578	0.382787	0.0	0.45337
+pillin	Class	Bacteria; Proteobacteria; Deltaproteobacteria	KFN38243	73	1.0	-2894.0079536195	0.091265	0.179053	1.632938	1.90326
+pillin	Class	Bacteria; Proteobacteria; Deltaproteobacteria	NP_952547	0	0.7438324373	-2874.0774774458	0.12895	0.105361	0.0	0.23431
+pillin	Class	Bacteria; Proteobacteria; Deltaproteobacteria	WP_020676438	73	1.0	-2879.0318759976	0.163113	0.105361	1.632938	1.90141
+pillin	Class	Bacteria; Proteobacteria; Deltaproteobacteria	ACD95812	0	0.9656485804	-2887.5161986171	0.03669	0.278552	0.0	0.31524
+pillin	Class	Bacteria; Proteobacteria; Deltaproteobacteria	AAR35153	72	0.9864867622	-2915.6812549085	0.066986	0.439721	1.276596	1.7833
+pillin	Class	Bacteria; Proteobacteria; Deltaproteobacteria	KPJ68317	72	0.5863417977	-2896.7194700462	0.095556	0.252293	1.276596	1.62444
+pillin	Class	Bacteria; Proteobacteria; Deltaproteobacteria	WP_026840453	73	1.0	-2889.0660763223	0.140872	0.17148	1.632938	1.94529
+pillin	Class	Bacteria; Proteobacteria; Deltaproteobacteria	WP_092080546	73	0.8747496429	-2881.6237616361	0.18891	0.10747	1.632938	1.92932
+pillin	Class	Bacteria; Proteobacteria; Deltaproteobacteria	GAM11518	73	0.9228336089	-2892.8833524034	0.134024	0.201083	1.632938	1.96804
+pillin	Class	Bacteria; Proteobacteria; Deltaproteobacteria	AMM39924	34	1.0	-2910.8353611997	0.69326	0.105361	0.0	0.79862
+pillin	Class	Bacteria; Proteobacteria; Deltaproteobacteria	SPF50166	70	0.9614872324	-2904.6162120478	0.088084	0.382458	1.200079	1.67062
+pillin	Class	Bacteria; Proteobacteria; Deltaproteobacteria	WP_040199521	73	1.0	-2873.8438879019	0.153229	0.056832	1.632938	1.843
+pillin	Class	Bacteria; Proteobacteria; Deltaproteobacteria	ADH86948	0	0.7526968255	-2899.8811192353	0.049348	0.368551	0.0	0.4179
+pillin	Class	Bacteria; Proteobacteria; Deltaproteobacteria	ACN15860	73	1.0	-2903.6938709608	0.092935	0.318462	1.632938	2.04434
+pillin	Class	Bacteria; Proteobacteria; Deltaproteobacteria	WP_039645155	73	0.9295230793	-2873.4965618211	0.181232	0.06515	1.632938	1.87932
+pillin	Class	Bacteria; Proteobacteria; Deltaproteobacteria	ABQ26851	0	1.0	-2885.5423231141	0.045202	0.236323	0.0	0.28153
+pillin	Class	Bacteria; Proteobacteria; Deltaproteobacteria	WP_092237916	73	0.9067465761	-2904.4804333636	0.14372	0.291994	1.632938	2.06865
+pillin	Class	Bacteria; Proteobacteria; Deltaproteobacteria	WP_040097998	73	1.0	-2866.4956320248	0.175454	0.0001	1.632938	1.80849
+pillin	Class	Bacteria; Proteobacteria; Deltaproteobacteria	WP_039742239	73	1.0	-2875.0151167648	0.157252	0.064396	1.632938	1.85459
+pillin	Class	Bacteria; Proteobacteria; Deltaproteobacteria	ACH39598	73	1.0	-2881.1367067203	0.163113	0.105361	1.632938	1.90141
+pillin	Class	Bacteria; Proteobacteria; Deltaproteobacteria	AEA33707	2	1.0	-2854.4428951669	5e-05	0.099524	0.0	0.09957
+pillin	Class	Bacteria; Proteobacteria; Deltaproteobacteria	WP_011555734	37	1.0	-2892.7501797153	0.43988	0.105361	0.0	0.54524
+pillin	Class	Bacteria; Proteobacteria; Deltaproteobacteria	WP_028893309	69	1.0	-2893.0736299117	0.423196	0.105361	0.368695	0.89725
+pillin	Class	Bacteria; Proteobacteria; Deltaproteobacteria	WP_027714750	73	1.0	-2884.2547560692	0.145555	0.150379	1.632938	1.92887
+pillin	Class	Bacteria; Proteobacteria; Deltaproteobacteria	ABK99270	73	1.0	-2875.4521205036	0.160001	0.068944	1.632938	1.86188
+pillin	Class	Bacteria; Proteobacteria; Gammaproteobacteria	NP_417787	30	0.9106493923	-3201.358583121	5e-05	0.364523	1.896294	2.26087
+pillin	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_003103532	29	1.0	-3200.4616783614	0.942348	0.067034	0.0	1.00938
+pillin	Class	Bacteria; Proteobacteria; Gammaproteobacteria	AAC38305	36	0.5946905665	-3222.76077387	0.535088	0.721157	0.0	1.25625
+pillin	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_005694367	42	0.8301007442	-3186.5108419616	0.376145	0.105361	0.0	0.48151
+pillin	Class	Bacteria; Proteobacteria; Gammaproteobacteria	AAL32049	55	0.6091396599	-3187.9320958249	0.052288	0.351949	1.219922	1.62416
+pillin	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_011070777	55	0.5922256519	-3200.577374708	0.05293	0.485333	1.219922	1.75818
+pillin	Class	Bacteria; Proteobacteria; Gammaproteobacteria	ABN73976	43	0.9520482358	-3189.8420943797	5e-05	0.349407	0.797332	1.14679
+pillin	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_011704371	28	1.0	-3218.6015019868	1.972744	0.841423	0.0	2.81417
+pillin	Class	Bacteria; Proteobacteria; Gammaproteobacteria	CAC83032	30	0.7547604532	-3204.0111583955	5e-05	0.400244	1.896294	2.29659
+pillin	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_004090380	54	0.9869308093	-3194.8586345236	0.119833	0.378904	0.783633	1.28237
+pillin	Class	Bacteria; Proteobacteria; Gammaproteobacteria	AAA25310	54	0.8066072268	-3149.5949936393	0.069116	0.0001	0.783633	0.85285
+pillin	Class	Bacteria; Proteobacteria; Gammaproteobacteria	AAD43220	29	1.0	-3205.0901914383	0.996791	0.240576	0.0	1.23737
+pillin	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_000738789	30	0.8716525468	-3205.2468116243	5e-05	0.444295	1.896294	2.34064
+pillin	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_005741096	54	0.5216251593	-3188.1859383274	0.101112	0.292928	0.783633	1.17767
+pillin	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_011912242	54	1.0	-3160.4588538954	0.26734	0.105361	0.783633	1.15633
+pillin	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_011035902	29	0.52453708	-3223.4160162449	0.575809	0.908281	0.0	1.48409
+pillin	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_012031206	38	1.0	-3202.162336457	0.402094	0.381961	0.0	0.78405
+pillin	Class	Bacteria; Proteobacteria; Gammaproteobacteria	EUC91830	30	0.9309771593	-3205.3153380368	5e-05	0.485933	1.896294	2.38228
+pillin	Class	Bacteria; Proteobacteria; Gammaproteobacteria	P07640	54	1.0	-3173.7669184515	0.26734	0.105361	0.783633	1.15633
+pillin	Class	Bacteria; Proteobacteria; Oligoflexia	CAE79186	8	1.0	-4510.2862705536	0.044907	0.364975	0.0	0.40988

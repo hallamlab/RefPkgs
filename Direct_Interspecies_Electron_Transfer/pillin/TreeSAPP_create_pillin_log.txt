@@ -1,0 +1,1391 @@
+16/02 13:28:40 INFO:
+
+##			Creating TreeSAPP reference package			##
+
+16/02 13:28:40 INFO:
+Arguments used:
+-b 0 -i refpkg/refs/pillin_refs.fasta -c pillin -p 0.97 --cluster -o refpkg_ng/create/pillin -m prot -n 6 --headless --fast
+
+16/02 13:28:40 DEBUG:
+Unable to open stage file '' for reading. Defaulting to stage 1.
+
+16/02 13:28:40 DEBUG:
+Continuing with stage 'lineages'
+
+16/02 13:28:40 DEBUG:
+Read 70 headers from refpkg/refs/pillin_refs.fasta.
+
+16/02 13:28:40 INFO:
+Sequence summary:
+	Number of sequences: 70
+	Longest sequence length: 223
+	Shortest sequence length: 67
+	Mean sequence length: 127.6
+	Median sequence length: 141.0
+
+16/02 13:28:40 INFO:
+Extracting information from headers... 
+16/02 13:28:40 INFO:
+done.
+
+16/02 13:28:40 DEBUG:
+	Number of input sequences =	70
+
+16/02 13:28:40 DEBUG:
+	Number of queries =	70
+
+16/02 13:28:40 INFO:
+Preparing Bio.Entrez for NCBI queries... 
+16/02 13:28:42 INFO:
+done.
+
+16/02 13:28:42 INFO:
+Retrieving Entrez taxonomy records for each accession... 
+16/02 13:29:13 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 100	0.0:31.24
+
+16/02 13:29:13 INFO:
+done.
+
+16/02 13:29:13 DEBUG:
+33 unique organism queries.
+
+16/02 13:29:13 INFO:
+Retrieving NCBI taxonomy IDs for each organism... 
+16/02 13:29:35 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 1	0.0:0.76
+	1 - 2	0.0:0.71
+	2 - 3	0.0:0.66
+	3 - 4	0.0:0.71
+	4 - 5	0.0:0.66
+	5 - 6	0.0:0.78
+	6 - 7	0.0:0.66
+	7 - 8	0.0:0.66
+	8 - 9	0.0:0.66
+	9 - 10	0.0:0.66
+	10 - 11	0.0:0.74
+	11 - 12	0.0:0.66
+	12 - 13	0.0:0.66
+	13 - 14	0.0:0.71
+	14 - 15	0.0:0.94
+	15 - 16	0.0:0.66
+	16 - 17	0.0:0.66
+	17 - 18	0.0:0.66
+	18 - 19	0.0:0.66
+	19 - 20	0.0:0.66
+	20 - 21	0.0:0.66
+	21 - 22	0.0:0.66
+	22 - 23	0.0:0.74
+	23 - 24	0.0:0.66
+	24 - 25	0.0:0.66
+	25 - 26	0.0:0.66
+	26 - 27	0.0:0.66
+	27 - 28	0.0:0.66
+	28 - 29	0.0:0.66
+	29 - 30	0.0:0.66
+	30 - 31	0.0:0.66
+	31 - 32	0.0:0.66
+	32 - 33	0.0:0.66
+
+16/02 13:29:35 INFO:
+done.
+
+16/02 13:29:35 INFO:
+Preparing Bio.Entrez for NCBI queries... 
+16/02 13:29:36 INFO:
+done.
+
+16/02 13:29:36 INFO:
+Retrieving lineage information for each taxonomy ID... 
+16/02 13:29:37 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 100	0.0:0.83
+
+16/02 13:29:37 INFO:
+done.
+
+16/02 13:29:37 DEBUG:
+Queries mapped ideally = 34
+Queries with organism unmapped = 0
+Queries with NCBI taxonomy ID unmapped = 36
+Queries mapped with alternative accessions = 0
+Queries that outright failed = 0
+
+16/02 13:29:37 DEBUG:
+Entrez.efetch query stats:
+	Downloaded	70
+	Provided	0
+	Total		70
+
+
+16/02 13:29:37 INFO:
+Clustering sequences with UCLUST... 
+16/02 13:29:37 INFO:
+done.
+
+16/02 13:29:37 DEBUG:
+usearch v11.0.667_i86linux32, 4.0Gb RAM (32.7Gb total), 8 cores
+(C) Copyright 2013-18 Robert C. Edgar, all rights reserved.
+https://drive5.com/usearch
+
+License: mclaughlinr2@alumni.ubc.ca
+
+00:00 37Mb      0.1% Reading refpkg_ng/create/pillin/intermediates/pillin_refs_uclust_input.fasta00:00 41Mb    100.0% Reading refpkg_ng/create/pillin/intermediates/pillin_refs_uclust_input.fasta
+00:00 71Mb      8.3% DF                                                                          00:00 74Mb    100.0% DF
+00:00 73Mb   70 seqs, 70 uniques, 70 singletons (100.0%)
+00:00 73Mb   Min size 1, median 1, max 1, avg 1.00
+00:00 76Mb      1.4% DB00:00 76Mb    100.0% DB
+00:00 76Mb   Sort length... done.
+00:00 116Mb     1.4% Clustering00:00 116Mb     1.4% 0 clusters, max size 0, avg 0.000:00 127Mb   100.0% 70 clusters, max size 1, avg 1.0
+00:00 127Mb     1.4% Writing centroids to refpkg_ng/create/pillin/intermediates/pillin_refs_uclust0.97.fa00:00 127Mb   100.0% Writing centroids to refpkg_ng/create/pillin/intermediates/pillin_refs_uclust0.97.fa
+                                                                                                         
+      Seqs  70
+  Clusters  70
+  Max size  1
+  Avg size  1.0
+  Min size  1
+Singletons  70, 100.0% of seqs, 100.0% of clusters
+   Max mem  127Mb
+      Time  1.00s
+Throughput  70.0 seqs/sec.
+
+
+16/02 13:29:37 DEBUG:
+Reading usearch cluster file... 
+16/02 13:29:37 DEBUG:
+done.
+
+16/02 13:29:37 DEBUG:
+	70 sequence clusters
+
+16/02 13:29:37 DEBUG:
+Finalizing representative sequence clusters... 
+16/02 13:29:37 DEBUG:
+done.
+
+16/02 13:29:37 DEBUG:
+Re-enumerating the reference sequences in taxonomic order... 
+16/02 13:29:37 DEBUG:
+done.
+
+16/02 13:29:37 INFO:
+Detecting outlier reference sequences... 
+16/02 13:29:37 INFO:
+done.
+
+16/02 13:29:38 DEBUG:
+0 outlier sequences detected and discarded.
+	
+
+16/02 13:29:38 DEBUG:
+Re-enumerating the reference sequences in taxonomic order... 
+16/02 13:29:38 DEBUG:
+done.
+
+16/02 13:29:38 INFO:
+Generated the taxonomic lineage map refpkg_ng/create/pillin/final_outputs/tax_ids_pillin.txt
+
+16/02 13:29:38 INFO:
+Number of unique lineages:
+	Kingdoms   2
+	Phyla      6
+	Classes   11
+	Orders    27
+	Families  33
+	Genera    48
+	Species   61
+Unclassified lineages account for 5/70 (7.1%) references.
+
+16/02 13:29:38 INFO:
+Aligning the sequences using MAFFT... 
+16/02 13:29:39 INFO:
+done.
+
+16/02 13:29:39 DEBUG:
+Reference alignment contains 70 sequences with 393 character positions.
+
+16/02 13:29:39 DEBUG:
+Building HMM profile... 
+16/02 13:29:39 DEBUG:
+done.
+
+16/02 13:29:39 INFO:
+Building phylogenetic tree with FastTree... 
+16/02 13:29:44 INFO:
+done.
+
+16/02 13:29:44 DEBUG:
+FastTree Version 2.1.10 Double precision (No SSE3)
+Alignment: refpkg_ng/create/pillin/intermediates/pillin.phy
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Le-Gascuel 2008, CAT approximation with 20 rate categories
+Initial topology in 0.02 seconds
+Refining topology: 25 rounds ME-NNIs, 2 rounds ME-SPRs, 12 rounds ML-NNIs
+      0.10 seconds: SPR round   1 of   2, 101 of 138 nodes
+      0.22 seconds: ME NNI round 17 of 25, 1 of 68 splits
+Total branch-length 28.882 after 0.23 sec
+      0.37 seconds: ML NNI round 1 of 12, 1 of 68 splits
+ML-NNI round 1: LogLk = -17437.044 NNIs 16 max delta 12.45 Time 1.00
+      1.01 seconds: Site likelihoods with rate category 1 of 20
+      1.12 seconds: Site likelihoods with rate category 13 of 20
+Switched to using 20 rate categories (CAT approximation)
+Rate categories were divided by 0.942 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+Use -gamma for approximate but comparable Gamma(20) log-likelihoods
+ML-NNI round 2: LogLk = -16563.092 NNIs 14 max delta 4.29 Time 1.84
+      1.84 seconds: ML NNI round 3 of 12, 1 of 68 splits
+ML-NNI round 3: LogLk = -16558.931 NNIs 6 max delta 0.71 Time 2.32
+      2.31 seconds: ML NNI round 4 of 12, 1 of 68 splits
+ML-NNI round 4: LogLk = -16546.864 NNIs 3 max delta 5.49 Time 2.64
+      2.63 seconds: ML NNI round 5 of 12, 1 of 68 splits
+ML-NNI round 5: LogLk = -16544.840 NNIs 1 max delta 0.92 Time 2.90
+      2.90 seconds: ML NNI round 6 of 12, 1 of 68 splits
+ML-NNI round 6: LogLk = -16544.673 NNIs 1 max delta 0.13 Time 3.05
+      3.05 seconds: ML NNI round 7 of 12, 1 of 68 splits
+ML-NNI round 7: LogLk = -16544.489 NNIs 1 max delta 0.09 Time 3.20
+Turning off heuristics for final round of ML NNIs (converged)
+      3.20 seconds: ML NNI round 8 of 12, 1 of 68 splits
+ML-NNI round 8: LogLk = -16542.448 NNIs 0 max delta 0.00 Time 3.93 (final)
+      3.92 seconds: ML Lengths 1 of 68 splits
+Optimize all lengths: LogLk = -16542.368 Time 4.08
+Total time: 4.61 seconds Unique: 70/70 Bad splits: 0/67
+
+
+16/02 13:29:44 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+16/02 13:29:44 DEBUG:
+done.
+
+16/02 13:29:44 DEBUG:
+Unable to remove /home/ryan/Projects/pillin/refpkg_ng/create/pillin/intermediates/phylogeny_files/pillin.raxml.reduced.phy as it doesn't exist.
+
+16/02 13:29:44 DEBUG:
+Lowest reliable rank for taxonomic classification is: Kingdoms
+
+16/02 13:29:44 INFO:
+
+##			Train taxonomic rank-placement distance model			##
+
+16/02 13:29:44 INFO:
+Arguments used:
+-i refpkg_ng/create/pillin/intermediates/pillin_refs_filtered.fa -c pillin -p refpkg_ng/create/pillin/final_outputs/ -o refpkg_ng/create/pillin/intermediates/placement_trainer/ -m prot -a refpkg_ng/create/pillin/intermediates//accession_id_lineage_map.tsv -n 6
+
+16/02 13:29:44 DEBUG:
+Reading build parameters of reference markers... 
+16/02 13:29:44 DEBUG:
+Multiple 'Z1111' codes in /home/ryan/anaconda3/envs/ts_ng/lib/python3.8/site-packages/treesapp-0.6.6-py3.8-linux-x86_64.egg/treesapp//data/ref_build_parameters.tsv. Previous entry in marker_build_dict being overwritten...
+
+16/02 13:29:44 DEBUG:
+Multiple 'Z1111' codes in /home/ryan/anaconda3/envs/ts_ng/lib/python3.8/site-packages/treesapp-0.6.6-py3.8-linux-x86_64.egg/treesapp//data/ref_build_parameters.tsv. Previous entry in marker_build_dict being overwritten...
+
+16/02 13:29:44 DEBUG:
+Multiple 'Z1111' codes in /home/ryan/anaconda3/envs/ts_ng/lib/python3.8/site-packages/treesapp-0.6.6-py3.8-linux-x86_64.egg/treesapp//data/ref_build_parameters.tsv. Previous entry in marker_build_dict being overwritten...
+
+16/02 13:29:44 DEBUG:
+Multiple 'Z1111' codes in /home/ryan/anaconda3/envs/ts_ng/lib/python3.8/site-packages/treesapp-0.6.6-py3.8-linux-x86_64.egg/treesapp//data/ref_build_parameters.tsv. Previous entry in marker_build_dict being overwritten...
+
+16/02 13:29:44 DEBUG:
+Multiple 'Z1111' codes in /home/ryan/anaconda3/envs/ts_ng/lib/python3.8/site-packages/treesapp-0.6.6-py3.8-linux-x86_64.egg/treesapp//data/ref_build_parameters.tsv. Previous entry in marker_build_dict being overwritten...
+
+16/02 13:29:44 DEBUG:
+Multiple 'Z1111' codes in /home/ryan/anaconda3/envs/ts_ng/lib/python3.8/site-packages/treesapp-0.6.6-py3.8-linux-x86_64.egg/treesapp//data/ref_build_parameters.tsv. Previous entry in marker_build_dict being overwritten...
+
+16/02 13:29:44 DEBUG:
+Multiple 'Z1111' codes in /home/ryan/anaconda3/envs/ts_ng/lib/python3.8/site-packages/treesapp-0.6.6-py3.8-linux-x86_64.egg/treesapp//data/ref_build_parameters.tsv. Previous entry in marker_build_dict being overwritten...
+
+16/02 13:29:44 DEBUG:
+Multiple 'Z1111' codes in /home/ryan/anaconda3/envs/ts_ng/lib/python3.8/site-packages/treesapp-0.6.6-py3.8-linux-x86_64.egg/treesapp//data/ref_build_parameters.tsv. Previous entry in marker_build_dict being overwritten...
+
+16/02 13:29:44 DEBUG:
+done.
+
+16/02 13:29:44 DEBUG:
+Skipped the following lines:
+	#hzs
+	#hzao
+	#nirA
+	#MtrA
+	#MtrC
+	#MtrH
+	#CO_dh
+	#RBsCO
+	#OGFOxy
+	#CitSyn
+	#GH36
+	#GH31
+	#GH109
+	#GH115
+	#nirK	D0301	prot	PROTGAMMALG	functional	0.97	120	RAxML	-11.3207,6.9484	Orders	07_Dec_2018	nitrite reductase (NO-forming)
+	#RecA	P0001	prot	PROTGAMMALG	taxonomic	0.80	1110	RAxML	-5.4758,6.3838	Classes	12_Dec_2018
+	#McrA	M0701	prot	PROTGAMMALG	functional	0.97	211	FastTree	-4.08046639871,6.03601100802	Classes	04_Dec_2018
+	#McrB	M0702	prot	PROTGAMMALG	functional	0.97	157	FastTree	-4.82025271473,6.52717228329	Classes	04_Dec_2018
+	#McrG	M0705	prot	PROTGAMMALG	functional	0.97	155	FastTree	-5.23147387413,6.5926235222	Genera	04_Dec_2018
+	#napA	D0201	prot	PROTGAMMALG	functional	0.90	332	FastTree	-7.03985324603,6.60314540283	Classes	04_Dec_2018
+	#nifD	N0401	prot	PROTGAMMALG	functional	0.90	402	FastTree	-7.72039669919,6.16543737552	Orders	04_Dec_2018
+	#nifH	N0402	prot	PROTGAMMALG	functional	0.95	301	FastTree	-6.48773434909,6.41218539511	Phyla	04_Dec_2018
+	#nirK	D0301	prot	PROTGAMMALG	functional	0.97	120	FastTree	-11.8842768413,6.77906128214	Orders	04_Dec_2018
+	#nirS	D0302	prot	PROTGAMMALG	functional	0.97	184	FastTree	-5.49173161577,6.23728973299	Classes	04_Dec_2018
+	#norB	D0501	prot	PROTGAMMALG	functional	0.80	329	FastTree	-7.6070183552,6.48567258868	Orders	04_Dec_2018
+	#norC	D0502	prot	PROTGAMMALG	functional	0.90	223	FastTree	-6.61551453189,6.60317398186	Classes	04_Dec_2018
+	#norC	D0502	prot	PROTGAMMALG	functional	0.90	223	RAxML	-5.3221,6.3809	Classes	08_Dec_2018	nitric oxide reductase subunit C
+	#p_amoA	N0102	prot	PROTGAMMALG	functional	0.97	80	FastTree	-2.83232814805,5.67790899421	Families	04_Dec_2018
+	#nosZ	D0601	prot	PROTGAMMALG	functional	0.95	449	FastTree	-6.1988,6.095	Phyla	13_Mar_2019
+	#McrA	M0701	prot	PROTGAMMALG	functional	0.97	228	RAxML	-5.3509,7.0	Classes	29_Apr_2019	Methyl coenzyme M reductase alpha subunit
+
+16/02 13:29:44 DEBUG:
+Read 70 headers from refpkg_ng/create/pillin/final_outputs/pillin.fa.
+
+16/02 13:29:44 DEBUG:
+Unable to open stage file '' for reading. Defaulting to stage 2.
+
+16/02 13:29:44 DEBUG:
+Continuing with stage 'place'
+
+16/02 13:29:44 DEBUG:
+Read 70 headers from refpkg_ng/create/pillin/intermediates/pillin_refs_filtered.fa.
+
+16/02 13:29:44 INFO:
+Extracting information from headers... 
+16/02 13:29:44 INFO:
+done.
+
+16/02 13:29:44 DEBUG:
+	Number of input sequences =	70
+
+16/02 13:29:44 INFO:
+Reading cached lineages in 'refpkg_ng/create/pillin/intermediates//accession_id_lineage_map.tsv'... 
+16/02 13:29:44 INFO:
+done.
+
+16/02 13:29:44 DEBUG:
+Read 70 headers from refpkg_ng/create/pillin/intermediates/pillin_refs_filtered.fa.
+
+16/02 13:29:44 DEBUG:
+Checking for redundant sequences with duplicate accessions.
+
+16/02 13:29:44 DEBUG:
+Checking for redundant FASTA records with duplicate sequences... 
+16/02 13:29:44 DEBUG:
+0 lineages truncated before Kingdom were removed during lineage trimming.
+0 lineages unclassified at or before Kingdom also removed.
+
+16/02 13:29:44 DEBUG:
+0 lineages truncated before Class were removed during lineage trimming.
+0 lineages unclassified at or before Class also removed.
+
+16/02 13:29:44 DEBUG:
+63.6% of optimal  Class lineages are present in the pruned trees.
+
+16/02 13:29:44 DEBUG:
+5 lineages truncated before Species were removed during lineage trimming.
+5 lineages unclassified at or before Species also removed.
+
+16/02 13:29:44 DEBUG:
+33.3% of optimal  Species lineages are present in the pruned trees.
+
+16/02 13:29:44 DEBUG:
+Optimal placement target was not found in the pruned tree for following taxa:
+	Archaea; Euryarchaeota
+	Bacteria; Cyanobacteria
+	Bacteria; Deferribacteres
+	Bacteria; Deinococcus-Thermus
+	Archaea; Euryarchaeota; Methanomicrobia; Methanomicrobiales; Methanospirillaceae; Methanospirillum
+	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae; Calditerrivibrio
+	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae; Deferribacter
+	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae; Flexistipes
+	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus
+	Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus
+	Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae; Streptococcus
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Ruminococcus
+	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Syntrophaceticus
+	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales; Acetobacteraceae; Gluconacetobacter
+	Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales; Burkholderiaceae; Burkholderia
+	Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales; Burkholderiaceae; Ralstonia
+	Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae; Eikenella
+	Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae; Kingella
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfatibacillum
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfobacterium
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfobotulus
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobulbaceae; Desulfurivibrio
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Desulfuromonadaceae; Desulfuromonas
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Desulfuromonadaceae; Desulfuromusa
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Desulfuromonadaceae; Pelobacter
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geopsychrobacter
+	Bacteria; Proteobacteria; Deltaproteobacteria; Syntrophobacterales; Syntrophaceae; Syntrophus
+	Bacteria; Proteobacteria; Deltaproteobacteria; Syntrophobacterales; Syntrophorhabdaceae; Syntrophorhabdus
+	Bacteria; Proteobacteria; Gammaproteobacteria; Aeromonadales; Aeromonadaceae; Aeromonas
+	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella
+	Bacteria; Proteobacteria; Gammaproteobacteria; Cardiobacteriales; Cardiobacteriaceae; Dichelobacter
+	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; Escherichia
+	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; Klebsiella
+	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Yersiniaceae; Yersinia
+	Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales; Legionellaceae; Legionella
+	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Actinobacillus
+	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Haemophilus
+	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Pasteurella
+	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+	Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales; Xanthomonadaceae; Xanthomonas
+	Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales; Xanthomonadaceae; Xylella
+	Bacteria; Proteobacteria; Oligoflexia; Bdellovibrionales; Bdellovibrionaceae; Bdellovibrio
+
+16/02 13:29:44 DEBUG:
+Sequences available for training Class-level placement distances:
+	0	Archaea; Euryarchaeota; Methanomicrobia
+	0	Bacteria; Cyanobacteria; Synechococcales
+	0	Bacteria; Deferribacteres; Deferribacteres
+	0	Bacteria; Deinococcus-Thermus; Deinococci
+	2	Bacteria; Firmicutes; Bacilli
+	2	Bacteria; Firmicutes; Clostridia
+	1	Bacteria; Proteobacteria; Alphaproteobacteria
+	6	Bacteria; Proteobacteria; Betaproteobacteria
+	32	Bacteria; Proteobacteria; Deltaproteobacteria
+	20	Bacteria; Proteobacteria; Gammaproteobacteria
+	1	Bacteria; Proteobacteria; Oligoflexia
+7/11 Class have training sequences.
+Sequences available for training Species-level placement distances:
+	0	Archaea; Euryarchaeota; Methanomicrobia; Methanomicrobiales; Methanospirillaceae; Methanospirillum; Methanospirillum hungatei
+	0	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae; Calditerrivibrio; Calditerrivibrio nitroreducens
+	0	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae; Deferribacter; Deferribacter desulfuricans
+	0	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae; Flexistipes; Flexistipes sinusarabici
+	0	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus; Thermus thermophilus
+	0	Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus subtilis
+	0	Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae; Streptococcus; Streptococcus pneumoniae
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Ruminococcus; Ruminococcus albus
+	0	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Syntrophaceticus; Syntrophaceticus schinkii
+	0	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales; Acetobacteraceae; Gluconacetobacter; Gluconacetobacter diazotrophicus
+	0	Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales; Burkholderiaceae; Burkholderia; Burkholderia pseudomallei
+	0	Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales; Burkholderiaceae; Ralstonia; Ralstonia solanacearum
+	0	Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae; Eikenella; Eikenella corrodens
+	0	Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae; Kingella; Kingella kingae
+	1	Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae; Neisseria; Neisseria gonorrhoeae
+	1	Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae; Neisseria; Neisseria meningitidis
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfatibacillum; Desulfatibacillum alkenivorans
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfobacterium; Desulfobacterium autotrophicum
+	1	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfobacula; Desulfobacula phenolica
+	1	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfobacula; Desulfobacula toluolica
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfobotulus; Desulfobotulus alkaliphilus
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobulbaceae; Desulfurivibrio; Desulfurivibrio alkaliphilus
+	1	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfurellales; Desulfurellaceae; Hippea; Hippea alviniae
+	1	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfurellales; Desulfurellaceae; Hippea; Hippea maritima
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Desulfuromonadaceae; Desulfuromonas; Desulfuromonas thiophila
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Desulfuromonadaceae; Desulfuromusa; Desulfuromusa kysingii
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Desulfuromonadaceae; Pelobacter; Pelobacter propionicus
+	1	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geoalkalibacter; Geoalkalibacter ferrihydriticus
+	1	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geoalkalibacter; Geoalkalibacter subterraneus
+	1	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geobacter; Geobacter bemidjiensis
+	1	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geobacter; Geobacter bremensis
+	1	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geobacter; Geobacter lovleyi
+	1	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geobacter; Geobacter metallireducens
+	1	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geobacter; Geobacter pickeringii
+	2	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geobacter; Geobacter sulfurreducens
+	1	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geobacter; Geobacter uraniireducens
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geopsychrobacter; Geopsychrobacter electrodiphilus
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Syntrophobacterales; Syntrophaceae; Syntrophus; Syntrophus aciditrophicus
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Syntrophobacterales; Syntrophorhabdaceae; Syntrophorhabdus; Syntrophorhabdus aromaticivorans
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Aeromonadales; Aeromonadaceae; Aeromonas; Aeromonas hydrophila
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella oneidensis
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Cardiobacteriales; Cardiobacteriaceae; Dichelobacter; Dichelobacter nodosus
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; Escherichia; Escherichia coli
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Enterobacteriaceae; Klebsiella; Klebsiella oxytoca
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Yersiniaceae; Yersinia; Yersinia enterocolitica
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales; Legionellaceae; Legionella; Legionella pneumophila
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Actinobacillus; Actinobacillus pleuropneumoniae
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Haemophilus; Haemophilus influenzae
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Pasteurella; Pasteurella multocida
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Moraxella; Moraxella bovis
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Moraxella; Moraxella nonliquefaciens
+	2	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas aeruginosa
+	1	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas stutzeri
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio; Vibrio vulnificus
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales; Xanthomonadaceae; Xanthomonas; Xanthomonas campestris
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales; Xanthomonadaceae; Xylella; Xylella fastidiosa
+	0	Bacteria; Proteobacteria; Oligoflexia; Bdellovibrionales; Bdellovibrionaceae; Bdellovibrio; Bdellovibrio bacteriovorus
+19/57 Species have training sequences.
+
+16/02 13:29:44 INFO:
+Clustering sequences with UCLUST... 
+16/02 13:29:44 INFO:
+done.
+
+16/02 13:29:44 DEBUG:
+usearch v11.0.667_i86linux32, 4.0Gb RAM (32.7Gb total), 8 cores
+(C) Copyright 2013-18 Robert C. Edgar, all rights reserved.
+https://drive5.com/usearch
+
+License: mclaughlinr2@alumni.ubc.ca
+
+00:00 37Mb      0.1% Reading refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates//uclust_input.fasta00:00 41Mb    100.0% Reading refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates//uclust_input.fasta
+00:00 71Mb      8.3% DF                                                                                               00:00 73Mb    100.0% DF
+00:00 73Mb   70 seqs, 70 uniques, 70 singletons (100.0%)
+00:00 73Mb   Min size 1, median 1, max 1, avg 1.00
+00:00 76Mb      1.4% DB00:00 76Mb    100.0% DB
+00:00 76Mb   Sort length... done.
+00:00 116Mb     1.4% Clustering00:00 116Mb     1.4% 0 clusters, max size 0, avg 0.000:00 127Mb   100.0% 70 clusters, max size 1, avg 1.0
+00:00 127Mb     1.4% Writing centroids to refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates//uclust0.99.fa00:00 127Mb   100.0% Writing centroids to refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates//uclust0.99.fa
+                                                                                                                              
+      Seqs  70
+  Clusters  70
+  Max size  1
+  Avg size  1.0
+  Min size  1
+Singletons  70, 100.0% of seqs, 100.0% of clusters
+   Max mem  127Mb
+      Time  1.00s
+Throughput  70.0 seqs/sec.
+
+
+16/02 13:29:44 DEBUG:
+Reading usearch cluster file... 
+16/02 13:29:44 DEBUG:
+done.
+
+16/02 13:29:44 DEBUG:
+	70 sequence clusters
+
+16/02 13:29:44 INFO:
+Preparing deduplicated sequence set for training... 
+16/02 13:29:44 DEBUG:
+0 lineages truncated before Class were removed during lineage trimming.
+0 lineages unclassified at or before Class also removed.
+
+16/02 13:29:44 DEBUG:
+5 lineages truncated before Species were removed during lineage trimming.
+5 lineages unclassified at or before Species also removed.
+
+16/02 13:29:44 INFO:
+done.
+
+16/02 13:29:44 INFO:
+
+Estimating branch-length placement distances for taxonomic ranks. Progress:
+
+16/02 13:29:44 DEBUG:
+62 sequences to train Class-level placement distances
+
+16/02 13:29:44 DEBUG:
+21 sequences to train Species-level placement distances
+
+16/02 13:29:44 DEBUG:
+5 lineages truncated before Species were removed during lineage trimming.
+5 lineages unclassified at or before Species also removed.
+
+16/02 13:29:44 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae; Neisseria; Neisseria gonorrhoeae:
+
+16/02 13:29:44 DEBUG:
+	1 query sequences.
+
+16/02 13:29:44 DEBUG:
+	11 sequences pruned from tree.
+
+16/02 13:29:44 DEBUG:
+	59 leaves in pruned tree.
+
+16/02 13:29:44 DEBUG:
+Building HMM profile... 
+16/02 13:29:44 DEBUG:
+done.
+
+16/02 13:29:44 DEBUG:
+
+
+16/02 13:29:44 DEBUG:
+Columns = 50
+
+16/02 13:29:44 DEBUG:
+Number of sequences discarded: 
+		refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+16/02 13:29:44 DEBUG:
+Read 60 headers from refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+16/02 13:29:44 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae; Neisseria; Neisseria meningitidis:
+
+16/02 13:29:44 DEBUG:
+	1 query sequences.
+
+16/02 13:29:44 DEBUG:
+	11 sequences pruned from tree.
+
+16/02 13:29:44 DEBUG:
+	59 leaves in pruned tree.
+
+16/02 13:29:44 DEBUG:
+Building HMM profile... 
+16/02 13:29:44 DEBUG:
+done.
+
+16/02 13:29:44 DEBUG:
+
+
+16/02 13:29:45 DEBUG:
+Columns = 50
+
+16/02 13:29:45 DEBUG:
+Number of sequences discarded: 
+		refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+16/02 13:29:45 DEBUG:
+Read 60 headers from refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+16/02 13:29:45 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfobacula; Desulfobacula phenolica:
+
+16/02 13:29:45 DEBUG:
+	1 query sequences.
+
+16/02 13:29:45 DEBUG:
+	11 sequences pruned from tree.
+
+16/02 13:29:45 DEBUG:
+	59 leaves in pruned tree.
+
+16/02 13:29:45 DEBUG:
+Building HMM profile... 
+16/02 13:29:45 DEBUG:
+done.
+
+16/02 13:29:45 DEBUG:
+
+
+16/02 13:29:45 DEBUG:
+Columns = 50
+
+16/02 13:29:45 DEBUG:
+Number of sequences discarded: 
+		refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+16/02 13:29:45 DEBUG:
+Read 60 headers from refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+16/02 13:29:45 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfobacula; Desulfobacula toluolica:
+
+16/02 13:29:45 DEBUG:
+	1 query sequences.
+
+16/02 13:29:45 DEBUG:
+	11 sequences pruned from tree.
+
+16/02 13:29:45 DEBUG:
+	59 leaves in pruned tree.
+
+16/02 13:29:45 DEBUG:
+Building HMM profile... 
+16/02 13:29:45 DEBUG:
+done.
+
+16/02 13:29:45 DEBUG:
+
+
+16/02 13:29:45 DEBUG:
+Columns = 50
+
+16/02 13:29:45 DEBUG:
+Number of sequences discarded: 
+		refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+16/02 13:29:45 DEBUG:
+Read 60 headers from refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+16/02 13:29:45 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Deltaproteobacteria; Desulfurellales; Desulfurellaceae; Hippea; Hippea alviniae:
+
+16/02 13:29:45 DEBUG:
+	1 query sequences.
+
+16/02 13:29:45 DEBUG:
+	11 sequences pruned from tree.
+
+16/02 13:29:46 DEBUG:
+	59 leaves in pruned tree.
+
+16/02 13:29:46 DEBUG:
+Building HMM profile... 
+16/02 13:29:46 DEBUG:
+done.
+
+16/02 13:29:46 DEBUG:
+
+
+16/02 13:29:46 DEBUG:
+Columns = 50
+
+16/02 13:29:46 DEBUG:
+Number of sequences discarded: 
+		refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+16/02 13:29:46 DEBUG:
+Read 60 headers from refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+16/02 13:29:46 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Deltaproteobacteria; Desulfurellales; Desulfurellaceae; Hippea; Hippea maritima:
+
+16/02 13:29:46 DEBUG:
+	1 query sequences.
+
+16/02 13:29:46 DEBUG:
+	11 sequences pruned from tree.
+
+16/02 13:29:46 DEBUG:
+	59 leaves in pruned tree.
+
+16/02 13:29:46 DEBUG:
+Building HMM profile... 
+16/02 13:29:46 DEBUG:
+done.
+
+16/02 13:29:46 DEBUG:
+
+
+16/02 13:29:46 DEBUG:
+Columns = 50
+
+16/02 13:29:46 DEBUG:
+Number of sequences discarded: 
+		refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+16/02 13:29:46 DEBUG:
+Read 60 headers from refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+16/02 13:29:46 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geoalkalibacter; Geoalkalibacter ferrihydriticus:
+
+16/02 13:29:46 DEBUG:
+	1 query sequences.
+
+16/02 13:29:46 DEBUG:
+	11 sequences pruned from tree.
+
+16/02 13:29:46 DEBUG:
+	59 leaves in pruned tree.
+
+16/02 13:29:46 DEBUG:
+Building HMM profile... 
+16/02 13:29:46 DEBUG:
+done.
+
+16/02 13:29:46 DEBUG:
+
+
+16/02 13:29:47 DEBUG:
+Columns = 50
+
+16/02 13:29:47 DEBUG:
+Number of sequences discarded: 
+		refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+16/02 13:29:47 DEBUG:
+Read 60 headers from refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+16/02 13:29:47 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geoalkalibacter; Geoalkalibacter subterraneus:
+
+16/02 13:29:47 DEBUG:
+	1 query sequences.
+
+16/02 13:29:47 DEBUG:
+	11 sequences pruned from tree.
+
+16/02 13:29:47 DEBUG:
+	59 leaves in pruned tree.
+
+16/02 13:29:47 DEBUG:
+Building HMM profile... 
+16/02 13:29:47 DEBUG:
+done.
+
+16/02 13:29:47 DEBUG:
+
+
+16/02 13:29:47 DEBUG:
+Columns = 50
+
+16/02 13:29:47 DEBUG:
+Number of sequences discarded: 
+		refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+16/02 13:29:47 DEBUG:
+Read 60 headers from refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+16/02 13:29:47 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geobacter; Geobacter bemidjiensis:
+
+16/02 13:29:47 DEBUG:
+	1 query sequences.
+
+16/02 13:29:47 DEBUG:
+	11 sequences pruned from tree.
+
+16/02 13:29:47 DEBUG:
+	59 leaves in pruned tree.
+
+16/02 13:29:47 DEBUG:
+Building HMM profile... 
+16/02 13:29:47 DEBUG:
+done.
+
+16/02 13:29:47 DEBUG:
+
+
+16/02 13:29:47 DEBUG:
+Columns = 50
+
+16/02 13:29:47 DEBUG:
+Number of sequences discarded: 
+		refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+16/02 13:29:47 DEBUG:
+Read 60 headers from refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+16/02 13:29:47 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geobacter; Geobacter bremensis:
+
+16/02 13:29:47 DEBUG:
+	1 query sequences.
+
+16/02 13:29:47 DEBUG:
+	11 sequences pruned from tree.
+
+16/02 13:29:47 DEBUG:
+	59 leaves in pruned tree.
+
+16/02 13:29:47 DEBUG:
+Building HMM profile... 
+16/02 13:29:48 DEBUG:
+done.
+
+16/02 13:29:48 DEBUG:
+
+
+16/02 13:29:48 DEBUG:
+Columns = 50
+
+16/02 13:29:48 DEBUG:
+Number of sequences discarded: 
+		refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+16/02 13:29:48 DEBUG:
+Read 60 headers from refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+16/02 13:29:48 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geobacter; Geobacter lovleyi:
+
+16/02 13:29:48 DEBUG:
+	1 query sequences.
+
+16/02 13:29:48 DEBUG:
+	11 sequences pruned from tree.
+
+16/02 13:29:48 DEBUG:
+	59 leaves in pruned tree.
+
+16/02 13:29:48 DEBUG:
+Building HMM profile... 
+16/02 13:29:48 DEBUG:
+done.
+
+16/02 13:29:48 DEBUG:
+
+
+16/02 13:29:48 DEBUG:
+Columns = 50
+
+16/02 13:29:48 DEBUG:
+Number of sequences discarded: 
+		refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+16/02 13:29:48 DEBUG:
+Read 60 headers from refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+16/02 13:29:48 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geobacter; Geobacter metallireducens:
+
+16/02 13:29:48 DEBUG:
+	1 query sequences.
+
+16/02 13:29:48 DEBUG:
+	11 sequences pruned from tree.
+
+16/02 13:29:48 DEBUG:
+	59 leaves in pruned tree.
+
+16/02 13:29:48 DEBUG:
+Building HMM profile... 
+16/02 13:29:48 DEBUG:
+done.
+
+16/02 13:29:48 DEBUG:
+
+
+16/02 13:29:49 DEBUG:
+Columns = 50
+
+16/02 13:29:49 DEBUG:
+Number of sequences discarded: 
+		refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+16/02 13:29:49 DEBUG:
+Read 60 headers from refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+16/02 13:29:49 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geobacter; Geobacter pickeringii:
+
+16/02 13:29:49 DEBUG:
+	1 query sequences.
+
+16/02 13:29:49 DEBUG:
+	11 sequences pruned from tree.
+
+16/02 13:29:49 DEBUG:
+	59 leaves in pruned tree.
+
+16/02 13:29:49 DEBUG:
+Building HMM profile... 
+16/02 13:29:49 DEBUG:
+done.
+
+16/02 13:29:49 DEBUG:
+
+
+16/02 13:29:49 DEBUG:
+Columns = 50
+
+16/02 13:29:49 DEBUG:
+Number of sequences discarded: 
+		refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+16/02 13:29:49 DEBUG:
+Read 60 headers from refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+16/02 13:29:49 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geobacter; Geobacter sulfurreducens:
+
+16/02 13:29:49 DEBUG:
+	2 query sequences.
+
+16/02 13:29:49 DEBUG:
+	12 sequences pruned from tree.
+
+16/02 13:29:49 DEBUG:
+	58 leaves in pruned tree.
+
+16/02 13:29:49 DEBUG:
+Building HMM profile... 
+16/02 13:29:49 DEBUG:
+done.
+
+16/02 13:29:49 DEBUG:
+
+
+16/02 13:29:49 DEBUG:
+Columns = 50
+
+16/02 13:29:49 DEBUG:
+Number of sequences discarded: 
+		refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+16/02 13:29:49 DEBUG:
+Read 60 headers from refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+16/02 13:29:50 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geobacter; Geobacter uraniireducens:
+
+16/02 13:29:50 DEBUG:
+	1 query sequences.
+
+16/02 13:29:50 DEBUG:
+	11 sequences pruned from tree.
+
+16/02 13:29:50 DEBUG:
+	59 leaves in pruned tree.
+
+16/02 13:29:50 DEBUG:
+Building HMM profile... 
+16/02 13:29:50 DEBUG:
+done.
+
+16/02 13:29:50 DEBUG:
+
+
+16/02 13:29:50 DEBUG:
+Columns = 50
+
+16/02 13:29:50 DEBUG:
+Number of sequences discarded: 
+		refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+16/02 13:29:50 DEBUG:
+Read 60 headers from refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+16/02 13:29:50 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Moraxella; Moraxella bovis:
+
+16/02 13:29:50 DEBUG:
+	1 query sequences.
+
+16/02 13:29:50 DEBUG:
+	11 sequences pruned from tree.
+
+16/02 13:29:50 DEBUG:
+	59 leaves in pruned tree.
+
+16/02 13:29:50 DEBUG:
+Building HMM profile... 
+16/02 13:29:50 DEBUG:
+done.
+
+16/02 13:29:50 DEBUG:
+
+
+16/02 13:29:50 DEBUG:
+Columns = 50
+
+16/02 13:29:50 DEBUG:
+Number of sequences discarded: 
+		refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+16/02 13:29:50 DEBUG:
+Read 60 headers from refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+16/02 13:29:50 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Moraxella; Moraxella nonliquefaciens:
+
+16/02 13:29:50 DEBUG:
+	1 query sequences.
+
+16/02 13:29:50 DEBUG:
+	11 sequences pruned from tree.
+
+16/02 13:29:50 DEBUG:
+	59 leaves in pruned tree.
+
+16/02 13:29:50 DEBUG:
+Building HMM profile... 
+16/02 13:29:51 DEBUG:
+done.
+
+16/02 13:29:51 DEBUG:
+
+
+16/02 13:29:51 DEBUG:
+Columns = 50
+
+16/02 13:29:51 DEBUG:
+Number of sequences discarded: 
+		refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+16/02 13:29:51 DEBUG:
+Read 60 headers from refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+16/02 13:29:51 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas aeruginosa:
+
+16/02 13:29:51 DEBUG:
+	2 query sequences.
+
+16/02 13:29:51 DEBUG:
+	12 sequences pruned from tree.
+
+16/02 13:29:51 DEBUG:
+	58 leaves in pruned tree.
+
+16/02 13:29:51 DEBUG:
+Building HMM profile... 
+16/02 13:29:51 DEBUG:
+done.
+
+16/02 13:29:51 DEBUG:
+
+
+16/02 13:29:51 DEBUG:
+Columns = 50
+
+16/02 13:29:51 DEBUG:
+Number of sequences discarded: 
+		refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+16/02 13:29:51 DEBUG:
+Read 60 headers from refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+16/02 13:29:51 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas; Pseudomonas stutzeri:
+
+16/02 13:29:51 DEBUG:
+	1 query sequences.
+
+16/02 13:29:51 DEBUG:
+	11 sequences pruned from tree.
+
+16/02 13:29:51 DEBUG:
+	59 leaves in pruned tree.
+
+16/02 13:29:51 DEBUG:
+Building HMM profile... 
+16/02 13:29:51 DEBUG:
+done.
+
+16/02 13:29:51 DEBUG:
+
+
+16/02 13:29:52 DEBUG:
+Columns = 50
+
+16/02 13:29:52 DEBUG:
+Number of sequences discarded: 
+		refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+16/02 13:29:52 DEBUG:
+Read 60 headers from refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+16/02 13:29:52 DEBUG:
+RANK: Species
+	Samples = 18
+	Median = 0.1713
+	Mean = 0.3103
+
+16/02 13:29:52 DEBUG:
+0 lineages truncated before Class were removed during lineage trimming.
+0 lineages unclassified at or before Class also removed.
+
+16/02 13:29:52 DEBUG:
+Testing placements for Bacteria; Firmicutes; Bacilli:
+
+16/02 13:29:52 DEBUG:
+	2 query sequences.
+
+16/02 13:29:52 DEBUG:
+	2 sequences pruned from tree.
+
+16/02 13:29:52 DEBUG:
+	68 leaves in pruned tree.
+
+16/02 13:29:52 DEBUG:
+Building HMM profile... 
+16/02 13:29:52 DEBUG:
+done.
+
+16/02 13:29:52 DEBUG:
+
+
+16/02 13:29:52 DEBUG:
+Columns = 51
+
+16/02 13:29:52 DEBUG:
+Number of sequences discarded: 
+		refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+16/02 13:29:52 DEBUG:
+Read 70 headers from refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+16/02 13:29:52 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia:
+
+16/02 13:29:52 DEBUG:
+	2 query sequences.
+
+16/02 13:29:52 DEBUG:
+	2 sequences pruned from tree.
+
+16/02 13:29:52 DEBUG:
+	68 leaves in pruned tree.
+
+16/02 13:29:52 DEBUG:
+Building HMM profile... 
+16/02 13:29:52 DEBUG:
+done.
+
+16/02 13:29:52 DEBUG:
+
+
+16/02 13:29:53 DEBUG:
+Columns = 51
+
+16/02 13:29:53 DEBUG:
+Number of sequences discarded: 
+		refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+16/02 13:29:53 DEBUG:
+Read 70 headers from refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+16/02 13:29:53 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Alphaproteobacteria:
+
+16/02 13:29:53 DEBUG:
+	1 query sequences.
+
+16/02 13:29:53 DEBUG:
+	1 sequences pruned from tree.
+
+16/02 13:29:53 DEBUG:
+	69 leaves in pruned tree.
+
+16/02 13:29:53 DEBUG:
+Building HMM profile... 
+16/02 13:29:53 DEBUG:
+done.
+
+16/02 13:29:53 DEBUG:
+
+
+16/02 13:29:53 DEBUG:
+Columns = 51
+
+16/02 13:29:53 DEBUG:
+Number of sequences discarded: 
+		refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+16/02 13:29:53 DEBUG:
+Read 70 headers from refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+16/02 13:29:53 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Betaproteobacteria:
+
+16/02 13:29:53 DEBUG:
+	6 query sequences.
+
+16/02 13:29:53 DEBUG:
+	6 sequences pruned from tree.
+
+16/02 13:29:53 DEBUG:
+	64 leaves in pruned tree.
+
+16/02 13:29:53 DEBUG:
+Building HMM profile... 
+16/02 13:29:54 DEBUG:
+done.
+
+16/02 13:29:54 DEBUG:
+
+
+16/02 13:29:54 DEBUG:
+Columns = 51
+
+16/02 13:29:54 DEBUG:
+Number of sequences discarded: 
+		refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+16/02 13:29:54 DEBUG:
+Read 70 headers from refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+16/02 13:29:54 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Deltaproteobacteria:
+
+16/02 13:29:54 DEBUG:
+	30 query sequences.
+
+16/02 13:29:54 DEBUG:
+	32 sequences pruned from tree.
+
+16/02 13:29:54 DEBUG:
+	38 leaves in pruned tree.
+
+16/02 13:29:54 DEBUG:
+Building HMM profile... 
+16/02 13:29:54 DEBUG:
+done.
+
+16/02 13:29:54 DEBUG:
+
+
+16/02 13:29:55 DEBUG:
+Columns = 49
+
+16/02 13:29:55 DEBUG:
+Number of sequences discarded: 
+		refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+16/02 13:29:55 DEBUG:
+Read 68 headers from refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+16/02 13:29:55 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria:
+
+16/02 13:29:55 DEBUG:
+	20 query sequences.
+
+16/02 13:29:55 DEBUG:
+	20 sequences pruned from tree.
+
+16/02 13:29:55 DEBUG:
+	50 leaves in pruned tree.
+
+16/02 13:29:55 DEBUG:
+Building HMM profile... 
+16/02 13:29:55 DEBUG:
+done.
+
+16/02 13:29:55 DEBUG:
+
+
+16/02 13:29:55 DEBUG:
+Columns = 51
+
+16/02 13:29:55 DEBUG:
+Number of sequences discarded: 
+		refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+16/02 13:29:55 DEBUG:
+Read 70 headers from refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+16/02 13:29:55 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Oligoflexia:
+
+16/02 13:29:55 DEBUG:
+	1 query sequences.
+
+16/02 13:29:55 DEBUG:
+	1 sequences pruned from tree.
+
+16/02 13:29:55 DEBUG:
+	69 leaves in pruned tree.
+
+16/02 13:29:55 DEBUG:
+Building HMM profile... 
+16/02 13:29:56 DEBUG:
+done.
+
+16/02 13:29:56 DEBUG:
+
+
+16/02 13:29:56 DEBUG:
+Columns = 51
+
+16/02 13:29:56 DEBUG:
+Number of sequences discarded: 
+		refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+16/02 13:29:56 DEBUG:
+Read 70 headers from refpkg_ng/create/pillin/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+16/02 13:29:56 DEBUG:
+RANK: Class
+	Samples = 58
+	Median = 1.3045
+	Mean = 1.322
+
+16/02 13:29:56 INFO:
+Placement distance regression model complete.
+
+16/02 13:29:56 DEBUG:
+Read 70 headers from refpkg_ng/create/pillin/final_outputs/pillin.fa.
+
+16/02 13:29:56 INFO:
+
+To integrate this package for use in TreeSAPP the following steps must be performed:
+1. Write a properly formatted reference package 'code' in /home/ryan/anaconda3/envs/ts_ng/lib/python3.8/site-packages/treesapp-0.6.6-py3.8-linux-x86_64.egg/treesapp/data/ref_build_parameters.tsv
+2. $ cp refpkg_ng/create/pillin/final_outputs/tax_ids_pillin.txt refpkg_ng/create/pillin/final_outputs/pillin_tree.txt refpkg_ng/create/pillin/final_outputs/pillin_bestModel.txt /home/ryan/anaconda3/envs/ts_ng/lib/python3.8/site-packages/treesapp-0.6.6-py3.8-linux-x86_64.egg/treesapp/data/tree_data/
+3. $ cp refpkg_ng/create/pillin/final_outputs/pillin.hmm /home/ryan/anaconda3/envs/ts_ng/lib/python3.8/site-packages/treesapp-0.6.6-py3.8-linux-x86_64.egg/treesapp/data/hmm_data/
+4. $ cp refpkg_ng/create/pillin/final_outputs/pillin.fa /home/ryan/anaconda3/envs/ts_ng/lib/python3.8/site-packages/treesapp-0.6.6-py3.8-linux-x86_64.egg/treesapp/data/alignment_data/
+
+16/02 13:29:56 INFO:
+Data for pillin has been generated successfully.
+
+16/02 13:29:56 INFO:
+TreeSAPP has finished successfully.
+
