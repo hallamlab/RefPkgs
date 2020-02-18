@@ -1,0 +1,1 @@
+{"RefPkg": {"name": "ribB", "code": "Z1111", "molecule": "prot", "sequences": 229, "model": "PROTGAMMALG", "lowest_confident_rank": "Classes", "kind": "functional", "tree-tool": "FastTree", "regression-parameters": ["0.0", "7.0"], "cluster-similarity": "0.97", "description": ""}}

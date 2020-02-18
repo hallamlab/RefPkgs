@@ -1,0 +1,1 @@
+{"RefPkg": {"name": "ribH", "code": "Z1111", "molecule": "prot", "sequences": 526, "model": "PROTGAMMALG", "lowest_confident_rank": "Kingdoms", "kind": "functional", "tree-tool": "FastTree", "regression-parameters": ["0.0", "7.0"], "cluster-similarity": "0.97", "description": ""}}

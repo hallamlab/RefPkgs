@@ -1,0 +1,1 @@
+{"RefPkg": {"name": "ribE", "code": "Z1111", "molecule": "prot", "sequences": 582, "model": "PROTGAMMALG", "lowest_confident_rank": "Phyla", "kind": "functional", "tree-tool": "FastTree", "regression-parameters": ["-4.4876", "7.0"], "cluster-similarity": "0.97", "description": ""}}

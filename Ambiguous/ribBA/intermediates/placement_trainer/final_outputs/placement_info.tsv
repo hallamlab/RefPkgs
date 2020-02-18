@@ -1,0 +1,42 @@
+#Marker	Rank	Lineage	Query.Name	Internal.Node	Placement.LWR	Tree.Likelihood	Dist.Distal	Dist.Pendant	Dist.MeanTip	Dist.Total
+ribBA	Species	Bacteria; Actinobacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae; Mycobacterium; Mycobacterium marinum	WP_012393985	24	1.0	-11268.0878566712	0.022596	0.014573	0.0	0.03717
+ribBA	Species	Bacteria; Actinobacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae; Mycobacterium; Mycobacterium tuberculosis	NP_215931	24	1.0	-11267.575706811	0.0152	0.019999	0.0	0.0352
+ribBA	Species	Bacteria; Actinobacteria; Actinobacteria; Micromonosporales; Micromonosporaceae; Salinispora; Salinispora arenicola	WP_012182059	26	1.0	-11267.8662511247	0.083063	0.039619	0.0	0.12268
+ribBA	Species	Bacteria; Actinobacteria; Actinobacteria; Micromonosporales; Micromonosporaceae; Salinispora; Salinispora tropica	WP_011905769	26	1.0	-11262.8489063814	0.04665	0.069287	0.0	0.11594
+ribBA	Species	Bacteria; Chlamydiae; Chlamydiia; Chlamydiales; Chlamydiaceae; Chlamydia; Chlamydia muridarum	WP_010229383	11	1.0	-11268.013958451	0.045222	0.110176	0.0	0.1554
+ribBA	Species	Bacteria; Chlamydiae; Chlamydiia; Chlamydiales; Chlamydiaceae; Chlamydia; Chlamydia pneumoniae	WP_010883507	29	1.0	-11268.6193319336	0.205177	0.196425	0.08367	0.48527
+ribBA	Species	Bacteria; Chlamydiae; Chlamydiia; Chlamydiales; Chlamydiaceae; Chlamydia; Chlamydia trachomatis	WP_010725324	11	1.0	-11267.4357955107	0.119219	0.040225	0.0	0.15944
+ribBA	Species	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Pelodictyon; Pelodictyon luteolum	WP_011358317	39	0.5060817647	-11268.785360671	0.08573	0.046342	0.0	0.13207
+ribBA	Species	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Pelodictyon; Pelodictyon phaeoclathratiforme	WP_012507516	39	1.0	-11268.1923291261	0.046468	0.085833	0.0	0.1323
+ribBA	Class	Bacteria; Actinobacteria; Actinobacteria	YP_003771184	8	0.9999999903	-14518.1457138369	0.171718	1.110767	0.2431	1.52559
+ribBA	Class	Bacteria; Actinobacteria; Actinobacteria	WP_005057753	31	1.0	-14245.7302903769	0.050854	0.051215	0.0	0.10207
+ribBA	Class	Bacteria; Actinobacteria; Actinobacteria	NP_215931	31	1.0	-14219.8691244829	0.039685	0.037506	0.0	0.07719
+ribBA	Class	Bacteria; Actinobacteria; Actinobacteria	WP_012182059	33	1.0	-14472.801875957	0.101027	0.175112	0.104893	0.38103
+ribBA	Class	Bacteria; Actinobacteria; Actinobacteria	WP_012393985	31	1.0	-14216.3332225484	0.033536	0.036275	0.0	0.06981
+ribBA	Class	Bacteria; Actinobacteria; Actinobacteria	YP_003764970	33	1.0	-14415.0547162163	0.121709	0.105361	0.104893	0.33196
+ribBA	Class	Bacteria; Actinobacteria; Actinobacteria	WP_011739905	31	1.0	-14236.9683741085	0.032269	0.048762	0.0	0.08103
+ribBA	Class	Bacteria; Actinobacteria; Actinobacteria	WP_003872539	31	1.0	-14227.6114450461	0.032761	0.044418	0.0	0.07718
+ribBA	Class	Bacteria; Actinobacteria; Actinobacteria	YP_003153485	25	1.0	-14706.9774401322	0.148251	0.41342	0.392137	0.95381
+ribBA	Class	Bacteria; Actinobacteria; Actinobacteria	WP_011905769	33	1.0	-14495.541134703	0.10367	0.21061	0.104893	0.41917
+ribBA	Class	Bacteria; Actinobacteria; Corynebacteriales	WP_009480441	37	1.0	-15151.9689233864	0.04456	0.04237	0.091147	0.17808
+ribBA	Class	Bacteria; Actinobacteria; Corynebacteriales	WP_011894571	36	1.0	-15083.1464833458	0.036119	0.022811	0.021334	0.08026
+ribBA	Class	Bacteria; Actinobacteria; Corynebacteriales	WP_003944833	37	1.0	-15150.1210573554	0.040646	0.04282	0.091147	0.17461
+ribBA	Class	Bacteria; Actinobacteria; Corynebacteriales	WP_011210133	37	1.0	-15170.0092791308	0.075416	0.04582	0.091147	0.21238
+ribBA	Class	Bacteria; Actinobacteria; Corynebacteriales	WP_011779909	36	1.0	-15088.8441583785	0.028359	0.027669	0.021334	0.07736
+ribBA	Class	Bacteria; Actinobacteria; Corynebacteriales	WP_003856016	39	1.0	-15426.622875494	0.06552	0.216937	0.312992	0.59545
+ribBA	Class	Bacteria; Bacteroidetes; Bacteroidia	WP_005859476	64	1.0	-14826.3002097611	0.226689	0.267938	0.0	0.49463
+ribBA	Class	Bacteria; Bacteroidetes; Bacteroidia	WP_005841905	64	1.0	-14839.0017190514	0.23947	0.268479	0.0	0.50795
+ribBA	Class	Bacteria; Bacteroidetes; Bacteroidia	WP_004585136	64	1.0	-14839.0614869906	0.229417	0.276443	0.0	0.50586
+ribBA	Class	Bacteria; Bacteroidetes; Bacteroidia	WP_005784515	64	1.0	-14792.144659199	0.197674	0.229348	0.0	0.42702
+ribBA	Class	Bacteria; Bacteroidetes; Bacteroidia	WP_008763746	64	1.0	-14854.3091864692	0.237598	0.279641	0.0	0.51724
+ribBA	Class	Bacteria; Bacteroidetes; Cytophagia	WP_011584325	72	1.0	-16032.2895061114	0.158701	0.213655	0.185996	0.55835
+ribBA	Class	Bacteria; Firmicutes; Bacilli	WP_011275456	0	1.0	-14309.2319936029	0.308647	0.459967	0.0	0.76861
+ribBA	Class	Bacteria; Firmicutes; Bacilli	WP_002504857	0	1.0	-14315.891705679	0.290629	0.458931	0.0	0.74956
+ribBA	Class	Bacteria; Firmicutes; Bacilli	NP_390207	0	1.0	-14154.3341144741	0.410159	0.238741	0.0	0.6489
+ribBA	Class	Bacteria; Firmicutes; Bacilli	WP_001159033	0	1.0	-14280.7838795158	0.295451	0.410762	0.0	0.70621
+ribBA	Class	Bacteria; Firmicutes; Bacilli	WP_011302850	0	1.0	-14310.6946703252	0.266134	0.469132	0.0	0.73527
+ribBA	Class	Bacteria; Firmicutes; Clostridia	WP_011723157	53	1.0	-16029.4812286839	0.084176	0.2308	0.632637	0.94761
+ribBA	Class	Bacteria; Proteobacteria; Alphaproteobacteria	YP_002516304	47	0.9957948978	-15383.943807168	0.053571	0.459569	0.5075	1.02064
+ribBA	Class	Bacteria; Proteobacteria; Alphaproteobacteria	YP_005794034	23	1.0	-15412.5562523106	0.33973	0.431159	0.0	0.77089
+ribBA	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_009875161	7	1.0	-15320.9298506132	0.298864	0.319119	0.2431	0.86108
+ribBA	Class	Bacteria; Proteobacteria; Gammaproteobacteria	NP_719016	50	1.0	-15382.4091961683	0.078136	0.579085	0.283197	0.94042

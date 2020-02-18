@@ -1,0 +1,409 @@
+15/02 17:18:03 INFO:
+
+##			Creating TreeSAPP reference package			##
+
+15/02 17:18:03 INFO:
+Arguments used:
+-b 0 -i refpkgs/marker_genes/ribB/ribB_GenBankBAV_uniques_clean.faa -c ribB -p 0.97 --cluster -o refpkgs_ng/create/ribB/ -m prot -n 6 --headless --fast
+
+15/02 17:18:03 DEBUG:
+Unable to open stage file '' for reading. Defaulting to stage 1.
+
+15/02 17:18:03 DEBUG:
+Continuing with stage 'lineages'
+
+15/02 17:18:03 DEBUG:
+Read 352 headers from refpkgs/marker_genes/ribB/ribB_GenBankBAV_uniques_clean.faa.
+
+15/02 17:18:03 INFO:
+Sequence summary:
+	Number of sequences: 352
+	Longest sequence length: 587
+	Shortest sequence length: 138
+	Mean sequence length: 281.8
+	Median sequence length: 233.5
+
+15/02 17:18:03 INFO:
+Extracting information from headers... 
+15/02 17:18:03 INFO:
+done.
+
+15/02 17:18:03 DEBUG:
+	Number of input sequences =	352
+
+15/02 17:18:03 DEBUG:
+	Number of queries =	352
+
+15/02 17:18:03 INFO:
+Preparing Bio.Entrez for NCBI queries... 
+15/02 17:18:04 INFO:
+done.
+
+15/02 17:18:04 INFO:
+Retrieving Entrez taxonomy records for each accession... 
+15/02 17:18:43 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 100	0.0:13.5
+	100 - 200	0.0:9.64
+	200 - 300	0.0:9.87
+	300 - 400	0.0:6.1
+
+15/02 17:18:43 INFO:
+done.
+
+15/02 17:18:43 DEBUG:
+28 unique organism queries.
+
+15/02 17:18:43 INFO:
+Retrieving NCBI taxonomy IDs for each organism... 
+15/02 17:19:02 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 1	0.0:0.66
+	1 - 2	0.0:0.66
+	2 - 3	0.0:0.71
+	3 - 4	0.0:0.66
+	4 - 5	0.0:0.66
+	5 - 6	0.0:0.66
+	6 - 7	0.0:0.66
+	7 - 8	0.0:0.66
+	8 - 9	0.0:0.66
+	9 - 10	0.0:0.75
+	10 - 11	0.0:0.66
+	11 - 12	0.0:0.66
+	12 - 13	0.0:0.66
+	13 - 14	0.0:0.89
+	14 - 15	0.0:0.66
+	15 - 16	0.0:0.66
+	16 - 17	0.0:0.66
+	17 - 18	0.0:0.66
+	18 - 19	0.0:0.66
+	19 - 20	0.0:0.66
+	20 - 21	0.0:0.66
+	21 - 22	0.0:0.66
+	22 - 23	0.0:0.66
+	23 - 24	0.0:0.66
+	24 - 25	0.0:0.66
+	25 - 26	0.0:0.66
+	26 - 27	0.0:0.66
+	27 - 28	0.0:0.66
+
+15/02 17:19:02 INFO:
+done.
+
+15/02 17:19:02 INFO:
+Preparing Bio.Entrez for NCBI queries... 
+15/02 17:19:02 INFO:
+done.
+
+15/02 17:19:02 INFO:
+Retrieving lineage information for each taxonomy ID... 
+15/02 17:19:03 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 100	0.0:1.08
+
+15/02 17:19:03 INFO:
+done.
+
+15/02 17:19:03 DEBUG:
+Queries mapped ideally = 51
+Queries with organism unmapped = 0
+Queries with NCBI taxonomy ID unmapped = 301
+Queries mapped with alternative accessions = 0
+Queries that outright failed = 0
+
+15/02 17:19:03 DEBUG:
+Entrez.efetch query stats:
+	Downloaded	352
+	Provided	0
+	Total		352
+
+
+15/02 17:19:03 INFO:
+Clustering sequences with UCLUST... 
+15/02 17:19:03 INFO:
+done.
+
+15/02 17:19:03 DEBUG:
+usearch v11.0.667_i86linux32, 4.0Gb RAM (32.7Gb total), 8 cores
+(C) Copyright 2013-18 Robert C. Edgar, all rights reserved.
+https://drive5.com/usearch
+
+License: mclaughlinr2@alumni.ubc.ca
+
+00:00 37Mb      0.1% Reading refpkgs_ng/create/ribB/intermediates/ribB_GenBankBAV_uniques_clean_uclust_input.fasta00:00 41Mb    100.0% Reading refpkgs_ng/create/ribB/intermediates/ribB_GenBankBAV_uniques_clean_uclust_input.fasta
+00:00 66Mb      2.1% DF                                                                                           00:00 75Mb    100.0% DF
+00:00 73Mb   352 seqs, 352 uniques, 352 singletons (100.0%)
+00:00 73Mb   Min size 1, median 1, max 1, avg 1.00
+00:00 76Mb      0.3% DB00:00 76Mb    100.0% DB
+00:00 76Mb   Sort length... done.
+00:00 116Mb     0.3% Clustering00:00 116Mb     0.3% 0 clusters, max size 0, avg 0.000:00 129Mb   100.0% 231 clusters, max size 10, avg 1.5
+00:00 129Mb     0.4% Writing centroids to refpkgs_ng/create/ribB/intermediates/ribB_GenBankBAV_uniques_clean_uclust0.97.fa00:00 129Mb   100.0% Writing centroids to refpkgs_ng/create/ribB/intermediates/ribB_GenBankBAV_uniques_clean_uclust0.97.fa
+                                                                                                                          
+      Seqs  352
+  Clusters  231
+  Max size  10
+  Avg size  1.5
+  Min size  1
+Singletons  182, 51.7% of seqs, 78.8% of clusters
+   Max mem  129Mb
+      Time  1.00s
+Throughput  352.0 seqs/sec.
+
+
+15/02 17:19:03 DEBUG:
+Reading usearch cluster file... 
+15/02 17:19:03 DEBUG:
+done.
+
+15/02 17:19:03 DEBUG:
+	231 sequence clusters
+
+15/02 17:19:03 DEBUG:
+Finalizing representative sequence clusters... 
+15/02 17:19:03 DEBUG:
+done.
+
+15/02 17:19:03 DEBUG:
+Re-enumerating the reference sequences in taxonomic order... 
+15/02 17:19:03 DEBUG:
+done.
+
+15/02 17:19:03 INFO:
+Detecting outlier reference sequences... 
+15/02 17:19:06 INFO:
+done.
+
+15/02 17:19:06 DEBUG:
+2 outlier sequences detected and discarded.
+	WP_041322074
+	WP_082727382
+
+15/02 17:19:06 DEBUG:
+Re-enumerating the reference sequences in taxonomic order... 
+15/02 17:19:06 DEBUG:
+done.
+
+15/02 17:19:06 INFO:
+Generated the taxonomic lineage map refpkgs_ng/create/ribB/final_outputs/tax_ids_ribB.txt
+
+15/02 17:19:06 INFO:
+Number of unique lineages:
+	Kingdoms   2
+	Phyla      7
+	Classes   20
+	Orders    41
+	Families  67
+	Genera   106
+	Species   24
+Unclassified lineages account for 3/229 (1.3%) references.
+
+15/02 17:19:06 INFO:
+Aligning the sequences using MAFFT... 
+15/02 17:19:09 INFO:
+done.
+
+15/02 17:19:09 DEBUG:
+Reference alignment contains 229 sequences with 859 character positions.
+
+15/02 17:19:09 DEBUG:
+Building HMM profile... 
+15/02 17:19:09 DEBUG:
+done.
+
+15/02 17:19:09 INFO:
+Building phylogenetic tree with FastTree... 
+15/02 17:19:33 INFO:
+done.
+
+15/02 17:19:33 DEBUG:
+FastTree Version 2.1.10 Double precision (No SSE3)
+Alignment: refpkgs_ng/create/ribB/intermediates/ribB.phy
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Le-Gascuel 2008, CAT approximation with 20 rate categories
+      0.11 seconds: Joined    100 of    226
+      0.21 seconds: Joined    200 of    226
+Initial topology in 0.23 seconds
+Refining topology: 31 rounds ME-NNIs, 2 rounds ME-SPRs, 16 rounds ML-NNIs
+      0.45 seconds: SPR round   1 of   2, 101 of 456 nodes
+      0.62 seconds: SPR round   1 of   2, 201 of 456 nodes
+      0.82 seconds: SPR round   1 of   2, 301 of 456 nodes
+      1.00 seconds: SPR round   1 of   2, 401 of 456 nodes
+      1.10 seconds: ME NNI round 12 of 31, 101 of 227 splits, 0 changes
+      1.25 seconds: SPR round   2 of   2, 101 of 456 nodes
+      1.44 seconds: SPR round   2 of   2, 201 of 456 nodes
+      1.63 seconds: SPR round   2 of   2, 301 of 456 nodes
+      1.80 seconds: SPR round   2 of   2, 401 of 456 nodes
+Total branch-length 39.102 after 1.93 sec
+      1.93 seconds: ML Lengths 1 of 227 splits
+      2.47 seconds: ML Lengths 101 of 227 splits
+      3.02 seconds: ML Lengths 201 of 227 splits
+      3.15 seconds: ML NNI round 1 of 16, 1 of 227 splits
+      5.32 seconds: ML NNI round 1 of 16, 101 of 227 splits, 17 changes (max delta 6.647)
+      7.38 seconds: ML NNI round 1 of 16, 201 of 227 splits, 29 changes (max delta 6.647)
+ML-NNI round 1: LogLk = -67786.605 NNIs 31 max delta 6.65 Time 7.89
+      7.95 seconds: Site likelihoods with rate category 1 of 20
+      8.08 seconds: Site likelihoods with rate category 3 of 20
+      8.21 seconds: Site likelihoods with rate category 5 of 20
+      8.34 seconds: Site likelihoods with rate category 7 of 20
+      8.47 seconds: Site likelihoods with rate category 9 of 20
+      8.60 seconds: Site likelihoods with rate category 11 of 20
+      8.73 seconds: Site likelihoods with rate category 13 of 20
+      8.87 seconds: Site likelihoods with rate category 15 of 20
+      9.00 seconds: Site likelihoods with rate category 17 of 20
+      9.14 seconds: Site likelihoods with rate category 19 of 20
+Switched to using 20 rate categories (CAT approximation)
+Rate categories were divided by 1.020 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+Use -gamma for approximate but comparable Gamma(20) log-likelihoods
+      9.34 seconds: ML NNI round 2 of 16, 1 of 227 splits
+     11.75 seconds: ML NNI round 2 of 16, 201 of 227 splits, 16 changes (max delta 7.528)
+ML-NNI round 2: LogLk = -63226.319 NNIs 19 max delta 7.53 Time 12.08
+     12.07 seconds: ML NNI round 3 of 16, 1 of 227 splits
+     13.44 seconds: ML NNI round 3 of 16, 101 of 227 splits, 4 changes (max delta 8.201)
+ML-NNI round 3: LogLk = -63213.259 NNIs 4 max delta 8.20 Time 13.95
+     13.95 seconds: ML NNI round 4 of 16, 1 of 227 splits
+ML-NNI round 4: LogLk = -63213.041 NNIs 2 max delta 0.00 Time 15.15
+Turning off heuristics for final round of ML NNIs (converged)
+     15.15 seconds: ML NNI round 5 of 16, 1 of 227 splits
+     17.42 seconds: ML NNI round 5 of 16, 101 of 227 splits, 3 changes (max delta 1.373)
+     19.39 seconds: ML NNI round 5 of 16, 201 of 227 splits, 7 changes (max delta 6.355)
+ML-NNI round 5: LogLk = -63165.203 NNIs 8 max delta 6.35 Time 19.89 (final)
+     19.88 seconds: ML Lengths 1 of 227 splits
+     20.36 seconds: ML Lengths 101 of 227 splits
+     20.82 seconds: ML Lengths 201 of 227 splits
+Optimize all lengths: LogLk = -63164.545 Time 20.95
+     22.38 seconds: ML split tests for    100 of    226 internal splits
+     23.80 seconds: ML split tests for    200 of    226 internal splits
+Total time: 24.17 seconds Unique: 229/229 Bad splits: 0/226
+
+
+15/02 17:19:33 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+15/02 17:19:33 DEBUG:
+done.
+
+15/02 17:19:33 DEBUG:
+Unable to remove /home/ryan/Projects/Riboflavin/refpkgs_ng/create/ribB/intermediates/phylogeny_files/ribB.raxml.reduced.phy as it doesn't exist.
+
+15/02 17:19:33 DEBUG:
+Lowest reliable rank for taxonomic classification is: Classes
+
+15/02 17:19:33 INFO:
+
+##			Train taxonomic rank-placement distance model			##
+
+15/02 17:19:33 INFO:
+Arguments used:
+-i refpkgs_ng/create/ribB/intermediates/ribB_GenBankBAV_uniques_clean_filtered.fa -c ribB -p refpkgs_ng/create/ribB/final_outputs/ -o refpkgs_ng/create/ribB/intermediates/placement_trainer/ -m prot -a refpkgs_ng/create/ribB/intermediates//accession_id_lineage_map.tsv -n 6
+
+15/02 17:19:33 DEBUG:
+Reading build parameters of reference markers... 
+15/02 17:19:33 DEBUG:
+Multiple 'Z1111' codes in /home/ryan/anaconda3/envs/ts_ng/lib/python3.8/site-packages/treesapp-0.6.6-py3.8-linux-x86_64.egg/treesapp//data/ref_build_parameters.tsv. Previous entry in marker_build_dict being overwritten...
+
+15/02 17:19:33 DEBUG:
+done.
+
+15/02 17:19:33 DEBUG:
+Skipped the following lines:
+	#hzs
+	#hzao
+	#nirA
+	#MtrA
+	#MtrC
+	#MtrH
+	#CO_dh
+	#RBsCO
+	#OGFOxy
+	#CitSyn
+	#GH36
+	#GH31
+	#GH109
+	#GH115
+	#nirK	D0301	prot	PROTGAMMALG	functional	0.97	120	RAxML	-11.3207,6.9484	Orders	07_Dec_2018	nitrite reductase (NO-forming)
+	#RecA	P0001	prot	PROTGAMMALG	taxonomic	0.80	1110	RAxML	-5.4758,6.3838	Classes	12_Dec_2018
+	#McrA	M0701	prot	PROTGAMMALG	functional	0.97	211	FastTree	-4.08046639871,6.03601100802	Classes	04_Dec_2018
+	#McrB	M0702	prot	PROTGAMMALG	functional	0.97	157	FastTree	-4.82025271473,6.52717228329	Classes	04_Dec_2018
+	#McrG	M0705	prot	PROTGAMMALG	functional	0.97	155	FastTree	-5.23147387413,6.5926235222	Genera	04_Dec_2018
+	#napA	D0201	prot	PROTGAMMALG	functional	0.90	332	FastTree	-7.03985324603,6.60314540283	Classes	04_Dec_2018
+	#nifD	N0401	prot	PROTGAMMALG	functional	0.90	402	FastTree	-7.72039669919,6.16543737552	Orders	04_Dec_2018
+	#nifH	N0402	prot	PROTGAMMALG	functional	0.95	301	FastTree	-6.48773434909,6.41218539511	Phyla	04_Dec_2018
+	#nirK	D0301	prot	PROTGAMMALG	functional	0.97	120	FastTree	-11.8842768413,6.77906128214	Orders	04_Dec_2018
+	#nirS	D0302	prot	PROTGAMMALG	functional	0.97	184	FastTree	-5.49173161577,6.23728973299	Classes	04_Dec_2018
+	#norB	D0501	prot	PROTGAMMALG	functional	0.80	329	FastTree	-7.6070183552,6.48567258868	Orders	04_Dec_2018
+	#norC	D0502	prot	PROTGAMMALG	functional	0.90	223	FastTree	-6.61551453189,6.60317398186	Classes	04_Dec_2018
+	#norC	D0502	prot	PROTGAMMALG	functional	0.90	223	RAxML	-5.3221,6.3809	Classes	08_Dec_2018	nitric oxide reductase subunit C
+	#p_amoA	N0102	prot	PROTGAMMALG	functional	0.97	80	FastTree	-2.83232814805,5.67790899421	Families	04_Dec_2018
+	#nosZ	D0601	prot	PROTGAMMALG	functional	0.95	449	FastTree	-6.1988,6.095	Phyla	13_Mar_2019
+	#McrA	M0701	prot	PROTGAMMALG	functional	0.97	228	RAxML	-5.3509,7.0	Classes	29_Apr_2019	Methyl coenzyme M reductase alpha subunit
+
+15/02 17:19:33 DEBUG:
+Read 229 headers from refpkgs_ng/create/ribB/final_outputs/ribB.fa.
+
+15/02 17:19:33 DEBUG:
+Unable to open stage file '' for reading. Defaulting to stage 2.
+
+15/02 17:19:33 DEBUG:
+Continuing with stage 'place'
+
+15/02 17:19:33 DEBUG:
+Read 352 headers from refpkgs_ng/create/ribB/intermediates/ribB_GenBankBAV_uniques_clean_filtered.fa.
+
+15/02 17:19:33 INFO:
+Extracting information from headers... 
+15/02 17:19:33 INFO:
+done.
+
+15/02 17:19:33 DEBUG:
+	Number of input sequences =	352
+
+15/02 17:19:33 INFO:
+Reading cached lineages in 'refpkgs_ng/create/ribB/intermediates//accession_id_lineage_map.tsv'... 
+15/02 17:19:33 INFO:
+done.
+
+15/02 17:19:33 DEBUG:
+Read 352 headers from refpkgs_ng/create/ribB/intermediates/ribB_GenBankBAV_uniques_clean_filtered.fa.
+
+15/02 17:19:33 DEBUG:
+Checking for redundant sequences with duplicate accessions.
+
+15/02 17:19:33 DEBUG:
+Checking for redundant FASTA records with duplicate sequences... 
+15/02 17:19:34 DEBUG:
+0 lineages truncated before Kingdom were removed during lineage trimming.
+0 lineages unclassified at or before Kingdom also removed.
+
+15/02 17:19:34 DEBUG:
+0 lineages truncated before Class were removed during lineage trimming.
+0 lineages unclassified at or before Class also removed.
+
+15/02 17:19:34 DEBUG:
+90.0% of optimal  Class lineages are present in the pruned trees.
+
+15/02 17:19:34 DEBUG:
+204 lineages truncated before Species were removed during lineage trimming.
+3 lineages unclassified at or before Species also removed.
+
+15/02 17:19:34 ERROR:
+No sequences were found in input FASTA that could be used to train Species.
+
+15/02 17:19:34 DEBUG:
+Read 229 headers from refpkgs_ng/create/ribB/final_outputs/ribB.fa.
+
+15/02 17:19:34 INFO:
+
+To integrate this package for use in TreeSAPP the following steps must be performed:
+1. Write a properly formatted reference package 'code' in /home/ryan/anaconda3/envs/ts_ng/lib/python3.8/site-packages/treesapp-0.6.6-py3.8-linux-x86_64.egg/treesapp/data/ref_build_parameters.tsv
+2. $ cp refpkgs_ng/create/ribB/final_outputs/tax_ids_ribB.txt refpkgs_ng/create/ribB/final_outputs/ribB_tree.txt refpkgs_ng/create/ribB/final_outputs/ribB_bestModel.txt /home/ryan/anaconda3/envs/ts_ng/lib/python3.8/site-packages/treesapp-0.6.6-py3.8-linux-x86_64.egg/treesapp/data/tree_data/
+3. $ cp refpkgs_ng/create/ribB/final_outputs/ribB.hmm /home/ryan/anaconda3/envs/ts_ng/lib/python3.8/site-packages/treesapp-0.6.6-py3.8-linux-x86_64.egg/treesapp/data/hmm_data/
+4. $ cp refpkgs_ng/create/ribB/final_outputs/ribB.fa /home/ryan/anaconda3/envs/ts_ng/lib/python3.8/site-packages/treesapp-0.6.6-py3.8-linux-x86_64.egg/treesapp/data/alignment_data/
+
+15/02 17:19:34 INFO:
+Data for ribB has been generated successfully.
+
+15/02 17:19:34 INFO:
+TreeSAPP has finished successfully.
+

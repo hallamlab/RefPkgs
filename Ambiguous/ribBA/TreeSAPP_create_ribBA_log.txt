@@ -1,0 +1,1046 @@
+15/02 17:19:34 INFO:
+
+##			Creating TreeSAPP reference package			##
+
+15/02 17:19:34 INFO:
+Arguments used:
+-b 0 -i refpkgs/marker_genes/ribBA/ribBA_GenBankBAV_uniques.faa -c ribBA -p 0.97 --cluster -o refpkgs_ng/create/ribBA/ -m prot -n 6 --headless --fast
+
+15/02 17:19:34 DEBUG:
+Unable to open stage file '' for reading. Defaulting to stage 1.
+
+15/02 17:19:34 DEBUG:
+Continuing with stage 'lineages'
+
+15/02 17:19:34 DEBUG:
+Read 57 headers from refpkgs/marker_genes/ribBA/ribBA_GenBankBAV_uniques.faa.
+
+15/02 17:19:34 INFO:
+Sequence summary:
+	Number of sequences: 57
+	Longest sequence length: 556
+	Shortest sequence length: 243
+	Mean sequence length: 408.7
+	Median sequence length: 405
+
+15/02 17:19:34 INFO:
+Extracting information from headers... 
+15/02 17:19:34 INFO:
+done.
+
+15/02 17:19:34 DEBUG:
+	Number of input sequences =	57
+
+15/02 17:19:34 DEBUG:
+	Number of queries =	57
+
+15/02 17:19:34 INFO:
+Preparing Bio.Entrez for NCBI queries... 
+15/02 17:19:36 INFO:
+done.
+
+15/02 17:19:36 INFO:
+Retrieving Entrez taxonomy records for each accession... 
+15/02 17:19:56 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 100	0.0:20.39
+
+15/02 17:19:56 INFO:
+done.
+
+15/02 17:19:56 DEBUG:
+22 unique organism queries.
+
+15/02 17:19:56 INFO:
+Retrieving NCBI taxonomy IDs for each organism... 
+15/02 17:20:17 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 1	0.0:0.8
+	1 - 2	0.0:0.66
+	2 - 3	0.0:0.66
+	3 - 4	0.0:1.34
+	4 - 5	0.0:1.54
+	5 - 6	0.0:0.82
+	6 - 7	0.0:0.82
+	7 - 8	0.0:0.75
+	8 - 9	0.0:0.68
+	9 - 10	0.0:0.66
+	10 - 11	0.0:1.08
+	11 - 12	0.0:2.98
+	12 - 13	0.0:0.73
+	13 - 14	0.0:0.66
+	14 - 15	0.0:0.66
+	15 - 16	0.0:0.66
+	16 - 17	0.0:0.66
+	17 - 18	0.0:0.66
+	18 - 19	0.0:1.05
+	19 - 20	0.0:0.66
+	20 - 21	0.0:1.54
+	21 - 22	0.0:0.73
+
+15/02 17:20:17 INFO:
+done.
+
+15/02 17:20:17 INFO:
+Preparing Bio.Entrez for NCBI queries... 
+15/02 17:20:17 INFO:
+done.
+
+15/02 17:20:17 INFO:
+Retrieving lineage information for each taxonomy ID... 
+15/02 17:20:18 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 100	0.0:0.97
+
+15/02 17:20:18 INFO:
+done.
+
+15/02 17:20:18 DEBUG:
+Queries mapped ideally = 26
+Queries with organism unmapped = 0
+Queries with NCBI taxonomy ID unmapped = 31
+Queries mapped with alternative accessions = 0
+Queries that outright failed = 0
+
+15/02 17:20:18 DEBUG:
+Entrez.efetch query stats:
+	Downloaded	57
+	Provided	0
+	Total		57
+
+
+15/02 17:20:18 INFO:
+Clustering sequences with UCLUST... 
+15/02 17:20:18 INFO:
+done.
+
+15/02 17:20:18 DEBUG:
+usearch v11.0.667_i86linux32, 4.0Gb RAM (32.7Gb total), 8 cores
+(C) Copyright 2013-18 Robert C. Edgar, all rights reserved.
+https://drive5.com/usearch
+
+License: mclaughlinr2@alumni.ubc.ca
+
+00:00 37Mb      0.1% Reading refpkgs_ng/create/ribBA/intermediates/ribBA_GenBankBAV_uniques_uclust_input.fasta00:00 41Mb    100.0% Reading refpkgs_ng/create/ribBA/intermediates/ribBA_GenBankBAV_uniques_uclust_input.fasta
+00:00 74Mb     20.0% DF                                                                                       00:00 74Mb    100.0% DF
+00:00 73Mb   57 seqs, 57 uniques, 57 singletons (100.0%)
+00:00 73Mb   Min size 1, median 1, max 1, avg 1.00
+00:00 76Mb      1.8% DB00:00 76Mb    100.0% DB
+00:00 76Mb   Sort length... done.
+00:00 116Mb     1.7% Clustering00:00 116Mb     1.7% 0 clusters, max size 0, avg 0.000:00 127Mb   100.0% 41 clusters, max size 5, avg 1.4
+00:00 127Mb     2.4% Writing centroids to refpkgs_ng/create/ribBA/intermediates/ribBA_GenBankBAV_uniques_uclust0.97.fa00:00 127Mb   100.0% Writing centroids to refpkgs_ng/create/ribBA/intermediates/ribBA_GenBankBAV_uniques_uclust0.97.fa
+                                                                                                                      
+      Seqs  57
+  Clusters  41
+  Max size  5
+  Avg size  1.4
+  Min size  1
+Singletons  33, 57.9% of seqs, 80.5% of clusters
+   Max mem  127Mb
+      Time  1.00s
+Throughput  57.0 seqs/sec.
+
+
+15/02 17:20:18 DEBUG:
+Reading usearch cluster file... 
+15/02 17:20:18 DEBUG:
+done.
+
+15/02 17:20:18 DEBUG:
+	41 sequence clusters
+
+15/02 17:20:18 DEBUG:
+Finalizing representative sequence clusters... 
+15/02 17:20:18 DEBUG:
+done.
+
+15/02 17:20:18 DEBUG:
+Re-enumerating the reference sequences in taxonomic order... 
+15/02 17:20:18 DEBUG:
+done.
+
+15/02 17:20:18 INFO:
+Detecting outlier reference sequences... 
+15/02 17:20:19 INFO:
+done.
+
+15/02 17:20:19 DEBUG:
+1 outlier sequences detected and discarded.
+	YP_003771184
+
+15/02 17:20:19 DEBUG:
+Re-enumerating the reference sequences in taxonomic order... 
+15/02 17:20:19 DEBUG:
+done.
+
+15/02 17:20:19 INFO:
+Generated the taxonomic lineage map refpkgs_ng/create/ribBA/final_outputs/tax_ids_ribBA.txt
+
+15/02 17:20:19 INFO:
+Number of unique lineages:
+	Kingdoms   1
+	Phyla      9
+	Classes   13
+	Orders    20
+	Families  21
+	Genera    21
+	Species   23
+Unclassified lineages account for 0/40 (0.0%) references.
+
+15/02 17:20:19 INFO:
+Aligning the sequences using MAFFT... 
+15/02 17:20:20 INFO:
+done.
+
+15/02 17:20:20 DEBUG:
+Reference alignment contains 40 sequences with 597 character positions.
+
+15/02 17:20:20 DEBUG:
+Building HMM profile... 
+15/02 17:20:20 DEBUG:
+done.
+
+15/02 17:20:20 INFO:
+Building phylogenetic tree with FastTree... 
+15/02 17:20:23 INFO:
+done.
+
+15/02 17:20:23 DEBUG:
+FastTree Version 2.1.10 Double precision (No SSE3)
+Alignment: refpkgs_ng/create/ribBA/intermediates/ribBA.phy
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Le-Gascuel 2008, CAT approximation with 20 rate categories
+Initial topology in 0.02 seconds
+Refining topology: 21 rounds ME-NNIs, 2 rounds ME-SPRs, 11 rounds ML-NNIs
+      0.10 seconds: SPR round   2 of   2, 1 of 78 nodes
+Total branch-length 7.470 after 0.18 sec
+      0.31 seconds: ML NNI round 1 of 11, 1 of 38 splits
+ML-NNI round 1: LogLk = -18608.492 NNIs 5 max delta 5.17 Time 0.74
+      0.75 seconds: Site likelihoods with rate category 1 of 20
+      0.86 seconds: Site likelihoods with rate category 12 of 20
+Switched to using 20 rate categories (CAT approximation)
+Rate categories were divided by 0.918 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+Use -gamma for approximate but comparable Gamma(20) log-likelihoods
+ML-NNI round 2: LogLk = -17109.127 NNIs 1 max delta 1.33 Time 1.16
+      1.16 seconds: ML NNI round 3 of 11, 1 of 38 splits
+ML-NNI round 3: LogLk = -17108.743 NNIs 0 max delta 0.00 Time 1.33
+Turning off heuristics for final round of ML NNIs (converged)
+      1.32 seconds: ML NNI round 4 of 11, 1 of 38 splits
+ML-NNI round 4: LogLk = -17099.592 NNIs 0 max delta 0.00 Time 1.83 (final)
+      1.83 seconds: ML Lengths 1 of 38 splits
+Optimize all lengths: LogLk = -17099.555 Time 1.96
+Total time: 2.34 seconds Unique: 40/40 Bad splits: 0/37
+
+
+15/02 17:20:23 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+15/02 17:20:23 DEBUG:
+done.
+
+15/02 17:20:23 DEBUG:
+Unable to remove /home/ryan/Projects/Riboflavin/refpkgs_ng/create/ribBA/intermediates/phylogeny_files/ribBA.raxml.reduced.phy as it doesn't exist.
+
+15/02 17:20:23 DEBUG:
+Lowest reliable rank for taxonomic classification is: Phyla
+
+15/02 17:20:23 INFO:
+
+##			Train taxonomic rank-placement distance model			##
+
+15/02 17:20:23 INFO:
+Arguments used:
+-i refpkgs_ng/create/ribBA/intermediates/ribBA_GenBankBAV_uniques_filtered.fa -c ribBA -p refpkgs_ng/create/ribBA/final_outputs/ -o refpkgs_ng/create/ribBA/intermediates/placement_trainer/ -m prot -a refpkgs_ng/create/ribBA/intermediates//accession_id_lineage_map.tsv -n 6
+
+15/02 17:20:23 DEBUG:
+Reading build parameters of reference markers... 
+15/02 17:20:23 DEBUG:
+Multiple 'Z1111' codes in /home/ryan/anaconda3/envs/ts_ng/lib/python3.8/site-packages/treesapp-0.6.6-py3.8-linux-x86_64.egg/treesapp//data/ref_build_parameters.tsv. Previous entry in marker_build_dict being overwritten...
+
+15/02 17:20:23 DEBUG:
+Multiple 'Z1111' codes in /home/ryan/anaconda3/envs/ts_ng/lib/python3.8/site-packages/treesapp-0.6.6-py3.8-linux-x86_64.egg/treesapp//data/ref_build_parameters.tsv. Previous entry in marker_build_dict being overwritten...
+
+15/02 17:20:23 DEBUG:
+done.
+
+15/02 17:20:23 DEBUG:
+Skipped the following lines:
+	#hzs
+	#hzao
+	#nirA
+	#MtrA
+	#MtrC
+	#MtrH
+	#CO_dh
+	#RBsCO
+	#OGFOxy
+	#CitSyn
+	#GH36
+	#GH31
+	#GH109
+	#GH115
+	#nirK	D0301	prot	PROTGAMMALG	functional	0.97	120	RAxML	-11.3207,6.9484	Orders	07_Dec_2018	nitrite reductase (NO-forming)
+	#RecA	P0001	prot	PROTGAMMALG	taxonomic	0.80	1110	RAxML	-5.4758,6.3838	Classes	12_Dec_2018
+	#McrA	M0701	prot	PROTGAMMALG	functional	0.97	211	FastTree	-4.08046639871,6.03601100802	Classes	04_Dec_2018
+	#McrB	M0702	prot	PROTGAMMALG	functional	0.97	157	FastTree	-4.82025271473,6.52717228329	Classes	04_Dec_2018
+	#McrG	M0705	prot	PROTGAMMALG	functional	0.97	155	FastTree	-5.23147387413,6.5926235222	Genera	04_Dec_2018
+	#napA	D0201	prot	PROTGAMMALG	functional	0.90	332	FastTree	-7.03985324603,6.60314540283	Classes	04_Dec_2018
+	#nifD	N0401	prot	PROTGAMMALG	functional	0.90	402	FastTree	-7.72039669919,6.16543737552	Orders	04_Dec_2018
+	#nifH	N0402	prot	PROTGAMMALG	functional	0.95	301	FastTree	-6.48773434909,6.41218539511	Phyla	04_Dec_2018
+	#nirK	D0301	prot	PROTGAMMALG	functional	0.97	120	FastTree	-11.8842768413,6.77906128214	Orders	04_Dec_2018
+	#nirS	D0302	prot	PROTGAMMALG	functional	0.97	184	FastTree	-5.49173161577,6.23728973299	Classes	04_Dec_2018
+	#norB	D0501	prot	PROTGAMMALG	functional	0.80	329	FastTree	-7.6070183552,6.48567258868	Orders	04_Dec_2018
+	#norC	D0502	prot	PROTGAMMALG	functional	0.90	223	FastTree	-6.61551453189,6.60317398186	Classes	04_Dec_2018
+	#norC	D0502	prot	PROTGAMMALG	functional	0.90	223	RAxML	-5.3221,6.3809	Classes	08_Dec_2018	nitric oxide reductase subunit C
+	#p_amoA	N0102	prot	PROTGAMMALG	functional	0.97	80	FastTree	-2.83232814805,5.67790899421	Families	04_Dec_2018
+	#nosZ	D0601	prot	PROTGAMMALG	functional	0.95	449	FastTree	-6.1988,6.095	Phyla	13_Mar_2019
+	#McrA	M0701	prot	PROTGAMMALG	functional	0.97	228	RAxML	-5.3509,7.0	Classes	29_Apr_2019	Methyl coenzyme M reductase alpha subunit
+
+15/02 17:20:23 DEBUG:
+Read 40 headers from refpkgs_ng/create/ribBA/final_outputs/ribBA.fa.
+
+15/02 17:20:23 DEBUG:
+Unable to open stage file '' for reading. Defaulting to stage 2.
+
+15/02 17:20:23 DEBUG:
+Continuing with stage 'place'
+
+15/02 17:20:23 DEBUG:
+Read 57 headers from refpkgs_ng/create/ribBA/intermediates/ribBA_GenBankBAV_uniques_filtered.fa.
+
+15/02 17:20:23 INFO:
+Extracting information from headers... 
+15/02 17:20:23 INFO:
+done.
+
+15/02 17:20:23 DEBUG:
+	Number of input sequences =	57
+
+15/02 17:20:23 INFO:
+Reading cached lineages in 'refpkgs_ng/create/ribBA/intermediates//accession_id_lineage_map.tsv'... 
+15/02 17:20:23 INFO:
+done.
+
+15/02 17:20:23 DEBUG:
+Read 57 headers from refpkgs_ng/create/ribBA/intermediates/ribBA_GenBankBAV_uniques_filtered.fa.
+
+15/02 17:20:23 DEBUG:
+Checking for redundant sequences with duplicate accessions.
+
+15/02 17:20:23 DEBUG:
+Checking for redundant FASTA records with duplicate sequences... 
+15/02 17:20:23 DEBUG:
+0 lineages truncated before Kingdom were removed during lineage trimming.
+0 lineages unclassified at or before Kingdom also removed.
+
+15/02 17:20:23 DEBUG:
+0 lineages truncated before Class were removed during lineage trimming.
+1 lineages unclassified at or before Class also removed.
+
+15/02 17:20:23 DEBUG:
+66.7% of optimal  Class lineages are present in the pruned trees.
+
+15/02 17:20:23 DEBUG:
+17 lineages truncated before Species were removed during lineage trimming.
+0 lineages unclassified at or before Species also removed.
+
+15/02 17:20:23 DEBUG:
+39.1% of optimal  Species lineages are present in the pruned trees.
+
+15/02 17:20:23 DEBUG:
+Optimal placement target was not found in the pruned tree for following taxa:
+	Bacteria; Chlamydiae
+	Bacteria; Chlorobi
+	Bacteria; Cyanobacteria
+	Bacteria; Deinococcus-Thermus
+	Bacteria; Actinobacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae; Mycobacteroides
+	Bacteria; Actinobacteria; Actinobacteria; Micrococcales; Dermabacteraceae; Brachybacterium
+	Bacteria; Actinobacteria; Actinobacteria; Pseudonocardiales; Pseudonocardiaceae; Amycolatopsis
+	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Porphyromonadaceae; Porphyromonas
+	Bacteria; Bacteroidetes; Cytophagia; Cytophagales; Cytophagaceae; Cytophaga
+	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobium
+	Bacteria; Deinococcus-Thermus; Deinococci; Deinococcales; Deinococcaceae; Deinococcus
+	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus
+	Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium
+	Bacteria; Proteobacteria; Alphaproteobacteria; Caulobacterales; Caulobacteraceae; Caulobacter
+	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Ketogulonicigenium
+	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella
+	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Actinobacillus
+
+15/02 17:20:23 DEBUG:
+Sequences available for training Class-level placement distances:
+	14	Bacteria; Actinobacteria; Actinobacteria
+	6	Bacteria; Actinobacteria; Corynebacteriales
+	5	Bacteria; Bacteroidetes; Bacteroidia
+	1	Bacteria; Bacteroidetes; Cytophagia
+	0	Bacteria; Chlamydiae; Chlamydiia
+	0	Bacteria; Chlorobi; Chlorobia
+	0	Bacteria; Cyanobacteria; Synechococcales
+	0	Bacteria; Deinococcus-Thermus; Deinococci
+	11	Bacteria; Firmicutes; Bacilli
+	1	Bacteria; Firmicutes; Clostridia
+	2	Bacteria; Proteobacteria; Alphaproteobacteria
+	5	Bacteria; Proteobacteria; Gammaproteobacteria
+8/12 Class have training sequences.
+Sequences available for training Species-level placement distances:
+	2	Bacteria; Actinobacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae; Mycobacterium; Mycobacterium marinum
+	1	Bacteria; Actinobacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae; Mycobacterium; Mycobacterium tuberculosis
+	0	Bacteria; Actinobacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae; Mycobacteroides; Mycobacteroides abscessus
+	0	Bacteria; Actinobacteria; Actinobacteria; Micrococcales; Dermabacteraceae; Brachybacterium; Brachybacterium faecium
+	1	Bacteria; Actinobacteria; Actinobacteria; Micromonosporales; Micromonosporaceae; Salinispora; Salinispora arenicola
+	1	Bacteria; Actinobacteria; Actinobacteria; Micromonosporales; Micromonosporaceae; Salinispora; Salinispora tropica
+	0	Bacteria; Actinobacteria; Actinobacteria; Pseudonocardiales; Pseudonocardiaceae; Amycolatopsis; Amycolatopsis mediterranei
+	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Porphyromonadaceae; Porphyromonas; Porphyromonas gingivalis
+	0	Bacteria; Bacteroidetes; Cytophagia; Cytophagales; Cytophagaceae; Cytophaga; Cytophaga hutchinsonii
+	1	Bacteria; Chlamydiae; Chlamydiia; Chlamydiales; Chlamydiaceae; Chlamydia; Chlamydia muridarum
+	2	Bacteria; Chlamydiae; Chlamydiia; Chlamydiales; Chlamydiaceae; Chlamydia; Chlamydia pneumoniae
+	1	Bacteria; Chlamydiae; Chlamydiia; Chlamydiales; Chlamydiaceae; Chlamydia; Chlamydia trachomatis
+	0	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobium; Chlorobium phaeovibrioides
+	1	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Pelodictyon; Pelodictyon luteolum
+	1	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Pelodictyon; Pelodictyon phaeoclathratiforme
+	0	Bacteria; Deinococcus-Thermus; Deinococci; Deinococcales; Deinococcaceae; Deinococcus; Deinococcus radiodurans
+	0	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus; Thermus thermophilus
+	0	Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus subtilis
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium novyi
+	0	Bacteria; Proteobacteria; Alphaproteobacteria; Caulobacterales; Caulobacteraceae; Caulobacter; Caulobacter vibrioides
+	0	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Ketogulonicigenium; Ketogulonicigenium vulgare
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Alteromonadales; Shewanellaceae; Shewanella; Shewanella oneidensis
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Actinobacillus; Actinobacillus pleuropneumoniae
+9/23 Species have training sequences.
+
+15/02 17:20:23 INFO:
+Clustering sequences with UCLUST... 
+15/02 17:20:23 INFO:
+done.
+
+15/02 17:20:23 DEBUG:
+usearch v11.0.667_i86linux32, 4.0Gb RAM (32.7Gb total), 8 cores
+(C) Copyright 2013-18 Robert C. Edgar, all rights reserved.
+https://drive5.com/usearch
+
+License: mclaughlinr2@alumni.ubc.ca
+
+00:00 37Mb      0.1% Reading refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates//uclust_input.fasta00:00 41Mb    100.0% Reading refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates//uclust_input.fasta
+00:00 70Mb     20.0% DF                                                                                               00:00 73Mb    100.0% DF
+00:00 73Mb   57 seqs, 57 uniques, 57 singletons (100.0%)
+00:00 73Mb   Min size 1, median 1, max 1, avg 1.00
+00:00 76Mb      1.8% DB00:00 76Mb    100.0% DB
+00:00 76Mb   Sort length... done.
+00:00 116Mb     1.7% Clustering00:00 116Mb     1.7% 0 clusters, max size 0, avg 0.000:00 127Mb   100.0% 43 clusters, max size 5, avg 1.3
+00:00 127Mb     2.3% Writing centroids to refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates//uclust0.99.fa00:00 127Mb   100.0% Writing centroids to refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates//uclust0.99.fa
+                                                                                                                              
+      Seqs  57
+  Clusters  43
+  Max size  5
+  Avg size  1.3
+  Min size  1
+Singletons  36, 63.2% of seqs, 83.7% of clusters
+   Max mem  127Mb
+      Time  1.00s
+Throughput  57.0 seqs/sec.
+
+
+15/02 17:20:23 DEBUG:
+Reading usearch cluster file... 
+15/02 17:20:23 DEBUG:
+done.
+
+15/02 17:20:23 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	WP_039708996.1 riboflavin biosynthesis protein RibBA [Actinobacillus pleuropneumoniae]
+	WP_038579446.1 riboflavin biosynthesis protein RibBA [Mycobacterium marinum]
+	WP_002456445.1 MULTISPECIES: riboflavin biosynthesis protein RibBA [Staphylococcus]
+	WP_001159022.1 MULTISPECIES: riboflavin biosynthesis protein RibBA [Staphylococcus]
+	WP_005596392.1 riboflavin biosynthesis protein RibBA [Actinobacillus pleuropneumoniae]
+	WP_005603681.1 riboflavin biosynthesis protein RibBA [Actinobacillus pleuropneumoniae]
+	WP_011725426.1 riboflavin biosynthesis protein RibBA [Mycobacterium avium]
+	WP_015890624.1 riboflavin biosynthesis protein RibBA [Rhodococcus opacus]
+	WP_001159035.1 MULTISPECIES: riboflavin biosynthesis protein RibBA [Staphylococcus]
+	WP_001159037.1 MULTISPECIES: riboflavin biosynthesis protein RibBA [Staphylococcus]
+	WP_014518214.1 riboflavin biosynthesis protein RibBA [Chlamydia pneumoniae]
+	WP_001159032.1 MULTISPECIES: riboflavin biosynthesis protein RibBA [Staphylococcus]
+	WP_002502922.1 MULTISPECIES: riboflavin biosynthesis protein RibBA [Staphylococcus]
+	WP_003877629.1 riboflavin biosynthesis protein RibBA [Mycobacterium avium]
+
+15/02 17:20:23 DEBUG:
+	43 sequence clusters
+
+15/02 17:20:23 INFO:
+Preparing deduplicated sequence set for training... 
+15/02 17:20:23 DEBUG:
+0 lineages truncated before Class were removed during lineage trimming.
+1 lineages unclassified at or before Class also removed.
+
+15/02 17:20:23 DEBUG:
+17 lineages truncated before Species were removed during lineage trimming.
+0 lineages unclassified at or before Species also removed.
+
+15/02 17:20:23 INFO:
+done.
+
+15/02 17:20:23 INFO:
+
+Estimating branch-length placement distances for taxonomic ranks. Progress:
+
+15/02 17:20:23 DEBUG:
+32 sequences to train Class-level placement distances
+
+15/02 17:20:23 DEBUG:
+9 sequences to train Species-level placement distances
+
+15/02 17:20:23 WARNING:
+Only 41 sequences for training placement distance model.
+
+15/02 17:20:23 DEBUG:
+17 lineages truncated before Species were removed during lineage trimming.
+0 lineages unclassified at or before Species also removed.
+
+15/02 17:20:23 DEBUG:
+Testing placements for Bacteria; Actinobacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae; Mycobacterium; Mycobacterium marinum:
+
+15/02 17:20:23 DEBUG:
+	1 query sequences.
+
+15/02 17:20:23 DEBUG:
+	18 sequences pruned from tree.
+
+15/02 17:20:23 DEBUG:
+	22 leaves in pruned tree.
+
+15/02 17:20:23 DEBUG:
+Building HMM profile... 
+15/02 17:20:23 DEBUG:
+done.
+
+15/02 17:20:23 DEBUG:
+
+
+15/02 17:20:23 DEBUG:
+Columns = 394
+
+15/02 17:20:23 DEBUG:
+Number of sequences discarded: 
+		refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+15/02 17:20:23 DEBUG:
+Read 23 headers from refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+15/02 17:20:23 DEBUG:
+Testing placements for Bacteria; Actinobacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae; Mycobacterium; Mycobacterium tuberculosis:
+
+15/02 17:20:23 DEBUG:
+	1 query sequences.
+
+15/02 17:20:23 DEBUG:
+	18 sequences pruned from tree.
+
+15/02 17:20:23 DEBUG:
+	22 leaves in pruned tree.
+
+15/02 17:20:23 DEBUG:
+Building HMM profile... 
+15/02 17:20:24 DEBUG:
+done.
+
+15/02 17:20:24 DEBUG:
+
+
+15/02 17:20:24 DEBUG:
+Columns = 394
+
+15/02 17:20:24 DEBUG:
+Number of sequences discarded: 
+		refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+15/02 17:20:24 DEBUG:
+Read 23 headers from refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+15/02 17:20:24 DEBUG:
+Testing placements for Bacteria; Actinobacteria; Actinobacteria; Micromonosporales; Micromonosporaceae; Salinispora; Salinispora arenicola:
+
+15/02 17:20:24 DEBUG:
+	1 query sequences.
+
+15/02 17:20:24 DEBUG:
+	18 sequences pruned from tree.
+
+15/02 17:20:24 DEBUG:
+	22 leaves in pruned tree.
+
+15/02 17:20:24 DEBUG:
+Building HMM profile... 
+15/02 17:20:24 DEBUG:
+done.
+
+15/02 17:20:24 DEBUG:
+
+
+15/02 17:20:24 DEBUG:
+Columns = 394
+
+15/02 17:20:24 DEBUG:
+Number of sequences discarded: 
+		refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+15/02 17:20:24 DEBUG:
+Read 23 headers from refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+15/02 17:20:24 DEBUG:
+Testing placements for Bacteria; Actinobacteria; Actinobacteria; Micromonosporales; Micromonosporaceae; Salinispora; Salinispora tropica:
+
+15/02 17:20:24 DEBUG:
+	1 query sequences.
+
+15/02 17:20:24 DEBUG:
+	18 sequences pruned from tree.
+
+15/02 17:20:24 DEBUG:
+	22 leaves in pruned tree.
+
+15/02 17:20:24 DEBUG:
+Building HMM profile... 
+15/02 17:20:25 DEBUG:
+done.
+
+15/02 17:20:25 DEBUG:
+
+
+15/02 17:20:25 DEBUG:
+Columns = 394
+
+15/02 17:20:25 DEBUG:
+Number of sequences discarded: 
+		refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+15/02 17:20:25 DEBUG:
+Read 23 headers from refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+15/02 17:20:25 DEBUG:
+Testing placements for Bacteria; Chlamydiae; Chlamydiia; Chlamydiales; Chlamydiaceae; Chlamydia; Chlamydia muridarum:
+
+15/02 17:20:25 DEBUG:
+	1 query sequences.
+
+15/02 17:20:25 DEBUG:
+	18 sequences pruned from tree.
+
+15/02 17:20:25 DEBUG:
+	22 leaves in pruned tree.
+
+15/02 17:20:25 DEBUG:
+Building HMM profile... 
+15/02 17:20:25 DEBUG:
+done.
+
+15/02 17:20:26 DEBUG:
+
+
+15/02 17:20:26 DEBUG:
+Columns = 394
+
+15/02 17:20:26 DEBUG:
+Number of sequences discarded: 
+		refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+15/02 17:20:26 DEBUG:
+Read 23 headers from refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+15/02 17:20:26 DEBUG:
+Testing placements for Bacteria; Chlamydiae; Chlamydiia; Chlamydiales; Chlamydiaceae; Chlamydia; Chlamydia pneumoniae:
+
+15/02 17:20:26 DEBUG:
+	1 query sequences.
+
+15/02 17:20:26 DEBUG:
+	18 sequences pruned from tree.
+
+15/02 17:20:26 DEBUG:
+	22 leaves in pruned tree.
+
+15/02 17:20:26 DEBUG:
+Building HMM profile... 
+15/02 17:20:26 DEBUG:
+done.
+
+15/02 17:20:26 DEBUG:
+
+
+15/02 17:20:26 DEBUG:
+Columns = 394
+
+15/02 17:20:26 DEBUG:
+Number of sequences discarded: 
+		refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+15/02 17:20:26 DEBUG:
+Read 23 headers from refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+15/02 17:20:26 DEBUG:
+Testing placements for Bacteria; Chlamydiae; Chlamydiia; Chlamydiales; Chlamydiaceae; Chlamydia; Chlamydia trachomatis:
+
+15/02 17:20:26 DEBUG:
+	1 query sequences.
+
+15/02 17:20:26 DEBUG:
+	18 sequences pruned from tree.
+
+15/02 17:20:26 DEBUG:
+	22 leaves in pruned tree.
+
+15/02 17:20:26 DEBUG:
+Building HMM profile... 
+15/02 17:20:27 DEBUG:
+done.
+
+15/02 17:20:27 DEBUG:
+
+
+15/02 17:20:27 DEBUG:
+Columns = 394
+
+15/02 17:20:27 DEBUG:
+Number of sequences discarded: 
+		refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+15/02 17:20:27 DEBUG:
+Read 23 headers from refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+15/02 17:20:27 DEBUG:
+Testing placements for Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Pelodictyon; Pelodictyon luteolum:
+
+15/02 17:20:27 DEBUG:
+	1 query sequences.
+
+15/02 17:20:27 DEBUG:
+	18 sequences pruned from tree.
+
+15/02 17:20:27 DEBUG:
+	22 leaves in pruned tree.
+
+15/02 17:20:27 DEBUG:
+Building HMM profile... 
+15/02 17:20:27 DEBUG:
+done.
+
+15/02 17:20:27 DEBUG:
+
+
+15/02 17:20:27 DEBUG:
+Columns = 394
+
+15/02 17:20:27 DEBUG:
+Number of sequences discarded: 
+		refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+15/02 17:20:27 DEBUG:
+Read 23 headers from refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+15/02 17:20:27 DEBUG:
+Testing placements for Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Pelodictyon; Pelodictyon phaeoclathratiforme:
+
+15/02 17:20:27 DEBUG:
+	1 query sequences.
+
+15/02 17:20:27 DEBUG:
+	18 sequences pruned from tree.
+
+15/02 17:20:27 DEBUG:
+	22 leaves in pruned tree.
+
+15/02 17:20:27 DEBUG:
+Building HMM profile... 
+15/02 17:20:28 DEBUG:
+done.
+
+15/02 17:20:28 DEBUG:
+
+
+15/02 17:20:28 DEBUG:
+Columns = 394
+
+15/02 17:20:28 DEBUG:
+Number of sequences discarded: 
+		refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+15/02 17:20:28 DEBUG:
+Read 23 headers from refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+15/02 17:20:28 DEBUG:
+RANK: Species
+	Samples = 9
+	Median = 0.1321
+	Mean = 0.1528
+
+15/02 17:20:28 DEBUG:
+0 lineages truncated before Class were removed during lineage trimming.
+1 lineages unclassified at or before Class also removed.
+
+15/02 17:20:28 DEBUG:
+Testing placements for Bacteria; Actinobacteria; Actinobacteria:
+
+15/02 17:20:28 DEBUG:
+	10 query sequences.
+
+15/02 17:20:28 DEBUG:
+	9 sequences pruned from tree.
+
+15/02 17:20:28 DEBUG:
+	31 leaves in pruned tree.
+
+15/02 17:20:28 DEBUG:
+Building HMM profile... 
+15/02 17:20:28 DEBUG:
+done.
+
+15/02 17:20:28 DEBUG:
+
+
+15/02 17:20:29 DEBUG:
+Columns = 394
+
+15/02 17:20:29 DEBUG:
+Number of sequences discarded: 
+		refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+15/02 17:20:29 DEBUG:
+Read 41 headers from refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+15/02 17:20:29 DEBUG:
+Testing placements for Bacteria; Actinobacteria; Corynebacteriales:
+
+15/02 17:20:29 DEBUG:
+	6 query sequences.
+
+15/02 17:20:29 DEBUG:
+	6 sequences pruned from tree.
+
+15/02 17:20:29 DEBUG:
+	34 leaves in pruned tree.
+
+15/02 17:20:29 DEBUG:
+Building HMM profile... 
+15/02 17:20:29 DEBUG:
+done.
+
+15/02 17:20:29 DEBUG:
+
+
+15/02 17:20:30 DEBUG:
+Columns = 392
+
+15/02 17:20:30 DEBUG:
+Number of sequences discarded: 
+		refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+15/02 17:20:30 DEBUG:
+Read 40 headers from refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+15/02 17:20:30 DEBUG:
+Testing placements for Bacteria; Bacteroidetes; Bacteroidia:
+
+15/02 17:20:30 DEBUG:
+	5 query sequences.
+
+15/02 17:20:30 DEBUG:
+	6 sequences pruned from tree.
+
+15/02 17:20:30 DEBUG:
+	34 leaves in pruned tree.
+
+15/02 17:20:30 DEBUG:
+Building HMM profile... 
+15/02 17:20:30 DEBUG:
+done.
+
+15/02 17:20:30 DEBUG:
+
+
+15/02 17:20:30 DEBUG:
+Columns = 393
+
+15/02 17:20:30 DEBUG:
+Number of sequences discarded: 
+		refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+15/02 17:20:30 DEBUG:
+Read 39 headers from refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+15/02 17:20:30 DEBUG:
+Testing placements for Bacteria; Bacteroidetes; Cytophagia:
+
+15/02 17:20:30 DEBUG:
+	1 query sequences.
+
+15/02 17:20:30 DEBUG:
+	2 sequences pruned from tree.
+
+15/02 17:20:30 DEBUG:
+	38 leaves in pruned tree.
+
+15/02 17:20:30 DEBUG:
+Building HMM profile... 
+15/02 17:20:31 DEBUG:
+done.
+
+15/02 17:20:31 DEBUG:
+
+
+15/02 17:20:31 DEBUG:
+Columns = 394
+
+15/02 17:20:31 DEBUG:
+Number of sequences discarded: 
+		refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+15/02 17:20:31 DEBUG:
+Read 39 headers from refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+15/02 17:20:31 DEBUG:
+Testing placements for Bacteria; Firmicutes; Bacilli:
+
+15/02 17:20:31 DEBUG:
+	5 query sequences.
+
+15/02 17:20:31 DEBUG:
+	6 sequences pruned from tree.
+
+15/02 17:20:31 DEBUG:
+	34 leaves in pruned tree.
+
+15/02 17:20:31 DEBUG:
+Building HMM profile... 
+15/02 17:20:31 DEBUG:
+done.
+
+15/02 17:20:31 DEBUG:
+
+
+15/02 17:20:32 DEBUG:
+Columns = 393
+
+15/02 17:20:32 DEBUG:
+Number of sequences discarded: 
+		refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+15/02 17:20:32 DEBUG:
+Read 39 headers from refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+15/02 17:20:32 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia:
+
+15/02 17:20:32 DEBUG:
+	1 query sequences.
+
+15/02 17:20:32 DEBUG:
+	2 sequences pruned from tree.
+
+15/02 17:20:32 DEBUG:
+	38 leaves in pruned tree.
+
+15/02 17:20:32 DEBUG:
+Building HMM profile... 
+15/02 17:20:32 DEBUG:
+done.
+
+15/02 17:20:32 DEBUG:
+
+
+15/02 17:20:32 DEBUG:
+Columns = 394
+
+15/02 17:20:32 DEBUG:
+Number of sequences discarded: 
+		refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+15/02 17:20:32 DEBUG:
+Read 39 headers from refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+15/02 17:20:32 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Alphaproteobacteria:
+
+15/02 17:20:32 DEBUG:
+	2 query sequences.
+
+15/02 17:20:32 DEBUG:
+	3 sequences pruned from tree.
+
+15/02 17:20:32 DEBUG:
+	37 leaves in pruned tree.
+
+15/02 17:20:32 DEBUG:
+Building HMM profile... 
+15/02 17:20:33 DEBUG:
+done.
+
+15/02 17:20:33 DEBUG:
+
+
+15/02 17:20:33 DEBUG:
+Columns = 393
+
+15/02 17:20:33 DEBUG:
+Number of sequences discarded: 
+		refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+15/02 17:20:33 DEBUG:
+Read 39 headers from refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+15/02 17:20:33 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria:
+
+15/02 17:20:33 DEBUG:
+	2 query sequences.
+
+15/02 17:20:33 DEBUG:
+	3 sequences pruned from tree.
+
+15/02 17:20:33 DEBUG:
+	37 leaves in pruned tree.
+
+15/02 17:20:33 DEBUG:
+Building HMM profile... 
+15/02 17:20:33 DEBUG:
+done.
+
+15/02 17:20:33 DEBUG:
+
+
+15/02 17:20:33 DEBUG:
+Columns = 393
+
+15/02 17:20:33 DEBUG:
+Number of sequences discarded: 
+		refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+15/02 17:20:33 DEBUG:
+Read 39 headers from refpkgs_ng/create/ribBA/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+15/02 17:20:34 DEBUG:
+RANK: Class
+	Samples = 32
+	Median = 0.5069
+	Mean = 0.5155
+
+15/02 17:20:34 INFO:
+Placement distance regression model complete.
+
+15/02 17:20:34 DEBUG:
+Read 40 headers from refpkgs_ng/create/ribBA/final_outputs/ribBA.fa.
+
+15/02 17:20:34 INFO:
+
+To integrate this package for use in TreeSAPP the following steps must be performed:
+1. Write a properly formatted reference package 'code' in /home/ryan/anaconda3/envs/ts_ng/lib/python3.8/site-packages/treesapp-0.6.6-py3.8-linux-x86_64.egg/treesapp/data/ref_build_parameters.tsv
+2. $ cp refpkgs_ng/create/ribBA/final_outputs/tax_ids_ribBA.txt refpkgs_ng/create/ribBA/final_outputs/ribBA_tree.txt refpkgs_ng/create/ribBA/final_outputs/ribBA_bestModel.txt /home/ryan/anaconda3/envs/ts_ng/lib/python3.8/site-packages/treesapp-0.6.6-py3.8-linux-x86_64.egg/treesapp/data/tree_data/
+3. $ cp refpkgs_ng/create/ribBA/final_outputs/ribBA.hmm /home/ryan/anaconda3/envs/ts_ng/lib/python3.8/site-packages/treesapp-0.6.6-py3.8-linux-x86_64.egg/treesapp/data/hmm_data/
+4. $ cp refpkgs_ng/create/ribBA/final_outputs/ribBA.fa /home/ryan/anaconda3/envs/ts_ng/lib/python3.8/site-packages/treesapp-0.6.6-py3.8-linux-x86_64.egg/treesapp/data/alignment_data/
+
+15/02 17:20:34 INFO:
+Data for ribBA has been generated successfully.
+
+15/02 17:20:34 INFO:
+TreeSAPP has finished successfully.
+

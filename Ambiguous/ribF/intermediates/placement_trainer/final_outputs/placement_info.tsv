@@ -1,0 +1,401 @@
+#Marker	Rank	Lineage	Query.Name	Internal.Node	Placement.LWR	Tree.Likelihood	Dist.Distal	Dist.Pendant	Dist.MeanTip	Dist.Total
+ribF	Species	Bacteria; Acidobacteria; Acidobacteriia; Acidobacteriales; Acidobacteriaceae; Terriglobus; Terriglobus roseus	WP_014787252	392	1.0	-44132.3584759648	0.169231	0.105361	0.0	0.27459
+ribF	Species	Bacteria; Acidobacteria; Acidobacteriia; Acidobacteriales; Acidobacteriaceae; Terriglobus; Terriglobus saanensis	WP_013567272	392	1.0	-44129.4324659785	0.205939	0.085382	0.0	0.29132
+ribF	Species	Bacteria; Actinobacteria; Coriobacteriia; Eggerthellales; Eggerthellaceae; Gordonibacter; Gordonibacter massiliensis	WP_080143232	416	1.0	-44131.5142015363	0.034573	0.030548	0.0	0.06512
+ribF	Species	Bacteria; Actinobacteria; Coriobacteriia; Eggerthellales; Eggerthellaceae; Gordonibacter; Gordonibacter urolithinfaciens	WP_096226658	416	1.0	-44131.177065994	0.031728	0.032923	0.0	0.06465
+ribF	Species	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Bacteroidaceae; Bacteroides; Bacteroides caecimuris	WP_065539615	218	1.0	-44131.5726011454	0.034197	0.065601	0.0	0.0998
+ribF	Species	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Bacteroidaceae; Bacteroides; Bacteroides fragilis	WP_101603994	224	1.0	-44130.9674204776	0.105136	0.064464	0.090991	0.26059
+ribF	Species	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Bacteroidaceae; Bacteroides; Bacteroides helcogenes	WP_013546597	222	0.5987782429	-44129.1095555624	0.015022	0.115794	0.0	0.13082
+ribF	Species	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Bacteroidaceae; Bacteroides; Bacteroides heparinolyticus	WP_106069877	223	1.0	-44129.3113604111	0.111364	0.015318	0.0	0.12668
+ribF	Species	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Bacteroidaceae; Bacteroides; Bacteroides salanitronis	WP_013618112	229	1.0	-44127.9137720922	0.146017	0.177023	0.335996	0.65904
+ribF	Species	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Bacteroidaceae; Bacteroides; Bacteroides thetaiotaomicron	NP_811456	218	1.0	-44130.1557628339	0.078805	0.027912	0.0	0.10672
+ribF	Species	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Bacteroidaceae; Bacteroides; Bacteroides zoogleoformans	WP_106040956	223	1.0	-44132.7627013985	0.080039	0.105361	0.0	0.1854
+ribF	Species	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Porphyromonadaceae; Porphyromonas; Porphyromonas asaccharolytica	WP_044211427	216	1.0	-44123.2012819613	0.625685	0.3016	0.0	0.92729
+ribF	Species	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Porphyromonadaceae; Porphyromonas; Porphyromonas gingivalis	WP_004584183	238	0.6613717559	-44129.6719767371	0.053388	0.34667	0.753629	1.15369
+ribF	Species	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Porphyromonadaceae; Porphyromonas; Porphyromonas gingivalis	WP_097627245	238	0.6613717559	-44129.6719767371	0.053388	0.34667	0.753629	1.15369
+ribF	Species	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Porphyromonadaceae; Porphyromonas; Porphyromonas gingivalis	WP_099811452	238	0.6613717559	-44129.6719767371	0.053388	0.34667	0.753629	1.15369
+ribF	Species	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Porphyromonadaceae; Porphyromonas; Porphyromonas gingivalis	WP_054191365	238	0.6613717559	-44129.6719767371	0.053388	0.34667	0.753629	1.15369
+ribF	Species	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Porphyromonadaceae; Porphyromonas; Porphyromonas gingivalis	WP_099777304	238	0.7052892723	-44128.5672012991	0.043054	0.343798	0.753629	1.14048
+ribF	Species	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Prevotellaceae; Prevotella; Prevotella dentalis	WP_005845583	230	1.0	-44131.5143514971	0.151611	0.307775	0.208371	0.66776
+ribF	Species	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Prevotellaceae; Prevotella; Prevotella denticola	WP_013671879	212	1.0	-44128.3345841383	0.08061	0.102969	0.0	0.18358
+ribF	Species	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Prevotellaceae; Prevotella; Prevotella fusca	WP_050696483	212	1.0	-44128.8599066357	0.144317	0.048781	0.0	0.1931
+ribF	Species	Bacteria; Deinococcus-Thermus; Deinococci; Deinococcales; Deinococcaceae; Deinococcus; Deinococcus deserti	WP_012693867	468	1.0	-44131.8592244602	0.112526	0.105361	0.0	0.21789
+ribF	Species	Bacteria; Deinococcus-Thermus; Deinococci; Deinococcales; Deinococcaceae; Deinococcus; Deinococcus gobiensis	WP_014684515	468	1.0	-44134.4061801467	0.035501	0.07843	0.155475	0.26941
+ribF	Species	Bacteria; Deinococcus-Thermus; Deinococci; Deinococcales; Deinococcaceae; Deinococcus; Deinococcus maricopensis	WP_013556795	470	0.6385736643	-44136.9053167233	0.037049	0.152922	0.234396	0.42437
+ribF	Species	Bacteria; Deinococcus-Thermus; Deinococci; Deinococcales; Deinococcaceae; Deinococcus; Deinococcus peraridilitoris	WP_015234118	471	1.0	-44134.7880630445	0.032617	0.167512	0.276814	0.47694
+ribF	Species	Bacteria; Deinococcus-Thermus; Deinococci; Deinococcales; Deinococcaceae; Deinococcus; Deinococcus proteolyticus	WP_013614113	464	1.0	-44134.4317152331	0.080034	0.105361	0.0	0.18539
+ribF	Species	Bacteria; Deinococcus-Thermus; Deinococci; Deinococcales; Deinococcaceae; Deinococcus; Deinococcus puniceus	WP_064015320	468	1.0	-44136.6187348544	0.15441	0.105361	0.0	0.25977
+ribF	Species	Bacteria; Deinococcus-Thermus; Deinococci; Deinococcales; Deinococcaceae; Deinococcus; Deinococcus radiodurans	WP_010887651	464	1.0	-44134.2015692764	0.130391	0.045837	0.0	0.17623
+ribF	Species	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Meiothermus; Meiothermus ruber	WP_013013280	455	1.0	-44136.4558049346	0.168436	0.162225	0.0	0.33066
+ribF	Species	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Meiothermus; Meiothermus silvanus	WP_041653296	455	1.0	-44136.1782969196	0.160446	0.173775	0.0	0.33422
+ribF	Species	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus; Thermus aquaticus	WP_003045018	453	1.0	-44136.4842327364	0.029803	0.044396	0.116963	0.19116
+ribF	Species	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus; Thermus brockianus	WP_071677455	450	0.9824605536	-44133.9512834379	0.022298	0.029424	0.075224	0.12695
+ribF	Species	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus; Thermus oshimai	WP_016329008	454	0.8256224851	-44133.9598274019	0.019913	0.021247	0.152932	0.19409
+ribF	Species	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus; Thermus scotoductus	WP_015716607	449	0.5243725026	-44135.4343563527	0.047422	0.078507	0.0	0.12593
+ribF	Species	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus; Thermus thermophilus	WP_011172614	449	0.5298288104	-44088.9571781088	0.095141	0.030532	0.0	0.12567
+ribF	Species	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus; Thermus thermophilus	WP_096410946	450	1.0	-44087.7943680477	0.026928	0.029017	0.115765	0.17171
+ribF	Species	Bacteria; Firmicutes; Bacilli; Bacillales; Alicyclobacillaceae; Kyrpidia; Kyrpidia spormannii	WP_100667783	190	1.0	-44131.7581514906	0.031794	0.0001	0.0	0.03189
+ribF	Species	Bacteria; Firmicutes; Bacilli; Bacillales; Alicyclobacillaceae; Kyrpidia; Kyrpidia tusciae	WP_013075545	190	1.0	-44132.2103484514	5e-05	0.031814	0.0	0.03186
+ribF	Species	Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus megaterium	WP_013082906	558	0.5808409874	-43988.5161944116	0.250358	0.395764	0.0	0.64612
+ribF	Species	Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus megaterium	WP_013084272	266	0.7637997604	-43982.7431687743	0.024871	0.235319	0.476791	0.73698
+ribF	Species	Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus megaterium	WP_049164270	558	0.5808409874	-43988.5161944116	0.250358	0.395764	0.0	0.64612
+ribF	Species	Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus megaterium	WP_042992154	363	0.5441507961	-43987.9641613037	0.303299	0.379637	0.0	0.68294
+ribF	Species	Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus pseudomycoides	WP_040119439	265	1.0	-44131.0867337976	0.158095	0.169598	0.0	0.32769
+ribF	Species	Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Bacillus; Bacillus thuringiensis	WP_060630579	265	1.0	-44128.4334669808	0.245449	0.105361	0.0	0.35081
+ribF	Species	Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Halobacillus; Halobacillus halophilus	WP_014641493	189	1.0	-44131.9320514617	0.109393	0.13518	0.0	0.24457
+ribF	Species	Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Halobacillus; Halobacillus mangrovi	WP_085031664	187	1.0	-43963.6136034498	0.16056	0.087174	0.0	0.24773
+ribF	Species	Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Halobacillus; Halobacillus mangrovi	WP_085029929	151	1.0	-44012.673888349	0.310184	0.2496	0.0	0.55978
+ribF	Species	Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Lysinibacillus; Lysinibacillus sphaericus	WP_012293307	173	1.0	-44133.7548305173	0.031794	0.042399	0.0	0.07419
+ribF	Species	Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Planococcus; Planococcus donghaensis	WP_065525982	168	0.8979449131	-44132.5711364568	0.007711	0.023381	0.0	0.03109
+ribF	Species	Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Planococcus; Planococcus halocryophilus	WP_008497935	168	0.5422223674	-44133.5593340548	0.023606	0.007672	0.0	0.03128
+ribF	Species	Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Planococcus; Planococcus maritimus	WP_068462813	169	0.9698052829	-44132.8909829288	0.021518	0.041732	0.032265	0.09552
+ribF	Species	Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Planococcus; Planococcus plakortidis	WP_068869374	161	1.0	-44130.4326979604	0.038211	0.000318	0.0	0.03853
+ribF	Species	Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Planococcus; Planococcus rifietoensis	WP_058380476	161	1.0	-44133.0245228113	0.003595	0.027714	0.0	0.03131
+ribF	Species	Bacteria; Firmicutes; Bacilli; Bacillales; Planococcaceae; Planococcus; Planococcus versutus	WP_049693258	169	0.9983090027	-44125.572620684	0.02901	0.018973	0.0837	0.13168
+ribF	Species	Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae; Staphylococcus; Staphylococcus aureus	WP_000864181	6	1.0	-44127.057236158	0.059994	0.125182	0.055066	0.24024
+ribF	Species	Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae; Staphylococcus; Staphylococcus equorum	WP_065337858	5	1.0	-44128.2881453328	0.037269	0.039655	0.0	0.07692
+ribF	Species	Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae; Staphylococcus; Staphylococcus felis	WP_103209384	8	1.0	-44131.5082983579	0.080901	0.070296	0.0	0.1512
+ribF	Species	Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae; Staphylococcus; Staphylococcus haemolyticus	WP_104948269	8	1.0	-44130.7376052734	0.049217	0.105361	0.168087	0.32266
+ribF	Species	Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae; Staphylococcus; Staphylococcus lutrae	WP_085238172	8	1.0	-44131.7323344367	0.076926	0.072867	0.0	0.14979
+ribF	Species	Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae; Staphylococcus; Staphylococcus stepanovicii	WP_095088299	180	1.0	-44132.2024217753	0.149867	0.185616	0.259531	0.59501
+ribF	Species	Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae; Staphylococcus; Staphylococcus xylosus	WP_029377457	5	1.0	-44137.011836035	0.047742	0.045922	0.0	0.09366
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Aerococcaceae; Aerococcus; Aerococcus christensenii	WP_060777293	142	1.0	-44131.0763835252	0.202107	0.105361	0.0	0.30747
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Aerococcaceae; Aerococcus; Aerococcus sanguinicola	WP_067976107	141	1.0	-44129.3827776371	0.117804	0.150831	0.237494	0.50613
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Aerococcaceae; Aerococcus; Aerococcus urinae	WP_067977561	140	0.9935399409	-43838.9460566282	0.027085	0.303034	0.40177	0.73189
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Aerococcaceae; Aerococcus; Aerococcus urinae	WP_026466097	140	1.0	-43820.5428645173	0.052068	0.214252	0.40177	0.66809
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Aerococcaceae; Aerococcus; Aerococcus urinae	WP_059348857	140	1.0	-43822.5385538718	0.051831	0.216861	0.40177	0.67046
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Aerococcaceae; Aerococcus; Aerococcus urinae	WP_060778222	138	1.0	-43789.5613401618	0.237241	0.105361	0.0	0.3426
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Aerococcaceae; Aerococcus; Aerococcus urinaeequi	WP_026466097	144	1.0	-44126.8894684273	0.06294	0.24479	0.483746	0.79148
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Aerococcaceae; Aerococcus; Aerococcus urinaeequi	WP_059348857	144	1.0	-44128.8488778537	0.062778	0.24755	0.483746	0.79407
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Aerococcaceae; Aerococcus; Aerococcus urinaehominis	WP_067977561	144	1.0	-44130.1100937474	0.049257	0.303376	0.41715	0.76978
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Enterococcaceae; Enterococcus; Enterococcus faecalis	WP_077143663	18	0.5972221932	-44139.3618965663	0.085324	0.087998	0.0	0.17332
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Enterococcaceae; Enterococcus; Enterococcus hirae	WP_010718889	20	1.0	-44132.1498008537	0.088761	0.132925	0.0	0.22169
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Enterococcaceae; Enterococcus; Enterococcus mundtii	WP_071866231	20	1.0	-44129.1347668439	0.165388	0.105361	0.0	0.27075
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Enterococcaceae; Enterococcus; Enterococcus mundtii	WP_023519842	20	1.0	-44131.6892295624	0.165388	0.105361	0.0	0.27075
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Enterococcaceae; Enterococcus; Enterococcus wangshanyuanii	WP_088269140	20	1.0	-44132.0283117738	0.05522	0.105361	0.289737	0.45032
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus acetotolerans	WP_060459377	119	1.0	-44132.650126105	0.108481	0.105361	0.0	0.21384
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus acidipiscis	WP_079579014	130	0.9798400228	-44128.5527580786	0.013478	0.233863	0.493189	0.74053
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus agilis	WP_094130162	128	1.0	-44126.8651349346	0.041476	0.187999	0.37284	0.60231
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus alimentarius	WP_057740220	100	1.0	-44130.2346948948	0.113766	0.105361	0.0	0.21913
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus allii	WP_076616258	104	1.0	-44128.8042421949	0.074759	0.105361	0.167828	0.34795
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus amylolyticus	WP_080881327	118	1.0	-44127.2468479637	0.054208	0.055059	0.124949	0.23422
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus amylovorus	WP_056940213	119	1.0	-44132.7706731031	0.121515	0.050776	0.0	0.17229
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus backii	WP_068478732	40	1.0	-44132.2638811937	0.145358	0.194403	0.0	0.33976
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus brevis	WP_065201462	70	1.0	-44119.7956206752	0.068069	0.04197	0.136665	0.2467
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus buchneri	WP_014940498	303	1.0	-43923.619777752	0.006876	0.124546	0.698101	0.82952
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus buchneri	WP_013728691	303	1.0	-43952.9242870268	0.012357	0.186952	0.698101	0.89741
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus buchneri	WP_013727802	78	1.0	-43886.9338779679	0.068102	0.036536	0.0	0.10464
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus casei	WP_087912222	31	1.0	-44132.4008628124	0.02992	0.040077	0.0	0.07
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus coryniformis	WP_003679815	306	1.0	-44009.0614836874	0.084066	0.322468	0.655518	1.06205
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus coryniformis	WP_010010053	40	1.0	-43936.2995758429	0.248844	0.105361	0.0	0.3542
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus curieae	WP_035167024	79	1.0	-44134.5561497691	0.160152	0.283168	0.090618	0.53394
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus curvatus	WP_069468109	28	1.0	-44132.224856711	0.016607	0.085254	0.0	0.10186
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus curvatus	WP_056966838	28	1.0	-44123.7097002317	0.019725	0.070692	0.0	0.09042
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus delbrueckii	WP_050890290	121	1.0	-44130.0524043898	0.157361	0.178634	0.227281	0.56328
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus delbrueckii	WP_013439795	121	0.8531388574	-44124.7851573593	0.157361	0.162838	0.227281	0.54748
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus delbrueckii	WP_072547442	121	1.0	-44127.5718743336	0.157361	0.169153	0.227281	0.5538
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus delbrueckii	WP_011678392	121	1.0	-44131.2656554023	0.157361	0.181599	0.227281	0.56624
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus fermentum	WP_003685190	64	0.7064192066	-44123.2358186267	0.00423	0.20011	0.271498	0.47584
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus fermentum	WP_003681923	64	0.7230995021	-44125.7821154903	0.003925	0.210821	0.271498	0.48624
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus gasseri	WP_003647477	118	0.8868940604	-44130.4334606113	5e-05	0.046262	0.0	0.04631
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus ginsenosidimutans	WP_048706338	105	0.9891642936	-44128.5775641308	0.042086	0.079266	0.349301	0.47065
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus heilongjiangensis	WP_041501781	100	1.0	-44130.9150251367	0.126079	0.105361	0.0	0.23144
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus helveticus	WP_038525470	119	1.0	-44131.9147321415	0.082483	0.105361	0.0	0.18784
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus helveticus	WP_014563430	119	1.0	-44132.0435519618	0.082483	0.105361	0.0	0.18784
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus helveticus	WP_023190312	119	1.0	-44127.7102897499	0.082483	0.105361	0.0	0.18784
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus helveticus	WP_065866474	119	1.0	-44127.7102897499	0.082483	0.105361	0.0	0.18784
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus hokkaidonensis	WP_041093618	84	1.0	-44132.8532216867	0.048237	0.201359	0.366819	0.61642
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus johnsonii	WP_011162235	116	1.0	-44100.7059357884	0.033073	0.011265	0.0	0.04434
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus johnsonii	WP_012845966	116	1.0	-44104.9089416813	0.038976	0.01286	0.0	0.05184
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus johnsonii	WP_069168337	116	1.0	-44100.4043073617	0.046008	0.0001	0.0	0.04611
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus johnsonii	WP_023599486	116	1.0	-44108.3622761122	0.044059	0.014831	0.0	0.05889
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus koreensis	WP_048735927	68	1.0	-44123.9988548598	0.085542	0.038764	0.0	0.12431
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus kunkeei	WP_034531665	75	0.9138560747	-44129.4231615892	0.123565	0.206434	0.0	0.33
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus lindneri	WP_054646122	81	1.0	-44127.0037428756	0.089394	0.105361	0.449008	0.64376
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus mucosae	WP_039944838	64	0.976046757	-44129.4993059227	5e-05	0.167912	0.384054	0.55202
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus parabuchneri	WP_057909219	78	1.0	-44131.4916088929	0.04121	0.061672	0.0	0.10288
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus paracollinoides	WP_065937650	83	1.0	-44131.8554778129	0.013028	0.238713	0.600029	0.85177
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus paraplantarum	WP_033610709	304	1.0	-44171.4396204853	0.135926	0.161272	0.0	0.2972
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus pentosus	WP_088769949	303	1.0	-44051.8511622576	0.10756	0.095181	0.13755	0.34029
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus pentosus	WP_088771170	38	0.72923537	-44003.854096411	5e-05	0.047362	0.0	0.04741
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus plantarum	WP_047673550	38	1.0	-44008.6327747406	0.032489	0.022646	0.0	0.05513
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus plantarum	WP_064578342	300	1.0	-44104.3640096631	0.088702	0.232645	0.0	0.32135
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus plantarum	WP_060677081	38	1.0	-44005.4164447241	0.026782	0.020307	0.0	0.04709
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus plantarum	WP_085764135	300	1.0	-44109.3344307474	0.097468	0.226357	0.0	0.32383
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus plantarum	WP_015640472	38	1.0	-44008.739535007	0.02865	0.025982	0.0	0.05463
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus plantarum	WP_103002232	300	1.0	-44107.3788946256	0.098324	0.22379	0.0	0.32211
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus rhamnosus	WP_077069400	31	1.0	-44131.5276816627	0.043921	0.026991	0.0	0.07091
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus ruminis	WP_014073483	128	1.0	-44129.0904656914	0.122339	0.245112	0.0	0.36745
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus sakei	WP_104964226	28	1.0	-44125.0821694602	0.08302	0.011387	0.0	0.09441
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus sakei	WP_025016348	28	1.0	-44128.6781089886	0.089905	0.012753	0.0	0.10266
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus sakei	WP_096584731	28	1.0	-44133.775850035	0.092238	0.01836	0.0	0.1106
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus salivarius	WP_014568278	128	1.0	-44135.1216440465	0.31109	0.105361	0.0	0.41645
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus salivarius	WP_069469455	128	1.0	-44132.922073487	0.31109	0.105361	0.0	0.41645
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus terrae	WP_099974856	105	0.8473849117	-44129.1249277859	0.048548	0.185681	0.304887	0.53912
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus zymae	WP_087742693	306	1.0	-43369.6332253421	0.021083	0.376905	0.852648	1.25064
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus zymae	WP_087741911	82	1.0	-43278.7566252162	0.042227	0.086514	0.0	0.12874
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Pediococcus; Pediococcus acidilactici	WP_065124764	92	1.0	-44132.3766340567	0.192103	0.105361	0.0	0.29746
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Pediococcus; Pediococcus damnosus	WP_046871980	92	1.0	-44132.6758718718	0.045096	0.038183	0.0	0.08328
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Pediococcus; Pediococcus inopinatus	WP_057772056	92	1.0	-44132.1052847376	0.04441	0.037327	0.0	0.08174
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Pediococcus; Pediococcus pentosaceus	WP_023440318	92	1.0	-44131.9362603334	0.151706	0.105361	0.0	0.25707
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Pediococcus; Pediococcus pentosaceus	WP_055126227	92	1.0	-44124.2263033803	0.151706	0.105361	0.0	0.25707
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Leuconostocaceae; Leuconostoc; Leuconostoc carnosum	WP_014974168	51	1.0	-44131.100271644	0.073898	0.105361	0.251328	0.43059
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Leuconostocaceae; Leuconostoc; Leuconostoc citreum	WP_004907829	50	1.0	-44125.2063431091	0.018621	0.076645	0.24521	0.34048
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Leuconostocaceae; Leuconostoc; Leuconostoc garlicum	WP_077283082	48	0.9961356611	-44125.0374994617	0.159585	0.054605	0.031061	0.24525
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Leuconostocaceae; Leuconostoc; Leuconostoc gelidum	WP_013231480	47	1.0	-44088.977621529	0.091245	0.105361	0.0	0.19661
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Leuconostocaceae; Leuconostoc; Leuconostoc gelidum	WP_010687912	47	1.0	-44090.6157768579	0.055105	0.17733	0.0	0.23244
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Leuconostocaceae; Leuconostoc; Leuconostoc mesenteroides	WP_025268217	57	1.0	-44431.6742564178	0.024564	0.200332	0.307929	0.53283
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Leuconostocaceae; Leuconostoc; Leuconostoc mesenteroides	WP_011680050	57	1.0	-44427.0675728448	0.025789	0.186847	0.307929	0.52056
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Leuconostocaceae; Weissella; Weissella cibaria	WP_060654922	56	1.0	-44132.4155171746	0.175813	0.138752	0.0	0.31456
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Leuconostocaceae; Weissella; Weissella cibaria	WP_106443811	56	1.0	-44131.7821500707	0.187211	0.137881	0.0	0.32509
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Leuconostocaceae; Weissella; Weissella jogaejeotgali	WP_075269849	57	0.7072593029	-44134.7955187078	0.034008	0.191879	0.360086	0.58597
+ribF	Species	Bacteria; Firmicutes; Bacilli; Lactobacillales; Leuconostocaceae; Weissella; Weissella koreensis	WP_006845191	57	1.0	-44131.7404840599	0.037773	0.287887	0.227952	0.55361
+ribF	Species	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Ruminococcus; Ruminococcus albus	WP_013499592	512	1.0	-44126.7102384359	0.403932	0.105361	0.0	0.50929
+ribF	Species	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Ruminococcus; Ruminococcus bicirculans	WP_038670214	512	1.0	-44128.6479927622	0.188717	0.26475	0.0	0.45347
+ribF	Species	Bacteria; Planctomycetes; Phycisphaerae; Sedimentisphaerales; Sedimentisphaeraceae; Sedimentisphaera; Sedimentisphaera cyanobacteriorum	WP_077540139	406	1.0	-44132.29773195	0.013272	0.081343	0.0	0.09462
+ribF	Species	Bacteria; Planctomycetes; Phycisphaerae; Sedimentisphaerales; Sedimentisphaeraceae; Sedimentisphaera; Sedimentisphaera salicampi	WP_085755972	406	1.0	-44130.9320331628	0.10511	0.0001	0.0	0.10521
+ribF	Species	Bacteria; Proteobacteria; Alphaproteobacteria; Rickettsiales; Anaplasmataceae; Neorickettsia; Neorickettsia helminthoeca	WP_051579479	504	1.0	-44128.472691956	0.243822	0.023852	0.055276	0.32295
+ribF	Species	Bacteria; Proteobacteria; Alphaproteobacteria; Rickettsiales; Anaplasmataceae; Neorickettsia; Neorickettsia risticii	WP_012779434	500	1.0	-44135.0855671481	0.033582	0.036572	0.0	0.07015
+ribF	Species	Bacteria; Proteobacteria; Alphaproteobacteria; Rickettsiales; Anaplasmataceae; Neorickettsia; Neorickettsia sennetsu	WP_011451448	500	1.0	-44134.4381472559	0.040686	0.03032	0.0	0.07101
+ribF	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter; Acinetobacter baylyi	WP_004930967	333	1.0	-44132.6936395902	0.022486	0.035486	0.0	0.05797
+ribF	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter; Acinetobacter bereziniae	WP_004825776	339	0.7976417624	-44132.4163122653	0.019183	0.032554	0.192198	0.24394
+ribF	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter; Acinetobacter indicus	WP_045796083	338	0.8298301756	-44127.5383688211	0.005557	0.032584	0.163773	0.20191
+ribF	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter; Acinetobacter junii	WP_099949423	335	0.7441674299	-44127.2753341047	5e-05	0.016849	0.170705	0.1876
+ribF	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter; Acinetobacter larvae	WP_067551138	347	0.6232596496	-44134.7435561228	0.047749	0.059526	0.199633	0.30691
+ribF	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter; Acinetobacter pittii	YP_004997207	335	0.6461791266	-44133.4460630158	5e-05	0.035246	0.142609	0.17791
+ribF	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter; Acinetobacter soli	WP_076033286	333	1.0	-44133.1372057718	0.043152	0.018275	0.0	0.06143
+ribF	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Moraxella; Moraxella osloensis	WP_096489255	343	1.0	-44093.8150015645	0.306411	0.089691	0.0	0.3961
+ribF	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Moraxella; Moraxella osloensis	WP_099808391	343	0.8958526816	-44098.5334219365	0.314317	0.099385	0.0	0.4137
+ribF	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Moraxella; Moraxella osloensis	WP_100270373	343	0.9061879566	-44101.5714308385	0.30738	0.106047	0.0	0.41343
+ribF	Species	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Moraxella; Moraxella osloensis	WP_062331675	343	0.7478822757	-44102.7002304574	0.310863	0.113751	0.0	0.42461
+ribF	Species	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Spirochaetaceae; Sphaerochaeta; Sphaerochaeta coccoides	WP_013739221	317	0.7787914321	-44123.1030102849	0.07616	0.341603	0.982713	1.40048
+ribF	Species	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Spirochaetaceae; Sphaerochaeta; Sphaerochaeta globosa	WP_013607067	314	1.0	-44118.6393057705	0.096776	0.166394	0.0	0.26317
+ribF	Species	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Spirochaetaceae; Sphaerochaeta; Sphaerochaeta pleomorpha	WP_014269119	314	1.0	-44129.4091149846	0.234669	0.061871	0.0	0.29654
+ribF	Species	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Spirochaetaceae; Treponema; Treponema brennaborense	WP_013759089	319	1.0	-44080.7743387316	0.297596	0.600006	0.0	0.8976
+ribF	Species	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Spirochaetaceae; Treponema; Treponema denticola	NP_970690	495	1.0	-44136.195639493	0.052049	0.037938	0.0	0.08999
+ribF	Species	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Spirochaetaceae; Treponema; Treponema primitia	WP_015708369	319	0.6086667779	-44057.3898412074	0.765053	0.206935	0.0	0.97199
+ribF	Species	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Spirochaetaceae; Treponema; Treponema putidum	WP_044978542	495	1.0	-44136.758454423	0.053343	0.036503	0.0	0.08985
+ribF	Species	Bacteria; Tenericutes; Mollicutes; Entomoplasmatales; Entomoplasmataceae; Mesoplasma; Mesoplasma coleopterae	WP_100670855	285	1.0	-44131.6543466557	0.066134	0.083733	0.0	0.14987
+ribF	Species	Bacteria; Tenericutes; Mollicutes; Entomoplasmatales; Entomoplasmataceae; Mesoplasma; Mesoplasma entomophilum	WP_099651122	285	1.0	-44132.3124916178	0.081859	0.065464	0.0	0.14732
+ribF	Species	Bacteria; Tenericutes; Mollicutes; Entomoplasmatales; Entomoplasmataceae; Mesoplasma; Mesoplasma florum	WP_097351113	286	0.7359956704	-44120.1561803165	0.046992	0.1654	0.0	0.21239
+ribF	Species	Bacteria; Tenericutes; Mollicutes; Entomoplasmatales; Entomoplasmataceae; Mesoplasma; Mesoplasma florum	WP_106104163	290	0.7142146522	-44122.8186688915	0.043312	0.126457	0.156832	0.3266
+ribF	Species	Bacteria; Tenericutes; Mollicutes; Entomoplasmatales; Entomoplasmataceae; Mesoplasma; Mesoplasma florum	WP_106387608	286	0.7359956704	-44120.1561803165	0.046992	0.1654	0.0	0.21239
+ribF	Species	Bacteria; Tenericutes; Mollicutes; Entomoplasmatales; Entomoplasmataceae; Mesoplasma; Mesoplasma tabanidae	WP_100679446	286	1.0	-44130.8978072704	0.074516	0.053646	0.065074	0.19324
+ribF	Species	Bacteria; Tenericutes; Mollicutes; Entomoplasmatales; Spiroplasmataceae; Spiroplasma; Spiroplasma citri	WP_071937648	560	1.0	-44145.4012038762	0.370322	0.307605	0.0	0.67793
+ribF	Species	Bacteria; Tenericutes; Mollicutes; Entomoplasmatales; Spiroplasmataceae; Spiroplasma; Spiroplasma clarkii	WP_100254808	560	1.0	-44126.8632546792	0.066541	0.654071	0.410856	1.13147
+ribF	Species	Bacteria; Tenericutes; Mollicutes; Entomoplasmatales; Spiroplasmataceae; Spiroplasma; Spiroplasma eriocheiris	WP_053040842	560	1.0	-44074.2245109468	0.353658	0.294544	0.0	0.6482
+ribF	Species	Bacteria; Tenericutes; Mollicutes; Mycoplasmatales; Mycoplasmataceae; Mycoplasma; Mycoplasma capricolum	WP_019269336	291	1.0	-44133.128058325	0.039568	0.0001	0.0	0.03967
+ribF	Species	Bacteria; Tenericutes; Mollicutes; Mycoplasmatales; Mycoplasmataceae; Mycoplasma; Mycoplasma capricolum	WP_011387213	291	1.0	-44133.128058325	0.039568	0.0001	0.0	0.03967
+ribF	Species	Bacteria; Tenericutes; Mollicutes; Mycoplasmatales; Mycoplasmataceae; Mycoplasma; Mycoplasma mycoides	WP_013729459	291	1.0	-44133.4557323306	5e-05	0.04003	0.0	0.04008
+ribF	Species	Bacteria; Tenericutes; Mollicutes; Mycoplasmatales; Mycoplasmataceae; Mycoplasma; Mycoplasma putrefaciens	WP_014035193	292	1.0	-44126.4772961228	0.112473	0.160658	0.066867	0.34
+ribF	Species	Bacteria; Thermotogae; Thermotogae; Kosmotogales; Kosmotogaceae; Kosmotoga; Kosmotoga olearia	WP_015869419	548	1.0	-44129.3796877834	0.206625	0.105361	0.0	0.31199
+ribF	Species	Bacteria; Thermotogae; Thermotogae; Kosmotogales; Kosmotogaceae; Kosmotoga; Kosmotoga pacifica	WP_047753686	548	1.0	-44127.4435048072	0.201214	0.105361	0.0	0.30657
+ribF	Species	Bacteria; Thermotogae; Thermotogae; Thermotogales; Fervidobacteriaceae; Fervidobacterium; Fervidobacterium islandicum	WP_084383999	549	0.6355768293	-44135.8473640608	0.013581	0.105361	0.0	0.11894
+ribF	Species	Bacteria; Thermotogae; Thermotogae; Thermotogales; Fervidobacteriaceae; Fervidobacterium; Fervidobacterium pennivorans	WP_064011165	549	1.0	-44435.6456431681	0.047053	0.098825	0.0	0.14588
+ribF	Species	Bacteria; Thermotogae; Thermotogae; Thermotogales; Fervidobacteriaceae; Fervidobacterium; Fervidobacterium pennivorans	WP_014450816	549	1.0	-44430.0200893224	0.04895	0.084654	0.0	0.1336
+ribF	Species	Bacteria; Verrucomicrobia; Verrucomicrobiae; Verrucomicrobiales; Akkermansiaceae; Akkermansia; Akkermansia glycaniphila	WP_067773983	486	0.8995760902	-44127.2371204809	5e-05	0.261249	0.928676	1.18998
+ribF	Species	Bacteria; Verrucomicrobia; Verrucomicrobiae; Verrucomicrobiales; Akkermansiaceae; Akkermansia; Akkermansia muciniphila	WP_012419799	486	0.8103919527	-44130.5005500763	5e-05	0.34186	0.928676	1.27059
+ribF	Species	Bacteria; Verrucomicrobia; Verrucomicrobiae; Verrucomicrobiales; Akkermansiaceae; Akkermansia; Akkermansia muciniphila	WP_065529849	486	1.0	-44128.962744922	5e-05	0.328581	0.928676	1.25731
+ribF	Class	Bacteria; Actinobacteria; Actinobacteria	WP_011102659	540	0.9381812015	-53604.1553781004	0.060531	0.373155	0.832634	1.26632
+ribF	Class	Bacteria; Actinobacteria; Actinobacteria	WP_013674416	363	1.0	-53564.9277316078	0.446669	0.399151	0.0	0.84582
+ribF	Class	Bacteria; Actinobacteria; Coriobacteriia	WP_012798085	0	1.0	-52030.8632717932	0.389133	0.553771	0.0	0.9429
+ribF	Class	Bacteria; Actinobacteria; Coriobacteriia	WP_066662711	242	1.0	-52050.0450898406	0.387813	0.68411	0.0	1.07192
+ribF	Class	Bacteria; Actinobacteria; Coriobacteriia	WP_099432762	543	1.0	-52035.9653797699	0.287001	0.582431	0.0	0.86943
+ribF	Class	Bacteria; Actinobacteria; Coriobacteriia	WP_022739827	615	0.9955081745	-52027.0999839235	0.484272	0.519073	0.0	1.00334
+ribF	Class	Bacteria; Actinobacteria; Coriobacteriia	WP_013979683	236	0.9976060767	-52009.8641575312	5e-05	0.579309	0.843198	1.42256
+ribF	Class	Bacteria; Actinobacteria; Coriobacteriia	WP_080143232	236	0.9940805051	-52004.5647820306	0.022405	0.536768	0.843198	1.40237
+ribF	Class	Bacteria; Actinobacteria; Coriobacteriia	WP_039688851	336	1.0	-52040.9766312876	0.21333	0.546085	0.585144	1.34456
+ribF	Class	Bacteria; Actinobacteria; Coriobacteriia	WP_012803192	543	1.0	-52047.0368813069	0.258221	0.595678	0.0	0.8539
+ribF	Class	Bacteria; Actinobacteria; Coriobacteriia	WP_009609234	547	1.0	-52004.8790586017	0.45511	0.442579	0.0	0.89769
+ribF	Class	Bacteria; Actinobacteria; Coriobacteriia	WP_096226658	236	0.99928641	-52003.0999562997	0.019126	0.513768	0.843198	1.37609
+ribF	Class	Bacteria; Actinobacteria; Coriobacteriia	WP_012808912	543	1.0	-52013.5535372452	0.318588	0.477328	0.0	0.79592
+ribF	Class	Bacteria; Actinobacteria; Coriobacteriia	WP_013251862	536	0.9708815882	-52013.4313303792	0.243484	0.522806	0.266014	1.0323
+ribF	Class	Bacteria; Actinobacteria; Coriobacteriia	WP_013708890	543	1.0	-52028.0525127668	0.299395	0.578318	0.0	0.87771
+ribF	Class	Bacteria; Actinobacteria; Streptomycetales	WP_099501606	363	1.0	-53741.5155633028	0.519298	0.266606	0.0	0.7859
+ribF	Class	Bacteria; Bacteroidetes; Bacteroidetes Order II. Incertae sedis	YP_445892	329	0.9475549453	-53789.8930514763	0.014871	0.343772	0.817859	1.1765
+ribF	Class	Bacteria; Bacteroidetes; Bacteroidia	WP_013546597	373	0.993601728	-51049.1756448309	0.52422	0.423633	0.0	0.94785
+ribF	Class	Bacteria; Bacteroidetes; Bacteroidia	WP_050696483	378	0.9999011496	-51049.2563143822	0.166129	0.478711	0.46331	1.10815
+ribF	Class	Bacteria; Bacteroidetes; Bacteroidia	WP_054191365	373	1.0	-51035.5813623272	0.567768	0.387081	0.0	0.95485
+ribF	Class	Bacteria; Bacteroidetes; Bacteroidia	WP_099811452	373	1.0	-51035.5813623272	0.567768	0.387081	0.0	0.95485
+ribF	Class	Bacteria; Bacteroidetes; Bacteroidia	WP_097627245	373	1.0	-51035.5813623272	0.567768	0.387081	0.0	0.95485
+ribF	Class	Bacteria; Bacteroidetes; Bacteroidia	NP_811456	373	0.8408312359	-51043.2003188965	0.504162	0.393549	0.0	0.89771
+ribF	Class	Bacteria; Bacteroidetes; Bacteroidia	WP_069174982	373	0.6797796923	-51033.5354354703	0.564127	0.375808	0.0	0.93993
+ribF	Class	Bacteria; Bacteroidetes; Bacteroidia	WP_005845583	292	1.0	-51068.3322012084	0.16515	0.433257	0.721467	1.31987
+ribF	Class	Bacteria; Bacteroidetes; Bacteroidia	WP_101603994	373	0.998834439	-51042.4312250593	0.533744	0.387707	0.0	0.92145
+ribF	Class	Bacteria; Bacteroidetes; Bacteroidia	WP_046824908	373	1.0	-51030.8011206345	0.547819	0.364958	0.0	0.91278
+ribF	Class	Bacteria; Bacteroidetes; Bacteroidia	WP_106069877	231	0.9347616596	-51051.3967187544	0.398898	0.428511	0.019231	0.84664
+ribF	Class	Bacteria; Bacteroidetes; Bacteroidia	WP_051401101	367	1.0	-51047.7422962017	0.288603	0.499269	0.0	0.78787
+ribF	Class	Bacteria; Bacteroidetes; Bacteroidia	WP_076928566	373	1.0	-51030.0390878785	0.535736	0.352026	0.0	0.88776
+ribF	Class	Bacteria; Bacteroidetes; Bacteroidia	WP_013671879	489	0.9982033855	-51054.7923260536	0.243342	0.457462	0.326449	1.02725
+ribF	Class	Bacteria; Bacteroidetes; Bacteroidia	WP_106040956	0	1.0	-51049.6113898169	0.383774	0.408971	0.0	0.79275
+ribF	Class	Bacteria; Bacteroidetes; Bacteroidia	WP_013618112	368	1.0	-51023.7144097438	0.302639	0.389862	0.0	0.6925
+ribF	Class	Bacteria; Bacteroidetes; Bacteroidia	WP_014776467	659	1.0	-50971.9245098572	0.202153	0.306234	0.0	0.50839
+ribF	Class	Bacteria; Bacteroidetes; Bacteroidia	WP_004584183	373	1.0	-51035.5813623272	0.567768	0.387081	0.0	0.95485
+ribF	Class	Bacteria; Bacteroidetes; Bacteroidia	WP_005860214	373	1.0	-51044.4300925603	0.495971	0.429102	0.0	0.92507
+ribF	Class	Bacteria; Bacteroidetes; Bacteroidia	WP_044211427	367	0.9992882718	-51048.5256107431	0.221394	0.485788	0.0	0.70718
+ribF	Class	Bacteria; Bacteroidetes; Bacteroidia	WP_068961677	675	1.0	-51061.7798120122	0.623219	0.442315	0.0	1.06553
+ribF	Class	Bacteria; Bacteroidetes; Bacteroidia	WP_099777304	373	1.0	-51036.7358490591	0.5679	0.390525	0.0	0.95842
+ribF	Class	Bacteria; Bacteroidetes; Bacteroidia	WP_065539615	701	1.0	-51057.4609919721	0.43685	0.427615	0.0	0.86447
+ribF	Class	Bacteria; Bacteroidetes; Cytophagia	WP_100986078	316	1.0	-53791.47517175	0.074339	0.309329	0.562979	0.94665
+ribF	Class	Bacteria; Bacteroidetes; Flavobacteriia	WP_102756379	302	0.5968084169	-52496.1143382306	0.018656	0.387431	0.817859	1.22395
+ribF	Class	Bacteria; Bacteroidetes; Flavobacteriia	WP_100997284	302	0.690672134	-52483.3345409653	0.022438	0.28426	0.817859	1.12456
+ribF	Class	Bacteria; Bacteroidetes; Flavobacteriia	WP_107011344	306	0.9545516368	-52499.6930260813	0.276094	0.370634	0.0	0.64673
+ribF	Class	Bacteria; Bacteroidetes; Flavobacteriia	WP_100946709	306	0.9959318347	-52494.4392174099	0.25857	0.365083	0.0	0.62365
+ribF	Class	Bacteria; Bacteroidetes; Flavobacteriia	WP_101013102	306	1.0	-52533.2981111212	0.152421	0.559297	0.0	0.71172
+ribF	Class	Bacteria; Bacteroidetes; Flavobacteriia	YP_001295169	306	0.7411103667	-52483.4787814588	0.289399	0.28073	0.0	0.57013
+ribF	Class	Bacteria; Bacteroidetes; Flavobacteriia	WP_105215182	626	0.8266009135	-52510.8853589073	0.452579	0.388189	0.0	0.84077
+ribF	Class	Bacteria; Bacteroidetes; Flavobacteriia	WP_106097186	295	0.9987526252	-52497.0912124563	0.042639	0.389028	0.95923	1.3909
+ribF	Class	Bacteria; Bacteroidetes; Flavobacteriia	WP_101016465	306	1.0	-52485.303886616	0.265927	0.28895	0.0	0.55488
+ribF	Class	Bacteria; Bacteroidetes; Saprospiria	WP_014373547	323	0.9928476936	-53791.6637176034	0.593657	0.265527	0.0	0.85918
+ribF	Class	Bacteria; Chloroflexi; Anaerolineae	WP_069178967	243	1.0	-53802.1788951653	0.692625	0.509831	0.0	1.20246
+ribF	Class	Bacteria; Chloroflexi; Chloroflexia	YP_001636543	520	0.9844162433	-53801.0087185007	0.232859	0.369913	0.205032	0.8078
+ribF	Class	Bacteria; Elusimicrobia; Elusimicrobia	WP_012414847	473	1.0	-53791.9473009465	5e-05	0.472313	0.74166	1.21402
+ribF	Class	Bacteria; Elusimicrobia; Endomicrobia	WP_015423249	739	1.0	-53802.5224426474	0.370723	0.630947	0.0	1.00167
+ribF	Class	Bacteria; Firmicutes; Bacilli	WP_003613798	0	1.0	-37704.2895587207	0.397219	0.390463	0.0	0.78768
+ribF	Class	Bacteria; Firmicutes; Bacilli	WP_011680050	0	1.0	-37718.6259880476	0.4284	0.465205	0.0	0.8936
+ribF	Class	Bacteria; Firmicutes; Bacilli	WP_005689601	0	1.0	-37696.7164982602	0.534809	0.378545	0.0	0.91335
+ribF	Class	Bacteria; Firmicutes; Bacilli	WP_010687912	0	1.0	-37709.2956340642	0.441915	0.433294	0.0	0.87521
+ribF	Class	Bacteria; Firmicutes; Bacilli	WP_000864173	5	0.9993693477	-37695.7881672035	0.032665	0.463104	0.643393	1.13916
+ribF	Class	Bacteria; Firmicutes; Bacilli	WP_002459272	5	0.9980404224	-37697.7835750621	0.033594	0.480043	0.643393	1.15703
+ribF	Class	Bacteria; Firmicutes; Bacilli	WP_006845191	143	1.0	-37726.4505667761	0.357848	0.417003	0.897303	1.67215
+ribF	Class	Bacteria; Firmicutes; Bacilli	WP_003685190	295	0.9916594245	-37691.2075331753	0.454032	0.401968	0.0	0.856
+ribF	Class	Bacteria; Firmicutes; Bacilli	WP_011678392	0	1.0	-37707.2131282596	0.389362	0.412674	0.0	0.80204
+ribF	Class	Bacteria; Firmicutes; Bacilli	WP_003584556	0	1.0	-37704.3962193138	0.46617	0.411579	0.0	0.87775
+ribF	Class	Bacteria; Firmicutes; Bacilli	WP_003681923	0	1.0	-37695.9802426932	0.416481	0.411339	0.0	0.82782
+ribF	Class	Bacteria; Firmicutes; Bacilli	WP_000022930	109	1.0	-37583.0163746228	0.237367	0.212078	0.616693	1.06614
+ribF	Class	Bacteria; Firmicutes; Bacilli	WP_003679815	143	1.0	-37676.8162214899	0.400024	0.350703	0.897303	1.64803
+ribF	Class	Bacteria; Firmicutes; Bacilli	WP_002436322	0	1.0	-37694.0067894105	0.565219	0.355127	0.0	0.92035
+ribF	Class	Bacteria; Firmicutes; Bacilli	WP_005713951	0	1.0	-37696.7164982602	0.534809	0.378545	0.0	0.91335
+ribF	Class	Bacteria; Firmicutes; Bacilli	WP_011162235	0	1.0	-37694.4580291979	0.412762	0.339958	0.0	0.75272
+ribF	Class	Bacteria; Firmicutes; Bacilli	WP_012293307	110	0.9680406438	-37674.0889053103	0.068596	0.262669	1.259601	1.59087
+ribF	Class	Bacteria; Firmicutes; Bacilli	WP_003668177	295	1.0	-37707.6496163581	0.421114	0.45124	0.0	0.87235
+ribF	Class	Bacteria; Firmicutes; Bacilli	WP_000864181	0	1.0	-37703.6723715714	0.547569	0.410098	0.0	0.95767
+ribF	Class	Bacteria; Firmicutes; Bacilli	WP_011888288	109	1.0	-37580.8901701862	0.153912	0.21922	0.616693	0.98982
+ribF	Class	Bacteria; Firmicutes; Bacilli	WP_002288521	0	0.9859834677	-37718.9564787562	0.50726	0.489088	0.0	0.99635
+ribF	Class	Bacteria; Firmicutes; Bacilli	WP_004907829	0	1.0	-37703.3031774796	0.506745	0.378251	0.0	0.885
+ribF	Class	Bacteria; Firmicutes; Bacilli	WP_000022934	109	1.0	-37579.9833136108	0.34196	0.105361	0.616693	1.06401
+ribF	Class	Bacteria; Firmicutes; Bacilli	WP_002823440	143	1.0	-37714.8771143585	0.353383	0.351276	0.897303	1.60196
+ribF	Class	Bacteria; Firmicutes; Bacilli	WP_008497935	0	1.0	-37684.3493616078	0.537589	0.272651	0.0	0.81024
+ribF	Class	Bacteria; Firmicutes; Bacilli	WP_003647477	0	1.0	-37698.0638863865	0.417723	0.356677	0.0	0.7744
+ribF	Class	Bacteria; Firmicutes; Bacilli	WP_010010053	0	1.0	-37710.5747559024	0.497001	0.455201	0.0	0.9522
+ribF	Class	Bacteria; Firmicutes; Bacilli	WP_000022933	109	1.0	-37583.9428500362	0.22666	0.22227	0.616693	1.06562
+ribF	Class	Bacteria; Firmicutes; Bacilli	WP_010718889	143	1.0	-37719.3233789149	0.386916	0.358768	0.897303	1.64299
+ribF	Class	Bacteria; Firmicutes; Bacilli	WP_008406113	207	0.9294436417	-37557.7476415661	0.171983	0.299946	0.0	0.47193
+ribF	Class	Bacteria; Firmicutes; Clostridia	WP_041686941	626	0.9617509914	-53012.2125100108	0.199991	0.545527	0.0	0.74552
+ribF	Class	Bacteria; Firmicutes; Clostridia	WP_065535525	647	1.0	-52998.6890353536	0.752016	0.323261	0.073204	1.14848
+ribF	Class	Bacteria; Firmicutes; Clostridia	WP_106011886	647	0.9999995909	-53024.6741289424	0.583186	0.488439	0.073204	1.14483
+ribF	Class	Bacteria; Firmicutes; Clostridia	WP_106085838	713	0.993905147	-52996.696990828	0.262213	0.469975	0.41731	1.1495
+ribF	Class	Bacteria; Firmicutes; Clostridia	WP_012544707	243	1.0	-53038.5808007201	0.507492	0.69781	0.0	1.2053
+ribF	Class	Bacteria; Firmicutes; Clostridia	WP_086036745	713	0.9998541002	-53010.0668251745	0.17362	0.501196	0.41731	1.09213
+ribF	Class	Bacteria; Firmicutes; Clostridia	WP_013499592	242	1.0	-53010.0468176424	0.450809	0.410465	0.0	0.86127
+ribF	Class	Bacteria; Firmicutes; Clostridia	WP_098922886	647	1.0	-53043.6403860869	0.542516	0.560817	0.073204	1.17654
+ribF	Class	Bacteria; Firmicutes; Clostridia	WP_066537696	647	1.0	-53016.042723108	0.588189	0.391206	0.073204	1.0526
+ribF	Class	Bacteria; Firmicutes; Clostridia	WP_106790482	672	1.0	-53015.2510644174	1.354465	0.61292	0.376022	2.34341
+ribF	Class	Bacteria; Firmicutes; Clostridia	WP_081470280	679	1.0	-53029.5977233464	0.473612	0.458606	0.0	0.93222
+ribF	Class	Bacteria; Firmicutes; Clostridia	WP_033116211	471	0.5875787648	-53007.0532169839	0.020423	0.472352	0.74166	1.23443
+ribF	Class	Bacteria; Firmicutes; Clostridia	WP_038670214	647	0.9307221308	-53044.1437882762	0.585053	0.530507	0.073204	1.18876
+ribF	Class	Bacteria; Firmicutes; Clostridia	WP_106788161	672	1.0	-52888.6256982819	0.977109	0.0001	0.376022	1.35323
+ribF	Class	Bacteria; Firmicutes; Clostridia	WP_014119825	672	1.0	-53036.8017489873	1.281527	0.595061	0.376022	2.25261
+ribF	Class	Bacteria; Firmicutes; Clostridia	WP_005933136	647	1.0	-53044.118939684	0.548574	0.56394	0.073204	1.18572
+ribF	Class	Bacteria; Firmicutes; Clostridia	WP_013273596	672	1.0	-53010.4424224472	0.677235	0.105361	0.376022	1.15862
+ribF	Class	Bacteria; Firmicutes; Clostridia	WP_106056987	713	1.0	-52992.6763610735	0.234317	0.339423	0.41731	0.99105
+ribF	Class	Bacteria; Firmicutes; Erysipelotrichia	WP_067556616	566	0.9026729497	-53568.9801255661	0.15444	0.549149	0.763834	1.46742
+ribF	Class	Bacteria; Firmicutes; Erysipelotrichia	WP_067631990	3	1.0	-53574.7266466128	0.341022	0.45081	0.0	0.79183
+ribF	Class	Bacteria; Firmicutes; Negativicutes	WP_075938938	255	1.0	-53805.0615925233	0.406637	0.384141	0.0	0.79078
+ribF	Class	Bacteria; Firmicutes; Tissierellia	WP_075573498	709	0.9951052864	-53582.8362853611	0.596971	0.46771	0.0	1.06468
+ribF	Class	Bacteria; Firmicutes; Tissierellia	WP_071705619	253	1.0	-53561.1783998163	0.427733	0.377867	0.0	0.8056
+ribF	Class	Bacteria; Planctomycetes; Phycisphaerae	WP_075077332	534	1.0	-53484.9855034801	0.345426	0.400348	0.0	0.74577
+ribF	Class	Bacteria; Planctomycetes; Phycisphaerae	WP_085755972	534	1.0	-53511.8682812491	0.302046	0.485877	0.0	0.78792
+ribF	Class	Bacteria; Planctomycetes; Phycisphaerae	WP_077540139	534	1.0	-53518.9229794927	0.29418	0.53715	0.0	0.83133
+ribF	Class	Bacteria; Planctomycetes; Planctomycetia	WP_015244624	563	1.0	-53659.3824346446	0.459405	0.478682	0.073237	1.01132
+ribF	Class	Bacteria; Planctomycetes; Planctomycetia	WP_076345694	565	1.0	-53648.418525357	5e-05	0.486631	0.806841	1.29352
+ribF	Class	Bacteria; Proteobacteria; Alphaproteobacteria	WP_100931544	352	0.5788910955	-49597.8474269917	0.080687	0.344244	0.54008	0.96501
+ribF	Class	Bacteria; Proteobacteria; Alphaproteobacteria	WP_080620208	507	0.7933243947	-49595.9308124476	0.008644	0.431366	0.104015	0.54402
+ribF	Class	Bacteria; Proteobacteria; Alphaproteobacteria	WP_096806061	352	0.8983124362	-49609.1238334312	0.075112	0.44551	0.54008	1.0607
+ribF	Class	Bacteria; Proteobacteria; Alphaproteobacteria	WP_011451448	465	0.6427513638	-49722.5660792013	0.330652	0.539369	0.029653	0.89967
+ribF	Class	Bacteria; Proteobacteria; Alphaproteobacteria	YP_002824962	606	0.8482394955	-49565.2663462324	5e-05	0.553569	0.485526	1.03915
+ribF	Class	Bacteria; Proteobacteria; Alphaproteobacteria	WP_015587777	475	1.0	-49718.1142753492	0.144807	0.364415	0.614151	1.12337
+ribF	Class	Bacteria; Proteobacteria; Alphaproteobacteria	WP_011281508	475	1.0	-49694.5605160245	0.188262	0.220536	0.614151	1.02295
+ribF	Class	Bacteria; Proteobacteria; Alphaproteobacteria	WP_012880429	476	0.7556488697	-49693.7927329838	0.026789	0.312953	0.823072	1.16281
+ribF	Class	Bacteria; Proteobacteria; Alphaproteobacteria	WP_070960077	255	0.9996315992	-49723.6536310777	0.050662	0.514121	0.682856	1.24764
+ribF	Class	Bacteria; Proteobacteria; Alphaproteobacteria	WP_100954975	352	0.5777261117	-49597.7791721239	0.091734	0.368019	0.54008	0.99983
+ribF	Class	Bacteria; Proteobacteria; Alphaproteobacteria	WP_106471802	353	0.7075828053	-49618.0365324982	0.049094	0.466774	0.605931	1.1218
+ribF	Class	Bacteria; Proteobacteria; Alphaproteobacteria	WP_051579479	461	0.8026791601	-49714.7134479342	0.013636	0.5296	0.74166	1.2849
+ribF	Class	Bacteria; Proteobacteria; Alphaproteobacteria	WP_010082493	475	1.0	-49708.6392789507	0.120095	0.303402	0.614151	1.03765
+ribF	Class	Bacteria; Proteobacteria; Alphaproteobacteria	WP_101271691	477	0.9268083713	-49690.0064559067	5e-05	0.341371	1.149508	1.49093
+ribF	Class	Bacteria; Proteobacteria; Alphaproteobacteria	WP_011713777	482	1.0	-49709.997923156	0.368376	0.35385	0.0	0.72223
+ribF	Class	Bacteria; Proteobacteria; Alphaproteobacteria	NP_419520	637	1.0	-49714.1067024553	0.602254	0.41344	0.0	1.01569
+ribF	Class	Bacteria; Proteobacteria; Alphaproteobacteria	WP_013480938	654	1.0	-49708.6554209766	0.617539	0.340943	0.0	0.95848
+ribF	Class	Bacteria; Proteobacteria; Alphaproteobacteria	WP_041046413	475	1.0	-49708.0751226013	0.144585	0.316106	0.614151	1.07484
+ribF	Class	Bacteria; Proteobacteria; Alphaproteobacteria	WP_106003880	477	0.9977316042	-49692.6466807582	0.011661	0.369243	1.149508	1.53041
+ribF	Class	Bacteria; Proteobacteria; Alphaproteobacteria	YP_004143754	606	1.0	-49694.5667859843	0.116985	0.366811	0.485526	0.96932
+ribF	Class	Bacteria; Proteobacteria; Alphaproteobacteria	WP_012779434	477	0.9472462728	-49724.4107609675	0.093252	0.560676	1.149508	1.80344
+ribF	Class	Bacteria; Proteobacteria; Alphaproteobacteria	WP_049757577	481	1.0	-49714.5999914315	0.433451	0.411721	0.0	0.84517
+ribF	Class	Bacteria; Proteobacteria; Alphaproteobacteria	WP_011645871	650	1.0	-49731.9245394512	1.099405	0.51093	0.376022	1.98636
+ribF	Class	Bacteria; Proteobacteria; Alphaproteobacteria	WP_014954763	475	1.0	-49727.133078559	0.184389	0.416591	0.614151	1.21513
+ribF	Class	Bacteria; Proteobacteria; Alphaproteobacteria	WP_083809598	637	1.0	-49691.5938233212	0.621851	0.296304	0.0	0.91816
+ribF	Class	Bacteria; Proteobacteria; Alphaproteobacteria	WP_102111541	607	1.0	-49698.0636560283	0.540128	0.311837	0.0	0.85197
+ribF	Class	Bacteria; Proteobacteria; Betaproteobacteria	WP_102952284	682	0.98795292	-53558.6832755885	0.535538	0.442385	0.0	0.97792
+ribF	Class	Bacteria; Proteobacteria; Betaproteobacteria	WP_105885191	235	1.0	-53556.9242192596	0.414696	0.444644	0.17822	1.03756
+ribF	Class	Bacteria; Proteobacteria; Deltaproteobacteria	WP_011419680	563	0.8655865415	-54681.0395592327	0.026325	0.38826	0.793178	1.20776
+ribF	Class	Bacteria; Proteobacteria; Deltaproteobacteria	WP_044966560	612	1.0	-54669.3344815984	0.106309	0.358671	0.667027	1.13201
+ribF	Class	Bacteria; Proteobacteria; Deltaproteobacteria	WP_104937134	563	0.5864605607	-54693.2925947542	0.033474	0.432532	0.793178	1.25918
+ribF	Class	Bacteria; Proteobacteria; Deltaproteobacteria	YP_009674	564	0.8695493021	-54683.920430655	0.025678	0.382163	0.866114	1.27396
+ribF	Class	Bacteria; Proteobacteria; Deltaproteobacteria	WP_020740019	495	0.8569748121	-54673.7361190062	0.572135	0.314062	0.0	0.8862
+ribF	Class	Bacteria; Proteobacteria; Deltaproteobacteria	WP_104984853	495	0.6860451253	-54675.6255620057	0.555863	0.312365	0.0	0.86823
+ribF	Class	Bacteria; Proteobacteria; Deltaproteobacteria	WP_011984985	564	1.0	-54670.1589814789	0.051759	0.356594	0.866114	1.27447
+ribF	Class	Bacteria; Proteobacteria; Epsilonproteobacteria	WP_005871864	414	1.0	-53776.8032055826	0.661669	0.544933	0.0	1.2066
+ribF	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_068329287	569	0.9804061724	-51007.7992281257	0.074434	0.439809	0.667027	1.18127
+ribF	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_096489255	420	1.0	-51022.6875996591	0.58116	0.341403	0.0	0.92256
+ribF	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_100270373	420	1.0	-51028.0275137815	0.57366	0.366525	0.0	0.94018
+ribF	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_041729353	421	1.0	-51024.8116775937	0.396309	0.340481	0.0	0.73679
+ribF	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_076033286	422	0.9996360261	-51018.5977401947	0.007829	0.426307	0.872467	1.3066
+ribF	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_100114656	441	1.0	-51042.6680374128	0.292631	0.496921	0.029653	0.8192
+ribF	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_003657824	420	1.0	-51024.0028993066	0.502421	0.369536	0.0	0.87196
+ribF	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_053579189	422	0.8599195892	-51017.6008242488	0.007367	0.428985	0.872467	1.30882
+ribF	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_004825776	420	1.0	-51024.5361689687	0.551402	0.380961	0.0	0.93236
+ribF	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_099949423	420	1.0	-51019.6327827601	0.549951	0.347465	0.0	0.89742
+ribF	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_034670838	421	1.0	-51028.4441702831	0.459424	0.3962	0.0	0.85562
+ribF	Class	Bacteria; Proteobacteria; Gammaproteobacteria	NP_454656	420	0.9706555875	-51009.8989178711	0.57492	0.277044	0.0	0.85196
+ribF	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_004930967	422	0.8479584662	-51019.4774577848	0.006768	0.444435	0.872467	1.32367
+ribF	Class	Bacteria; Proteobacteria; Gammaproteobacteria	NP_719080	425	1.0	-51002.2972998648	0.001527	0.301678	0.74166	1.04486
+ribF	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_071003036	569	1.0	-51004.8316093504	0.079419	0.379374	0.667027	1.12582
+ribF	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_011959907	569	1.0	-50998.7763113484	0.081428	0.352728	0.667027	1.10118
+ribF	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_045796083	422	0.800230402	-51015.4700742725	0.004931	0.418714	0.872467	1.29611
+ribF	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_062331675	420	1.0	-51025.0116187457	0.573387	0.359408	0.0	0.9328
+ribF	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_079692541	420	0.5289546617	-51004.0990999837	0.600972	0.269499	0.0	0.87047
+ribF	Class	Bacteria; Proteobacteria; Gammaproteobacteria	YP_855223	425	0.9364901745	-51023.7906454027	0.036981	0.406688	0.74166	1.18533
+ribF	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_104852770	422	0.6216265805	-51015.1078827666	0.007848	0.414025	0.872467	1.29434
+ribF	Class	Bacteria; Proteobacteria; Gammaproteobacteria	NP_790652	420	1.0	-50996.0449645308	0.553941	0.206662	0.0	0.7606
+ribF	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_067551138	420	0.9948486887	-51022.1065418951	0.571696	0.347849	0.0	0.91955
+ribF	Class	Bacteria; Proteobacteria; Gammaproteobacteria	YP_004997207	422	0.6601779385	-51019.7206519226	0.004241	0.423019	0.872467	1.29973
+ribF	Class	Bacteria; Proteobacteria; Gammaproteobacteria	YP_169913	443	0.6831769477	-51023.8390503793	5e-05	0.426852	1.231289	1.65819
+ribF	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_099808391	420	1.0	-51023.6475685895	0.580132	0.346811	0.0	0.92694
+ribF	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_067662451	420	1.0	-51023.5426749824	0.56539	0.366367	0.0	0.93176
+ribF	Class	Bacteria; Proteobacteria; Gammaproteobacteria	WP_062845364	420	1.0	-51000.4458696861	0.572283	0.243821	0.0	0.8161
+ribF	Class	Bacteria; Proteobacteria; Gammaproteobacteria	YP_094970	425	1.0	-51012.088220971	0.061699	0.349446	0.74166	1.1528
+ribF	Class	Bacteria; Proteobacteria; Oligoflexia	WP_102241929	527	0.6515801225	-53779.6166535518	0.011394	0.405902	0.866114	1.28341
+ribF	Class	Bacteria; Proteobacteria; Zetaproteobacteria	WP_100264858	530	0.9987796739	-53803.8300764535	0.024477	0.51343	0.793178	1.33109
+ribF	Class	Bacteria; Thermotogae; Petrotogales	WP_012209483	724	1.0	-53629.3003781806	0.078403	0.189988	0.0	0.26839
+ribF	Class	Bacteria; Thermotogae; Petrotogales	WP_014297045	724	1.0	-53662.0899481259	0.522575	0.105361	0.0	0.62794
+ribF	Class	Bacteria; Thermotogae; Thermotogae	WP_013932271	717	0.8353493232	-52859.0651886052	0.306557	0.647167	0.447523	1.40125
+ribF	Class	Bacteria; Thermotogae; Thermotogae	WP_014730608	717	1.0	-52890.0483171411	0.360179	0.236519	0.447523	1.04422
+ribF	Class	Bacteria; Thermotogae; Thermotogae	WP_038034015	713	1.0	-52752.0900603549	0.018397	0.060387	0.0	0.07878
+ribF	Class	Bacteria; Thermotogae; Thermotogae	WP_084383999	717	1.0	-52857.2447918124	0.481267	0.128372	0.447523	1.05716
+ribF	Class	Bacteria; Thermotogae; Thermotogae	WP_045087985	716	1.0	-52815.2087752067	0.262561	0.105361	0.0	0.36792
+ribF	Class	Bacteria; Thermotogae; Thermotogae	WP_015869419	717	1.0	-52867.637202371	0.453504	0.105361	0.447523	1.00639
+ribF	Class	Bacteria; Thermotogae; Thermotogae	WP_047753686	717	1.0	-52887.4609002082	0.387174	0.24419	0.447523	1.07889
+ribF	Class	Bacteria; Thermotogae; Thermotogae	WP_012310300	713	1.0	-52721.2651168923	5e-05	0.024377	0.0	0.02443
+ribF	Class	Bacteria; Thermotogae; Thermotogae	WP_064011165	717	1.0	-52857.3796285468	0.466483	0.112963	0.447523	1.02697
+ribF	Class	Bacteria; Thermotogae; Thermotogae	WP_011942773	713	1.0	-52741.7363496362	0.005342	0.059109	0.0	0.06445
+ribF	Class	Bacteria; Thermotogae; Thermotogae	WP_014450816	717	1.0	-52855.3423949279	0.477382	0.099639	0.447523	1.02454
+ribF	Class	Bacteria; Thermotogae; Thermotogales	WP_015920132	733	1.0	-53793.3170079719	0.151783	0.042162	0.04317	0.23711
+ribF	Class	Bacteria; Thermotogae; Thermotogales	WP_004080749	732	1.0	-53731.5607094604	0.007887	0.016215	0.0	0.0241
+ribF	Class	Bacteria; Verrucomicrobia; Opitutae	WP_083269980	631	0.9229471951	-53166.5880716712	5e-05	0.433564	0.486801	0.92041
+ribF	Class	Bacteria; Verrucomicrobia; Opitutae	WP_009514541	628	1.0	-53181.2411045216	0.40136	0.374127	0.0	0.77549
+ribF	Class	Bacteria; Verrucomicrobia; Opitutae	WP_096054164	628	1.0	-53181.7482264299	0.343378	0.400682	0.0	0.74406
+ribF	Class	Bacteria; Verrucomicrobia; Opitutae	WP_013043532	336	1.0	-53169.9644831898	0.235916	0.227086	0.585144	1.04815
+ribF	Class	Bacteria; Verrucomicrobia; Opitutae	WP_012375634	628	1.0	-53165.1236838187	0.349585	0.300839	0.0	0.65042
+ribF	Class	Bacteria; Verrucomicrobia; Verrucomicrobiae	WP_065529849	639	1.0	-53621.8592842453	5e-05	0.309638	0.94709	1.25678
+ribF	Class	Bacteria; Verrucomicrobia; Verrucomicrobiae	WP_067773983	637	1.0	-53613.7135245689	0.158877	0.241339	0.485526	0.88574
+ribF	Class	Bacteria; Verrucomicrobia; Verrucomicrobiae	WP_012419799	639	1.0	-53622.351403048	5e-05	0.311812	0.94709	1.25895
