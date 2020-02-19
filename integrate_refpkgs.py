@@ -30,7 +30,7 @@ def get_arguments():
     return parser.parse_args()
 
 
-RefPkg_Patterns = [re.compile(r"(\w{2,10}).hmm"), re.compile(r"(\w{2,10}).fa"),
+RefPkg_Patterns = [re.compile(r"(\w{2,10}).hmm"), re.compile(r"(\w{2,10})_search.hmm"), re.compile(r"(\w{2,10}).fa"),
                    re.compile(r"(\w{2,10})_bestModel.txt"), re.compile(r"(\w{2,10})_tree.txt"),
                    re.compile(r"tax_ids_(\w{2,10}).txt"), re.compile(r"(\w{2,10})_bipartitions.txt"),
                    re.compile(r"(\w{2,10})_build.json")]
