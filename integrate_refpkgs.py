@@ -163,6 +163,7 @@ def validate_treesapp_refpkg_dir(treesapp_dir: str) -> namedtuple:
 def copy_refpkg_files_to_treesapp(ref_packages, refpkg_repository) -> None:
     for refpkg in ref_packages:  # type: classy.ReferencePackage
         shutil.copy(refpkg.profile, refpkg_repository.hmm_dir)
+        shutil.copy(refpkg.search_profile, refpkg_repository.hmm_dir)
         shutil.copy(refpkg.msa, refpkg_repository.aln_dir)
         shutil.copy(refpkg.tree, refpkg_repository.tree_dir)
         shutil.copy(refpkg.lineage_ids, refpkg_repository.tree_dir)
