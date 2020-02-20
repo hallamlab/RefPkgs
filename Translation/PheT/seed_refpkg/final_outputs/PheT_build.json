@@ -1,0 +1,1 @@
+{"RefPkg": {"name": "PheT", "code": "Z1111", "molecule": "prot", "sequences": 294, "model": "PROTGAMMALG", "lowest_confident_rank": "Kingdoms", "kind": "taxonomic", "tree-tool": "FastTree", "regression-parameters": ["-3.5004", "7.0"], "cluster-similarity": "0.95", "description": ""}}

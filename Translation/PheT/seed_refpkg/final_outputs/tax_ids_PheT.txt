@@ -1,0 +1,294 @@
+1	miscellaneous Crenarchaeota group archaeon SMTZ1-55 | KON29569	Archaea; Candidatus Bathyarchaeota; unclassified Candidatus Bathyarchaeota
+2	Candidatus Bathyarchaeota archaeon ex4484_135 | OYT53035	Archaea; Candidatus Bathyarchaeota; unclassified Candidatus Bathyarchaeota
+3	Candidatus Diapherotrites archaeon CG11_big_fil_rev_8_21_14_0_20_37_9 | PIN85429	Archaea; Candidatus Diapherotrites; unclassified Diapherotrites
+4	Candidatus Korarchaeum cryptofilum | WP_012310246	Archaea; Candidatus Korarchaeota; Candidatus Korarchaeum
+5	Lokiarchaeum sp. GC14_75 | KKK46344	Archaea; Candidatus Lokiarchaeota; Lokiarchaeum; unclassified Lokiarchaeum
+6	Candidatus Lokiarchaeota archaeon CR_4 | OLS14883	Archaea; Candidatus Lokiarchaeota; unclassified Lokiarchaeota
+7	Candidatus Mancarchaeum acidiphilum | ASI13492	Archaea; Candidatus Micrarchaeota; Candidatus Mancarchaeum
+8	Candidatus Micrarchaeum acidiphilum ARMAN-1 | OJI08359	Archaea; Candidatus Micrarchaeota; Candidatus Micrarchaeum; Candidatus Micrarchaeum acidiphilum
+9	Candidatus Micrarchaeota archaeon RBG_16_36_9 | OGI12230	Archaea; Candidatus Micrarchaeota; unclassified Candidatus Micrarchaeota
+10	Candidatus Pacearchaeota archaeon ex4484_26 | OYT41854	Archaea; Candidatus Pacearchaeota
+11	Candidatus Thorarchaeota archaeon SMTZ1-45 | KXH71486	Archaea; Candidatus Thorarchaeota
+12	Candidatus Thorarchaeota archaeon SMTZ1-83 | KXH76274	Archaea; Candidatus Thorarchaeota
+13	Candidatus Thorarchaeota archaeon AB_25 | OLS31659	Archaea; Candidatus Thorarchaeota
+14	Candidatus Woesearchaeota archaeon CG1_02_33_12 | OIO62450	Archaea; Candidatus Woesearchaeota
+15	Candidatus Woesearchaeota archaeon CG10_big_fil_rev_8_21_14_0_10_45_16 | PIN73422	Archaea; Candidatus Woesearchaeota
+16	Candidatus Woesearchaeota archaeon CG10_big_fil_rev_8_21_14_0_10_37_12 | PIN75234	Archaea; Candidatus Woesearchaeota
+17	Candidatus Woesearchaeota archaeon CG10_big_fil_rev_8_21_14_0_10_36_11 | PIN76273	Archaea; Candidatus Woesearchaeota
+18	Candidatus Woesearchaeota archaeon CG10_big_fil_rev_8_21_14_0_10_34_12 | PIN78177	Archaea; Candidatus Woesearchaeota
+19	Desulfurococcus amylolyticus | WP_048815829	Archaea; Crenarchaeota; Thermoprotei; Desulfurococcales; Desulfurococcaceae; Desulfurococcus; Desulfurococcus amylolyticus
+20	Thermofilum adornatus | WP_020962914	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermofilaceae; Thermofilum; Thermofilum adornatus
+21	Thermofilum pendens Hrk 5 | A1RYS1	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermofilaceae; Thermofilum; Thermofilum pendens
+22	Thermofilum uzonense | WP_052884178	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermofilaceae; Thermofilum; Thermofilum uzonense
+23	Thermofilum sp. NZ13 | PLJ78051	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermofilaceae; Thermofilum; unclassified Thermofilum
+24	Crenarchaeota archaeon 13_1_40CM_3_53_5 | OLD02424	Archaea; Crenarchaeota; unclassified Crenarchaeota; unclassified Crenarchaeota miscellaneous
+25	Aciduliprofundum sp. | PMP75879	Archaea; Euryarchaeota; Aciduliprofundum; unclassified Aciduliprofundum
+26	Geoglobus acetivorans | WP_048090701	Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales; Archaeoglobaceae; Geoglobus; Geoglobus acetivorans
+27	Geoglobus ahangari | WP_048095194	Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales; Archaeoglobaceae; Geoglobus; Geoglobus ahangari
+28	Hadesarchaea archaeon DG-33-1 | KUO41059	Archaea; Euryarchaeota; Hadesarchaea; unclassified Hadesarchaea
+29	Halapricum salinum | WP_049995036	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae; Halapricum; Halapricum salinum
+30	Haloarcula californiae | WP_007187944	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae; Haloarcula; Haloarcula californiae
+31	Halomicrobium zhouii | WP_089819157	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae; Halomicrobium; Halomicrobium zhouii
+32	Natronomonas pharaonis | WP_011322074	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae; Natronomonas; Natronomonas pharaonis
+33	Haloarculaceae archaeon HArcel1 | WP_108380798	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae; unclassified Haloarculaceae
+34	Haladaptatus cibarius | WP_049969077	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Halobacteriaceae; Haladaptatus; Haladaptatus cibarius
+35	Haladaptatus litoreus | WP_076430925	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Halobacteriaceae; Haladaptatus; Haladaptatus litoreus
+36	Haladaptatus paucihalophilus | WP_007982305	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Halobacteriaceae; Haladaptatus; Haladaptatus paucihalophilus
+37	Halalkalicoccus paucihalophilus | WP_066382667	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Halobacteriaceae; Halalkalicoccus; Halalkalicoccus paucihalophilus
+38	Halanaeroarchaeum sulfurireducens | WP_054519933	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Halobacteriaceae; Halanaeroarchaeum; Halanaeroarchaeum sulfurireducens
+39	Halobacterium salinarum | WP_010903870	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Halobacteriaceae; Halobacterium; Halobacterium salinarum
+40	Halovenus aranensis | WP_092703194	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Halobacteriaceae; Halovenus; Halovenus aranensis
+41	Natronoarchaeum philippinense | WP_097009937	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Halobacteriaceae; Natronoarchaeum; Natronoarchaeum philippinense
+42	Halococcus hamelinensis | WP_007691297	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Halococcaceae; Halococcus; Halococcus hamelinensis
+43	Halococcus thailandensis | WP_007740576	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Halococcaceae; Halococcus; Halococcus thailandensis
+44	Halobacteriales archaeon QH_2_65_14 | PSP28394	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; unclassified Halobacteriales; unclassified Halobacteriales miscellaneous
+45	Halobacteriales archaeon QH_10_70_21 | PSP40589	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; unclassified Halobacteriales; unclassified Halobacteriales miscellaneous
+46	Halobacteriales archaeon QS_1_67_19 | PSP57607	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; unclassified Halobacteriales; unclassified Halobacteriales miscellaneous
+47	Halobacteriales archaeon QS_4_66_20 | PSP88971	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; unclassified Halobacteriales; unclassified Halobacteriales miscellaneous
+48	Halobacteriales archaeon QS_4_62_28 | PSP95529	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; unclassified Halobacteriales; unclassified Halobacteriales miscellaneous
+49	Halegenticoccus soli | WP_101298112	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Haloferacaceae; Halegenticoccus; Halegenticoccus soli
+50	Haloferax larsenii | WP_007543829	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Haloferacaceae; Haloferax; Haloferax larsenii
+51	Haloferax mucosum | WP_008320221	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Haloferacaceae; Haloferax; Haloferax mucosum
+52	Haloferax sp. SB3 | WP_058568880	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Haloferacaceae; Haloferax; unclassified Haloferax
+53	Halogeometricum borinquense | WP_006055703	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Haloferacaceae; Halogeometricum; Halogeometricum borinquense
+54	Halogeometricum limi | WP_089875567	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Haloferacaceae; Halogeometricum; Halogeometricum limi
+55	Halogeometricum pallidum | WP_008386182	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Haloferacaceae; Halogeometricum; Halogeometricum pallidum
+56	Halogeometricum rufum | WP_089803710	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Haloferacaceae; Halogeometricum; Halogeometricum rufum
+57	Candidatus Halobonum tyrrellensis | WP_023394897	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Candidatus Halobonum
+58	Halobaculum gomorrense | WP_073310111	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Halobaculum; Halobaculum gomorrense
+59	Halohasta litchfieldiae | WP_089671998	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Halohasta; Halohasta litchfieldiae
+60	Halolamina pelagica | WP_074878362	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Halolamina; Halolamina pelagica
+61	Halolamina rubra | WP_049981379	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Halolamina; Halolamina rubra
+62	Halolamina sediminis | WP_053946805	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Halolamina; Halolamina sediminis
+63	Halolamina sp. CBA1230 | WP_079234192	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Halolamina; unclassified Halolamina
+64	Halorubrum | WP_008440865	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Halorubrum
+65	Halorubrum halodurans | WP_094532023	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Halorubrum; Halorubrum halodurans
+66	Halorubrum kocurii | WP_008847262	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Halorubrum; Halorubrum kocurii
+67	Halorubrum persicum | WP_099256137	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Halorubrum; Halorubrum persicum
+68	Halorubrum sodomense | WP_092919611	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Halorubrum; Halorubrum sodomense
+69	Halorubrum sp. Ib24 | WP_094581608	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Halorubrum; unclassified Halorubrum
+70	Salinigranum rubrum | WP_103423758	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Salinigranum; Salinigranum rubrum
+71	halophilic archaeon DL31 | WP_014052240	Archaea; Euryarchaeota; Halobacteria; Haloferacales; unclassified Haloferacales; unclassified Haloferacales miscellaneous
+72	Halobiforma haloterrestris | WP_089787965	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Halobiforma; Halobiforma haloterrestris
+73	Halobiforma lacisalsi | WP_007141526	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Halobiforma; Halobiforma lacisalsi
+74	Halobiforma nitratireducens | WP_006674050	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Halobiforma; Halobiforma nitratireducens
+75	Halopiger goleimassiliensis | WP_049929159	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Halopiger; Halopiger goleimassiliensis
+76	Halopiger xanaduensis | WP_013878686	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Halopiger; Halopiger xanaduensis
+77	Halostagnicola larsenii | WP_049953839	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Halostagnicola; Halostagnicola larsenii
+78	Halostagnicola sp. A56 | WP_050050447	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Halostagnicola; unclassified Halostagnicola
+79	Haloterrigena hispanica | WP_092932028	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Haloterrigena; Haloterrigena hispanica
+80	Haloterrigena jeotgali | WP_049965121	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Haloterrigena; Haloterrigena jeotgali
+81	Haloterrigena mahii | WP_066299984	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Haloterrigena; Haloterrigena mahii
+82	Haloterrigena salina | WP_008893453	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Haloterrigena; Haloterrigena salina
+83	Natrialba taiwanensis | WP_006827098	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Natrialba; Natrialba taiwanensis
+84	Natrialba sp. SSL1 | WP_071403264	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Natrialba; unclassified Natrialba
+85	Natrinema salaciae | WP_090617289	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Natrinema; Natrinema salaciae
+86	Natrinema versiforme | WP_006431835	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Natrinema; Natrinema versiforme
+87	Natronobacterium gregoryi | WP_005577132	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Natronobacterium; Natronobacterium gregoryi
+88	Natronobacterium texcoconense | WP_090385889	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Natronobacterium; Natronobacterium texcoconense
+89	Natronococcus jeotgali | WP_008420789	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Natronococcus; Natronococcus jeotgali
+90	Natronococcus occultus | WP_015321717	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Natronococcus; Natronococcus occultus
+91	Natronolimnobius aegyptiacus | WP_086887783	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Natronolimnobius; Natronolimnobius aegyptiacus
+92	Natronolimnobius innermongolicus | WP_007259773	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Natronolimnobius; Natronolimnobius innermongolicus
+93	Natronorubrum sediminis | WP_090507921	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Natronorubrum; Natronorubrum sediminis
+94	Methanobacterium | WP_069583196	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobacterium
+95	Methanobacterium congolense | WP_071906928	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobacterium; Methanobacterium congolense
+96	Methanobacterium paludis | WP_013825818	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobacterium; Methanobacterium paludis
+97	Methanobrevibacter | WP_011953800	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobrevibacter
+98	Methanobrevibacter | WP_069573046	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobrevibacter
+99	Methanobrevibacter arboriphilus | WP_042704235	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobrevibacter; Methanobrevibacter arboriphilus
+100	Methanobrevibacter curvatus | WP_067091703	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobrevibacter; Methanobrevibacter curvatus
+101	Methanobrevibacter filiformis | WP_066973691	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobrevibacter; Methanobrevibacter filiformis
+102	Methanobrevibacter millerae | WP_058738891	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobrevibacter; Methanobrevibacter millerae
+103	Methanobrevibacter olleyae | WP_067147028	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobrevibacter; Methanobrevibacter olleyae
+104	Methanobrevibacter oralis | WP_042692961	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobrevibacter; Methanobrevibacter oralis
+105	Methanobrevibacter ruminantium | WP_012956385	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobrevibacter; Methanobrevibacter ruminantium
+106	Methanobrevibacter sp. YE315 | WP_067043069	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobrevibacter; unclassified Methanobrevibacter
+107	Methanosphaera sp. WGK6 | WP_069592852	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanosphaera; unclassified Methanosphaera
+108	Methanothermobacter sp. MT-2 | BAW31089	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanothermobacter; unclassified Methanothermobacter
+109	Methanobacteriaceae archaeon 41_258 | KUK01322	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; unclassified Methanobacteriaceae
+110	Methanothermus fervidus | WP_013413452	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanothermaceae; Methanothermus; Methanothermus fervidus
+111	Methanobacteriales archaeon HGW-Methanobacteriales-1 | PKL67828	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; unclassified Methanobacteriales
+112	Methanocaldococcus fervens | WP_015791895	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus fervens
+113	Methanocaldococcus infernus | WP_013100517	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus infernus
+114	Methanocaldococcus vulcanius | WP_012819801	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus vulcanius
+115	Methanocaldococcus sp. FS406-22 | WP_012980814	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; unclassified Methanocaldococcus
+116	Methanotorris formicicus | WP_007043563	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanotorris; Methanotorris formicicus
+117	Methanotorris igneus | WP_013798736	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanotorris; Methanotorris igneus
+118	Methanococcus aeolicus | WP_011974085	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus aeolicus
+119	Methanococcus maripaludis | WP_011868107	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus maripaludis
+120	Methanococcus maripaludis | WP_013999648	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus maripaludis
+121	Methanococcus vannielii | WP_011972379	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus vannielii
+122	Methanococcus voltae | WP_013180037	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus voltae
+123	Methanothermococcus okinawensis | WP_013866820	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanothermococcus; Methanothermococcus okinawensis
+124	Methanothermococcus thermolithotrophicus | WP_018153235	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanothermococcus; Methanothermococcus thermolithotrophicus
+125	Methanocella arvoryzae | WP_012034625	Archaea; Euryarchaeota; Methanomicrobia; Methanocellales; Methanocellaceae; Methanocella; Methanocella arvoryzae
+126	Methanomicrobium mobile | WP_042706027	Archaea; Euryarchaeota; Methanomicrobia; Methanomicrobiales; Methanomicrobiaceae; Methanomicrobium; Methanomicrobium mobile
+127	Methanohalophilus euhalobius | WP_105459994	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanohalophilus; Methanohalophilus euhalobius
+128	Methanohalophilus halophilus | WP_072561698	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanohalophilus; Methanohalophilus halophilus
+129	Methanohalophilus mahii | WP_013037767	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanohalophilus; Methanohalophilus mahii
+130	Methanohalophilus portucalensis | WP_072359941	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanohalophilus; Methanohalophilus portucalensis
+131	Methanosarcina | WP_048118454	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina
+132	Methanosarcina flavescens | WP_054298000	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina flavescens
+133	Methanosarcina horonobensis | WP_048139416	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina horonobensis
+134	Methanosarcina lacustris | WP_048126605	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina lacustris
+135	Methanosarcina siciliae | WP_048172020	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina siciliae
+136	Methanosarcina soligelidi | WP_048051205	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina soligelidi
+137	Methanosarcina spelaei | WP_095643185	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina spelaei
+138	Methanosarcina thermophila | WP_048166715	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina thermophila
+139	Methanosarcina sp. Ant1 | OEU42880	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; unclassified Methanosarcina
+140	Methanosarcina sp. MTP4 | WP_048178506	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; unclassified Methanosarcina
+141	Methanonatronarchaeum thermophilum | OUJ19257	Archaea; Euryarchaeota; Methanonatronarchaeia; Methanonatronarchaeales; Methanonatronarchaeaceae; Methanonatronarchaeum; Methanonatronarchaeum thermophilum
+142	Palaeococcus ferrophilus | WP_048148234	Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Palaeococcus; Palaeococcus ferrophilus
+143	Pyrococcus furiosus | WP_011012127	Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Pyrococcus; Pyrococcus furiosus
+144	Pyrococcus sp. ST04 | WP_014734201	Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Pyrococcus; unclassified Pyrococcus
+145	Thermococcus barophilus | WP_013466681	Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Thermococcus; Thermococcus barophilus
+146	Thermococcus barossii | WP_088864346	Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Thermococcus; Thermococcus barossii
+147	Thermococcus chitonophagus | WP_068576720	Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Thermococcus; Thermococcus chitonophagus
+148	Thermococcus gammatolerans | WP_015858765	Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Thermococcus; Thermococcus gammatolerans
+149	Thermococcus kodakarensis | WP_011249876	Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Thermococcus; Thermococcus kodakarensis
+150	Thermococcus paralvinellae | WP_042679892	Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Thermococcus; Thermococcus paralvinellae
+151	Thermococcus radiotolerans | WP_088866492	Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Thermococcus; Thermococcus radiotolerans
+152	Thermococcus sibiricus | WP_015848902	Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Thermococcus; Thermococcus sibiricus
+153	Thermococcus thioreducens | WP_055430232	Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Thermococcus; Thermococcus thioreducens
+154	Thermococcus sp. PK | WP_042700985	Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Thermococcus; unclassified Thermococcus
+155	Thermococcus sp. EP1 | WP_055282889	Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Thermococcus; unclassified Thermococcus
+156	Thermococcus sp. 5-4 | WP_088180122	Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Thermococcus; unclassified Thermococcus
+157	Thermococcus sp. P6 | WP_088882793	Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Thermococcus; unclassified Thermococcus
+158	candidate division MSBL1 archaeon SCGC-AAA259B11 | KXA90550	Archaea; Euryarchaeota; unclassified Euryarchaeota; candidate division MSBL1
+159	candidate division MSBL1 archaeon SCGC-AAA259E19 | KXA92054	Archaea; Euryarchaeota; unclassified Euryarchaeota; candidate division MSBL1
+160	candidate division MSBL1 archaeon SCGC-AAA261C02 | KXA99179	Archaea; Euryarchaeota; unclassified Euryarchaeota; candidate division MSBL1
+161	candidate division MSBL1 archaeon SCGC-AAA382F02 | KXB06415	Archaea; Euryarchaeota; unclassified Euryarchaeota; candidate division MSBL1
+162	Euryarchaeota archaeon SM23-78 | KYK24585	Archaea; Euryarchaeota; unclassified Euryarchaeota; unclassified Euryarchaeota miscellaneous
+163	Candidatus Nitrosotalea sinensis | WP_101009470	Archaea; Thaumarchaeota; unclassified Thaumarchaeota; Candidatus Nitrosotalea
+164	Aigarchaeota archaeon NZ13_MG1 | PUA34072	Archaea; Thaumarchaeota; unclassified Thaumarchaeota; unclassified Thaumarchaeota miscellaneous
+165	Enorma | WP_019239387	Bacteria; Actinobacteria; Coriobacteriia; Coriobacteriales; Coriobacteriaceae; Enorma
+166	Muricauda antarctica | WP_072882677	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Muricauda; Muricauda antarctica
+167	Candidatus Cloacimonetes bacterium | PID28971	Bacteria; Candidatus Cloacimonetes; unclassified Candidatus Cloacimonetes
+168	Meiothermus | WP_027886476	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Meiothermus
+169	Meiothermus taiwanensis | WP_043981899	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Meiothermus; Meiothermus taiwanensis
+170	Thermus amyloliquefaciens | WP_038058695	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus; Thermus amyloliquefaciens
+171	Thermus antranikianii | WP_028493666	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus; Thermus antranikianii
+172	Thermus caliditerrae | WP_038048522	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus; Thermus caliditerrae
+173	Thermus filiformis | WP_038062832	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus; Thermus filiformis
+174	Thermus tengchongensis | WP_038041042	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus; Thermus tengchongensis
+175	Thermus tenuipuniceus | WP_105316710	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus; Thermus tenuipuniceus
+176	Thermus thermophilus | BAW01982	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus; Thermus thermophilus
+177	Thermus thermophilus | WP_014510977	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus; Thermus thermophilus
+178	Fibrobacter sp. UWS2 | WP_106519129	Bacteria; Fibrobacteres; Fibrobacteria; Fibrobacterales; Fibrobacteraceae; Fibrobacter; unclassified Fibrobacter
+179	Fibrobacteres bacterium CG2_30_45_31 | OIP54238	Bacteria; Fibrobacteres; unclassified Fibrobacteres
+180	Effusibacillus pohliae | WP_018130776	Bacteria; Firmicutes; Bacilli; Bacillales; Alicyclobacillaceae; Effusibacillus; Effusibacillus pohliae
+181	Tumebacillus algifaecis | WP_094235844	Bacteria; Firmicutes; Bacilli; Bacillales; Alicyclobacillaceae; Tumebacillus; Tumebacillus algifaecis
+182	Tumebacillus avium | WP_087455039	Bacteria; Firmicutes; Bacilli; Bacillales; Alicyclobacillaceae; Tumebacillus; Tumebacillus avium
+183	Paenibacillus | WP_107733932	Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus
+184	Desulfuribacillus alkaliarsenatis | WP_069644430	Bacteria; Firmicutes; Bacilli; Bacillales; unclassified Bacillales; Desulfuribacillus; Desulfuribacillus alkaliarsenatis
+185	Aerococcus suis | WP_084097703	Bacteria; Firmicutes; Bacilli; Lactobacillales; Aerococcaceae; Aerococcus; Aerococcus suis
+186	Streptococcus pneumoniae | COG57730	Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae; Streptococcus; Streptococcus pneumoniae
+187	Clostridium | WP_066022547	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium
+188	unclassified Clostridium | WP_078682357	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium
+189	Clostridium bornimense | WP_044038975	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium bornimense
+190	Clostridium celatum | WP_005214893	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium celatum
+191	Clostridium cochlearium | WP_096634988	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium cochlearium
+192	Clostridium fallax | WP_072895955	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium fallax
+193	Clostridium grantii | WP_073340541	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium grantii
+194	Clostridium hydrogeniformans | WP_027634258	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium hydrogeniformans
+195	Clostridium lundense | WP_027626878	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium lundense
+196	Clostridium peptidivorans | WP_097027610	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium peptidivorans
+197	Clostridium tetani | WP_023439262	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium tetani
+198	Clostridium thermopalmarium | WP_106023840	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium thermopalmarium
+199	Clostridium tyrobutyricum | WP_039656306	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium tyrobutyricum
+200	Clostridium sp. CAG:632 | CCY59635	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; environmental samples
+201	Clostridium sp. CAG:127 | CCZ05669	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; environmental samples
+202	Clostridium sp. CAG:265 | CDB75189	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; environmental samples
+203	uncultured Clostridium sp. | SCJ55973	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; environmental samples
+204	Clostridium sp. HMP27 | KGK87850	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; unclassified Clostridium
+205	Clostridium sp. KLE 1755 | WP_021640115	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; unclassified Clostridium
+206	Lactonifactor longoviformis | WP_072851029	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Lactonifactor; Lactonifactor longoviformis
+207	Oxobacter pfennigii | WP_054876865	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Oxobacter; Oxobacter pfennigii
+208	Emergencia timonensis | WP_082907551	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiales Family XIII. Incertae Sedis; Emergencia; Emergencia timonensis
+209	Eubacterium infirmum | WP_005999683	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiales incertae sedis; Clostridiales Family XIII. Incertae Sedis; Eubacterium infirmum
+210	Eubacterium nodatum | WP_034821675	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiales incertae sedis; Clostridiales Family XIII. Incertae Sedis; Eubacterium nodatum
+211	Eubacterium sulci | WP_034813658	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiales incertae sedis; Clostridiales Family XIII. Incertae Sedis; Eubacterium sulci
+212	Defluviitalea phaphyphila | WP_058484882	Bacteria; Firmicutes; Clostridia; Clostridiales; Defluviitaleaceae; Defluviitalea; Defluviitalea phaphyphila
+213	Eubacterium sp. CAG:156 | CDA29744	Bacteria; Firmicutes; Clostridia; Clostridiales; Eubacteriaceae; Eubacterium; environmental samples
+214	Eubacterium sp. CAG:274 | CDC20817	Bacteria; Firmicutes; Clostridia; Clostridiales; Eubacteriaceae; Eubacterium; environmental samples
+215	uncultured Eubacterium sp. | SCJ97091	Bacteria; Firmicutes; Clostridia; Clostridiales; Eubacteriaceae; Eubacterium; environmental samples
+216	Eubacterium sp. AB3007 | WP_027869122	Bacteria; Firmicutes; Clostridia; Clostridiales; Eubacteriaceae; Eubacterium; unclassified Eubacterium
+217	Pseudobacteroides cellulosolvens | WP_036938394	Bacteria; Firmicutes; Clostridia; Clostridiales; Hungateiclostridiaceae; Pseudobacteroides; Pseudobacteroides cellulosolvens
+218	Anaerobutyricum hallii | WP_005343515	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Anaerobutyricum; Anaerobutyricum hallii
+219	Blautia schinkii | WP_044942599	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Blautia; Blautia schinkii
+220	Blautia sp. CAG:257 | CDA06591	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Blautia; environmental samples
+221	uncultured Blautia sp. | SCH23838	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Blautia; environmental samples
+222	uncultured Blautia sp. | SCH60259	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Blautia; environmental samples
+223	uncultured Blautia sp. | SCI39243	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Blautia; environmental samples
+224	Butyrivibrio sp. LC3010 | WP_026510319	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Butyrivibrio; unclassified Butyrivibrio
+225	Epulopiscium sp. SCG-C07WGA-EpuloA2 | ONI45171	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Epulopiscium; unclassified Epulopiscium
+226	Epulopiscium sp. AS2M-Bin001 | OON94648	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Epulopiscium; unclassified Epulopiscium
+227	Epulopiscium sp. 'N.t. morphotype B' | WP_010166182	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Epulopiscium; unclassified Epulopiscium
+228	Lachnotalea glycerini | WP_094377431	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Lachnotalea; Lachnotalea glycerini
+229	Niameybacter massiliensis | WP_053986205	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Niameybacter; Niameybacter massiliensis
+230	Lachnospiraceae bacterium V9D3004 | WP_027104572	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; unclassified Lachnospiraceae
+231	Lachnospiraceae bacterium AC2029 | WP_034230408	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; unclassified Lachnospiraceae
+232	Lachnospiraceae bacterium TWA4 | WP_042736520	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; unclassified Lachnospiraceae
+233	Lachnospiraceae bacterium NK3A20 | WP_089940062	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; unclassified Lachnospiraceae
+234	Desulfotomaculum sp. 46_80 | KUK65029	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfotomaculum; unclassified Desulfotomaculum
+235	Peptostreptococcaceae bacterium pGA-8 | WP_092088846	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptostreptococcaceae; unclassified Peptostreptococcaceae; unclassified Peptostreptococcaceae miscellaneous
+236	Syntrophomonas wolfei | WP_061214223	Bacteria; Firmicutes; Clostridia; Clostridiales; Syntrophomonadaceae; Syntrophomonas; Syntrophomonas wolfei
+237	Vallitalea sp. S15 | WP_105614489	Bacteria; Firmicutes; Clostridia; Clostridiales; Vallitaleaceae; Vallitalea; unclassified Vallitalea
+238	Clostridiales bacterium GWB2_37_7 | OGO76593	Bacteria; Firmicutes; Clostridia; Clostridiales; unclassified Clostridiales; unclassified Clostridiales miscellaneous
+239	Halobacteroides halobius | WP_015327686	Bacteria; Firmicutes; Clostridia; Halanaerobiales; Halobacteroidaceae; Halobacteroides; Halobacteroides halobius
+240	Halonatronum saccharophilum | WP_027340645	Bacteria; Firmicutes; Clostridia; Halanaerobiales; Halobacteroidaceae; Halonatronum; Halonatronum saccharophilum
+241	Tepidanaerobacter acetatoxydans | WP_013777788	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Tepidanaerobacter; Tepidanaerobacter acetatoxydans
+242	Tepidanaerobacter syntrophicus | WP_059031543	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Tepidanaerobacter; Tepidanaerobacter syntrophicus
+243	Thermoanaerobacter italicus | WP_012995507	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Thermoanaerobacter; Thermoanaerobacter italicus
+244	Thermoanaerobacter kivui | WP_049685452	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Thermoanaerobacter; Thermoanaerobacter kivui
+245	Thermoanaerobacter uzonensis | WP_072968381	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Thermoanaerobacter; Thermoanaerobacter uzonensis
+246	Caldanaerovirga acetigignens | WP_073253562	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Caldanaerovirga; Caldanaerovirga acetigignens
+247	Thermoanaerobacterium saccharolyticum | WP_045408610	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Thermoanaerobacterium; Thermoanaerobacterium saccharolyticum
+248	Thermoanaerobacterium thermosaccharolyticum | WP_094396696	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Thermoanaerobacterium; Thermoanaerobacterium thermosaccharolyticum
+249	Thermoanaerobacterium xylanolyticum | WP_013787805	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Thermoanaerobacterium; Thermoanaerobacterium xylanolyticum
+250	Thermoanaerobacterium sp. RBIITD | WP_096230275	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Thermoanaerobacterium; unclassified Thermoanaerobacterium
+251	Thermovenabulum gondwanense | WP_068748791	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Thermovenabulum; Thermovenabulum gondwanense
+252	Firmicutes bacterium CAG:791 | CCX64152	Bacteria; Firmicutes; environmental samples
+253	Nitrospira bacterium SG8_35_4 | KPK01074	Bacteria; Nitrospirae; Nitrospira; unclassified Nitrospira
+254	Nitrospira bacterium SG8_35_1 | KPK33774	Bacteria; Nitrospirae; Nitrospira; unclassified Nitrospira
+255	Magnetofaba australis | WP_085444596	Bacteria; Proteobacteria; Alphaproteobacteria; Magnetococcales; Magnetococcaceae; Magnetofaba; Magnetofaba australis
+256	Candidatus Magnetoglobus multicellularis str. Araruama | ETR74322	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Candidatus Magnetoglobus; Candidatus Magnetoglobus multicellularis
+257	Desulfatirhabdium butyrativorans | WP_028323969	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfatirhabdium; Desulfatirhabdium butyrativorans
+258	Desulfobacula phenolica | WP_092231134	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfobacula; Desulfobacula phenolica
+259	Desulfobacula sp. RIFOXYB2_FULL_45_6 | OGR31761	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfobacula; unclassified Desulfobacula
+260	Desulfobacula sp. TS | WP_031449151	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfobacula; unclassified Desulfobacula
+261	Desulfobacteraceae bacterium IS3 | OQX27833	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; unclassified Desulfobacteraceae
+262	Desulfobacteraceae bacterium 4572_88 | OQY59878	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; unclassified Desulfobacteraceae
+263	Desulfobulbus japonicus | WP_028580653	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobulbaceae; Desulfobulbus; Desulfobulbus japonicus
+264	Desulfuromonas sp. | PLX72102	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Desulfuromonadaceae; Desulfuromonas; unclassified Desulfuromonas
+265	Smithella sp. SDB | KQC09089	Bacteria; Proteobacteria; Deltaproteobacteria; Syntrophobacterales; Syntrophaceae; Smithella; unclassified Smithella
+266	Deltaproteobacteria bacterium DG_8 | KPJ58048	Bacteria; Proteobacteria; Deltaproteobacteria; unclassified Deltaproteobacteria; unclassified Deltaproteobacteria miscellaneous
+267	Deltaproteobacteria bacterium RIFCSPHIGHO2_02_FULL_44_16 | OGQ21776	Bacteria; Proteobacteria; Deltaproteobacteria; unclassified Deltaproteobacteria; unclassified Deltaproteobacteria miscellaneous
+268	Deltaproteobacteria bacterium CG2_30_43_15 | OIP29196	Bacteria; Proteobacteria; Deltaproteobacteria; unclassified Deltaproteobacteria; unclassified Deltaproteobacteria miscellaneous
+269	Deltaproteobacteria bacterium HGW-Deltaproteobacteria-9 | PKN04365	Bacteria; Proteobacteria; Deltaproteobacteria; unclassified Deltaproteobacteria; unclassified Deltaproteobacteria miscellaneous
+270	Deltaproteobacteria bacterium HGW-Deltaproteobacteria-19 | PKN34515	Bacteria; Proteobacteria; Deltaproteobacteria; unclassified Deltaproteobacteria; unclassified Deltaproteobacteria miscellaneous
+271	Deltaproteobacteria bacterium HGW-Deltaproteobacteria-1 | PKN87612	Bacteria; Proteobacteria; Deltaproteobacteria; unclassified Deltaproteobacteria; unclassified Deltaproteobacteria miscellaneous
+272	Methylococcaceae bacterium TMED282 | OUX52387	Bacteria; Proteobacteria; Gammaproteobacteria; Methylococcales; Methylococcaceae; unclassified Methylococcaceae
+273	Pseudoxanthomonas suwonensis | WP_028918627	Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales; Xanthomonadaceae; Pseudoxanthomonas; Pseudoxanthomonas suwonensis
+274	Stenotrophomonas maltophilia | WP_100446308	Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales; Xanthomonadaceae; Stenotrophomonas; Stenotrophomonas maltophilia
+275	Thermomonas fusca | WP_028839023	Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales; Xanthomonadaceae; Thermomonas; Thermomonas fusca
+276	Proteobacteria bacterium | PID39016	Bacteria; Proteobacteria; unclassified Proteobacteria; unclassified Proteobacteria miscellaneous
+277	Borrelia duttonii | WP_038366364	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borrelia; Borrelia duttonii
+278	Borrelia hermsii | WP_025406571	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borrelia; Borrelia hermsii
+279	Borrelia miyamotoi | ASQ29284	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borrelia; Borrelia miyamotoi
+280	Borrelia persica | WP_024653519	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borrelia; Borrelia persica
+281	Borrelia turicatae | WP_011772459	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borrelia; Borrelia turicatae
+282	Borrelia mayonii | WP_075552185	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borreliella; Borrelia mayonii
+283	Borreliella afzelii | WP_048830617	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borreliella; Borreliella afzelii
+284	Borreliella bissettii | WP_071983467	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borreliella; Borreliella bissettii
+285	Borreliella burgdorferi | WP_002665361	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borreliella; Borreliella burgdorferi
+286	Borreliella chilensis | AJA90321	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borreliella; Borreliella chilensis
+287	Borreliella garinii | WP_031530958	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borreliella; Borreliella garinii
+288	Borreliella japonica | WP_091972097	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borreliella; Borreliella japonica
+289	Borreliella spielmanii | WP_006433930	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borreliella; Borreliella spielmanii
+290	Sphaerochaeta globosa | WP_013606343	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Spirochaetaceae; Sphaerochaeta; Sphaerochaeta globosa
+291	Treponema saccharophilum | WP_002704692	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Spirochaetaceae; Treponema; Treponema saccharophilum
+292	Spirochaetae bacterium HGW-Spirochaetae-3 | PKL23376	Bacteria; Spirochaetes; unclassified Spirochaetes
+293	Thermotoga sp. Mc24 | WP_038054071	Bacteria; Thermotogae; Thermotogae; Thermotogales; Thermotogaceae; Thermotoga; unclassified Thermotoga
+294	Thermotoga sp. KOL6 | WP_101511204	Bacteria; Thermotogae; Thermotogae; Thermotogales; Thermotogaceae; Thermotoga; unclassified Thermotoga

@@ -1,0 +1,5356 @@
+19/02 19:46:42 INFO:
+
+##			Creating TreeSAPP reference package			##
+
+19/02 19:46:42 INFO:
+Arguments used:
+-b 0 -m prot --fast --headless --delete --overwrite -t p --screen Bacteria,Archaea --kind taxonomic --trim_align --cluster -i Translation/PheT/PF01409_ncbi_ML60_uclust99.faa -c PheT -p 0.95 -o Translation/PheT/seed_refpkg/ --profile Translation/PheT/TIGR00471_00472.HMM
+
+19/02 19:46:42 DEBUG:
+Continuing with stage 'search'
+
+19/02 19:46:43 DEBUG:
+Read 26071 headers from Translation/PheT/PF01409_ncbi_ML60_uclust99.faa.
+
+19/02 19:46:43 DEBUG:
+Raw, unfiltered sequence summary:
+	Number of sequences: 26070
+	Longest sequence length: 3753
+	Shortest sequence length: 245
+	Mean sequence length: 397.0
+	Median sequence length: 357.0
+
+19/02 19:46:43 INFO:
+Searching for domain sequences... 
+19/02 19:46:57 INFO:
+done.
+
+19/02 19:46:57 DEBUG:
+Filtering HMM alignments using the following thresholds:
+	Maximum E-value = 1e-05
+	Maximum i-Evalue = 0.001
+	Minimum acc = 0.7
+	Minimum score = 20
+	Minimum percentage of the HMM covered = 60%
+
+19/02 19:46:57 INFO:
+Parsing HMMER domain tables for high-quality matches... 
+19/02 19:46:58 INFO:
+done.
+
+19/02 19:46:58 DEBUG:
+	Initial alignments:	6045
+	Alignments discarded:	4087
+	Fragmented alignments:	1653
+	Inversions detected:	18
+	Alignments scaffolded:	823
+	Multi-alignments:	0
+	Sequences identified:	428
+
+	Number of markers identified:
+		TIGR00471	428
+
+19/02 19:46:58 DEBUG:
+Creating a temporary dictionary for rapid sequence name look-ups... 
+19/02 19:46:58 DEBUG:
+done.
+
+19/02 19:46:58 INFO:
+Extracting the quality-controlled protein sequences... 
+19/02 19:46:58 INFO:
+done.
+
+19/02 19:46:58 INFO:
+Low coverage TIGR00471 profile windows (start-stop):
+	549-end
+
+19/02 19:46:58 INFO:
+Maximum coverage for TIGR00471 = 428 sequences
+
+19/02 19:46:58 DEBUG:
+Read 428 headers from Translation/PheT/seed_refpkg/intermediates/PheT_hmm_purified.fasta.
+
+19/02 19:46:58 INFO:
+Sequence summary:
+	Number of sequences: 428
+	Longest sequence length: 632
+	Shortest sequence length: 352
+	Mean sequence length: 559.9
+	Median sequence length: 562.0
+
+19/02 19:46:58 INFO:
+Extracting information from headers... 
+19/02 19:46:58 INFO:
+done.
+
+19/02 19:46:58 DEBUG:
+	Number of input sequences =	428
+
+19/02 19:46:58 DEBUG:
+	Number of queries =	428
+
+19/02 19:46:58 INFO:
+Preparing Bio.Entrez for NCBI queries... 
+19/02 19:46:59 INFO:
+done.
+
+19/02 19:46:59 INFO:
+Retrieving Entrez taxonomy records for each accession... 
+19/02 19:51:00 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 100	3.0:19.69
+	100 - 200	0.0:28.52
+	200 - 300	0.0:5.71
+	300 - 400	0.0:5.01
+	400 - 500	0.0:2.36
+
+19/02 19:51:00 INFO:
+done.
+
+19/02 19:51:00 DEBUG:
+128 unique organism queries.
+
+19/02 19:51:00 INFO:
+Retrieving NCBI taxonomy IDs for each organism... 
+19/02 19:52:24 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 1	0.0:0.66
+	1 - 2	0.0:0.66
+	2 - 3	0.0:0.66
+	3 - 4	0.0:0.66
+	4 - 5	0.0:0.66
+	5 - 6	0.0:0.66
+	6 - 7	0.0:0.66
+	7 - 8	0.0:0.66
+	8 - 9	0.0:0.66
+	9 - 10	0.0:0.66
+	10 - 11	0.0:0.66
+	11 - 12	0.0:0.66
+	12 - 13	0.0:0.66
+	13 - 14	0.0:0.66
+	14 - 15	0.0:0.66
+	15 - 16	0.0:0.66
+	16 - 17	0.0:0.66
+	17 - 18	0.0:0.66
+	18 - 19	0.0:0.66
+	19 - 20	0.0:0.66
+	20 - 21	0.0:0.66
+	21 - 22	0.0:0.66
+	22 - 23	0.0:0.66
+	23 - 24	0.0:0.66
+	24 - 25	0.0:0.66
+	25 - 26	0.0:0.66
+	26 - 27	0.0:0.66
+	27 - 28	0.0:0.66
+	28 - 29	0.0:0.66
+	29 - 30	0.0:0.66
+	30 - 31	0.0:0.66
+	31 - 32	0.0:0.66
+	32 - 33	0.0:0.66
+	33 - 34	0.0:0.66
+	34 - 35	0.0:0.66
+	35 - 36	0.0:0.66
+	36 - 37	0.0:0.66
+	37 - 38	0.0:0.66
+	38 - 39	0.0:0.66
+	39 - 40	0.0:0.66
+	40 - 41	0.0:0.66
+	41 - 42	0.0:0.66
+	42 - 43	0.0:0.66
+	43 - 44	0.0:0.66
+	44 - 45	0.0:0.66
+	45 - 46	0.0:0.66
+	46 - 47	0.0:0.66
+	47 - 48	0.0:0.66
+	48 - 49	0.0:0.66
+	49 - 50	0.0:0.66
+	50 - 51	0.0:0.66
+	51 - 52	0.0:0.66
+	52 - 53	0.0:0.66
+	53 - 54	0.0:0.66
+	54 - 55	0.0:0.66
+	55 - 56	0.0:0.66
+	56 - 57	0.0:0.66
+	57 - 58	0.0:0.66
+	58 - 59	0.0:0.66
+	59 - 60	0.0:0.66
+	60 - 61	0.0:0.66
+	61 - 62	0.0:0.66
+	62 - 63	0.0:0.66
+	63 - 64	0.0:0.66
+	64 - 65	0.0:0.66
+	65 - 66	0.0:0.66
+	66 - 67	0.0:0.66
+	67 - 68	0.0:0.66
+	68 - 69	0.0:0.66
+	69 - 70	0.0:0.66
+	70 - 71	0.0:0.66
+	71 - 72	0.0:0.66
+	72 - 73	0.0:0.66
+	73 - 74	0.0:0.66
+	74 - 75	0.0:0.66
+	75 - 76	0.0:0.66
+	76 - 77	0.0:0.66
+	77 - 78	0.0:0.66
+	78 - 79	0.0:0.66
+	79 - 80	0.0:0.66
+	80 - 81	0.0:0.66
+	81 - 82	0.0:0.66
+	82 - 83	0.0:0.66
+	83 - 84	0.0:0.66
+	84 - 85	0.0:0.66
+	85 - 86	0.0:0.66
+	86 - 87	0.0:0.66
+	87 - 88	0.0:0.66
+	88 - 89	0.0:0.66
+	89 - 90	0.0:0.66
+	90 - 91	0.0:0.66
+	91 - 92	0.0:0.66
+	92 - 93	0.0:0.66
+	93 - 94	0.0:0.66
+	94 - 95	0.0:0.66
+	95 - 96	0.0:0.66
+	96 - 97	0.0:0.66
+	97 - 98	0.0:0.66
+	98 - 99	0.0:0.66
+	99 - 100	0.0:0.66
+	100 - 101	0.0:0.66
+	101 - 102	0.0:0.66
+	102 - 103	0.0:0.66
+	103 - 104	0.0:0.66
+	104 - 105	0.0:0.66
+	105 - 106	0.0:0.66
+	106 - 107	0.0:0.66
+	107 - 108	0.0:0.66
+	108 - 109	0.0:0.66
+	109 - 110	0.0:0.66
+	110 - 111	0.0:0.66
+	111 - 112	0.0:0.66
+	112 - 113	0.0:0.66
+	113 - 114	0.0:0.66
+	114 - 115	0.0:0.66
+	115 - 116	0.0:0.66
+	116 - 117	0.0:0.66
+	117 - 118	0.0:0.66
+	118 - 119	0.0:0.66
+	119 - 120	0.0:0.66
+	120 - 121	0.0:0.66
+	121 - 122	0.0:0.66
+	122 - 123	0.0:0.66
+	123 - 124	0.0:0.66
+	124 - 125	0.0:0.66
+	125 - 126	0.0:0.66
+	126 - 127	0.0:0.66
+	127 - 128	0.0:0.66
+
+19/02 19:52:24 INFO:
+done.
+
+19/02 19:52:24 INFO:
+Preparing Bio.Entrez for NCBI queries... 
+19/02 19:52:25 INFO:
+done.
+
+19/02 19:52:25 INFO:
+Retrieving lineage information for each taxonomy ID... 
+19/02 19:52:31 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 100	0.0:0.82
+	100 - 200	0.0:5.32
+
+19/02 19:52:31 INFO:
+done.
+
+19/02 19:52:31 DEBUG:
+Queries mapped ideally = 138
+Queries with organism unmapped = 0
+Queries with NCBI taxonomy ID unmapped = 290
+Queries mapped with alternative accessions = 0
+Queries that outright failed = 0
+
+19/02 19:52:31 DEBUG:
+Entrez.efetch query stats:
+	Downloaded	428
+	Provided	0
+	Total		428
+
+
+19/02 19:52:31 DEBUG:
+	48 sequences removed after failing screen.
+	0 sequences removed after failing filter.
+	380 sequences retained.
+
+19/02 19:52:31 DEBUG:
+	11 sequences removed with truncated taxonomic lineages.
+	358 sequences retained for building tree.
+
+19/02 19:52:31 INFO:
+Clustering sequences with UCLUST... 
+19/02 19:52:31 INFO:
+done.
+
+19/02 19:52:31 DEBUG:
+usearch v9.2.64_i86linux32, 4.0Gb RAM (16.4Gb total), 4 cores
+(C) Copyright 2013-16 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: c.morganlang@gmail.com
+
+00:00 37Mb      0.1% Reading Translation/PheT/seed_refpkg/intermediates/PF01409_ncbi_ML60_uclust99_uclust_input.fasta00:00 40Mb    100.0% Reading Translation/PheT/seed_refpkg/intermediates/PF01409_ncbi_ML60_uclust99_uclust_input.fasta
+00:00 36Mb      1.1% DF                                                                                              00:00 35Mb    100.0% DF
+00:00 35Mb   369 seqs, 369 uniques, 369 singletons (100.0%)
+00:00 35Mb   Min size 1, median 1, max 1, avg 1.00
+00:00 38Mb      0.3% DB00:00 38Mb    100.0% DB
+00:00 38Mb   Sort length... done.
+00:00 78Mb      0.3% Clustering00:00 78Mb      0.3% 0 clusters, max size 0, avg 0.000:00 94Mb    100.0% 295 clusters, max size 6, avg 1.3
+00:00 94Mb      0.3% Writing centroids to Translation/PheT/seed_refpkg/intermediates/PF01409_ncbi_ML60_uclust99_uclust0.95.fa00:00 94Mb    100.0% Writing centroids to Translation/PheT/seed_refpkg/intermediates/PF01409_ncbi_ML60_uclust99_uclust0.95.fa
+                                                                                                                             
+      Seqs  369
+  Clusters  295
+  Max size  6
+  Avg size  1.3
+  Min size  1
+Singletons  247, 66.9% of seqs, 83.7% of clusters
+   Max mem  94Mb
+      Time  1.00s
+Throughput  369.0 seqs/sec.
+
+
+19/02 19:52:31 DEBUG:
+Reading usearch cluster file... 
+19/02 19:52:31 DEBUG:
+done.
+
+19/02 19:52:31 DEBUG:
+	295 sequence clusters
+
+19/02 19:52:31 DEBUG:
+Finalizing representative sequence clusters... 
+19/02 19:52:31 DEBUG:
+done.
+
+19/02 19:52:31 DEBUG:
+Re-enumerating the reference sequences in taxonomic order... 
+19/02 19:52:31 DEBUG:
+done.
+
+19/02 19:52:31 INFO:
+Detecting outlier reference sequences... 
+19/02 19:52:44 INFO:
+done.
+
+19/02 19:52:44 DEBUG:
+1 outlier sequences detected and discarded.
+	PIN72007
+
+19/02 19:52:44 DEBUG:
+Re-enumerating the reference sequences in taxonomic order... 
+19/02 19:52:44 DEBUG:
+done.
+
+19/02 19:52:44 INFO:
+Generated the taxonomic lineage map Translation/PheT/seed_refpkg/final_outputs/tax_ids_PheT.txt
+
+19/02 19:52:44 INFO:
+Number of unique lineages:
+	Kingdoms   2
+	Phyla     21
+	Classes   38
+	Orders    42
+	Families  56
+	Genera   109
+	Species  204
+Unclassified lineages account for 81/294 (27.6%) references.
+
+19/02 19:52:44 INFO:
+Aligning the sequences using MAFFT... 
+19/02 19:52:57 INFO:
+done.
+
+19/02 19:52:57 DEBUG:
+Reference alignment contains 294 sequences with 1087 character positions.
+
+19/02 19:52:57 DEBUG:
+Building HMM profile... 
+19/02 19:52:58 DEBUG:
+done.
+
+19/02 19:52:58 INFO:
+Creating taxonomically-dereplicated HMM... 
+19/02 19:52:58 DEBUG:
+Read 294 headers from Translation/PheT/seed_refpkg/final_outputs/PheT.fa.
+
+19/02 19:52:58 DEBUG:
+42 lineages truncated before Genus were removed during lineage trimming.
+18 lineages unclassified at or before Genus also removed.
+
+19/02 19:52:58 DEBUG:
+135 Genus-dereplicated sequences retained for building HMM profile.
+
+19/02 19:52:58 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	101_PheT
+	149_PheT
+	80_PheT
+	151_PheT
+	112_PheT
+	221_PheT
+	137_PheT
+	15_PheT
+	198_PheT
+	51_PheT
+	20_PheT
+	138_PheT
+	131_PheT
+	190_PheT
+	1_PheT
+	95_PheT
+	85_PheT
+	16_PheT
+	67_PheT
+	197_PheT
+	53_PheT
+	232_PheT
+	123_PheT
+	247_PheT
+	146_PheT
+	45_PheT
+	215_PheT
+	99_PheT
+	204_PheT
+	102_PheT
+	114_PheT
+	60_PheT
+	81_PheT
+	133_PheT
+	192_PheT
+	104_PheT
+	46_PheT
+	244_PheT
+	75_PheT
+	174_PheT
+	278_PheT
+	193_PheT
+	113_PheT
+	172_PheT
+	171_PheT
+	62_PheT
+	253_PheT
+	72_PheT
+	261_PheT
+	129_PheT
+	134_PheT
+	79_PheT
+	222_PheT
+	160_PheT
+	35_PheT
+	118_PheT
+	64_PheT
+	89_PheT
+	91_PheT
+	61_PheT
+	73_PheT
+	214_PheT
+	154_PheT
+	170_PheT
+	258_PheT
+	230_PheT
+	168_PheT
+	286_PheT
+	128_PheT
+	156_PheT
+	288_PheT
+	269_PheT
+	173_PheT
+	155_PheT
+	159_PheT
+	189_PheT
+	210_PheT
+	11_PheT
+	121_PheT
+	83_PheT
+	65_PheT
+	194_PheT
+	120_PheT
+	98_PheT
+	105_PheT
+	285_PheT
+	175_PheT
+	188_PheT
+	68_PheT
+	199_PheT
+	145_PheT
+	42_PheT
+	139_PheT
+	54_PheT
+	44_PheT
+	100_PheT
+	26_PheT
+	116_PheT
+	17_PheT
+	231_PheT
+	55_PheT
+	249_PheT
+	270_PheT
+	226_PheT
+	22_PheT
+	202_PheT
+	201_PheT
+	153_PheT
+	241_PheT
+	181_PheT
+	203_PheT
+	50_PheT
+	213_PheT
+	196_PheT
+	293_PheT
+	119_PheT
+	47_PheT
+	152_PheT
+	200_PheT
+	103_PheT
+	132_PheT
+	277_PheT
+	283_PheT
+	225_PheT
+	219_PheT
+	279_PheT
+	220_PheT
+	94_PheT
+	14_PheT
+	147_PheT
+	187_PheT
+	248_PheT
+	12_PheT
+	195_PheT
+	280_PheT
+	282_PheT
+	21_PheT
+	176_PheT
+	267_PheT
+	97_PheT
+	243_PheT
+	150_PheT
+	143_PheT
+	191_PheT
+	287_PheT
+	148_PheT
+	34_PheT
+	66_PheT
+	284_PheT
+	135_PheT
+	209_PheT
+	266_PheT
+	127_PheT
+	87_PheT
+	136_PheT
+	259_PheT
+	268_PheT
+	77_PheT
+	158_PheT
+
+19/02 19:53:26 DEBUG:
+Building HMM profile... 
+19/02 19:53:26 DEBUG:
+done.
+
+19/02 19:53:26 INFO:
+done.
+
+19/02 19:53:26 INFO:
+Running BMGE... 
+19/02 19:53:26 DEBUG:
+STAGE: Multiple alignment trimming with BMGE
+	COMMAND:
+java -Xmx512m -jar /home/connor/Bioinformatics/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp/sub_binaries/BMGE.jar -t AA -m BLOSUM30 -g 0.99:0.33 -i Translation/PheT/seed_refpkg/final_outputs/PheT.fa -of Translation/PheT/seed_refpkg/final_outputs/PheT-BMGE.fasta
+
+19/02 19:53:27 INFO:
+done.
+
+19/02 19:53:27 DEBUG:
+	BMGE time required: 0.0:0.0:0.68
+
+19/02 19:53:27 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/final_outputs/PheT-BMGE.fasta = 0 (retained)
+
+19/02 19:53:27 INFO:
+Building phylogenetic tree with FastTree... 
+19/02 19:53:42 INFO:
+done.
+
+19/02 19:53:42 DEBUG:
+FastTree Version 2.1.10 Double precision (No SSE3)
+Alignment: Translation/PheT/seed_refpkg/intermediates/PheT.phy
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Le-Gascuel 2008, CAT approximation with 20 rate categories
+      0.14 seconds: Joined    200 of    291
+Initial topology in 0.19 seconds
+Refining topology: 33 rounds ME-NNIs, 2 rounds ME-SPRs, 16 rounds ML-NNIs
+      0.24 seconds: ME NNI round 4 of 33, 1 of 292 splits
+      0.45 seconds: SPR round   1 of   2, 201 of 586 nodes
+      0.55 seconds: SPR round   1 of   2, 301 of 586 nodes
+      0.66 seconds: SPR round   1 of   2, 401 of 586 nodes
+      0.78 seconds: SPR round   1 of   2, 501 of 586 nodes
+      0.91 seconds: ME NNI round 12 of 33, 1 of 292 splits
+      1.04 seconds: SPR round   2 of   2, 101 of 586 nodes
+      1.14 seconds: SPR round   2 of   2, 201 of 586 nodes
+      1.26 seconds: SPR round   2 of   2, 301 of 586 nodes
+      1.39 seconds: SPR round   2 of   2, 401 of 586 nodes
+      1.51 seconds: SPR round   2 of   2, 501 of 586 nodes
+      1.61 seconds: ME NNI round 23 of 33, 101 of 292 splits, 0 changes
+Total branch-length 44.343 after 1.65 sec
+      1.88 seconds: ML Lengths 101 of 292 splits
+      2.10 seconds: ML Lengths 201 of 292 splits
+      2.30 seconds: ML NNI round 1 of 16, 1 of 292 splits
+      3.09 seconds: ML NNI round 1 of 16, 101 of 292 splits, 13 changes (max delta 4.848)
+      3.90 seconds: ML NNI round 1 of 16, 201 of 292 splits, 31 changes (max delta 12.721)
+ML-NNI round 1: LogLk = -90034.782 NNIs 46 max delta 12.72 Time 4.64
+      4.70 seconds: Site likelihoods with rate category 1 of 20
+      4.84 seconds: Site likelihoods with rate category 3 of 20
+      4.97 seconds: Site likelihoods with rate category 5 of 20
+      5.10 seconds: Site likelihoods with rate category 7 of 20
+      5.23 seconds: Site likelihoods with rate category 9 of 20
+      5.36 seconds: Site likelihoods with rate category 11 of 20
+      5.48 seconds: Site likelihoods with rate category 13 of 20
+      5.61 seconds: Site likelihoods with rate category 15 of 20
+      5.74 seconds: Site likelihoods with rate category 17 of 20
+      5.88 seconds: Site likelihoods with rate category 19 of 20
+Switched to using 20 rate categories (CAT approximation)
+Rate categories were divided by 1.077 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+Use -gamma for approximate but comparable Gamma(20) log-likelihoods
+      6.07 seconds: ML NNI round 2 of 16, 1 of 292 splits
+      6.52 seconds: ML NNI round 2 of 16, 101 of 292 splits, 3 changes (max delta 2.051)
+      7.03 seconds: ML NNI round 2 of 16, 201 of 292 splits, 8 changes (max delta 5.204)
+ML-NNI round 2: LogLk = -85693.727 NNIs 16 max delta 5.20 Time 7.62
+      7.62 seconds: ML NNI round 3 of 16, 1 of 292 splits
+      8.11 seconds: ML NNI round 3 of 16, 101 of 292 splits, 4 changes (max delta 2.110)
+ML-NNI round 3: LogLk = -85677.875 NNIs 8 max delta 2.11 Time 8.46
+      8.46 seconds: ML NNI round 4 of 16, 1 of 292 splits
+ML-NNI round 4: LogLk = -85670.775 NNIs 3 max delta 0.88 Time 8.94
+      8.93 seconds: ML NNI round 5 of 16, 1 of 292 splits
+ML-NNI round 5: LogLk = -85666.478 NNIs 3 max delta 2.58 Time 9.27
+      9.26 seconds: ML NNI round 6 of 16, 1 of 292 splits
+ML-NNI round 6: LogLk = -85666.175 NNIs 1 max delta 0.06 Time 9.43
+Turning off heuristics for final round of ML NNIs (converged)
+      9.42 seconds: ML NNI round 7 of 16, 1 of 292 splits
+     10.36 seconds: ML NNI round 7 of 16, 101 of 292 splits, 1 changes (max delta 1.268)
+     11.33 seconds: ML NNI round 7 of 16, 201 of 292 splits, 1 changes (max delta 1.268)
+ML-NNI round 7: LogLk = -85644.804 NNIs 4 max delta 1.52 Time 12.24 (final)
+     12.23 seconds: ML Lengths 1 of 292 splits
+     12.47 seconds: ML Lengths 101 of 292 splits
+     12.72 seconds: ML Lengths 201 of 292 splits
+Optimize all lengths: LogLk = -85644.260 Time 12.95
+     13.66 seconds: ML split tests for    100 of    291 internal splits
+     14.38 seconds: ML split tests for    200 of    291 internal splits
+Total time: 15.05 seconds Unique: 294/294 Bad splits: 1/291 Worst delta-LogLk 1.040
+
+
+19/02 19:53:42 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+19/02 19:53:42 DEBUG:
+done.
+
+19/02 19:53:42 DEBUG:
+Unable to remove /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/PheT/seed_refpkg/intermediates/phylogeny_files/PheT.raxml.reduced.phy as it doesn't exist.
+
+19/02 19:53:42 DEBUG:
+Lowest reliable rank for taxonomic classification is: Kingdoms
+
+19/02 19:53:42 INFO:
+
+##			Train taxonomic rank-placement distance model			##
+
+19/02 19:53:42 INFO:
+Arguments used:
+-i Translation/PheT/seed_refpkg/intermediates/PF01409_ncbi_ML60_uclust99_filtered.fa -c PheT -p Translation/PheT/seed_refpkg/final_outputs/ -o Translation/PheT/seed_refpkg/intermediates/placement_trainer/ -m prot -a Translation/PheT/seed_refpkg/intermediates//accession_id_lineage_map.tsv -n 2 --trim_align
+
+19/02 19:53:42 DEBUG:
+Reading build parameters of reference markers... 
+19/02 19:53:42 DEBUG:
+done.
+
+19/02 19:53:42 DEBUG:
+Skipped the following lines:
+	#hzs
+	#hzao
+	#nirA
+	#MtrA
+	#MtrC
+	#MtrH
+	#CO_dh
+	#RBsCO
+	#OGFOxy
+	#CitSyn
+	#GH36
+	#GH31
+	#GH109
+	#GH115
+	#nirK	D0301	prot	PROTGAMMALG	functional	0.97	120	RAxML	-11.3207,6.9484	Orders	07_Dec_2018	nitrite reductase (NO-forming)
+	#RecA	P0001	prot	PROTGAMMALG	taxonomic	0.80	1110	RAxML	-5.4758,6.3838	Classes	12_Dec_2018
+	#McrA	M0701	prot	PROTGAMMALG	functional	0.97	211	FastTree	-4.08046639871,6.03601100802	Classes	04_Dec_2018
+	#McrB	M0702	prot	PROTGAMMALG	functional	0.97	157	FastTree	-4.82025271473,6.52717228329	Classes	04_Dec_2018
+	#McrG	M0705	prot	PROTGAMMALG	functional	0.97	155	FastTree	-5.23147387413,6.5926235222	Genera	04_Dec_2018
+	#napA	D0201	prot	PROTGAMMALG	functional	0.90	332	FastTree	-7.03985324603,6.60314540283	Classes	04_Dec_2018
+	#nifD	N0401	prot	PROTGAMMALG	functional	0.90	402	FastTree	-7.72039669919,6.16543737552	Orders	04_Dec_2018
+	#nifH	N0402	prot	PROTGAMMALG	functional	0.95	301	FastTree	-6.48773434909,6.41218539511	Phyla	04_Dec_2018
+	#nirK	D0301	prot	PROTGAMMALG	functional	0.97	120	FastTree	-11.8842768413,6.77906128214	Orders	04_Dec_2018
+	#nirS	D0302	prot	PROTGAMMALG	functional	0.97	184	FastTree	-5.49173161577,6.23728973299	Classes	04_Dec_2018
+	#norB	D0501	prot	PROTGAMMALG	functional	0.80	329	FastTree	-7.6070183552,6.48567258868	Orders	04_Dec_2018
+	#norC	D0502	prot	PROTGAMMALG	functional	0.90	223	FastTree	-6.61551453189,6.60317398186	Classes	04_Dec_2018
+	#norC	D0502	prot	PROTGAMMALG	functional	0.90	223	RAxML	-5.3221,6.3809	Classes	08_Dec_2018	nitric oxide reductase subunit C
+	#p_amoA	N0102	prot	PROTGAMMALG	functional	0.97	80	FastTree	-2.83232814805,5.67790899421	Families	04_Dec_2018
+	#nosZ	D0601	prot	PROTGAMMALG	functional	0.95	449	FastTree	-6.1988,6.095	Phyla	13_Mar_2019
+	#McrA	M0701	prot	PROTGAMMALG	functional	0.97	228	RAxML	-5.3509,7.0	Classes	29_Apr_2019	Methyl coenzyme M reductase alpha subunit
+
+19/02 19:53:42 DEBUG:
+Read 294 headers from Translation/PheT/seed_refpkg/final_outputs/PheT.fa.
+
+19/02 19:53:42 DEBUG:
+Unable to open stage file '' for reading. Defaulting to stage 2.
+
+19/02 19:53:42 DEBUG:
+Continuing with stage 'place'
+
+19/02 19:53:42 DEBUG:
+Read 369 headers from Translation/PheT/seed_refpkg/intermediates/PF01409_ncbi_ML60_uclust99_filtered.fa.
+
+19/02 19:53:42 INFO:
+Extracting information from headers... 
+19/02 19:53:42 INFO:
+done.
+
+19/02 19:53:42 DEBUG:
+	Number of input sequences =	369
+
+19/02 19:53:42 INFO:
+Reading cached lineages in 'Translation/PheT/seed_refpkg/intermediates//accession_id_lineage_map.tsv'... 
+19/02 19:53:42 INFO:
+done.
+
+19/02 19:53:42 DEBUG:
+Read 369 headers from Translation/PheT/seed_refpkg/intermediates/PF01409_ncbi_ML60_uclust99_filtered.fa.
+
+19/02 19:53:42 DEBUG:
+Checking for redundant sequences with duplicate accessions.
+
+19/02 19:53:42 DEBUG:
+Checking for redundant FASTA records with duplicate sequences... 
+19/02 19:53:42 DEBUG:
+0 lineages truncated before Kingdom were removed during lineage trimming.
+0 lineages unclassified at or before Kingdom also removed.
+
+19/02 19:53:42 WARNING:
+11 sequences were not mapped to FASTA dictionary.
+
+19/02 19:53:42 DEBUG:
+Headers that were not mapped to FASTA dictionary:
+	GBC71549
+	GBE18434
+	KHO50510
+	KKR44582
+	OGI26322
+	OGI27295
+	OGL43548
+	OIP20306
+	OYD13912
+	OYD14238
+	OYV03372
+
+19/02 19:53:42 DEBUG:
+9 lineages truncated before Class were removed during lineage trimming.
+18 lineages unclassified at or before Class also removed.
+
+19/02 19:53:42 DEBUG:
+61.5% of optimal  Class lineages are present in the pruned trees.
+
+19/02 19:53:42 DEBUG:
+69 lineages truncated before Species were removed during lineage trimming.
+47 lineages unclassified at or before Species also removed.
+
+19/02 19:53:43 DEBUG:
+70.5% of optimal  Species lineages are present in the pruned trees.
+
+19/02 19:53:43 DEBUG:
+Optimal placement target was not found in the pruned tree for following taxa:
+	Archaea; Candidatus Korarchaeota
+	Archaea; Candidatus Lokiarchaeota
+	Archaea; Crenarchaeota
+	Bacteria; Actinobacteria
+	Bacteria; Bacteroidetes
+	Bacteria; Deinococcus-Thermus
+	Bacteria; Fibrobacteres
+	Bacteria; Nitrospirae
+	Bacteria; Spirochaetes
+	Bacteria; Thermotogae
+	Archaea; Crenarchaeota; Thermoprotei; Desulfurococcales; Desulfurococcaceae; Desulfurococcus
+	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae; Halapricum
+	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae; Haloarcula
+	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae; Halomicrobium
+	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae; Natronomonas
+	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Halobacteriaceae; Halalkalicoccus
+	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Halobacteriaceae; Halanaeroarchaeum
+	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Halobacteriaceae; Halobacterium
+	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Halobacteriaceae; Halovenus
+	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Halobacteriaceae; Natronoarchaeum
+	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Haloferacaceae; Halegenticoccus
+	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Halobaculum
+	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Halohasta
+	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Salinigranum
+	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Halostagnicola
+	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Natrialba
+	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Natronorubrum
+	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanothermaceae; Methanothermus
+	Archaea; Euryarchaeota; Methanomicrobia; Methanocellales; Methanocellaceae; Methanocella
+	Archaea; Euryarchaeota; Methanomicrobia; Methanomicrobiales; Methanomicrobiaceae; Methanomicrobium
+	Archaea; Euryarchaeota; Methanonatronarchaeia; Methanonatronarchaeales; Methanonatronarchaeaceae; Methanonatronarchaeum
+	Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Palaeococcus
+	Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Pyrococcus
+	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Muricauda
+	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Meiothermus
+	Bacteria; Firmicutes; Bacilli; Bacillales; Alicyclobacillaceae; Effusibacillus
+	Bacteria; Firmicutes; Bacilli; Lactobacillales; Aerococcaceae; Aerococcus
+	Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae; Streptococcus
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Lactonifactor
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Oxobacter
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiales Family XIII. Incertae Sedis; Emergencia
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Defluviitaleaceae; Defluviitalea
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Hungateiclostridiaceae; Pseudobacteroides
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Anaerobutyricum
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Blautia
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Lachnotalea
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Niameybacter
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Syntrophomonadaceae; Syntrophomonas
+	Bacteria; Firmicutes; Clostridia; Halanaerobiales; Halobacteroidaceae; Halobacteroides
+	Bacteria; Firmicutes; Clostridia; Halanaerobiales; Halobacteroidaceae; Halonatronum
+	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Caldanaerovirga
+	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Thermovenabulum
+	Bacteria; Proteobacteria; Alphaproteobacteria; Magnetococcales; Magnetococcaceae; Magnetofaba
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Candidatus Magnetoglobus
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfatirhabdium
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfobacula
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobulbaceae; Desulfobulbus
+	Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales; Xanthomonadaceae; Pseudoxanthomonas
+	Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales; Xanthomonadaceae; Stenotrophomonas
+	Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales; Xanthomonadaceae; Thermomonas
+	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Spirochaetaceae; Sphaerochaeta
+	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Spirochaetaceae; Treponema
+
+19/02 19:53:43 DEBUG:
+Sequences available for training Class-level placement distances:
+	0	Archaea; Candidatus Korarchaeota; Candidatus Korarchaeum
+	0	Archaea; Candidatus Lokiarchaeota; Lokiarchaeum
+	1	Archaea; Candidatus Micrarchaeota; Candidatus Mancarchaeum
+	1	Archaea; Candidatus Micrarchaeota; Candidatus Micrarchaeum
+	0	Archaea; Crenarchaeota; Thermoprotei
+	1	Archaea; Euryarchaeota; Aciduliprofundum
+	2	Archaea; Euryarchaeota; Archaeoglobi
+	1	Archaea; Euryarchaeota; Hadesarchaea
+	81	Archaea; Euryarchaeota; Halobacteria
+	20	Archaea; Euryarchaeota; Methanobacteria
+	19	Archaea; Euryarchaeota; Methanococci
+	25	Archaea; Euryarchaeota; Methanomicrobia
+	1	Archaea; Euryarchaeota; Methanonatronarchaeia
+	19	Archaea; Euryarchaeota; Thermococci
+	0	Bacteria; Actinobacteria; Coriobacteriia
+	0	Bacteria; Bacteroidetes; Flavobacteriia
+	0	Bacteria; Deinococcus-Thermus; Deinococci
+	0	Bacteria; Fibrobacteres; Fibrobacteria
+	10	Bacteria; Firmicutes; Bacilli
+	75	Bacteria; Firmicutes; Clostridia
+	0	Bacteria; Nitrospirae; Nitrospira
+	1	Bacteria; Proteobacteria; Alphaproteobacteria
+	17	Bacteria; Proteobacteria; Deltaproteobacteria
+	5	Bacteria; Proteobacteria; Gammaproteobacteria
+	0	Bacteria; Spirochaetes; Spirochaetia
+	0	Bacteria; Thermotogae; Thermotogae
+16/26 Class have training sequences.
+Sequences available for training Species-level placement distances:
+	0	Archaea; Crenarchaeota; Thermoprotei; Desulfurococcales; Desulfurococcaceae; Desulfurococcus; Desulfurococcus amylolyticus
+	2	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermofilaceae; Thermofilum; Thermofilum adornatus
+	1	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermofilaceae; Thermofilum; Thermofilum pendens
+	1	Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermofilaceae; Thermofilum; Thermofilum uzonense
+	1	Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales; Archaeoglobaceae; Geoglobus; Geoglobus acetivorans
+	1	Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales; Archaeoglobaceae; Geoglobus; Geoglobus ahangari
+	0	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae; Halapricum; Halapricum salinum
+	0	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae; Haloarcula; Haloarcula californiae
+	0	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae; Halomicrobium; Halomicrobium zhouii
+	0	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Haloarculaceae; Natronomonas; Natronomonas pharaonis
+	1	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Halobacteriaceae; Haladaptatus; Haladaptatus cibarius
+	1	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Halobacteriaceae; Haladaptatus; Haladaptatus litoreus
+	1	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Halobacteriaceae; Haladaptatus; Haladaptatus paucihalophilus
+	0	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Halobacteriaceae; Halalkalicoccus; Halalkalicoccus paucihalophilus
+	0	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Halobacteriaceae; Halanaeroarchaeum; Halanaeroarchaeum sulfurireducens
+	0	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Halobacteriaceae; Halobacterium; Halobacterium salinarum
+	0	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Halobacteriaceae; Halovenus; Halovenus aranensis
+	0	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Halobacteriaceae; Natronoarchaeum; Natronoarchaeum philippinense
+	1	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Halococcaceae; Halococcus; Halococcus hamelinensis
+	1	Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Halococcaceae; Halococcus; Halococcus thailandensis
+	0	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Haloferacaceae; Halegenticoccus; Halegenticoccus soli
+	2	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Haloferacaceae; Haloferax; Haloferax larsenii
+	1	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Haloferacaceae; Haloferax; Haloferax mucosum
+	1	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Haloferacaceae; Halogeometricum; Halogeometricum borinquense
+	1	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Haloferacaceae; Halogeometricum; Halogeometricum limi
+	1	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Haloferacaceae; Halogeometricum; Halogeometricum pallidum
+	1	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Haloferacaceae; Halogeometricum; Halogeometricum rufum
+	0	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Halobaculum; Halobaculum gomorrense
+	0	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Halohasta; Halohasta litchfieldiae
+	1	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Halolamina; Halolamina pelagica
+	1	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Halolamina; Halolamina rubra
+	1	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Halolamina; Halolamina sediminis
+	1	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Halorubrum; Halorubrum halodurans
+	1	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Halorubrum; Halorubrum kocurii
+	1	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Halorubrum; Halorubrum persicum
+	1	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Halorubrum; Halorubrum sodomense
+	0	Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Salinigranum; Salinigranum rubrum
+	1	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Halobiforma; Halobiforma haloterrestris
+	1	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Halobiforma; Halobiforma lacisalsi
+	1	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Halobiforma; Halobiforma nitratireducens
+	1	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Halopiger; Halopiger goleimassiliensis
+	1	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Halopiger; Halopiger xanaduensis
+	0	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Halostagnicola; Halostagnicola larsenii
+	1	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Haloterrigena; Haloterrigena hispanica
+	1	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Haloterrigena; Haloterrigena jeotgali
+	1	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Haloterrigena; Haloterrigena mahii
+	1	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Haloterrigena; Haloterrigena salina
+	0	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Natrialba; Natrialba taiwanensis
+	1	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Natrinema; Natrinema salaciae
+	1	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Natrinema; Natrinema versiforme
+	1	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Natronobacterium; Natronobacterium gregoryi
+	1	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Natronobacterium; Natronobacterium texcoconense
+	1	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Natronococcus; Natronococcus jeotgali
+	1	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Natronococcus; Natronococcus occultus
+	1	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Natronolimnobius; Natronolimnobius aegyptiacus
+	1	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Natronolimnobius; Natronolimnobius innermongolicus
+	0	Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Natronorubrum; Natronorubrum sediminis
+	1	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobacterium; Methanobacterium congolense
+	1	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobacterium; Methanobacterium paludis
+	1	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobrevibacter; Methanobrevibacter arboriphilus
+	1	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobrevibacter; Methanobrevibacter curvatus
+	1	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobrevibacter; Methanobrevibacter filiformis
+	1	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobrevibacter; Methanobrevibacter millerae
+	1	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobrevibacter; Methanobrevibacter olleyae
+	1	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobrevibacter; Methanobrevibacter oralis
+	1	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobrevibacter; Methanobrevibacter ruminantium
+	0	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanothermaceae; Methanothermus; Methanothermus fervidus
+	1	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus fervens
+	1	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus infernus
+	1	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus vulcanius
+	1	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanotorris; Methanotorris formicicus
+	1	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanotorris; Methanotorris igneus
+	1	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus aeolicus
+	6	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus maripaludis
+	1	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus vannielii
+	1	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus voltae
+	1	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanothermococcus; Methanothermococcus okinawensis
+	1	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanothermococcus; Methanothermococcus thermolithotrophicus
+	0	Archaea; Euryarchaeota; Methanomicrobia; Methanocellales; Methanocellaceae; Methanocella; Methanocella arvoryzae
+	0	Archaea; Euryarchaeota; Methanomicrobia; Methanomicrobiales; Methanomicrobiaceae; Methanomicrobium; Methanomicrobium mobile
+	2	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanohalophilus; Methanohalophilus euhalobius
+	1	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanohalophilus; Methanohalophilus halophilus
+	1	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanohalophilus; Methanohalophilus mahii
+	1	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanohalophilus; Methanohalophilus portucalensis
+	1	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina flavescens
+	1	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina horonobensis
+	1	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina lacustris
+	1	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina siciliae
+	1	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina soligelidi
+	1	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina spelaei
+	1	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina thermophila
+	0	Archaea; Euryarchaeota; Methanonatronarchaeia; Methanonatronarchaeales; Methanonatronarchaeaceae; Methanonatronarchaeum; Methanonatronarchaeum thermophilum
+	0	Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Palaeococcus; Palaeococcus ferrophilus
+	0	Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Pyrococcus; Pyrococcus furiosus
+	1	Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Thermococcus; Thermococcus barophilus
+	1	Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Thermococcus; Thermococcus barossii
+	1	Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Thermococcus; Thermococcus chitonophagus
+	1	Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Thermococcus; Thermococcus gammatolerans
+	1	Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Thermococcus; Thermococcus kodakarensis
+	1	Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Thermococcus; Thermococcus paralvinellae
+	1	Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Thermococcus; Thermococcus radiotolerans
+	1	Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Thermococcus; Thermococcus sibiricus
+	1	Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Thermococcus; Thermococcus thioreducens
+	0	Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales; Flavobacteriaceae; Muricauda; Muricauda antarctica
+	0	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Meiothermus; Meiothermus taiwanensis
+	1	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus; Thermus amyloliquefaciens
+	1	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus; Thermus antranikianii
+	1	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus; Thermus caliditerrae
+	1	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus; Thermus filiformis
+	1	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus; Thermus tengchongensis
+	1	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus; Thermus tenuipuniceus
+	5	Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus; Thermus thermophilus
+	0	Bacteria; Firmicutes; Bacilli; Bacillales; Alicyclobacillaceae; Effusibacillus; Effusibacillus pohliae
+	1	Bacteria; Firmicutes; Bacilli; Bacillales; Alicyclobacillaceae; Tumebacillus; Tumebacillus algifaecis
+	1	Bacteria; Firmicutes; Bacilli; Bacillales; Alicyclobacillaceae; Tumebacillus; Tumebacillus avium
+	0	Bacteria; Firmicutes; Bacilli; Lactobacillales; Aerococcaceae; Aerococcus; Aerococcus suis
+	0	Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae; Streptococcus; Streptococcus pneumoniae
+	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium bornimense
+	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium celatum
+	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium cochlearium
+	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium fallax
+	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium grantii
+	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium hydrogeniformans
+	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium lundense
+	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium peptidivorans
+	3	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium tetani
+	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium thermopalmarium
+	2	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium tyrobutyricum
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Lactonifactor; Lactonifactor longoviformis
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Oxobacter; Oxobacter pfennigii
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiales Family XIII. Incertae Sedis; Emergencia; Emergencia timonensis
+	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiales incertae sedis; Clostridiales Family XIII. Incertae Sedis; Eubacterium infirmum
+	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiales incertae sedis; Clostridiales Family XIII. Incertae Sedis; Eubacterium nodatum
+	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiales incertae sedis; Clostridiales Family XIII. Incertae Sedis; Eubacterium sulci
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Defluviitaleaceae; Defluviitalea; Defluviitalea phaphyphila
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Hungateiclostridiaceae; Pseudobacteroides; Pseudobacteroides cellulosolvens
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Anaerobutyricum; Anaerobutyricum hallii
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Blautia; Blautia schinkii
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Lachnotalea; Lachnotalea glycerini
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Niameybacter; Niameybacter massiliensis
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Syntrophomonadaceae; Syntrophomonas; Syntrophomonas wolfei
+	0	Bacteria; Firmicutes; Clostridia; Halanaerobiales; Halobacteroidaceae; Halobacteroides; Halobacteroides halobius
+	0	Bacteria; Firmicutes; Clostridia; Halanaerobiales; Halobacteroidaceae; Halonatronum; Halonatronum saccharophilum
+	1	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Tepidanaerobacter; Tepidanaerobacter acetatoxydans
+	1	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Tepidanaerobacter; Tepidanaerobacter syntrophicus
+	1	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Thermoanaerobacter; Thermoanaerobacter italicus
+	1	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Thermoanaerobacter; Thermoanaerobacter kivui
+	1	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Thermoanaerobacter; Thermoanaerobacter uzonensis
+	0	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Caldanaerovirga; Caldanaerovirga acetigignens
+	1	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Thermoanaerobacterium; Thermoanaerobacterium saccharolyticum
+	1	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Thermoanaerobacterium; Thermoanaerobacterium thermosaccharolyticum
+	1	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Thermoanaerobacterium; Thermoanaerobacterium xylanolyticum
+	0	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Thermovenabulum; Thermovenabulum gondwanense
+	0	Bacteria; Proteobacteria; Alphaproteobacteria; Magnetococcales; Magnetococcaceae; Magnetofaba; Magnetofaba australis
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Candidatus Magnetoglobus; Candidatus Magnetoglobus multicellularis
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfatirhabdium; Desulfatirhabdium butyrativorans
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfobacula; Desulfobacula phenolica
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobulbaceae; Desulfobulbus; Desulfobulbus japonicus
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales; Xanthomonadaceae; Pseudoxanthomonas; Pseudoxanthomonas suwonensis
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales; Xanthomonadaceae; Stenotrophomonas; Stenotrophomonas maltophilia
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Xanthomonadales; Xanthomonadaceae; Thermomonas; Thermomonas fusca
+	1	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borrelia; Borrelia duttonii
+	3	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borrelia; Borrelia hermsii
+	3	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borrelia; Borrelia miyamotoi
+	1	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borrelia; Borrelia persica
+	2	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borrelia; Borrelia turicatae
+	1	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borreliella; Borrelia mayonii
+	1	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borreliella; Borreliella afzelii
+	1	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borreliella; Borreliella bissettii
+	2	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borreliella; Borreliella burgdorferi
+	1	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borreliella; Borreliella chilensis
+	5	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borreliella; Borreliella garinii
+	1	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borreliella; Borreliella japonica
+	1	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borreliella; Borreliella spielmanii
+	0	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Spirochaetaceae; Sphaerochaeta; Sphaerochaeta globosa
+	0	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Spirochaetaceae; Treponema; Treponema saccharophilum
+124/176 Species have training sequences.
+
+19/02 19:53:43 INFO:
+Clustering sequences with UCLUST... 
+19/02 19:53:43 INFO:
+done.
+
+19/02 19:53:43 DEBUG:
+usearch v9.2.64_i86linux32, 4.0Gb RAM (16.4Gb total), 4 cores
+(C) Copyright 2013-16 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+License: c.morganlang@gmail.com
+
+00:00 37Mb      0.1% Reading Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates//uclust_input.fasta00:00 40Mb    100.0% Reading Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates//uclust_input.fasta
+00:00 32Mb      1.1% DF                                                                                                    00:00 35Mb    100.0% DF
+00:00 35Mb   369 seqs, 369 uniques, 369 singletons (100.0%)
+00:00 35Mb   Min size 1, median 1, max 1, avg 1.00
+00:00 38Mb      0.3% DB00:00 38Mb    100.0% DB
+00:00 38Mb   Sort length... done.
+00:00 78Mb      0.3% Clustering00:00 78Mb      0.3% 0 clusters, max size 0, avg 0.000:00 94Mb    100.0% 368 clusters, max size 2, avg 1.0
+00:00 94Mb      0.3% Writing centroids to Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates//uclust0.99.fa00:00 94Mb    100.0% Writing centroids to Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates//uclust0.99.fa
+                                                                                                                                   
+      Seqs  369
+  Clusters  368
+  Max size  2
+  Avg size  1.0
+  Min size  1
+Singletons  367, 99.5% of seqs, 99.7% of clusters
+   Max mem  94Mb
+      Time  1.00s
+Throughput  369.0 seqs/sec.
+
+
+19/02 19:53:43 DEBUG:
+Reading usearch cluster file... 
+19/02 19:53:43 DEBUG:
+done.
+
+19/02 19:53:43 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	WP_002658934.1 phenylalanine--tRNA ligase subunit beta [Borreliella burgdorferi]
+
+19/02 19:53:43 DEBUG:
+	368 sequence clusters
+
+19/02 19:53:43 INFO:
+Preparing deduplicated sequence set for training... 
+19/02 19:53:43 DEBUG:
+9 lineages truncated before Class were removed during lineage trimming.
+18 lineages unclassified at or before Class also removed.
+
+19/02 19:53:43 DEBUG:
+69 lineages truncated before Species were removed during lineage trimming.
+47 lineages unclassified at or before Species also removed.
+
+19/02 19:53:43 INFO:
+done.
+
+19/02 19:53:43 INFO:
+
+Estimating branch-length placement distances for taxonomic ranks. Progress:
+
+19/02 19:53:43 DEBUG:
+183 sequences to train Class-level placement distances
+
+19/02 19:53:43 DEBUG:
+148 sequences to train Species-level placement distances
+
+19/02 19:53:43 DEBUG:
+69 lineages truncated before Species were removed during lineage trimming.
+47 lineages unclassified at or before Species also removed.
+
+19/02 19:53:43 DEBUG:
+Testing placements for Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermofilaceae; Thermofilum; Thermofilum adornatus:
+
+19/02 19:53:43 DEBUG:
+	2 query sequences.
+
+19/02 19:53:43 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:53:44 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:53:44 DEBUG:
+Building HMM profile... 
+19/02 19:53:44 DEBUG:
+done.
+
+19/02 19:53:44 DEBUG:
+
+
+19/02 19:53:45 DEBUG:
+Columns = 447
+
+19/02 19:53:45 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:53:45 DEBUG:
+Read 179 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:53:45 DEBUG:
+Testing placements for Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermofilaceae; Thermofilum; Thermofilum pendens:
+
+19/02 19:53:45 DEBUG:
+	1 query sequences.
+
+19/02 19:53:45 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:53:45 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:53:45 DEBUG:
+Building HMM profile... 
+19/02 19:53:46 DEBUG:
+done.
+
+19/02 19:53:46 DEBUG:
+
+
+19/02 19:53:46 DEBUG:
+Columns = 446
+
+19/02 19:53:46 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:53:46 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:53:47 DEBUG:
+Testing placements for Archaea; Crenarchaeota; Thermoprotei; Thermoproteales; Thermofilaceae; Thermofilum; Thermofilum uzonense:
+
+19/02 19:53:47 DEBUG:
+	1 query sequences.
+
+19/02 19:53:47 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:53:47 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:53:47 DEBUG:
+Building HMM profile... 
+19/02 19:53:48 DEBUG:
+done.
+
+19/02 19:53:48 DEBUG:
+
+
+19/02 19:53:48 DEBUG:
+Columns = 449
+
+19/02 19:53:48 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:53:48 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:53:49 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales; Archaeoglobaceae; Geoglobus; Geoglobus acetivorans:
+
+19/02 19:53:49 DEBUG:
+	1 query sequences.
+
+19/02 19:53:49 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:53:49 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:53:49 DEBUG:
+Building HMM profile... 
+19/02 19:53:49 DEBUG:
+done.
+
+19/02 19:53:49 DEBUG:
+
+
+19/02 19:53:50 DEBUG:
+Columns = 446
+
+19/02 19:53:50 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:53:50 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:53:50 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Archaeoglobi; Archaeoglobales; Archaeoglobaceae; Geoglobus; Geoglobus ahangari:
+
+19/02 19:53:50 DEBUG:
+	1 query sequences.
+
+19/02 19:53:50 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:53:50 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:53:50 DEBUG:
+Building HMM profile... 
+19/02 19:53:51 DEBUG:
+done.
+
+19/02 19:53:51 DEBUG:
+
+
+19/02 19:53:51 DEBUG:
+Columns = 446
+
+19/02 19:53:51 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:53:51 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:53:52 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Halobacteriaceae; Haladaptatus; Haladaptatus cibarius:
+
+19/02 19:53:52 DEBUG:
+	1 query sequences.
+
+19/02 19:53:52 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:53:52 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:53:52 DEBUG:
+Building HMM profile... 
+19/02 19:53:53 DEBUG:
+done.
+
+19/02 19:53:53 DEBUG:
+
+
+19/02 19:53:53 DEBUG:
+Columns = 447
+
+19/02 19:53:53 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:53:53 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:53:54 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Halobacteriaceae; Haladaptatus; Haladaptatus litoreus:
+
+19/02 19:53:54 DEBUG:
+	1 query sequences.
+
+19/02 19:53:54 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:53:54 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:53:54 DEBUG:
+Building HMM profile... 
+19/02 19:53:55 DEBUG:
+done.
+
+19/02 19:53:55 DEBUG:
+
+
+19/02 19:53:55 DEBUG:
+Columns = 446
+
+19/02 19:53:55 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:53:55 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:53:55 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Halobacteriaceae; Haladaptatus; Haladaptatus paucihalophilus:
+
+19/02 19:53:55 DEBUG:
+	1 query sequences.
+
+19/02 19:53:55 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:53:56 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:53:56 DEBUG:
+Building HMM profile... 
+19/02 19:53:56 DEBUG:
+done.
+
+19/02 19:53:56 DEBUG:
+
+
+19/02 19:53:57 DEBUG:
+Columns = 446
+
+19/02 19:53:57 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:53:57 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:53:57 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Halococcaceae; Halococcus; Halococcus hamelinensis:
+
+19/02 19:53:57 DEBUG:
+	1 query sequences.
+
+19/02 19:53:57 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:53:57 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:53:57 DEBUG:
+Building HMM profile... 
+19/02 19:53:58 DEBUG:
+done.
+
+19/02 19:53:58 DEBUG:
+
+
+19/02 19:53:58 DEBUG:
+Columns = 446
+
+19/02 19:53:58 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:53:58 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:53:59 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Halobacteriales; Halococcaceae; Halococcus; Halococcus thailandensis:
+
+19/02 19:53:59 DEBUG:
+	1 query sequences.
+
+19/02 19:53:59 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:53:59 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:53:59 DEBUG:
+Building HMM profile... 
+19/02 19:54:00 DEBUG:
+done.
+
+19/02 19:54:00 DEBUG:
+
+
+19/02 19:54:00 DEBUG:
+Columns = 446
+
+19/02 19:54:00 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:00 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:01 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Haloferacales; Haloferacaceae; Haloferax; Haloferax larsenii:
+
+19/02 19:54:01 DEBUG:
+	2 query sequences.
+
+19/02 19:54:01 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:01 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:01 DEBUG:
+Building HMM profile... 
+19/02 19:54:01 DEBUG:
+done.
+
+19/02 19:54:01 DEBUG:
+
+
+19/02 19:54:02 DEBUG:
+Columns = 447
+
+19/02 19:54:02 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:02 DEBUG:
+Read 179 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:02 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Haloferacales; Haloferacaceae; Haloferax; Haloferax mucosum:
+
+19/02 19:54:02 DEBUG:
+	1 query sequences.
+
+19/02 19:54:02 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:02 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:02 DEBUG:
+Building HMM profile... 
+19/02 19:54:03 DEBUG:
+done.
+
+19/02 19:54:03 DEBUG:
+
+
+19/02 19:54:04 DEBUG:
+Columns = 446
+
+19/02 19:54:04 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:04 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:04 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Haloferacales; Haloferacaceae; Halogeometricum; Halogeometricum borinquense:
+
+19/02 19:54:04 DEBUG:
+	1 query sequences.
+
+19/02 19:54:04 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:04 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:04 DEBUG:
+Building HMM profile... 
+19/02 19:54:05 DEBUG:
+done.
+
+19/02 19:54:05 DEBUG:
+
+
+19/02 19:54:05 DEBUG:
+Columns = 446
+
+19/02 19:54:05 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:05 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:06 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Haloferacales; Haloferacaceae; Halogeometricum; Halogeometricum limi:
+
+19/02 19:54:06 DEBUG:
+	1 query sequences.
+
+19/02 19:54:06 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:06 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:06 DEBUG:
+Building HMM profile... 
+19/02 19:54:07 DEBUG:
+done.
+
+19/02 19:54:07 DEBUG:
+
+
+19/02 19:54:07 DEBUG:
+Columns = 446
+
+19/02 19:54:07 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:07 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:08 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Haloferacales; Haloferacaceae; Halogeometricum; Halogeometricum pallidum:
+
+19/02 19:54:08 DEBUG:
+	1 query sequences.
+
+19/02 19:54:08 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:08 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:08 DEBUG:
+Building HMM profile... 
+19/02 19:54:08 DEBUG:
+done.
+
+19/02 19:54:08 DEBUG:
+
+
+19/02 19:54:09 DEBUG:
+Columns = 446
+
+19/02 19:54:09 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:09 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:09 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Haloferacales; Haloferacaceae; Halogeometricum; Halogeometricum rufum:
+
+19/02 19:54:09 DEBUG:
+	1 query sequences.
+
+19/02 19:54:09 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:09 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:09 DEBUG:
+Building HMM profile... 
+19/02 19:54:10 DEBUG:
+done.
+
+19/02 19:54:10 DEBUG:
+
+
+19/02 19:54:11 DEBUG:
+Columns = 446
+
+19/02 19:54:11 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:11 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:11 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Halolamina; Halolamina pelagica:
+
+19/02 19:54:11 DEBUG:
+	1 query sequences.
+
+19/02 19:54:11 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:11 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:11 DEBUG:
+Building HMM profile... 
+19/02 19:54:12 DEBUG:
+done.
+
+19/02 19:54:12 DEBUG:
+
+
+19/02 19:54:12 DEBUG:
+Columns = 446
+
+19/02 19:54:12 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:12 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:13 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Halolamina; Halolamina rubra:
+
+19/02 19:54:13 DEBUG:
+	1 query sequences.
+
+19/02 19:54:13 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:13 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:13 DEBUG:
+Building HMM profile... 
+19/02 19:54:13 DEBUG:
+done.
+
+19/02 19:54:14 DEBUG:
+
+
+19/02 19:54:14 DEBUG:
+Columns = 446
+
+19/02 19:54:14 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:14 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:14 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Halolamina; Halolamina sediminis:
+
+19/02 19:54:14 DEBUG:
+	1 query sequences.
+
+19/02 19:54:14 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:15 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:15 DEBUG:
+Building HMM profile... 
+19/02 19:54:15 DEBUG:
+done.
+
+19/02 19:54:15 DEBUG:
+
+
+19/02 19:54:16 DEBUG:
+Columns = 446
+
+19/02 19:54:16 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:16 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:16 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Halorubrum; Halorubrum halodurans:
+
+19/02 19:54:16 DEBUG:
+	1 query sequences.
+
+19/02 19:54:16 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:16 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:16 DEBUG:
+Building HMM profile... 
+19/02 19:54:17 DEBUG:
+done.
+
+19/02 19:54:17 DEBUG:
+
+
+19/02 19:54:17 DEBUG:
+Columns = 446
+
+19/02 19:54:17 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:17 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:18 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Halorubrum; Halorubrum kocurii:
+
+19/02 19:54:18 DEBUG:
+	1 query sequences.
+
+19/02 19:54:18 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:18 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:18 DEBUG:
+Building HMM profile... 
+19/02 19:54:19 DEBUG:
+done.
+
+19/02 19:54:19 DEBUG:
+
+
+19/02 19:54:19 DEBUG:
+Columns = 446
+
+19/02 19:54:19 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:19 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:20 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Halorubrum; Halorubrum persicum:
+
+19/02 19:54:20 DEBUG:
+	1 query sequences.
+
+19/02 19:54:20 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:20 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:20 DEBUG:
+Building HMM profile... 
+19/02 19:54:20 DEBUG:
+done.
+
+19/02 19:54:20 DEBUG:
+
+
+19/02 19:54:21 DEBUG:
+Columns = 446
+
+19/02 19:54:21 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:21 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:21 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Haloferacales; Halorubraceae; Halorubrum; Halorubrum sodomense:
+
+19/02 19:54:21 DEBUG:
+	1 query sequences.
+
+19/02 19:54:21 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:21 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:21 DEBUG:
+Building HMM profile... 
+19/02 19:54:22 DEBUG:
+done.
+
+19/02 19:54:22 DEBUG:
+
+
+19/02 19:54:23 DEBUG:
+Columns = 446
+
+19/02 19:54:23 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:23 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:23 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Halobiforma; Halobiforma haloterrestris:
+
+19/02 19:54:23 DEBUG:
+	1 query sequences.
+
+19/02 19:54:23 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:23 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:23 DEBUG:
+Building HMM profile... 
+19/02 19:54:24 DEBUG:
+done.
+
+19/02 19:54:24 DEBUG:
+
+
+19/02 19:54:24 DEBUG:
+Columns = 446
+
+19/02 19:54:24 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:24 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:25 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Halobiforma; Halobiforma lacisalsi:
+
+19/02 19:54:25 DEBUG:
+	1 query sequences.
+
+19/02 19:54:25 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:25 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:25 DEBUG:
+Building HMM profile... 
+19/02 19:54:26 DEBUG:
+done.
+
+19/02 19:54:26 DEBUG:
+
+
+19/02 19:54:26 DEBUG:
+Columns = 446
+
+19/02 19:54:26 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:26 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:27 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Halobiforma; Halobiforma nitratireducens:
+
+19/02 19:54:27 DEBUG:
+	1 query sequences.
+
+19/02 19:54:27 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:27 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:27 DEBUG:
+Building HMM profile... 
+19/02 19:54:27 DEBUG:
+done.
+
+19/02 19:54:27 DEBUG:
+
+
+19/02 19:54:28 DEBUG:
+Columns = 446
+
+19/02 19:54:28 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:28 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:28 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Halopiger; Halopiger goleimassiliensis:
+
+19/02 19:54:28 DEBUG:
+	1 query sequences.
+
+19/02 19:54:28 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:28 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:28 DEBUG:
+Building HMM profile... 
+19/02 19:54:29 DEBUG:
+done.
+
+19/02 19:54:29 DEBUG:
+
+
+19/02 19:54:29 DEBUG:
+Columns = 446
+
+19/02 19:54:29 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:29 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:30 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Halopiger; Halopiger xanaduensis:
+
+19/02 19:54:30 DEBUG:
+	1 query sequences.
+
+19/02 19:54:30 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:30 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:30 DEBUG:
+Building HMM profile... 
+19/02 19:54:31 DEBUG:
+done.
+
+19/02 19:54:31 DEBUG:
+
+
+19/02 19:54:31 DEBUG:
+Columns = 446
+
+19/02 19:54:31 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:31 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:32 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Haloterrigena; Haloterrigena hispanica:
+
+19/02 19:54:32 DEBUG:
+	1 query sequences.
+
+19/02 19:54:32 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:32 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:32 DEBUG:
+Building HMM profile... 
+19/02 19:54:32 DEBUG:
+done.
+
+19/02 19:54:32 DEBUG:
+
+
+19/02 19:54:33 DEBUG:
+Columns = 446
+
+19/02 19:54:33 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:33 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:33 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Haloterrigena; Haloterrigena jeotgali:
+
+19/02 19:54:33 DEBUG:
+	1 query sequences.
+
+19/02 19:54:33 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:34 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:34 DEBUG:
+Building HMM profile... 
+19/02 19:54:34 DEBUG:
+done.
+
+19/02 19:54:34 DEBUG:
+
+
+19/02 19:54:35 DEBUG:
+Columns = 446
+
+19/02 19:54:35 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:35 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:35 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Haloterrigena; Haloterrigena mahii:
+
+19/02 19:54:35 DEBUG:
+	1 query sequences.
+
+19/02 19:54:35 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:35 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:35 DEBUG:
+Building HMM profile... 
+19/02 19:54:36 DEBUG:
+done.
+
+19/02 19:54:36 DEBUG:
+
+
+19/02 19:54:36 DEBUG:
+Columns = 446
+
+19/02 19:54:36 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:36 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:37 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Haloterrigena; Haloterrigena salina:
+
+19/02 19:54:37 DEBUG:
+	1 query sequences.
+
+19/02 19:54:37 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:37 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:37 DEBUG:
+Building HMM profile... 
+19/02 19:54:38 DEBUG:
+done.
+
+19/02 19:54:38 DEBUG:
+
+
+19/02 19:54:38 DEBUG:
+Columns = 446
+
+19/02 19:54:38 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:38 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:39 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Natrinema; Natrinema salaciae:
+
+19/02 19:54:39 DEBUG:
+	1 query sequences.
+
+19/02 19:54:39 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:39 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:39 DEBUG:
+Building HMM profile... 
+19/02 19:54:40 DEBUG:
+done.
+
+19/02 19:54:40 DEBUG:
+
+
+19/02 19:54:40 DEBUG:
+Columns = 446
+
+19/02 19:54:40 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:40 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:41 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Natrinema; Natrinema versiforme:
+
+19/02 19:54:41 DEBUG:
+	1 query sequences.
+
+19/02 19:54:41 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:41 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:41 DEBUG:
+Building HMM profile... 
+19/02 19:54:42 DEBUG:
+done.
+
+19/02 19:54:42 DEBUG:
+
+
+19/02 19:54:42 DEBUG:
+Columns = 446
+
+19/02 19:54:42 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:42 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:42 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Natronobacterium; Natronobacterium gregoryi:
+
+19/02 19:54:42 DEBUG:
+	1 query sequences.
+
+19/02 19:54:42 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:43 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:43 DEBUG:
+Building HMM profile... 
+19/02 19:54:43 DEBUG:
+done.
+
+19/02 19:54:43 DEBUG:
+
+
+19/02 19:54:44 DEBUG:
+Columns = 446
+
+19/02 19:54:44 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:44 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:44 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Natronobacterium; Natronobacterium texcoconense:
+
+19/02 19:54:44 DEBUG:
+	1 query sequences.
+
+19/02 19:54:44 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:44 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:44 DEBUG:
+Building HMM profile... 
+19/02 19:54:45 DEBUG:
+done.
+
+19/02 19:54:45 DEBUG:
+
+
+19/02 19:54:45 DEBUG:
+Columns = 446
+
+19/02 19:54:45 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:45 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:46 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Natronococcus; Natronococcus jeotgali:
+
+19/02 19:54:46 DEBUG:
+	1 query sequences.
+
+19/02 19:54:46 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:46 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:46 DEBUG:
+Building HMM profile... 
+19/02 19:54:47 DEBUG:
+done.
+
+19/02 19:54:47 DEBUG:
+
+
+19/02 19:54:47 DEBUG:
+Columns = 446
+
+19/02 19:54:47 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:47 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:48 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Natronococcus; Natronococcus occultus:
+
+19/02 19:54:48 DEBUG:
+	1 query sequences.
+
+19/02 19:54:48 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:48 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:48 DEBUG:
+Building HMM profile... 
+19/02 19:54:48 DEBUG:
+done.
+
+19/02 19:54:48 DEBUG:
+
+
+19/02 19:54:49 DEBUG:
+Columns = 446
+
+19/02 19:54:49 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:49 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:49 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Natronolimnobius; Natronolimnobius aegyptiacus:
+
+19/02 19:54:49 DEBUG:
+	1 query sequences.
+
+19/02 19:54:49 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:49 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:49 DEBUG:
+Building HMM profile... 
+19/02 19:54:50 DEBUG:
+done.
+
+19/02 19:54:50 DEBUG:
+
+
+19/02 19:54:50 DEBUG:
+Columns = 446
+
+19/02 19:54:50 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:50 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:51 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria; Natrialbales; Natrialbaceae; Natronolimnobius; Natronolimnobius innermongolicus:
+
+19/02 19:54:51 DEBUG:
+	1 query sequences.
+
+19/02 19:54:51 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:51 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:51 DEBUG:
+Building HMM profile... 
+19/02 19:54:52 DEBUG:
+done.
+
+19/02 19:54:52 DEBUG:
+
+
+19/02 19:54:52 DEBUG:
+Columns = 446
+
+19/02 19:54:52 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:52 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:53 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobacterium; Methanobacterium congolense:
+
+19/02 19:54:53 DEBUG:
+	1 query sequences.
+
+19/02 19:54:53 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:53 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:53 DEBUG:
+Building HMM profile... 
+19/02 19:54:53 DEBUG:
+done.
+
+19/02 19:54:53 DEBUG:
+
+
+19/02 19:54:54 DEBUG:
+Columns = 446
+
+19/02 19:54:54 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:54 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:54 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobacterium; Methanobacterium paludis:
+
+19/02 19:54:54 DEBUG:
+	1 query sequences.
+
+19/02 19:54:54 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:54 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:54 DEBUG:
+Building HMM profile... 
+19/02 19:54:55 DEBUG:
+done.
+
+19/02 19:54:55 DEBUG:
+
+
+19/02 19:54:55 DEBUG:
+Columns = 446
+
+19/02 19:54:55 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:55 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:56 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobrevibacter; Methanobrevibacter arboriphilus:
+
+19/02 19:54:56 DEBUG:
+	1 query sequences.
+
+19/02 19:54:56 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:56 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:56 DEBUG:
+Building HMM profile... 
+19/02 19:54:57 DEBUG:
+done.
+
+19/02 19:54:57 DEBUG:
+
+
+19/02 19:54:57 DEBUG:
+Columns = 446
+
+19/02 19:54:57 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:57 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:58 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobrevibacter; Methanobrevibacter curvatus:
+
+19/02 19:54:58 DEBUG:
+	1 query sequences.
+
+19/02 19:54:58 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:54:58 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:54:58 DEBUG:
+Building HMM profile... 
+19/02 19:54:58 DEBUG:
+done.
+
+19/02 19:54:58 DEBUG:
+
+
+19/02 19:54:59 DEBUG:
+Columns = 446
+
+19/02 19:54:59 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:54:59 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:54:59 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobrevibacter; Methanobrevibacter filiformis:
+
+19/02 19:54:59 DEBUG:
+	1 query sequences.
+
+19/02 19:54:59 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:00 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:00 DEBUG:
+Building HMM profile... 
+19/02 19:55:00 DEBUG:
+done.
+
+19/02 19:55:00 DEBUG:
+
+
+19/02 19:55:01 DEBUG:
+Columns = 446
+
+19/02 19:55:01 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:01 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:01 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobrevibacter; Methanobrevibacter millerae:
+
+19/02 19:55:01 DEBUG:
+	1 query sequences.
+
+19/02 19:55:01 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:01 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:01 DEBUG:
+Building HMM profile... 
+19/02 19:55:02 DEBUG:
+done.
+
+19/02 19:55:02 DEBUG:
+
+
+19/02 19:55:02 DEBUG:
+Columns = 446
+
+19/02 19:55:02 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:02 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:03 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobrevibacter; Methanobrevibacter olleyae:
+
+19/02 19:55:03 DEBUG:
+	1 query sequences.
+
+19/02 19:55:03 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:03 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:03 DEBUG:
+Building HMM profile... 
+19/02 19:55:04 DEBUG:
+done.
+
+19/02 19:55:04 DEBUG:
+
+
+19/02 19:55:04 DEBUG:
+Columns = 446
+
+19/02 19:55:04 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:04 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:05 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobrevibacter; Methanobrevibacter oralis:
+
+19/02 19:55:05 DEBUG:
+	1 query sequences.
+
+19/02 19:55:05 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:05 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:05 DEBUG:
+Building HMM profile... 
+19/02 19:55:05 DEBUG:
+done.
+
+19/02 19:55:05 DEBUG:
+
+
+19/02 19:55:06 DEBUG:
+Columns = 446
+
+19/02 19:55:06 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:06 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:06 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobrevibacter; Methanobrevibacter ruminantium:
+
+19/02 19:55:06 DEBUG:
+	1 query sequences.
+
+19/02 19:55:06 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:06 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:06 DEBUG:
+Building HMM profile... 
+19/02 19:55:07 DEBUG:
+done.
+
+19/02 19:55:07 DEBUG:
+
+
+19/02 19:55:08 DEBUG:
+Columns = 446
+
+19/02 19:55:08 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:08 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:08 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus fervens:
+
+19/02 19:55:08 DEBUG:
+	1 query sequences.
+
+19/02 19:55:08 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:08 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:08 DEBUG:
+Building HMM profile... 
+19/02 19:55:09 DEBUG:
+done.
+
+19/02 19:55:09 DEBUG:
+
+
+19/02 19:55:09 DEBUG:
+Columns = 446
+
+19/02 19:55:09 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:09 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:10 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus infernus:
+
+19/02 19:55:10 DEBUG:
+	1 query sequences.
+
+19/02 19:55:10 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:10 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:10 DEBUG:
+Building HMM profile... 
+19/02 19:55:10 DEBUG:
+done.
+
+19/02 19:55:10 DEBUG:
+
+
+19/02 19:55:11 DEBUG:
+Columns = 446
+
+19/02 19:55:11 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:11 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:11 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus vulcanius:
+
+19/02 19:55:11 DEBUG:
+	1 query sequences.
+
+19/02 19:55:11 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:12 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:12 DEBUG:
+Building HMM profile... 
+19/02 19:55:12 DEBUG:
+done.
+
+19/02 19:55:12 DEBUG:
+
+
+19/02 19:55:13 DEBUG:
+Columns = 446
+
+19/02 19:55:13 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:13 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:13 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanotorris; Methanotorris formicicus:
+
+19/02 19:55:13 DEBUG:
+	1 query sequences.
+
+19/02 19:55:13 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:13 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:13 DEBUG:
+Building HMM profile... 
+19/02 19:55:14 DEBUG:
+done.
+
+19/02 19:55:14 DEBUG:
+
+
+19/02 19:55:14 DEBUG:
+Columns = 446
+
+19/02 19:55:14 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:14 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:15 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanotorris; Methanotorris igneus:
+
+19/02 19:55:15 DEBUG:
+	1 query sequences.
+
+19/02 19:55:15 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:15 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:15 DEBUG:
+Building HMM profile... 
+19/02 19:55:15 DEBUG:
+done.
+
+19/02 19:55:16 DEBUG:
+
+
+19/02 19:55:16 DEBUG:
+Columns = 446
+
+19/02 19:55:16 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:16 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:16 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus aeolicus:
+
+19/02 19:55:16 DEBUG:
+	1 query sequences.
+
+19/02 19:55:16 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:17 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:17 DEBUG:
+Building HMM profile... 
+19/02 19:55:17 DEBUG:
+done.
+
+19/02 19:55:17 DEBUG:
+
+
+19/02 19:55:18 DEBUG:
+Columns = 446
+
+19/02 19:55:18 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:18 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:18 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus maripaludis:
+
+19/02 19:55:18 DEBUG:
+	6 query sequences.
+
+19/02 19:55:18 DEBUG:
+	118 sequences pruned from tree.
+
+19/02 19:55:18 DEBUG:
+	176 leaves in pruned tree.
+
+19/02 19:55:18 DEBUG:
+Building HMM profile... 
+19/02 19:55:19 DEBUG:
+done.
+
+19/02 19:55:19 DEBUG:
+
+
+19/02 19:55:20 DEBUG:
+Columns = 444
+
+19/02 19:55:20 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:20 DEBUG:
+Read 182 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:20 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus vannielii:
+
+19/02 19:55:20 DEBUG:
+	1 query sequences.
+
+19/02 19:55:20 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:20 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:20 DEBUG:
+Building HMM profile... 
+19/02 19:55:21 DEBUG:
+done.
+
+19/02 19:55:21 DEBUG:
+
+
+19/02 19:55:21 DEBUG:
+Columns = 445
+
+19/02 19:55:21 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:21 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:22 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus voltae:
+
+19/02 19:55:22 DEBUG:
+	1 query sequences.
+
+19/02 19:55:22 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:22 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:22 DEBUG:
+Building HMM profile... 
+19/02 19:55:22 DEBUG:
+done.
+
+19/02 19:55:22 DEBUG:
+
+
+19/02 19:55:23 DEBUG:
+Columns = 446
+
+19/02 19:55:23 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:23 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:23 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanothermococcus; Methanothermococcus okinawensis:
+
+19/02 19:55:23 DEBUG:
+	1 query sequences.
+
+19/02 19:55:23 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:24 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:24 DEBUG:
+Building HMM profile... 
+19/02 19:55:24 DEBUG:
+done.
+
+19/02 19:55:24 DEBUG:
+
+
+19/02 19:55:25 DEBUG:
+Columns = 446
+
+19/02 19:55:25 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:25 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:25 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanothermococcus; Methanothermococcus thermolithotrophicus:
+
+19/02 19:55:25 DEBUG:
+	1 query sequences.
+
+19/02 19:55:25 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:25 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:25 DEBUG:
+Building HMM profile... 
+19/02 19:55:26 DEBUG:
+done.
+
+19/02 19:55:26 DEBUG:
+
+
+19/02 19:55:26 DEBUG:
+Columns = 446
+
+19/02 19:55:26 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:26 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:27 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanohalophilus; Methanohalophilus euhalobius:
+
+19/02 19:55:27 DEBUG:
+	2 query sequences.
+
+19/02 19:55:27 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:27 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:27 DEBUG:
+Building HMM profile... 
+19/02 19:55:28 DEBUG:
+done.
+
+19/02 19:55:28 DEBUG:
+
+
+19/02 19:55:28 DEBUG:
+Columns = 447
+
+19/02 19:55:28 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:28 DEBUG:
+Read 179 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:29 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanohalophilus; Methanohalophilus halophilus:
+
+19/02 19:55:29 DEBUG:
+	1 query sequences.
+
+19/02 19:55:29 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:29 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:29 DEBUG:
+Building HMM profile... 
+19/02 19:55:29 DEBUG:
+done.
+
+19/02 19:55:29 DEBUG:
+
+
+19/02 19:55:30 DEBUG:
+Columns = 446
+
+19/02 19:55:30 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:30 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:30 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanohalophilus; Methanohalophilus mahii:
+
+19/02 19:55:30 DEBUG:
+	1 query sequences.
+
+19/02 19:55:30 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:30 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:30 DEBUG:
+Building HMM profile... 
+19/02 19:55:31 DEBUG:
+done.
+
+19/02 19:55:31 DEBUG:
+
+
+19/02 19:55:32 DEBUG:
+Columns = 446
+
+19/02 19:55:32 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:32 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:32 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanohalophilus; Methanohalophilus portucalensis:
+
+19/02 19:55:32 DEBUG:
+	1 query sequences.
+
+19/02 19:55:32 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:32 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:32 DEBUG:
+Building HMM profile... 
+19/02 19:55:33 DEBUG:
+done.
+
+19/02 19:55:33 DEBUG:
+
+
+19/02 19:55:33 DEBUG:
+Columns = 446
+
+19/02 19:55:33 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:33 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:34 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina flavescens:
+
+19/02 19:55:34 DEBUG:
+	1 query sequences.
+
+19/02 19:55:34 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:34 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:34 DEBUG:
+Building HMM profile... 
+19/02 19:55:34 DEBUG:
+done.
+
+19/02 19:55:34 DEBUG:
+
+
+19/02 19:55:35 DEBUG:
+Columns = 446
+
+19/02 19:55:35 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:35 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:35 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina horonobensis:
+
+19/02 19:55:35 DEBUG:
+	1 query sequences.
+
+19/02 19:55:35 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:36 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:36 DEBUG:
+Building HMM profile... 
+19/02 19:55:36 DEBUG:
+done.
+
+19/02 19:55:36 DEBUG:
+
+
+19/02 19:55:37 DEBUG:
+Columns = 446
+
+19/02 19:55:37 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:37 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:37 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina lacustris:
+
+19/02 19:55:37 DEBUG:
+	1 query sequences.
+
+19/02 19:55:37 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:37 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:37 DEBUG:
+Building HMM profile... 
+19/02 19:55:38 DEBUG:
+done.
+
+19/02 19:55:38 DEBUG:
+
+
+19/02 19:55:38 DEBUG:
+Columns = 446
+
+19/02 19:55:38 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:38 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:39 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina siciliae:
+
+19/02 19:55:39 DEBUG:
+	1 query sequences.
+
+19/02 19:55:39 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:39 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:39 DEBUG:
+Building HMM profile... 
+19/02 19:55:39 DEBUG:
+done.
+
+19/02 19:55:40 DEBUG:
+
+
+19/02 19:55:40 DEBUG:
+Columns = 446
+
+19/02 19:55:40 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:40 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:40 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina soligelidi:
+
+19/02 19:55:40 DEBUG:
+	1 query sequences.
+
+19/02 19:55:40 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:41 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:41 DEBUG:
+Building HMM profile... 
+19/02 19:55:41 DEBUG:
+done.
+
+19/02 19:55:41 DEBUG:
+
+
+19/02 19:55:42 DEBUG:
+Columns = 446
+
+19/02 19:55:42 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:42 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:42 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina spelaei:
+
+19/02 19:55:42 DEBUG:
+	1 query sequences.
+
+19/02 19:55:42 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:42 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:42 DEBUG:
+Building HMM profile... 
+19/02 19:55:43 DEBUG:
+done.
+
+19/02 19:55:43 DEBUG:
+
+
+19/02 19:55:43 DEBUG:
+Columns = 446
+
+19/02 19:55:43 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:43 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:44 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina thermophila:
+
+19/02 19:55:44 DEBUG:
+	1 query sequences.
+
+19/02 19:55:44 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:44 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:44 DEBUG:
+Building HMM profile... 
+19/02 19:55:45 DEBUG:
+done.
+
+19/02 19:55:45 DEBUG:
+
+
+19/02 19:55:45 DEBUG:
+Columns = 446
+
+19/02 19:55:45 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:45 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:46 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Thermococcus; Thermococcus barophilus:
+
+19/02 19:55:46 DEBUG:
+	1 query sequences.
+
+19/02 19:55:46 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:46 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:46 DEBUG:
+Building HMM profile... 
+19/02 19:55:46 DEBUG:
+done.
+
+19/02 19:55:46 DEBUG:
+
+
+19/02 19:55:47 DEBUG:
+Columns = 446
+
+19/02 19:55:47 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:47 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:47 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Thermococcus; Thermococcus barossii:
+
+19/02 19:55:47 DEBUG:
+	1 query sequences.
+
+19/02 19:55:47 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:48 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:48 DEBUG:
+Building HMM profile... 
+19/02 19:55:48 DEBUG:
+done.
+
+19/02 19:55:48 DEBUG:
+
+
+19/02 19:55:49 DEBUG:
+Columns = 446
+
+19/02 19:55:49 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:49 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:49 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Thermococcus; Thermococcus chitonophagus:
+
+19/02 19:55:49 DEBUG:
+	1 query sequences.
+
+19/02 19:55:49 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:49 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:49 DEBUG:
+Building HMM profile... 
+19/02 19:55:50 DEBUG:
+done.
+
+19/02 19:55:50 DEBUG:
+
+
+19/02 19:55:50 DEBUG:
+Columns = 446
+
+19/02 19:55:50 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:50 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:51 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Thermococcus; Thermococcus gammatolerans:
+
+19/02 19:55:51 DEBUG:
+	1 query sequences.
+
+19/02 19:55:51 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:51 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:51 DEBUG:
+Building HMM profile... 
+19/02 19:55:52 DEBUG:
+done.
+
+19/02 19:55:52 DEBUG:
+
+
+19/02 19:55:52 DEBUG:
+Columns = 446
+
+19/02 19:55:52 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:52 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:52 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Thermococcus; Thermococcus kodakarensis:
+
+19/02 19:55:52 DEBUG:
+	1 query sequences.
+
+19/02 19:55:52 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:53 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:53 DEBUG:
+Building HMM profile... 
+19/02 19:55:53 DEBUG:
+done.
+
+19/02 19:55:53 DEBUG:
+
+
+19/02 19:55:54 DEBUG:
+Columns = 446
+
+19/02 19:55:54 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:54 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:54 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Thermococcus; Thermococcus paralvinellae:
+
+19/02 19:55:54 DEBUG:
+	1 query sequences.
+
+19/02 19:55:54 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:54 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:54 DEBUG:
+Building HMM profile... 
+19/02 19:55:55 DEBUG:
+done.
+
+19/02 19:55:55 DEBUG:
+
+
+19/02 19:55:55 DEBUG:
+Columns = 446
+
+19/02 19:55:55 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:55 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:56 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Thermococcus; Thermococcus radiotolerans:
+
+19/02 19:55:56 DEBUG:
+	1 query sequences.
+
+19/02 19:55:56 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:56 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:56 DEBUG:
+Building HMM profile... 
+19/02 19:55:57 DEBUG:
+done.
+
+19/02 19:55:57 DEBUG:
+
+
+19/02 19:55:57 DEBUG:
+Columns = 446
+
+19/02 19:55:57 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:57 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:58 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Thermococcus; Thermococcus sibiricus:
+
+19/02 19:55:58 DEBUG:
+	1 query sequences.
+
+19/02 19:55:58 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:58 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:58 DEBUG:
+Building HMM profile... 
+19/02 19:55:58 DEBUG:
+done.
+
+19/02 19:55:58 DEBUG:
+
+
+19/02 19:55:59 DEBUG:
+Columns = 446
+
+19/02 19:55:59 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:55:59 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:55:59 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Thermococci; Thermococcales; Thermococcaceae; Thermococcus; Thermococcus thioreducens:
+
+19/02 19:55:59 DEBUG:
+	1 query sequences.
+
+19/02 19:55:59 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:55:59 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:55:59 DEBUG:
+Building HMM profile... 
+19/02 19:56:00 DEBUG:
+done.
+
+19/02 19:56:00 DEBUG:
+
+
+19/02 19:56:00 DEBUG:
+Columns = 446
+
+19/02 19:56:00 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:00 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:01 DEBUG:
+Testing placements for Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus; Thermus amyloliquefaciens:
+
+19/02 19:56:01 DEBUG:
+	1 query sequences.
+
+19/02 19:56:01 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:56:01 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:56:01 DEBUG:
+Building HMM profile... 
+19/02 19:56:02 DEBUG:
+done.
+
+19/02 19:56:02 DEBUG:
+
+
+19/02 19:56:02 DEBUG:
+Columns = 446
+
+19/02 19:56:02 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:02 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:03 DEBUG:
+Testing placements for Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus; Thermus antranikianii:
+
+19/02 19:56:03 DEBUG:
+	1 query sequences.
+
+19/02 19:56:03 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:56:03 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:56:03 DEBUG:
+Building HMM profile... 
+19/02 19:56:03 DEBUG:
+done.
+
+19/02 19:56:03 DEBUG:
+
+
+19/02 19:56:04 DEBUG:
+Columns = 446
+
+19/02 19:56:04 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:04 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:04 DEBUG:
+Testing placements for Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus; Thermus caliditerrae:
+
+19/02 19:56:04 DEBUG:
+	1 query sequences.
+
+19/02 19:56:04 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:56:04 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:56:04 DEBUG:
+Building HMM profile... 
+19/02 19:56:05 DEBUG:
+done.
+
+19/02 19:56:05 DEBUG:
+
+
+19/02 19:56:06 DEBUG:
+Columns = 446
+
+19/02 19:56:06 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:06 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:06 DEBUG:
+Testing placements for Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus; Thermus filiformis:
+
+19/02 19:56:06 DEBUG:
+	1 query sequences.
+
+19/02 19:56:06 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:56:06 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:56:06 DEBUG:
+Building HMM profile... 
+19/02 19:56:07 DEBUG:
+done.
+
+19/02 19:56:07 DEBUG:
+
+
+19/02 19:56:07 DEBUG:
+Columns = 446
+
+19/02 19:56:07 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:07 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:08 DEBUG:
+Testing placements for Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus; Thermus tengchongensis:
+
+19/02 19:56:08 DEBUG:
+	1 query sequences.
+
+19/02 19:56:08 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:56:08 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:56:08 DEBUG:
+Building HMM profile... 
+19/02 19:56:08 DEBUG:
+done.
+
+19/02 19:56:09 DEBUG:
+
+
+19/02 19:56:09 DEBUG:
+Columns = 446
+
+19/02 19:56:09 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:09 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:09 DEBUG:
+Testing placements for Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus; Thermus tenuipuniceus:
+
+19/02 19:56:09 DEBUG:
+	1 query sequences.
+
+19/02 19:56:09 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:56:10 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:56:10 DEBUG:
+Building HMM profile... 
+19/02 19:56:10 DEBUG:
+done.
+
+19/02 19:56:10 DEBUG:
+
+
+19/02 19:56:11 DEBUG:
+Columns = 446
+
+19/02 19:56:11 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:11 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:11 DEBUG:
+Testing placements for Bacteria; Deinococcus-Thermus; Deinococci; Thermales; Thermaceae; Thermus; Thermus thermophilus:
+
+19/02 19:56:11 DEBUG:
+	5 query sequences.
+
+19/02 19:56:11 DEBUG:
+	118 sequences pruned from tree.
+
+19/02 19:56:11 DEBUG:
+	176 leaves in pruned tree.
+
+19/02 19:56:11 DEBUG:
+Building HMM profile... 
+19/02 19:56:12 DEBUG:
+done.
+
+19/02 19:56:12 DEBUG:
+
+
+19/02 19:56:12 DEBUG:
+Columns = 404
+
+19/02 19:56:12 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:12 DEBUG:
+Read 181 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:13 DEBUG:
+Testing placements for Bacteria; Firmicutes; Bacilli; Bacillales; Alicyclobacillaceae; Tumebacillus; Tumebacillus algifaecis:
+
+19/02 19:56:13 DEBUG:
+	1 query sequences.
+
+19/02 19:56:13 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:56:13 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:56:13 DEBUG:
+Building HMM profile... 
+19/02 19:56:14 DEBUG:
+done.
+
+19/02 19:56:14 DEBUG:
+
+
+19/02 19:56:14 DEBUG:
+Columns = 446
+
+19/02 19:56:14 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:14 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:15 DEBUG:
+Testing placements for Bacteria; Firmicutes; Bacilli; Bacillales; Alicyclobacillaceae; Tumebacillus; Tumebacillus avium:
+
+19/02 19:56:15 DEBUG:
+	1 query sequences.
+
+19/02 19:56:15 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:56:15 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:56:15 DEBUG:
+Building HMM profile... 
+19/02 19:56:15 DEBUG:
+done.
+
+19/02 19:56:15 DEBUG:
+
+
+19/02 19:56:16 DEBUG:
+Columns = 446
+
+19/02 19:56:16 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:16 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:16 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium bornimense:
+
+19/02 19:56:16 DEBUG:
+	1 query sequences.
+
+19/02 19:56:16 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:56:17 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:56:17 DEBUG:
+Building HMM profile... 
+19/02 19:56:17 DEBUG:
+done.
+
+19/02 19:56:17 DEBUG:
+
+
+19/02 19:56:18 DEBUG:
+Columns = 446
+
+19/02 19:56:18 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:18 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:18 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium celatum:
+
+19/02 19:56:18 DEBUG:
+	1 query sequences.
+
+19/02 19:56:18 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:56:18 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:56:18 DEBUG:
+Building HMM profile... 
+19/02 19:56:19 DEBUG:
+done.
+
+19/02 19:56:19 DEBUG:
+
+
+19/02 19:56:19 DEBUG:
+Columns = 446
+
+19/02 19:56:19 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:19 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:20 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium cochlearium:
+
+19/02 19:56:20 DEBUG:
+	1 query sequences.
+
+19/02 19:56:20 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:56:20 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:56:20 DEBUG:
+Building HMM profile... 
+19/02 19:56:21 DEBUG:
+done.
+
+19/02 19:56:21 DEBUG:
+
+
+19/02 19:56:21 DEBUG:
+Columns = 446
+
+19/02 19:56:21 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:21 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:22 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium fallax:
+
+19/02 19:56:22 DEBUG:
+	1 query sequences.
+
+19/02 19:56:22 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:56:22 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:56:22 DEBUG:
+Building HMM profile... 
+19/02 19:56:22 DEBUG:
+done.
+
+19/02 19:56:22 DEBUG:
+
+
+19/02 19:56:23 DEBUG:
+Columns = 441
+
+19/02 19:56:23 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:23 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:23 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium grantii:
+
+19/02 19:56:23 DEBUG:
+	1 query sequences.
+
+19/02 19:56:23 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:56:23 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:56:23 DEBUG:
+Building HMM profile... 
+19/02 19:56:24 DEBUG:
+done.
+
+19/02 19:56:24 DEBUG:
+
+
+19/02 19:56:25 DEBUG:
+Columns = 445
+
+19/02 19:56:25 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:25 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:25 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium hydrogeniformans:
+
+19/02 19:56:25 DEBUG:
+	1 query sequences.
+
+19/02 19:56:25 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:56:25 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:56:25 DEBUG:
+Building HMM profile... 
+19/02 19:56:26 DEBUG:
+done.
+
+19/02 19:56:26 DEBUG:
+
+
+19/02 19:56:26 DEBUG:
+Columns = 446
+
+19/02 19:56:26 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:26 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:27 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium lundense:
+
+19/02 19:56:27 DEBUG:
+	1 query sequences.
+
+19/02 19:56:27 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:56:27 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:56:27 DEBUG:
+Building HMM profile... 
+19/02 19:56:28 DEBUG:
+done.
+
+19/02 19:56:28 DEBUG:
+
+
+19/02 19:56:28 DEBUG:
+Columns = 446
+
+19/02 19:56:28 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:28 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:28 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium peptidivorans:
+
+19/02 19:56:28 DEBUG:
+	1 query sequences.
+
+19/02 19:56:28 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:56:29 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:56:29 DEBUG:
+Building HMM profile... 
+19/02 19:56:29 DEBUG:
+done.
+
+19/02 19:56:29 DEBUG:
+
+
+19/02 19:56:30 DEBUG:
+Columns = 446
+
+19/02 19:56:30 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:30 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:30 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium tetani:
+
+19/02 19:56:30 DEBUG:
+	3 query sequences.
+
+19/02 19:56:30 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:56:30 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:56:30 DEBUG:
+Building HMM profile... 
+19/02 19:56:31 DEBUG:
+done.
+
+19/02 19:56:31 DEBUG:
+
+
+19/02 19:56:31 DEBUG:
+Columns = 409
+
+19/02 19:56:31 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:31 DEBUG:
+Read 180 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:32 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium thermopalmarium:
+
+19/02 19:56:32 DEBUG:
+	1 query sequences.
+
+19/02 19:56:32 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:56:32 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:56:32 DEBUG:
+Building HMM profile... 
+19/02 19:56:33 DEBUG:
+done.
+
+19/02 19:56:33 DEBUG:
+
+
+19/02 19:56:33 DEBUG:
+Columns = 446
+
+19/02 19:56:33 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:33 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:34 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium tyrobutyricum:
+
+19/02 19:56:34 DEBUG:
+	2 query sequences.
+
+19/02 19:56:34 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:56:34 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:56:34 DEBUG:
+Building HMM profile... 
+19/02 19:56:34 DEBUG:
+done.
+
+19/02 19:56:34 DEBUG:
+
+
+19/02 19:56:35 DEBUG:
+Columns = 446
+
+19/02 19:56:35 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:35 DEBUG:
+Read 179 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:35 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiales incertae sedis; Clostridiales Family XIII. Incertae Sedis; Eubacterium infirmum:
+
+19/02 19:56:35 DEBUG:
+	1 query sequences.
+
+19/02 19:56:35 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:56:35 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:56:35 DEBUG:
+Building HMM profile... 
+19/02 19:56:36 DEBUG:
+done.
+
+19/02 19:56:36 DEBUG:
+
+
+19/02 19:56:37 DEBUG:
+Columns = 446
+
+19/02 19:56:37 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:37 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:37 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiales incertae sedis; Clostridiales Family XIII. Incertae Sedis; Eubacterium nodatum:
+
+19/02 19:56:37 DEBUG:
+	1 query sequences.
+
+19/02 19:56:37 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:56:37 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:56:37 DEBUG:
+Building HMM profile... 
+19/02 19:56:38 DEBUG:
+done.
+
+19/02 19:56:38 DEBUG:
+
+
+19/02 19:56:38 DEBUG:
+Columns = 446
+
+19/02 19:56:38 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:38 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:39 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiales incertae sedis; Clostridiales Family XIII. Incertae Sedis; Eubacterium sulci:
+
+19/02 19:56:39 DEBUG:
+	1 query sequences.
+
+19/02 19:56:39 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:56:39 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:56:39 DEBUG:
+Building HMM profile... 
+19/02 19:56:39 DEBUG:
+done.
+
+19/02 19:56:39 DEBUG:
+
+
+19/02 19:56:40 DEBUG:
+Columns = 446
+
+19/02 19:56:40 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:40 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:40 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Tepidanaerobacter; Tepidanaerobacter acetatoxydans:
+
+19/02 19:56:40 DEBUG:
+	1 query sequences.
+
+19/02 19:56:40 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:56:41 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:56:41 DEBUG:
+Building HMM profile... 
+19/02 19:56:41 DEBUG:
+done.
+
+19/02 19:56:41 DEBUG:
+
+
+19/02 19:56:42 DEBUG:
+Columns = 446
+
+19/02 19:56:42 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:42 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:42 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Tepidanaerobacter; Tepidanaerobacter syntrophicus:
+
+19/02 19:56:42 DEBUG:
+	1 query sequences.
+
+19/02 19:56:42 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:56:42 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:56:42 DEBUG:
+Building HMM profile... 
+19/02 19:56:43 DEBUG:
+done.
+
+19/02 19:56:43 DEBUG:
+
+
+19/02 19:56:43 DEBUG:
+Columns = 446
+
+19/02 19:56:43 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:43 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:44 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Thermoanaerobacter; Thermoanaerobacter italicus:
+
+19/02 19:56:44 DEBUG:
+	1 query sequences.
+
+19/02 19:56:44 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:56:44 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:56:44 DEBUG:
+Building HMM profile... 
+19/02 19:56:45 DEBUG:
+done.
+
+19/02 19:56:45 DEBUG:
+
+
+19/02 19:56:45 DEBUG:
+Columns = 441
+
+19/02 19:56:45 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:45 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:45 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Thermoanaerobacter; Thermoanaerobacter kivui:
+
+19/02 19:56:45 DEBUG:
+	1 query sequences.
+
+19/02 19:56:45 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:56:46 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:56:46 DEBUG:
+Building HMM profile... 
+19/02 19:56:46 DEBUG:
+done.
+
+19/02 19:56:46 DEBUG:
+
+
+19/02 19:56:47 DEBUG:
+Columns = 446
+
+19/02 19:56:47 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:47 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:47 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacteraceae; Thermoanaerobacter; Thermoanaerobacter uzonensis:
+
+19/02 19:56:47 DEBUG:
+	1 query sequences.
+
+19/02 19:56:47 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:56:47 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:56:47 DEBUG:
+Building HMM profile... 
+19/02 19:56:48 DEBUG:
+done.
+
+19/02 19:56:48 DEBUG:
+
+
+19/02 19:56:48 DEBUG:
+Columns = 441
+
+19/02 19:56:48 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:48 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:49 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Thermoanaerobacterium; Thermoanaerobacterium saccharolyticum:
+
+19/02 19:56:49 DEBUG:
+	1 query sequences.
+
+19/02 19:56:49 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:56:49 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:56:49 DEBUG:
+Building HMM profile... 
+19/02 19:56:50 DEBUG:
+done.
+
+19/02 19:56:50 DEBUG:
+
+
+19/02 19:56:50 DEBUG:
+Columns = 441
+
+19/02 19:56:50 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:50 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:51 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Thermoanaerobacterium; Thermoanaerobacterium thermosaccharolyticum:
+
+19/02 19:56:51 DEBUG:
+	1 query sequences.
+
+19/02 19:56:51 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:56:51 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:56:51 DEBUG:
+Building HMM profile... 
+19/02 19:56:51 DEBUG:
+done.
+
+19/02 19:56:51 DEBUG:
+
+
+19/02 19:56:52 DEBUG:
+Columns = 446
+
+19/02 19:56:52 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:52 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:52 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Thermoanaerobacterium; Thermoanaerobacterium xylanolyticum:
+
+19/02 19:56:52 DEBUG:
+	1 query sequences.
+
+19/02 19:56:52 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:56:53 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:56:53 DEBUG:
+Building HMM profile... 
+19/02 19:56:53 DEBUG:
+done.
+
+19/02 19:56:53 DEBUG:
+
+
+19/02 19:56:54 DEBUG:
+Columns = 441
+
+19/02 19:56:54 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:54 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:54 DEBUG:
+Testing placements for Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borrelia; Borrelia duttonii:
+
+19/02 19:56:54 DEBUG:
+	1 query sequences.
+
+19/02 19:56:54 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:56:54 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:56:54 DEBUG:
+Building HMM profile... 
+19/02 19:56:55 DEBUG:
+done.
+
+19/02 19:56:55 DEBUG:
+
+
+19/02 19:56:55 DEBUG:
+Columns = 446
+
+19/02 19:56:55 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:55 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:56 DEBUG:
+Testing placements for Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borrelia; Borrelia hermsii:
+
+19/02 19:56:56 DEBUG:
+	3 query sequences.
+
+19/02 19:56:56 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:56:56 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:56:56 DEBUG:
+Building HMM profile... 
+19/02 19:56:57 DEBUG:
+done.
+
+19/02 19:56:57 DEBUG:
+
+
+19/02 19:56:57 DEBUG:
+Columns = 439
+
+19/02 19:56:57 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:57 DEBUG:
+Read 180 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:58 DEBUG:
+Testing placements for Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borrelia; Borrelia miyamotoi:
+
+19/02 19:56:58 DEBUG:
+	3 query sequences.
+
+19/02 19:56:58 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:56:58 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:56:58 DEBUG:
+Building HMM profile... 
+19/02 19:56:58 DEBUG:
+done.
+
+19/02 19:56:59 DEBUG:
+
+
+19/02 19:56:59 DEBUG:
+Columns = 445
+
+19/02 19:56:59 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:56:59 DEBUG:
+Read 180 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:56:59 DEBUG:
+Testing placements for Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borrelia; Borrelia persica:
+
+19/02 19:56:59 DEBUG:
+	1 query sequences.
+
+19/02 19:56:59 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:57:00 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:57:00 DEBUG:
+Building HMM profile... 
+19/02 19:57:00 DEBUG:
+done.
+
+19/02 19:57:00 DEBUG:
+
+
+19/02 19:57:01 DEBUG:
+Columns = 446
+
+19/02 19:57:01 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:57:01 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:57:01 DEBUG:
+Testing placements for Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borrelia; Borrelia turicatae:
+
+19/02 19:57:01 DEBUG:
+	2 query sequences.
+
+19/02 19:57:01 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:57:01 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:57:01 DEBUG:
+Building HMM profile... 
+19/02 19:57:02 DEBUG:
+done.
+
+19/02 19:57:02 DEBUG:
+
+
+19/02 19:57:02 DEBUG:
+Columns = 447
+
+19/02 19:57:02 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:57:02 DEBUG:
+Read 179 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:57:03 DEBUG:
+Testing placements for Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borreliella; Borrelia mayonii:
+
+19/02 19:57:03 DEBUG:
+	1 query sequences.
+
+19/02 19:57:03 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:57:03 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:57:03 DEBUG:
+Building HMM profile... 
+19/02 19:57:04 DEBUG:
+done.
+
+19/02 19:57:04 DEBUG:
+
+
+19/02 19:57:04 DEBUG:
+Columns = 446
+
+19/02 19:57:04 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:57:04 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:57:05 DEBUG:
+Testing placements for Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borreliella; Borreliella afzelii:
+
+19/02 19:57:05 DEBUG:
+	1 query sequences.
+
+19/02 19:57:05 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:57:05 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:57:05 DEBUG:
+Building HMM profile... 
+19/02 19:57:05 DEBUG:
+done.
+
+19/02 19:57:05 DEBUG:
+
+
+19/02 19:57:06 DEBUG:
+Columns = 446
+
+19/02 19:57:06 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:57:06 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:57:06 DEBUG:
+Testing placements for Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borreliella; Borreliella bissettii:
+
+19/02 19:57:06 DEBUG:
+	1 query sequences.
+
+19/02 19:57:06 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:57:07 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:57:07 DEBUG:
+Building HMM profile... 
+19/02 19:57:07 DEBUG:
+done.
+
+19/02 19:57:07 DEBUG:
+
+
+19/02 19:57:08 DEBUG:
+Columns = 446
+
+19/02 19:57:08 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:57:08 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:57:08 DEBUG:
+Testing placements for Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borreliella; Borreliella burgdorferi:
+
+19/02 19:57:08 DEBUG:
+	1 query sequences.
+
+19/02 19:57:08 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:57:08 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:57:08 DEBUG:
+Building HMM profile... 
+19/02 19:57:09 DEBUG:
+done.
+
+19/02 19:57:09 DEBUG:
+
+
+19/02 19:57:09 DEBUG:
+Columns = 446
+
+19/02 19:57:09 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:57:09 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:57:10 DEBUG:
+Testing placements for Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borreliella; Borreliella chilensis:
+
+19/02 19:57:10 DEBUG:
+	1 query sequences.
+
+19/02 19:57:10 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:57:10 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:57:10 DEBUG:
+Building HMM profile... 
+19/02 19:57:11 DEBUG:
+done.
+
+19/02 19:57:11 DEBUG:
+
+
+19/02 19:57:11 DEBUG:
+Columns = 446
+
+19/02 19:57:11 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:57:11 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:57:11 DEBUG:
+Testing placements for Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borreliella; Borreliella garinii:
+
+19/02 19:57:11 DEBUG:
+	5 query sequences.
+
+19/02 19:57:11 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:57:12 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:57:12 DEBUG:
+Building HMM profile... 
+19/02 19:57:12 DEBUG:
+done.
+
+19/02 19:57:12 DEBUG:
+
+
+19/02 19:57:13 DEBUG:
+Columns = 446
+
+19/02 19:57:13 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:57:13 DEBUG:
+Read 182 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:57:13 DEBUG:
+Testing placements for Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borreliella; Borreliella japonica:
+
+19/02 19:57:13 DEBUG:
+	1 query sequences.
+
+19/02 19:57:13 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:57:13 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:57:13 DEBUG:
+Building HMM profile... 
+19/02 19:57:14 DEBUG:
+done.
+
+19/02 19:57:14 DEBUG:
+
+
+19/02 19:57:14 DEBUG:
+Columns = 446
+
+19/02 19:57:14 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:57:14 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:57:15 DEBUG:
+Testing placements for Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Borreliaceae; Borreliella; Borreliella spielmanii:
+
+19/02 19:57:15 DEBUG:
+	1 query sequences.
+
+19/02 19:57:15 DEBUG:
+	117 sequences pruned from tree.
+
+19/02 19:57:15 DEBUG:
+	177 leaves in pruned tree.
+
+19/02 19:57:15 DEBUG:
+Building HMM profile... 
+19/02 19:57:16 DEBUG:
+done.
+
+19/02 19:57:16 DEBUG:
+
+
+19/02 19:57:16 DEBUG:
+Columns = 446
+
+19/02 19:57:16 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:57:16 DEBUG:
+Read 178 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:57:17 DEBUG:
+RANK: Species
+	Samples = 148
+	Median = 0.0952
+	Mean = 0.1442
+
+19/02 19:57:17 DEBUG:
+9 lineages truncated before Class were removed during lineage trimming.
+18 lineages unclassified at or before Class also removed.
+
+19/02 19:57:17 DEBUG:
+Testing placements for Archaea; Candidatus Micrarchaeota; Candidatus Mancarchaeum:
+
+19/02 19:57:17 DEBUG:
+	1 query sequences.
+
+19/02 19:57:17 DEBUG:
+	28 sequences pruned from tree.
+
+19/02 19:57:17 DEBUG:
+	266 leaves in pruned tree.
+
+19/02 19:57:17 DEBUG:
+Building HMM profile... 
+19/02 19:57:17 DEBUG:
+done.
+
+19/02 19:57:17 DEBUG:
+
+
+19/02 19:57:18 DEBUG:
+Columns = 370
+
+19/02 19:57:18 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:57:18 DEBUG:
+Read 267 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:57:19 DEBUG:
+Testing placements for Archaea; Candidatus Micrarchaeota; Candidatus Micrarchaeum:
+
+19/02 19:57:19 DEBUG:
+	1 query sequences.
+
+19/02 19:57:19 DEBUG:
+	28 sequences pruned from tree.
+
+19/02 19:57:19 DEBUG:
+	266 leaves in pruned tree.
+
+19/02 19:57:19 DEBUG:
+Building HMM profile... 
+19/02 19:57:19 DEBUG:
+done.
+
+19/02 19:57:19 DEBUG:
+
+
+19/02 19:57:20 DEBUG:
+Columns = 370
+
+19/02 19:57:20 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:57:20 DEBUG:
+Read 267 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:57:20 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Aciduliprofundum:
+
+19/02 19:57:20 DEBUG:
+	1 query sequences.
+
+19/02 19:57:20 DEBUG:
+	28 sequences pruned from tree.
+
+19/02 19:57:21 DEBUG:
+	266 leaves in pruned tree.
+
+19/02 19:57:21 DEBUG:
+Building HMM profile... 
+19/02 19:57:21 DEBUG:
+done.
+
+19/02 19:57:21 DEBUG:
+
+
+19/02 19:57:22 DEBUG:
+Columns = 370
+
+19/02 19:57:22 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:57:22 DEBUG:
+Read 267 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:57:22 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Archaeoglobi:
+
+19/02 19:57:22 DEBUG:
+	2 query sequences.
+
+19/02 19:57:22 DEBUG:
+	29 sequences pruned from tree.
+
+19/02 19:57:23 DEBUG:
+	265 leaves in pruned tree.
+
+19/02 19:57:23 DEBUG:
+Building HMM profile... 
+19/02 19:57:23 DEBUG:
+done.
+
+19/02 19:57:23 DEBUG:
+
+
+19/02 19:57:24 DEBUG:
+Columns = 370
+
+19/02 19:57:24 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:57:24 DEBUG:
+Read 267 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:57:24 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Hadesarchaea:
+
+19/02 19:57:24 DEBUG:
+	1 query sequences.
+
+19/02 19:57:24 DEBUG:
+	28 sequences pruned from tree.
+
+19/02 19:57:25 DEBUG:
+	266 leaves in pruned tree.
+
+19/02 19:57:25 DEBUG:
+Building HMM profile... 
+19/02 19:57:25 DEBUG:
+done.
+
+19/02 19:57:25 DEBUG:
+
+
+19/02 19:57:26 DEBUG:
+Columns = 370
+
+19/02 19:57:26 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:57:26 DEBUG:
+Read 267 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:57:26 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Halobacteria:
+
+19/02 19:57:26 DEBUG:
+	30 query sequences.
+
+19/02 19:57:26 DEBUG:
+	92 sequences pruned from tree.
+
+19/02 19:57:27 DEBUG:
+	202 leaves in pruned tree.
+
+19/02 19:57:27 DEBUG:
+Building HMM profile... 
+19/02 19:57:27 DEBUG:
+done.
+
+19/02 19:57:28 DEBUG:
+
+
+19/02 19:57:28 DEBUG:
+Columns = 347
+
+19/02 19:57:28 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:57:28 DEBUG:
+Read 232 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:57:30 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanobacteria:
+
+19/02 19:57:30 DEBUG:
+	20 query sequences.
+
+19/02 19:57:30 DEBUG:
+	45 sequences pruned from tree.
+
+19/02 19:57:31 DEBUG:
+	249 leaves in pruned tree.
+
+19/02 19:57:31 DEBUG:
+Building HMM profile... 
+19/02 19:57:31 DEBUG:
+done.
+
+19/02 19:57:31 DEBUG:
+
+
+19/02 19:57:32 DEBUG:
+Columns = 370
+
+19/02 19:57:32 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:57:32 DEBUG:
+Read 269 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:57:33 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanococci:
+
+19/02 19:57:33 DEBUG:
+	19 query sequences.
+
+19/02 19:57:33 DEBUG:
+	40 sequences pruned from tree.
+
+19/02 19:57:33 DEBUG:
+	254 leaves in pruned tree.
+
+19/02 19:57:33 DEBUG:
+Building HMM profile... 
+19/02 19:57:33 DEBUG:
+done.
+
+19/02 19:57:34 DEBUG:
+
+
+19/02 19:57:34 DEBUG:
+Columns = 369
+
+19/02 19:57:34 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:57:34 DEBUG:
+Read 273 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:57:35 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanomicrobia:
+
+19/02 19:57:35 DEBUG:
+	25 query sequences.
+
+19/02 19:57:35 DEBUG:
+	43 sequences pruned from tree.
+
+19/02 19:57:35 DEBUG:
+	251 leaves in pruned tree.
+
+19/02 19:57:35 DEBUG:
+Building HMM profile... 
+19/02 19:57:36 DEBUG:
+done.
+
+19/02 19:57:36 DEBUG:
+
+
+19/02 19:57:36 DEBUG:
+Columns = 358
+
+19/02 19:57:36 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:57:36 DEBUG:
+Read 276 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:57:37 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanonatronarchaeia:
+
+19/02 19:57:37 DEBUG:
+	1 query sequences.
+
+19/02 19:57:37 DEBUG:
+	28 sequences pruned from tree.
+
+19/02 19:57:37 DEBUG:
+	266 leaves in pruned tree.
+
+19/02 19:57:37 DEBUG:
+Building HMM profile... 
+19/02 19:57:38 DEBUG:
+done.
+
+19/02 19:57:38 DEBUG:
+
+
+19/02 19:57:38 DEBUG:
+Columns = 370
+
+19/02 19:57:38 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:57:38 DEBUG:
+Read 267 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:57:39 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Thermococci:
+
+19/02 19:57:39 DEBUG:
+	19 query sequences.
+
+19/02 19:57:39 DEBUG:
+	43 sequences pruned from tree.
+
+19/02 19:57:39 DEBUG:
+	251 leaves in pruned tree.
+
+19/02 19:57:39 DEBUG:
+Building HMM profile... 
+19/02 19:57:40 DEBUG:
+done.
+
+19/02 19:57:40 DEBUG:
+
+
+19/02 19:57:41 DEBUG:
+Columns = 371
+
+19/02 19:57:41 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:57:41 DEBUG:
+Read 270 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:57:41 DEBUG:
+Testing placements for Bacteria; Firmicutes; Bacilli:
+
+19/02 19:57:41 DEBUG:
+	10 query sequences.
+
+19/02 19:57:41 DEBUG:
+	34 sequences pruned from tree.
+
+19/02 19:57:42 DEBUG:
+	260 leaves in pruned tree.
+
+19/02 19:57:42 DEBUG:
+Building HMM profile... 
+19/02 19:57:42 DEBUG:
+done.
+
+19/02 19:57:43 DEBUG:
+
+
+19/02 19:57:43 DEBUG:
+Columns = 369
+
+19/02 19:57:43 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:57:43 DEBUG:
+Read 270 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:57:44 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia:
+
+19/02 19:57:44 DEBUG:
+	30 query sequences.
+
+19/02 19:57:44 DEBUG:
+	92 sequences pruned from tree.
+
+19/02 19:57:44 DEBUG:
+	202 leaves in pruned tree.
+
+19/02 19:57:44 DEBUG:
+Building HMM profile... 
+19/02 19:57:44 DEBUG:
+done.
+
+19/02 19:57:45 DEBUG:
+
+
+19/02 19:57:45 DEBUG:
+Columns = 425
+
+19/02 19:57:45 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:57:45 DEBUG:
+Read 232 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:57:46 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Alphaproteobacteria:
+
+19/02 19:57:46 DEBUG:
+	1 query sequences.
+
+19/02 19:57:46 DEBUG:
+	28 sequences pruned from tree.
+
+19/02 19:57:46 DEBUG:
+	266 leaves in pruned tree.
+
+19/02 19:57:46 DEBUG:
+Building HMM profile... 
+19/02 19:57:47 DEBUG:
+done.
+
+19/02 19:57:47 DEBUG:
+
+
+19/02 19:57:48 DEBUG:
+Columns = 370
+
+19/02 19:57:48 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:57:48 DEBUG:
+Read 267 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:57:48 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Deltaproteobacteria:
+
+19/02 19:57:48 DEBUG:
+	17 query sequences.
+
+19/02 19:57:48 DEBUG:
+	43 sequences pruned from tree.
+
+19/02 19:57:48 DEBUG:
+	251 leaves in pruned tree.
+
+19/02 19:57:48 DEBUG:
+Building HMM profile... 
+19/02 19:57:49 DEBUG:
+done.
+
+19/02 19:57:49 DEBUG:
+
+
+19/02 19:57:50 DEBUG:
+Columns = 362
+
+19/02 19:57:50 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:57:50 DEBUG:
+Read 268 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:57:50 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria:
+
+19/02 19:57:50 DEBUG:
+	5 query sequences.
+
+19/02 19:57:50 DEBUG:
+	31 sequences pruned from tree.
+
+19/02 19:57:51 DEBUG:
+	263 leaves in pruned tree.
+
+19/02 19:57:51 DEBUG:
+Building HMM profile... 
+19/02 19:57:51 DEBUG:
+done.
+
+19/02 19:57:51 DEBUG:
+
+
+19/02 19:57:52 DEBUG:
+Columns = 371
+
+19/02 19:57:52 DEBUG:
+Number of sequences discarded: 
+		Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+19/02 19:57:52 DEBUG:
+Read 268 headers from Translation/PheT/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+19/02 19:57:52 DEBUG:
+RANK: Class
+	Samples = 183
+	Median = 1.1312
+	Mean = 1.2789
+
+19/02 19:57:52 INFO:
+Placement distance regression model complete.
+
+19/02 19:57:52 DEBUG:
+Read 294 headers from Translation/PheT/seed_refpkg/final_outputs/PheT.fa.
+
+19/02 19:57:52 INFO:
+
+To integrate this package for use in TreeSAPP the following steps must be performed:
+1. Write a properly formatted reference package 'code' in /home/connor/Bioinformatics/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp/data/ref_build_parameters.tsv
+2. $ cp Translation/PheT/seed_refpkg/final_outputs/tax_ids_PheT.txt Translation/PheT/seed_refpkg/final_outputs/PheT_tree.txt Translation/PheT/seed_refpkg/final_outputs/PheT_bestModel.txt /home/connor/Bioinformatics/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp/data/tree_data/
+3. $ cp Translation/PheT/seed_refpkg/final_outputs/PheT.hmm /home/connor/Bioinformatics/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp/data/hmm_data/
+4. $ cp Translation/PheT/seed_refpkg/final_outputs/PheT.fa /home/connor/Bioinformatics/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp/data/alignment_data/
+
+19/02 19:57:52 INFO:
+Data for PheT has been generated successfully.
+
+19/02 19:57:52 INFO:
+TreeSAPP has finished successfully.
+
