@@ -77,3 +77,5 @@ DsrC	S2920	prot	PROTGAMMALG	functional	0.95	351	FastTree	-3.4643,7.0	Kingdoms	17
 RpoB	P0002	prot	PROTGAMMALG	functional	0.85	599	FastTree	-6.7201,7.0	Phyla	17_Feb_2020	Beta subunit of RNA polymerase
 GyrA	T0188	prot	PROTGAMMALG	functional	0.85	1499	FastTree	-5.3136,7.0	Families	17_Feb_2020	
 IleS	T0060	prot	PROTGAMMALG	functional	0.90	1281	FastTree	-5.2916,7.0	Phyla	17_Feb_2020	
+PheT	T0072	prot	PROTGAMMALG	taxonomic	0.95	294	FastTree	-3.5004,7.0	Kingdoms	20_Feb_2020	
+PheS	T0016	prot	PROTGAMMALG	taxonomic	0.75	2534	FastTree	-6.1463,7.0	Kingdoms	20_Feb_2020	
