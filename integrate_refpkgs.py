@@ -102,6 +102,8 @@ def consensus_name(dir_files: list) -> str:
 
 def instantiate_refpkgs(refpkg_dirs: list) -> list:
     ref_packages = []
+    refpkg_dir_map = {}
+    print("Instantiating reference packages:")
     for refpkg_dir in refpkg_dirs:
         refpkg_name = consensus_name(glob.glob(refpkg_dir + "*"))
         if not refpkg_name:
@@ -109,6 +111,10 @@ def instantiate_refpkgs(refpkg_dirs: list) -> list:
         refpkg = classy.ReferencePackage(refpkg_name=refpkg_name)
         refpkg.gather_package_files(refpkg_dir)
         ref_packages.append(refpkg)
+        refpkg_dir_map[refpkg.prefix] = refpkg_dir
+
+    print("\t" +
+          "\n\t".join([refpkg_name + ": " + refpkg_dir_map[refpkg_name] for refpkg_name in sorted(refpkg_dir_map)]))
     return ref_packages
 
 
