@@ -1,0 +1,5137 @@
+21/02 17:49:03 INFO:
+
+##			Creating TreeSAPP reference package			##
+
+21/02 17:49:03 INFO:
+Arguments used:
+-b 0 --fast -n 8 --cluster -p 0.90 -m prot --headless --overwrite --screen Bacteria,Archaea -i Nitrogen_metabolism/Fixation/NifH/fungene_9.9_nifH_uclust99.faa -o Nitrogen_metabolism/Fixation/NifH/seed_refpkg -c NifH --profile /mnt/nfs/sharknado/LimsData/Hallam_Databases/formatted/HMMs/Protein/TIGRFAMs/TIGR01287.HMM --accession2taxid /mnt/nfs/sharknado/LimsData/Hallam_Databases/raw/Taxonomy/prot.accession2taxid
+
+21/02 17:49:03 DEBUG:
+Continuing with stage 'search'
+
+21/02 17:49:03 DEBUG:
+Read 1217 headers from Nitrogen_metabolism/Fixation/NifH/fungene_9.9_nifH_uclust99.faa.
+
+21/02 17:49:03 DEBUG:
+Raw, unfiltered sequence summary:
+	Number of sequences: 1216
+	Longest sequence length: 411
+	Shortest sequence length: 180
+	Mean sequence length: 270.6
+	Median sequence length: 275.0
+
+21/02 17:49:03 INFO:
+Searching for domain sequences... 
+21/02 17:49:05 INFO:
+done.
+
+21/02 17:49:05 DEBUG:
+Filtering HMM alignments using the following thresholds:
+	Maximum E-value = 1e-05
+	Maximum i-Evalue = 0.001
+	Minimum acc = 0.7
+	Minimum score = 20
+	Minimum percentage of the HMM covered = 60%
+
+21/02 17:49:05 INFO:
+Parsing HMMER domain tables for high-quality matches... 
+21/02 17:49:05 INFO:
+done.
+
+21/02 17:49:05 DEBUG:
+	Initial alignments:	1220
+	Alignments discarded:	0
+	Fragmented alignments:	6
+	Inversions detected:	0
+	Alignments scaffolded:	3
+	Multi-alignments:	0
+	Sequences identified:	1217
+
+	Number of markers identified:
+		TIGR01287	1217
+
+21/02 17:49:05 DEBUG:
+Creating a temporary dictionary for rapid sequence name look-ups... 
+21/02 17:49:05 DEBUG:
+done.
+
+21/02 17:49:05 INFO:
+Extracting the quality-controlled protein sequences... 
+21/02 17:49:05 DEBUG:
+Unable to map ABW96183 to a sequence in the input FASTA.
+
+21/02 17:49:05 INFO:
+done.
+
+21/02 17:49:05 INFO:
+Low coverage TIGR01287 profile windows (start-stop):
+	1-2
+	267-end
+
+21/02 17:49:05 INFO:
+Maximum coverage for TIGR01287 = 1217 sequences
+
+21/02 17:49:05 DEBUG:
+Read 1216 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/NifH_hmm_purified.fasta.
+
+21/02 17:49:05 DEBUG:
+Identified and replaced invalid ambiguity characters in 0 sequences.
+
+21/02 17:49:05 INFO:
+Sequence summary:
+	Number of sequences: 1216
+	Longest sequence length: 305
+	Shortest sequence length: 179
+	Mean sequence length: 255.8
+	Median sequence length: 268.0
+
+21/02 17:49:05 INFO:
+Extracting information from headers... 
+21/02 17:49:05 INFO:
+done.
+
+21/02 17:49:05 DEBUG:
+	Number of input sequences =	1216
+
+21/02 17:49:05 DEBUG:
+	Number of queries =	1216
+
+21/02 17:49:05 INFO:
+Mapping query accessions to NCBI taxonomy IDs... 
+21/02 17:55:07 DEBUG:
+Time required to parse '/mnt/nfs/sharknado/LimsData/Hallam_Databases/raw/Taxonomy/prot.accession2taxid': 362.4s.
+
+21/02 17:55:07 DEBUG:
+98.52% of query accessions mapped by /mnt/nfs/sharknado/LimsData/Hallam_Databases/raw/Taxonomy/prot.accession2taxid.
+
+21/02 17:55:07 INFO:
+done.
+
+21/02 17:55:07 INFO:
+Preparing Bio.Entrez for NCBI queries... 
+21/02 17:55:08 INFO:
+done.
+
+21/02 17:55:08 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+accession = EET29350, treesapp_id = 1049_NifH
+organism = , NCBI taxid = 
+description = , locus = 
+lineage = 
+acc.version = , bitflag = 0
+
+21/02 17:55:08 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+accession = EET29551, treesapp_id = 1050_NifH
+organism = , NCBI taxid = 
+description = , locus = 
+lineage = 
+acc.version = , bitflag = 0
+
+21/02 17:55:08 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+accession = EFX98811, treesapp_id = 1080_NifH
+organism = , NCBI taxid = 
+description = , locus = 
+lineage = 
+acc.version = , bitflag = 0
+
+21/02 17:55:08 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+accession = EGB21515, treesapp_id = 1083_NifH
+organism = , NCBI taxid = 
+description = , locus = 
+lineage = 
+acc.version = , bitflag = 0
+
+21/02 17:55:08 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+accession = EGZ42772, treesapp_id = 1114_NifH
+organism = , NCBI taxid = 
+description = , locus = 
+lineage = 
+acc.version = , bitflag = 0
+
+21/02 17:55:08 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+accession = EGZ43297, treesapp_id = 1115_NifH
+organism = , NCBI taxid = 
+description = , locus = 
+lineage = 
+acc.version = , bitflag = 0
+
+21/02 17:55:08 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+accession = EGZ49683, treesapp_id = 1119_NifH
+organism = , NCBI taxid = 
+description = , locus = 
+lineage = 
+acc.version = , bitflag = 0
+
+21/02 17:55:08 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+accession = EHC22018, treesapp_id = 1121_NifH
+organism = , NCBI taxid = 
+description = , locus = 
+lineage = 
+acc.version = , bitflag = 0
+
+21/02 17:55:08 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+accession = EHF08591, treesapp_id = 1122_NifH
+organism = , NCBI taxid = 
+description = , locus = 
+lineage = 
+acc.version = , bitflag = 0
+
+21/02 17:55:08 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+accession = EHG05102, treesapp_id = 1123_NifH
+organism = , NCBI taxid = 
+description = , locus = 
+lineage = 
+acc.version = , bitflag = 0
+
+21/02 17:55:08 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+accession = EHG19730, treesapp_id = 1125_NifH
+organism = , NCBI taxid = 
+description = , locus = 
+lineage = 
+acc.version = , bitflag = 0
+
+21/02 17:55:08 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+accession = EHP11122, treesapp_id = 1135_NifH
+organism = , NCBI taxid = 
+description = , locus = 
+lineage = 
+acc.version = , bitflag = 0
+
+21/02 17:55:08 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+accession = EIB93723, treesapp_id = 1146_NifH
+organism = , NCBI taxid = 
+description = , locus = 
+lineage = 
+acc.version = , bitflag = 0
+
+21/02 17:55:08 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+accession = OAS38419, treesapp_id = 1177_NifH
+organism = , NCBI taxid = 
+description = , locus = 
+lineage = 
+acc.version = , bitflag = 0
+
+21/02 17:55:08 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+accession = OBQ03870, treesapp_id = 1178_NifH
+organism = , NCBI taxid = 
+description = , locus = 
+lineage = 
+acc.version = , bitflag = 0
+
+21/02 17:55:08 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+accession = OBQ03876, treesapp_id = 1179_NifH
+organism = , NCBI taxid = 
+description = , locus = 
+lineage = 
+acc.version = , bitflag = 0
+
+21/02 17:55:08 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+accession = OBQ08444, treesapp_id = 1180_NifH
+organism = , NCBI taxid = 
+description = , locus = 
+lineage = 
+acc.version = , bitflag = 0
+
+21/02 17:55:08 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+accession = OBQ09897, treesapp_id = 1181_NifH
+organism = , NCBI taxid = 
+description = , locus = 
+lineage = 
+acc.version = , bitflag = 0
+
+21/02 17:55:08 INFO:
+Retrieving lineage information for each taxonomy ID... 
+21/02 17:55:15 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 100	0.0:0.91
+	100 - 200	0.0:0.86
+	200 - 300	0.0:0.86
+	300 - 400	0.0:0.84
+	400 - 500	0.0:0.91
+	500 - 600	0.0:0.98
+	600 - 700	0.0:0.87
+	700 - 800	0.0:0.86
+
+21/02 17:55:15 INFO:
+done.
+
+21/02 17:55:15 INFO:
+Preparing Bio.Entrez for NCBI queries... 
+21/02 17:55:15 INFO:
+done.
+
+21/02 17:55:15 INFO:
+Retrieving Entrez taxonomy records for each accession... 
+21/02 17:55:24 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 100	0.0:8.27
+
+21/02 17:55:24 INFO:
+done.
+
+21/02 17:55:24 DEBUG:
+12 unique organism queries.
+
+21/02 17:55:24 INFO:
+Retrieving NCBI taxonomy IDs for each organism... 
+21/02 17:55:32 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 1	0.0:0.66
+	1 - 2	0.0:0.66
+	2 - 3	0.0:0.66
+	3 - 4	0.0:0.66
+	4 - 5	0.0:0.66
+	5 - 6	0.0:0.66
+	6 - 7	0.0:0.66
+	7 - 8	0.0:0.66
+	8 - 9	0.0:0.66
+	9 - 10	0.0:0.66
+	10 - 11	0.0:0.66
+	11 - 12	0.0:0.66
+
+21/02 17:55:32 INFO:
+done.
+
+21/02 17:55:32 INFO:
+Preparing Bio.Entrez for NCBI queries... 
+21/02 17:55:32 INFO:
+done.
+
+21/02 17:55:32 INFO:
+Retrieving lineage information for each taxonomy ID... 
+21/02 17:55:33 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 100	0.0:0.66
+
+21/02 17:55:33 INFO:
+done.
+
+21/02 17:55:33 DEBUG:
+Queries mapped ideally = 1216
+Queries with organism unmapped = 0
+Queries with NCBI taxonomy ID unmapped = 0
+Queries mapped with alternative accessions = 0
+Queries that outright failed = 0
+
+21/02 17:55:33 DEBUG:
+Entrez.efetch query stats:
+	Downloaded	1216
+	Provided	0
+	Total		1216
+
+
+21/02 17:55:33 DEBUG:
+	90 sequences removed after failing screen.
+	0 sequences removed after failing filter.
+	1126 sequences retained.
+
+21/02 17:55:33 INFO:
+Clustering sequences with UCLUST... 
+21/02 17:55:33 INFO:
+done.
+
+21/02 17:55:33 DEBUG:
+usearch v8.1.1861_i86linux64, 264Gb RAM, 40 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+Licensed to: dfairley@mail.ubc.ca
+
+00:00  37Mb    0.1% Reading Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/fungene_9.9_nifH_uclust99_uclust_input.fasta00:00  43Mb  100.0% Reading Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/fungene_9.9_nifH_uclust99_uclust_input.fasta
+00:00 9.1Mb Pass 1...1126 seqs, 1122 uniques, 1119 singletons (99.7%)                                                               
+00:00 3.0Gb Min size 1, median 1, max 3, avg 1.00
+00:00 3.0Gb done.
+00:00 3.0Gb Sort length... done.
+00:00 3.0Gb    0.1% Clustering00:00 3.0Gb    0.1% 0 clusters, max size 0, avg 0.000:00 3.0Gb  100.0% 416 clusters, max size 82, avg 2.7
+00:00 3.0Gb    0.2% Writing centroids to Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/fungene_9.9_nifH_uclust99_uclust0.90.fa00:00 3.0Gb  100.0% Writing centroids to Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/fungene_9.9_nifH_uclust99_uclust0.90.fa
+                                                                                                                                            
+      Seqs  1122
+  Clusters  416
+  Max size  82
+  Avg size  2.7
+  Min size  1
+Singletons  273, 24.3% of seqs, 65.6% of clusters
+   Max mem  3.0Gb
+      Time  1.00s
+Throughput  1122.0 seqs/sec.
+
+
+21/02 17:55:33 DEBUG:
+Reading usearch cluster file... 
+21/02 17:55:33 DEBUG:
+done.
+
+21/02 17:55:33 DEBUG:
+	416 sequence clusters
+
+21/02 17:55:33 DEBUG:
+Empty LCA from lineages:
+	Archaea; Euryarchaeota; Methanomicrobia; Methanomicrobiales; Methanoregulaceae; Methanosphaerula; Methanosphaerula palustris
+	Archaea; Euryarchaeota; Methanomicrobia; Methanomicrobiales; Methanoregulaceae; Methanoregula; Methanoregula boonei
+	Bacteria; Firmicutes; Negativicutes; Selenomonadales; Sporomusaceae; Pelosinus; Pelosinus fermentans
+	Bacteria; Firmicutes; Negativicutes; Selenomonadales; Sporomusaceae; Pelosinus; Pelosinus fermentans
+
+21/02 17:55:33 DEBUG:
+Empty LCA from lineages:
+	Archaea; Euryarchaeota; Methanomicrobia; Methanocellales; Methanocellaceae; Methanocella; Methanocella arvoryzae
+	Bacteria; environmental samples
+
+21/02 17:55:33 DEBUG:
+Finalizing representative sequence clusters... 
+21/02 17:55:33 DEBUG:
+done.
+
+21/02 17:55:33 DEBUG:
+Re-enumerating the reference sequences in taxonomic order... 
+21/02 17:55:33 DEBUG:
+done.
+
+21/02 17:55:33 INFO:
+Detecting outlier reference sequences... 
+21/02 17:55:36 INFO:
+done.
+
+21/02 17:55:36 DEBUG:
+4 outlier sequences detected and discarded.
+	ADY62464
+	ACO36752
+	ACO36754
+	ACO36759
+
+21/02 17:55:36 DEBUG:
+Re-enumerating the reference sequences in taxonomic order... 
+21/02 17:55:36 DEBUG:
+done.
+
+21/02 17:55:36 INFO:
+Generated the taxonomic lineage map Nitrogen_metabolism/Fixation/NifH/seed_refpkg/final_outputs/tax_ids_NifH.txt
+
+21/02 17:55:36 INFO:
+Number of unique lineages:
+	Kingdoms   2
+	Phyla     21
+	Classes   40
+	Orders    65
+	Families 102
+	Genera   188
+	Species  249
+Unclassified lineages account for 55/412 (13.3%) references.
+
+21/02 17:55:36 INFO:
+Aligning the sequences using MAFFT... 
+21/02 17:55:39 INFO:
+done.
+
+21/02 17:55:39 DEBUG:
+Reference alignment contains 412 sequences with 363 character positions.
+
+21/02 17:55:39 DEBUG:
+Building HMM profile... 
+21/02 17:55:40 DEBUG:
+done.
+
+21/02 17:55:40 INFO:
+Creating taxonomically-dereplicated HMM... 
+21/02 17:55:40 DEBUG:
+Read 412 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/final_outputs/NifH.fa.
+
+21/02 17:55:40 DEBUG:
+19 lineages truncated before Genus were removed during lineage trimming.
+15 lineages unclassified at or before Genus also removed.
+
+21/02 17:55:40 DEBUG:
+195 Genus-dereplicated sequences retained for building HMM profile.
+
+21/02 17:55:40 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	227_NifH
+	225_NifH
+	190_NifH
+	142_NifH
+	255_NifH
+	141_NifH
+	137_NifH
+	374_NifH
+	193_NifH
+	235_NifH
+	153_NifH
+	3_NifH
+	85_NifH
+	94_NifH
+	133_NifH
+	229_NifH
+	262_NifH
+	134_NifH
+	77_NifH
+	126_NifH
+	99_NifH
+	8_NifH
+	282_NifH
+	161_NifH
+	310_NifH
+	377_NifH
+	135_NifH
+	378_NifH
+	347_NifH
+	79_NifH
+	408_NifH
+	22_NifH
+	140_NifH
+	350_NifH
+	260_NifH
+	223_NifH
+	274_NifH
+	253_NifH
+	89_NifH
+	83_NifH
+	4_NifH
+	296_NifH
+	144_NifH
+	392_NifH
+	20_NifH
+	243_NifH
+	36_NifH
+	132_NifH
+	409_NifH
+	341_NifH
+	275_NifH
+	386_NifH
+	118_NifH
+	156_NifH
+	24_NifH
+	174_NifH
+	382_NifH
+	15_NifH
+	128_NifH
+	237_NifH
+	73_NifH
+	319_NifH
+	257_NifH
+	264_NifH
+	157_NifH
+	280_NifH
+	396_NifH
+	62_NifH
+	138_NifH
+	398_NifH
+	39_NifH
+	171_NifH
+	5_NifH
+	372_NifH
+	56_NifH
+	53_NifH
+	75_NifH
+	232_NifH
+	25_NifH
+	351_NifH
+	164_NifH
+	383_NifH
+	45_NifH
+	177_NifH
+	259_NifH
+	159_NifH
+	258_NifH
+	302_NifH
+	143_NifH
+	2_NifH
+	78_NifH
+	11_NifH
+	96_NifH
+	293_NifH
+	139_NifH
+	228_NifH
+	269_NifH
+	288_NifH
+	348_NifH
+	407_NifH
+	221_NifH
+	178_NifH
+	292_NifH
+	27_NifH
+	65_NifH
+	198_NifH
+	91_NifH
+	346_NifH
+	307_NifH
+	261_NifH
+	188_NifH
+	250_NifH
+	12_NifH
+	145_NifH
+	34_NifH
+	146_NifH
+	267_NifH
+	285_NifH
+	323_NifH
+	166_NifH
+	176_NifH
+	394_NifH
+	42_NifH
+	81_NifH
+	236_NifH
+	393_NifH
+	387_NifH
+	106_NifH
+	305_NifH
+	207_NifH
+	375_NifH
+	294_NifH
+	339_NifH
+	358_NifH
+	268_NifH
+	61_NifH
+	395_NifH
+	160_NifH
+	196_NifH
+	369_NifH
+	265_NifH
+	90_NifH
+	234_NifH
+	80_NifH
+	124_NifH
+	299_NifH
+	331_NifH
+	6_NifH
+	349_NifH
+	125_NifH
+	273_NifH
+	266_NifH
+	208_NifH
+	82_NifH
+	136_NifH
+	33_NifH
+	353_NifH
+	270_NifH
+	100_NifH
+	189_NifH
+	397_NifH
+	324_NifH
+	130_NifH
+	107_NifH
+	86_NifH
+	60_NifH
+	173_NifH
+	388_NifH
+	195_NifH
+	239_NifH
+	340_NifH
+	18_NifH
+	23_NifH
+	204_NifH
+	63_NifH
+	31_NifH
+	404_NifH
+	179_NifH
+	311_NifH
+	119_NifH
+	276_NifH
+	54_NifH
+	168_NifH
+	248_NifH
+	309_NifH
+	28_NifH
+	238_NifH
+	222_NifH
+	21_NifH
+	313_NifH
+	30_NifH
+	1_NifH
+	150_NifH
+	147_NifH
+	291_NifH
+	315_NifH
+	271_NifH
+	113_NifH
+	181_NifH
+	338_NifH
+	16_NifH
+	97_NifH
+	68_NifH
+	87_NifH
+	57_NifH
+	209_NifH
+	149_NifH
+	44_NifH
+	370_NifH
+	116_NifH
+	131_NifH
+	32_NifH
+	312_NifH
+	52_NifH
+	295_NifH
+	410_NifH
+	337_NifH
+
+21/02 17:55:44 DEBUG:
+Building HMM profile... 
+21/02 17:55:45 DEBUG:
+done.
+
+21/02 17:55:45 INFO:
+done.
+
+21/02 17:55:45 INFO:
+Building phylogenetic tree with FastTree... 
+21/02 17:56:03 INFO:
+done.
+
+21/02 17:56:03 DEBUG:
+FastTree Version 2.1.10 SSE3
+Alignment: Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/NifH.phy
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Le-Gascuel 2008, CAT approximation with 20 rate categories
+      0.17 seconds: Joined    200 of    409
+      0.29 seconds: Joined    400 of    409
+Initial topology in 0.30 seconds
+Refining topology: 35 rounds ME-NNIs, 2 rounds ME-SPRs, 17 rounds ML-NNIs
+      0.39 seconds: ME NNI round 9 of 35, 1 of 410 splits
+      0.59 seconds: SPR round   1 of   2, 201 of 822 nodes
+      0.72 seconds: SPR round   1 of   2, 301 of 822 nodes
+      0.92 seconds: SPR round   1 of   2, 501 of 822 nodes
+      1.03 seconds: SPR round   1 of   2, 601 of 822 nodes
+      1.13 seconds: SPR round   1 of   2, 701 of 822 nodes
+      1.24 seconds: ME NNI round 12 of 35, 1 of 410 splits
+      1.38 seconds: SPR round   2 of   2, 101 of 822 nodes
+      1.52 seconds: SPR round   2 of   2, 201 of 822 nodes
+      1.62 seconds: SPR round   2 of   2, 301 of 822 nodes
+      1.81 seconds: SPR round   2 of   2, 501 of 822 nodes
+      1.92 seconds: SPR round   2 of   2, 601 of 822 nodes
+      2.03 seconds: SPR round   2 of   2, 701 of 822 nodes
+      2.14 seconds: ME NNI round 23 of 35, 1 of 410 splits
+Total branch-length 52.990 after 2.19 sec
+      2.38 seconds: ML Lengths 101 of 410 splits
+      2.54 seconds: ML Lengths 201 of 410 splits
+      2.70 seconds: ML Lengths 301 of 410 splits
+      2.87 seconds: ML Lengths 401 of 410 splits
+      3.47 seconds: ML NNI round 1 of 17, 101 of 410 splits, 15 changes (max delta 6.556)
+      4.06 seconds: ML NNI round 1 of 17, 201 of 410 splits, 30 changes (max delta 6.715)
+      4.66 seconds: ML NNI round 1 of 17, 301 of 410 splits, 57 changes (max delta 6.715)
+      5.22 seconds: ML NNI round 1 of 17, 401 of 410 splits, 75 changes (max delta 6.715)
+ML-NNI round 1: LogLk = -90458.858 NNIs 76 max delta 6.71 Time 5.28
+      5.32 seconds: Site likelihoods with rate category 1 of 20
+      5.46 seconds: Site likelihoods with rate category 4 of 20
+      5.60 seconds: Site likelihoods with rate category 7 of 20
+      5.74 seconds: Site likelihoods with rate category 10 of 20
+      5.87 seconds: Site likelihoods with rate category 13 of 20
+      6.01 seconds: Site likelihoods with rate category 16 of 20
+      6.15 seconds: Site likelihoods with rate category 19 of 20
+Switched to using 20 rate categories (CAT approximation)
+Rate categories were divided by 1.161 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+Use -gamma for approximate but comparable Gamma(20) log-likelihoods
+      6.29 seconds: ML NNI round 2 of 17, 1 of 410 splits
+      6.83 seconds: ML NNI round 2 of 17, 101 of 410 splits, 9 changes (max delta 4.420)
+      7.31 seconds: ML NNI round 2 of 17, 201 of 410 splits, 12 changes (max delta 4.420)
+      7.88 seconds: ML NNI round 2 of 17, 301 of 410 splits, 18 changes (max delta 4.420)
+      8.50 seconds: ML NNI round 2 of 17, 401 of 410 splits, 27 changes (max delta 5.973)
+ML-NNI round 2: LogLk = -82484.581 NNIs 27 max delta 5.97 Time 8.57
+      9.09 seconds: ML NNI round 3 of 17, 101 of 410 splits, 3 changes (max delta 2.486)
+      9.61 seconds: ML NNI round 3 of 17, 201 of 410 splits, 5 changes (max delta 2.486)
+ML-NNI round 3: LogLk = -82467.449 NNIs 9 max delta 3.47 Time 9.93
+      9.93 seconds: ML NNI round 4 of 17, 1 of 410 splits
+     10.41 seconds: ML NNI round 4 of 17, 101 of 410 splits, 3 changes (max delta 0.483)
+ML-NNI round 4: LogLk = -82455.323 NNIs 4 max delta 0.48 Time 10.60
+     10.60 seconds: ML NNI round 5 of 17, 1 of 410 splits
+ML-NNI round 5: LogLk = -82454.653 NNIs 0 max delta 0.00 Time 10.92
+Turning off heuristics for final round of ML NNIs (converged)
+     10.92 seconds: ML NNI round 6 of 17, 1 of 410 splits
+     11.77 seconds: ML NNI round 6 of 17, 101 of 410 splits, 2 changes (max delta 3.949)
+     12.65 seconds: ML NNI round 6 of 17, 201 of 410 splits, 3 changes (max delta 3.949)
+     13.53 seconds: ML NNI round 6 of 17, 301 of 410 splits, 3 changes (max delta 3.949)
+     14.39 seconds: ML NNI round 6 of 17, 401 of 410 splits, 8 changes (max delta 3.949)
+ML-NNI round 6: LogLk = -82344.261 NNIs 9 max delta 3.95 Time 14.48 (final)
+     14.69 seconds: ML Lengths 101 of 410 splits
+     14.91 seconds: ML Lengths 201 of 410 splits
+     15.13 seconds: ML Lengths 301 of 410 splits
+     15.34 seconds: ML Lengths 401 of 410 splits
+Optimize all lengths: LogLk = -82342.272 Time 15.38
+     16.01 seconds: ML split tests for    100 of    409 internal splits
+     16.66 seconds: ML split tests for    200 of    409 internal splits
+     17.30 seconds: ML split tests for    300 of    409 internal splits
+     17.94 seconds: ML split tests for    400 of    409 internal splits
+Total time: 18.00 seconds Unique: 412/412 Bad splits: 3/409 Worst delta-LogLk 0.266
+
+
+21/02 17:56:03 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+21/02 17:56:03 DEBUG:
+done.
+
+21/02 17:56:03 DEBUG:
+Unable to remove /home/cmorganlang/Hallam_projects/RefPkgs/Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/phylogeny_files/NifH.raxml.reduced.phy as it doesn't exist.
+
+21/02 17:56:03 DEBUG:
+Lowest reliable rank for taxonomic classification is: Phyla
+
+21/02 17:56:03 INFO:
+
+##			Train taxonomic rank-placement distance model			##
+
+21/02 17:56:03 INFO:
+Arguments used:
+-i Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/fungene_9.9_nifH_uclust99_filtered.fa -c NifH -p Nitrogen_metabolism/Fixation/NifH/seed_refpkg/final_outputs/ -o Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/ -m prot -a Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates//accession_id_lineage_map.tsv -n 8
+
+21/02 17:56:03 DEBUG:
+Reading build parameters of reference markers... 
+21/02 17:56:03 DEBUG:
+Multiple 'Z1111' codes in /home/cmorganlang/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp//data/ref_build_parameters.tsv. Previous entry in marker_build_dict being overwritten...
+
+21/02 17:56:03 DEBUG:
+done.
+
+21/02 17:56:03 DEBUG:
+Skipped the following lines:
+	#hzs
+	#hzao
+	#nirA
+	#MtrA
+	#MtrC
+	#MtrH
+	#CO_dh
+	#RBsCO
+	#OGFOxy
+	#CitSyn
+	#GH36
+	#GH31
+	#GH109
+	#GH115
+	#nirK	D0301	prot	PROTGAMMALG	functional	0.97	120	RAxML	-11.3207,6.9484	Orders	07_Dec_2018	nitrite reductase (NO-forming)
+	#RecA	P0001	prot	PROTGAMMALG	taxonomic	0.80	1110	RAxML	-5.4758,6.3838	Classes	12_Dec_2018
+	#McrA	M0701	prot	PROTGAMMALG	functional	0.97	211	FastTree	-4.08046639871,6.03601100802	Classes	04_Dec_2018
+	#McrB	M0702	prot	PROTGAMMALG	functional	0.97	157	FastTree	-4.82025271473,6.52717228329	Classes	04_Dec_2018
+	#McrG	M0705	prot	PROTGAMMALG	functional	0.97	155	FastTree	-5.23147387413,6.5926235222	Genera	04_Dec_2018
+	#napA	D0201	prot	PROTGAMMALG	functional	0.90	332	FastTree	-7.03985324603,6.60314540283	Classes	04_Dec_2018
+	#nifD	N0401	prot	PROTGAMMALG	functional	0.90	402	FastTree	-7.72039669919,6.16543737552	Orders	04_Dec_2018
+	#nifH	N0402	prot	PROTGAMMALG	functional	0.95	301	FastTree	-6.48773434909,6.41218539511	Phyla	04_Dec_2018
+	#nirK	D0301	prot	PROTGAMMALG	functional	0.97	120	FastTree	-11.8842768413,6.77906128214	Orders	04_Dec_2018
+	#nirS	D0302	prot	PROTGAMMALG	functional	0.97	184	FastTree	-5.49173161577,6.23728973299	Classes	04_Dec_2018
+	#norB	D0501	prot	PROTGAMMALG	functional	0.80	329	FastTree	-7.6070183552,6.48567258868	Orders	04_Dec_2018
+	#norC	D0502	prot	PROTGAMMALG	functional	0.90	223	FastTree	-6.61551453189,6.60317398186	Classes	04_Dec_2018
+	#norC	D0502	prot	PROTGAMMALG	functional	0.90	223	RAxML	-5.3221,6.3809	Classes	08_Dec_2018	nitric oxide reductase subunit C
+	#p_amoA	N0102	prot	PROTGAMMALG	functional	0.97	80	FastTree	-2.83232814805,5.67790899421	Families	04_Dec_2018
+	#nosZ	D0601	prot	PROTGAMMALG	functional	0.95	449	FastTree	-6.1988,6.095	Phyla	13_Mar_2019
+	#McrA	M0701	prot	PROTGAMMALG	functional	0.97	228	RAxML	-5.3509,7.0	Classes	29_Apr_2019	Methyl coenzyme M reductase alpha subunit
+
+21/02 17:56:03 DEBUG:
+Read 412 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/final_outputs/NifH.fa.
+
+21/02 17:56:03 DEBUG:
+Unable to open stage file '' for reading. Defaulting to stage 2.
+
+21/02 17:56:03 DEBUG:
+Continuing with stage 'place'
+
+21/02 17:56:03 DEBUG:
+Read 1126 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/fungene_9.9_nifH_uclust99_filtered.fa.
+
+21/02 17:56:03 INFO:
+Extracting information from headers... 
+21/02 17:56:03 INFO:
+done.
+
+21/02 17:56:03 DEBUG:
+	Number of input sequences =	1126
+
+21/02 17:56:03 INFO:
+Reading cached lineages in 'Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates//accession_id_lineage_map.tsv'... 
+21/02 17:56:03 INFO:
+done.
+
+21/02 17:56:03 DEBUG:
+Read 1126 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/fungene_9.9_nifH_uclust99_filtered.fa.
+
+21/02 17:56:03 DEBUG:
+Checking for redundant sequences with duplicate accessions.
+
+21/02 17:56:03 DEBUG:
+Checking for redundant FASTA records with duplicate sequences... 
+21/02 17:56:03 DEBUG:
+done.
+
+21/02 17:56:03 DEBUG:
+Removed 4 sequences with duplicate sequences.
+
+21/02 17:56:03 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	ACX46633  coded_by=<1..>564,organism=Sinorhizobium meliloti,definition=nitrogenase reductase
+	AXA43873  coded_by=413446..414339,organism=Rhizobium leguminosarum,definition=nitrogenase iron protein
+	ACX46631  coded_by=<1..>564,organism=Sinorhizobium meliloti,definition=nitrogenase reductase
+	ACT67922  coded_by=<1..828,organism=Mesorhizobium ciceri,definition=NifH
+
+21/02 17:56:03 DEBUG:
+0 lineages truncated before Kingdom were removed during lineage trimming.
+0 lineages unclassified at or before Kingdom also removed.
+
+21/02 17:56:03 WARNING:
+4 sequences were not mapped to FASTA dictionary.
+
+21/02 17:56:03 DEBUG:
+Headers that were not mapped to FASTA dictionary:
+	ACT67922
+	ACX46631
+	ACX46633
+	AXA43873
+
+21/02 17:56:03 DEBUG:
+10 lineages truncated before Class were removed during lineage trimming.
+5 lineages unclassified at or before Class also removed.
+
+21/02 17:56:04 DEBUG:
+71.1% of optimal  Class lineages are present in the pruned trees.
+
+21/02 17:56:04 DEBUG:
+37 lineages truncated before Species were removed during lineage trimming.
+44 lineages unclassified at or before Species also removed.
+
+21/02 17:56:05 DEBUG:
+42.2% of optimal  Species lineages are present in the pruned trees.
+
+21/02 17:56:05 DEBUG:
+Optimal placement target was not found in the pruned tree for following taxa:
+	Bacteria; Aquificae
+	Bacteria; Bacteroidetes
+	Bacteria; Chlorobi
+	Bacteria; Chrysiogenetes
+	Bacteria; Deferribacteres
+	Bacteria; Fibrobacteres
+	Bacteria; Fusobacteria
+	Bacteria; Nitrospirae
+	Bacteria; Spirochaetes
+	Bacteria; Synergistetes
+	Bacteria; Thermodesulfobacteria
+	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanosphaera
+	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanothermaceae; Methanothermus
+	Archaea; Euryarchaeota; Methanomicrobia; Methanomicrobiales; Methanocorpusculaceae; Methanocorpusculum
+	Archaea; Euryarchaeota; Methanomicrobia; Methanomicrobiales; Methanomicrobiaceae; Methanoculleus
+	Archaea; Euryarchaeota; Methanomicrobia; Methanomicrobiales; Methanomicrobiaceae; Methanolacinia
+	Archaea; Euryarchaeota; Methanomicrobia; Methanomicrobiales; Methanoregulaceae; Methanolinea
+	Archaea; Euryarchaeota; Methanomicrobia; Methanomicrobiales; Methanoregulaceae; Methanoregula
+	Archaea; Euryarchaeota; Methanomicrobia; Methanomicrobiales; Methanoregulaceae; Methanosphaerula
+	Archaea; Euryarchaeota; Methanomicrobia; Methanomicrobiales; Methanospirillaceae; Methanospirillum
+	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanococcoides
+	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanohalobium
+	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanohalophilus
+	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosalsum
+	Archaea; Euryarchaeota; Methanopyri; Methanopyrales; Methanopyraceae; Methanopyrus
+	Bacteria; Acidobacteria; Holophagae; Holophagales; Holophagaceae; Holophaga
+	Bacteria; Actinobacteria; Coriobacteriia; Eggerthellales; Eggerthellaceae; Gordonibacter
+	Bacteria; Actinobacteria; Coriobacteriia; Eggerthellales; Eggerthellaceae; Slackia
+	Bacteria; Aquificae; Aquificae; Aquificales; Aquificaceae; Hydrogenobacter
+	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Paludibacteraceae; Paludibacter
+	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chloroherpeton
+	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Prosthecochloris
+	Bacteria; Chloroflexi; Chloroflexia; Chloroflexales; Chloroflexineae; Chloroflexaceae
+	Bacteria; Chloroflexi; Chloroflexia; Chloroflexales; Chloroflexineae; Oscillochloridaceae
+	Bacteria; Chloroflexi; Chloroflexia; Chloroflexales; Roseiflexineae; Roseiflexaceae
+	Bacteria; Chloroflexi; Dehalococcoidia; Dehalococcoidales; Dehalococcoidaceae; Dehalococcoides
+	Bacteria; Chrysiogenetes; Chrysiogenetes; Chrysiogenales; Chrysiogenaceae; Desulfurispirillum
+	Bacteria; Cyanobacteria; Gloeobacteria; Gloeobacterales; Gloeobacteraceae; Gloeobacter
+	Bacteria; Cyanobacteria; Oscillatoriophycideae; Chroococcales; Aphanothecaceae; Candidatus Atelocyanobacterium
+	Bacteria; Cyanobacteria; Oscillatoriophycideae; Chroococcales; Aphanothecaceae; Crocosphaera
+	Bacteria; Cyanobacteria; Oscillatoriophycideae; Oscillatoriales; Microcoleaceae; Trichodesmium
+	Bacteria; Cyanobacteria; Oscillatoriophycideae; Oscillatoriales; Oscillatoriaceae; Limnoraphis
+	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae; Calditerrivibrio
+	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae; Denitrovibrio
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Eubacteriaceae; Acetobacterium
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Eubacteriaceae; Eubacterium
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Eubacteriaceae; Pseudoramibacter
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Heliobacteriaceae; Heliobacillus
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Hungateiclostridiaceae; Mageeibacillus
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Anaerobutyricum
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Blautia
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Butyrivibrio
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Cellulosilyticum
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Coprococcus
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Lachnoclostridium
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Marvinbryantia
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Stomatobaculum
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfallas
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfitobacterium
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfofarcimen
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfofundulus
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfosporosinus
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Syntrophobotulus
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Thermincola
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptostreptococcaceae; Clostridioides
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptostreptococcaceae; Intestinibacter
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Anaerotruncus
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Ethanoligenens
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Flavonifractor
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Ruminococcus
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Syntrophomonadaceae; Dethiobacter
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Syntrophomonadaceae; Syntrophomonas
+	Bacteria; Firmicutes; Clostridia; Clostridiales; Syntrophomonadaceae; Syntrophothermus
+	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Caldicellulosiruptor
+	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Thermoanaerobacterium
+	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermodesulfobiaceae; Thermodesulfobium
+	Bacteria; Firmicutes; Erysipelotrichia; Erysipelotrichales; Erysipelotrichaceae; Turicibacter
+	Bacteria; Firmicutes; Negativicutes; Acidaminococcales; Acidaminococcaceae; Phascolarctobacterium
+	Bacteria; Firmicutes; Negativicutes; Selenomonadales; Selenomonadaceae; Mitsuokella
+	Bacteria; Firmicutes; Negativicutes; Selenomonadales; Sporomusaceae; Acetonema
+	Bacteria; Firmicutes; Negativicutes; Selenomonadales; Sporomusaceae; Pelosinus
+	Bacteria; Firmicutes; Negativicutes; Veillonellales; Veillonellaceae; Anaeroglobus
+	Bacteria; Fusobacteria; Fusobacteriia; Fusobacteriales; Fusobacteriaceae; Ilyobacter
+	Bacteria; Nitrospirae; Nitrospira; Nitrospirales; Nitrospiraceae; Leptospirillum
+	Bacteria; Nitrospirae; Nitrospira; Nitrospirales; Nitrospiraceae; Thermodesulfovibrio
+	Bacteria; Proteobacteria; Alphaproteobacteria; Caulobacterales; Caulobacteraceae; Brevundimonas
+	Bacteria; Proteobacteria; Alphaproteobacteria; Magnetococcales; Magnetococcaceae; Magnetococcus
+	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Aurantimonadaceae; Fulvimarina
+	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Beijerinckiaceae; Methylocella
+	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Bradyrhizobiaceae; Rhodopseudomonas
+	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Methylobacteriaceae; Methylorubrum
+	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Phyllobacteriaceae; Hoeflea
+	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Phyllobacteriaceae; Mesorhizobium
+	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Rhizobiaceae; Amorphomonas
+	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Rhizobiaceae; Rhizobium
+	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Rhizobiaceae; Sinorhizobium
+	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Yoonia
+	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales; Acetobacteraceae; Acidiphilium
+	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales; Acetobacteraceae; Gluconacetobacter
+	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales; Rhodospirillaceae; Pararhodospirillum
+	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales; Rhodospirillaceae; Phaeospirillum
+	Bacteria; Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Zymomonas
+	Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales; Burkholderiaceae; Cupriavidus
+	Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales; Oxalobacteraceae; Herbaspirillum
+	Bacteria; Proteobacteria; Betaproteobacteria; Nitrosomonadales; Gallionellaceae; Sideroxydans
+	Bacteria; Proteobacteria; Betaproteobacteria; Nitrosomonadales; Sterolibacteriaceae; Methyloversatilis
+	Bacteria; Proteobacteria; Betaproteobacteria; Rhodocyclales; Zoogloeaceae; Azoarcus
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfarculales; Desulfarculaceae; Desulfarculus
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfatibacillum
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfobacterium
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobulbaceae; Desulfobulbus
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfohalobiaceae; Desulfonatronospira
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfomicrobiaceae; Desulfomicrobium
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfocurvibacter
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Pseudodesulfovibrio
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Desulfuromonadaceae; Desulfuromonas
+	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Desulfuromonadaceae; Pelobacter
+	Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales; Cystobacterineae; Anaeromyxobacteraceae
+	Bacteria; Proteobacteria; Deltaproteobacteria; Syntrophobacterales; Syntrophaceae; Desulfobacca
+	Bacteria; Proteobacteria; Deltaproteobacteria; Syntrophobacterales; Syntrophaceae; Desulfomonile
+	Bacteria; Proteobacteria; Deltaproteobacteria; Syntrophobacterales; Syntrophobacteraceae; Syntrophobacter
+	Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales; Campylobacteraceae; Arcobacter
+	Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales; Helicobacteraceae; Sulfuricurvum
+	Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales; Helicobacteraceae; Wolinella
+	Bacteria; Proteobacteria; Gammaproteobacteria; Cellvibrionales; Halieaceae; Congregibacter
+	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Allochromatium
+	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Marichromatium
+	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Thiocapsa
+	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Thiocystis
+	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Thiorhodococcus
+	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Ectothiorhodospiraceae; Halorhodospira
+	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Ectothiorhodospiraceae; Thiorhodospira
+	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Yersiniaceae; Rahnella
+	Bacteria; Proteobacteria; Gammaproteobacteria; Methylococcales; Methylococcaceae; Methylomonas
+	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio
+	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Spirochaetaceae; Sediminispirochaeta
+	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Spirochaetaceae; Spirochaeta
+	Bacteria; Synergistetes; Synergistia; Synergistales; Synergistaceae; Pyramidobacter
+	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae; Thermodesulfatator
+	Bacteria; Verrucomicrobia; Methylacidiphilae; Methylacidiphilales; Methylacidiphilaceae; Methylacidiphilum
+	Bacteria; Verrucomicrobia; Opitutae; Puniceicoccales; Puniceicoccaceae; Coraliomargarita
+
+21/02 17:56:05 DEBUG:
+Sequences available for training Class-level placement distances:
+	16	Archaea; Euryarchaeota; Methanobacteria
+	31	Archaea; Euryarchaeota; Methanococci
+	36	Archaea; Euryarchaeota; Methanomicrobia
+	1	Archaea; Euryarchaeota; Methanopyri
+	2	Bacteria; Acidobacteria; Blastocatellia
+	1	Bacteria; Acidobacteria; Holophagae
+	62	Bacteria; Actinobacteria; Actinobacteria
+	2	Bacteria; Actinobacteria; Coriobacteriia
+	0	Bacteria; Aquificae; Aquificae
+	0	Bacteria; Bacteroidetes; Bacteroidia
+	0	Bacteria; Chlorobi; Chlorobia
+	13	Bacteria; Chloroflexi; Chloroflexia
+	1	Bacteria; Chloroflexi; Dehalococcoidia
+	0	Bacteria; Chrysiogenetes; Chrysiogenetes
+	1	Bacteria; Cyanobacteria; Gloeobacteria
+	30	Bacteria; Cyanobacteria; Nostocales
+	26	Bacteria; Cyanobacteria; Oscillatoriophycideae
+	37	Bacteria; Cyanobacteria; Synechococcales
+	0	Bacteria; Deferribacteres; Deferribacteres
+	0	Bacteria; Fibrobacteres; Fibrobacteria
+	12	Bacteria; Firmicutes; Bacilli
+	130	Bacteria; Firmicutes; Clostridia
+	1	Bacteria; Firmicutes; Erysipelotrichia
+	31	Bacteria; Firmicutes; Negativicutes
+	1	Bacteria; Firmicutes; Tissierellia
+	0	Bacteria; Fusobacteria; Fusobacteriia
+	0	Bacteria; Nitrospirae; Nitrospira
+	2	Bacteria; Proteobacteria; Acidithiobacillia
+	401	Bacteria; Proteobacteria; Alphaproteobacteria
+	57	Bacteria; Proteobacteria; Betaproteobacteria
+	45	Bacteria; Proteobacteria; Deltaproteobacteria
+	5	Bacteria; Proteobacteria; Epsilonproteobacteria
+	56	Bacteria; Proteobacteria; Gammaproteobacteria
+	0	Bacteria; Spirochaetes; Spirochaetia
+	0	Bacteria; Synergistetes; Synergistia
+	0	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria
+	2	Bacteria; Verrucomicrobia; Methylacidiphilae
+	4	Bacteria; Verrucomicrobia; Opitutae
+27/38 Class have training sequences.
+Sequences available for training Species-level placement distances:
+	2	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobacterium; Methanobacterium ivanovii
+	3	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobacterium; Methanobacterium lacus
+	3	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobacterium; Methanobacterium paludis
+	1	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobrevibacter; Methanobrevibacter ruminantium
+	1	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobrevibacter; Methanobrevibacter smithii
+	0	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanosphaera; Methanosphaera stadtmanae
+	1	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanothermobacter; Methanothermobacter marburgensis
+	2	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanothermobacter; Methanothermobacter thermautotrophicus
+	0	Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanothermaceae; Methanothermus; Methanothermus fervidus
+	2	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus infernus
+	1	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus jannaschii
+	2	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus vulcanius
+	2	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanotorris; Methanotorris formicicus
+	3	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanotorris; Methanotorris igneus
+	3	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus aeolicus
+	7	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus maripaludis
+	2	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus vannielii
+	2	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus voltae
+	2	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanothermococcus; Methanothermococcus okinawensis
+	2	Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanothermococcus; Methanothermococcus thermolithotrophicus
+	2	Archaea; Euryarchaeota; Methanomicrobia; Methanocellales; Methanocellaceae; Methanocella; Methanocella arvoryzae
+	2	Archaea; Euryarchaeota; Methanomicrobia; Methanocellales; Methanocellaceae; Methanocella; Methanocella conradii
+	2	Archaea; Euryarchaeota; Methanomicrobia; Methanocellales; Methanocellaceae; Methanocella; Methanocella paludicola
+	0	Archaea; Euryarchaeota; Methanomicrobia; Methanomicrobiales; Methanocorpusculaceae; Methanocorpusculum; Methanocorpusculum labreanum
+	0	Archaea; Euryarchaeota; Methanomicrobia; Methanomicrobiales; Methanomicrobiaceae; Methanoculleus; Methanoculleus marisnigri
+	0	Archaea; Euryarchaeota; Methanomicrobia; Methanomicrobiales; Methanomicrobiaceae; Methanolacinia; Methanolacinia petrolearia
+	0	Archaea; Euryarchaeota; Methanomicrobia; Methanomicrobiales; Methanoregulaceae; Methanolinea; Methanolinea tarda
+	0	Archaea; Euryarchaeota; Methanomicrobia; Methanomicrobiales; Methanoregulaceae; Methanoregula; Methanoregula boonei
+	0	Archaea; Euryarchaeota; Methanomicrobia; Methanomicrobiales; Methanoregulaceae; Methanosphaerula; Methanosphaerula palustris
+	0	Archaea; Euryarchaeota; Methanomicrobia; Methanomicrobiales; Methanospirillaceae; Methanospirillum; Methanospirillum hungatei
+	0	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanococcoides; Methanococcoides burtonii
+	0	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanohalobium; Methanohalobium evestigatum
+	0	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanohalophilus; Methanohalophilus mahii
+	0	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosalsum; Methanosalsum zhilinae
+	3	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina acetivorans
+	4	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina barkeri
+	2	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina mazei
+	1	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina siciliae
+	1	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanotrichaceae; Methanothrix; Methanosaeta harundinacea
+	1	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanotrichaceae; Methanothrix; Methanothrix soehngenii
+	1	Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanotrichaceae; Methanothrix; Methanothrix thermoacetophila
+	0	Archaea; Euryarchaeota; Methanopyri; Methanopyrales; Methanopyraceae; Methanopyrus; Methanopyrus kandleri
+	0	Bacteria; Acidobacteria; Holophagae; Holophagales; Holophagaceae; Holophaga; Holophaga foetida
+	0	Bacteria; Actinobacteria; Coriobacteriia; Eggerthellales; Eggerthellaceae; Gordonibacter; Gordonibacter pamelaeae
+	0	Bacteria; Actinobacteria; Coriobacteriia; Eggerthellales; Eggerthellaceae; Slackia; Slackia exigua
+	0	Bacteria; Aquificae; Aquificae; Aquificales; Aquificaceae; Hydrogenobacter; Hydrogenobacter thermophilus
+	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Paludibacteraceae; Paludibacter; Paludibacter propionicigenes
+	3	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobaculum; Chlorobaculum parvum
+	3	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobaculum; Chlorobaculum tepidum
+	3	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobium; Chlorobium chlorochromatii
+	3	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobium; Chlorobium ferrooxidans
+	3	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobium; Chlorobium limicola
+	6	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobium; Chlorobium phaeobacteroides
+	3	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobium; Chlorobium phaeovibrioides
+	0	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chloroherpeton; Chloroherpeton thalassium
+	2	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Pelodictyon; Pelodictyon luteolum
+	3	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Pelodictyon; Pelodictyon phaeoclathratiforme
+	0	Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Prosthecochloris; Prosthecochloris aestuarii
+	0	Bacteria; Chloroflexi; Chloroflexia; Chloroflexales; Chloroflexineae; Chloroflexaceae; Chloroflexus
+	0	Bacteria; Chloroflexi; Chloroflexia; Chloroflexales; Chloroflexineae; Oscillochloridaceae; Oscillochloris
+	0	Bacteria; Chloroflexi; Chloroflexia; Chloroflexales; Roseiflexineae; Roseiflexaceae; Roseiflexus
+	0	Bacteria; Chloroflexi; Dehalococcoidia; Dehalococcoidales; Dehalococcoidaceae; Dehalococcoides; Dehalococcoides mccartyi
+	0	Bacteria; Chrysiogenetes; Chrysiogenetes; Chrysiogenales; Chrysiogenaceae; Desulfurispirillum; Desulfurispirillum indicum
+	0	Bacteria; Cyanobacteria; Gloeobacteria; Gloeobacterales; Gloeobacteraceae; Gloeobacter; Gloeobacter violaceus
+	0	Bacteria; Cyanobacteria; Oscillatoriophycideae; Chroococcales; Aphanothecaceae; Candidatus Atelocyanobacterium; Candidatus Atelocyanobacterium thalassa
+	0	Bacteria; Cyanobacteria; Oscillatoriophycideae; Chroococcales; Aphanothecaceae; Crocosphaera; Crocosphaera subtropica
+	0	Bacteria; Cyanobacteria; Oscillatoriophycideae; Oscillatoriales; Microcoleaceae; Trichodesmium; Trichodesmium erythraeum
+	0	Bacteria; Cyanobacteria; Oscillatoriophycideae; Oscillatoriales; Oscillatoriaceae; Limnoraphis; Limnoraphis robusta
+	0	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae; Calditerrivibrio; Calditerrivibrio nitroreducens
+	0	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae; Denitrovibrio; Denitrovibrio acetiphilus
+	3	Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus; Paenibacillus durus
+	1	Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus; Paenibacillus graminis
+	1	Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus; Paenibacillus terrae
+	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Alkaliphilus; Alkaliphilus metalliredigens
+	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Alkaliphilus; Alkaliphilus oremlandii
+	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium acetobutylicum
+	5	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium botulinum
+	2	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium carboxidivorans
+	2	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium cellulovorans
+	4	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium kluyveri
+	3	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium ljungdahlii
+	4	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium pasteurianum
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Eubacteriaceae; Acetobacterium; Acetobacterium woodii
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Eubacteriaceae; Eubacterium; Eubacterium callanderi
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Eubacteriaceae; Pseudoramibacter; Pseudoramibacter alactolyticus
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Heliobacteriaceae; Heliobacillus; Heliobacillus mobilis
+	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Heliobacteriaceae; Heliobacterium; Heliobacterium gestii
+	3	Bacteria; Firmicutes; Clostridia; Clostridiales; Heliobacteriaceae; Heliobacterium; Heliobacterium modesticaldum
+	3	Bacteria; Firmicutes; Clostridia; Clostridiales; Hungateiclostridiaceae; Hungateiclostridium; Hungateiclostridium clariflavum
+	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Hungateiclostridiaceae; Hungateiclostridium; Hungateiclostridium thermocellum
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Hungateiclostridiaceae; Mageeibacillus; Mageeibacillus indolicus
+	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Hungateiclostridiaceae; Ruminiclostridium; Ruminiclostridium cellobioparum
+	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Hungateiclostridiaceae; Ruminiclostridium; Ruminiclostridium cellulolyticum
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Anaerobutyricum; Anaerobutyricum hallii
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Blautia; Ruminococcus torques
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Butyrivibrio; Butyrivibrio fibrisolvens
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Cellulosilyticum; Cellulosilyticum lentocellum
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Coprococcus; Coprococcus catus
+	3	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Dorea; Dorea formicigenerans
+	2	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Dorea; Dorea longicatena
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Lachnoclostridium; Clostridium bolteae
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Marvinbryantia; Marvinbryantia formatexigens
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Stomatobaculum; Stomatobaculum longum
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfallas; Desulfallas gibsoniae
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfitobacterium; Desulfitobacterium hafniense
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfofarcimen; Desulfofarcimen acetoxidans
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfofundulus; Desulfofundulus kuznetsovii
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Desulfosporosinus; Desulfosporosinus orientis
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Syntrophobotulus; Syntrophobotulus glycolicus
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae; Thermincola; Thermincola potens
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptostreptococcaceae; Clostridioides; Clostridioides difficile
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptostreptococcaceae; Intestinibacter; Intestinibacter bartlettii
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Anaerotruncus; Anaerotruncus colihominis
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Ethanoligenens; Ethanoligenens harbinense
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Flavonifractor; Flavonifractor plautii
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Ruminococcus; Ruminococcus albus
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Syntrophomonadaceae; Dethiobacter; Dethiobacter alkaliphilus
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Syntrophomonadaceae; Syntrophomonas; Syntrophomonas wolfei
+	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Syntrophomonadaceae; Syntrophothermus; Syntrophothermus lipocalidus
+	0	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Caldicellulosiruptor; Caldicellulosiruptor lactoaceticus
+	0	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermoanaerobacterales Family III. Incertae Sedis; Thermoanaerobacterium; Thermoanaerobacterium thermosaccharolyticum
+	0	Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermodesulfobiaceae; Thermodesulfobium; Thermodesulfobium narugense
+	0	Bacteria; Firmicutes; Erysipelotrichia; Erysipelotrichales; Erysipelotrichaceae; Turicibacter; Turicibacter sanguinis
+	0	Bacteria; Firmicutes; Negativicutes; Acidaminococcales; Acidaminococcaceae; Phascolarctobacterium; Phascolarctobacterium succinatutens
+	0	Bacteria; Firmicutes; Negativicutes; Selenomonadales; Selenomonadaceae; Mitsuokella; Mitsuokella multacida
+	1	Bacteria; Firmicutes; Negativicutes; Selenomonadales; Selenomonadaceae; Selenomonas; Selenomonas artemidis
+	1	Bacteria; Firmicutes; Negativicutes; Selenomonadales; Selenomonadaceae; Selenomonas; Selenomonas infelix
+	1	Bacteria; Firmicutes; Negativicutes; Selenomonadales; Selenomonadaceae; Selenomonas; Selenomonas ruminantium
+	1	Bacteria; Firmicutes; Negativicutes; Selenomonadales; Selenomonadaceae; Selenomonas; Selenomonas sputigena
+	0	Bacteria; Firmicutes; Negativicutes; Selenomonadales; Sporomusaceae; Acetonema; Acetonema longum
+	0	Bacteria; Firmicutes; Negativicutes; Selenomonadales; Sporomusaceae; Pelosinus; Pelosinus fermentans
+	0	Bacteria; Firmicutes; Negativicutes; Veillonellales; Veillonellaceae; Anaeroglobus; Anaeroglobus geminatus
+	1	Bacteria; Firmicutes; Negativicutes; Veillonellales; Veillonellaceae; Dialister; Dialister invisus
+	1	Bacteria; Firmicutes; Negativicutes; Veillonellales; Veillonellaceae; Dialister; Dialister succinatiphilus
+	2	Bacteria; Firmicutes; Negativicutes; Veillonellales; Veillonellaceae; Megasphaera; Megasphaera elsdenii
+	2	Bacteria; Firmicutes; Negativicutes; Veillonellales; Veillonellaceae; Megasphaera; Megasphaera genomosp. type_1
+	2	Bacteria; Firmicutes; Negativicutes; Veillonellales; Veillonellaceae; Megasphaera; Megasphaera micronuciformis
+	4	Bacteria; Fusobacteria; Fusobacteriia; Fusobacteriales; Fusobacteriaceae; Fusobacterium; Fusobacterium nucleatum
+	1	Bacteria; Fusobacteria; Fusobacteriia; Fusobacteriales; Fusobacteriaceae; Fusobacterium; Fusobacterium ulcerans
+	0	Bacteria; Fusobacteria; Fusobacteriia; Fusobacteriales; Fusobacteriaceae; Ilyobacter; Ilyobacter polytropus
+	0	Bacteria; Nitrospirae; Nitrospira; Nitrospirales; Nitrospiraceae; Leptospirillum; Leptospirillum ferrooxidans
+	0	Bacteria; Nitrospirae; Nitrospira; Nitrospirales; Nitrospiraceae; Thermodesulfovibrio; Thermodesulfovibrio yellowstonii
+	1	Bacteria; Proteobacteria; Acidithiobacillia; Acidithiobacillales; Acidithiobacillaceae; Acidithiobacillus; Acidithiobacillus ferrivorans
+	1	Bacteria; Proteobacteria; Acidithiobacillia; Acidithiobacillales; Acidithiobacillaceae; Acidithiobacillus; Acidithiobacillus ferrooxidans
+	0	Bacteria; Proteobacteria; Alphaproteobacteria; Caulobacterales; Caulobacteraceae; Brevundimonas; Brevundimonas subvibrioides
+	0	Bacteria; Proteobacteria; Alphaproteobacteria; Magnetococcales; Magnetococcaceae; Magnetococcus; Magnetococcus marinus
+	0	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Aurantimonadaceae; Fulvimarina; Fulvimarina pelagi
+	0	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Beijerinckiaceae; Methylocella; Methylocella silvestris
+	2	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Bradyrhizobiaceae; Bradyrhizobium; Bradyrhizobium liaoningense
+	9	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Bradyrhizobiaceae; Bradyrhizobium; Bradyrhizobium yuanmingense
+	0	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Bradyrhizobiaceae; Rhodopseudomonas; Rhodopseudomonas palustris
+	1	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Rhodomicrobium; Rhodomicrobium udaipurense
+	5	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Rhodomicrobium; Rhodomicrobium vannielii
+	0	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Methylobacteriaceae; Methylorubrum; Methylorubrum extorquens
+	0	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Phyllobacteriaceae; Hoeflea; Hoeflea phototrophica
+	0	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Phyllobacteriaceae; Mesorhizobium; Mesorhizobium huakuii
+	0	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Rhizobiaceae; Amorphomonas; Amorphomonas oryzae
+	0	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Rhizobiaceae; Rhizobium; Rhizobium leguminosarum
+	0	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Rhizobiaceae; Sinorhizobium; Sinorhizobium meliloti
+	6	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Rhodobacter; Rhodobacter capsulatus
+	10	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Rhodobacter; Rhodobacter sphaeroides
+	0	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Yoonia; Yoonia vestfoldensis
+	0	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales; Acetobacteraceae; Acidiphilium; Acidiphilium multivorum
+	0	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales; Acetobacteraceae; Gluconacetobacter; Gluconacetobacter diazotrophicus
+	0	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales; Rhodospirillaceae; Pararhodospirillum; Pararhodospirillum photometricum
+	0	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales; Rhodospirillaceae; Phaeospirillum; Phaeospirillum molischianum
+	3	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales; Rhodospirillaceae; Rhodospirillum; Rhodospirillum centenum
+	5	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales; Rhodospirillaceae; Rhodospirillum; Rhodospirillum rubrum
+	0	Bacteria; Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Zymomonas; Zymomonas mobilis
+	0	Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales; Burkholderiaceae; Cupriavidus; Cupriavidus taiwanensis
+	1	Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales; Burkholderiaceae; Paraburkholderia; Paraburkholderia tuberum
+	2	Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales; Burkholderiaceae; Paraburkholderia; Paraburkholderia unamae
+	0	Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales; Oxalobacteraceae; Herbaspirillum; Herbaspirillum rubrisubalbicans
+	0	Bacteria; Proteobacteria; Betaproteobacteria; Nitrosomonadales; Gallionellaceae; Sideroxydans; Sideroxydans lithotrophicus
+	0	Bacteria; Proteobacteria; Betaproteobacteria; Nitrosomonadales; Sterolibacteriaceae; Methyloversatilis; Methyloversatilis universalis
+	0	Bacteria; Proteobacteria; Betaproteobacteria; Rhodocyclales; Zoogloeaceae; Azoarcus; Azoarcus olearius
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfarculales; Desulfarculaceae; Desulfarculus; Desulfarculus baarsii
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfatibacillum; Desulfatibacillum aliphaticivorans
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobacteraceae; Desulfobacterium; Desulfobacterium autotrophicum
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfobacterales; Desulfobulbaceae; Desulfobulbus; Desulfobulbus propionicus
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfohalobiaceae; Desulfonatronospira; Desulfonatronospira thiodismutans
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfomicrobiaceae; Desulfomicrobium; Desulfomicrobium baculatum
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfocurvibacter; Desulfocurvibacter africanus
+	3	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio; Desulfovibrio fructosivorans
+	1	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio; Desulfovibrio gigas
+	1	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio; Desulfovibrio magneticus
+	1	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio; Desulfovibrio vulgaris
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Pseudodesulfovibrio; Pseudodesulfovibrio aespoeensis
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Desulfuromonadaceae; Desulfuromonas; Desulfuromonas acetoxidans
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Desulfuromonadaceae; Pelobacter; Pelobacter propionicus
+	2	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geobacter; Geobacter bemidjiensis
+	3	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geobacter; Geobacter daltonii
+	2	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geobacter; Geobacter lovleyi
+	1	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geobacter; Geobacter sulfurreducens
+	2	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geobacter; Geobacter uraniireducens
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Myxococcales; Cystobacterineae; Anaeromyxobacteraceae; Anaeromyxobacter
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Syntrophobacterales; Syntrophaceae; Desulfobacca; Desulfobacca acetoxidans
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Syntrophobacterales; Syntrophaceae; Desulfomonile; Desulfomonile tiedjei
+	0	Bacteria; Proteobacteria; Deltaproteobacteria; Syntrophobacterales; Syntrophobacteraceae; Syntrophobacter; Syntrophobacter fumaroxidans
+	0	Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales; Campylobacteraceae; Arcobacter; Arcobacter nitrofigilis
+	0	Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales; Helicobacteraceae; Sulfuricurvum; Sulfuricurvum kujiense
+	0	Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales; Helicobacteraceae; Wolinella; Wolinella succinogenes
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Cellvibrionales; Halieaceae; Congregibacter; Congregibacter litoralis
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Allochromatium; Allochromatium vinosum
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Marichromatium; Marichromatium purpuratum
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Thiocapsa; Thiocapsa marina
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Thiocystis; Thiocystis violascens
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Thiorhodococcus; Thiorhodococcus drewsii
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Ectothiorhodospiraceae; Halorhodospira; Halorhodospira halophila
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Ectothiorhodospiraceae; Thiorhodospira; Thiorhodospira sibirica
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales; Yersiniaceae; Rahnella; Rahnella aquatilis
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Methylococcales; Methylococcaceae; Methylomonas; Methylomonas methanica
+	2	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Azotobacter; Azotobacter chroococcum
+	4	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Azotobacter; Azotobacter vinelandii
+	0	Bacteria; Proteobacteria; Gammaproteobacteria; Vibrionales; Vibrionaceae; Vibrio; Vibrio natriegens
+	0	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Spirochaetaceae; Sediminispirochaeta; Sediminispirochaeta smaragdinae
+	0	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Spirochaetaceae; Spirochaeta; Spirochaeta thermophila
+	3	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Spirochaetaceae; Treponema; Treponema azotonutricium
+	1	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Spirochaetaceae; Treponema; Treponema brennaborense
+	3	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Spirochaetaceae; Treponema; Treponema primitia
+	2	Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Spirochaetaceae; Treponema; Treponema saccharophilum
+	0	Bacteria; Synergistetes; Synergistia; Synergistales; Synergistaceae; Pyramidobacter; Pyramidobacter piscolens
+	0	Bacteria; Thermodesulfobacteria; Thermodesulfobacteria; Thermodesulfobacteriales; Thermodesulfobacteriaceae; Thermodesulfatator; Thermodesulfatator indicus
+	0	Bacteria; Verrucomicrobia; Methylacidiphilae; Methylacidiphilales; Methylacidiphilaceae; Methylacidiphilum; Methylacidiphilum fumariolicum
+	0	Bacteria; Verrucomicrobia; Opitutae; Puniceicoccales; Puniceicoccaceae; Coraliomargarita; Coraliomargarita akajimensis
+95/225 Species have training sequences.
+
+21/02 17:56:05 INFO:
+Clustering sequences with UCLUST... 
+21/02 17:56:05 INFO:
+done.
+
+21/02 17:56:06 DEBUG:
+usearch v8.1.1861_i86linux64, 264Gb RAM, 40 cores
+(C) Copyright 2013-15 Robert C. Edgar, all rights reserved.
+http://drive5.com/usearch
+
+Licensed to: dfairley@mail.ubc.ca
+
+00:00  37Mb    0.1% Reading Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates//uclust_input.fasta00:00  43Mb  100.0% Reading Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates//uclust_input.fasta
+00:00 9.1Mb Pass 1...1122 seqs, 1122 uniques, 1122 singletons (100.0%)                                                                     
+00:00 3.0Gb Min size 1, median 1, max 1, avg 1.00
+00:00 3.0Gb done.
+00:00 3.0Gb Sort length... done.
+00:00 3.0Gb    0.1% Clustering00:00 3.0Gb    0.1% 0 clusters, max size 0, avg 0.000:01 3.0Gb    9.7% 106 clusters, max size 2, avg 1.000:01 3.0Gb  100.0% 1070 clusters, max size 9, avg 1.0
+00:01 3.0Gb    0.1% Writing centroids to Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates//uclust0.99.fa00:01 3.0Gb  100.0% Writing centroids to Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates//uclust0.99.fa
+                                                                                                                                                   
+      Seqs  1122
+  Clusters  1070
+  Max size  9
+  Avg size  1.0
+  Min size  1
+Singletons  1036, 92.3% of seqs, 96.8% of clusters
+   Max mem  3.0Gb
+      Time  1.00s
+Throughput  1122.0 seqs/sec.
+
+
+21/02 17:56:06 DEBUG:
+Reading usearch cluster file... 
+21/02 17:56:06 DEBUG:
+done.
+
+21/02 17:56:06 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	ACT67934  coded_by=<1..825,organism=Mesorhizobium sp. CCBAU 11206,definition=NifH
+	ADM13678  coded_by=<1..855,organism=Burkholderia sp. enrichment culture clone CATux-40,definition=NifH
+	CBA74073  coded_by=<1..>569,organism=Burkholderia sp. JPY321,definition=nitrogenase reductase
+	ACY39363  coded_by=<1..>585,organism=uncultured Frankia sp.,definition=dinitrogenase reductase
+	ABY33181  coded_by=complement(5374467..5375360),organism=Methylorubrum extorquens PA1,definition=light-independent protochlorophyllide reductase, iron-sulfur ATP-binding protein
+	ACA23944  coded_by=<1..>724,organism=Mesorhizobium silamurunense,definition=nitrogenase reductase
+	CBA74207  coded_by=<1..>569,organism=Burkholderia sp. JPY452,definition=nitrogenase reductase
+	ACY39336  coded_by=<1..>579,organism=uncultured Frankia sp.,definition=dinitrogenase reductase
+	ACY39398  coded_by=<1..>591,organism=uncultured Frankia sp.,definition=dinitrogenase reductase
+	ADJ37231  coded_by=<1..>701,organism=Bradyrhizobium sp. CCBAU 25360,definition=nitrogenase reductase
+	AHV98963  coded_by=complement(4442159..4443049),organism=Paenibacillus sabinae T27,definition=nitrogenase iron protein subunit NifH
+	ABW25083  coded_by=<1..>742,organism=Mesorhizobium caraganae,definition=nitrogenase iron protein
+	OBQ08444  coded_by=complement(104609..105499),organism=Anabaena sp. 39858,definition=nitrogenase reductase
+	EAZ89626  coded_by=16477..17346,organism=Cyanothece sp. CCY0110,definition=light-independent protochlorophyllide reductase iron protein subunit; ChlL
+	ACX46630  coded_by=<1..>564,organism=Mesorhizobium mediterraneum,definition=nitrogenase reductase
+	ACT67958  coded_by=<1..840,organism=Mesorhizobium huakuii,definition=NifH
+	ABY31121  coded_by=3059975..3060979,organism=Methylorubrum extorquens PA1,definition=chlorophyllide reductase iron protein subunit X
+	CAL79117  coded_by=complement(5627718..5628605),organism=Bradyrhizobium sp. ORS 278,definition=nitrogenase iron protein, nifH; dinitrogenase reductase
+	ACY39370  coded_by=<1..>582,organism=uncultured Frankia sp.,definition=dinitrogenase reductase
+	ACT67925  coded_by=<1..870,organism=Mesorhizobium septentrionale,definition=NifH
+	CAB40568  coded_by=3759..>4585,organism=Neorhizobium galegae,definition=putative nitrogenase reductase
+	ACF01110  coded_by=complement(2807997..2808866),organism=Rhodopseudomonas palustris TIE-1,definition=nitrogenase iron protein
+	CAR47915  coded_by=<1..>741,organism=Bradyrhizobium sp. 22LBI,definition=dinitrogenase reductase
+	ACT67937  coded_by=<1..825,organism=Mesorhizobium septentrionale,definition=NifH
+	EAZ92897  coded_by=144287..145159,organism=Cyanothece sp. CCY0110,definition=Nitrogenase iron protein
+	ACA23942  coded_by=<1..>727,organism=Mesorhizobium temperatum,definition=nitrogenase reductase
+	ACX46627  coded_by=<1..>564,organism=Aurantimonas sp. CCNWGS0021-2,definition=nitrogenase reductase
+	ABO17192  coded_by=complement(496978..497865),organism=Prochlorococcus marinus str. MIT 9301,definition=Protochlorophyllide reductase iron-sulfur ATP-binding protein
+	ADM13690  coded_by=<1..855,organism=Burkholderia sp. enrichment culture clone CACua-88,definition=NifH
+	ADM13685  coded_by=<1..852,organism=Burkholderia sp. enrichment culture clone CACua-09,definition=NifH
+	ACY39351  coded_by=<1..>585,organism=uncultured Frankia sp.,definition=dinitrogenase reductase
+	ACX47348  coded_by=<1..>714,organism=Mesorhizobium sp. ORS 3369,definition=nitrogenase iron protein
+	ABD96315  coded_by=35690..36580,organism=uncultured marine type-A Synechococcus GOM 3O6,definition=protochlorophyllide reductase iron-sulfur ATP-binding protein
+	AEU04188  coded_by=<1..>716,organism=Bradyrhizobium sp. CCBAU 45393,definition=nitrogenase reductase
+	GAN74669  coded_by=complement(9433..10356),organism=Acidiphilium multivorum AIU301,definition=chlorophyllide reductase X subunit
+	EJT01151  coded_by=6867..7760,organism=Rhizobium sp. CCGE 510,definition=nitrogenase reductase
+	CAB38722  coded_by=complement(2950..3843),organism=Rhodobacter sphaeroides,definition=protochlorphyllide reductase iron protein subunit
+	ACY39388  coded_by=<1..>606,organism=uncultured Frankia sp.,definition=dinitrogenase reductase
+	ACT67910  coded_by=<1..825,organism=Mesorhizobium sp. CCBAU 11226,definition=NifH
+	AFD62632  coded_by=<1..>696,organism=Mesorhizobium temperatum,definition=NifH
+	ACA23946  coded_by=<1..>727,organism=Mesorhizobium silamurunense,definition=nitrogenase reductase
+	ACY39446  coded_by=<1..>603,organism=uncultured Frankia sp.,definition=dinitrogenase reductase
+	EAQ27290  coded_by=760170..761078,organism=Roseovarius sp. 217,definition=Light-independent protochlorophyllide reductase iron protein
+	ACO37594  coded_by=<1..>613,organism=uncultured bacterium,definition=dinitrogenase reductase
+	ACS59148  coded_by=308462..309349,organism=Rhizobium leguminosarum bv. trifolii WSM1325,definition=nitrogenase iron protein
+	ACT67913  coded_by=<1..828,organism=Mesorhizobium mediterraneum,definition=NifH
+	CCD98529  coded_by=36097..37095,organism=Bradyrhizobium sp. STM 3809,definition=bacteriochlorophyllide reductase subunit, 35.5 kDa chain
+	ACY39408  coded_by=<1..>588,organism=uncultured Frankia sp.,definition=dinitrogenase reductase
+	ACX46626  coded_by=<1..>564,organism=Mesorhizobium sp. CCNWGS0011,definition=nitrogenase reductase
+	AYZ19843  coded_by=complement(5116805..5117686),organism=Klebsiella sp. FDAARGOS_511,definition=nitrogenase iron protein
+	ACK83796  coded_by=3119904..3120908,organism=Methylobacterium extorquens CM4,definition=chlorophyllide reductase iron protein subunit X
+	AAP59040  coded_by=21039..>21713,organism=Thiocapsa roseopersicina,definition=BchX
+
+21/02 17:56:06 DEBUG:
+	1070 sequence clusters
+
+21/02 17:56:06 INFO:
+Preparing deduplicated sequence set for training... 
+21/02 17:56:06 DEBUG:
+10 lineages truncated before Class were removed during lineage trimming.
+5 lineages unclassified at or before Class also removed.
+
+21/02 17:56:06 DEBUG:
+37 lineages truncated before Species were removed during lineage trimming.
+44 lineages unclassified at or before Species also removed.
+
+21/02 17:56:07 INFO:
+done.
+
+21/02 17:56:07 INFO:
+
+Estimating branch-length placement distances for taxonomic ranks. Progress:
+
+21/02 17:56:08 DEBUG:
+416 sequences to train Class-level placement distances
+
+21/02 17:56:08 DEBUG:
+225 sequences to train Species-level placement distances
+
+21/02 17:56:08 DEBUG:
+37 lineages truncated before Species were removed during lineage trimming.
+44 lineages unclassified at or before Species also removed.
+
+21/02 17:56:08 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobacterium; Methanobacterium ivanovii:
+
+21/02 17:56:08 DEBUG:
+	2 query sequences.
+
+21/02 17:56:08 DEBUG:
+	83 sequences pruned from tree.
+
+21/02 17:56:08 DEBUG:
+	329 leaves in pruned tree.
+
+21/02 17:56:08 DEBUG:
+Building HMM profile... 
+21/02 17:56:09 DEBUG:
+done.
+
+21/02 17:56:09 DEBUG:
+
+
+21/02 17:56:09 DEBUG:
+Columns = 233
+
+21/02 17:56:09 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:56:09 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:56:10 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobacterium; Methanobacterium lacus:
+
+21/02 17:56:10 DEBUG:
+	3 query sequences.
+
+21/02 17:56:10 DEBUG:
+	84 sequences pruned from tree.
+
+21/02 17:56:11 DEBUG:
+	328 leaves in pruned tree.
+
+21/02 17:56:11 DEBUG:
+Building HMM profile... 
+21/02 17:56:11 DEBUG:
+done.
+
+21/02 17:56:11 DEBUG:
+
+
+21/02 17:56:12 DEBUG:
+Columns = 233
+
+21/02 17:56:12 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:56:12 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:56:13 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobacterium; Methanobacterium paludis:
+
+21/02 17:56:13 DEBUG:
+	3 query sequences.
+
+21/02 17:56:13 DEBUG:
+	83 sequences pruned from tree.
+
+21/02 17:56:13 DEBUG:
+	329 leaves in pruned tree.
+
+21/02 17:56:13 DEBUG:
+Building HMM profile... 
+21/02 17:56:14 DEBUG:
+done.
+
+21/02 17:56:14 DEBUG:
+
+
+21/02 17:56:14 DEBUG:
+Columns = 233
+
+21/02 17:56:14 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:56:14 DEBUG:
+Read 332 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:56:15 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobrevibacter; Methanobrevibacter ruminantium:
+
+21/02 17:56:15 DEBUG:
+	1 query sequences.
+
+21/02 17:56:15 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:56:16 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:56:16 DEBUG:
+Building HMM profile... 
+21/02 17:56:17 DEBUG:
+done.
+
+21/02 17:56:17 DEBUG:
+
+
+21/02 17:56:17 DEBUG:
+Columns = 233
+
+21/02 17:56:17 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:56:17 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:56:18 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanobrevibacter; Methanobrevibacter smithii:
+
+21/02 17:56:18 DEBUG:
+	1 query sequences.
+
+21/02 17:56:18 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:56:18 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:56:18 DEBUG:
+Building HMM profile... 
+21/02 17:56:19 DEBUG:
+done.
+
+21/02 17:56:19 DEBUG:
+
+
+21/02 17:56:20 DEBUG:
+Columns = 233
+
+21/02 17:56:20 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:56:20 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:56:21 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanothermobacter; Methanothermobacter marburgensis:
+
+21/02 17:56:21 DEBUG:
+	1 query sequences.
+
+21/02 17:56:21 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:56:21 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:56:21 DEBUG:
+Building HMM profile... 
+21/02 17:56:22 DEBUG:
+done.
+
+21/02 17:56:22 DEBUG:
+
+
+21/02 17:56:22 DEBUG:
+Columns = 233
+
+21/02 17:56:22 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:56:22 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:56:23 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanobacteria; Methanobacteriales; Methanobacteriaceae; Methanothermobacter; Methanothermobacter thermautotrophicus:
+
+21/02 17:56:23 DEBUG:
+	2 query sequences.
+
+21/02 17:56:23 DEBUG:
+	83 sequences pruned from tree.
+
+21/02 17:56:24 DEBUG:
+	329 leaves in pruned tree.
+
+21/02 17:56:24 DEBUG:
+Building HMM profile... 
+21/02 17:56:24 DEBUG:
+done.
+
+21/02 17:56:24 DEBUG:
+
+
+21/02 17:56:25 DEBUG:
+Columns = 233
+
+21/02 17:56:25 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:56:25 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:56:26 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus infernus:
+
+21/02 17:56:26 DEBUG:
+	2 query sequences.
+
+21/02 17:56:26 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:56:26 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:56:26 DEBUG:
+Building HMM profile... 
+21/02 17:56:27 DEBUG:
+done.
+
+21/02 17:56:27 DEBUG:
+
+
+21/02 17:56:27 DEBUG:
+Columns = 233
+
+21/02 17:56:27 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:56:27 DEBUG:
+Read 332 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:56:28 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus jannaschii:
+
+21/02 17:56:28 DEBUG:
+	1 query sequences.
+
+21/02 17:56:28 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:56:29 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:56:29 DEBUG:
+Building HMM profile... 
+21/02 17:56:30 DEBUG:
+done.
+
+21/02 17:56:30 DEBUG:
+
+
+21/02 17:56:30 DEBUG:
+Columns = 233
+
+21/02 17:56:30 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:56:30 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:56:31 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanocaldococcus; Methanocaldococcus vulcanius:
+
+21/02 17:56:31 DEBUG:
+	2 query sequences.
+
+21/02 17:56:31 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:56:31 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:56:31 DEBUG:
+Building HMM profile... 
+21/02 17:56:32 DEBUG:
+done.
+
+21/02 17:56:32 DEBUG:
+
+
+21/02 17:56:33 DEBUG:
+Columns = 233
+
+21/02 17:56:33 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:56:33 DEBUG:
+Read 332 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:56:33 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanotorris; Methanotorris formicicus:
+
+21/02 17:56:33 DEBUG:
+	2 query sequences.
+
+21/02 17:56:33 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:56:34 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:56:34 DEBUG:
+Building HMM profile... 
+21/02 17:56:35 DEBUG:
+done.
+
+21/02 17:56:35 DEBUG:
+
+
+21/02 17:56:35 DEBUG:
+Columns = 233
+
+21/02 17:56:35 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:56:35 DEBUG:
+Read 332 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:56:36 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanocaldococcaceae; Methanotorris; Methanotorris igneus:
+
+21/02 17:56:36 DEBUG:
+	3 query sequences.
+
+21/02 17:56:36 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:56:37 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:56:37 DEBUG:
+Building HMM profile... 
+21/02 17:56:37 DEBUG:
+done.
+
+21/02 17:56:37 DEBUG:
+
+
+21/02 17:56:38 DEBUG:
+Columns = 233
+
+21/02 17:56:38 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:56:38 DEBUG:
+Read 333 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:56:39 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus aeolicus:
+
+21/02 17:56:39 DEBUG:
+	3 query sequences.
+
+21/02 17:56:39 DEBUG:
+	84 sequences pruned from tree.
+
+21/02 17:56:39 DEBUG:
+	328 leaves in pruned tree.
+
+21/02 17:56:39 DEBUG:
+Building HMM profile... 
+21/02 17:56:40 DEBUG:
+done.
+
+21/02 17:56:40 DEBUG:
+
+
+21/02 17:56:40 DEBUG:
+Columns = 233
+
+21/02 17:56:40 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:56:40 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:56:41 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus maripaludis:
+
+21/02 17:56:41 DEBUG:
+	7 query sequences.
+
+21/02 17:56:41 DEBUG:
+	83 sequences pruned from tree.
+
+21/02 17:56:42 DEBUG:
+	329 leaves in pruned tree.
+
+21/02 17:56:42 DEBUG:
+Building HMM profile... 
+21/02 17:56:42 DEBUG:
+done.
+
+21/02 17:56:42 DEBUG:
+
+
+21/02 17:56:43 DEBUG:
+Columns = 233
+
+21/02 17:56:43 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:56:43 DEBUG:
+Read 336 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:56:44 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus vannielii:
+
+21/02 17:56:44 DEBUG:
+	2 query sequences.
+
+21/02 17:56:44 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:56:44 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:56:44 DEBUG:
+Building HMM profile... 
+21/02 17:56:45 DEBUG:
+done.
+
+21/02 17:56:45 DEBUG:
+
+
+21/02 17:56:45 DEBUG:
+Columns = 233
+
+21/02 17:56:45 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:56:45 DEBUG:
+Read 332 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:56:46 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanococcus; Methanococcus voltae:
+
+21/02 17:56:46 DEBUG:
+	2 query sequences.
+
+21/02 17:56:46 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:56:47 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:56:47 DEBUG:
+Building HMM profile... 
+21/02 17:56:47 DEBUG:
+done.
+
+21/02 17:56:48 DEBUG:
+
+
+21/02 17:56:48 DEBUG:
+Columns = 233
+
+21/02 17:56:48 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:56:48 DEBUG:
+Read 332 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:56:49 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanothermococcus; Methanothermococcus okinawensis:
+
+21/02 17:56:49 DEBUG:
+	2 query sequences.
+
+21/02 17:56:49 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:56:49 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:56:49 DEBUG:
+Building HMM profile... 
+21/02 17:56:50 DEBUG:
+done.
+
+21/02 17:56:50 DEBUG:
+
+
+21/02 17:56:50 DEBUG:
+Columns = 233
+
+21/02 17:56:50 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:56:50 DEBUG:
+Read 332 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:56:51 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanococci; Methanococcales; Methanococcaceae; Methanothermococcus; Methanothermococcus thermolithotrophicus:
+
+21/02 17:56:51 DEBUG:
+	2 query sequences.
+
+21/02 17:56:51 DEBUG:
+	83 sequences pruned from tree.
+
+21/02 17:56:52 DEBUG:
+	329 leaves in pruned tree.
+
+21/02 17:56:52 DEBUG:
+Building HMM profile... 
+21/02 17:56:53 DEBUG:
+done.
+
+21/02 17:56:53 DEBUG:
+
+
+21/02 17:56:53 DEBUG:
+Columns = 233
+
+21/02 17:56:53 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:56:53 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:56:54 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanomicrobia; Methanocellales; Methanocellaceae; Methanocella; Methanocella arvoryzae:
+
+21/02 17:56:54 DEBUG:
+	2 query sequences.
+
+21/02 17:56:54 DEBUG:
+	83 sequences pruned from tree.
+
+21/02 17:56:55 DEBUG:
+	329 leaves in pruned tree.
+
+21/02 17:56:55 DEBUG:
+Building HMM profile... 
+21/02 17:56:55 DEBUG:
+done.
+
+21/02 17:56:55 DEBUG:
+
+
+21/02 17:56:56 DEBUG:
+Columns = 233
+
+21/02 17:56:56 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:56:56 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:56:56 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanomicrobia; Methanocellales; Methanocellaceae; Methanocella; Methanocella conradii:
+
+21/02 17:56:56 DEBUG:
+	2 query sequences.
+
+21/02 17:56:56 DEBUG:
+	83 sequences pruned from tree.
+
+21/02 17:56:57 DEBUG:
+	329 leaves in pruned tree.
+
+21/02 17:56:57 DEBUG:
+Building HMM profile... 
+21/02 17:56:58 DEBUG:
+done.
+
+21/02 17:56:58 DEBUG:
+
+
+21/02 17:56:58 DEBUG:
+Columns = 233
+
+21/02 17:56:58 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:56:58 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:56:59 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanomicrobia; Methanocellales; Methanocellaceae; Methanocella; Methanocella paludicola:
+
+21/02 17:56:59 DEBUG:
+	2 query sequences.
+
+21/02 17:56:59 DEBUG:
+	83 sequences pruned from tree.
+
+21/02 17:57:00 DEBUG:
+	329 leaves in pruned tree.
+
+21/02 17:57:00 DEBUG:
+Building HMM profile... 
+21/02 17:57:00 DEBUG:
+done.
+
+21/02 17:57:00 DEBUG:
+
+
+21/02 17:57:01 DEBUG:
+Columns = 234
+
+21/02 17:57:01 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:57:01 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:57:02 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina acetivorans:
+
+21/02 17:57:02 DEBUG:
+	3 query sequences.
+
+21/02 17:57:02 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:57:02 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:57:02 DEBUG:
+Building HMM profile... 
+21/02 17:57:03 DEBUG:
+done.
+
+21/02 17:57:03 DEBUG:
+
+
+21/02 17:57:03 DEBUG:
+Columns = 234
+
+21/02 17:57:03 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:57:03 DEBUG:
+Read 333 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:57:04 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina barkeri:
+
+21/02 17:57:04 DEBUG:
+	4 query sequences.
+
+21/02 17:57:04 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:57:05 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:57:05 DEBUG:
+Building HMM profile... 
+21/02 17:57:05 DEBUG:
+done.
+
+21/02 17:57:05 DEBUG:
+
+
+21/02 17:57:06 DEBUG:
+Columns = 233
+
+21/02 17:57:06 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:57:06 DEBUG:
+Read 334 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:57:07 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina mazei:
+
+21/02 17:57:07 DEBUG:
+	2 query sequences.
+
+21/02 17:57:07 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:57:07 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:57:07 DEBUG:
+Building HMM profile... 
+21/02 17:57:08 DEBUG:
+done.
+
+21/02 17:57:08 DEBUG:
+
+
+21/02 17:57:08 DEBUG:
+Columns = 233
+
+21/02 17:57:08 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:57:08 DEBUG:
+Read 332 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:57:09 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanosarcinaceae; Methanosarcina; Methanosarcina siciliae:
+
+21/02 17:57:09 DEBUG:
+	1 query sequences.
+
+21/02 17:57:09 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:57:10 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:57:10 DEBUG:
+Building HMM profile... 
+21/02 17:57:11 DEBUG:
+done.
+
+21/02 17:57:11 DEBUG:
+
+
+21/02 17:57:11 DEBUG:
+Columns = 233
+
+21/02 17:57:11 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:57:11 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:57:12 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanotrichaceae; Methanothrix; Methanosaeta harundinacea:
+
+21/02 17:57:12 DEBUG:
+	1 query sequences.
+
+21/02 17:57:12 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:57:12 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:57:12 DEBUG:
+Building HMM profile... 
+21/02 17:57:13 DEBUG:
+done.
+
+21/02 17:57:13 DEBUG:
+
+
+21/02 17:57:13 DEBUG:
+Columns = 233
+
+21/02 17:57:13 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:57:13 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:57:14 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanotrichaceae; Methanothrix; Methanothrix soehngenii:
+
+21/02 17:57:14 DEBUG:
+	1 query sequences.
+
+21/02 17:57:14 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:57:15 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:57:15 DEBUG:
+Building HMM profile... 
+21/02 17:57:16 DEBUG:
+done.
+
+21/02 17:57:16 DEBUG:
+
+
+21/02 17:57:16 DEBUG:
+Columns = 232
+
+21/02 17:57:16 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:57:16 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:57:17 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanomicrobia; Methanosarcinales; Methanotrichaceae; Methanothrix; Methanothrix thermoacetophila:
+
+21/02 17:57:17 DEBUG:
+	1 query sequences.
+
+21/02 17:57:17 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:57:17 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:57:18 DEBUG:
+Building HMM profile... 
+21/02 17:57:18 DEBUG:
+done.
+
+21/02 17:57:18 DEBUG:
+
+
+21/02 17:57:19 DEBUG:
+Columns = 233
+
+21/02 17:57:19 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:57:19 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:57:19 DEBUG:
+Testing placements for Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobaculum; Chlorobaculum parvum:
+
+21/02 17:57:19 DEBUG:
+	3 query sequences.
+
+21/02 17:57:19 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:57:20 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:57:20 DEBUG:
+Building HMM profile... 
+21/02 17:57:21 DEBUG:
+done.
+
+21/02 17:57:21 DEBUG:
+
+
+21/02 17:57:21 DEBUG:
+Columns = 233
+
+21/02 17:57:21 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:57:21 DEBUG:
+Read 333 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:57:22 DEBUG:
+Testing placements for Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobaculum; Chlorobaculum tepidum:
+
+21/02 17:57:22 DEBUG:
+	3 query sequences.
+
+21/02 17:57:22 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:57:23 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:57:23 DEBUG:
+Building HMM profile... 
+21/02 17:57:23 DEBUG:
+done.
+
+21/02 17:57:23 DEBUG:
+
+
+21/02 17:57:24 DEBUG:
+Columns = 233
+
+21/02 17:57:24 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:57:24 DEBUG:
+Read 333 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:57:25 DEBUG:
+Testing placements for Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobium; Chlorobium chlorochromatii:
+
+21/02 17:57:25 DEBUG:
+	3 query sequences.
+
+21/02 17:57:25 DEBUG:
+	83 sequences pruned from tree.
+
+21/02 17:57:25 DEBUG:
+	329 leaves in pruned tree.
+
+21/02 17:57:25 DEBUG:
+Building HMM profile... 
+21/02 17:57:26 DEBUG:
+done.
+
+21/02 17:57:26 DEBUG:
+
+
+21/02 17:57:26 DEBUG:
+Columns = 233
+
+21/02 17:57:26 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:57:26 DEBUG:
+Read 332 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:57:27 DEBUG:
+Testing placements for Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobium; Chlorobium ferrooxidans:
+
+21/02 17:57:27 DEBUG:
+	3 query sequences.
+
+21/02 17:57:27 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:57:28 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:57:28 DEBUG:
+Building HMM profile... 
+21/02 17:57:28 DEBUG:
+done.
+
+21/02 17:57:29 DEBUG:
+
+
+21/02 17:57:29 DEBUG:
+Columns = 233
+
+21/02 17:57:29 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:57:29 DEBUG:
+Read 333 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:57:30 DEBUG:
+Testing placements for Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobium; Chlorobium limicola:
+
+21/02 17:57:30 DEBUG:
+	3 query sequences.
+
+21/02 17:57:30 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:57:30 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:57:30 DEBUG:
+Building HMM profile... 
+21/02 17:57:31 DEBUG:
+done.
+
+21/02 17:57:31 DEBUG:
+
+
+21/02 17:57:31 DEBUG:
+Columns = 233
+
+21/02 17:57:31 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:57:31 DEBUG:
+Read 333 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:57:32 DEBUG:
+Testing placements for Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobium; Chlorobium phaeobacteroides:
+
+21/02 17:57:32 DEBUG:
+	6 query sequences.
+
+21/02 17:57:32 DEBUG:
+	84 sequences pruned from tree.
+
+21/02 17:57:33 DEBUG:
+	328 leaves in pruned tree.
+
+21/02 17:57:33 DEBUG:
+Building HMM profile... 
+21/02 17:57:34 DEBUG:
+done.
+
+21/02 17:57:34 DEBUG:
+
+
+21/02 17:57:34 DEBUG:
+Columns = 233
+
+21/02 17:57:34 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:57:34 DEBUG:
+Read 334 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:57:35 DEBUG:
+Testing placements for Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Chlorobium; Chlorobium phaeovibrioides:
+
+21/02 17:57:35 DEBUG:
+	3 query sequences.
+
+21/02 17:57:35 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:57:36 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:57:36 DEBUG:
+Building HMM profile... 
+21/02 17:57:36 DEBUG:
+done.
+
+21/02 17:57:36 DEBUG:
+
+
+21/02 17:57:37 DEBUG:
+Columns = 233
+
+21/02 17:57:37 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:57:37 DEBUG:
+Read 333 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:57:37 DEBUG:
+Testing placements for Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Pelodictyon; Pelodictyon luteolum:
+
+21/02 17:57:37 DEBUG:
+	2 query sequences.
+
+21/02 17:57:37 DEBUG:
+	83 sequences pruned from tree.
+
+21/02 17:57:38 DEBUG:
+	329 leaves in pruned tree.
+
+21/02 17:57:38 DEBUG:
+Building HMM profile... 
+21/02 17:57:39 DEBUG:
+done.
+
+21/02 17:57:39 DEBUG:
+
+
+21/02 17:57:39 DEBUG:
+Columns = 233
+
+21/02 17:57:39 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:57:39 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:57:40 DEBUG:
+Testing placements for Bacteria; Chlorobi; Chlorobia; Chlorobiales; Chlorobiaceae; Pelodictyon; Pelodictyon phaeoclathratiforme:
+
+21/02 17:57:40 DEBUG:
+	3 query sequences.
+
+21/02 17:57:40 DEBUG:
+	83 sequences pruned from tree.
+
+21/02 17:57:41 DEBUG:
+	329 leaves in pruned tree.
+
+21/02 17:57:41 DEBUG:
+Building HMM profile... 
+21/02 17:57:41 DEBUG:
+done.
+
+21/02 17:57:41 DEBUG:
+
+
+21/02 17:57:42 DEBUG:
+Columns = 233
+
+21/02 17:57:42 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:57:42 DEBUG:
+Read 332 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:57:43 DEBUG:
+Testing placements for Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus; Paenibacillus durus:
+
+21/02 17:57:43 DEBUG:
+	3 query sequences.
+
+21/02 17:57:43 DEBUG:
+	83 sequences pruned from tree.
+
+21/02 17:57:43 DEBUG:
+	329 leaves in pruned tree.
+
+21/02 17:57:43 DEBUG:
+Building HMM profile... 
+21/02 17:57:44 DEBUG:
+done.
+
+21/02 17:57:44 DEBUG:
+
+
+21/02 17:57:44 DEBUG:
+Columns = 233
+
+21/02 17:57:44 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:57:44 DEBUG:
+Read 332 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:57:45 DEBUG:
+Testing placements for Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus; Paenibacillus graminis:
+
+21/02 17:57:45 DEBUG:
+	1 query sequences.
+
+21/02 17:57:45 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:57:46 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:57:46 DEBUG:
+Building HMM profile... 
+21/02 17:57:46 DEBUG:
+done.
+
+21/02 17:57:46 DEBUG:
+
+
+21/02 17:57:47 DEBUG:
+Columns = 233
+
+21/02 17:57:47 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:57:47 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:57:48 DEBUG:
+Testing placements for Bacteria; Firmicutes; Bacilli; Bacillales; Paenibacillaceae; Paenibacillus; Paenibacillus terrae:
+
+21/02 17:57:48 DEBUG:
+	1 query sequences.
+
+21/02 17:57:48 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:57:48 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:57:48 DEBUG:
+Building HMM profile... 
+21/02 17:57:49 DEBUG:
+done.
+
+21/02 17:57:49 DEBUG:
+
+
+21/02 17:57:49 DEBUG:
+Columns = 233
+
+21/02 17:57:49 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:57:49 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:57:50 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Alkaliphilus; Alkaliphilus metalliredigens:
+
+21/02 17:57:50 DEBUG:
+	1 query sequences.
+
+21/02 17:57:50 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:57:51 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:57:51 DEBUG:
+Building HMM profile... 
+21/02 17:57:52 DEBUG:
+done.
+
+21/02 17:57:52 DEBUG:
+
+
+21/02 17:57:52 DEBUG:
+Columns = 233
+
+21/02 17:57:52 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:57:52 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:57:53 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Alkaliphilus; Alkaliphilus oremlandii:
+
+21/02 17:57:53 DEBUG:
+	1 query sequences.
+
+21/02 17:57:53 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:57:53 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:57:54 DEBUG:
+Building HMM profile... 
+21/02 17:57:54 DEBUG:
+done.
+
+21/02 17:57:54 DEBUG:
+
+
+21/02 17:57:55 DEBUG:
+Columns = 233
+
+21/02 17:57:55 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:57:55 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:57:55 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium acetobutylicum:
+
+21/02 17:57:55 DEBUG:
+	1 query sequences.
+
+21/02 17:57:55 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:57:56 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:57:56 DEBUG:
+Building HMM profile... 
+21/02 17:57:57 DEBUG:
+done.
+
+21/02 17:57:57 DEBUG:
+
+
+21/02 17:57:57 DEBUG:
+Columns = 233
+
+21/02 17:57:57 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:57:57 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:57:58 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium botulinum:
+
+21/02 17:57:58 DEBUG:
+	5 query sequences.
+
+21/02 17:57:58 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:57:59 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:57:59 DEBUG:
+Building HMM profile... 
+21/02 17:57:59 DEBUG:
+done.
+
+21/02 17:57:59 DEBUG:
+
+
+21/02 17:58:00 DEBUG:
+Columns = 233
+
+21/02 17:58:00 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:58:00 DEBUG:
+Read 335 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:58:00 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium carboxidivorans:
+
+21/02 17:58:00 DEBUG:
+	2 query sequences.
+
+21/02 17:58:00 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:58:01 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:58:01 DEBUG:
+Building HMM profile... 
+21/02 17:58:02 DEBUG:
+done.
+
+21/02 17:58:02 DEBUG:
+
+
+21/02 17:58:02 DEBUG:
+Columns = 233
+
+21/02 17:58:02 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:58:02 DEBUG:
+Read 332 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:58:03 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium cellulovorans:
+
+21/02 17:58:03 DEBUG:
+	2 query sequences.
+
+21/02 17:58:03 DEBUG:
+	83 sequences pruned from tree.
+
+21/02 17:58:04 DEBUG:
+	329 leaves in pruned tree.
+
+21/02 17:58:04 DEBUG:
+Building HMM profile... 
+21/02 17:58:04 DEBUG:
+done.
+
+21/02 17:58:04 DEBUG:
+
+
+21/02 17:58:05 DEBUG:
+Columns = 233
+
+21/02 17:58:05 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:58:05 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:58:06 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium kluyveri:
+
+21/02 17:58:06 DEBUG:
+	4 query sequences.
+
+21/02 17:58:06 DEBUG:
+	84 sequences pruned from tree.
+
+21/02 17:58:06 DEBUG:
+	328 leaves in pruned tree.
+
+21/02 17:58:06 DEBUG:
+Building HMM profile... 
+21/02 17:58:07 DEBUG:
+done.
+
+21/02 17:58:07 DEBUG:
+
+
+21/02 17:58:07 DEBUG:
+Columns = 233
+
+21/02 17:58:07 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:58:07 DEBUG:
+Read 332 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:58:08 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium ljungdahlii:
+
+21/02 17:58:08 DEBUG:
+	3 query sequences.
+
+21/02 17:58:08 DEBUG:
+	84 sequences pruned from tree.
+
+21/02 17:58:09 DEBUG:
+	328 leaves in pruned tree.
+
+21/02 17:58:09 DEBUG:
+Building HMM profile... 
+21/02 17:58:10 DEBUG:
+done.
+
+21/02 17:58:10 DEBUG:
+
+
+21/02 17:58:10 DEBUG:
+Columns = 233
+
+21/02 17:58:10 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:58:10 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:58:11 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium pasteurianum:
+
+21/02 17:58:11 DEBUG:
+	4 query sequences.
+
+21/02 17:58:11 DEBUG:
+	83 sequences pruned from tree.
+
+21/02 17:58:11 DEBUG:
+	329 leaves in pruned tree.
+
+21/02 17:58:12 DEBUG:
+Building HMM profile... 
+21/02 17:58:12 DEBUG:
+done.
+
+21/02 17:58:12 DEBUG:
+
+
+21/02 17:58:13 DEBUG:
+Columns = 233
+
+21/02 17:58:13 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:58:13 DEBUG:
+Read 333 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:58:13 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Heliobacteriaceae; Heliobacterium; Heliobacterium gestii:
+
+21/02 17:58:13 DEBUG:
+	1 query sequences.
+
+21/02 17:58:13 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:58:14 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:58:14 DEBUG:
+Building HMM profile... 
+21/02 17:58:15 DEBUG:
+done.
+
+21/02 17:58:15 DEBUG:
+
+
+21/02 17:58:15 DEBUG:
+Columns = 233
+
+21/02 17:58:15 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:58:15 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:58:16 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Heliobacteriaceae; Heliobacterium; Heliobacterium modesticaldum:
+
+21/02 17:58:16 DEBUG:
+	3 query sequences.
+
+21/02 17:58:16 DEBUG:
+	83 sequences pruned from tree.
+
+21/02 17:58:17 DEBUG:
+	329 leaves in pruned tree.
+
+21/02 17:58:17 DEBUG:
+Building HMM profile... 
+21/02 17:58:17 DEBUG:
+done.
+
+21/02 17:58:17 DEBUG:
+
+
+21/02 17:58:18 DEBUG:
+Columns = 233
+
+21/02 17:58:18 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:58:18 DEBUG:
+Read 332 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:58:18 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Hungateiclostridiaceae; Hungateiclostridium; Hungateiclostridium clariflavum:
+
+21/02 17:58:18 DEBUG:
+	3 query sequences.
+
+21/02 17:58:18 DEBUG:
+	84 sequences pruned from tree.
+
+21/02 17:58:19 DEBUG:
+	328 leaves in pruned tree.
+
+21/02 17:58:19 DEBUG:
+Building HMM profile... 
+21/02 17:58:20 DEBUG:
+done.
+
+21/02 17:58:20 DEBUG:
+
+
+21/02 17:58:20 DEBUG:
+Columns = 233
+
+21/02 17:58:20 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:58:20 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:58:21 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Hungateiclostridiaceae; Hungateiclostridium; Hungateiclostridium thermocellum:
+
+21/02 17:58:21 DEBUG:
+	1 query sequences.
+
+21/02 17:58:21 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:58:22 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:58:22 DEBUG:
+Building HMM profile... 
+21/02 17:58:22 DEBUG:
+done.
+
+21/02 17:58:22 DEBUG:
+
+
+21/02 17:58:23 DEBUG:
+Columns = 233
+
+21/02 17:58:23 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:58:23 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:58:24 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Hungateiclostridiaceae; Ruminiclostridium; Ruminiclostridium cellobioparum:
+
+21/02 17:58:24 DEBUG:
+	1 query sequences.
+
+21/02 17:58:24 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:58:24 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:58:24 DEBUG:
+Building HMM profile... 
+21/02 17:58:25 DEBUG:
+done.
+
+21/02 17:58:25 DEBUG:
+
+
+21/02 17:58:25 DEBUG:
+Columns = 233
+
+21/02 17:58:25 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:58:25 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:58:26 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Hungateiclostridiaceae; Ruminiclostridium; Ruminiclostridium cellulolyticum:
+
+21/02 17:58:26 DEBUG:
+	1 query sequences.
+
+21/02 17:58:26 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:58:27 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:58:27 DEBUG:
+Building HMM profile... 
+21/02 17:58:28 DEBUG:
+done.
+
+21/02 17:58:28 DEBUG:
+
+
+21/02 17:58:28 DEBUG:
+Columns = 233
+
+21/02 17:58:28 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:58:28 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:58:29 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Dorea; Dorea formicigenerans:
+
+21/02 17:58:29 DEBUG:
+	3 query sequences.
+
+21/02 17:58:29 DEBUG:
+	84 sequences pruned from tree.
+
+21/02 17:58:29 DEBUG:
+	328 leaves in pruned tree.
+
+21/02 17:58:29 DEBUG:
+Building HMM profile... 
+21/02 17:58:30 DEBUG:
+done.
+
+21/02 17:58:30 DEBUG:
+
+
+21/02 17:58:30 DEBUG:
+Columns = 233
+
+21/02 17:58:30 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:58:30 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:58:31 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Dorea; Dorea longicatena:
+
+21/02 17:58:31 DEBUG:
+	2 query sequences.
+
+21/02 17:58:31 DEBUG:
+	83 sequences pruned from tree.
+
+21/02 17:58:32 DEBUG:
+	329 leaves in pruned tree.
+
+21/02 17:58:32 DEBUG:
+Building HMM profile... 
+21/02 17:58:33 DEBUG:
+done.
+
+21/02 17:58:33 DEBUG:
+
+
+21/02 17:58:33 DEBUG:
+Columns = 233
+
+21/02 17:58:33 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:58:33 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:58:34 DEBUG:
+Testing placements for Bacteria; Firmicutes; Negativicutes; Selenomonadales; Selenomonadaceae; Selenomonas; Selenomonas artemidis:
+
+21/02 17:58:34 DEBUG:
+	1 query sequences.
+
+21/02 17:58:34 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:58:35 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:58:35 DEBUG:
+Building HMM profile... 
+21/02 17:58:35 DEBUG:
+done.
+
+21/02 17:58:35 DEBUG:
+
+
+21/02 17:58:36 DEBUG:
+Columns = 233
+
+21/02 17:58:36 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:58:36 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:58:37 DEBUG:
+Testing placements for Bacteria; Firmicutes; Negativicutes; Selenomonadales; Selenomonadaceae; Selenomonas; Selenomonas infelix:
+
+21/02 17:58:37 DEBUG:
+	1 query sequences.
+
+21/02 17:58:37 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:58:37 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:58:37 DEBUG:
+Building HMM profile... 
+21/02 17:58:38 DEBUG:
+done.
+
+21/02 17:58:38 DEBUG:
+
+
+21/02 17:58:38 DEBUG:
+Columns = 233
+
+21/02 17:58:38 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:58:38 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:58:39 DEBUG:
+Testing placements for Bacteria; Firmicutes; Negativicutes; Selenomonadales; Selenomonadaceae; Selenomonas; Selenomonas ruminantium:
+
+21/02 17:58:39 DEBUG:
+	1 query sequences.
+
+21/02 17:58:39 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:58:40 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:58:40 DEBUG:
+Building HMM profile... 
+21/02 17:58:40 DEBUG:
+done.
+
+21/02 17:58:40 DEBUG:
+
+
+21/02 17:58:41 DEBUG:
+Columns = 233
+
+21/02 17:58:41 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:58:41 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:58:42 DEBUG:
+Testing placements for Bacteria; Firmicutes; Negativicutes; Selenomonadales; Selenomonadaceae; Selenomonas; Selenomonas sputigena:
+
+21/02 17:58:42 DEBUG:
+	1 query sequences.
+
+21/02 17:58:42 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:58:42 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:58:42 DEBUG:
+Building HMM profile... 
+21/02 17:58:43 DEBUG:
+done.
+
+21/02 17:58:43 DEBUG:
+
+
+21/02 17:58:43 DEBUG:
+Columns = 233
+
+21/02 17:58:43 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:58:43 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:58:44 DEBUG:
+Testing placements for Bacteria; Firmicutes; Negativicutes; Veillonellales; Veillonellaceae; Dialister; Dialister invisus:
+
+21/02 17:58:44 DEBUG:
+	1 query sequences.
+
+21/02 17:58:44 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:58:45 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:58:45 DEBUG:
+Building HMM profile... 
+21/02 17:58:46 DEBUG:
+done.
+
+21/02 17:58:46 DEBUG:
+
+
+21/02 17:58:46 DEBUG:
+Columns = 233
+
+21/02 17:58:46 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:58:46 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:58:47 DEBUG:
+Testing placements for Bacteria; Firmicutes; Negativicutes; Veillonellales; Veillonellaceae; Dialister; Dialister succinatiphilus:
+
+21/02 17:58:47 DEBUG:
+	1 query sequences.
+
+21/02 17:58:47 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:58:47 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:58:47 DEBUG:
+Building HMM profile... 
+21/02 17:58:48 DEBUG:
+done.
+
+21/02 17:58:48 DEBUG:
+
+
+21/02 17:58:49 DEBUG:
+Columns = 233
+
+21/02 17:58:49 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:58:49 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:58:49 DEBUG:
+Testing placements for Bacteria; Firmicutes; Negativicutes; Veillonellales; Veillonellaceae; Megasphaera; Megasphaera elsdenii:
+
+21/02 17:58:49 DEBUG:
+	2 query sequences.
+
+21/02 17:58:49 DEBUG:
+	83 sequences pruned from tree.
+
+21/02 17:58:50 DEBUG:
+	329 leaves in pruned tree.
+
+21/02 17:58:50 DEBUG:
+Building HMM profile... 
+21/02 17:58:51 DEBUG:
+done.
+
+21/02 17:58:51 DEBUG:
+
+
+21/02 17:58:51 DEBUG:
+Columns = 233
+
+21/02 17:58:51 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:58:51 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:58:52 DEBUG:
+Testing placements for Bacteria; Firmicutes; Negativicutes; Veillonellales; Veillonellaceae; Megasphaera; Megasphaera genomosp. type_1:
+
+21/02 17:58:52 DEBUG:
+	2 query sequences.
+
+21/02 17:58:52 DEBUG:
+	83 sequences pruned from tree.
+
+21/02 17:58:53 DEBUG:
+	329 leaves in pruned tree.
+
+21/02 17:58:53 DEBUG:
+Building HMM profile... 
+21/02 17:58:53 DEBUG:
+done.
+
+21/02 17:58:53 DEBUG:
+
+
+21/02 17:58:54 DEBUG:
+Columns = 233
+
+21/02 17:58:54 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:58:54 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:58:55 DEBUG:
+Testing placements for Bacteria; Firmicutes; Negativicutes; Veillonellales; Veillonellaceae; Megasphaera; Megasphaera micronuciformis:
+
+21/02 17:58:55 DEBUG:
+	2 query sequences.
+
+21/02 17:58:55 DEBUG:
+	83 sequences pruned from tree.
+
+21/02 17:58:55 DEBUG:
+	329 leaves in pruned tree.
+
+21/02 17:58:55 DEBUG:
+Building HMM profile... 
+21/02 17:58:56 DEBUG:
+done.
+
+21/02 17:58:56 DEBUG:
+
+
+21/02 17:58:56 DEBUG:
+Columns = 233
+
+21/02 17:58:56 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:58:56 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:58:57 DEBUG:
+Testing placements for Bacteria; Fusobacteria; Fusobacteriia; Fusobacteriales; Fusobacteriaceae; Fusobacterium; Fusobacterium nucleatum:
+
+21/02 17:58:57 DEBUG:
+	4 query sequences.
+
+21/02 17:58:57 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:58:58 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:58:58 DEBUG:
+Building HMM profile... 
+21/02 17:58:58 DEBUG:
+done.
+
+21/02 17:58:58 DEBUG:
+
+
+21/02 17:58:59 DEBUG:
+Columns = 233
+
+21/02 17:58:59 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:58:59 DEBUG:
+Read 334 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:59:00 DEBUG:
+Testing placements for Bacteria; Fusobacteria; Fusobacteriia; Fusobacteriales; Fusobacteriaceae; Fusobacterium; Fusobacterium ulcerans:
+
+21/02 17:59:00 DEBUG:
+	1 query sequences.
+
+21/02 17:59:00 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:59:00 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:59:00 DEBUG:
+Building HMM profile... 
+21/02 17:59:01 DEBUG:
+done.
+
+21/02 17:59:01 DEBUG:
+
+
+21/02 17:59:01 DEBUG:
+Columns = 233
+
+21/02 17:59:01 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:59:01 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:59:02 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Acidithiobacillia; Acidithiobacillales; Acidithiobacillaceae; Acidithiobacillus; Acidithiobacillus ferrivorans:
+
+21/02 17:59:02 DEBUG:
+	1 query sequences.
+
+21/02 17:59:02 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:59:03 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:59:03 DEBUG:
+Building HMM profile... 
+21/02 17:59:04 DEBUG:
+done.
+
+21/02 17:59:04 DEBUG:
+
+
+21/02 17:59:04 DEBUG:
+Columns = 233
+
+21/02 17:59:04 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:59:04 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:59:05 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Acidithiobacillia; Acidithiobacillales; Acidithiobacillaceae; Acidithiobacillus; Acidithiobacillus ferrooxidans:
+
+21/02 17:59:05 DEBUG:
+	1 query sequences.
+
+21/02 17:59:05 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:59:05 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:59:05 DEBUG:
+Building HMM profile... 
+21/02 17:59:06 DEBUG:
+done.
+
+21/02 17:59:06 DEBUG:
+
+
+21/02 17:59:07 DEBUG:
+Columns = 233
+
+21/02 17:59:07 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:59:07 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:59:08 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Bradyrhizobiaceae; Bradyrhizobium; Bradyrhizobium liaoningense:
+
+21/02 17:59:08 DEBUG:
+	2 query sequences.
+
+21/02 17:59:08 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:59:08 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:59:08 DEBUG:
+Building HMM profile... 
+21/02 17:59:09 DEBUG:
+done.
+
+21/02 17:59:09 DEBUG:
+
+
+21/02 17:59:09 DEBUG:
+Columns = 233
+
+21/02 17:59:09 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:59:09 DEBUG:
+Read 332 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:59:10 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Bradyrhizobiaceae; Bradyrhizobium; Bradyrhizobium yuanmingense:
+
+21/02 17:59:10 DEBUG:
+	9 query sequences.
+
+21/02 17:59:10 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:59:11 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:59:11 DEBUG:
+Building HMM profile... 
+21/02 17:59:11 DEBUG:
+done.
+
+21/02 17:59:11 DEBUG:
+
+
+21/02 17:59:12 DEBUG:
+Columns = 233
+
+21/02 17:59:12 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:59:12 DEBUG:
+Read 339 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:59:13 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Rhodomicrobium; Rhodomicrobium udaipurense:
+
+21/02 17:59:13 DEBUG:
+	1 query sequences.
+
+21/02 17:59:13 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:59:13 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:59:13 DEBUG:
+Building HMM profile... 
+21/02 17:59:14 DEBUG:
+done.
+
+21/02 17:59:14 DEBUG:
+
+
+21/02 17:59:14 DEBUG:
+Columns = 233
+
+21/02 17:59:14 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:59:14 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:59:15 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Rhodomicrobium; Rhodomicrobium vannielii:
+
+21/02 17:59:15 DEBUG:
+	5 query sequences.
+
+21/02 17:59:15 DEBUG:
+	85 sequences pruned from tree.
+
+21/02 17:59:16 DEBUG:
+	327 leaves in pruned tree.
+
+21/02 17:59:16 DEBUG:
+Building HMM profile... 
+21/02 17:59:17 DEBUG:
+done.
+
+21/02 17:59:17 DEBUG:
+
+
+21/02 17:59:17 DEBUG:
+Columns = 233
+
+21/02 17:59:17 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:59:17 DEBUG:
+Read 332 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:59:18 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Rhodobacter; Rhodobacter capsulatus:
+
+21/02 17:59:18 DEBUG:
+	6 query sequences.
+
+21/02 17:59:18 DEBUG:
+	85 sequences pruned from tree.
+
+21/02 17:59:19 DEBUG:
+	327 leaves in pruned tree.
+
+21/02 17:59:19 DEBUG:
+Building HMM profile... 
+21/02 17:59:19 DEBUG:
+done.
+
+21/02 17:59:19 DEBUG:
+
+
+21/02 17:59:20 DEBUG:
+Columns = 232
+
+21/02 17:59:20 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:59:20 DEBUG:
+Read 333 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:59:21 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Rhodobacter; Rhodobacter sphaeroides:
+
+21/02 17:59:21 DEBUG:
+	9 query sequences.
+
+21/02 17:59:21 DEBUG:
+	83 sequences pruned from tree.
+
+21/02 17:59:21 DEBUG:
+	329 leaves in pruned tree.
+
+21/02 17:59:21 DEBUG:
+Building HMM profile... 
+21/02 17:59:22 DEBUG:
+done.
+
+21/02 17:59:22 DEBUG:
+
+
+21/02 17:59:22 DEBUG:
+Columns = 232
+
+21/02 17:59:22 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:59:22 DEBUG:
+Read 338 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:59:23 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales; Rhodospirillaceae; Rhodospirillum; Rhodospirillum centenum:
+
+21/02 17:59:23 DEBUG:
+	3 query sequences.
+
+21/02 17:59:23 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:59:24 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:59:24 DEBUG:
+Building HMM profile... 
+21/02 17:59:24 DEBUG:
+done.
+
+21/02 17:59:25 DEBUG:
+
+
+21/02 17:59:25 DEBUG:
+Columns = 233
+
+21/02 17:59:25 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:59:25 DEBUG:
+Read 333 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:59:26 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales; Rhodospirillaceae; Rhodospirillum; Rhodospirillum rubrum:
+
+21/02 17:59:26 DEBUG:
+	5 query sequences.
+
+21/02 17:59:26 DEBUG:
+	86 sequences pruned from tree.
+
+21/02 17:59:26 DEBUG:
+	326 leaves in pruned tree.
+
+21/02 17:59:26 DEBUG:
+Building HMM profile... 
+21/02 17:59:27 DEBUG:
+done.
+
+21/02 17:59:27 DEBUG:
+
+
+21/02 17:59:27 DEBUG:
+Columns = 233
+
+21/02 17:59:27 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:59:27 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:59:28 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales; Burkholderiaceae; Paraburkholderia; Paraburkholderia tuberum:
+
+21/02 17:59:28 DEBUG:
+	1 query sequences.
+
+21/02 17:59:28 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:59:29 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:59:29 DEBUG:
+Building HMM profile... 
+21/02 17:59:30 DEBUG:
+done.
+
+21/02 17:59:30 DEBUG:
+
+
+21/02 17:59:30 DEBUG:
+Columns = 233
+
+21/02 17:59:30 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:59:30 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:59:31 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales; Burkholderiaceae; Paraburkholderia; Paraburkholderia unamae:
+
+21/02 17:59:31 DEBUG:
+	2 query sequences.
+
+21/02 17:59:31 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:59:31 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:59:32 DEBUG:
+Building HMM profile... 
+21/02 17:59:32 DEBUG:
+done.
+
+21/02 17:59:32 DEBUG:
+
+
+21/02 17:59:33 DEBUG:
+Columns = 234
+
+21/02 17:59:33 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:59:33 DEBUG:
+Read 332 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:59:33 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio; Desulfovibrio fructosivorans:
+
+21/02 17:59:33 DEBUG:
+	3 query sequences.
+
+21/02 17:59:33 DEBUG:
+	83 sequences pruned from tree.
+
+21/02 17:59:34 DEBUG:
+	329 leaves in pruned tree.
+
+21/02 17:59:34 DEBUG:
+Building HMM profile... 
+21/02 17:59:35 DEBUG:
+done.
+
+21/02 17:59:35 DEBUG:
+
+
+21/02 17:59:35 DEBUG:
+Columns = 233
+
+21/02 17:59:35 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:59:35 DEBUG:
+Read 332 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:59:36 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio; Desulfovibrio gigas:
+
+21/02 17:59:36 DEBUG:
+	1 query sequences.
+
+21/02 17:59:36 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:59:37 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:59:37 DEBUG:
+Building HMM profile... 
+21/02 17:59:37 DEBUG:
+done.
+
+21/02 17:59:37 DEBUG:
+
+
+21/02 17:59:38 DEBUG:
+Columns = 233
+
+21/02 17:59:38 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:59:38 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:59:39 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio; Desulfovibrio magneticus:
+
+21/02 17:59:39 DEBUG:
+	1 query sequences.
+
+21/02 17:59:39 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:59:39 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:59:39 DEBUG:
+Building HMM profile... 
+21/02 17:59:40 DEBUG:
+done.
+
+21/02 17:59:40 DEBUG:
+
+
+21/02 17:59:40 DEBUG:
+Columns = 233
+
+21/02 17:59:40 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:59:40 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:59:41 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio; Desulfovibrio vulgaris:
+
+21/02 17:59:41 DEBUG:
+	1 query sequences.
+
+21/02 17:59:41 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:59:42 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:59:42 DEBUG:
+Building HMM profile... 
+21/02 17:59:42 DEBUG:
+done.
+
+21/02 17:59:42 DEBUG:
+
+
+21/02 17:59:43 DEBUG:
+Columns = 233
+
+21/02 17:59:43 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:59:43 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:59:44 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geobacter; Geobacter bemidjiensis:
+
+21/02 17:59:44 DEBUG:
+	2 query sequences.
+
+21/02 17:59:44 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:59:44 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:59:44 DEBUG:
+Building HMM profile... 
+21/02 17:59:45 DEBUG:
+done.
+
+21/02 17:59:45 DEBUG:
+
+
+21/02 17:59:45 DEBUG:
+Columns = 232
+
+21/02 17:59:45 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:59:45 DEBUG:
+Read 332 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:59:46 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geobacter; Geobacter daltonii:
+
+21/02 17:59:46 DEBUG:
+	3 query sequences.
+
+21/02 17:59:46 DEBUG:
+	83 sequences pruned from tree.
+
+21/02 17:59:47 DEBUG:
+	329 leaves in pruned tree.
+
+21/02 17:59:47 DEBUG:
+Building HMM profile... 
+21/02 17:59:48 DEBUG:
+done.
+
+21/02 17:59:48 DEBUG:
+
+
+21/02 17:59:48 DEBUG:
+Columns = 233
+
+21/02 17:59:48 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:59:48 DEBUG:
+Read 332 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:59:49 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geobacter; Geobacter lovleyi:
+
+21/02 17:59:49 DEBUG:
+	2 query sequences.
+
+21/02 17:59:49 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:59:49 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:59:50 DEBUG:
+Building HMM profile... 
+21/02 17:59:50 DEBUG:
+done.
+
+21/02 17:59:50 DEBUG:
+
+
+21/02 17:59:51 DEBUG:
+Columns = 233
+
+21/02 17:59:51 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:59:51 DEBUG:
+Read 332 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:59:51 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geobacter; Geobacter sulfurreducens:
+
+21/02 17:59:51 DEBUG:
+	1 query sequences.
+
+21/02 17:59:51 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:59:52 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:59:52 DEBUG:
+Building HMM profile... 
+21/02 17:59:53 DEBUG:
+done.
+
+21/02 17:59:53 DEBUG:
+
+
+21/02 17:59:53 DEBUG:
+Columns = 233
+
+21/02 17:59:53 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:59:53 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:59:54 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Deltaproteobacteria; Desulfuromonadales; Geobacteraceae; Geobacter; Geobacter uraniireducens:
+
+21/02 17:59:54 DEBUG:
+	2 query sequences.
+
+21/02 17:59:54 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 17:59:55 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 17:59:55 DEBUG:
+Building HMM profile... 
+21/02 17:59:55 DEBUG:
+done.
+
+21/02 17:59:55 DEBUG:
+
+
+21/02 17:59:56 DEBUG:
+Columns = 233
+
+21/02 17:59:56 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:59:56 DEBUG:
+Read 332 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:59:56 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Azotobacter; Azotobacter chroococcum:
+
+21/02 17:59:56 DEBUG:
+	2 query sequences.
+
+21/02 17:59:56 DEBUG:
+	83 sequences pruned from tree.
+
+21/02 17:59:57 DEBUG:
+	329 leaves in pruned tree.
+
+21/02 17:59:57 DEBUG:
+Building HMM profile... 
+21/02 17:59:58 DEBUG:
+done.
+
+21/02 17:59:58 DEBUG:
+
+
+21/02 17:59:58 DEBUG:
+Columns = 235
+
+21/02 17:59:58 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 17:59:58 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 17:59:59 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Azotobacter; Azotobacter vinelandii:
+
+21/02 17:59:59 DEBUG:
+	4 query sequences.
+
+21/02 17:59:59 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 18:00:00 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 18:00:00 DEBUG:
+Building HMM profile... 
+21/02 18:00:00 DEBUG:
+done.
+
+21/02 18:00:00 DEBUG:
+
+
+21/02 18:00:01 DEBUG:
+Columns = 233
+
+21/02 18:00:01 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 18:00:01 DEBUG:
+Read 334 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 18:00:02 DEBUG:
+Testing placements for Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Spirochaetaceae; Treponema; Treponema azotonutricium:
+
+21/02 18:00:02 DEBUG:
+	3 query sequences.
+
+21/02 18:00:02 DEBUG:
+	83 sequences pruned from tree.
+
+21/02 18:00:02 DEBUG:
+	329 leaves in pruned tree.
+
+21/02 18:00:02 DEBUG:
+Building HMM profile... 
+21/02 18:00:03 DEBUG:
+done.
+
+21/02 18:00:03 DEBUG:
+
+
+21/02 18:00:03 DEBUG:
+Columns = 233
+
+21/02 18:00:03 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 18:00:03 DEBUG:
+Read 332 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 18:00:04 DEBUG:
+Testing placements for Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Spirochaetaceae; Treponema; Treponema brennaborense:
+
+21/02 18:00:04 DEBUG:
+	1 query sequences.
+
+21/02 18:00:04 DEBUG:
+	82 sequences pruned from tree.
+
+21/02 18:00:05 DEBUG:
+	330 leaves in pruned tree.
+
+21/02 18:00:05 DEBUG:
+Building HMM profile... 
+21/02 18:00:06 DEBUG:
+done.
+
+21/02 18:00:06 DEBUG:
+
+
+21/02 18:00:06 DEBUG:
+Columns = 233
+
+21/02 18:00:06 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 18:00:06 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 18:00:07 DEBUG:
+Testing placements for Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Spirochaetaceae; Treponema; Treponema primitia:
+
+21/02 18:00:07 DEBUG:
+	3 query sequences.
+
+21/02 18:00:07 DEBUG:
+	83 sequences pruned from tree.
+
+21/02 18:00:07 DEBUG:
+	329 leaves in pruned tree.
+
+21/02 18:00:07 DEBUG:
+Building HMM profile... 
+21/02 18:00:08 DEBUG:
+done.
+
+21/02 18:00:08 DEBUG:
+
+
+21/02 18:00:09 DEBUG:
+Columns = 233
+
+21/02 18:00:09 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 18:00:09 DEBUG:
+Read 332 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 18:00:09 DEBUG:
+Testing placements for Bacteria; Spirochaetes; Spirochaetia; Spirochaetales; Spirochaetaceae; Treponema; Treponema saccharophilum:
+
+21/02 18:00:09 DEBUG:
+	2 query sequences.
+
+21/02 18:00:09 DEBUG:
+	83 sequences pruned from tree.
+
+21/02 18:00:10 DEBUG:
+	329 leaves in pruned tree.
+
+21/02 18:00:10 DEBUG:
+Building HMM profile... 
+21/02 18:00:11 DEBUG:
+done.
+
+21/02 18:00:11 DEBUG:
+
+
+21/02 18:00:11 DEBUG:
+Columns = 233
+
+21/02 18:00:11 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 18:00:11 DEBUG:
+Read 331 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 18:00:12 DEBUG:
+RANK: Species
+	Samples = 222
+	Median = 0.1506
+	Mean = 0.2009
+
+21/02 18:00:12 DEBUG:
+10 lineages truncated before Class were removed during lineage trimming.
+5 lineages unclassified at or before Class also removed.
+
+21/02 18:00:12 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanobacteria:
+
+21/02 18:00:12 DEBUG:
+	16 query sequences.
+
+21/02 18:00:12 DEBUG:
+	29 sequences pruned from tree.
+
+21/02 18:00:13 DEBUG:
+	383 leaves in pruned tree.
+
+21/02 18:00:13 DEBUG:
+Building HMM profile... 
+21/02 18:00:13 DEBUG:
+done.
+
+21/02 18:00:13 DEBUG:
+
+
+21/02 18:00:14 DEBUG:
+Columns = 225
+
+21/02 18:00:14 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 18:00:14 DEBUG:
+Read 399 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 18:00:15 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanococci:
+
+21/02 18:00:15 DEBUG:
+	30 query sequences.
+
+21/02 18:00:15 DEBUG:
+	30 sequences pruned from tree.
+
+21/02 18:00:15 DEBUG:
+	382 leaves in pruned tree.
+
+21/02 18:00:15 DEBUG:
+Building HMM profile... 
+21/02 18:00:16 DEBUG:
+done.
+
+21/02 18:00:16 DEBUG:
+
+
+21/02 18:00:17 DEBUG:
+Columns = 225
+
+21/02 18:00:17 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 18:00:17 DEBUG:
+Read 412 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 18:00:17 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanomicrobia:
+
+21/02 18:00:17 DEBUG:
+	30 query sequences.
+
+21/02 18:00:17 DEBUG:
+	44 sequences pruned from tree.
+
+21/02 18:00:18 DEBUG:
+	368 leaves in pruned tree.
+
+21/02 18:00:18 DEBUG:
+Building HMM profile... 
+21/02 18:00:19 DEBUG:
+done.
+
+21/02 18:00:19 DEBUG:
+
+
+21/02 18:00:19 DEBUG:
+Columns = 232
+
+21/02 18:00:19 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 18:00:19 DEBUG:
+Read 398 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 18:00:21 DEBUG:
+Testing placements for Archaea; Euryarchaeota; Methanopyri:
+
+21/02 18:00:21 DEBUG:
+	1 query sequences.
+
+21/02 18:00:21 DEBUG:
+	16 sequences pruned from tree.
+
+21/02 18:00:22 DEBUG:
+	396 leaves in pruned tree.
+
+21/02 18:00:22 DEBUG:
+Building HMM profile... 
+21/02 18:00:22 DEBUG:
+done.
+
+21/02 18:00:22 DEBUG:
+
+
+21/02 18:00:23 DEBUG:
+Columns = 225
+
+21/02 18:00:23 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 18:00:23 DEBUG:
+Read 397 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 18:00:24 DEBUG:
+Testing placements for Bacteria; Acidobacteria; Blastocatellia:
+
+21/02 18:00:24 DEBUG:
+	2 query sequences.
+
+21/02 18:00:24 DEBUG:
+	17 sequences pruned from tree.
+
+21/02 18:00:24 DEBUG:
+	395 leaves in pruned tree.
+
+21/02 18:00:24 DEBUG:
+Building HMM profile... 
+21/02 18:00:25 DEBUG:
+done.
+
+21/02 18:00:25 DEBUG:
+
+
+21/02 18:00:26 DEBUG:
+Columns = 225
+
+21/02 18:00:26 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 18:00:26 DEBUG:
+Read 397 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 18:00:27 DEBUG:
+Testing placements for Bacteria; Acidobacteria; Holophagae:
+
+21/02 18:00:27 DEBUG:
+	1 query sequences.
+
+21/02 18:00:27 DEBUG:
+	16 sequences pruned from tree.
+
+21/02 18:00:27 DEBUG:
+	396 leaves in pruned tree.
+
+21/02 18:00:27 DEBUG:
+Building HMM profile... 
+21/02 18:00:28 DEBUG:
+done.
+
+21/02 18:00:28 DEBUG:
+
+
+21/02 18:00:28 DEBUG:
+Columns = 225
+
+21/02 18:00:28 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 18:00:28 DEBUG:
+Read 397 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 18:00:29 DEBUG:
+Testing placements for Bacteria; Actinobacteria; Actinobacteria:
+
+21/02 18:00:29 DEBUG:
+	30 query sequences.
+
+21/02 18:00:29 DEBUG:
+	17 sequences pruned from tree.
+
+21/02 18:00:30 DEBUG:
+	395 leaves in pruned tree.
+
+21/02 18:00:30 DEBUG:
+Building HMM profile... 
+21/02 18:00:31 DEBUG:
+done.
+
+21/02 18:00:31 DEBUG:
+
+
+21/02 18:00:31 DEBUG:
+Columns = 232
+
+21/02 18:00:31 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 18:00:31 DEBUG:
+Read 425 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 18:00:32 DEBUG:
+Testing placements for Bacteria; Actinobacteria; Coriobacteriia:
+
+21/02 18:00:32 DEBUG:
+	2 query sequences.
+
+21/02 18:00:32 DEBUG:
+	17 sequences pruned from tree.
+
+21/02 18:00:33 DEBUG:
+	395 leaves in pruned tree.
+
+21/02 18:00:33 DEBUG:
+Building HMM profile... 
+21/02 18:00:33 DEBUG:
+done.
+
+21/02 18:00:33 DEBUG:
+
+
+21/02 18:00:34 DEBUG:
+Columns = 225
+
+21/02 18:00:34 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 18:00:34 DEBUG:
+Read 397 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 18:00:35 DEBUG:
+Testing placements for Bacteria; Chloroflexi; Chloroflexia:
+
+21/02 18:00:35 DEBUG:
+	13 query sequences.
+
+21/02 18:00:35 DEBUG:
+	23 sequences pruned from tree.
+
+21/02 18:00:36 DEBUG:
+	389 leaves in pruned tree.
+
+21/02 18:00:36 DEBUG:
+Building HMM profile... 
+21/02 18:00:36 DEBUG:
+done.
+
+21/02 18:00:37 DEBUG:
+
+
+21/02 18:00:37 DEBUG:
+Columns = 225
+
+21/02 18:00:37 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 18:00:37 DEBUG:
+Read 402 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 18:00:38 DEBUG:
+Testing placements for Bacteria; Chloroflexi; Dehalococcoidia:
+
+21/02 18:00:38 DEBUG:
+	1 query sequences.
+
+21/02 18:00:38 DEBUG:
+	16 sequences pruned from tree.
+
+21/02 18:00:39 DEBUG:
+	396 leaves in pruned tree.
+
+21/02 18:00:39 DEBUG:
+Building HMM profile... 
+21/02 18:00:40 DEBUG:
+done.
+
+21/02 18:00:40 DEBUG:
+
+
+21/02 18:00:40 DEBUG:
+Columns = 225
+
+21/02 18:00:40 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 18:00:40 DEBUG:
+Read 397 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 18:00:41 DEBUG:
+Testing placements for Bacteria; Cyanobacteria; Gloeobacteria:
+
+21/02 18:00:41 DEBUG:
+	1 query sequences.
+
+21/02 18:00:41 DEBUG:
+	16 sequences pruned from tree.
+
+21/02 18:00:42 DEBUG:
+	396 leaves in pruned tree.
+
+21/02 18:00:42 DEBUG:
+Building HMM profile... 
+21/02 18:00:43 DEBUG:
+done.
+
+21/02 18:00:43 DEBUG:
+
+
+21/02 18:00:43 DEBUG:
+Columns = 225
+
+21/02 18:00:43 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 18:00:43 DEBUG:
+Read 397 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 18:00:44 DEBUG:
+Testing placements for Bacteria; Cyanobacteria; Nostocales:
+
+21/02 18:00:44 DEBUG:
+	29 query sequences.
+
+21/02 18:00:44 DEBUG:
+	20 sequences pruned from tree.
+
+21/02 18:00:45 DEBUG:
+	392 leaves in pruned tree.
+
+21/02 18:00:45 DEBUG:
+Building HMM profile... 
+21/02 18:00:45 DEBUG:
+done.
+
+21/02 18:00:46 DEBUG:
+
+
+21/02 18:00:46 DEBUG:
+Columns = 229
+
+21/02 18:00:46 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 18:00:46 DEBUG:
+Read 421 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 18:00:47 DEBUG:
+Testing placements for Bacteria; Cyanobacteria; Oscillatoriophycideae:
+
+21/02 18:00:47 DEBUG:
+	24 query sequences.
+
+21/02 18:00:47 DEBUG:
+	21 sequences pruned from tree.
+
+21/02 18:00:47 DEBUG:
+	391 leaves in pruned tree.
+
+21/02 18:00:47 DEBUG:
+Building HMM profile... 
+21/02 18:00:48 DEBUG:
+done.
+
+21/02 18:00:48 DEBUG:
+
+
+21/02 18:00:49 DEBUG:
+Columns = 227
+
+21/02 18:00:49 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 18:00:49 DEBUG:
+Read 415 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 18:00:49 DEBUG:
+Testing placements for Bacteria; Cyanobacteria; Synechococcales:
+
+21/02 18:00:49 DEBUG:
+	30 query sequences.
+
+21/02 18:00:49 DEBUG:
+	20 sequences pruned from tree.
+
+21/02 18:00:50 DEBUG:
+	392 leaves in pruned tree.
+
+21/02 18:00:50 DEBUG:
+Building HMM profile... 
+21/02 18:00:51 DEBUG:
+done.
+
+21/02 18:00:51 DEBUG:
+
+
+21/02 18:00:51 DEBUG:
+Columns = 227
+
+21/02 18:00:51 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 18:00:51 DEBUG:
+Read 422 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 18:00:52 DEBUG:
+Testing placements for Bacteria; Firmicutes; Bacilli:
+
+21/02 18:00:52 DEBUG:
+	11 query sequences.
+
+21/02 18:00:52 DEBUG:
+	19 sequences pruned from tree.
+
+21/02 18:00:53 DEBUG:
+	393 leaves in pruned tree.
+
+21/02 18:00:53 DEBUG:
+Building HMM profile... 
+21/02 18:00:54 DEBUG:
+done.
+
+21/02 18:00:54 DEBUG:
+
+
+21/02 18:00:54 DEBUG:
+Columns = 225
+
+21/02 18:00:54 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 18:00:54 DEBUG:
+Read 404 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 18:00:55 DEBUG:
+Testing placements for Bacteria; Firmicutes; Clostridia:
+
+21/02 18:00:55 DEBUG:
+	30 query sequences.
+
+21/02 18:00:55 DEBUG:
+	105 sequences pruned from tree.
+
+21/02 18:00:56 DEBUG:
+	307 leaves in pruned tree.
+
+21/02 18:00:56 DEBUG:
+Building HMM profile... 
+21/02 18:00:56 DEBUG:
+done.
+
+21/02 18:00:57 DEBUG:
+
+
+21/02 18:00:57 DEBUG:
+Columns = 228
+
+21/02 18:00:57 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 18:00:57 DEBUG:
+Read 337 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 18:00:58 DEBUG:
+Testing placements for Bacteria; Firmicutes; Erysipelotrichia:
+
+21/02 18:00:58 DEBUG:
+	1 query sequences.
+
+21/02 18:00:58 DEBUG:
+	16 sequences pruned from tree.
+
+21/02 18:00:58 DEBUG:
+	396 leaves in pruned tree.
+
+21/02 18:00:58 DEBUG:
+Building HMM profile... 
+21/02 18:00:59 DEBUG:
+done.
+
+21/02 18:00:59 DEBUG:
+
+
+21/02 18:00:59 DEBUG:
+Columns = 225
+
+21/02 18:00:59 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 18:00:59 DEBUG:
+Read 397 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 18:01:00 DEBUG:
+Testing placements for Bacteria; Firmicutes; Negativicutes:
+
+21/02 18:01:00 DEBUG:
+	30 query sequences.
+
+21/02 18:01:00 DEBUG:
+	38 sequences pruned from tree.
+
+21/02 18:01:01 DEBUG:
+	374 leaves in pruned tree.
+
+21/02 18:01:01 DEBUG:
+Building HMM profile... 
+21/02 18:01:02 DEBUG:
+done.
+
+21/02 18:01:02 DEBUG:
+
+
+21/02 18:01:02 DEBUG:
+Columns = 224
+
+21/02 18:01:02 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 18:01:02 DEBUG:
+Read 404 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 18:01:05 DEBUG:
+Testing placements for Bacteria; Firmicutes; Tissierellia:
+
+21/02 18:01:05 DEBUG:
+	1 query sequences.
+
+21/02 18:01:05 DEBUG:
+	16 sequences pruned from tree.
+
+21/02 18:01:05 DEBUG:
+	396 leaves in pruned tree.
+
+21/02 18:01:05 DEBUG:
+Building HMM profile... 
+21/02 18:01:06 DEBUG:
+done.
+
+21/02 18:01:06 DEBUG:
+
+
+21/02 18:01:06 DEBUG:
+Columns = 225
+
+21/02 18:01:06 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 18:01:06 DEBUG:
+Read 397 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 18:01:07 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Acidithiobacillia:
+
+21/02 18:01:07 DEBUG:
+	2 query sequences.
+
+21/02 18:01:07 DEBUG:
+	17 sequences pruned from tree.
+
+21/02 18:01:08 DEBUG:
+	395 leaves in pruned tree.
+
+21/02 18:01:08 DEBUG:
+Building HMM profile... 
+21/02 18:01:09 DEBUG:
+done.
+
+21/02 18:01:09 DEBUG:
+
+
+21/02 18:01:09 DEBUG:
+Columns = 225
+
+21/02 18:01:09 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 18:01:09 DEBUG:
+Read 397 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 18:01:10 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Alphaproteobacteria:
+
+21/02 18:01:10 DEBUG:
+	30 query sequences.
+
+21/02 18:01:10 DEBUG:
+	83 sequences pruned from tree.
+
+21/02 18:01:11 DEBUG:
+	329 leaves in pruned tree.
+
+21/02 18:01:11 DEBUG:
+Building HMM profile... 
+21/02 18:01:11 DEBUG:
+done.
+
+21/02 18:01:12 DEBUG:
+
+
+21/02 18:01:12 DEBUG:
+Columns = 229
+
+21/02 18:01:12 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 18:01:12 DEBUG:
+Read 359 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 18:01:13 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Betaproteobacteria:
+
+21/02 18:01:13 DEBUG:
+	30 query sequences.
+
+21/02 18:01:13 DEBUG:
+	26 sequences pruned from tree.
+
+21/02 18:01:13 DEBUG:
+	386 leaves in pruned tree.
+
+21/02 18:01:13 DEBUG:
+Building HMM profile... 
+21/02 18:01:14 DEBUG:
+done.
+
+21/02 18:01:14 DEBUG:
+
+
+21/02 18:01:15 DEBUG:
+Columns = 227
+
+21/02 18:01:15 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 18:01:15 DEBUG:
+Read 416 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 18:01:15 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Deltaproteobacteria:
+
+21/02 18:01:15 DEBUG:
+	30 query sequences.
+
+21/02 18:01:15 DEBUG:
+	46 sequences pruned from tree.
+
+21/02 18:01:16 DEBUG:
+	366 leaves in pruned tree.
+
+21/02 18:01:16 DEBUG:
+Building HMM profile... 
+21/02 18:01:17 DEBUG:
+done.
+
+21/02 18:01:17 DEBUG:
+
+
+21/02 18:01:17 DEBUG:
+Columns = 226
+
+21/02 18:01:17 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 18:01:17 DEBUG:
+Read 396 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 18:01:18 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Epsilonproteobacteria:
+
+21/02 18:01:18 DEBUG:
+	5 query sequences.
+
+21/02 18:01:18 DEBUG:
+	18 sequences pruned from tree.
+
+21/02 18:01:19 DEBUG:
+	394 leaves in pruned tree.
+
+21/02 18:01:19 DEBUG:
+Building HMM profile... 
+21/02 18:01:20 DEBUG:
+done.
+
+21/02 18:01:20 DEBUG:
+
+
+21/02 18:01:20 DEBUG:
+Columns = 225
+
+21/02 18:01:20 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 18:01:20 DEBUG:
+Read 399 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 18:01:21 DEBUG:
+Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria:
+
+21/02 18:01:21 DEBUG:
+	30 query sequences.
+
+21/02 18:01:21 DEBUG:
+	38 sequences pruned from tree.
+
+21/02 18:01:22 DEBUG:
+	374 leaves in pruned tree.
+
+21/02 18:01:22 DEBUG:
+Building HMM profile... 
+21/02 18:01:22 DEBUG:
+done.
+
+21/02 18:01:23 DEBUG:
+
+
+21/02 18:01:23 DEBUG:
+Columns = 229
+
+21/02 18:01:23 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 18:01:23 DEBUG:
+Read 404 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 18:01:24 DEBUG:
+Testing placements for Bacteria; Verrucomicrobia; Methylacidiphilae:
+
+21/02 18:01:24 DEBUG:
+	2 query sequences.
+
+21/02 18:01:24 DEBUG:
+	16 sequences pruned from tree.
+
+21/02 18:01:24 DEBUG:
+	396 leaves in pruned tree.
+
+21/02 18:01:24 DEBUG:
+Building HMM profile... 
+21/02 18:01:25 DEBUG:
+done.
+
+21/02 18:01:25 DEBUG:
+
+
+21/02 18:01:26 DEBUG:
+Columns = 225
+
+21/02 18:01:26 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 18:01:26 DEBUG:
+Read 398 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 18:01:27 DEBUG:
+Testing placements for Bacteria; Verrucomicrobia; Opitutae:
+
+21/02 18:01:27 DEBUG:
+	4 query sequences.
+
+21/02 18:01:27 DEBUG:
+	18 sequences pruned from tree.
+
+21/02 18:01:27 DEBUG:
+	394 leaves in pruned tree.
+
+21/02 18:01:27 DEBUG:
+Building HMM profile... 
+21/02 18:01:28 DEBUG:
+done.
+
+21/02 18:01:28 DEBUG:
+
+
+21/02 18:01:28 DEBUG:
+Columns = 225
+
+21/02 18:01:28 DEBUG:
+Number of sequences discarded: 
+		Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+
+21/02 18:01:28 DEBUG:
+Read 398 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+
+21/02 18:01:29 DEBUG:
+RANK: Class
+	Samples = 406
+	Median = 0.231
+	Mean = 0.4287
+
+21/02 18:01:29 INFO:
+Placement distance regression model complete.
+
+21/02 18:01:29 DEBUG:
+Read 412 headers from Nitrogen_metabolism/Fixation/NifH/seed_refpkg/final_outputs/NifH.fa.
+
+21/02 18:01:29 INFO:
+
+To integrate this package for use in TreeSAPP the following steps must be performed:
+1. Write a properly formatted reference package 'code' in /home/cmorganlang/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp/data/ref_build_parameters.tsv
+2. $ cp Nitrogen_metabolism/Fixation/NifH/seed_refpkg/final_outputs/tax_ids_NifH.txt Nitrogen_metabolism/Fixation/NifH/seed_refpkg/final_outputs/NifH_tree.txt Nitrogen_metabolism/Fixation/NifH/seed_refpkg/final_outputs/NifH_bestModel.txt /home/cmorganlang/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp/data/tree_data/
+3. $ cp Nitrogen_metabolism/Fixation/NifH/seed_refpkg/final_outputs/NifH.hmmNitrogen_metabolism/Fixation/NifH/seed_refpkg/final_outputs/NifH_search.hmm /home/cmorganlang/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp/data/hmm_data/
+4. $ cp Nitrogen_metabolism/Fixation/NifH/seed_refpkg/final_outputs/NifH.fa /home/cmorganlang/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp/data/alignment_data/
+
+21/02 18:01:29 INFO:
+Data for NifH has been generated successfully.
+
+21/02 18:01:29 INFO:
+TreeSAPP has finished successfully.
+

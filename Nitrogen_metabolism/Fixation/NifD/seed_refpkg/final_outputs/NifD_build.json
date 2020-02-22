@@ -1,0 +1,1 @@
+{"RefPkg": {"name": "NifD", "code": "Z1111", "molecule": "prot", "sequences": 1041, "model": "PROTGAMMALG", "lowest_confident_rank": "Orders", "kind": "functional", "tree-tool": "FastTree", "regression-parameters": ["-6.3311", "7.0"], "cluster-similarity": "0.85", "description": ""}}

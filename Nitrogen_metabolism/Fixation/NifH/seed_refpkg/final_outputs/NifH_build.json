@@ -1,0 +1,1 @@
+{"RefPkg": {"name": "NifH", "code": "Z1111", "molecule": "prot", "sequences": 412, "model": "PROTGAMMALG", "lowest_confident_rank": "Phyla", "kind": "functional", "tree-tool": "FastTree", "regression-parameters": ["-9.6338", "7.0"], "cluster-similarity": "0.90", "description": ""}}
