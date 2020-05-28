@@ -1,18 +1,24 @@
-13/02 15:17:45 INFO:
+27/05 17:44:39 INFO:
 
 ##			Creating TreeSAPP reference package			##
 
-13/02 15:17:45 INFO:
+27/05 17:44:39 INFO:
 Arguments used:
--i Photosynthesis/PuhA/ENOG4111FIN_PF03967_seed.faa -o Photosynthesis/PuhA/seed_refpkg -c PuhA -p 0.97 --trim_align --overwrite -n 2 -b 0 --fast --screen Bacteria,Archaea --headless -t c -m prot --cluster
+-i Photosynthesis/PuhA/ENOG4111FIN_PF03967_seed.faa -o Photosynthesis/PuhA/seed_refpkg -c PuhA -p 0.97 --trim_align --overwrite -n 4 -b 0 --fast --screen Bacteria,Archaea --headless -t c -m prot --cluster --delete
 
-13/02 15:17:45 DEBUG:
+27/05 17:44:39 DEBUG:
 Continuing with stage 'lineages'
 
-13/02 15:17:45 DEBUG:
+27/05 17:44:39 DEBUG:
+Photosynthesis/PuhA/ENOG4111FIN_PF03967_seed.faa read by pyfastx in 0.002256155014038086 seconds.
+
+27/05 17:44:39 DEBUG:
 Read 68 headers from Photosynthesis/PuhA/ENOG4111FIN_PF03967_seed.faa.
 
-13/02 15:17:45 INFO:
+27/05 17:44:40 DEBUG:
+Identified and replaced invalid ambiguity characters in 0 sequences.
+
+27/05 17:44:40 INFO:
 Sequence summary:
 	Number of sequences: 68
 	Longest sequence length: 278
@@ -20,107 +26,143 @@ Sequence summary:
 	Mean sequence length: 254.0
 	Median sequence length: 257.0
 
-13/02 15:17:45 INFO:
+27/05 17:44:40 INFO:
 Extracting information from headers... 
-13/02 15:17:45 INFO:
+27/05 17:44:40 INFO:
 done.
 
-13/02 15:17:45 DEBUG:
+27/05 17:44:40 DEBUG:
 	Number of input sequences =	68
 
-13/02 15:17:45 DEBUG:
+27/05 17:44:40 DEBUG:
 	Number of queries =	68
 
-13/02 15:17:45 INFO:
+27/05 17:44:40 INFO:
 Preparing Bio.Entrez for NCBI queries... 
-13/02 15:17:46 INFO:
+27/05 17:44:40 INFO:
 done.
 
-13/02 15:17:46 INFO:
+27/05 17:44:40 INFO:
 Retrieving Entrez taxonomy records for each accession... 
-13/02 15:17:51 DEBUG:
+27/05 17:44:43 DEBUG:
 Entrez query time for accessions (minutes:seconds):
-	0 - 100	0.0:5.59
+	0 - 100	0.0:2.79
 
-13/02 15:17:51 INFO:
+27/05 17:44:43 INFO:
 done.
 
-13/02 15:17:51 DEBUG:
-3 unique organism queries.
+27/05 17:44:43 DEBUG:
+21 unique organism queries.
 
-13/02 15:17:51 INFO:
+27/05 17:44:43 INFO:
 Retrieving NCBI taxonomy IDs for each organism... 
-13/02 15:17:53 DEBUG:
+27/05 17:44:57 DEBUG:
 Entrez query time for accessions (minutes:seconds):
 	0 - 1	0.0:0.66
 	1 - 2	0.0:0.66
 	2 - 3	0.0:0.66
+	3 - 4	0.0:0.66
+	4 - 5	0.0:0.66
+	5 - 6	0.0:0.66
+	6 - 7	0.0:0.66
+	7 - 8	0.0:0.66
+	8 - 9	0.0:0.66
+	9 - 10	0.0:0.66
+	10 - 11	0.0:0.66
+	11 - 12	0.0:0.66
+	12 - 13	0.0:0.66
+	13 - 14	0.0:0.66
+	14 - 15	0.0:0.66
+	15 - 16	0.0:0.66
+	16 - 17	0.0:0.66
+	17 - 18	0.0:0.66
+	18 - 19	0.0:0.66
+	19 - 20	0.0:0.66
+	20 - 21	0.0:0.66
 
-13/02 15:17:53 INFO:
+27/05 17:44:57 INFO:
 done.
 
-13/02 15:17:53 INFO:
+27/05 17:44:57 INFO:
 Preparing Bio.Entrez for NCBI queries... 
-13/02 15:17:54 INFO:
+27/05 17:44:57 INFO:
 done.
 
-13/02 15:17:54 INFO:
+27/05 17:44:57 INFO:
 Retrieving lineage information for each taxonomy ID... 
-13/02 15:17:54 DEBUG:
+27/05 17:44:58 DEBUG:
 Entrez query time for accessions (minutes:seconds):
-	0 - 100	0.0:0.73
+	0 - 100	0.0:0.8
 
-13/02 15:17:54 INFO:
+27/05 17:44:58 INFO:
 done.
 
-13/02 15:17:54 DEBUG:
-Queries mapped ideally = 49
+27/05 17:44:58 DEBUG:
+Queries mapped ideally = 68
 Queries with organism unmapped = 0
-Queries with NCBI taxonomy ID unmapped = 19
+Queries with NCBI taxonomy ID unmapped = 0
 Queries mapped with alternative accessions = 0
 Queries that outright failed = 0
 
-13/02 15:17:54 WARNING:
-Entrez did not return a record for every accession queried.
-Don't worry, though. We'll figure out which ones are missing.
-
-13/02 15:17:54 DEBUG:
+27/05 17:44:58 DEBUG:
 Entrez.efetch query stats:
-	Downloaded	67
+	Downloaded	68
 	Provided	0
 	Total		68
 
 
-13/02 15:17:54 DEBUG:
+27/05 17:44:58 DEBUG:
+Switching multifurcating trie to include rank prefixes.
+
+27/05 17:44:58 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; s__Rhodobacteraceae bacterium HTCC2083' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae'.
+
+27/05 17:44:58 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Cellvibrionales; f__Halieaceae; s__marine gamma proteobacterium HTCC2080' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Cellvibrionales; f__Halieaceae'.
+
+27/05 17:44:58 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; g__Rubrivivax; s__Rubrivivax benzoatilyticus' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales'.
+
+27/05 17:44:58 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; g__Rubrivivax; s__Rubrivivax gelatinosus' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales'.
+
+27/05 17:44:58 WARNING:
+No lineages from the accession map were added to the EntrezRecord attributes.
+
+27/05 17:44:58 DEBUG:
 	0 sequences removed after failing screen.
 	0 sequences removed after failing filter.
 	68 sequences retained.
 
-13/02 15:17:54 DEBUG:
+27/05 17:44:58 DEBUG:
 	0 sequences removed with truncated taxonomic lineages.
 	68 sequences retained for building tree.
 
-13/02 15:17:54 INFO:
+27/05 17:44:58 INFO:
 Clustering sequences with UCLUST... 
-13/02 15:17:54 INFO:
+27/05 17:44:58 INFO:
 done.
 
-13/02 15:17:54 DEBUG:
-usearch v9.2.64_i86linux32, 4.0Gb RAM (8.1Gb total), 4 cores
-(C) Copyright 2013-16 Robert C. Edgar, all rights reserved.
-http://drive5.com/usearch
+27/05 17:44:58 DEBUG:
+usearch v11.0.667_i86linux32, 4.0Gb RAM (32.9Gb total), 4 cores
+(C) Copyright 2013-18 Robert C. Edgar, all rights reserved.
+https://drive5.com/usearch
 
 License: c.morganlang@gmail.com
 
-00:00 37Mb      0.1% Reading Photosynthesis/PuhA/seed_refpkg/intermediates/ENOG4111FIN_PF03967_seed_uclust_input.fasta00:00 40Mb    100.0% Reading Photosynthesis/PuhA/seed_refpkg/intermediates/ENOG4111FIN_PF03967_seed_uclust_input.fasta
-00:00 34Mb      4.8% DF                                                                                               00:00 35Mb    100.0% DF
+00:00 37Mb      0.1% Reading /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/ENOG4111FIN_PF03967_seed_uclust_input.fasta00:00 41Mb    100.0% Reading /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/ENOG4111FIN_PF03967_seed_uclust_input.fasta
+00:00 36Mb      4.8% DF                                                                                                                                                   00:00 35Mb    100.0% DF
 00:00 35Mb   68 seqs, 50 uniques, 33 singletons (66.0%)
 00:00 35Mb   Min size 1, median 1, max 3, avg 1.36
-00:00 38Mb      2.0% DB00:00 38Mb    100.0% DB
-00:00 38Mb   Sort length... done.
-00:00 77Mb      2.0% Clustering00:00 77Mb      2.0% 0 clusters, max size 0, avg 0.000:00 89Mb    100.0% 49 clusters, max size 3, avg 1.4
-00:00 89Mb      2.0% Writing centroids to Photosynthesis/PuhA/seed_refpkg/intermediates/ENOG4111FIN_PF03967_seed_uclust0.97.fa00:00 89Mb    100.0% Writing centroids to Photosynthesis/PuhA/seed_refpkg/intermediates/ENOG4111FIN_PF03967_seed_uclust0.97.fa
-                                                                                                                              
+00:00 39Mb      2.0% DB00:00 39Mb    100.0% DB
+00:00 39Mb   Sort length... done.
+00:00 78Mb      2.0% Clustering00:00 78Mb      2.0% 0 clusters, max size 0, avg 0.000:00 89Mb    100.0% 49 clusters, max size 3, avg 1.4
+00:00 89Mb      2.0% Writing centroids to /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/ENOG4111FIN_PF03967_seed_uclust0.97.fa00:00 89Mb    100.0% Writing centroids to /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/ENOG4111FIN_PF03967_seed_uclust0.97.fa
+                                                                                                                                                                                  
       Seqs  50
   Clusters  49
   Max size  3
@@ -132,715 +174,1864 @@ Singletons  32, 64.0% of seqs, 65.3% of clusters
 Throughput  50.0 seqs/sec.
 
 
-13/02 15:17:54 DEBUG:
+27/05 17:44:58 DEBUG:
 Reading usearch cluster file... 
-13/02 15:17:54 DEBUG:
+27/05 17:44:58 DEBUG:
 done.
 
-13/02 15:17:54 DEBUG:
+27/05 17:44:58 DEBUG:
 	49 sequence clusters
 
-13/02 15:17:54 DEBUG:
+27/05 17:44:58 DEBUG:
 Finalizing representative sequence clusters... 
-13/02 15:17:54 DEBUG:
+27/05 17:44:58 DEBUG:
 done.
 
-13/02 15:17:54 DEBUG:
+27/05 17:44:58 DEBUG:
 Re-enumerating the reference sequences in taxonomic order... 
-13/02 15:17:54 DEBUG:
+27/05 17:44:58 DEBUG:
 done.
 
-13/02 15:17:54 INFO:
+27/05 17:44:58 INFO:
 Detecting outlier reference sequences... 
-13/02 15:17:56 INFO:
+27/05 17:44:59 INFO:
 done.
 
-13/02 15:17:56 DEBUG:
+27/05 17:44:59 DEBUG:
 1 outlier sequences detected and discarded.
-	565045.NOR51B
+	565045.NOR51B_516
 
-13/02 15:17:56 DEBUG:
+27/05 17:44:59 DEBUG:
 Re-enumerating the reference sequences in taxonomic order... 
-13/02 15:17:56 DEBUG:
+27/05 17:44:59 DEBUG:
 done.
 
-13/02 15:17:56 INFO:
-Generated the taxonomic lineage map Photosynthesis/PuhA/seed_refpkg/final_outputs/tax_ids_PuhA.txt
+27/05 17:44:59 DEBUG:
+68 references before and 48 remaining after filtering.
 
-13/02 15:17:56 INFO:
+27/05 17:44:59 DEBUG:
+Removing 20 taxa (19 unique) from taxonomic hierarchy.
+
+27/05 17:44:59 DEBUG:
+Taxon name 's__Rhodospirillum rubrum ATCC 11170' not present in taxonomic hierarchy.
+
+27/05 17:44:59 DEBUG:
+Taxon name 'g__unclassified Methylobacterium' not present in taxonomic hierarchy.
+
+27/05 17:44:59 DEBUG:
+Taxon name 's__Methylorubrum extorquens AM1' not present in taxonomic hierarchy.
+
+27/05 17:44:59 DEBUG:
+Taxon name 's__Rhodopseudomonas palustris CGA009' not present in taxonomic hierarchy.
+
+27/05 17:44:59 DEBUG:
+Taxon name 's__Luminiphilus syltensis NOR5-1B' not present in taxonomic hierarchy.
+
+27/05 17:44:59 DEBUG:
+Taxon name 's__Rhodospirillum rubrum ATCC 11170' not present in taxonomic hierarchy.
+
+27/05 17:44:59 DEBUG:
+Taxon name 's__Rhodobacter capsulatus SB 1003' not present in taxonomic hierarchy.
+
+27/05 17:44:59 DEBUG:
+Taxon name 's__Methylorubrum extorquens PA1' not present in taxonomic hierarchy.
+
+27/05 17:44:59 INFO:
 Number of unique lineages:
-	Kingdoms   1
-	Phyla      1
-	Classes    3
-	Orders     9
-	Families  15
-	Genera    31
-	Species   35
-Unclassified lineages account for 15/48 (31.2%) references.
+	domain     1
+	phylum     1
+	class      3
+	order      9
+	family    14
+	genus     29
+	species   40
+Unclassified and incomplete lineages account for 4/48 (8.3%) references.
 
-13/02 15:17:56 INFO:
+27/05 17:44:59 INFO:
 Aligning the sequences using MAFFT... 
-13/02 15:17:57 INFO:
+27/05 17:44:59 INFO:
 done.
 
-13/02 15:17:57 DEBUG:
-Reference alignment contains 48 sequences with 303 character positions.
+27/05 17:44:59 DEBUG:
+Read 48 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/final_outputs/PuhA.fa.
 
-13/02 15:17:57 DEBUG:
+27/05 17:44:59 DEBUG:
+Reference alignment contains 48 sequences with 305 character positions.
+
+27/05 17:44:59 DEBUG:
 Building HMM profile... 
-13/02 15:17:57 DEBUG:
+27/05 17:44:59 DEBUG:
 done.
 
-13/02 15:17:57 INFO:
+27/05 17:44:59 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 17:44:59 DEBUG:
+Read 48 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/final_outputs/PuhA.fa.
+
+27/05 17:44:59 DEBUG:
+4 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 17:44:59 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	4_PuhA
+	40_PuhA
+	28_PuhA
+	24_PuhA
+	15_PuhA
+	10_PuhA
+	6_PuhA
+	8_PuhA
+	13_PuhA
+	29_PuhA
+	25_PuhA
+	9_PuhA
+	37_PuhA
+	7_PuhA
+	31_PuhA
+	23_PuhA
+	35_PuhA
+
+27/05 17:45:00 DEBUG:
+Building HMM profile... 
+27/05 17:45:00 DEBUG:
+done.
+
+27/05 17:45:00 DEBUG:
+done.
+
+27/05 17:45:00 DEBUG:
+31 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 17:45:00 INFO:
 Running BMGE... 
-13/02 15:17:57 DEBUG:
+27/05 17:45:00 DEBUG:
 STAGE: Multiple alignment trimming with BMGE
 	COMMAND:
-java -Xmx512m -jar /home/connor/Bioinformatics/Hallam_projects/treesapp_venv/lib/python3.5/site-packages/treesapp/sub_binaries/BMGE.jar -t AA -m BLOSUM30 -g 0.99:0.33 -i Photosynthesis/PuhA/seed_refpkg/final_outputs/PuhA.fa -of Photosynthesis/PuhA/seed_refpkg/final_outputs/PuhA-BMGE.fasta
+java -Xmx512m -jar /home/connor/Bioinformatics/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp/sub_binaries/BMGE.jar -t AA -m BLOSUM30 -g 0.99:0.33 -i /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/final_outputs/PuhA.fa -of /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/final_outputs/PuhA-BMGE.fasta
 
-13/02 15:17:58 INFO:
+27/05 17:45:00 INFO:
 done.
 
-13/02 15:17:58 DEBUG:
-	BMGE time required: 0.0:0.0:1.07
+27/05 17:45:00 DEBUG:
+	BMGE time required: 0.0:0.0:0.23
 
-13/02 15:17:58 DEBUG:
+27/05 17:45:00 DEBUG:
 Number of sequences discarded: 
-		Photosynthesis/PuhA/seed_refpkg/final_outputs/PuhA-BMGE.fasta = 0 (retained)
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/final_outputs/PuhA-BMGE.fasta = 0 (retained)
 
-13/02 15:17:58 INFO:
+27/05 17:45:00 INFO:
 Building phylogenetic tree with FastTree... 
-13/02 15:18:00 INFO:
+27/05 17:45:01 INFO:
 done.
 
-13/02 15:18:00 DEBUG:
+27/05 17:45:01 DEBUG:
 FastTree Version 2.1.10 Double precision (No SSE3)
-Alignment: Photosynthesis/PuhA/seed_refpkg/intermediates/PuhA.phy
+Alignment: /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/PuhA.phy
 Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
 Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
 TopHits: 1.00*sqrtN close=default refresh=0.80
-ML Model: Le-Gascuel 2008, CAT approximation with 20 rate categories
-Initial topology in 0.02 seconds
+ML Model: Le-Gascuel 2008, CAT approximation with 4 rate categories
+Initial topology in 0.01 seconds
 Refining topology: 22 rounds ME-NNIs, 2 rounds ME-SPRs, 11 rounds ML-NNIs
-      0.11 seconds: ME NNI round 8 of 22, 1 of 46 splits
-Total branch-length 11.396 after 0.20 sec
-      0.28 seconds: ML NNI round 1 of 11, 1 of 46 splits
-ML-NNI round 1: LogLk = -13068.759 NNIs 4 max delta 8.71 Time 0.58
-      0.59 seconds: Site likelihoods with rate category 1 of 20
-      0.69 seconds: Site likelihoods with rate category 14 of 20
-Switched to using 20 rate categories (CAT approximation)
-Rate categories were divided by 1.004 so that average rate = 1.0
+      0.14 seconds: ME NNI round 15 of 22, 1 of 46 splits
+Total branch-length 11.376 after 0.15 sec
+ML-NNI round 1: LogLk = -13072.572 NNIs 4 max delta 4.71 Time 0.45
+      0.46 seconds: Site likelihoods with rate category 1 of 4
+Switched to using 4 rate categories (CAT approximation)
+Rate categories were divided by 0.995 so that average rate = 1.0
 CAT-based log-likelihoods may not be comparable across runs
-Use -gamma for approximate but comparable Gamma(20) log-likelihoods
-ML-NNI round 2: LogLk = -12241.156 NNIs 1 max delta 4.65 Time 0.95
-      0.95 seconds: ML NNI round 3 of 11, 1 of 46 splits
-ML-NNI round 3: LogLk = -12240.987 NNIs 0 max delta 0.00 Time 1.05
+ML-NNI round 2: LogLk = -12368.129 NNIs 3 max delta 3.08 Time 0.60
+      0.60 seconds: ML NNI round 3 of 11, 1 of 46 splits
+ML-NNI round 3: LogLk = -12367.207 NNIs 0 max delta 0.00 Time 0.67
 Turning off heuristics for final round of ML NNIs (converged)
-      1.05 seconds: ML NNI round 4 of 11, 1 of 46 splits
-ML-NNI round 4: LogLk = -12234.348 NNIs 1 max delta 2.15 Time 1.47 (final)
-      1.47 seconds: ML Lengths 1 of 46 splits
-Optimize all lengths: LogLk = -12234.072 Time 1.58
-Total time: 1.89 seconds Unique: 48/48 Bad splits: 0/45
+ML-NNI round 4: LogLk = -12357.359 NNIs 2 max delta 2.47 Time 0.92 (final)
+      0.91 seconds: ML Lengths 1 of 46 splits
+Optimize all lengths: LogLk = -12357.122 Time 0.98
+      1.16 seconds: Site likelihoods with rate category 1 of 4
+Gamma(4) LogLk = -12561.103 alpha = 1.232 rescaling lengths by 1.158
+Total time: 1.19 seconds Unique: 48/48 Bad splits: 0/45
 
 
-13/02 15:18:00 DEBUG:
+27/05 17:45:01 DEBUG:
 Evaluating phylogenetic tree with RAxML-NG... 
-13/02 15:18:00 DEBUG:
+27/05 17:45:01 DEBUG:
 done.
 
-13/02 15:18:00 DEBUG:
-Unable to remove /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/phylogeny_files/PuhA.raxml.reduced.phy as it doesn't exist.
-
-13/02 15:18:00 DEBUG:
-Lowest reliable rank for taxonomic classification is: Orders
-
-13/02 15:18:00 INFO:
+27/05 17:45:01 INFO:
 
 ##			Train taxonomic rank-placement distance model			##
 
-13/02 15:18:00 INFO:
+27/05 17:45:01 INFO:
 Arguments used:
--i Photosynthesis/PuhA/seed_refpkg/intermediates/ENOG4111FIN_PF03967_seed_filtered.fa -c PuhA -p Photosynthesis/PuhA/seed_refpkg/final_outputs/ -o Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/ -m prot -a Photosynthesis/PuhA/seed_refpkg/intermediates//accession_id_lineage_map.tsv -n 2 --trim_align
+-i /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/ENOG4111FIN_PF03967_seed_filtered.fa -r /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/final_outputs/PuhA_build.json -o /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/ -m prot -a /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates//accession_id_lineage_map.tsv -n 4 --trim_align
 
-13/02 15:18:00 DEBUG:
-Reading build parameters of reference markers... 
-13/02 15:18:00 DEBUG:
-done.
-
-13/02 15:18:00 DEBUG:
-Skipped the following lines:
-	#hzs
-	#hzao
-	#nirA
-	#MtrA
-	#MtrC
-	#MtrH
-	#CO_dh
-	#RBsCO
-	#OGFOxy
-	#CitSyn
-	#GH36
-	#GH31
-	#GH109
-	#GH115
-	#nirK	D0301	prot	PROTGAMMALG	functional	0.97	120	RAxML	-11.3207,6.9484	Orders	07_Dec_2018	nitrite reductase (NO-forming)
-	#RecA	P0001	prot	PROTGAMMALG	taxonomic	0.80	1110	RAxML	-5.4758,6.3838	Classes	12_Dec_2018
-	#McrA	M0701	prot	PROTGAMMALG	functional	0.97	211	FastTree	-4.08046639871,6.03601100802	Classes	04_Dec_2018
-	#McrB	M0702	prot	PROTGAMMALG	functional	0.97	157	FastTree	-4.82025271473,6.52717228329	Classes	04_Dec_2018
-	#McrG	M0705	prot	PROTGAMMALG	functional	0.97	155	FastTree	-5.23147387413,6.5926235222	Genera	04_Dec_2018
-	#napA	D0201	prot	PROTGAMMALG	functional	0.90	332	FastTree	-7.03985324603,6.60314540283	Classes	04_Dec_2018
-	#nifD	N0401	prot	PROTGAMMALG	functional	0.90	402	FastTree	-7.72039669919,6.16543737552	Orders	04_Dec_2018
-	#nifH	N0402	prot	PROTGAMMALG	functional	0.95	301	FastTree	-6.48773434909,6.41218539511	Phyla	04_Dec_2018
-	#nirK	D0301	prot	PROTGAMMALG	functional	0.97	120	FastTree	-11.8842768413,6.77906128214	Orders	04_Dec_2018
-	#nirS	D0302	prot	PROTGAMMALG	functional	0.97	184	FastTree	-5.49173161577,6.23728973299	Classes	04_Dec_2018
-	#norB	D0501	prot	PROTGAMMALG	functional	0.80	329	FastTree	-7.6070183552,6.48567258868	Orders	04_Dec_2018
-	#norC	D0502	prot	PROTGAMMALG	functional	0.90	223	FastTree	-6.61551453189,6.60317398186	Classes	04_Dec_2018
-	#norC	D0502	prot	PROTGAMMALG	functional	0.90	223	RAxML	-5.3221,6.3809	Classes	08_Dec_2018	nitric oxide reductase subunit C
-	#p_amoA	N0102	prot	PROTGAMMALG	functional	0.97	80	FastTree	-2.83232814805,5.67790899421	Families	04_Dec_2018
-	#nosZ	D0601	prot	PROTGAMMALG	functional	0.95	449	FastTree	-6.1988,6.095	Phyla	13_Mar_2019
-	#McrA	M0701	prot	PROTGAMMALG	functional	0.97	228	RAxML	-5.3509,7.0	Classes	29_Apr_2019	Methyl coenzyme M reductase alpha subunit
-
-13/02 15:18:00 DEBUG:
-Read 48 headers from Photosynthesis/PuhA/seed_refpkg/final_outputs/PuhA.fa.
-
-13/02 15:18:00 DEBUG:
+27/05 17:45:01 DEBUG:
 Unable to open stage file '' for reading. Defaulting to stage 2.
 
-13/02 15:18:00 DEBUG:
+27/05 17:45:01 DEBUG:
 Continuing with stage 'place'
 
-13/02 15:18:00 DEBUG:
-Read 68 headers from Photosynthesis/PuhA/seed_refpkg/intermediates/ENOG4111FIN_PF03967_seed_filtered.fa.
+27/05 17:45:01 DEBUG:
+Read 68 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/ENOG4111FIN_PF03967_seed_filtered.fa.
 
-13/02 15:18:00 INFO:
+27/05 17:45:01 INFO:
 Extracting information from headers... 
-13/02 15:18:01 INFO:
+27/05 17:45:01 INFO:
 done.
 
-13/02 15:18:01 DEBUG:
+27/05 17:45:01 DEBUG:
 	Number of input sequences =	68
 
-13/02 15:18:01 INFO:
-Reading cached lineages in 'Photosynthesis/PuhA/seed_refpkg/intermediates//accession_id_lineage_map.tsv'... 
-13/02 15:18:01 INFO:
+27/05 17:45:01 INFO:
+Reading cached lineages in '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates//accession_id_lineage_map.tsv'... 
+27/05 17:45:01 INFO:
 done.
 
-13/02 15:18:01 DEBUG:
-Read 68 headers from Photosynthesis/PuhA/seed_refpkg/intermediates/ENOG4111FIN_PF03967_seed_filtered.fa.
+27/05 17:45:01 DEBUG:
+Read 68 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/ENOG4111FIN_PF03967_seed_filtered.fa.
 
-13/02 15:18:01 DEBUG:
+27/05 17:45:01 DEBUG:
 Checking for redundant sequences with duplicate accessions.
 
-13/02 15:18:01 DEBUG:
-Removed 1 sequences with duplicate accessions:
-	43
-
-13/02 15:18:01 DEBUG:
+27/05 17:45:01 DEBUG:
 Checking for redundant FASTA records with duplicate sequences... 
-13/02 15:18:01 DEBUG:
+27/05 17:45:01 DEBUG:
 done.
 
-13/02 15:18:01 DEBUG:
+27/05 17:45:01 DEBUG:
 Removed 18 sequences with duplicate sequences.
 
-13/02 15:18:01 DEBUG:
+27/05 17:45:01 DEBUG:
 The following sequences were excluded after synchronizing FASTA:
-	272942.RCAP_rcc00659
-	WP_011924751.1 photosynthetic reaction center subunit H [Bradyrhizobium sp. ORS 278]
-	316056.RPC_1319
-	WP_011388375.1 photosynthetic reaction center subunit H [Rhodospirillum rubrum]
-	WP_012567283.1 photosynthetic reaction center subunit H [Rhodospirillum centenum]
-	WP_012591046.1 photosynthetic reaction center subunit H [Methylocella silvestris]
-	258594.RPA1548
-	WP_012318823.1 MULTISPECIES: photosynthetic reaction center subunit H [Methylobacterium]
-	269796.Rru_A0617
-	WP_011566490.1 photosynthetic reaction center subunit H [Roseobacter denitrificans]
-	426117.M446_3724
-	290400.Jann_0155
-	WP_013270476.1 photosynthetic reaction center subunit H [Brevundimonas subvibrioides]
-	272630.MexAM1_META1p5267
-	398580.Dshi_3540
-	WP_013418670.1 photosynthetic reaction center subunit H [Rhodomicrobium vannielii]
 	WP_005221232.1 photosynthetic reaction center subunit H [Marichromatium purpuratum]
+	WP_003607116.1 photosynthetic reaction center subunit H [Methylorubrum extorquens]
+	WP_013066403.1 photosynthetic reaction center subunit H [Rhodobacter capsulatus]
+	WP_011566490.1 photosynthetic reaction center subunit H [Roseobacter denitrificans]
+	YP_425708.1 photosynthetic reaction center, H-chain [Rhodospirillum rubrum ATCC 11170]
+	WP_012591046.1 photosynthetic reaction center subunit H [Methylocella silvestris]
+	WP_012567283.1 photosynthetic reaction center subunit H [Rhodospirillum centenum]
 	WP_012971814.1 photosynthetic reaction center subunit H [Allochromatium vinosum]
+	WP_011388375.1 photosynthetic reaction center subunit H [Rhodospirillum rubrum]
+	WP_013270476.1 photosynthetic reaction center subunit H [Brevundimonas subvibrioides]
+	WP_011157107.1 photosynthetic reaction center subunit H [Rhodopseudomonas palustris]
+	WP_012318823.1 MULTISPECIES: photosynthetic reaction center subunit H [Methylobacterium]
+	WP_011471786.1 photosynthetic reaction center subunit H [Rhodopseudomonas palustris]
+	WP_012180196.1 photosynthetic reaction center subunit H [Dinoroseobacter shibae]
+	WP_013418670.1 photosynthetic reaction center subunit H [Rhodomicrobium vannielii]
+	WP_011924751.1 photosynthetic reaction center subunit H [Bradyrhizobium sp. ORS 278]
+	WP_012333503.1 MULTISPECIES: photosynthetic reaction center subunit H [unclassified Methylobacterium]
+	WP_011453281.1 photosynthetic reaction center subunit H [Jannaschia sp. CCS1]
 
-13/02 15:18:01 DEBUG:
-0 lineages truncated before Kingdom were removed during lineage trimming.
-0 lineages unclassified at or before Kingdom also removed.
-
-13/02 15:18:01 WARNING:
+27/05 17:45:01 WARNING:
 18 sequences were not mapped to FASTA dictionary.
 
-13/02 15:18:01 DEBUG:
+27/05 17:45:01 DEBUG:
 Headers that were not mapped to FASTA dictionary:
-	258594.RPA1548
-	269796.Rru
-	272630.MexAM1
-	272942.RCAP
-	290400.Jann
-	316056.RPC
-	398580.Dshi
-	426117.M446
+	WP_003607116
 	WP_005221232
+	WP_011157107
 	WP_011388375
+	WP_011453281
+	WP_011471786
 	WP_011566490
 	WP_011924751
+	WP_012180196
 	WP_012318823
+	WP_012333503
 	WP_012567283
 	WP_012591046
 	WP_012971814
+	WP_013066403
 	WP_013270476
 	WP_013418670
+	YP_425708
 
-13/02 15:18:01 DEBUG:
-2 lineages truncated before Species were removed during lineage trimming.
-13 lineages unclassified at or before Species also removed.
+27/05 17:45:01 DEBUG:
+4 lineages truncated before 'species' were removed during lineage trimming.
 
-13/02 15:18:01 DEBUG:
-23.1% of optimal  Species lineages are present in the pruned trees.
+27/05 17:45:01 DEBUG:
+43.2% of optimal  species lineages are present in the pruned trees.
 
-13/02 15:18:01 DEBUG:
-0 lineages truncated before Class were removed during lineage trimming.
-0 lineages unclassified at or before Class also removed.
+27/05 17:45:01 DEBUG:
+0 lineages truncated before 'class' were removed during lineage trimming.
 
-13/02 15:18:01 DEBUG:
-100.0% of optimal  Class lineages are present in the pruned trees.
+27/05 17:45:01 DEBUG:
+100.0% of optimal  class lineages are present in the pruned trees.
 
-13/02 15:18:01 DEBUG:
+27/05 17:45:01 DEBUG:
 Optimal placement target was not found in the pruned tree for following taxa:
-	Bacteria; Proteobacteria; Alphaproteobacteria; Caulobacterales; Caulobacteraceae; Brevundimonas
-	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Aurantimonadaceae; Fulvimarina
-	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Beijerinckiaceae; Methylocella
-	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Bradyrhizobiaceae; Rhodopseudomonas
-	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Rhodomicrobium
-	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Methylobacteriaceae; Methylobacterium
-	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Phyllobacteriaceae; Hoeflea
-	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Dinoroseobacter
-	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Labrenzia
-	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseibacterium
-	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseobacter
-	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Yoonia
-	Bacteria; Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Citromicrobium
-	Bacteria; Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Sphingomonas
-	Bacteria; Proteobacteria; Betaproteobacteria; Nitrosomonadales; Sterolibacteriaceae; Methyloversatilis
-	Bacteria; Proteobacteria; Gammaproteobacteria; Cellvibrionales; Halieaceae; Congregibacter
-	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Allochromatium
-	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Marichromatium
-	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Thioflavicoccus
-	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Ectothiorhodospiraceae; Halorhodospira
+	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Caulobacterales; f__Caulobacteraceae; g__Brevundimonas
+	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Aurantimonadaceae; g__Fulvimarina
+	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Beijerinckiaceae; g__Methylocella
+	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Rhodopseudomonas
+	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Rhodomicrobium
+	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae; g__Hoeflea
+	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Ahrensia
+	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Dinoroseobacter
+	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Jannaschia
+	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Labrenzia
+	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Roseibacterium
+	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Thalassobium
+	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Yoonia
+	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Citromicrobium
+	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas
+	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Sterolibacteriaceae; g__Methyloversatilis
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Cellvibrionales; f__Halieaceae; g__Congregibacter
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Chromatiales; f__Chromatiaceae; g__Allochromatium
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Chromatiales; f__Chromatiaceae; g__Marichromatium
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Chromatiales; f__Chromatiaceae; g__Thioflavicoccus
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Chromatiales; f__Ectothiorhodospiraceae; g__Halorhodospira
 
-13/02 15:18:01 DEBUG:
-Sequences available for training Species-level placement distances:
-	0	Bacteria; Proteobacteria; Alphaproteobacteria; Caulobacterales; Caulobacteraceae; Brevundimonas; Brevundimonas subvibrioides
-	0	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Aurantimonadaceae; Fulvimarina; Fulvimarina pelagi
-	0	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Beijerinckiaceae; Methylocella; Methylocella silvestris
-	0	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Bradyrhizobiaceae; Rhodopseudomonas; Rhodopseudomonas palustris
-	0	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Hyphomicrobiaceae; Rhodomicrobium; Rhodomicrobium vannielii
-	0	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Methylobacteriaceae; Methylobacterium; Methylobacterium radiotolerans
-	2	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Methylobacteriaceae; Methylorubrum; Methylorubrum extorquens
-	1	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Methylobacteriaceae; Methylorubrum; Methylorubrum populi
-	0	Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Phyllobacteriaceae; Hoeflea; Hoeflea phototrophica
-	0	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Dinoroseobacter; Dinoroseobacter shibae
-	0	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Labrenzia; Labrenzia alexandrii
-	1	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Rhodobacter; Rhodobacter capsulatus
-	2	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Rhodobacter; Rhodobacter sphaeroides
-	0	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseibacterium; Roseibacterium elongatum
-	0	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Roseobacter; Roseobacter denitrificans
-	0	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Yoonia; Yoonia vestfoldensis
-	1	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales; Rhodospirillaceae; Rhodospirillum; Rhodospirillum centenum
-	1	Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales; Rhodospirillaceae; Rhodospirillum; Rhodospirillum rubrum
-	0	Bacteria; Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Citromicrobium; Citromicrobium bathyomarinum
-	0	Bacteria; Proteobacteria; Alphaproteobacteria; Sphingomonadales; Sphingomonadaceae; Sphingomonas; Sphingomonas sanxanigenens
-	0	Bacteria; Proteobacteria; Betaproteobacteria; Nitrosomonadales; Sterolibacteriaceae; Methyloversatilis; Methyloversatilis universalis
-	0	Bacteria; Proteobacteria; Gammaproteobacteria; Cellvibrionales; Halieaceae; Congregibacter; Congregibacter litoralis
-	0	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Allochromatium; Allochromatium vinosum
-	0	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Marichromatium; Marichromatium purpuratum
-	0	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Chromatiaceae; Thioflavicoccus; Thioflavicoccus mobilis
-	0	Bacteria; Proteobacteria; Gammaproteobacteria; Chromatiales; Ectothiorhodospiraceae; Halorhodospira; Halorhodospira halophila
-6/26 Species have training sequences.
-Sequences available for training Class-level placement distances:
-	39	Bacteria; Proteobacteria; Alphaproteobacteria
-	3	Bacteria; Proteobacteria; Betaproteobacteria
-	7	Bacteria; Proteobacteria; Gammaproteobacteria
-3/3 Class have training sequences.
+27/05 17:45:01 DEBUG:
+Sequences available for training species-level placement distances:
+	0	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Caulobacterales; f__Caulobacteraceae; g__Brevundimonas; s__Brevundimonas subvibrioides
+	0	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Aurantimonadaceae; g__Fulvimarina; s__Fulvimarina pelagi
+	0	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Beijerinckiaceae; g__Methylocella; s__Methylocella silvestris
+	1	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bradyrhizobium; s__Bradyrhizobium sp. BTAi1
+	1	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bradyrhizobium; s__Bradyrhizobium sp. ORS 278
+	0	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Rhodopseudomonas; s__Rhodopseudomonas palustris
+	0	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Rhodomicrobium; s__Rhodomicrobium vannielii
+	1	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Methylobacteriaceae; g__Methylobacterium; s__Methylobacterium radiotolerans
+	1	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Methylobacteriaceae; g__Methylobacterium; s__Methylobacterium sp. 4-46
+	2	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Methylobacteriaceae; g__Methylorubrum; s__Methylorubrum extorquens
+	1	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Methylobacteriaceae; g__Methylorubrum; s__Methylorubrum populi
+	0	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae; g__Hoeflea; s__Hoeflea phototrophica
+	0	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Ahrensia; s__Ahrensia sp. R2A130
+	0	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Dinoroseobacter; s__Dinoroseobacter shibae
+	0	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Jannaschia; s__Jannaschia sp. CCS1
+	0	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Labrenzia; s__Labrenzia alexandrii
+	1	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Rhodobacter; s__Rhodobacter capsulatus
+	1	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Rhodobacter; s__Rhodobacter sp. SW2
+	2	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Rhodobacter; s__Rhodobacter sphaeroides
+	0	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Roseibacterium; s__Roseibacterium elongatum
+	1	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Roseobacter; s__Roseobacter denitrificans
+	1	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Roseobacter; s__Roseobacter sp. AzwK-3b
+	1	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Roseobacter; s__Roseobacter sp. CCS2
+	1	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Roseovarius; s__Roseovarius sp. 217
+	1	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Roseovarius; s__Roseovarius sp. TM1035
+	0	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Thalassobium; s__Thalassobium sp. R2A62
+	0	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Yoonia; s__Yoonia vestfoldensis
+	1	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Rhodospirillum; s__Rhodospirillum centenum
+	1	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Rhodospirillum; s__Rhodospirillum rubrum
+	0	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Citromicrobium; s__Citromicrobium bathyomarinum
+	0	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Sphingomonadales; f__Sphingomonadaceae; g__Sphingomonas; s__Sphingomonas sanxanigenens
+	0	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Sterolibacteriaceae; g__Methyloversatilis; s__Methyloversatilis universalis
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Cellvibrionales; f__Halieaceae; g__Congregibacter; s__Congregibacter litoralis
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Chromatiales; f__Chromatiaceae; g__Allochromatium; s__Allochromatium vinosum
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Chromatiales; f__Chromatiaceae; g__Marichromatium; s__Marichromatium purpuratum
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Chromatiales; f__Chromatiaceae; g__Thioflavicoccus; s__Thioflavicoccus mobilis
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Chromatiales; f__Ectothiorhodospiraceae; g__Halorhodospira; s__Halorhodospira halophila
+16/37 species have training sequences.
+Sequences available for training class-level placement distances:
+	40	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria
+	3	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria
+	7	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria
+3/3 class have training sequences.
 
-13/02 15:18:01 INFO:
+27/05 17:45:01 INFO:
 Clustering sequences with UCLUST... 
-13/02 15:18:01 INFO:
+27/05 17:45:01 INFO:
 done.
 
-13/02 15:18:01 DEBUG:
-usearch v9.2.64_i86linux32, 4.0Gb RAM (8.1Gb total), 4 cores
-(C) Copyright 2013-16 Robert C. Edgar, all rights reserved.
-http://drive5.com/usearch
+27/05 17:45:01 DEBUG:
+usearch v11.0.667_i86linux32, 4.0Gb RAM (32.9Gb total), 4 cores
+(C) Copyright 2013-18 Robert C. Edgar, all rights reserved.
+https://drive5.com/usearch
 
 License: c.morganlang@gmail.com
 
-00:00 37Mb      0.1% Reading Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates//uclust_input.fasta00:00 40Mb    100.0% Reading Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates//uclust_input.fasta
-00:00 32Mb      7.1% DF                                                                                                       00:00 35Mb    100.0% DF
-00:00 35Mb   49 seqs, 49 uniques, 49 singletons (100.0%)
+00:00 37Mb      0.1% Reading /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates//uclust_input.fasta00:00 41Mb    100.0% Reading /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates//uclust_input.fasta
+00:00 36Mb      7.1% DF                                                                                                                                                           00:00 35Mb    100.0% DF
+00:00 35Mb   50 seqs, 50 uniques, 50 singletons (100.0%)
 00:00 35Mb   Min size 1, median 1, max 1, avg 1.00
-00:00 38Mb      2.0% DB00:00 38Mb    100.0% DB
-00:00 38Mb   Sort length... done.
-00:00 77Mb      2.0% Clustering00:00 77Mb      2.0% 0 clusters, max size 0, avg 0.000:00 89Mb    100.0% 48 clusters, max size 2, avg 1.0
-00:00 89Mb      2.1% Writing centroids to Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates//uclust0.99.fa00:00 89Mb    100.0% Writing centroids to Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates//uclust0.99.fa
-                                                                                                                                      
-      Seqs  49
-  Clusters  48
+00:00 39Mb      2.0% DB00:00 39Mb    100.0% DB
+00:00 39Mb   Sort length... done.
+00:00 78Mb      2.0% Clustering00:00 78Mb      2.0% 0 clusters, max size 0, avg 0.000:00 89Mb    100.0% 49 clusters, max size 2, avg 1.0
+00:00 89Mb      2.0% Writing centroids to /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates//uclust0.99.fa00:00 89Mb    100.0% Writing centroids to /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates//uclust0.99.fa
+                                                                                                                                                                                          
+      Seqs  50
+  Clusters  49
   Max size  2
   Avg size  1.0
   Min size  1
-Singletons  47, 95.9% of seqs, 97.9% of clusters
+Singletons  48, 96.0% of seqs, 98.0% of clusters
    Max mem  89Mb
       Time  1.00s
-Throughput  49.0 seqs/sec.
+Throughput  50.0 seqs/sec.
 
 
-13/02 15:18:01 DEBUG:
+27/05 17:45:01 DEBUG:
 Reading usearch cluster file... 
-13/02 15:18:01 DEBUG:
+27/05 17:45:01 DEBUG:
 done.
 
-13/02 15:18:01 DEBUG:
+27/05 17:45:01 DEBUG:
 The following sequences were excluded after synchronizing FASTA:
-	WP_003607116.1 photosynthetic reaction center subunit H [Methylorubrum extorquens]
+	419610.Mext_4810
 
-13/02 15:18:01 DEBUG:
-	48 sequence clusters
+27/05 17:45:01 DEBUG:
+	49 sequence clusters
 
-13/02 15:18:01 INFO:
+27/05 17:45:01 INFO:
 Preparing deduplicated sequence set for training... 
-13/02 15:18:01 DEBUG:
-2 lineages truncated before Species were removed during lineage trimming.
-13 lineages unclassified at or before Species also removed.
+27/05 17:45:01 DEBUG:
+4 lineages truncated before 'species' were removed during lineage trimming.
 
-13/02 15:18:01 DEBUG:
-0 lineages truncated before Class were removed during lineage trimming.
-0 lineages unclassified at or before Class also removed.
+27/05 17:45:01 DEBUG:
+0 lineages truncated before 'class' were removed during lineage trimming.
 
-13/02 15:18:01 INFO:
+27/05 17:45:01 INFO:
 done.
 
-13/02 15:18:01 INFO:
+27/05 17:45:01 INFO:
 
 Estimating branch-length placement distances for taxonomic ranks. Progress:
 
-13/02 15:18:01 DEBUG:
-7 sequences to train Species-level placement distances
+27/05 17:45:01 DEBUG:
+17 sequences to train species-level placement distances
 
-13/02 15:18:01 DEBUG:
-40 sequences to train Class-level placement distances
+27/05 17:45:01 DEBUG:
+40 sequences to train class-level placement distances
 
-13/02 15:18:01 WARNING:
-Only 47 sequences for training placement distance model.
+27/05 17:45:02 DEBUG:
+4 lineages truncated before 'species' were removed during lineage trimming.
 
-13/02 15:18:01 DEBUG:
-2 lineages truncated before Species were removed during lineage trimming.
-13 lineages unclassified at or before Species also removed.
+27/05 17:45:02 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bradyrhizobium; s__Bradyrhizobium sp. BTAi1:
 
-13/02 15:18:01 DEBUG:
-Testing placements for Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Methylobacteriaceae; Methylorubrum; Methylorubrum extorquens:
+27/05 17:45:02 DEBUG:
+Reference sequence filtering stats for s__Bradyrhizobium sp. BTAi1
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	47
 
-13/02 15:18:01 DEBUG:
+27/05 17:45:02 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 17:45:02 DEBUG:
+Read 47 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Bradyrhizobium_sp._BTAi1/PuhA_Z1111_2020-05-27/PuhA.fa.
+
+27/05 17:45:02 DEBUG:
+4 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 17:45:02 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	6_PuhA
+	13_PuhA
+	25_PuhA
+	35_PuhA
+	31_PuhA
+	23_PuhA
+	15_PuhA
+	40_PuhA
+	11_PuhA
+	24_PuhA
+	10_PuhA
+	8_PuhA
+	37_PuhA
+	7_PuhA
+	28_PuhA
+	29_PuhA
+
+27/05 17:45:02 DEBUG:
+Building HMM profile... 
+27/05 17:45:02 DEBUG:
+done.
+
+27/05 17:45:02 DEBUG:
+done.
+
+27/05 17:45:02 DEBUG:
+31 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 17:45:02 DEBUG:
+	47 leaves in pruned tree.
+
+27/05 17:45:02 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 17:45:03 DEBUG:
+done.
+
+27/05 17:45:03 DEBUG:
+Read 47 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Bradyrhizobium_sp._BTAi1/PuhA_Z1111_2020-05-27/PuhA.fa.
+
+27/05 17:45:03 DEBUG:
 	1 query sequences.
 
-13/02 15:18:01 DEBUG:
-	16 sequences pruned from tree.
+27/05 17:45:03 DEBUG:
 
-13/02 15:18:01 DEBUG:
-	32 leaves in pruned tree.
 
-13/02 15:18:01 DEBUG:
+27/05 17:45:03 DEBUG:
+Columns = 224
+
+27/05 17:45:03 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Bradyrhizobium_sp._BTAi1/queries-BMGE.fasta = 0 (retained)
+
+27/05 17:45:03 DEBUG:
+Read 48 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Bradyrhizobium_sp._BTAi1/queries-BMGE.fasta.
+
+27/05 17:45:03 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bradyrhizobium; s__Bradyrhizobium sp. ORS 278:
+
+27/05 17:45:03 DEBUG:
+Reference sequence filtering stats for s__Bradyrhizobium sp. ORS 278
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	47
+
+27/05 17:45:03 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 17:45:03 DEBUG:
+Read 47 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Bradyrhizobium_sp._ORS_278/PuhA_Z1111_2020-05-27/PuhA.fa.
+
+27/05 17:45:03 DEBUG:
+4 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 17:45:03 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	6_PuhA
+	13_PuhA
+	25_PuhA
+	35_PuhA
+	31_PuhA
+	23_PuhA
+	15_PuhA
+	40_PuhA
+	11_PuhA
+	24_PuhA
+	10_PuhA
+	8_PuhA
+	37_PuhA
+	7_PuhA
+	28_PuhA
+	29_PuhA
+
+27/05 17:45:04 DEBUG:
 Building HMM profile... 
-13/02 15:18:01 DEBUG:
+27/05 17:45:04 DEBUG:
 done.
 
-13/02 15:18:01 DEBUG:
+27/05 17:45:04 DEBUG:
+done.
 
+27/05 17:45:04 DEBUG:
+31 genus-dereplicated sequences retained for building HMM profile.
 
-13/02 15:18:01 DEBUG:
-Columns = 235
+27/05 17:45:04 DEBUG:
+	47 leaves in pruned tree.
 
-13/02 15:18:01 DEBUG:
-Number of sequences discarded: 
-		Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+27/05 17:45:04 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 17:45:04 DEBUG:
+done.
 
-13/02 15:18:01 DEBUG:
-Read 33 headers from Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+27/05 17:45:04 DEBUG:
+Read 47 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Bradyrhizobium_sp._ORS_278/PuhA_Z1111_2020-05-27/PuhA.fa.
 
-13/02 15:18:02 DEBUG:
-Testing placements for Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales; Methylobacteriaceae; Methylorubrum; Methylorubrum populi:
-
-13/02 15:18:02 DEBUG:
+27/05 17:45:04 DEBUG:
 	1 query sequences.
 
-13/02 15:18:02 DEBUG:
-	16 sequences pruned from tree.
+27/05 17:45:04 DEBUG:
 
-13/02 15:18:02 DEBUG:
-	32 leaves in pruned tree.
 
-13/02 15:18:02 DEBUG:
+27/05 17:45:04 DEBUG:
+Columns = 224
+
+27/05 17:45:04 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Bradyrhizobium_sp._ORS_278/queries-BMGE.fasta = 0 (retained)
+
+27/05 17:45:04 DEBUG:
+Read 48 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Bradyrhizobium_sp._ORS_278/queries-BMGE.fasta.
+
+27/05 17:45:04 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Methylobacteriaceae; g__Methylobacterium; s__Methylobacterium radiotolerans:
+
+27/05 17:45:04 DEBUG:
+Reference sequence filtering stats for s__Methylobacterium radiotolerans
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	47
+
+27/05 17:45:05 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 17:45:05 DEBUG:
+Read 47 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methylobacterium_radiotolerans/PuhA_Z1111_2020-05-27/PuhA.fa.
+
+27/05 17:45:05 DEBUG:
+4 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 17:45:05 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	6_PuhA
+	24_PuhA
+	11_PuhA
+	37_PuhA
+	25_PuhA
+	4_PuhA
+	23_PuhA
+	10_PuhA
+	8_PuhA
+	28_PuhA
+	7_PuhA
+	15_PuhA
+	31_PuhA
+	29_PuhA
+	35_PuhA
+	40_PuhA
+
+27/05 17:45:05 DEBUG:
 Building HMM profile... 
-13/02 15:18:02 DEBUG:
+27/05 17:45:05 DEBUG:
 done.
 
-13/02 15:18:02 DEBUG:
+27/05 17:45:05 DEBUG:
+done.
 
+27/05 17:45:05 DEBUG:
+31 genus-dereplicated sequences retained for building HMM profile.
 
-13/02 15:18:02 DEBUG:
-Columns = 235
+27/05 17:45:05 DEBUG:
+	47 leaves in pruned tree.
 
-13/02 15:18:02 DEBUG:
-Number of sequences discarded: 
-		Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+27/05 17:45:05 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 17:45:05 DEBUG:
+done.
 
-13/02 15:18:02 DEBUG:
-Read 33 headers from Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+27/05 17:45:05 DEBUG:
+Read 47 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methylobacterium_radiotolerans/PuhA_Z1111_2020-05-27/PuhA.fa.
 
-13/02 15:18:02 DEBUG:
-Testing placements for Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Rhodobacter; Rhodobacter capsulatus:
-
-13/02 15:18:02 DEBUG:
+27/05 17:45:05 DEBUG:
 	1 query sequences.
 
-13/02 15:18:02 DEBUG:
-	16 sequences pruned from tree.
+27/05 17:45:06 DEBUG:
 
-13/02 15:18:02 DEBUG:
-	32 leaves in pruned tree.
 
-13/02 15:18:02 DEBUG:
+27/05 17:45:06 DEBUG:
+Columns = 224
+
+27/05 17:45:06 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methylobacterium_radiotolerans/queries-BMGE.fasta = 0 (retained)
+
+27/05 17:45:06 DEBUG:
+Read 48 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methylobacterium_radiotolerans/queries-BMGE.fasta.
+
+27/05 17:45:06 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Methylobacteriaceae; g__Methylobacterium; s__Methylobacterium sp. 4-46:
+
+27/05 17:45:06 DEBUG:
+Reference sequence filtering stats for s__Methylobacterium sp. 4-46
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	47
+
+27/05 17:45:06 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 17:45:06 DEBUG:
+Read 47 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methylobacterium_sp._4-46/PuhA_Z1111_2020-05-27/PuhA.fa.
+
+27/05 17:45:06 DEBUG:
+4 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 17:45:06 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	6_PuhA
+	24_PuhA
+	11_PuhA
+	37_PuhA
+	25_PuhA
+	4_PuhA
+	23_PuhA
+	10_PuhA
+	8_PuhA
+	28_PuhA
+	7_PuhA
+	15_PuhA
+	31_PuhA
+	29_PuhA
+	35_PuhA
+	40_PuhA
+
+27/05 17:45:07 DEBUG:
 Building HMM profile... 
-13/02 15:18:03 DEBUG:
+27/05 17:45:07 DEBUG:
 done.
 
-13/02 15:18:03 DEBUG:
-
-
-13/02 15:18:03 DEBUG:
-Columns = 235
-
-13/02 15:18:03 DEBUG:
-Number of sequences discarded: 
-		Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
-
-13/02 15:18:03 DEBUG:
-Read 33 headers from Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
-
-13/02 15:18:03 DEBUG:
-Testing placements for Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Rhodobacter; Rhodobacter sphaeroides:
-
-13/02 15:18:03 DEBUG:
-	2 query sequences.
-
-13/02 15:18:03 DEBUG:
-	17 sequences pruned from tree.
-
-13/02 15:18:03 DEBUG:
-	31 leaves in pruned tree.
-
-13/02 15:18:03 DEBUG:
-Building HMM profile... 
-13/02 15:18:04 DEBUG:
+27/05 17:45:07 DEBUG:
 done.
 
-13/02 15:18:04 DEBUG:
+27/05 17:45:07 DEBUG:
+31 genus-dereplicated sequences retained for building HMM profile.
 
+27/05 17:45:07 DEBUG:
+	47 leaves in pruned tree.
 
-13/02 15:18:04 DEBUG:
-Columns = 235
+27/05 17:45:07 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 17:45:07 DEBUG:
+done.
 
-13/02 15:18:04 DEBUG:
-Number of sequences discarded: 
-		Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+27/05 17:45:07 DEBUG:
+Read 47 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methylobacterium_sp._4-46/PuhA_Z1111_2020-05-27/PuhA.fa.
 
-13/02 15:18:04 DEBUG:
-Read 33 headers from Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
-
-13/02 15:18:04 DEBUG:
-Testing placements for Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales; Rhodospirillaceae; Rhodospirillum; Rhodospirillum centenum:
-
-13/02 15:18:04 DEBUG:
+27/05 17:45:07 DEBUG:
 	1 query sequences.
 
-13/02 15:18:04 DEBUG:
-	16 sequences pruned from tree.
+27/05 17:45:07 DEBUG:
 
-13/02 15:18:04 DEBUG:
-	32 leaves in pruned tree.
 
-13/02 15:18:04 DEBUG:
+27/05 17:45:07 DEBUG:
+Columns = 226
+
+27/05 17:45:07 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methylobacterium_sp._4-46/queries-BMGE.fasta = 0 (retained)
+
+27/05 17:45:07 DEBUG:
+Read 48 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methylobacterium_sp._4-46/queries-BMGE.fasta.
+
+27/05 17:45:07 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Methylobacteriaceae; g__Methylorubrum; s__Methylorubrum extorquens:
+
+27/05 17:45:07 DEBUG:
+Reference sequence filtering stats for s__Methylorubrum extorquens
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	47
+
+27/05 17:45:08 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 17:45:08 DEBUG:
+Read 47 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methylorubrum_extorquens/PuhA_Z1111_2020-05-27/PuhA.fa.
+
+27/05 17:45:08 DEBUG:
+4 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 17:45:08 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	6_PuhA
+	13_PuhA
+	24_PuhA
+	11_PuhA
+	37_PuhA
+	25_PuhA
+	4_PuhA
+	23_PuhA
+	10_PuhA
+	8_PuhA
+	28_PuhA
+	7_PuhA
+	31_PuhA
+	29_PuhA
+	35_PuhA
+	40_PuhA
+
+27/05 17:45:08 DEBUG:
 Building HMM profile... 
-13/02 15:18:04 DEBUG:
+27/05 17:45:08 DEBUG:
 done.
 
-13/02 15:18:04 DEBUG:
+27/05 17:45:08 DEBUG:
+done.
 
+27/05 17:45:08 DEBUG:
+31 genus-dereplicated sequences retained for building HMM profile.
 
-13/02 15:18:05 DEBUG:
-Columns = 235
+27/05 17:45:08 DEBUG:
+	47 leaves in pruned tree.
 
-13/02 15:18:05 DEBUG:
-Number of sequences discarded: 
-		Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+27/05 17:45:08 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 17:45:08 DEBUG:
+done.
 
-13/02 15:18:05 DEBUG:
-Read 33 headers from Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+27/05 17:45:08 DEBUG:
+Read 47 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methylorubrum_extorquens/PuhA_Z1111_2020-05-27/PuhA.fa.
 
-13/02 15:18:05 DEBUG:
-Testing placements for Bacteria; Proteobacteria; Alphaproteobacteria; Rhodospirillales; Rhodospirillaceae; Rhodospirillum; Rhodospirillum rubrum:
-
-13/02 15:18:05 DEBUG:
+27/05 17:45:08 DEBUG:
 	1 query sequences.
 
-13/02 15:18:05 DEBUG:
-	16 sequences pruned from tree.
+27/05 17:45:08 DEBUG:
 
-13/02 15:18:05 DEBUG:
-	32 leaves in pruned tree.
 
-13/02 15:18:05 DEBUG:
+27/05 17:45:09 DEBUG:
+Columns = 224
+
+27/05 17:45:09 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methylorubrum_extorquens/queries-BMGE.fasta = 0 (retained)
+
+27/05 17:45:09 DEBUG:
+Read 48 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methylorubrum_extorquens/queries-BMGE.fasta.
+
+27/05 17:45:09 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Methylobacteriaceae; g__Methylorubrum; s__Methylorubrum populi:
+
+27/05 17:45:09 DEBUG:
+Reference sequence filtering stats for s__Methylorubrum populi
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	47
+
+27/05 17:45:09 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 17:45:09 DEBUG:
+Read 47 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methylorubrum_populi/PuhA_Z1111_2020-05-27/PuhA.fa.
+
+27/05 17:45:09 DEBUG:
+4 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 17:45:09 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	6_PuhA
+	13_PuhA
+	24_PuhA
+	11_PuhA
+	37_PuhA
+	25_PuhA
+	4_PuhA
+	23_PuhA
+	10_PuhA
+	8_PuhA
+	28_PuhA
+	7_PuhA
+	31_PuhA
+	29_PuhA
+	35_PuhA
+	40_PuhA
+
+27/05 17:45:10 DEBUG:
 Building HMM profile... 
-13/02 15:18:05 DEBUG:
+27/05 17:45:10 DEBUG:
 done.
 
-13/02 15:18:05 DEBUG:
-
-
-13/02 15:18:06 DEBUG:
-Columns = 235
-
-13/02 15:18:06 DEBUG:
-Number of sequences discarded: 
-		Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
-
-13/02 15:18:06 DEBUG:
-Read 33 headers from Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
-
-13/02 15:18:06 DEBUG:
-RANK: Species
-	Samples = 7
-	Median = 0.5119
-	Mean = 0.5804
-
-13/02 15:18:06 DEBUG:
-0 lineages truncated before Class were removed during lineage trimming.
-0 lineages unclassified at or before Class also removed.
-
-13/02 15:18:06 DEBUG:
-Testing placements for Bacteria; Proteobacteria; Alphaproteobacteria:
-
-13/02 15:18:06 DEBUG:
-	30 query sequences.
-
-13/02 15:18:06 DEBUG:
-	39 sequences pruned from tree.
-
-13/02 15:18:06 DEBUG:
-	9 leaves in pruned tree.
-
-13/02 15:18:06 DEBUG:
-Building HMM profile... 
-13/02 15:18:06 DEBUG:
+27/05 17:45:10 DEBUG:
 done.
 
-13/02 15:18:06 DEBUG:
+27/05 17:45:10 DEBUG:
+31 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 17:45:10 DEBUG:
+	47 leaves in pruned tree.
+
+27/05 17:45:10 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 17:45:10 DEBUG:
+done.
+
+27/05 17:45:10 DEBUG:
+Read 47 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methylorubrum_populi/PuhA_Z1111_2020-05-27/PuhA.fa.
+
+27/05 17:45:10 DEBUG:
+	1 query sequences.
+
+27/05 17:45:10 DEBUG:
 
 
-13/02 15:18:07 DEBUG:
-Columns = 230
+27/05 17:45:10 DEBUG:
+Columns = 224
 
-13/02 15:18:07 DEBUG:
+27/05 17:45:10 DEBUG:
 Number of sequences discarded: 
-		Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methylorubrum_populi/queries-BMGE.fasta = 0 (retained)
 
-13/02 15:18:07 DEBUG:
-Read 39 headers from Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+27/05 17:45:10 DEBUG:
+Read 48 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methylorubrum_populi/queries-BMGE.fasta.
 
-13/02 15:18:07 DEBUG:
-Testing placements for Bacteria; Proteobacteria; Betaproteobacteria:
+27/05 17:45:10 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Rhodobacter; s__Rhodobacter capsulatus:
 
-13/02 15:18:07 DEBUG:
-	3 query sequences.
+27/05 17:45:10 DEBUG:
+Reference sequence filtering stats for s__Rhodobacter capsulatus
+Match taxon	1
+Unclassified	0
+Too shallow	1
+Remaining	46
 
-13/02 15:18:07 DEBUG:
-	3 sequences pruned from tree.
+27/05 17:45:11 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 17:45:11 DEBUG:
+Read 46 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Rhodobacter_capsulatus/PuhA_Z1111_2020-05-27/PuhA.fa.
 
-13/02 15:18:07 DEBUG:
+27/05 17:45:11 DEBUG:
+3 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 17:45:11 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	28_PuhA
+	7_PuhA
+	13_PuhA
+	40_PuhA
+	37_PuhA
+	25_PuhA
+	15_PuhA
+	11_PuhA
+	6_PuhA
+	10_PuhA
+	24_PuhA
+	31_PuhA
+	35_PuhA
+	8_PuhA
+	29_PuhA
+	4_PuhA
+
+27/05 17:45:11 DEBUG:
+Building HMM profile... 
+27/05 17:45:11 DEBUG:
+done.
+
+27/05 17:45:11 DEBUG:
+done.
+
+27/05 17:45:11 DEBUG:
+30 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 17:45:11 DEBUG:
+	46 leaves in pruned tree.
+
+27/05 17:45:11 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 17:45:11 DEBUG:
+done.
+
+27/05 17:45:11 DEBUG:
+Read 46 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Rhodobacter_capsulatus/PuhA_Z1111_2020-05-27/PuhA.fa.
+
+27/05 17:45:11 DEBUG:
+	1 query sequences.
+
+27/05 17:45:11 DEBUG:
+
+
+27/05 17:45:11 DEBUG:
+Columns = 229
+
+27/05 17:45:11 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Rhodobacter_capsulatus/queries-BMGE.fasta = 0 (retained)
+
+27/05 17:45:11 DEBUG:
+Read 47 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Rhodobacter_capsulatus/queries-BMGE.fasta.
+
+27/05 17:45:12 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Rhodobacter; s__Rhodobacter sp. SW2:
+
+27/05 17:45:12 DEBUG:
+Reference sequence filtering stats for s__Rhodobacter sp. SW2
+Match taxon	1
+Unclassified	0
+Too shallow	1
+Remaining	46
+
+27/05 17:45:12 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 17:45:12 DEBUG:
+Read 46 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Rhodobacter_sp._SW2/PuhA_Z1111_2020-05-27/PuhA.fa.
+
+27/05 17:45:12 DEBUG:
+3 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 17:45:12 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	28_PuhA
+	7_PuhA
+	13_PuhA
+	40_PuhA
+	37_PuhA
+	25_PuhA
+	15_PuhA
+	11_PuhA
+	6_PuhA
+	10_PuhA
+	23_PuhA
+	31_PuhA
+	35_PuhA
+	8_PuhA
+	29_PuhA
+	4_PuhA
+
+27/05 17:45:12 DEBUG:
+Building HMM profile... 
+27/05 17:45:12 DEBUG:
+done.
+
+27/05 17:45:12 DEBUG:
+done.
+
+27/05 17:45:12 DEBUG:
+30 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 17:45:12 DEBUG:
+	46 leaves in pruned tree.
+
+27/05 17:45:12 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 17:45:13 DEBUG:
+done.
+
+27/05 17:45:13 DEBUG:
+Read 46 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Rhodobacter_sp._SW2/PuhA_Z1111_2020-05-27/PuhA.fa.
+
+27/05 17:45:13 DEBUG:
+	1 query sequences.
+
+27/05 17:45:13 DEBUG:
+
+
+27/05 17:45:13 DEBUG:
+Columns = 225
+
+27/05 17:45:13 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Rhodobacter_sp._SW2/queries-BMGE.fasta = 0 (retained)
+
+27/05 17:45:13 DEBUG:
+Read 47 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Rhodobacter_sp._SW2/queries-BMGE.fasta.
+
+27/05 17:45:13 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Rhodobacter; s__Rhodobacter sphaeroides:
+
+27/05 17:45:13 DEBUG:
+Reference sequence filtering stats for s__Rhodobacter sphaeroides
+Match taxon	2
+Unclassified	0
+Too shallow	1
+Remaining	45
+
+27/05 17:45:13 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 17:45:13 DEBUG:
+Read 45 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Rhodobacter_sphaeroides/PuhA_Z1111_2020-05-27/PuhA.fa.
+
+27/05 17:45:13 DEBUG:
+3 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 17:45:13 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	29_PuhA
+	8_PuhA
+	13_PuhA
+	28_PuhA
+	4_PuhA
+	15_PuhA
+	11_PuhA
+	6_PuhA
+	7_PuhA
+	10_PuhA
+	23_PuhA
+	35_PuhA
+	40_PuhA
+	37_PuhA
+	31_PuhA
+
+27/05 17:45:14 DEBUG:
+Building HMM profile... 
+27/05 17:45:14 DEBUG:
+done.
+
+27/05 17:45:14 DEBUG:
+done.
+
+27/05 17:45:14 DEBUG:
+30 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 17:45:14 DEBUG:
 	45 leaves in pruned tree.
 
-13/02 15:18:07 DEBUG:
-Building HMM profile... 
-13/02 15:18:07 DEBUG:
+27/05 17:45:14 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 17:45:14 DEBUG:
 done.
 
-13/02 15:18:07 DEBUG:
+27/05 17:45:14 DEBUG:
+Read 45 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Rhodobacter_sphaeroides/PuhA_Z1111_2020-05-27/PuhA.fa.
+
+27/05 17:45:14 DEBUG:
+	2 query sequences.
+
+27/05 17:45:14 DEBUG:
 
 
-13/02 15:18:08 DEBUG:
+27/05 17:45:14 DEBUG:
+Columns = 225
+
+27/05 17:45:14 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Rhodobacter_sphaeroides/queries-BMGE.fasta = 0 (retained)
+
+27/05 17:45:14 DEBUG:
+Read 47 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Rhodobacter_sphaeroides/queries-BMGE.fasta.
+
+27/05 17:45:14 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Roseobacter; s__Roseobacter denitrificans:
+
+27/05 17:45:14 DEBUG:
+Reference sequence filtering stats for s__Roseobacter denitrificans
+Match taxon	1
+Unclassified	0
+Too shallow	1
+Remaining	46
+
+27/05 17:45:15 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 17:45:15 DEBUG:
+Read 46 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Roseobacter_denitrificans/PuhA_Z1111_2020-05-27/PuhA.fa.
+
+27/05 17:45:15 DEBUG:
+3 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 17:45:15 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	7_PuhA
+	13_PuhA
+	40_PuhA
+	37_PuhA
+	24_PuhA
+	15_PuhA
+	11_PuhA
+	25_PuhA
+	10_PuhA
+	23_PuhA
+	6_PuhA
+	31_PuhA
+	35_PuhA
+	8_PuhA
+	29_PuhA
+	4_PuhA
+
+27/05 17:45:15 DEBUG:
+Building HMM profile... 
+27/05 17:45:15 DEBUG:
+done.
+
+27/05 17:45:15 DEBUG:
+done.
+
+27/05 17:45:15 DEBUG:
+30 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 17:45:15 DEBUG:
+	46 leaves in pruned tree.
+
+27/05 17:45:15 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 17:45:15 DEBUG:
+done.
+
+27/05 17:45:15 DEBUG:
+Read 46 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Roseobacter_denitrificans/PuhA_Z1111_2020-05-27/PuhA.fa.
+
+27/05 17:45:15 DEBUG:
+	1 query sequences.
+
+27/05 17:45:15 DEBUG:
+
+
+27/05 17:45:16 DEBUG:
+Columns = 225
+
+27/05 17:45:16 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Roseobacter_denitrificans/queries-BMGE.fasta = 0 (retained)
+
+27/05 17:45:16 DEBUG:
+Read 47 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Roseobacter_denitrificans/queries-BMGE.fasta.
+
+27/05 17:45:16 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Roseobacter; s__Roseobacter sp. AzwK-3b:
+
+27/05 17:45:16 DEBUG:
+Reference sequence filtering stats for s__Roseobacter sp. AzwK-3b
+Match taxon	1
+Unclassified	0
+Too shallow	1
+Remaining	46
+
+27/05 17:45:16 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 17:45:16 DEBUG:
+Read 46 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Roseobacter_sp._AzwK-3b/PuhA_Z1111_2020-05-27/PuhA.fa.
+
+27/05 17:45:16 DEBUG:
+3 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 17:45:16 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	7_PuhA
+	13_PuhA
+	40_PuhA
+	37_PuhA
+	24_PuhA
+	15_PuhA
+	11_PuhA
+	25_PuhA
+	10_PuhA
+	23_PuhA
+	6_PuhA
+	31_PuhA
+	35_PuhA
+	8_PuhA
+	28_PuhA
+	4_PuhA
+
+27/05 17:45:16 DEBUG:
+Building HMM profile... 
+27/05 17:45:17 DEBUG:
+done.
+
+27/05 17:45:17 DEBUG:
+done.
+
+27/05 17:45:17 DEBUG:
+30 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 17:45:17 DEBUG:
+	46 leaves in pruned tree.
+
+27/05 17:45:17 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 17:45:17 DEBUG:
+done.
+
+27/05 17:45:17 DEBUG:
+Read 46 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Roseobacter_sp._AzwK-3b/PuhA_Z1111_2020-05-27/PuhA.fa.
+
+27/05 17:45:17 DEBUG:
+	1 query sequences.
+
+27/05 17:45:17 DEBUG:
+
+
+27/05 17:45:17 DEBUG:
+Columns = 225
+
+27/05 17:45:17 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Roseobacter_sp._AzwK-3b/queries-BMGE.fasta = 0 (retained)
+
+27/05 17:45:17 DEBUG:
+Read 47 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Roseobacter_sp._AzwK-3b/queries-BMGE.fasta.
+
+27/05 17:45:17 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Roseobacter; s__Roseobacter sp. CCS2:
+
+27/05 17:45:17 DEBUG:
+Reference sequence filtering stats for s__Roseobacter sp. CCS2
+Match taxon	1
+Unclassified	0
+Too shallow	1
+Remaining	46
+
+27/05 17:45:17 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 17:45:17 DEBUG:
+Read 46 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Roseobacter_sp._CCS2/PuhA_Z1111_2020-05-27/PuhA.fa.
+
+27/05 17:45:17 DEBUG:
+3 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 17:45:17 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	7_PuhA
+	13_PuhA
+	40_PuhA
+	37_PuhA
+	24_PuhA
+	15_PuhA
+	11_PuhA
+	25_PuhA
+	10_PuhA
+	23_PuhA
+	6_PuhA
+	31_PuhA
+	35_PuhA
+	8_PuhA
+	28_PuhA
+	4_PuhA
+
+27/05 17:45:18 DEBUG:
+Building HMM profile... 
+27/05 17:45:18 DEBUG:
+done.
+
+27/05 17:45:18 DEBUG:
+done.
+
+27/05 17:45:18 DEBUG:
+30 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 17:45:18 DEBUG:
+	46 leaves in pruned tree.
+
+27/05 17:45:18 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 17:45:18 DEBUG:
+done.
+
+27/05 17:45:18 DEBUG:
+Read 46 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Roseobacter_sp._CCS2/PuhA_Z1111_2020-05-27/PuhA.fa.
+
+27/05 17:45:18 DEBUG:
+	1 query sequences.
+
+27/05 17:45:18 DEBUG:
+
+
+27/05 17:45:18 DEBUG:
+Columns = 225
+
+27/05 17:45:18 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Roseobacter_sp._CCS2/queries-BMGE.fasta = 0 (retained)
+
+27/05 17:45:18 DEBUG:
+Read 47 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Roseobacter_sp._CCS2/queries-BMGE.fasta.
+
+27/05 17:45:19 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Roseovarius; s__Roseovarius sp. 217:
+
+27/05 17:45:19 DEBUG:
+Reference sequence filtering stats for s__Roseovarius sp. 217
+Match taxon	1
+Unclassified	0
+Too shallow	1
+Remaining	46
+
+27/05 17:45:19 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 17:45:19 DEBUG:
+Read 46 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Roseovarius_sp._217/PuhA_Z1111_2020-05-27/PuhA.fa.
+
+27/05 17:45:19 DEBUG:
+3 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 17:45:19 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	7_PuhA
+	13_PuhA
+	40_PuhA
+	37_PuhA
+	24_PuhA
+	15_PuhA
+	11_PuhA
+	25_PuhA
+	10_PuhA
+	23_PuhA
+	6_PuhA
+	28_PuhA
+	35_PuhA
+	8_PuhA
+	29_PuhA
+	4_PuhA
+
+27/05 17:45:19 DEBUG:
+Building HMM profile... 
+27/05 17:45:20 DEBUG:
+done.
+
+27/05 17:45:20 DEBUG:
+done.
+
+27/05 17:45:20 DEBUG:
+30 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 17:45:20 DEBUG:
+	46 leaves in pruned tree.
+
+27/05 17:45:20 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 17:45:20 DEBUG:
+done.
+
+27/05 17:45:20 DEBUG:
+Read 46 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Roseovarius_sp._217/PuhA_Z1111_2020-05-27/PuhA.fa.
+
+27/05 17:45:20 DEBUG:
+	1 query sequences.
+
+27/05 17:45:20 DEBUG:
+
+
+27/05 17:45:20 DEBUG:
+Columns = 225
+
+27/05 17:45:20 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Roseovarius_sp._217/queries-BMGE.fasta = 0 (retained)
+
+27/05 17:45:20 DEBUG:
+Read 47 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Roseovarius_sp._217/queries-BMGE.fasta.
+
+27/05 17:45:20 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Roseovarius; s__Roseovarius sp. TM1035:
+
+27/05 17:45:20 DEBUG:
+Reference sequence filtering stats for s__Roseovarius sp. TM1035
+Match taxon	1
+Unclassified	0
+Too shallow	1
+Remaining	46
+
+27/05 17:45:20 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 17:45:20 DEBUG:
+Read 46 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Roseovarius_sp._TM1035/PuhA_Z1111_2020-05-27/PuhA.fa.
+
+27/05 17:45:20 DEBUG:
+3 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 17:45:20 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	7_PuhA
+	13_PuhA
+	40_PuhA
+	37_PuhA
+	24_PuhA
+	15_PuhA
+	11_PuhA
+	25_PuhA
+	10_PuhA
+	23_PuhA
+	6_PuhA
+	28_PuhA
+	35_PuhA
+	8_PuhA
+	29_PuhA
+	4_PuhA
+
+27/05 17:45:21 DEBUG:
+Building HMM profile... 
+27/05 17:45:21 DEBUG:
+done.
+
+27/05 17:45:21 DEBUG:
+done.
+
+27/05 17:45:21 DEBUG:
+30 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 17:45:21 DEBUG:
+	46 leaves in pruned tree.
+
+27/05 17:45:21 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 17:45:21 DEBUG:
+done.
+
+27/05 17:45:21 DEBUG:
+Read 46 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Roseovarius_sp._TM1035/PuhA_Z1111_2020-05-27/PuhA.fa.
+
+27/05 17:45:21 DEBUG:
+	1 query sequences.
+
+27/05 17:45:21 DEBUG:
+
+
+27/05 17:45:21 DEBUG:
+Columns = 225
+
+27/05 17:45:21 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Roseovarius_sp._TM1035/queries-BMGE.fasta = 0 (retained)
+
+27/05 17:45:21 DEBUG:
+Read 47 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Roseovarius_sp._TM1035/queries-BMGE.fasta.
+
+27/05 17:45:22 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Rhodospirillum; s__Rhodospirillum centenum:
+
+27/05 17:45:22 DEBUG:
+Reference sequence filtering stats for s__Rhodospirillum centenum
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	47
+
+27/05 17:45:22 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 17:45:22 DEBUG:
+Read 47 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Rhodospirillum_centenum/PuhA_Z1111_2020-05-27/PuhA.fa.
+
+27/05 17:45:22 DEBUG:
+4 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 17:45:22 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	6_PuhA
+	13_PuhA
+	25_PuhA
+	31_PuhA
+	23_PuhA
+	15_PuhA
+	11_PuhA
+	37_PuhA
+	24_PuhA
+	4_PuhA
+	10_PuhA
+	8_PuhA
+	7_PuhA
+	28_PuhA
+	29_PuhA
+	40_PuhA
+
+27/05 17:45:22 DEBUG:
+Building HMM profile... 
+27/05 17:45:23 DEBUG:
+done.
+
+27/05 17:45:23 DEBUG:
+done.
+
+27/05 17:45:23 DEBUG:
+31 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 17:45:23 DEBUG:
+	47 leaves in pruned tree.
+
+27/05 17:45:23 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 17:45:23 DEBUG:
+done.
+
+27/05 17:45:23 DEBUG:
+Read 47 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Rhodospirillum_centenum/PuhA_Z1111_2020-05-27/PuhA.fa.
+
+27/05 17:45:23 DEBUG:
+	1 query sequences.
+
+27/05 17:45:23 DEBUG:
+
+
+27/05 17:45:23 DEBUG:
 Columns = 224
 
-13/02 15:18:08 DEBUG:
+27/05 17:45:23 DEBUG:
 Number of sequences discarded: 
-		Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Rhodospirillum_centenum/queries-BMGE.fasta = 0 (retained)
 
-13/02 15:18:08 DEBUG:
-Read 48 headers from Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+27/05 17:45:23 DEBUG:
+Read 48 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Rhodospirillum_centenum/queries-BMGE.fasta.
 
-13/02 15:18:08 DEBUG:
-Testing placements for Bacteria; Proteobacteria; Gammaproteobacteria:
+27/05 17:45:23 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Rhodospirillum; s__Rhodospirillum rubrum:
 
-13/02 15:18:08 DEBUG:
-	7 query sequences.
+27/05 17:45:23 DEBUG:
+Reference sequence filtering stats for s__Rhodospirillum rubrum
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	47
 
-13/02 15:18:08 DEBUG:
-	6 sequences pruned from tree.
+27/05 17:45:23 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 17:45:23 DEBUG:
+Read 47 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Rhodospirillum_rubrum/PuhA_Z1111_2020-05-27/PuhA.fa.
 
-13/02 15:18:08 DEBUG:
+27/05 17:45:23 DEBUG:
+4 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 17:45:23 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	6_PuhA
+	13_PuhA
+	25_PuhA
+	31_PuhA
+	23_PuhA
+	15_PuhA
+	11_PuhA
+	37_PuhA
+	24_PuhA
+	4_PuhA
+	10_PuhA
+	8_PuhA
+	7_PuhA
+	28_PuhA
+	29_PuhA
+	40_PuhA
+
+27/05 17:45:24 DEBUG:
+Building HMM profile... 
+27/05 17:45:24 DEBUG:
+done.
+
+27/05 17:45:24 DEBUG:
+done.
+
+27/05 17:45:24 DEBUG:
+31 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 17:45:24 DEBUG:
+	47 leaves in pruned tree.
+
+27/05 17:45:24 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 17:45:24 DEBUG:
+done.
+
+27/05 17:45:24 DEBUG:
+Read 47 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Rhodospirillum_rubrum/PuhA_Z1111_2020-05-27/PuhA.fa.
+
+27/05 17:45:24 DEBUG:
+	1 query sequences.
+
+27/05 17:45:24 DEBUG:
+
+
+27/05 17:45:24 DEBUG:
+Columns = 224
+
+27/05 17:45:24 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Rhodospirillum_rubrum/queries-BMGE.fasta = 0 (retained)
+
+27/05 17:45:24 DEBUG:
+Read 48 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Rhodospirillum_rubrum/queries-BMGE.fasta.
+
+27/05 17:45:25 DEBUG:
+RANK: species
+	Samples = 17
+	Median = 0.3719
+	Mean = 0.468
+
+27/05 17:45:25 DEBUG:
+0 lineages truncated before 'class' were removed during lineage trimming.
+
+27/05 17:45:25 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria:
+
+27/05 17:45:25 DEBUG:
+Reference sequence filtering stats for c__Alphaproteobacteria
+Match taxon	39
+Unclassified	0
+Too shallow	0
+Remaining	9
+
+27/05 17:45:25 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 17:45:25 DEBUG:
+Read 9 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/c__Alphaproteobacteria/PuhA_Z1111_2020-05-27/PuhA.fa.
+
+27/05 17:45:25 DEBUG:
+3 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 17:45:25 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	40_PuhA
+
+27/05 17:45:25 DEBUG:
+Building HMM profile... 
+27/05 17:45:25 DEBUG:
+done.
+
+27/05 17:45:25 DEBUG:
+done.
+
+27/05 17:45:25 DEBUG:
+8 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 17:45:25 DEBUG:
+	9 leaves in pruned tree.
+
+27/05 17:45:25 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 17:45:25 DEBUG:
+done.
+
+27/05 17:45:25 DEBUG:
+Read 9 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/c__Alphaproteobacteria/PuhA_Z1111_2020-05-27/PuhA.fa.
+
+27/05 17:45:25 DEBUG:
+	30 query sequences.
+
+27/05 17:45:25 DEBUG:
+
+
+27/05 17:45:25 DEBUG:
+Columns = 226
+
+27/05 17:45:25 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/c__Alphaproteobacteria/queries-BMGE.fasta = 0 (retained)
+
+27/05 17:45:25 DEBUG:
+Read 39 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/c__Alphaproteobacteria/queries-BMGE.fasta.
+
+27/05 17:45:26 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Betaproteobacteria:
+
+27/05 17:45:26 DEBUG:
+Reference sequence filtering stats for c__Betaproteobacteria
+Match taxon	3
+Unclassified	0
+Too shallow	0
+Remaining	45
+
+27/05 17:45:26 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 17:45:26 DEBUG:
+Read 45 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/c__Betaproteobacteria/PuhA_Z1111_2020-05-27/PuhA.fa.
+
+27/05 17:45:26 DEBUG:
+2 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 17:45:26 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	8_PuhA
+	13_PuhA
+	25_PuhA
+	35_PuhA
+	4_PuhA
+	23_PuhA
+	15_PuhA
+	31_PuhA
+	11_PuhA
+	24_PuhA
+	6_PuhA
+	10_PuhA
+	7_PuhA
+	37_PuhA
+	28_PuhA
+	29_PuhA
+
+27/05 17:45:26 DEBUG:
+Building HMM profile... 
+27/05 17:45:26 DEBUG:
+done.
+
+27/05 17:45:26 DEBUG:
+done.
+
+27/05 17:45:26 DEBUG:
+29 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 17:45:26 DEBUG:
+	45 leaves in pruned tree.
+
+27/05 17:45:26 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 17:45:26 DEBUG:
+done.
+
+27/05 17:45:26 DEBUG:
+Read 45 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/c__Betaproteobacteria/PuhA_Z1111_2020-05-27/PuhA.fa.
+
+27/05 17:45:26 DEBUG:
+	3 query sequences.
+
+27/05 17:45:26 DEBUG:
+
+
+27/05 17:45:27 DEBUG:
+Columns = 224
+
+27/05 17:45:27 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/c__Betaproteobacteria/queries-BMGE.fasta = 0 (retained)
+
+27/05 17:45:27 DEBUG:
+Read 48 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/c__Betaproteobacteria/queries-BMGE.fasta.
+
+27/05 17:45:27 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria:
+
+27/05 17:45:27 DEBUG:
+Reference sequence filtering stats for c__Gammaproteobacteria
+Match taxon	6
+Unclassified	0
+Too shallow	0
+Remaining	42
+
+27/05 17:45:27 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 17:45:27 DEBUG:
+Read 42 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/c__Gammaproteobacteria/PuhA_Z1111_2020-05-27/PuhA.fa.
+
+27/05 17:45:27 DEBUG:
+3 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 17:45:27 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	13_PuhA
+	25_PuhA
+	35_PuhA
+	7_PuhA
+	23_PuhA
+	15_PuhA
+	40_PuhA
+	31_PuhA
+	11_PuhA
+	24_PuhA
+	10_PuhA
+	4_PuhA
+	37_PuhA
+	6_PuhA
+	28_PuhA
+	8_PuhA
+	29_PuhA
+
+27/05 17:45:27 DEBUG:
+Building HMM profile... 
+27/05 17:45:28 DEBUG:
+done.
+
+27/05 17:45:28 DEBUG:
+done.
+
+27/05 17:45:28 DEBUG:
+25 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 17:45:28 DEBUG:
 	42 leaves in pruned tree.
 
-13/02 15:18:08 DEBUG:
-Building HMM profile... 
-13/02 15:18:08 DEBUG:
+27/05 17:45:28 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 17:45:28 DEBUG:
 done.
 
-13/02 15:18:08 DEBUG:
+27/05 17:45:28 DEBUG:
+Read 42 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/c__Gammaproteobacteria/PuhA_Z1111_2020-05-27/PuhA.fa.
+
+27/05 17:45:28 DEBUG:
+	7 query sequences.
+
+27/05 17:45:28 DEBUG:
 
 
-13/02 15:18:09 DEBUG:
-Columns = 224
+27/05 17:45:28 DEBUG:
+Columns = 228
 
-13/02 15:18:09 DEBUG:
+27/05 17:45:28 DEBUG:
 Number of sequences discarded: 
-		Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta = 0 (retained)
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/c__Gammaproteobacteria/queries-BMGE.fasta = 0 (retained)
 
-13/02 15:18:09 DEBUG:
-Read 49 headers from Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/hmmalign_queries_aligned-BMGE.fasta.
+27/05 17:45:28 DEBUG:
+Read 49 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/intermediates/placement_trainer/intermediates/c__Gammaproteobacteria/queries-BMGE.fasta.
 
-13/02 15:18:09 DEBUG:
-RANK: Class
+27/05 17:45:28 DEBUG:
+RANK: class
 	Samples = 40
-	Median = 1.069
-	Mean = 1.1062
+	Median = 1.3124
+	Mean = 1.4198
 
-13/02 15:18:09 INFO:
+27/05 17:45:28 INFO:
 Placement distance regression model complete.
 
-13/02 15:18:09 DEBUG:
-Read 48 headers from Photosynthesis/PuhA/seed_refpkg/final_outputs/PuhA.fa.
-
-13/02 15:18:09 INFO:
+27/05 17:45:28 INFO:
 
 To integrate this package for use in TreeSAPP the following steps must be performed:
-1. Write a properly formatted reference package 'code' in /home/connor/Bioinformatics/Hallam_projects/treesapp_venv/lib/python3.5/site-packages/treesapp/data/ref_build_parameters.tsv
-2. $ cp Photosynthesis/PuhA/seed_refpkg/final_outputs/tax_ids_PuhA.txt Photosynthesis/PuhA/seed_refpkg/final_outputs/PuhA_tree.txt Photosynthesis/PuhA/seed_refpkg/final_outputs/PuhA_bestModel.txt /home/connor/Bioinformatics/Hallam_projects/treesapp_venv/lib/python3.5/site-packages/treesapp/data/tree_data/
-3. $ cp Photosynthesis/PuhA/seed_refpkg/final_outputs/PuhA.hmm /home/connor/Bioinformatics/Hallam_projects/treesapp_venv/lib/python3.5/site-packages/treesapp/data/hmm_data/
-4. $ cp Photosynthesis/PuhA/seed_refpkg/final_outputs/PuhA.fa /home/connor/Bioinformatics/Hallam_projects/treesapp_venv/lib/python3.5/site-packages/treesapp/data/alignment_data/
+1. Write a properly formatted reference package 'code' in /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Photosynthesis/PuhA/seed_refpkg/final_outputs/PuhA_build.json
 
-13/02 15:18:09 INFO:
+27/05 17:45:28 INFO:
 Data for PuhA has been generated successfully.
 
-13/02 15:18:09 INFO:
+27/05 17:45:28 INFO:
 TreeSAPP has finished successfully.
 

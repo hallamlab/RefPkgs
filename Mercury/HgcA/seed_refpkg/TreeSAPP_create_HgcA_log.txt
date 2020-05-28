@@ -1,0 +1,6420 @@
+27/05 10:12:53 INFO:
+
+##			Creating TreeSAPP reference package			##
+
+27/05 10:12:53 INFO:
+Arguments used:
+-i Mercury/HgcA/HgcA_public.faa -o Mercury/HgcA/seed_refpkg/ -c HgcA -p 0.97 --trim_align --seqs2lineage Mercury/HgcA/HgcA.csv -n 4 --delete --headless --fast -b 0 -m prot --overwrite
+
+27/05 10:12:53 DEBUG:
+Continuing with stage 'lineages'
+
+27/05 10:12:53 DEBUG:
+Mercury/HgcA/HgcA_public.faa read by pyfastx in 0.0004296302795410156 seconds.
+
+27/05 10:12:53 DEBUG:
+Read 108 headers from Mercury/HgcA/HgcA_public.faa.
+
+27/05 10:12:53 DEBUG:
+Identified and replaced invalid ambiguity characters in 0 sequences.
+
+27/05 10:12:53 INFO:
+Sequence summary:
+	Number of sequences: 108
+	Longest sequence length: 424
+	Shortest sequence length: 289
+	Mean sequence length: 349.1
+	Median sequence length: 343.0
+
+27/05 10:12:53 INFO:
+Extracting information from headers... 
+27/05 10:12:53 INFO:
+done.
+
+27/05 10:12:53 DEBUG:
+	Number of input sequences =	108
+
+27/05 10:12:53 INFO:
+Mapping assigned sequences to provided taxonomic lineages... 
+27/05 10:12:53 DEBUG:
+Unable to find parent for 1 ORFs in sequence-lineage map:
+HgcA-like_Nitrospina_sp_LS_NOB
+
+27/05 10:12:53 INFO:
+done.
+
+27/05 10:12:53 DEBUG:
+	Number of queries =	1
+
+27/05 10:12:53 INFO:
+Preparing Bio.Entrez for NCBI queries... 
+27/05 10:12:55 INFO:
+done.
+
+27/05 10:12:55 INFO:
+Retrieving Entrez taxonomy records for each accession... 
+27/05 10:12:55 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 100	0.0:0.7
+
+27/05 10:12:55 WARNING:
+Unable to parse XML data from Entrez! Either the XML is corrupted or the query terms cannot be found in the database.
+Offending accessions from this batch:
+	HgcA-like_Nitrospina_sp_LS_NOB
+
+27/05 10:12:55 INFO:
+done.
+
+27/05 10:12:55 DEBUG:
+0 unique organism queries.
+
+27/05 10:12:55 INFO:
+Retrieving NCBI taxonomy IDs for each organism... 
+27/05 10:12:55 INFO:
+done.
+
+27/05 10:12:55 INFO:
+Preparing Bio.Entrez for NCBI queries... 
+27/05 10:12:56 INFO:
+done.
+
+27/05 10:12:56 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+Information for EntrezRecord ID '1_HgcA':
+accession = HgcA-like_Nitrospina_sp_LS_NOB, acc.version = 
+organism = , rank resolved = 
+NCBI taxid = , bitflag = 0
+lineage = 
+description = , locus = 
+
+
+27/05 10:12:56 INFO:
+Retrieving lineage information for each taxonomy ID... 
+27/05 10:12:56 INFO:
+done.
+
+27/05 10:12:56 DEBUG:
+Queries mapped ideally = 0
+Queries with organism unmapped = 0
+Queries with NCBI taxonomy ID unmapped = 1
+Queries mapped with alternative accessions = 0
+Queries that outright failed = 0
+
+27/05 10:12:56 DEBUG:
+Entrez.efetch query stats:
+	Downloaded	1
+	Provided	107
+	Total		108
+
+
+27/05 10:12:56 DEBUG:
+Switching multifurcating trie to include rank prefixes.
+
+27/05 10:12:56 WARNING:
+No lineages from the accession map were added to the EntrezRecord attributes.
+
+27/05 10:12:56 DEBUG:
+Re-enumerating the reference sequences in taxonomic order... 
+27/05 10:12:56 DEBUG:
+done.
+
+27/05 10:12:56 INFO:
+Detecting outlier reference sequences... 
+27/05 10:13:00 INFO:
+done.
+
+27/05 10:13:00 DEBUG:
+0 outlier sequences detected and discarded.
+	
+
+27/05 10:13:00 DEBUG:
+Re-enumerating the reference sequences in taxonomic order... 
+27/05 10:13:00 DEBUG:
+done.
+
+27/05 10:13:00 DEBUG:
+108 references before and 108 remaining after filtering.
+
+27/05 10:13:00 DEBUG:
+Removing 0 taxa (0 unique) from taxonomic hierarchy.
+
+27/05 10:13:00 INFO:
+Number of unique lineages:
+	domain     2
+	phylum    11
+	class     10
+	order     14
+	family    29
+	genus     53
+	species   93
+Unclassified and incomplete lineages account for 15/108 (13.9%) references.
+
+27/05 10:13:00 INFO:
+Aligning the sequences using MAFFT... 
+27/05 10:13:03 INFO:
+done.
+
+27/05 10:13:03 DEBUG:
+Read 108 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/final_outputs/HgcA.fa.
+
+27/05 10:13:03 DEBUG:
+Reference alignment contains 108 sequences with 494 character positions.
+
+27/05 10:13:03 DEBUG:
+Building HMM profile... 
+27/05 10:13:03 DEBUG:
+done.
+
+27/05 10:13:03 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:13:03 DEBUG:
+Read 108 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/final_outputs/HgcA.fa.
+
+27/05 10:13:03 DEBUG:
+15 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:13:03 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	103_HgcA
+	31_HgcA
+	81_HgcA
+	69_HgcA
+	29_HgcA
+	32_HgcA
+	90_HgcA
+	95_HgcA
+	37_HgcA
+	27_HgcA
+	9_HgcA
+	44_HgcA
+	50_HgcA
+	88_HgcA
+	1_HgcA
+	94_HgcA
+	10_HgcA
+	30_HgcA
+	49_HgcA
+	51_HgcA
+	77_HgcA
+	71_HgcA
+	47_HgcA
+	80_HgcA
+	68_HgcA
+	79_HgcA
+	96_HgcA
+	57_HgcA
+	64_HgcA
+	89_HgcA
+	5_HgcA
+	92_HgcA
+	101_HgcA
+	76_HgcA
+	34_HgcA
+	78_HgcA
+	82_HgcA
+	42_HgcA
+	11_HgcA
+	23_HgcA
+	26_HgcA
+	91_HgcA
+	62_HgcA
+	63_HgcA
+	33_HgcA
+	48_HgcA
+	93_HgcA
+
+27/05 10:13:05 DEBUG:
+Building HMM profile... 
+27/05 10:13:05 DEBUG:
+done.
+
+27/05 10:13:05 DEBUG:
+done.
+
+27/05 10:13:05 DEBUG:
+61 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:13:05 INFO:
+Running BMGE... 
+27/05 10:13:05 DEBUG:
+STAGE: Multiple alignment trimming with BMGE
+	COMMAND:
+java -Xmx512m -jar /home/connor/Bioinformatics/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp/sub_binaries/BMGE.jar -t AA -m BLOSUM30 -g 0.99:0.33 -i /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/final_outputs/HgcA.fa -of /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/final_outputs/HgcA-BMGE.fasta
+
+27/05 10:13:06 INFO:
+done.
+
+27/05 10:13:06 DEBUG:
+	BMGE time required: 0.0:0.0:0.54
+
+27/05 10:13:06 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/final_outputs/HgcA-BMGE.fasta = 0 (retained)
+
+27/05 10:13:06 INFO:
+Building phylogenetic tree with FastTree... 
+27/05 10:13:10 INFO:
+done.
+
+27/05 10:13:10 DEBUG:
+FastTree Version 2.1.10 Double precision (No SSE3)
+Alignment: /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/HgcA.phy
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Le-Gascuel 2008, CAT approximation with 4 rate categories
+Initial topology in 0.05 seconds
+Refining topology: 27 rounds ME-NNIs, 2 rounds ME-SPRs, 14 rounds ML-NNIs
+      0.16 seconds: SPR round   1 of   2, 101 of 214 nodes
+      0.26 seconds: ME NNI round 10 of 27, 1 of 106 splits
+      0.38 seconds: SPR round   2 of   2, 101 of 214 nodes
+      0.48 seconds: ME NNI round 19 of 27, 1 of 106 splits
+Total branch-length 24.274 after 0.50 sec
+      0.68 seconds: ML Lengths 101 of 106 splits
+      1.41 seconds: ML NNI round 1 of 14, 101 of 106 splits, 10 changes (max delta 4.959)
+ML-NNI round 1: LogLk = -38192.231 NNIs 11 max delta 4.96 Time 1.45
+      1.52 seconds: Site likelihoods with rate category 4 of 4
+Switched to using 4 rate categories (CAT approximation)
+Rate categories were divided by 1.128 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+      1.91 seconds: ML NNI round 2 of 14, 101 of 106 splits, 7 changes (max delta 12.731)
+ML-NNI round 2: LogLk = -35646.628 NNIs 7 max delta 12.73 Time 1.94
+ML-NNI round 3: LogLk = -35637.436 NNIs 3 max delta 1.90 Time 2.16
+      2.16 seconds: ML NNI round 4 of 14, 1 of 106 splits
+ML-NNI round 4: LogLk = -35632.577 NNIs 3 max delta 1.07 Time 2.36
+      2.35 seconds: ML NNI round 5 of 14, 1 of 106 splits
+ML-NNI round 5: LogLk = -35632.478 NNIs 0 max delta 0.00 Time 2.46
+Turning off heuristics for final round of ML NNIs (converged)
+      2.45 seconds: ML NNI round 6 of 14, 1 of 106 splits
+      3.19 seconds: ML NNI round 6 of 14, 101 of 106 splits, 3 changes (max delta 3.351)
+ML-NNI round 6: LogLk = -35585.636 NNIs 3 max delta 3.35 Time 3.24 (final)
+      3.41 seconds: ML Lengths 101 of 106 splits
+Optimize all lengths: LogLk = -35584.759 Time 3.43
+      3.96 seconds: ML split tests for    100 of    105 internal splits
+      4.06 seconds: Site likelihoods with rate category 4 of 4
+Gamma(4) LogLk = -35951.527 alpha = 1.071 rescaling lengths by 1.116
+Total time: 4.08 seconds Unique: 108/108 Bad splits: 0/105
+
+
+27/05 10:13:10 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:13:10 DEBUG:
+done.
+
+27/05 10:13:10 INFO:
+
+##			Train taxonomic rank-placement distance model			##
+
+27/05 10:13:10 INFO:
+Arguments used:
+-i /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/HgcA_public_filtered.fa -r /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/final_outputs/HgcA_build.json -o /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/ -m prot -a /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates//accession_id_lineage_map.tsv -n 4 --trim_align
+
+27/05 10:13:10 DEBUG:
+Unable to open stage file '' for reading. Defaulting to stage 2.
+
+27/05 10:13:10 DEBUG:
+Continuing with stage 'place'
+
+27/05 10:13:10 DEBUG:
+Read 108 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/HgcA_public_filtered.fa.
+
+27/05 10:13:10 INFO:
+Extracting information from headers... 
+27/05 10:13:10 INFO:
+done.
+
+27/05 10:13:10 DEBUG:
+	Number of input sequences =	108
+
+27/05 10:13:10 INFO:
+Reading cached lineages in '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates//accession_id_lineage_map.tsv'... 
+27/05 10:13:10 INFO:
+done.
+
+27/05 10:13:10 DEBUG:
+Read 108 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/HgcA_public_filtered.fa.
+
+27/05 10:13:10 DEBUG:
+Checking for redundant sequences with duplicate accessions.
+
+27/05 10:13:10 DEBUG:
+Checking for redundant FASTA records with duplicate sequences... 
+27/05 10:13:10 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	HgcA-like_Nitrospina_sp_LS_NOB
+
+27/05 10:13:10 DEBUG:
+3 lineages truncated before 'class' were removed during lineage trimming.
+
+27/05 10:13:10 DEBUG:
+20.0% of optimal  class lineages are present in the pruned trees.
+
+27/05 10:13:10 DEBUG:
+15 lineages truncated before 'species' were removed during lineage trimming.
+
+27/05 10:13:10 DEBUG:
+59.1% of optimal  species lineages are present in the pruned trees.
+
+27/05 10:13:10 DEBUG:
+Optimal placement target was not found in the pruned tree for following taxa:
+	d__Archaea; p__Euryarchaeota
+	d__Bacteria; p__Bacteroidetes
+	d__Bacteria; p__Chloroflexi
+	d__Bacteria; p__Nitrospinae
+	d__Bacteria; p__Nitrospirae
+	d__Bacteria; p__Planctomycetes
+	d__Bacteria; p__Proteobacteria
+	d__Bacteria; p__Spirochaetes
+	d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanocorpusculaceae; g__Methanocorpusculum
+	d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanomicrobiaceae; g__Methanofollis
+	d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanoregulaceae; g__Methanosphaerula
+	d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanospirillaceae; g__Methanospirillum
+	d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanomethylovorans
+	d__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides
+	d__Bacteria; p__Chloroflexi; c__Dehalococcoidia; o__Dehalococcoidales; f__Dehalococcoidaceae; g__Dehalococcoides
+	d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Clostridiaceae; g__Alkaliphilus
+	d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Clostridiaceae; g__Clostridium
+	d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Clostridiaceae; g__Natronincola
+	d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Hungateiclostridiaceae; g__Hungateiclostridium
+	d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Hungateiclostridiaceae; g__Pseudobacteroides
+	d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Hungateiclostridiaceae; g__Ruminiclostridium
+	d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae; g__Dehalobacter
+	d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae; g__Syntrophobotulus
+	d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Ruminococcaceae; g__Ethanoligenens
+	d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Syntrophomonadaceae; g__Dethiobacter
+	d__Bacteria; p__Firmicutes; c__Negativicutes; o__Selenomonadales; f__Sporomusaceae; g__Acetonema
+	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfarculales; f__Desulfarculaceae; g__Desulfocarbo
+	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfarculales; f__Desulfarculaceae; g__Dethiosulfatarculus
+	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfobacterales; f__Desulfobacteraceae; g__Desulfobacula
+	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfobacterales; f__Desulfobacteraceae; g__Desulfoluna
+	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfobacterales; f__Desulfobacteraceae; g__Desulfospira
+	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfobacterales; f__Desulfobacteraceae; g__Desulfotignum
+	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfobacterales; f__Desulfobulbaceae; g__Desulfofustis
+	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfohalobiaceae; g__Desulfonatronovibrio
+	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfocurvibacter
+	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfocurvus
+	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfohalovibrio
+	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Pseudodesulfovibrio
+	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfuromonadales; f__Desulfuromonadaceae; g__Desulfuromonas
+	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfuromonadales; f__Desulfuromonadaceae; g__Pelobacter
+	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfuromonadales; f__Geobacteraceae; g__Geoalkalibacter
+	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfuromonadales; f__Geobacteraceae; g__Geopsychrobacter
+	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Syntrophobacterales; f__Syntrophaceae; g__Desulfomonile
+	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Syntrophobacterales; f__Syntrophaceae; g__Smithella
+	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Syntrophobacterales; f__Syntrophorhabdaceae; g__Syntrophorhabdus
+	d__Bacteria; p__Spirochaetes; c__Spirochaetia; o__Spirochaetales; f__Spirochaetaceae; g__Alkalispirochaeta
+
+27/05 10:13:10 DEBUG:
+Sequences available for training class-level placement distances:
+	0	d__Archaea; p__Euryarchaeota; c__Methanomicrobia
+	0	d__Bacteria; p__Bacteroidetes; c__Bacteroidia
+	0	d__Bacteria; p__Chloroflexi; c__Dehalococcoidia
+	24	d__Bacteria; p__Firmicutes; c__Clostridia
+	1	d__Bacteria; p__Firmicutes; c__Negativicutes
+	0	d__Bacteria; p__Nitrospinae; c__Nitrospinia
+	0	d__Bacteria; p__Nitrospirae; c__Nitrospira
+	0	d__Bacteria; p__Planctomycetes; c__Phycisphaerae
+	0	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria
+	0	d__Bacteria; p__Spirochaetes; c__Spirochaetia
+2/10 class have training sequences.
+Sequences available for training species-level placement distances:
+	1	d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanocellales; f__Methanocellaceae; g__Methanocella; s__Methanocella arvoryzae
+	1	d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanocellales; f__Methanocellaceae; g__Methanocella; s__Methanocella paludicola
+	0	d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanocorpusculaceae; g__Methanocorpusculum; s__Methanocorpusculum bavaricum
+	0	d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanomicrobiaceae; g__Methanofollis; s__Methanofollis liminatans
+	1	d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanoregulaceae; g__Methanoregula; s__Methanoregula boonei
+	1	d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanoregulaceae; g__Methanoregula; s__Methanoregula formicica
+	0	d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanoregulaceae; g__Methanosphaerula; s__Methanosphaerula palustris
+	0	d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanospirillaceae; g__Methanospirillum; s__Methanospirillum hungatei
+	1	d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanolobus; s__Methanolobus profundi
+	1	d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanolobus; s__Methanolobus psychrophilus
+	1	d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanolobus; s__Methanolobus tindarius
+	1	d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanolobus; s__Methanolobus vulcani
+	0	d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanomethylovorans; s__Methanomethylovorans hollandica
+	0	d__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides; s__Bacteroides sp. SM1_62
+	0	d__Bacteria; p__Chloroflexi; c__Dehalococcoidia; o__Dehalococcoidales; f__Dehalococcoidaceae; g__Dehalococcoides; s__Dehalococcoides mccartyi
+	0	d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Clostridiaceae; g__Alkaliphilus; s__Alkaliphilus peptidifermentans
+	0	d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Clostridiaceae; g__Clostridium; s__Clostridium tunisiense
+	0	d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Clostridiaceae; g__Natronincola; s__Natronincola peptidivorans
+	0	d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Hungateiclostridiaceae; g__Hungateiclostridium; s__Hungateiclostridium cellulolyticum
+	0	d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Hungateiclostridiaceae; g__Pseudobacteroides; s__Pseudobacteroides cellulosolvens
+	0	d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Hungateiclostridiaceae; g__Ruminiclostridium; s__Ruminiclostridium cellobioparum
+	1	d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Anaerocolumna; s__Anaerocolumna jejuensis
+	1	d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Anaerocolumna; s__Anaerocolumna xylanovorans
+	0	d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae; g__Dehalobacter; s__Dehalobacter restrictus
+	1	d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae; g__Desulfitobacterium; s__Desulfitobacterium dehalogenans
+	1	d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae; g__Desulfitobacterium; s__Desulfitobacterium dichloroeliminans
+	1	d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae; g__Desulfitobacterium; s__Desulfitobacterium metallireducens
+	1	d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae; g__Desulfosporosinus; s__Desulfosporosinus acidiphilus
+	1	d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae; g__Desulfosporosinus; s__Desulfosporosinus lacus
+	1	d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae; g__Desulfosporosinus; s__Desulfosporosinus orientis
+	1	d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae; g__Desulfosporosinus; s__Desulfosporosinus sp. I2
+	1	d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae; g__Desulfosporosinus; s__Desulfosporosinus sp. OT
+	1	d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae; g__Desulfosporosinus; s__Desulfosporosinus sp. Tol-M
+	1	d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae; g__Desulfosporosinus; s__Desulfosporosinus youngiae
+	0	d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae; g__Syntrophobotulus; s__Syntrophobotulus glycolicus
+	0	d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Ruminococcaceae; g__Ethanoligenens; s__Ethanoligenens harbinense
+	0	d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Syntrophomonadaceae; g__Dethiobacter; s__Dethiobacter alkaliphilus
+	0	d__Bacteria; p__Firmicutes; c__Negativicutes; o__Selenomonadales; f__Sporomusaceae; g__Acetonema; s__Acetonema longum
+	1	d__Bacteria; p__Nitrospinae; c__Nitrospinia; o__Nitrospinales; f__Nitrospinaceae; g__Nitrospina; s__Nitrospina sp. AB-629-B06
+	1	d__Bacteria; p__Nitrospinae; c__Nitrospinia; o__Nitrospinales; f__Nitrospinaceae; g__Nitrospina; s__Nitrospina sp. SAG_AG-538-L21
+	0	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfarculales; f__Desulfarculaceae; g__Desulfocarbo; s__Desulfocarbo indianensis
+	0	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfarculales; f__Desulfarculaceae; g__Dethiosulfatarculus; s__Dethiosulfatarculus sandiegensis
+	0	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfobacterales; f__Desulfobacteraceae; g__Desulfobacula; s__Desulfobacula phenolica
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfobacterales; f__Desulfobacteraceae; g__Desulfococcus; s__Desulfococcus biacutus
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfobacterales; f__Desulfobacteraceae; g__Desulfococcus; s__Desulfococcus multivorans
+	0	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfobacterales; f__Desulfobacteraceae; g__Desulfoluna; s__Desulfoluna spongiiphila
+	0	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfobacterales; f__Desulfobacteraceae; g__Desulfospira; s__Desulfospira joergensenii
+	0	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfobacterales; f__Desulfobacteraceae; g__Desulfotignum; s__Desulfotignum phosphitoxidans
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfobacterales; f__Desulfobulbaceae; g__Desulfobulbus; s__Desulfobulbus japonicus
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfobacterales; f__Desulfobulbaceae; g__Desulfobulbus; s__Desulfobulbus mediterraneus
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfobacterales; f__Desulfobulbaceae; g__Desulfobulbus; s__Desulfobulbus propionicus
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfobacterales; f__Desulfobulbaceae; g__Desulfobulbus; s__Desulfobulbus sp. Tol-SR
+	0	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfobacterales; f__Desulfobulbaceae; g__Desulfofustis; s__Desulfofustis glycolicus
+	0	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfohalobiaceae; g__Desulfonatronovibrio; s__Desulfonatronovibrio hydrogenovorans
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfomicrobiaceae; g__Desulfomicrobium; s__Desulfomicrobium apsheronum
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfomicrobiaceae; g__Desulfomicrobium; s__Desulfomicrobium baculatum
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfomicrobiaceae; g__Desulfomicrobium; s__Desulfomicrobium escambiense
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfonatronaceae; g__Desulfonatronum; s__Desulfonatronum lacustre
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfonatronaceae; g__Desulfonatronum; s__Desulfonatronum thioautotrophicum
+	0	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfocurvibacter; s__Desulfocurvibacter africanus
+	0	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfocurvus; s__Desulfocurvus vexinensis
+	0	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfohalovibrio; s__Desulfohalovibrio alkalitolerans
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfovibrio; s__Desulfovibrio bizertensis
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfovibrio; s__Desulfovibrio desulfuricans
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfovibrio; s__Desulfovibrio halophilus
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfovibrio; s__Desulfovibrio inopinatus
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfovibrio; s__Desulfovibrio longus
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfovibrio; s__Desulfovibrio oxyclinae
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfovibrio; s__Desulfovibrio putealis
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfovibrio; s__Desulfovibrio sp. X2
+	0	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Pseudodesulfovibrio; s__Pseudodesulfovibrio aespoeensis
+	0	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfuromonadales; f__Desulfuromonadaceae; g__Desulfuromonas; s__Desulfuromonas soudanensis
+	0	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfuromonadales; f__Desulfuromonadaceae; g__Pelobacter; s__Pelobacter seleniigenes
+	0	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfuromonadales; f__Geobacteraceae; g__Geoalkalibacter; s__Geoalkalibacter ferrihydriticus
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfuromonadales; f__Geobacteraceae; g__Geobacter; s__Geobacter argillaceus
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfuromonadales; f__Geobacteraceae; g__Geobacter; s__Geobacter bemidjiensis
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfuromonadales; f__Geobacteraceae; g__Geobacter; s__Geobacter daltonii
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfuromonadales; f__Geobacteraceae; g__Geobacter; s__Geobacter metallireducens
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfuromonadales; f__Geobacteraceae; g__Geobacter; s__Geobacter pickeringii
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfuromonadales; f__Geobacteraceae; g__Geobacter; s__Geobacter soli
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfuromonadales; f__Geobacteraceae; g__Geobacter; s__Geobacter sp. M18
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfuromonadales; f__Geobacteraceae; g__Geobacter; s__Geobacter sp. OR-1
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfuromonadales; f__Geobacteraceae; g__Geobacter; s__Geobacter sulfurreducens
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfuromonadales; f__Geobacteraceae; g__Geobacter; s__Geobacter uraniireducens
+	0	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfuromonadales; f__Geobacteraceae; g__Geopsychrobacter; s__Geopsychrobacter electrodiphilus
+	0	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Syntrophobacterales; f__Syntrophaceae; g__Desulfomonile; s__Desulfomonile tiedjei
+	0	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Syntrophobacterales; f__Syntrophaceae; g__Smithella; s__Smithella sp. F21
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Syntrophobacterales; f__Syntrophaceae; g__Syntrophus; s__Syntrophus aciditrophicus
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Syntrophobacterales; f__Syntrophaceae; g__Syntrophus; s__Syntrophus gentianae
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Syntrophobacterales; f__Syntrophobacteraceae; g__Desulfacinum; s__Desulfacinum hydrothermale
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Syntrophobacterales; f__Syntrophobacteraceae; g__Desulfacinum; s__Desulfacinum infernum
+	0	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Syntrophobacterales; f__Syntrophorhabdaceae; g__Syntrophorhabdus; s__Syntrophorhabdus aromaticivorans
+	0	d__Bacteria; p__Spirochaetes; c__Spirochaetia; o__Spirochaetales; f__Spirochaetaceae; g__Alkalispirochaeta; s__Alkalispirochaeta odontotermitis
+55/93 species have training sequences.
+
+27/05 10:13:10 INFO:
+Clustering sequences with UCLUST... 
+27/05 10:13:10 INFO:
+done.
+
+27/05 10:13:10 DEBUG:
+usearch v11.0.667_i86linux32, 4.0Gb RAM (32.9Gb total), 4 cores
+(C) Copyright 2013-18 Robert C. Edgar, all rights reserved.
+https://drive5.com/usearch
+
+License: c.morganlang@gmail.com
+
+00:00 37Mb      0.1% Reading /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates//uclust_input.fasta00:00 41Mb    100.0% Reading /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates//uclust_input.fasta
+00:00 32Mb      3.4% DF                                                                                                                                                    00:00 35Mb    100.0% DF
+00:00 35Mb   107 seqs, 107 uniques, 107 singletons (100.0%)
+00:00 35Mb   Min size 1, median 1, max 1, avg 1.00
+00:00 39Mb      0.9% DB00:00 39Mb    100.0% DB
+00:00 39Mb   Sort length... done.
+00:00 78Mb      0.9% Clustering00:00 78Mb      0.9% 0 clusters, max size 0, avg 0.000:00 90Mb    100.0% 107 clusters, max size 1, avg 1.0
+00:00 90Mb      0.9% Writing centroids to /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates//uclust0.99.fa00:00 90Mb    100.0% Writing centroids to /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates//uclust0.99.fa
+                                                                                                                                                                                   
+      Seqs  107
+  Clusters  107
+  Max size  1
+  Avg size  1.0
+  Min size  1
+Singletons  107, 100.0% of seqs, 100.0% of clusters
+   Max mem  90Mb
+      Time  1.00s
+Throughput  107.0 seqs/sec.
+
+
+27/05 10:13:10 DEBUG:
+Reading usearch cluster file... 
+27/05 10:13:10 DEBUG:
+done.
+
+27/05 10:13:10 DEBUG:
+	107 sequence clusters
+
+27/05 10:13:10 INFO:
+Preparing deduplicated sequence set for training... 
+27/05 10:13:10 DEBUG:
+3 lineages truncated before 'class' were removed during lineage trimming.
+
+27/05 10:13:10 DEBUG:
+15 lineages truncated before 'species' were removed during lineage trimming.
+
+27/05 10:13:10 INFO:
+done.
+
+27/05 10:13:10 INFO:
+
+Estimating branch-length placement distances for taxonomic ranks. Progress:
+
+27/05 10:13:10 DEBUG:
+25 sequences to train class-level placement distances
+
+27/05 10:13:10 DEBUG:
+55 sequences to train species-level placement distances
+
+27/05 10:13:10 DEBUG:
+15 lineages truncated before 'species' were removed during lineage trimming.
+
+27/05 10:13:10 DEBUG:
+Testing placements for d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanocellales; f__Methanocellaceae; g__Methanocella; s__Methanocella arvoryzae:
+
+27/05 10:13:10 DEBUG:
+Reference sequence filtering stats for s__Methanocella arvoryzae
+Match taxon	1
+Unclassified	1
+Too shallow	1
+Remaining	106
+
+27/05 10:13:11 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:13:11 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methanocella_arvoryzae/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:13:11 DEBUG:
+14 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:13:11 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	64_HgcA
+	44_HgcA
+	77_HgcA
+	31_HgcA
+	92_HgcA
+	32_HgcA
+	94_HgcA
+	37_HgcA
+	10_HgcA
+	50_HgcA
+	49_HgcA
+	89_HgcA
+	11_HgcA
+	57_HgcA
+	30_HgcA
+	23_HgcA
+	48_HgcA
+	81_HgcA
+	93_HgcA
+	68_HgcA
+	29_HgcA
+	76_HgcA
+	103_HgcA
+	90_HgcA
+	80_HgcA
+	69_HgcA
+	71_HgcA
+	63_HgcA
+	79_HgcA
+	95_HgcA
+	26_HgcA
+	101_HgcA
+	62_HgcA
+	34_HgcA
+	78_HgcA
+	96_HgcA
+	12_HgcA
+	27_HgcA
+	42_HgcA
+	82_HgcA
+	51_HgcA
+	5_HgcA
+	91_HgcA
+	33_HgcA
+	47_HgcA
+	88_HgcA
+
+27/05 10:13:13 DEBUG:
+Building HMM profile... 
+27/05 10:13:13 DEBUG:
+done.
+
+27/05 10:13:13 DEBUG:
+done.
+
+27/05 10:13:13 DEBUG:
+60 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:13:13 DEBUG:
+	106 leaves in pruned tree.
+
+27/05 10:13:13 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:13:14 DEBUG:
+done.
+
+27/05 10:13:14 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methanocella_arvoryzae/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:13:14 DEBUG:
+	1 query sequences.
+
+27/05 10:13:14 DEBUG:
+
+
+27/05 10:13:14 DEBUG:
+Columns = 295
+
+27/05 10:13:14 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methanocella_arvoryzae/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:13:14 DEBUG:
+Read 107 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methanocella_arvoryzae/queries-BMGE.fasta.
+
+27/05 10:13:15 DEBUG:
+Testing placements for d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanocellales; f__Methanocellaceae; g__Methanocella; s__Methanocella paludicola:
+
+27/05 10:13:15 DEBUG:
+Reference sequence filtering stats for s__Methanocella paludicola
+Match taxon	1
+Unclassified	1
+Too shallow	1
+Remaining	106
+
+27/05 10:13:15 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:13:15 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methanocella_paludicola/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:13:15 DEBUG:
+14 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:13:15 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	64_HgcA
+	44_HgcA
+	77_HgcA
+	31_HgcA
+	92_HgcA
+	29_HgcA
+	32_HgcA
+	94_HgcA
+	37_HgcA
+	27_HgcA
+	10_HgcA
+	50_HgcA
+	49_HgcA
+	89_HgcA
+	11_HgcA
+	57_HgcA
+	30_HgcA
+	81_HgcA
+	48_HgcA
+	93_HgcA
+	68_HgcA
+	76_HgcA
+	103_HgcA
+	90_HgcA
+	80_HgcA
+	69_HgcA
+	71_HgcA
+	63_HgcA
+	79_HgcA
+	95_HgcA
+	62_HgcA
+	101_HgcA
+	34_HgcA
+	78_HgcA
+	96_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	42_HgcA
+	82_HgcA
+	51_HgcA
+	5_HgcA
+	91_HgcA
+	33_HgcA
+	47_HgcA
+	88_HgcA
+
+27/05 10:13:17 DEBUG:
+Building HMM profile... 
+27/05 10:13:18 DEBUG:
+done.
+
+27/05 10:13:18 DEBUG:
+done.
+
+27/05 10:13:18 DEBUG:
+60 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:13:18 DEBUG:
+	106 leaves in pruned tree.
+
+27/05 10:13:18 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:13:18 DEBUG:
+done.
+
+27/05 10:13:18 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methanocella_paludicola/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:13:18 DEBUG:
+	1 query sequences.
+
+27/05 10:13:18 DEBUG:
+
+
+27/05 10:13:19 DEBUG:
+Columns = 295
+
+27/05 10:13:19 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methanocella_paludicola/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:13:19 DEBUG:
+Read 107 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methanocella_paludicola/queries-BMGE.fasta.
+
+27/05 10:13:19 DEBUG:
+Testing placements for d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanoregulaceae; g__Methanoregula; s__Methanoregula boonei:
+
+27/05 10:13:19 DEBUG:
+Reference sequence filtering stats for s__Methanoregula boonei
+Match taxon	1
+Unclassified	1
+Too shallow	1
+Remaining	106
+
+27/05 10:13:19 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:13:19 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methanoregula_boonei/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:13:19 DEBUG:
+14 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:13:19 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	64_HgcA
+	77_HgcA
+	30_HgcA
+	92_HgcA
+	29_HgcA
+	31_HgcA
+	94_HgcA
+	27_HgcA
+	10_HgcA
+	42_HgcA
+	48_HgcA
+	89_HgcA
+	11_HgcA
+	81_HgcA
+	47_HgcA
+	93_HgcA
+	49_HgcA
+	57_HgcA
+	68_HgcA
+	76_HgcA
+	103_HgcA
+	90_HgcA
+	80_HgcA
+	69_HgcA
+	71_HgcA
+	63_HgcA
+	51_HgcA
+	1_HgcA
+	79_HgcA
+	95_HgcA
+	44_HgcA
+	62_HgcA
+	101_HgcA
+	33_HgcA
+	78_HgcA
+	96_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	82_HgcA
+	50_HgcA
+	91_HgcA
+	32_HgcA
+	88_HgcA
+	37_HgcA
+
+27/05 10:13:22 DEBUG:
+Building HMM profile... 
+27/05 10:13:22 DEBUG:
+done.
+
+27/05 10:13:22 DEBUG:
+done.
+
+27/05 10:13:22 DEBUG:
+60 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:13:22 DEBUG:
+	106 leaves in pruned tree.
+
+27/05 10:13:22 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:13:23 DEBUG:
+done.
+
+27/05 10:13:23 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methanoregula_boonei/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:13:23 DEBUG:
+	1 query sequences.
+
+27/05 10:13:23 DEBUG:
+
+
+27/05 10:13:23 DEBUG:
+Columns = 295
+
+27/05 10:13:23 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methanoregula_boonei/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:13:23 DEBUG:
+Read 107 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methanoregula_boonei/queries-BMGE.fasta.
+
+27/05 10:13:24 DEBUG:
+Testing placements for d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanoregulaceae; g__Methanoregula; s__Methanoregula formicica:
+
+27/05 10:13:24 DEBUG:
+Reference sequence filtering stats for s__Methanoregula formicica
+Match taxon	1
+Unclassified	1
+Too shallow	1
+Remaining	106
+
+27/05 10:13:24 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:13:24 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methanoregula_formicica/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:13:24 DEBUG:
+14 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:13:24 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	63_HgcA
+	77_HgcA
+	30_HgcA
+	92_HgcA
+	29_HgcA
+	31_HgcA
+	94_HgcA
+	27_HgcA
+	10_HgcA
+	42_HgcA
+	48_HgcA
+	89_HgcA
+	11_HgcA
+	81_HgcA
+	47_HgcA
+	93_HgcA
+	49_HgcA
+	57_HgcA
+	76_HgcA
+	64_HgcA
+	103_HgcA
+	90_HgcA
+	80_HgcA
+	68_HgcA
+	71_HgcA
+	62_HgcA
+	51_HgcA
+	1_HgcA
+	79_HgcA
+	95_HgcA
+	44_HgcA
+	33_HgcA
+	101_HgcA
+	78_HgcA
+	96_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	82_HgcA
+	50_HgcA
+	91_HgcA
+	69_HgcA
+	32_HgcA
+	88_HgcA
+	37_HgcA
+
+27/05 10:13:26 DEBUG:
+Building HMM profile... 
+27/05 10:13:26 DEBUG:
+done.
+
+27/05 10:13:26 DEBUG:
+done.
+
+27/05 10:13:26 DEBUG:
+60 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:13:26 DEBUG:
+	106 leaves in pruned tree.
+
+27/05 10:13:26 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:13:27 DEBUG:
+done.
+
+27/05 10:13:27 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methanoregula_formicica/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:13:27 DEBUG:
+	1 query sequences.
+
+27/05 10:13:27 DEBUG:
+
+
+27/05 10:13:28 DEBUG:
+Columns = 295
+
+27/05 10:13:28 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methanoregula_formicica/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:13:28 DEBUG:
+Read 107 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methanoregula_formicica/queries-BMGE.fasta.
+
+27/05 10:13:28 DEBUG:
+Testing placements for d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanolobus; s__Methanolobus profundi:
+
+27/05 10:13:28 DEBUG:
+Reference sequence filtering stats for s__Methanolobus profundi
+Match taxon	1
+Unclassified	1
+Too shallow	1
+Remaining	106
+
+27/05 10:13:28 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:13:28 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methanolobus_profundi/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:13:28 DEBUG:
+14 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:13:28 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	63_HgcA
+	96_HgcA
+	30_HgcA
+	76_HgcA
+	91_HgcA
+	29_HgcA
+	31_HgcA
+	93_HgcA
+	89_HgcA
+	27_HgcA
+	10_HgcA
+	42_HgcA
+	48_HgcA
+	82_HgcA
+	88_HgcA
+	11_HgcA
+	80_HgcA
+	47_HgcA
+	92_HgcA
+	49_HgcA
+	57_HgcA
+	64_HgcA
+	103_HgcA
+	68_HgcA
+	62_HgcA
+	51_HgcA
+	1_HgcA
+	78_HgcA
+	94_HgcA
+	71_HgcA
+	44_HgcA
+	33_HgcA
+	101_HgcA
+	77_HgcA
+	95_HgcA
+	79_HgcA
+	23_HgcA
+	26_HgcA
+	81_HgcA
+	50_HgcA
+	5_HgcA
+	90_HgcA
+	69_HgcA
+	32_HgcA
+	37_HgcA
+
+27/05 10:13:31 DEBUG:
+Building HMM profile... 
+27/05 10:13:31 DEBUG:
+done.
+
+27/05 10:13:31 DEBUG:
+done.
+
+27/05 10:13:31 DEBUG:
+60 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:13:31 DEBUG:
+	106 leaves in pruned tree.
+
+27/05 10:13:31 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:13:32 DEBUG:
+done.
+
+27/05 10:13:32 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methanolobus_profundi/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:13:32 DEBUG:
+	1 query sequences.
+
+27/05 10:13:32 DEBUG:
+
+
+27/05 10:13:32 DEBUG:
+Columns = 295
+
+27/05 10:13:32 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methanolobus_profundi/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:13:32 DEBUG:
+Read 107 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methanolobus_profundi/queries-BMGE.fasta.
+
+27/05 10:13:32 DEBUG:
+Testing placements for d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanolobus; s__Methanolobus psychrophilus:
+
+27/05 10:13:32 DEBUG:
+Reference sequence filtering stats for s__Methanolobus psychrophilus
+Match taxon	1
+Unclassified	1
+Too shallow	1
+Remaining	106
+
+27/05 10:13:33 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:13:33 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methanolobus_psychrophilus/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:13:33 DEBUG:
+14 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:13:33 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	64_HgcA
+	44_HgcA
+	77_HgcA
+	31_HgcA
+	92_HgcA
+	32_HgcA
+	94_HgcA
+	37_HgcA
+	11_HgcA
+	50_HgcA
+	49_HgcA
+	89_HgcA
+	12_HgcA
+	57_HgcA
+	30_HgcA
+	23_HgcA
+	48_HgcA
+	81_HgcA
+	93_HgcA
+	68_HgcA
+	29_HgcA
+	76_HgcA
+	103_HgcA
+	90_HgcA
+	80_HgcA
+	69_HgcA
+	71_HgcA
+	63_HgcA
+	1_HgcA
+	79_HgcA
+	95_HgcA
+	26_HgcA
+	101_HgcA
+	62_HgcA
+	34_HgcA
+	78_HgcA
+	96_HgcA
+	27_HgcA
+	42_HgcA
+	82_HgcA
+	51_HgcA
+	5_HgcA
+	91_HgcA
+	33_HgcA
+	47_HgcA
+	88_HgcA
+
+27/05 10:13:35 DEBUG:
+Building HMM profile... 
+27/05 10:13:35 DEBUG:
+done.
+
+27/05 10:13:35 DEBUG:
+done.
+
+27/05 10:13:35 DEBUG:
+60 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:13:35 DEBUG:
+	106 leaves in pruned tree.
+
+27/05 10:13:35 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:13:36 DEBUG:
+done.
+
+27/05 10:13:36 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methanolobus_psychrophilus/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:13:36 DEBUG:
+	1 query sequences.
+
+27/05 10:13:36 DEBUG:
+
+
+27/05 10:13:37 DEBUG:
+Columns = 295
+
+27/05 10:13:37 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methanolobus_psychrophilus/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:13:37 DEBUG:
+Read 107 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methanolobus_psychrophilus/queries-BMGE.fasta.
+
+27/05 10:13:37 DEBUG:
+Testing placements for d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanolobus; s__Methanolobus tindarius:
+
+27/05 10:13:37 DEBUG:
+Reference sequence filtering stats for s__Methanolobus tindarius
+Match taxon	1
+Unclassified	1
+Too shallow	1
+Remaining	106
+
+27/05 10:13:37 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:13:37 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methanolobus_tindarius/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:13:37 DEBUG:
+14 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:13:37 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	64_HgcA
+	44_HgcA
+	77_HgcA
+	31_HgcA
+	92_HgcA
+	32_HgcA
+	94_HgcA
+	37_HgcA
+	10_HgcA
+	50_HgcA
+	49_HgcA
+	89_HgcA
+	12_HgcA
+	57_HgcA
+	30_HgcA
+	23_HgcA
+	48_HgcA
+	81_HgcA
+	93_HgcA
+	68_HgcA
+	29_HgcA
+	76_HgcA
+	103_HgcA
+	90_HgcA
+	80_HgcA
+	69_HgcA
+	71_HgcA
+	63_HgcA
+	1_HgcA
+	79_HgcA
+	95_HgcA
+	26_HgcA
+	101_HgcA
+	62_HgcA
+	34_HgcA
+	78_HgcA
+	96_HgcA
+	27_HgcA
+	42_HgcA
+	82_HgcA
+	51_HgcA
+	5_HgcA
+	91_HgcA
+	33_HgcA
+	47_HgcA
+	88_HgcA
+
+27/05 10:13:40 DEBUG:
+Building HMM profile... 
+27/05 10:13:40 DEBUG:
+done.
+
+27/05 10:13:40 DEBUG:
+done.
+
+27/05 10:13:40 DEBUG:
+60 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:13:40 DEBUG:
+	106 leaves in pruned tree.
+
+27/05 10:13:40 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:13:41 DEBUG:
+done.
+
+27/05 10:13:41 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methanolobus_tindarius/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:13:41 DEBUG:
+	1 query sequences.
+
+27/05 10:13:41 DEBUG:
+
+
+27/05 10:13:41 DEBUG:
+Columns = 295
+
+27/05 10:13:41 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methanolobus_tindarius/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:13:41 DEBUG:
+Read 107 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methanolobus_tindarius/queries-BMGE.fasta.
+
+27/05 10:13:41 DEBUG:
+Testing placements for d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanolobus; s__Methanolobus vulcani:
+
+27/05 10:13:41 DEBUG:
+Reference sequence filtering stats for s__Methanolobus vulcani
+Match taxon	1
+Unclassified	1
+Too shallow	1
+Remaining	106
+
+27/05 10:13:42 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:13:42 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methanolobus_vulcani/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:13:42 DEBUG:
+14 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:13:42 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	64_HgcA
+	44_HgcA
+	77_HgcA
+	31_HgcA
+	92_HgcA
+	32_HgcA
+	94_HgcA
+	37_HgcA
+	10_HgcA
+	50_HgcA
+	49_HgcA
+	89_HgcA
+	11_HgcA
+	57_HgcA
+	30_HgcA
+	23_HgcA
+	48_HgcA
+	81_HgcA
+	93_HgcA
+	68_HgcA
+	29_HgcA
+	76_HgcA
+	103_HgcA
+	90_HgcA
+	80_HgcA
+	69_HgcA
+	71_HgcA
+	63_HgcA
+	1_HgcA
+	79_HgcA
+	95_HgcA
+	26_HgcA
+	101_HgcA
+	62_HgcA
+	34_HgcA
+	78_HgcA
+	96_HgcA
+	27_HgcA
+	42_HgcA
+	82_HgcA
+	51_HgcA
+	5_HgcA
+	91_HgcA
+	33_HgcA
+	47_HgcA
+	88_HgcA
+
+27/05 10:13:44 DEBUG:
+Building HMM profile... 
+27/05 10:13:44 DEBUG:
+done.
+
+27/05 10:13:44 DEBUG:
+done.
+
+27/05 10:13:44 DEBUG:
+60 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:13:45 DEBUG:
+	106 leaves in pruned tree.
+
+27/05 10:13:45 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:13:45 DEBUG:
+done.
+
+27/05 10:13:45 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methanolobus_vulcani/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:13:45 DEBUG:
+	1 query sequences.
+
+27/05 10:13:45 DEBUG:
+
+
+27/05 10:13:46 DEBUG:
+Columns = 295
+
+27/05 10:13:46 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methanolobus_vulcani/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:13:46 DEBUG:
+Read 107 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Methanolobus_vulcani/queries-BMGE.fasta.
+
+27/05 10:13:46 DEBUG:
+Testing placements for d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Anaerocolumna; s__Anaerocolumna jejuensis:
+
+27/05 10:13:46 DEBUG:
+Reference sequence filtering stats for s__Anaerocolumna jejuensis
+Match taxon	1
+Unclassified	1
+Too shallow	1
+Remaining	106
+
+27/05 10:13:46 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:13:46 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Anaerocolumna_jejuensis/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:13:46 DEBUG:
+14 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:13:46 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	64_HgcA
+	44_HgcA
+	77_HgcA
+	31_HgcA
+	92_HgcA
+	32_HgcA
+	94_HgcA
+	37_HgcA
+	10_HgcA
+	50_HgcA
+	49_HgcA
+	89_HgcA
+	11_HgcA
+	57_HgcA
+	30_HgcA
+	81_HgcA
+	48_HgcA
+	93_HgcA
+	68_HgcA
+	29_HgcA
+	76_HgcA
+	103_HgcA
+	90_HgcA
+	80_HgcA
+	69_HgcA
+	71_HgcA
+	63_HgcA
+	1_HgcA
+	79_HgcA
+	95_HgcA
+	26_HgcA
+	101_HgcA
+	62_HgcA
+	34_HgcA
+	78_HgcA
+	96_HgcA
+	12_HgcA
+	27_HgcA
+	42_HgcA
+	82_HgcA
+	51_HgcA
+	5_HgcA
+	91_HgcA
+	33_HgcA
+	47_HgcA
+	88_HgcA
+
+27/05 10:13:49 DEBUG:
+Building HMM profile... 
+27/05 10:13:49 DEBUG:
+done.
+
+27/05 10:13:49 DEBUG:
+done.
+
+27/05 10:13:49 DEBUG:
+60 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:13:49 DEBUG:
+	106 leaves in pruned tree.
+
+27/05 10:13:49 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:13:50 DEBUG:
+done.
+
+27/05 10:13:50 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Anaerocolumna_jejuensis/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:13:50 DEBUG:
+	1 query sequences.
+
+27/05 10:13:50 DEBUG:
+
+
+27/05 10:13:50 DEBUG:
+Columns = 295
+
+27/05 10:13:50 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Anaerocolumna_jejuensis/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:13:50 DEBUG:
+Read 107 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Anaerocolumna_jejuensis/queries-BMGE.fasta.
+
+27/05 10:13:51 DEBUG:
+Testing placements for d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Anaerocolumna; s__Anaerocolumna xylanovorans:
+
+27/05 10:13:51 DEBUG:
+Reference sequence filtering stats for s__Anaerocolumna xylanovorans
+Match taxon	1
+Unclassified	1
+Too shallow	1
+Remaining	106
+
+27/05 10:13:51 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:13:51 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Anaerocolumna_xylanovorans/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:13:51 DEBUG:
+14 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:13:51 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	64_HgcA
+	44_HgcA
+	77_HgcA
+	31_HgcA
+	92_HgcA
+	32_HgcA
+	94_HgcA
+	37_HgcA
+	10_HgcA
+	50_HgcA
+	49_HgcA
+	89_HgcA
+	11_HgcA
+	57_HgcA
+	30_HgcA
+	81_HgcA
+	48_HgcA
+	93_HgcA
+	68_HgcA
+	29_HgcA
+	76_HgcA
+	103_HgcA
+	90_HgcA
+	80_HgcA
+	69_HgcA
+	71_HgcA
+	63_HgcA
+	1_HgcA
+	79_HgcA
+	95_HgcA
+	26_HgcA
+	101_HgcA
+	62_HgcA
+	34_HgcA
+	78_HgcA
+	96_HgcA
+	12_HgcA
+	27_HgcA
+	42_HgcA
+	82_HgcA
+	51_HgcA
+	5_HgcA
+	91_HgcA
+	33_HgcA
+	47_HgcA
+	88_HgcA
+
+27/05 10:13:53 DEBUG:
+Building HMM profile... 
+27/05 10:13:54 DEBUG:
+done.
+
+27/05 10:13:54 DEBUG:
+done.
+
+27/05 10:13:54 DEBUG:
+60 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:13:54 DEBUG:
+	106 leaves in pruned tree.
+
+27/05 10:13:54 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:13:54 DEBUG:
+done.
+
+27/05 10:13:54 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Anaerocolumna_xylanovorans/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:13:54 DEBUG:
+	1 query sequences.
+
+27/05 10:13:54 DEBUG:
+
+
+27/05 10:13:55 DEBUG:
+Columns = 295
+
+27/05 10:13:55 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Anaerocolumna_xylanovorans/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:13:55 DEBUG:
+Read 107 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Anaerocolumna_xylanovorans/queries-BMGE.fasta.
+
+27/05 10:13:55 DEBUG:
+Testing placements for d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae; g__Desulfitobacterium; s__Desulfitobacterium dehalogenans:
+
+27/05 10:13:55 DEBUG:
+Reference sequence filtering stats for s__Desulfitobacterium dehalogenans
+Match taxon	1
+Unclassified	1
+Too shallow	1
+Remaining	106
+
+27/05 10:13:55 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:13:55 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfitobacterium_dehalogenans/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:13:55 DEBUG:
+14 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:13:55 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	64_HgcA
+	44_HgcA
+	77_HgcA
+	31_HgcA
+	92_HgcA
+	32_HgcA
+	94_HgcA
+	37_HgcA
+	10_HgcA
+	50_HgcA
+	49_HgcA
+	89_HgcA
+	11_HgcA
+	57_HgcA
+	30_HgcA
+	81_HgcA
+	48_HgcA
+	93_HgcA
+	68_HgcA
+	29_HgcA
+	76_HgcA
+	103_HgcA
+	90_HgcA
+	80_HgcA
+	69_HgcA
+	71_HgcA
+	63_HgcA
+	1_HgcA
+	79_HgcA
+	95_HgcA
+	62_HgcA
+	101_HgcA
+	34_HgcA
+	78_HgcA
+	96_HgcA
+	12_HgcA
+	23_HgcA
+	27_HgcA
+	42_HgcA
+	82_HgcA
+	51_HgcA
+	5_HgcA
+	91_HgcA
+	33_HgcA
+	47_HgcA
+	88_HgcA
+
+27/05 10:13:58 DEBUG:
+Building HMM profile... 
+27/05 10:13:58 DEBUG:
+done.
+
+27/05 10:13:58 DEBUG:
+done.
+
+27/05 10:13:58 DEBUG:
+60 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:13:58 DEBUG:
+	106 leaves in pruned tree.
+
+27/05 10:13:58 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:13:59 DEBUG:
+done.
+
+27/05 10:13:59 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfitobacterium_dehalogenans/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:13:59 DEBUG:
+	1 query sequences.
+
+27/05 10:13:59 DEBUG:
+
+
+27/05 10:13:59 DEBUG:
+Columns = 295
+
+27/05 10:13:59 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfitobacterium_dehalogenans/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:13:59 DEBUG:
+Read 107 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfitobacterium_dehalogenans/queries-BMGE.fasta.
+
+27/05 10:14:00 DEBUG:
+Testing placements for d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae; g__Desulfitobacterium; s__Desulfitobacterium dichloroeliminans:
+
+27/05 10:14:00 DEBUG:
+Reference sequence filtering stats for s__Desulfitobacterium dichloroeliminans
+Match taxon	1
+Unclassified	1
+Too shallow	1
+Remaining	106
+
+27/05 10:14:00 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:14:00 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfitobacterium_dichloroeliminans/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:14:00 DEBUG:
+14 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:14:00 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	64_HgcA
+	44_HgcA
+	77_HgcA
+	31_HgcA
+	92_HgcA
+	32_HgcA
+	94_HgcA
+	37_HgcA
+	10_HgcA
+	50_HgcA
+	49_HgcA
+	89_HgcA
+	11_HgcA
+	57_HgcA
+	30_HgcA
+	81_HgcA
+	48_HgcA
+	93_HgcA
+	68_HgcA
+	29_HgcA
+	76_HgcA
+	103_HgcA
+	90_HgcA
+	80_HgcA
+	69_HgcA
+	71_HgcA
+	63_HgcA
+	1_HgcA
+	79_HgcA
+	95_HgcA
+	62_HgcA
+	101_HgcA
+	34_HgcA
+	78_HgcA
+	96_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	42_HgcA
+	82_HgcA
+	51_HgcA
+	5_HgcA
+	91_HgcA
+	33_HgcA
+	47_HgcA
+	88_HgcA
+
+27/05 10:14:03 DEBUG:
+Building HMM profile... 
+27/05 10:14:03 DEBUG:
+done.
+
+27/05 10:14:03 DEBUG:
+done.
+
+27/05 10:14:03 DEBUG:
+60 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:14:03 DEBUG:
+	106 leaves in pruned tree.
+
+27/05 10:14:03 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:14:04 DEBUG:
+done.
+
+27/05 10:14:04 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfitobacterium_dichloroeliminans/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:14:04 DEBUG:
+	1 query sequences.
+
+27/05 10:14:04 DEBUG:
+
+
+27/05 10:14:04 DEBUG:
+Columns = 295
+
+27/05 10:14:04 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfitobacterium_dichloroeliminans/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:14:04 DEBUG:
+Read 107 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfitobacterium_dichloroeliminans/queries-BMGE.fasta.
+
+27/05 10:14:04 DEBUG:
+Testing placements for d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae; g__Desulfitobacterium; s__Desulfitobacterium metallireducens:
+
+27/05 10:14:04 DEBUG:
+Reference sequence filtering stats for s__Desulfitobacterium metallireducens
+Match taxon	1
+Unclassified	1
+Too shallow	1
+Remaining	106
+
+27/05 10:14:05 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:14:05 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfitobacterium_metallireducens/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:14:05 DEBUG:
+14 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:14:05 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	64_HgcA
+	44_HgcA
+	77_HgcA
+	31_HgcA
+	92_HgcA
+	32_HgcA
+	94_HgcA
+	37_HgcA
+	10_HgcA
+	50_HgcA
+	49_HgcA
+	89_HgcA
+	11_HgcA
+	57_HgcA
+	30_HgcA
+	81_HgcA
+	48_HgcA
+	93_HgcA
+	68_HgcA
+	29_HgcA
+	76_HgcA
+	103_HgcA
+	90_HgcA
+	80_HgcA
+	69_HgcA
+	71_HgcA
+	63_HgcA
+	1_HgcA
+	79_HgcA
+	95_HgcA
+	62_HgcA
+	101_HgcA
+	34_HgcA
+	78_HgcA
+	96_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	42_HgcA
+	82_HgcA
+	51_HgcA
+	5_HgcA
+	91_HgcA
+	33_HgcA
+	47_HgcA
+	88_HgcA
+
+27/05 10:14:07 DEBUG:
+Building HMM profile... 
+27/05 10:14:07 DEBUG:
+done.
+
+27/05 10:14:07 DEBUG:
+done.
+
+27/05 10:14:07 DEBUG:
+60 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:14:07 DEBUG:
+	106 leaves in pruned tree.
+
+27/05 10:14:07 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:14:08 DEBUG:
+done.
+
+27/05 10:14:08 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfitobacterium_metallireducens/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:14:08 DEBUG:
+	1 query sequences.
+
+27/05 10:14:08 DEBUG:
+
+
+27/05 10:14:08 DEBUG:
+Columns = 295
+
+27/05 10:14:08 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfitobacterium_metallireducens/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:14:08 DEBUG:
+Read 107 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfitobacterium_metallireducens/queries-BMGE.fasta.
+
+27/05 10:14:09 DEBUG:
+Testing placements for d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae; g__Desulfosporosinus; s__Desulfosporosinus acidiphilus:
+
+27/05 10:14:09 DEBUG:
+Reference sequence filtering stats for s__Desulfosporosinus acidiphilus
+Match taxon	1
+Unclassified	1
+Too shallow	1
+Remaining	106
+
+27/05 10:14:09 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:14:09 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfosporosinus_acidiphilus/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:14:09 DEBUG:
+14 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:14:09 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	64_HgcA
+	44_HgcA
+	77_HgcA
+	31_HgcA
+	92_HgcA
+	32_HgcA
+	94_HgcA
+	37_HgcA
+	27_HgcA
+	10_HgcA
+	50_HgcA
+	49_HgcA
+	89_HgcA
+	11_HgcA
+	57_HgcA
+	30_HgcA
+	81_HgcA
+	48_HgcA
+	93_HgcA
+	68_HgcA
+	76_HgcA
+	103_HgcA
+	90_HgcA
+	80_HgcA
+	69_HgcA
+	71_HgcA
+	63_HgcA
+	1_HgcA
+	79_HgcA
+	95_HgcA
+	62_HgcA
+	101_HgcA
+	34_HgcA
+	78_HgcA
+	96_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	42_HgcA
+	82_HgcA
+	51_HgcA
+	5_HgcA
+	91_HgcA
+	33_HgcA
+	47_HgcA
+	88_HgcA
+
+27/05 10:14:11 DEBUG:
+Building HMM profile... 
+27/05 10:14:12 DEBUG:
+done.
+
+27/05 10:14:12 DEBUG:
+done.
+
+27/05 10:14:12 DEBUG:
+60 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:14:12 DEBUG:
+	106 leaves in pruned tree.
+
+27/05 10:14:12 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:14:13 DEBUG:
+done.
+
+27/05 10:14:13 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfosporosinus_acidiphilus/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:14:13 DEBUG:
+	1 query sequences.
+
+27/05 10:14:13 DEBUG:
+
+
+27/05 10:14:13 DEBUG:
+Columns = 295
+
+27/05 10:14:13 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfosporosinus_acidiphilus/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:14:13 DEBUG:
+Read 107 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfosporosinus_acidiphilus/queries-BMGE.fasta.
+
+27/05 10:14:13 DEBUG:
+Testing placements for d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae; g__Desulfosporosinus; s__Desulfosporosinus lacus:
+
+27/05 10:14:13 DEBUG:
+Reference sequence filtering stats for s__Desulfosporosinus lacus
+Match taxon	1
+Unclassified	1
+Too shallow	1
+Remaining	106
+
+27/05 10:14:14 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:14:14 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfosporosinus_lacus/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:14:14 DEBUG:
+14 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:14:14 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	64_HgcA
+	44_HgcA
+	77_HgcA
+	31_HgcA
+	92_HgcA
+	29_HgcA
+	32_HgcA
+	94_HgcA
+	37_HgcA
+	27_HgcA
+	10_HgcA
+	50_HgcA
+	49_HgcA
+	89_HgcA
+	11_HgcA
+	57_HgcA
+	81_HgcA
+	48_HgcA
+	93_HgcA
+	68_HgcA
+	76_HgcA
+	103_HgcA
+	90_HgcA
+	80_HgcA
+	69_HgcA
+	71_HgcA
+	63_HgcA
+	1_HgcA
+	79_HgcA
+	95_HgcA
+	62_HgcA
+	101_HgcA
+	34_HgcA
+	78_HgcA
+	96_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	42_HgcA
+	82_HgcA
+	51_HgcA
+	5_HgcA
+	91_HgcA
+	33_HgcA
+	47_HgcA
+	88_HgcA
+
+27/05 10:14:16 DEBUG:
+Building HMM profile... 
+27/05 10:14:16 DEBUG:
+done.
+
+27/05 10:14:16 DEBUG:
+done.
+
+27/05 10:14:16 DEBUG:
+60 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:14:16 DEBUG:
+	106 leaves in pruned tree.
+
+27/05 10:14:16 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:14:17 DEBUG:
+done.
+
+27/05 10:14:17 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfosporosinus_lacus/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:14:17 DEBUG:
+	1 query sequences.
+
+27/05 10:14:17 DEBUG:
+
+
+27/05 10:14:17 DEBUG:
+Columns = 295
+
+27/05 10:14:17 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfosporosinus_lacus/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:14:17 DEBUG:
+Read 107 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfosporosinus_lacus/queries-BMGE.fasta.
+
+27/05 10:14:18 DEBUG:
+Testing placements for d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae; g__Desulfosporosinus; s__Desulfosporosinus orientis:
+
+27/05 10:14:18 DEBUG:
+Reference sequence filtering stats for s__Desulfosporosinus orientis
+Match taxon	1
+Unclassified	1
+Too shallow	1
+Remaining	106
+
+27/05 10:14:18 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:14:18 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfosporosinus_orientis/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:14:18 DEBUG:
+14 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:14:18 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	64_HgcA
+	44_HgcA
+	77_HgcA
+	30_HgcA
+	92_HgcA
+	29_HgcA
+	32_HgcA
+	94_HgcA
+	37_HgcA
+	27_HgcA
+	10_HgcA
+	50_HgcA
+	49_HgcA
+	89_HgcA
+	11_HgcA
+	57_HgcA
+	81_HgcA
+	48_HgcA
+	93_HgcA
+	68_HgcA
+	76_HgcA
+	103_HgcA
+	90_HgcA
+	80_HgcA
+	69_HgcA
+	71_HgcA
+	63_HgcA
+	1_HgcA
+	79_HgcA
+	95_HgcA
+	62_HgcA
+	101_HgcA
+	34_HgcA
+	78_HgcA
+	96_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	42_HgcA
+	82_HgcA
+	51_HgcA
+	5_HgcA
+	91_HgcA
+	33_HgcA
+	47_HgcA
+	88_HgcA
+
+27/05 10:14:21 DEBUG:
+Building HMM profile... 
+27/05 10:14:21 DEBUG:
+done.
+
+27/05 10:14:21 DEBUG:
+done.
+
+27/05 10:14:21 DEBUG:
+60 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:14:21 DEBUG:
+	106 leaves in pruned tree.
+
+27/05 10:14:21 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:14:22 DEBUG:
+done.
+
+27/05 10:14:22 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfosporosinus_orientis/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:14:22 DEBUG:
+	1 query sequences.
+
+27/05 10:14:22 DEBUG:
+
+
+27/05 10:14:22 DEBUG:
+Columns = 295
+
+27/05 10:14:22 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfosporosinus_orientis/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:14:22 DEBUG:
+Read 107 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfosporosinus_orientis/queries-BMGE.fasta.
+
+27/05 10:14:23 DEBUG:
+Testing placements for d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae; g__Desulfosporosinus; s__Desulfosporosinus sp. I2:
+
+27/05 10:14:23 DEBUG:
+Reference sequence filtering stats for s__Desulfosporosinus sp. I2
+Match taxon	1
+Unclassified	1
+Too shallow	1
+Remaining	106
+
+27/05 10:14:23 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:14:23 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfosporosinus_sp._I2/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:14:23 DEBUG:
+14 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:14:23 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	64_HgcA
+	44_HgcA
+	77_HgcA
+	30_HgcA
+	92_HgcA
+	29_HgcA
+	31_HgcA
+	94_HgcA
+	37_HgcA
+	27_HgcA
+	10_HgcA
+	50_HgcA
+	49_HgcA
+	89_HgcA
+	11_HgcA
+	57_HgcA
+	81_HgcA
+	48_HgcA
+	93_HgcA
+	68_HgcA
+	76_HgcA
+	103_HgcA
+	90_HgcA
+	80_HgcA
+	69_HgcA
+	71_HgcA
+	63_HgcA
+	1_HgcA
+	79_HgcA
+	95_HgcA
+	62_HgcA
+	101_HgcA
+	34_HgcA
+	78_HgcA
+	96_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	42_HgcA
+	82_HgcA
+	51_HgcA
+	5_HgcA
+	91_HgcA
+	33_HgcA
+	47_HgcA
+	88_HgcA
+
+27/05 10:14:25 DEBUG:
+Building HMM profile... 
+27/05 10:14:26 DEBUG:
+done.
+
+27/05 10:14:26 DEBUG:
+done.
+
+27/05 10:14:26 DEBUG:
+60 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:14:26 DEBUG:
+	106 leaves in pruned tree.
+
+27/05 10:14:26 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:14:26 DEBUG:
+done.
+
+27/05 10:14:26 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfosporosinus_sp._I2/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:14:26 DEBUG:
+	1 query sequences.
+
+27/05 10:14:26 DEBUG:
+
+
+27/05 10:14:27 DEBUG:
+Columns = 295
+
+27/05 10:14:27 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfosporosinus_sp._I2/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:14:27 DEBUG:
+Read 107 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfosporosinus_sp._I2/queries-BMGE.fasta.
+
+27/05 10:14:27 DEBUG:
+Testing placements for d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae; g__Desulfosporosinus; s__Desulfosporosinus sp. OT:
+
+27/05 10:14:27 DEBUG:
+Reference sequence filtering stats for s__Desulfosporosinus sp. OT
+Match taxon	1
+Unclassified	1
+Too shallow	1
+Remaining	106
+
+27/05 10:14:28 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:14:28 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfosporosinus_sp._OT/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:14:28 DEBUG:
+14 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:14:28 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	64_HgcA
+	44_HgcA
+	77_HgcA
+	30_HgcA
+	92_HgcA
+	29_HgcA
+	31_HgcA
+	94_HgcA
+	37_HgcA
+	27_HgcA
+	10_HgcA
+	50_HgcA
+	49_HgcA
+	89_HgcA
+	11_HgcA
+	57_HgcA
+	81_HgcA
+	48_HgcA
+	93_HgcA
+	68_HgcA
+	76_HgcA
+	103_HgcA
+	90_HgcA
+	80_HgcA
+	69_HgcA
+	71_HgcA
+	63_HgcA
+	1_HgcA
+	79_HgcA
+	95_HgcA
+	62_HgcA
+	101_HgcA
+	34_HgcA
+	78_HgcA
+	96_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	42_HgcA
+	82_HgcA
+	51_HgcA
+	5_HgcA
+	91_HgcA
+	32_HgcA
+	47_HgcA
+	88_HgcA
+
+27/05 10:14:30 DEBUG:
+Building HMM profile... 
+27/05 10:14:30 DEBUG:
+done.
+
+27/05 10:14:30 DEBUG:
+done.
+
+27/05 10:14:30 DEBUG:
+60 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:14:30 DEBUG:
+	106 leaves in pruned tree.
+
+27/05 10:14:30 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:14:31 DEBUG:
+done.
+
+27/05 10:14:31 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfosporosinus_sp._OT/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:14:31 DEBUG:
+	1 query sequences.
+
+27/05 10:14:31 DEBUG:
+
+
+27/05 10:14:31 DEBUG:
+Columns = 295
+
+27/05 10:14:31 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfosporosinus_sp._OT/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:14:31 DEBUG:
+Read 107 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfosporosinus_sp._OT/queries-BMGE.fasta.
+
+27/05 10:14:32 DEBUG:
+Testing placements for d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae; g__Desulfosporosinus; s__Desulfosporosinus sp. Tol-M:
+
+27/05 10:14:32 DEBUG:
+Reference sequence filtering stats for s__Desulfosporosinus sp. Tol-M
+Match taxon	1
+Unclassified	1
+Too shallow	1
+Remaining	106
+
+27/05 10:14:32 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:14:32 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfosporosinus_sp._Tol-M/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:14:32 DEBUG:
+14 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:14:32 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	64_HgcA
+	44_HgcA
+	77_HgcA
+	30_HgcA
+	92_HgcA
+	29_HgcA
+	31_HgcA
+	94_HgcA
+	37_HgcA
+	27_HgcA
+	10_HgcA
+	50_HgcA
+	49_HgcA
+	89_HgcA
+	11_HgcA
+	57_HgcA
+	81_HgcA
+	48_HgcA
+	93_HgcA
+	68_HgcA
+	76_HgcA
+	103_HgcA
+	90_HgcA
+	80_HgcA
+	69_HgcA
+	71_HgcA
+	63_HgcA
+	1_HgcA
+	79_HgcA
+	95_HgcA
+	62_HgcA
+	101_HgcA
+	33_HgcA
+	78_HgcA
+	96_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	42_HgcA
+	82_HgcA
+	51_HgcA
+	5_HgcA
+	91_HgcA
+	32_HgcA
+	47_HgcA
+	88_HgcA
+
+27/05 10:14:35 DEBUG:
+Building HMM profile... 
+27/05 10:14:35 DEBUG:
+done.
+
+27/05 10:14:35 DEBUG:
+done.
+
+27/05 10:14:35 DEBUG:
+60 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:14:35 DEBUG:
+	106 leaves in pruned tree.
+
+27/05 10:14:35 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:14:36 DEBUG:
+done.
+
+27/05 10:14:36 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfosporosinus_sp._Tol-M/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:14:36 DEBUG:
+	1 query sequences.
+
+27/05 10:14:36 DEBUG:
+
+
+27/05 10:14:36 DEBUG:
+Columns = 295
+
+27/05 10:14:36 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfosporosinus_sp._Tol-M/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:14:36 DEBUG:
+Read 107 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfosporosinus_sp._Tol-M/queries-BMGE.fasta.
+
+27/05 10:14:36 DEBUG:
+Testing placements for d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae; g__Desulfosporosinus; s__Desulfosporosinus youngiae:
+
+27/05 10:14:36 DEBUG:
+Reference sequence filtering stats for s__Desulfosporosinus youngiae
+Match taxon	1
+Unclassified	1
+Too shallow	1
+Remaining	106
+
+27/05 10:14:37 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:14:37 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfosporosinus_youngiae/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:14:37 DEBUG:
+14 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:14:37 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	64_HgcA
+	44_HgcA
+	77_HgcA
+	30_HgcA
+	92_HgcA
+	29_HgcA
+	31_HgcA
+	94_HgcA
+	37_HgcA
+	27_HgcA
+	10_HgcA
+	50_HgcA
+	49_HgcA
+	89_HgcA
+	11_HgcA
+	57_HgcA
+	81_HgcA
+	48_HgcA
+	93_HgcA
+	68_HgcA
+	76_HgcA
+	103_HgcA
+	90_HgcA
+	80_HgcA
+	69_HgcA
+	71_HgcA
+	63_HgcA
+	1_HgcA
+	79_HgcA
+	95_HgcA
+	62_HgcA
+	101_HgcA
+	33_HgcA
+	78_HgcA
+	96_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	42_HgcA
+	82_HgcA
+	51_HgcA
+	5_HgcA
+	91_HgcA
+	32_HgcA
+	47_HgcA
+	88_HgcA
+
+27/05 10:14:39 DEBUG:
+Building HMM profile... 
+27/05 10:14:39 DEBUG:
+done.
+
+27/05 10:14:39 DEBUG:
+done.
+
+27/05 10:14:39 DEBUG:
+60 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:14:39 DEBUG:
+	106 leaves in pruned tree.
+
+27/05 10:14:39 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:14:40 DEBUG:
+done.
+
+27/05 10:14:40 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfosporosinus_youngiae/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:14:40 DEBUG:
+	1 query sequences.
+
+27/05 10:14:40 DEBUG:
+
+
+27/05 10:14:40 DEBUG:
+Columns = 295
+
+27/05 10:14:40 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfosporosinus_youngiae/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:14:40 DEBUG:
+Read 107 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfosporosinus_youngiae/queries-BMGE.fasta.
+
+27/05 10:14:41 DEBUG:
+Testing placements for d__Bacteria; p__Nitrospinae; c__Nitrospinia; o__Nitrospinales; f__Nitrospinaceae; g__Nitrospina; s__Nitrospina sp. AB-629-B06:
+
+27/05 10:14:41 DEBUG:
+Reference sequence filtering stats for s__Nitrospina sp. AB-629-B06
+Match taxon	1
+Unclassified	1
+Too shallow	1
+Remaining	106
+
+27/05 10:14:41 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:14:41 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Nitrospina_sp._AB-629-B06/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:14:41 DEBUG:
+14 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:14:41 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	64_HgcA
+	44_HgcA
+	77_HgcA
+	30_HgcA
+	92_HgcA
+	29_HgcA
+	31_HgcA
+	94_HgcA
+	27_HgcA
+	10_HgcA
+	50_HgcA
+	49_HgcA
+	89_HgcA
+	11_HgcA
+	57_HgcA
+	81_HgcA
+	48_HgcA
+	93_HgcA
+	68_HgcA
+	76_HgcA
+	103_HgcA
+	90_HgcA
+	80_HgcA
+	69_HgcA
+	71_HgcA
+	63_HgcA
+	1_HgcA
+	79_HgcA
+	95_HgcA
+	62_HgcA
+	101_HgcA
+	33_HgcA
+	78_HgcA
+	96_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	82_HgcA
+	5_HgcA
+	51_HgcA
+	91_HgcA
+	32_HgcA
+	47_HgcA
+	88_HgcA
+	37_HgcA
+
+27/05 10:14:44 DEBUG:
+Building HMM profile... 
+27/05 10:14:44 DEBUG:
+done.
+
+27/05 10:14:44 DEBUG:
+done.
+
+27/05 10:14:44 DEBUG:
+60 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:14:44 DEBUG:
+	106 leaves in pruned tree.
+
+27/05 10:14:44 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:14:45 DEBUG:
+done.
+
+27/05 10:14:45 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Nitrospina_sp._AB-629-B06/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:14:45 DEBUG:
+	1 query sequences.
+
+27/05 10:14:45 DEBUG:
+
+
+27/05 10:14:45 DEBUG:
+Columns = 295
+
+27/05 10:14:45 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Nitrospina_sp._AB-629-B06/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:14:45 DEBUG:
+Read 107 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Nitrospina_sp._AB-629-B06/queries-BMGE.fasta.
+
+27/05 10:14:45 DEBUG:
+Testing placements for d__Bacteria; p__Nitrospinae; c__Nitrospinia; o__Nitrospinales; f__Nitrospinaceae; g__Nitrospina; s__Nitrospina sp. SAG_AG-538-L21:
+
+27/05 10:14:45 DEBUG:
+Reference sequence filtering stats for s__Nitrospina sp. SAG_AG-538-L21
+Match taxon	1
+Unclassified	1
+Too shallow	1
+Remaining	106
+
+27/05 10:14:46 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:14:46 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Nitrospina_sp._SAG_AG-538-L21/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:14:46 DEBUG:
+14 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:14:46 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	64_HgcA
+	44_HgcA
+	77_HgcA
+	30_HgcA
+	92_HgcA
+	29_HgcA
+	31_HgcA
+	94_HgcA
+	27_HgcA
+	10_HgcA
+	50_HgcA
+	49_HgcA
+	89_HgcA
+	11_HgcA
+	57_HgcA
+	81_HgcA
+	48_HgcA
+	93_HgcA
+	68_HgcA
+	76_HgcA
+	103_HgcA
+	90_HgcA
+	80_HgcA
+	69_HgcA
+	71_HgcA
+	63_HgcA
+	1_HgcA
+	79_HgcA
+	95_HgcA
+	62_HgcA
+	101_HgcA
+	33_HgcA
+	78_HgcA
+	96_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	82_HgcA
+	5_HgcA
+	51_HgcA
+	91_HgcA
+	32_HgcA
+	47_HgcA
+	88_HgcA
+	37_HgcA
+
+27/05 10:14:48 DEBUG:
+Building HMM profile... 
+27/05 10:14:48 DEBUG:
+done.
+
+27/05 10:14:48 DEBUG:
+done.
+
+27/05 10:14:48 DEBUG:
+60 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:14:48 DEBUG:
+	106 leaves in pruned tree.
+
+27/05 10:14:48 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:14:49 DEBUG:
+done.
+
+27/05 10:14:49 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Nitrospina_sp._SAG_AG-538-L21/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:14:49 DEBUG:
+	1 query sequences.
+
+27/05 10:14:49 DEBUG:
+
+
+27/05 10:14:49 DEBUG:
+Columns = 295
+
+27/05 10:14:49 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Nitrospina_sp._SAG_AG-538-L21/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:14:49 DEBUG:
+Read 107 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Nitrospina_sp._SAG_AG-538-L21/queries-BMGE.fasta.
+
+27/05 10:14:50 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfobacterales; f__Desulfobacteraceae; g__Desulfococcus; s__Desulfococcus biacutus:
+
+27/05 10:14:50 DEBUG:
+Reference sequence filtering stats for s__Desulfococcus biacutus
+Match taxon	1
+Unclassified	1
+Too shallow	8
+Remaining	99
+
+27/05 10:14:50 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:14:50 DEBUG:
+Read 99 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfococcus_biacutus/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:14:50 DEBUG:
+7 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:14:50 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	30_HgcA
+	29_HgcA
+	31_HgcA
+	91_HgcA
+	96_HgcA
+	27_HgcA
+	10_HgcA
+	42_HgcA
+	95_HgcA
+	11_HgcA
+	63_HgcA
+	88_HgcA
+	64_HgcA
+	82_HgcA
+	71_HgcA
+	103_HgcA
+	81_HgcA
+	68_HgcA
+	5_HgcA
+	78_HgcA
+	90_HgcA
+	93_HgcA
+	1_HgcA
+	62_HgcA
+	79_HgcA
+	77_HgcA
+	44_HgcA
+	69_HgcA
+	101_HgcA
+	33_HgcA
+	80_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	89_HgcA
+	92_HgcA
+	76_HgcA
+	32_HgcA
+	94_HgcA
+	37_HgcA
+
+27/05 10:14:53 DEBUG:
+Building HMM profile... 
+27/05 10:14:53 DEBUG:
+done.
+
+27/05 10:14:53 DEBUG:
+done.
+
+27/05 10:14:53 DEBUG:
+58 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:14:53 DEBUG:
+	99 leaves in pruned tree.
+
+27/05 10:14:53 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:14:53 DEBUG:
+done.
+
+27/05 10:14:53 DEBUG:
+Read 99 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfococcus_biacutus/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:14:53 DEBUG:
+	1 query sequences.
+
+27/05 10:14:53 DEBUG:
+
+
+27/05 10:14:54 DEBUG:
+Columns = 296
+
+27/05 10:14:54 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfococcus_biacutus/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:14:54 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfococcus_biacutus/queries-BMGE.fasta.
+
+27/05 10:14:54 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfobacterales; f__Desulfobacteraceae; g__Desulfococcus; s__Desulfococcus multivorans:
+
+27/05 10:14:54 DEBUG:
+Reference sequence filtering stats for s__Desulfococcus multivorans
+Match taxon	1
+Unclassified	1
+Too shallow	8
+Remaining	99
+
+27/05 10:14:54 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:14:54 DEBUG:
+Read 99 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfococcus_multivorans/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:14:54 DEBUG:
+7 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:14:54 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	30_HgcA
+	29_HgcA
+	31_HgcA
+	91_HgcA
+	96_HgcA
+	27_HgcA
+	10_HgcA
+	42_HgcA
+	95_HgcA
+	11_HgcA
+	63_HgcA
+	88_HgcA
+	64_HgcA
+	82_HgcA
+	71_HgcA
+	103_HgcA
+	81_HgcA
+	68_HgcA
+	5_HgcA
+	78_HgcA
+	90_HgcA
+	93_HgcA
+	1_HgcA
+	62_HgcA
+	79_HgcA
+	77_HgcA
+	44_HgcA
+	69_HgcA
+	101_HgcA
+	33_HgcA
+	80_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	89_HgcA
+	92_HgcA
+	76_HgcA
+	32_HgcA
+	94_HgcA
+	37_HgcA
+
+27/05 10:14:56 DEBUG:
+Building HMM profile... 
+27/05 10:14:57 DEBUG:
+done.
+
+27/05 10:14:57 DEBUG:
+done.
+
+27/05 10:14:57 DEBUG:
+58 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:14:57 DEBUG:
+	99 leaves in pruned tree.
+
+27/05 10:14:57 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:14:57 DEBUG:
+done.
+
+27/05 10:14:57 DEBUG:
+Read 99 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfococcus_multivorans/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:14:57 DEBUG:
+	1 query sequences.
+
+27/05 10:14:57 DEBUG:
+
+
+27/05 10:14:58 DEBUG:
+Columns = 296
+
+27/05 10:14:58 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfococcus_multivorans/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:14:58 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfococcus_multivorans/queries-BMGE.fasta.
+
+27/05 10:14:58 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfobacterales; f__Desulfobulbaceae; g__Desulfobulbus; s__Desulfobulbus japonicus:
+
+27/05 10:14:58 DEBUG:
+Reference sequence filtering stats for s__Desulfobulbus japonicus
+Match taxon	1
+Unclassified	1
+Too shallow	8
+Remaining	99
+
+27/05 10:14:58 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:14:58 DEBUG:
+Read 99 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfobulbus_japonicus/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:14:58 DEBUG:
+7 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:14:58 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	30_HgcA
+	29_HgcA
+	31_HgcA
+	91_HgcA
+	96_HgcA
+	27_HgcA
+	10_HgcA
+	42_HgcA
+	95_HgcA
+	11_HgcA
+	63_HgcA
+	88_HgcA
+	5_HgcA
+	64_HgcA
+	82_HgcA
+	71_HgcA
+	103_HgcA
+	81_HgcA
+	68_HgcA
+	78_HgcA
+	90_HgcA
+	93_HgcA
+	1_HgcA
+	79_HgcA
+	77_HgcA
+	44_HgcA
+	69_HgcA
+	101_HgcA
+	33_HgcA
+	80_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	89_HgcA
+	92_HgcA
+	57_HgcA
+	76_HgcA
+	32_HgcA
+	94_HgcA
+	37_HgcA
+
+27/05 10:15:01 DEBUG:
+Building HMM profile... 
+27/05 10:15:01 DEBUG:
+done.
+
+27/05 10:15:01 DEBUG:
+done.
+
+27/05 10:15:01 DEBUG:
+58 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:15:01 DEBUG:
+	99 leaves in pruned tree.
+
+27/05 10:15:01 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:15:02 DEBUG:
+done.
+
+27/05 10:15:02 DEBUG:
+Read 99 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfobulbus_japonicus/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:15:02 DEBUG:
+	1 query sequences.
+
+27/05 10:15:02 DEBUG:
+
+
+27/05 10:15:02 DEBUG:
+Columns = 296
+
+27/05 10:15:02 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfobulbus_japonicus/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:15:02 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfobulbus_japonicus/queries-BMGE.fasta.
+
+27/05 10:15:02 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfobacterales; f__Desulfobulbaceae; g__Desulfobulbus; s__Desulfobulbus mediterraneus:
+
+27/05 10:15:02 DEBUG:
+Reference sequence filtering stats for s__Desulfobulbus mediterraneus
+Match taxon	1
+Unclassified	1
+Too shallow	8
+Remaining	99
+
+27/05 10:15:03 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:15:03 DEBUG:
+Read 99 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfobulbus_mediterraneus/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:15:03 DEBUG:
+7 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:15:03 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	30_HgcA
+	29_HgcA
+	31_HgcA
+	91_HgcA
+	96_HgcA
+	27_HgcA
+	10_HgcA
+	42_HgcA
+	95_HgcA
+	11_HgcA
+	62_HgcA
+	88_HgcA
+	5_HgcA
+	64_HgcA
+	82_HgcA
+	71_HgcA
+	103_HgcA
+	81_HgcA
+	68_HgcA
+	78_HgcA
+	90_HgcA
+	93_HgcA
+	1_HgcA
+	79_HgcA
+	77_HgcA
+	44_HgcA
+	69_HgcA
+	101_HgcA
+	33_HgcA
+	80_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	89_HgcA
+	92_HgcA
+	57_HgcA
+	76_HgcA
+	32_HgcA
+	94_HgcA
+	37_HgcA
+
+27/05 10:15:05 DEBUG:
+Building HMM profile... 
+27/05 10:15:05 DEBUG:
+done.
+
+27/05 10:15:05 DEBUG:
+done.
+
+27/05 10:15:05 DEBUG:
+58 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:15:05 DEBUG:
+	99 leaves in pruned tree.
+
+27/05 10:15:05 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:15:05 DEBUG:
+done.
+
+27/05 10:15:05 DEBUG:
+Read 99 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfobulbus_mediterraneus/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:15:05 DEBUG:
+	1 query sequences.
+
+27/05 10:15:05 DEBUG:
+
+
+27/05 10:15:06 DEBUG:
+Columns = 296
+
+27/05 10:15:06 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfobulbus_mediterraneus/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:15:06 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfobulbus_mediterraneus/queries-BMGE.fasta.
+
+27/05 10:15:06 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfobacterales; f__Desulfobulbaceae; g__Desulfobulbus; s__Desulfobulbus propionicus:
+
+27/05 10:15:06 DEBUG:
+Reference sequence filtering stats for s__Desulfobulbus propionicus
+Match taxon	1
+Unclassified	1
+Too shallow	8
+Remaining	99
+
+27/05 10:15:06 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:15:06 DEBUG:
+Read 99 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfobulbus_propionicus/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:15:06 DEBUG:
+7 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:15:06 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	30_HgcA
+	29_HgcA
+	31_HgcA
+	91_HgcA
+	96_HgcA
+	27_HgcA
+	10_HgcA
+	42_HgcA
+	95_HgcA
+	11_HgcA
+	62_HgcA
+	88_HgcA
+	5_HgcA
+	63_HgcA
+	82_HgcA
+	71_HgcA
+	103_HgcA
+	81_HgcA
+	68_HgcA
+	78_HgcA
+	90_HgcA
+	93_HgcA
+	1_HgcA
+	79_HgcA
+	77_HgcA
+	44_HgcA
+	69_HgcA
+	101_HgcA
+	33_HgcA
+	80_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	89_HgcA
+	92_HgcA
+	57_HgcA
+	76_HgcA
+	32_HgcA
+	94_HgcA
+	37_HgcA
+
+27/05 10:15:09 DEBUG:
+Building HMM profile... 
+27/05 10:15:09 DEBUG:
+done.
+
+27/05 10:15:09 DEBUG:
+done.
+
+27/05 10:15:09 DEBUG:
+58 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:15:09 DEBUG:
+	99 leaves in pruned tree.
+
+27/05 10:15:09 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:15:10 DEBUG:
+done.
+
+27/05 10:15:10 DEBUG:
+Read 99 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfobulbus_propionicus/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:15:10 DEBUG:
+	1 query sequences.
+
+27/05 10:15:10 DEBUG:
+
+
+27/05 10:15:10 DEBUG:
+Columns = 296
+
+27/05 10:15:10 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfobulbus_propionicus/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:15:10 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfobulbus_propionicus/queries-BMGE.fasta.
+
+27/05 10:15:11 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfobacterales; f__Desulfobulbaceae; g__Desulfobulbus; s__Desulfobulbus sp. Tol-SR:
+
+27/05 10:15:11 DEBUG:
+Reference sequence filtering stats for s__Desulfobulbus sp. Tol-SR
+Match taxon	1
+Unclassified	1
+Too shallow	8
+Remaining	99
+
+27/05 10:15:11 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:15:11 DEBUG:
+Read 99 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfobulbus_sp._Tol-SR/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:15:11 DEBUG:
+7 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:15:11 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	30_HgcA
+	29_HgcA
+	31_HgcA
+	91_HgcA
+	96_HgcA
+	27_HgcA
+	10_HgcA
+	42_HgcA
+	95_HgcA
+	11_HgcA
+	62_HgcA
+	88_HgcA
+	5_HgcA
+	63_HgcA
+	82_HgcA
+	71_HgcA
+	103_HgcA
+	81_HgcA
+	68_HgcA
+	78_HgcA
+	90_HgcA
+	93_HgcA
+	1_HgcA
+	79_HgcA
+	77_HgcA
+	44_HgcA
+	69_HgcA
+	101_HgcA
+	33_HgcA
+	80_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	89_HgcA
+	92_HgcA
+	57_HgcA
+	76_HgcA
+	32_HgcA
+	94_HgcA
+	37_HgcA
+
+27/05 10:15:13 DEBUG:
+Building HMM profile... 
+27/05 10:15:13 DEBUG:
+done.
+
+27/05 10:15:13 DEBUG:
+done.
+
+27/05 10:15:13 DEBUG:
+58 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:15:13 DEBUG:
+	99 leaves in pruned tree.
+
+27/05 10:15:13 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:15:14 DEBUG:
+done.
+
+27/05 10:15:14 DEBUG:
+Read 99 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfobulbus_sp._Tol-SR/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:15:14 DEBUG:
+	1 query sequences.
+
+27/05 10:15:14 DEBUG:
+
+
+27/05 10:15:14 DEBUG:
+Columns = 296
+
+27/05 10:15:14 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfobulbus_sp._Tol-SR/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:15:14 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfobulbus_sp._Tol-SR/queries-BMGE.fasta.
+
+27/05 10:15:15 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfomicrobiaceae; g__Desulfomicrobium; s__Desulfomicrobium apsheronum:
+
+27/05 10:15:15 DEBUG:
+Reference sequence filtering stats for s__Desulfomicrobium apsheronum
+Match taxon	1
+Unclassified	1
+Too shallow	7
+Remaining	100
+
+27/05 10:15:15 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:15:15 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfomicrobium_apsheronum/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:15:15 DEBUG:
+8 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:15:15 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	82_HgcA
+	30_HgcA
+	71_HgcA
+	29_HgcA
+	31_HgcA
+	90_HgcA
+	95_HgcA
+	27_HgcA
+	10_HgcA
+	42_HgcA
+	89_HgcA
+	94_HgcA
+	11_HgcA
+	79_HgcA
+	62_HgcA
+	81_HgcA
+	103_HgcA
+	80_HgcA
+	63_HgcA
+	5_HgcA
+	96_HgcA
+	77_HgcA
+	69_HgcA
+	92_HgcA
+	57_HgcA
+	1_HgcA
+	78_HgcA
+	76_HgcA
+	44_HgcA
+	33_HgcA
+	101_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	88_HgcA
+	91_HgcA
+	64_HgcA
+	32_HgcA
+	93_HgcA
+	37_HgcA
+
+27/05 10:15:17 DEBUG:
+Building HMM profile... 
+27/05 10:15:18 DEBUG:
+done.
+
+27/05 10:15:18 DEBUG:
+done.
+
+27/05 10:15:18 DEBUG:
+59 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:15:18 DEBUG:
+	100 leaves in pruned tree.
+
+27/05 10:15:18 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:15:18 DEBUG:
+done.
+
+27/05 10:15:18 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfomicrobium_apsheronum/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:15:18 DEBUG:
+	1 query sequences.
+
+27/05 10:15:18 DEBUG:
+
+
+27/05 10:15:19 DEBUG:
+Columns = 296
+
+27/05 10:15:19 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfomicrobium_apsheronum/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:15:19 DEBUG:
+Read 101 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfomicrobium_apsheronum/queries-BMGE.fasta.
+
+27/05 10:15:19 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfomicrobiaceae; g__Desulfomicrobium; s__Desulfomicrobium baculatum:
+
+27/05 10:15:19 DEBUG:
+Reference sequence filtering stats for s__Desulfomicrobium baculatum
+Match taxon	1
+Unclassified	1
+Too shallow	7
+Remaining	100
+
+27/05 10:15:19 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:15:19 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfomicrobium_baculatum/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:15:19 DEBUG:
+8 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:15:19 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	82_HgcA
+	30_HgcA
+	71_HgcA
+	29_HgcA
+	31_HgcA
+	90_HgcA
+	95_HgcA
+	27_HgcA
+	10_HgcA
+	42_HgcA
+	89_HgcA
+	94_HgcA
+	11_HgcA
+	79_HgcA
+	62_HgcA
+	81_HgcA
+	103_HgcA
+	80_HgcA
+	63_HgcA
+	5_HgcA
+	96_HgcA
+	77_HgcA
+	68_HgcA
+	92_HgcA
+	57_HgcA
+	1_HgcA
+	78_HgcA
+	76_HgcA
+	44_HgcA
+	33_HgcA
+	101_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	88_HgcA
+	91_HgcA
+	64_HgcA
+	32_HgcA
+	93_HgcA
+	37_HgcA
+
+27/05 10:15:22 DEBUG:
+Building HMM profile... 
+27/05 10:15:22 DEBUG:
+done.
+
+27/05 10:15:22 DEBUG:
+done.
+
+27/05 10:15:22 DEBUG:
+59 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:15:22 DEBUG:
+	100 leaves in pruned tree.
+
+27/05 10:15:22 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:15:23 DEBUG:
+done.
+
+27/05 10:15:23 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfomicrobium_baculatum/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:15:23 DEBUG:
+	1 query sequences.
+
+27/05 10:15:23 DEBUG:
+
+
+27/05 10:15:23 DEBUG:
+Columns = 296
+
+27/05 10:15:23 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfomicrobium_baculatum/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:15:23 DEBUG:
+Read 101 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfomicrobium_baculatum/queries-BMGE.fasta.
+
+27/05 10:15:23 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfomicrobiaceae; g__Desulfomicrobium; s__Desulfomicrobium escambiense:
+
+27/05 10:15:23 DEBUG:
+Reference sequence filtering stats for s__Desulfomicrobium escambiense
+Match taxon	1
+Unclassified	1
+Too shallow	7
+Remaining	100
+
+27/05 10:15:24 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:15:24 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfomicrobium_escambiense/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:15:24 DEBUG:
+8 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:15:24 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	82_HgcA
+	30_HgcA
+	71_HgcA
+	29_HgcA
+	31_HgcA
+	90_HgcA
+	95_HgcA
+	27_HgcA
+	10_HgcA
+	42_HgcA
+	89_HgcA
+	94_HgcA
+	11_HgcA
+	79_HgcA
+	62_HgcA
+	81_HgcA
+	103_HgcA
+	80_HgcA
+	63_HgcA
+	5_HgcA
+	96_HgcA
+	77_HgcA
+	68_HgcA
+	92_HgcA
+	57_HgcA
+	1_HgcA
+	78_HgcA
+	76_HgcA
+	44_HgcA
+	33_HgcA
+	101_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	88_HgcA
+	91_HgcA
+	64_HgcA
+	32_HgcA
+	93_HgcA
+	37_HgcA
+
+27/05 10:15:26 DEBUG:
+Building HMM profile... 
+27/05 10:15:26 DEBUG:
+done.
+
+27/05 10:15:26 DEBUG:
+done.
+
+27/05 10:15:26 DEBUG:
+59 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:15:26 DEBUG:
+	100 leaves in pruned tree.
+
+27/05 10:15:26 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:15:27 DEBUG:
+done.
+
+27/05 10:15:27 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfomicrobium_escambiense/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:15:27 DEBUG:
+	1 query sequences.
+
+27/05 10:15:27 DEBUG:
+
+
+27/05 10:15:27 DEBUG:
+Columns = 296
+
+27/05 10:15:27 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfomicrobium_escambiense/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:15:27 DEBUG:
+Read 101 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfomicrobium_escambiense/queries-BMGE.fasta.
+
+27/05 10:15:27 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfonatronaceae; g__Desulfonatronum; s__Desulfonatronum lacustre:
+
+27/05 10:15:27 DEBUG:
+Reference sequence filtering stats for s__Desulfonatronum lacustre
+Match taxon	1
+Unclassified	1
+Too shallow	7
+Remaining	100
+
+27/05 10:15:28 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:15:28 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfonatronum_lacustre/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:15:28 DEBUG:
+8 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:15:28 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	69_HgcA
+	82_HgcA
+	30_HgcA
+	29_HgcA
+	31_HgcA
+	90_HgcA
+	95_HgcA
+	27_HgcA
+	10_HgcA
+	42_HgcA
+	89_HgcA
+	94_HgcA
+	11_HgcA
+	79_HgcA
+	62_HgcA
+	81_HgcA
+	103_HgcA
+	80_HgcA
+	63_HgcA
+	5_HgcA
+	96_HgcA
+	77_HgcA
+	68_HgcA
+	92_HgcA
+	57_HgcA
+	1_HgcA
+	78_HgcA
+	76_HgcA
+	44_HgcA
+	33_HgcA
+	101_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	88_HgcA
+	91_HgcA
+	64_HgcA
+	32_HgcA
+	93_HgcA
+	37_HgcA
+
+27/05 10:15:30 DEBUG:
+Building HMM profile... 
+27/05 10:15:30 DEBUG:
+done.
+
+27/05 10:15:30 DEBUG:
+done.
+
+27/05 10:15:30 DEBUG:
+59 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:15:30 DEBUG:
+	100 leaves in pruned tree.
+
+27/05 10:15:30 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:15:31 DEBUG:
+done.
+
+27/05 10:15:31 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfonatronum_lacustre/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:15:31 DEBUG:
+	1 query sequences.
+
+27/05 10:15:31 DEBUG:
+
+
+27/05 10:15:31 DEBUG:
+Columns = 296
+
+27/05 10:15:31 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfonatronum_lacustre/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:15:31 DEBUG:
+Read 101 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfonatronum_lacustre/queries-BMGE.fasta.
+
+27/05 10:15:32 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfonatronaceae; g__Desulfonatronum; s__Desulfonatronum thioautotrophicum:
+
+27/05 10:15:32 DEBUG:
+Reference sequence filtering stats for s__Desulfonatronum thioautotrophicum
+Match taxon	1
+Unclassified	1
+Too shallow	7
+Remaining	100
+
+27/05 10:15:32 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:15:32 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfonatronum_thioautotrophicum/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:15:32 DEBUG:
+8 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:15:32 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	69_HgcA
+	82_HgcA
+	30_HgcA
+	29_HgcA
+	31_HgcA
+	90_HgcA
+	95_HgcA
+	27_HgcA
+	10_HgcA
+	42_HgcA
+	89_HgcA
+	94_HgcA
+	11_HgcA
+	79_HgcA
+	62_HgcA
+	81_HgcA
+	103_HgcA
+	80_HgcA
+	63_HgcA
+	5_HgcA
+	96_HgcA
+	77_HgcA
+	68_HgcA
+	92_HgcA
+	57_HgcA
+	1_HgcA
+	78_HgcA
+	76_HgcA
+	44_HgcA
+	33_HgcA
+	101_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	88_HgcA
+	91_HgcA
+	64_HgcA
+	32_HgcA
+	93_HgcA
+	37_HgcA
+
+27/05 10:15:34 DEBUG:
+Building HMM profile... 
+27/05 10:15:35 DEBUG:
+done.
+
+27/05 10:15:35 DEBUG:
+done.
+
+27/05 10:15:35 DEBUG:
+59 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:15:35 DEBUG:
+	100 leaves in pruned tree.
+
+27/05 10:15:35 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:15:35 DEBUG:
+done.
+
+27/05 10:15:35 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfonatronum_thioautotrophicum/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:15:35 DEBUG:
+	1 query sequences.
+
+27/05 10:15:35 DEBUG:
+
+
+27/05 10:15:36 DEBUG:
+Columns = 296
+
+27/05 10:15:36 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfonatronum_thioautotrophicum/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:15:36 DEBUG:
+Read 101 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfonatronum_thioautotrophicum/queries-BMGE.fasta.
+
+27/05 10:15:36 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfovibrio; s__Desulfovibrio bizertensis:
+
+27/05 10:15:36 DEBUG:
+Reference sequence filtering stats for s__Desulfovibrio bizertensis
+Match taxon	1
+Unclassified	1
+Too shallow	7
+Remaining	100
+
+27/05 10:15:36 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:15:36 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfovibrio_bizertensis/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:15:36 DEBUG:
+8 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:15:36 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	69_HgcA
+	82_HgcA
+	30_HgcA
+	29_HgcA
+	31_HgcA
+	90_HgcA
+	95_HgcA
+	27_HgcA
+	10_HgcA
+	42_HgcA
+	89_HgcA
+	94_HgcA
+	11_HgcA
+	79_HgcA
+	62_HgcA
+	81_HgcA
+	103_HgcA
+	80_HgcA
+	63_HgcA
+	5_HgcA
+	96_HgcA
+	77_HgcA
+	68_HgcA
+	92_HgcA
+	57_HgcA
+	1_HgcA
+	78_HgcA
+	44_HgcA
+	33_HgcA
+	101_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	88_HgcA
+	91_HgcA
+	64_HgcA
+	71_HgcA
+	32_HgcA
+	93_HgcA
+	37_HgcA
+
+27/05 10:15:39 DEBUG:
+Building HMM profile... 
+27/05 10:15:39 DEBUG:
+done.
+
+27/05 10:15:39 DEBUG:
+done.
+
+27/05 10:15:39 DEBUG:
+59 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:15:39 DEBUG:
+	100 leaves in pruned tree.
+
+27/05 10:15:39 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:15:39 DEBUG:
+done.
+
+27/05 10:15:40 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfovibrio_bizertensis/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:15:40 DEBUG:
+	1 query sequences.
+
+27/05 10:15:40 DEBUG:
+
+
+27/05 10:15:40 DEBUG:
+Columns = 296
+
+27/05 10:15:40 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfovibrio_bizertensis/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:15:40 DEBUG:
+Read 101 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfovibrio_bizertensis/queries-BMGE.fasta.
+
+27/05 10:15:40 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfovibrio; s__Desulfovibrio desulfuricans:
+
+27/05 10:15:40 DEBUG:
+Reference sequence filtering stats for s__Desulfovibrio desulfuricans
+Match taxon	1
+Unclassified	1
+Too shallow	7
+Remaining	100
+
+27/05 10:15:40 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:15:40 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfovibrio_desulfuricans/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:15:40 DEBUG:
+8 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:15:40 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	69_HgcA
+	82_HgcA
+	30_HgcA
+	29_HgcA
+	31_HgcA
+	90_HgcA
+	95_HgcA
+	27_HgcA
+	10_HgcA
+	42_HgcA
+	89_HgcA
+	94_HgcA
+	11_HgcA
+	79_HgcA
+	62_HgcA
+	81_HgcA
+	103_HgcA
+	80_HgcA
+	63_HgcA
+	5_HgcA
+	96_HgcA
+	76_HgcA
+	68_HgcA
+	92_HgcA
+	57_HgcA
+	1_HgcA
+	78_HgcA
+	44_HgcA
+	33_HgcA
+	101_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	88_HgcA
+	91_HgcA
+	64_HgcA
+	71_HgcA
+	32_HgcA
+	93_HgcA
+	37_HgcA
+
+27/05 10:15:43 DEBUG:
+Building HMM profile... 
+27/05 10:15:43 DEBUG:
+done.
+
+27/05 10:15:43 DEBUG:
+done.
+
+27/05 10:15:43 DEBUG:
+59 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:15:43 DEBUG:
+	100 leaves in pruned tree.
+
+27/05 10:15:43 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:15:44 DEBUG:
+done.
+
+27/05 10:15:44 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfovibrio_desulfuricans/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:15:44 DEBUG:
+	1 query sequences.
+
+27/05 10:15:44 DEBUG:
+
+
+27/05 10:15:44 DEBUG:
+Columns = 296
+
+27/05 10:15:44 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfovibrio_desulfuricans/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:15:44 DEBUG:
+Read 101 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfovibrio_desulfuricans/queries-BMGE.fasta.
+
+27/05 10:15:44 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfovibrio; s__Desulfovibrio halophilus:
+
+27/05 10:15:45 DEBUG:
+Reference sequence filtering stats for s__Desulfovibrio halophilus
+Match taxon	1
+Unclassified	1
+Too shallow	7
+Remaining	100
+
+27/05 10:15:45 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:15:45 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfovibrio_halophilus/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:15:45 DEBUG:
+8 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:15:45 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	69_HgcA
+	82_HgcA
+	30_HgcA
+	29_HgcA
+	31_HgcA
+	90_HgcA
+	95_HgcA
+	27_HgcA
+	10_HgcA
+	42_HgcA
+	89_HgcA
+	94_HgcA
+	11_HgcA
+	79_HgcA
+	62_HgcA
+	81_HgcA
+	103_HgcA
+	80_HgcA
+	63_HgcA
+	5_HgcA
+	96_HgcA
+	76_HgcA
+	68_HgcA
+	92_HgcA
+	57_HgcA
+	1_HgcA
+	77_HgcA
+	44_HgcA
+	33_HgcA
+	101_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	88_HgcA
+	91_HgcA
+	64_HgcA
+	71_HgcA
+	32_HgcA
+	93_HgcA
+	37_HgcA
+
+27/05 10:15:47 DEBUG:
+Building HMM profile... 
+27/05 10:15:47 DEBUG:
+done.
+
+27/05 10:15:47 DEBUG:
+done.
+
+27/05 10:15:47 DEBUG:
+59 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:15:47 DEBUG:
+	100 leaves in pruned tree.
+
+27/05 10:15:47 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:15:48 DEBUG:
+done.
+
+27/05 10:15:48 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfovibrio_halophilus/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:15:48 DEBUG:
+	1 query sequences.
+
+27/05 10:15:48 DEBUG:
+
+
+27/05 10:15:48 DEBUG:
+Columns = 296
+
+27/05 10:15:48 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfovibrio_halophilus/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:15:48 DEBUG:
+Read 101 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfovibrio_halophilus/queries-BMGE.fasta.
+
+27/05 10:15:49 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfovibrio; s__Desulfovibrio inopinatus:
+
+27/05 10:15:49 DEBUG:
+Reference sequence filtering stats for s__Desulfovibrio inopinatus
+Match taxon	1
+Unclassified	1
+Too shallow	7
+Remaining	100
+
+27/05 10:15:49 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:15:49 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfovibrio_inopinatus/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:15:49 DEBUG:
+8 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:15:49 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	69_HgcA
+	82_HgcA
+	30_HgcA
+	29_HgcA
+	31_HgcA
+	90_HgcA
+	95_HgcA
+	27_HgcA
+	10_HgcA
+	42_HgcA
+	89_HgcA
+	94_HgcA
+	11_HgcA
+	78_HgcA
+	62_HgcA
+	81_HgcA
+	103_HgcA
+	80_HgcA
+	63_HgcA
+	5_HgcA
+	96_HgcA
+	76_HgcA
+	68_HgcA
+	92_HgcA
+	57_HgcA
+	1_HgcA
+	77_HgcA
+	44_HgcA
+	33_HgcA
+	101_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	88_HgcA
+	91_HgcA
+	64_HgcA
+	71_HgcA
+	32_HgcA
+	93_HgcA
+	37_HgcA
+
+27/05 10:15:51 DEBUG:
+Building HMM profile... 
+27/05 10:15:52 DEBUG:
+done.
+
+27/05 10:15:52 DEBUG:
+done.
+
+27/05 10:15:52 DEBUG:
+59 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:15:52 DEBUG:
+	100 leaves in pruned tree.
+
+27/05 10:15:52 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:15:52 DEBUG:
+done.
+
+27/05 10:15:52 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfovibrio_inopinatus/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:15:52 DEBUG:
+	1 query sequences.
+
+27/05 10:15:52 DEBUG:
+
+
+27/05 10:15:53 DEBUG:
+Columns = 296
+
+27/05 10:15:53 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfovibrio_inopinatus/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:15:53 DEBUG:
+Read 101 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfovibrio_inopinatus/queries-BMGE.fasta.
+
+27/05 10:15:53 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfovibrio; s__Desulfovibrio longus:
+
+27/05 10:15:53 DEBUG:
+Reference sequence filtering stats for s__Desulfovibrio longus
+Match taxon	1
+Unclassified	1
+Too shallow	7
+Remaining	100
+
+27/05 10:15:53 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:15:53 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfovibrio_longus/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:15:53 DEBUG:
+8 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:15:53 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	69_HgcA
+	82_HgcA
+	30_HgcA
+	29_HgcA
+	31_HgcA
+	90_HgcA
+	95_HgcA
+	27_HgcA
+	10_HgcA
+	42_HgcA
+	89_HgcA
+	94_HgcA
+	11_HgcA
+	78_HgcA
+	62_HgcA
+	81_HgcA
+	103_HgcA
+	63_HgcA
+	5_HgcA
+	96_HgcA
+	76_HgcA
+	68_HgcA
+	92_HgcA
+	57_HgcA
+	1_HgcA
+	77_HgcA
+	44_HgcA
+	33_HgcA
+	101_HgcA
+	79_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	88_HgcA
+	91_HgcA
+	64_HgcA
+	71_HgcA
+	32_HgcA
+	93_HgcA
+	37_HgcA
+
+27/05 10:15:55 DEBUG:
+Building HMM profile... 
+27/05 10:15:56 DEBUG:
+done.
+
+27/05 10:15:56 DEBUG:
+done.
+
+27/05 10:15:56 DEBUG:
+59 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:15:56 DEBUG:
+	100 leaves in pruned tree.
+
+27/05 10:15:56 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:15:56 DEBUG:
+done.
+
+27/05 10:15:56 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfovibrio_longus/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:15:56 DEBUG:
+	1 query sequences.
+
+27/05 10:15:57 DEBUG:
+
+
+27/05 10:15:57 DEBUG:
+Columns = 296
+
+27/05 10:15:57 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfovibrio_longus/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:15:57 DEBUG:
+Read 101 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfovibrio_longus/queries-BMGE.fasta.
+
+27/05 10:15:57 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfovibrio; s__Desulfovibrio oxyclinae:
+
+27/05 10:15:57 DEBUG:
+Reference sequence filtering stats for s__Desulfovibrio oxyclinae
+Match taxon	1
+Unclassified	1
+Too shallow	7
+Remaining	100
+
+27/05 10:15:58 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:15:58 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfovibrio_oxyclinae/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:15:58 DEBUG:
+8 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:15:58 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	69_HgcA
+	82_HgcA
+	30_HgcA
+	29_HgcA
+	31_HgcA
+	90_HgcA
+	95_HgcA
+	27_HgcA
+	10_HgcA
+	42_HgcA
+	89_HgcA
+	94_HgcA
+	11_HgcA
+	78_HgcA
+	62_HgcA
+	80_HgcA
+	103_HgcA
+	63_HgcA
+	5_HgcA
+	96_HgcA
+	76_HgcA
+	68_HgcA
+	92_HgcA
+	57_HgcA
+	1_HgcA
+	77_HgcA
+	44_HgcA
+	33_HgcA
+	101_HgcA
+	79_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	88_HgcA
+	91_HgcA
+	64_HgcA
+	71_HgcA
+	32_HgcA
+	93_HgcA
+	37_HgcA
+
+27/05 10:16:00 DEBUG:
+Building HMM profile... 
+27/05 10:16:00 DEBUG:
+done.
+
+27/05 10:16:00 DEBUG:
+done.
+
+27/05 10:16:00 DEBUG:
+59 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:16:00 DEBUG:
+	100 leaves in pruned tree.
+
+27/05 10:16:00 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:16:01 DEBUG:
+done.
+
+27/05 10:16:01 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfovibrio_oxyclinae/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:16:01 DEBUG:
+	1 query sequences.
+
+27/05 10:16:01 DEBUG:
+
+
+27/05 10:16:01 DEBUG:
+Columns = 296
+
+27/05 10:16:01 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfovibrio_oxyclinae/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:16:01 DEBUG:
+Read 101 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfovibrio_oxyclinae/queries-BMGE.fasta.
+
+27/05 10:16:02 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfovibrio; s__Desulfovibrio putealis:
+
+27/05 10:16:02 DEBUG:
+Reference sequence filtering stats for s__Desulfovibrio putealis
+Match taxon	1
+Unclassified	1
+Too shallow	7
+Remaining	100
+
+27/05 10:16:02 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:16:02 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfovibrio_putealis/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:16:02 DEBUG:
+8 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:16:02 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	69_HgcA
+	81_HgcA
+	30_HgcA
+	29_HgcA
+	31_HgcA
+	90_HgcA
+	95_HgcA
+	27_HgcA
+	10_HgcA
+	42_HgcA
+	89_HgcA
+	94_HgcA
+	11_HgcA
+	78_HgcA
+	62_HgcA
+	80_HgcA
+	103_HgcA
+	63_HgcA
+	5_HgcA
+	96_HgcA
+	76_HgcA
+	68_HgcA
+	92_HgcA
+	57_HgcA
+	1_HgcA
+	77_HgcA
+	44_HgcA
+	33_HgcA
+	101_HgcA
+	79_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	88_HgcA
+	91_HgcA
+	64_HgcA
+	71_HgcA
+	32_HgcA
+	93_HgcA
+	37_HgcA
+
+27/05 10:16:05 DEBUG:
+Building HMM profile... 
+27/05 10:16:05 DEBUG:
+done.
+
+27/05 10:16:05 DEBUG:
+done.
+
+27/05 10:16:05 DEBUG:
+59 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:16:05 DEBUG:
+	100 leaves in pruned tree.
+
+27/05 10:16:05 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:16:06 DEBUG:
+done.
+
+27/05 10:16:06 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfovibrio_putealis/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:16:06 DEBUG:
+	1 query sequences.
+
+27/05 10:16:06 DEBUG:
+
+
+27/05 10:16:06 DEBUG:
+Columns = 296
+
+27/05 10:16:06 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfovibrio_putealis/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:16:06 DEBUG:
+Read 101 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfovibrio_putealis/queries-BMGE.fasta.
+
+27/05 10:16:07 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfovibrionales; f__Desulfovibrionaceae; g__Desulfovibrio; s__Desulfovibrio sp. X2:
+
+27/05 10:16:07 DEBUG:
+Reference sequence filtering stats for s__Desulfovibrio sp. X2
+Match taxon	1
+Unclassified	1
+Too shallow	7
+Remaining	100
+
+27/05 10:16:07 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:16:07 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfovibrio_sp._X2/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:16:07 DEBUG:
+8 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:16:07 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	69_HgcA
+	81_HgcA
+	30_HgcA
+	29_HgcA
+	31_HgcA
+	90_HgcA
+	95_HgcA
+	27_HgcA
+	10_HgcA
+	42_HgcA
+	89_HgcA
+	94_HgcA
+	11_HgcA
+	78_HgcA
+	62_HgcA
+	80_HgcA
+	103_HgcA
+	63_HgcA
+	5_HgcA
+	96_HgcA
+	76_HgcA
+	68_HgcA
+	92_HgcA
+	57_HgcA
+	1_HgcA
+	77_HgcA
+	44_HgcA
+	33_HgcA
+	101_HgcA
+	79_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	88_HgcA
+	91_HgcA
+	64_HgcA
+	71_HgcA
+	32_HgcA
+	93_HgcA
+	37_HgcA
+
+27/05 10:16:09 DEBUG:
+Building HMM profile... 
+27/05 10:16:10 DEBUG:
+done.
+
+27/05 10:16:10 DEBUG:
+done.
+
+27/05 10:16:10 DEBUG:
+59 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:16:10 DEBUG:
+	100 leaves in pruned tree.
+
+27/05 10:16:10 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:16:11 DEBUG:
+done.
+
+27/05 10:16:11 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfovibrio_sp._X2/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:16:11 DEBUG:
+	1 query sequences.
+
+27/05 10:16:11 DEBUG:
+
+
+27/05 10:16:11 DEBUG:
+Columns = 296
+
+27/05 10:16:11 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfovibrio_sp._X2/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:16:11 DEBUG:
+Read 101 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfovibrio_sp._X2/queries-BMGE.fasta.
+
+27/05 10:16:11 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfuromonadales; f__Geobacteraceae; g__Geobacter; s__Geobacter argillaceus:
+
+27/05 10:16:11 DEBUG:
+Reference sequence filtering stats for s__Geobacter argillaceus
+Match taxon	1
+Unclassified	1
+Too shallow	7
+Remaining	100
+
+27/05 10:16:12 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:16:12 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_argillaceus/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:16:12 DEBUG:
+8 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:16:12 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	69_HgcA
+	81_HgcA
+	30_HgcA
+	29_HgcA
+	31_HgcA
+	90_HgcA
+	95_HgcA
+	27_HgcA
+	10_HgcA
+	42_HgcA
+	89_HgcA
+	94_HgcA
+	11_HgcA
+	78_HgcA
+	62_HgcA
+	80_HgcA
+	103_HgcA
+	63_HgcA
+	5_HgcA
+	96_HgcA
+	76_HgcA
+	68_HgcA
+	92_HgcA
+	57_HgcA
+	1_HgcA
+	77_HgcA
+	44_HgcA
+	33_HgcA
+	101_HgcA
+	79_HgcA
+	82_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	91_HgcA
+	64_HgcA
+	71_HgcA
+	32_HgcA
+	93_HgcA
+	37_HgcA
+
+27/05 10:16:14 DEBUG:
+Building HMM profile... 
+27/05 10:16:14 DEBUG:
+done.
+
+27/05 10:16:14 DEBUG:
+done.
+
+27/05 10:16:14 DEBUG:
+59 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:16:14 DEBUG:
+	100 leaves in pruned tree.
+
+27/05 10:16:14 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:16:15 DEBUG:
+done.
+
+27/05 10:16:15 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_argillaceus/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:16:15 DEBUG:
+	1 query sequences.
+
+27/05 10:16:15 DEBUG:
+
+
+27/05 10:16:15 DEBUG:
+Columns = 296
+
+27/05 10:16:15 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_argillaceus/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:16:15 DEBUG:
+Read 101 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_argillaceus/queries-BMGE.fasta.
+
+27/05 10:16:16 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfuromonadales; f__Geobacteraceae; g__Geobacter; s__Geobacter bemidjiensis:
+
+27/05 10:16:16 DEBUG:
+Reference sequence filtering stats for s__Geobacter bemidjiensis
+Match taxon	1
+Unclassified	1
+Too shallow	7
+Remaining	100
+
+27/05 10:16:16 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:16:16 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_bemidjiensis/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:16:16 DEBUG:
+8 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:16:16 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	69_HgcA
+	81_HgcA
+	30_HgcA
+	29_HgcA
+	31_HgcA
+	90_HgcA
+	95_HgcA
+	27_HgcA
+	10_HgcA
+	42_HgcA
+	88_HgcA
+	94_HgcA
+	11_HgcA
+	78_HgcA
+	62_HgcA
+	80_HgcA
+	103_HgcA
+	63_HgcA
+	5_HgcA
+	96_HgcA
+	76_HgcA
+	68_HgcA
+	92_HgcA
+	57_HgcA
+	1_HgcA
+	77_HgcA
+	44_HgcA
+	33_HgcA
+	101_HgcA
+	79_HgcA
+	82_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	91_HgcA
+	64_HgcA
+	71_HgcA
+	32_HgcA
+	93_HgcA
+	37_HgcA
+
+27/05 10:16:18 DEBUG:
+Building HMM profile... 
+27/05 10:16:19 DEBUG:
+done.
+
+27/05 10:16:19 DEBUG:
+done.
+
+27/05 10:16:19 DEBUG:
+59 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:16:19 DEBUG:
+	100 leaves in pruned tree.
+
+27/05 10:16:19 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:16:19 DEBUG:
+done.
+
+27/05 10:16:19 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_bemidjiensis/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:16:19 DEBUG:
+	1 query sequences.
+
+27/05 10:16:19 DEBUG:
+
+
+27/05 10:16:20 DEBUG:
+Columns = 296
+
+27/05 10:16:20 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_bemidjiensis/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:16:20 DEBUG:
+Read 101 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_bemidjiensis/queries-BMGE.fasta.
+
+27/05 10:16:20 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfuromonadales; f__Geobacteraceae; g__Geobacter; s__Geobacter daltonii:
+
+27/05 10:16:20 DEBUG:
+Reference sequence filtering stats for s__Geobacter daltonii
+Match taxon	1
+Unclassified	1
+Too shallow	7
+Remaining	100
+
+27/05 10:16:20 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:16:20 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_daltonii/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:16:20 DEBUG:
+8 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:16:20 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	69_HgcA
+	81_HgcA
+	30_HgcA
+	29_HgcA
+	31_HgcA
+	95_HgcA
+	27_HgcA
+	10_HgcA
+	42_HgcA
+	88_HgcA
+	94_HgcA
+	11_HgcA
+	78_HgcA
+	62_HgcA
+	80_HgcA
+	103_HgcA
+	63_HgcA
+	5_HgcA
+	96_HgcA
+	76_HgcA
+	89_HgcA
+	68_HgcA
+	92_HgcA
+	57_HgcA
+	1_HgcA
+	77_HgcA
+	44_HgcA
+	33_HgcA
+	101_HgcA
+	79_HgcA
+	82_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	91_HgcA
+	64_HgcA
+	71_HgcA
+	32_HgcA
+	93_HgcA
+	37_HgcA
+
+27/05 10:16:23 DEBUG:
+Building HMM profile... 
+27/05 10:16:23 DEBUG:
+done.
+
+27/05 10:16:23 DEBUG:
+done.
+
+27/05 10:16:23 DEBUG:
+59 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:16:23 DEBUG:
+	100 leaves in pruned tree.
+
+27/05 10:16:23 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:16:23 DEBUG:
+done.
+
+27/05 10:16:23 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_daltonii/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:16:23 DEBUG:
+	1 query sequences.
+
+27/05 10:16:24 DEBUG:
+
+
+27/05 10:16:24 DEBUG:
+Columns = 296
+
+27/05 10:16:24 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_daltonii/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:16:24 DEBUG:
+Read 101 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_daltonii/queries-BMGE.fasta.
+
+27/05 10:16:24 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfuromonadales; f__Geobacteraceae; g__Geobacter; s__Geobacter metallireducens:
+
+27/05 10:16:24 DEBUG:
+Reference sequence filtering stats for s__Geobacter metallireducens
+Match taxon	1
+Unclassified	1
+Too shallow	7
+Remaining	100
+
+27/05 10:16:24 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:16:24 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_metallireducens/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:16:24 DEBUG:
+8 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:16:24 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	69_HgcA
+	81_HgcA
+	30_HgcA
+	29_HgcA
+	31_HgcA
+	95_HgcA
+	27_HgcA
+	10_HgcA
+	42_HgcA
+	88_HgcA
+	94_HgcA
+	11_HgcA
+	78_HgcA
+	62_HgcA
+	80_HgcA
+	103_HgcA
+	63_HgcA
+	5_HgcA
+	96_HgcA
+	76_HgcA
+	89_HgcA
+	68_HgcA
+	92_HgcA
+	57_HgcA
+	1_HgcA
+	77_HgcA
+	44_HgcA
+	33_HgcA
+	101_HgcA
+	79_HgcA
+	82_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	90_HgcA
+	64_HgcA
+	71_HgcA
+	32_HgcA
+	93_HgcA
+	37_HgcA
+
+27/05 10:16:27 DEBUG:
+Building HMM profile... 
+27/05 10:16:27 DEBUG:
+done.
+
+27/05 10:16:27 DEBUG:
+done.
+
+27/05 10:16:27 DEBUG:
+59 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:16:27 DEBUG:
+	100 leaves in pruned tree.
+
+27/05 10:16:27 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:16:28 DEBUG:
+done.
+
+27/05 10:16:28 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_metallireducens/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:16:28 DEBUG:
+	1 query sequences.
+
+27/05 10:16:28 DEBUG:
+
+
+27/05 10:16:28 DEBUG:
+Columns = 296
+
+27/05 10:16:28 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_metallireducens/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:16:28 DEBUG:
+Read 101 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_metallireducens/queries-BMGE.fasta.
+
+27/05 10:16:29 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfuromonadales; f__Geobacteraceae; g__Geobacter; s__Geobacter pickeringii:
+
+27/05 10:16:29 DEBUG:
+Reference sequence filtering stats for s__Geobacter pickeringii
+Match taxon	1
+Unclassified	1
+Too shallow	7
+Remaining	100
+
+27/05 10:16:29 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:16:29 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_pickeringii/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:16:29 DEBUG:
+8 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:16:29 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	69_HgcA
+	81_HgcA
+	30_HgcA
+	29_HgcA
+	31_HgcA
+	95_HgcA
+	27_HgcA
+	10_HgcA
+	42_HgcA
+	88_HgcA
+	94_HgcA
+	11_HgcA
+	78_HgcA
+	62_HgcA
+	80_HgcA
+	103_HgcA
+	63_HgcA
+	5_HgcA
+	96_HgcA
+	76_HgcA
+	89_HgcA
+	68_HgcA
+	91_HgcA
+	57_HgcA
+	1_HgcA
+	77_HgcA
+	44_HgcA
+	33_HgcA
+	101_HgcA
+	79_HgcA
+	82_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	90_HgcA
+	64_HgcA
+	71_HgcA
+	32_HgcA
+	93_HgcA
+	37_HgcA
+
+27/05 10:16:31 DEBUG:
+Building HMM profile... 
+27/05 10:16:31 DEBUG:
+done.
+
+27/05 10:16:31 DEBUG:
+done.
+
+27/05 10:16:31 DEBUG:
+59 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:16:31 DEBUG:
+	100 leaves in pruned tree.
+
+27/05 10:16:31 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:16:32 DEBUG:
+done.
+
+27/05 10:16:32 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_pickeringii/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:16:32 DEBUG:
+	1 query sequences.
+
+27/05 10:16:32 DEBUG:
+
+
+27/05 10:16:32 DEBUG:
+Columns = 296
+
+27/05 10:16:32 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_pickeringii/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:16:32 DEBUG:
+Read 101 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_pickeringii/queries-BMGE.fasta.
+
+27/05 10:16:33 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfuromonadales; f__Geobacteraceae; g__Geobacter; s__Geobacter soli:
+
+27/05 10:16:33 DEBUG:
+Reference sequence filtering stats for s__Geobacter soli
+Match taxon	1
+Unclassified	1
+Too shallow	7
+Remaining	100
+
+27/05 10:16:33 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:16:33 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_soli/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:16:33 DEBUG:
+8 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:16:33 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	69_HgcA
+	81_HgcA
+	30_HgcA
+	29_HgcA
+	31_HgcA
+	95_HgcA
+	27_HgcA
+	10_HgcA
+	42_HgcA
+	88_HgcA
+	94_HgcA
+	11_HgcA
+	78_HgcA
+	62_HgcA
+	80_HgcA
+	103_HgcA
+	63_HgcA
+	5_HgcA
+	96_HgcA
+	76_HgcA
+	89_HgcA
+	68_HgcA
+	91_HgcA
+	57_HgcA
+	1_HgcA
+	77_HgcA
+	44_HgcA
+	33_HgcA
+	101_HgcA
+	79_HgcA
+	82_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	90_HgcA
+	64_HgcA
+	71_HgcA
+	32_HgcA
+	92_HgcA
+	37_HgcA
+
+27/05 10:16:35 DEBUG:
+Building HMM profile... 
+27/05 10:16:36 DEBUG:
+done.
+
+27/05 10:16:36 DEBUG:
+done.
+
+27/05 10:16:36 DEBUG:
+59 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:16:36 DEBUG:
+	100 leaves in pruned tree.
+
+27/05 10:16:36 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:16:36 DEBUG:
+done.
+
+27/05 10:16:36 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_soli/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:16:36 DEBUG:
+	1 query sequences.
+
+27/05 10:16:36 DEBUG:
+
+
+27/05 10:16:37 DEBUG:
+Columns = 296
+
+27/05 10:16:37 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_soli/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:16:37 DEBUG:
+Read 101 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_soli/queries-BMGE.fasta.
+
+27/05 10:16:37 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfuromonadales; f__Geobacteraceae; g__Geobacter; s__Geobacter sp. M18:
+
+27/05 10:16:37 DEBUG:
+Reference sequence filtering stats for s__Geobacter sp. M18
+Match taxon	1
+Unclassified	1
+Too shallow	7
+Remaining	100
+
+27/05 10:16:37 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:16:37 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_sp._M18/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:16:37 DEBUG:
+8 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:16:37 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	69_HgcA
+	81_HgcA
+	30_HgcA
+	29_HgcA
+	31_HgcA
+	95_HgcA
+	27_HgcA
+	10_HgcA
+	42_HgcA
+	88_HgcA
+	93_HgcA
+	11_HgcA
+	78_HgcA
+	62_HgcA
+	80_HgcA
+	103_HgcA
+	63_HgcA
+	5_HgcA
+	96_HgcA
+	76_HgcA
+	89_HgcA
+	68_HgcA
+	91_HgcA
+	57_HgcA
+	1_HgcA
+	77_HgcA
+	44_HgcA
+	33_HgcA
+	101_HgcA
+	79_HgcA
+	82_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	90_HgcA
+	64_HgcA
+	71_HgcA
+	32_HgcA
+	92_HgcA
+	37_HgcA
+
+27/05 10:16:40 DEBUG:
+Building HMM profile... 
+27/05 10:16:40 DEBUG:
+done.
+
+27/05 10:16:40 DEBUG:
+done.
+
+27/05 10:16:40 DEBUG:
+59 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:16:40 DEBUG:
+	100 leaves in pruned tree.
+
+27/05 10:16:40 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:16:41 DEBUG:
+done.
+
+27/05 10:16:41 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_sp._M18/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:16:41 DEBUG:
+	1 query sequences.
+
+27/05 10:16:41 DEBUG:
+
+
+27/05 10:16:41 DEBUG:
+Columns = 296
+
+27/05 10:16:41 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_sp._M18/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:16:41 DEBUG:
+Read 101 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_sp._M18/queries-BMGE.fasta.
+
+27/05 10:16:41 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfuromonadales; f__Geobacteraceae; g__Geobacter; s__Geobacter sp. OR-1:
+
+27/05 10:16:41 DEBUG:
+Reference sequence filtering stats for s__Geobacter sp. OR-1
+Match taxon	1
+Unclassified	1
+Too shallow	7
+Remaining	100
+
+27/05 10:16:42 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:16:42 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_sp._OR-1/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:16:42 DEBUG:
+8 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:16:42 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	69_HgcA
+	81_HgcA
+	30_HgcA
+	29_HgcA
+	31_HgcA
+	94_HgcA
+	27_HgcA
+	10_HgcA
+	42_HgcA
+	88_HgcA
+	93_HgcA
+	11_HgcA
+	78_HgcA
+	62_HgcA
+	80_HgcA
+	103_HgcA
+	63_HgcA
+	5_HgcA
+	96_HgcA
+	76_HgcA
+	89_HgcA
+	68_HgcA
+	91_HgcA
+	57_HgcA
+	1_HgcA
+	77_HgcA
+	44_HgcA
+	33_HgcA
+	101_HgcA
+	79_HgcA
+	82_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	90_HgcA
+	64_HgcA
+	71_HgcA
+	32_HgcA
+	92_HgcA
+	37_HgcA
+
+27/05 10:16:44 DEBUG:
+Building HMM profile... 
+27/05 10:16:44 DEBUG:
+done.
+
+27/05 10:16:44 DEBUG:
+done.
+
+27/05 10:16:44 DEBUG:
+59 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:16:44 DEBUG:
+	100 leaves in pruned tree.
+
+27/05 10:16:44 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:16:45 DEBUG:
+done.
+
+27/05 10:16:45 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_sp._OR-1/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:16:45 DEBUG:
+	1 query sequences.
+
+27/05 10:16:45 DEBUG:
+
+
+27/05 10:16:45 DEBUG:
+Columns = 296
+
+27/05 10:16:45 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_sp._OR-1/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:16:45 DEBUG:
+Read 101 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_sp._OR-1/queries-BMGE.fasta.
+
+27/05 10:16:46 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfuromonadales; f__Geobacteraceae; g__Geobacter; s__Geobacter sulfurreducens:
+
+27/05 10:16:46 DEBUG:
+Reference sequence filtering stats for s__Geobacter sulfurreducens
+Match taxon	1
+Unclassified	1
+Too shallow	7
+Remaining	100
+
+27/05 10:16:46 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:16:46 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_sulfurreducens/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:16:46 DEBUG:
+8 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:16:46 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	69_HgcA
+	81_HgcA
+	30_HgcA
+	29_HgcA
+	31_HgcA
+	94_HgcA
+	27_HgcA
+	10_HgcA
+	42_HgcA
+	88_HgcA
+	93_HgcA
+	11_HgcA
+	78_HgcA
+	62_HgcA
+	80_HgcA
+	103_HgcA
+	63_HgcA
+	5_HgcA
+	95_HgcA
+	76_HgcA
+	89_HgcA
+	68_HgcA
+	91_HgcA
+	57_HgcA
+	1_HgcA
+	77_HgcA
+	44_HgcA
+	33_HgcA
+	101_HgcA
+	79_HgcA
+	82_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	90_HgcA
+	64_HgcA
+	71_HgcA
+	32_HgcA
+	92_HgcA
+	37_HgcA
+
+27/05 10:16:48 DEBUG:
+Building HMM profile... 
+27/05 10:16:48 DEBUG:
+done.
+
+27/05 10:16:48 DEBUG:
+done.
+
+27/05 10:16:48 DEBUG:
+59 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:16:48 DEBUG:
+	100 leaves in pruned tree.
+
+27/05 10:16:48 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:16:49 DEBUG:
+done.
+
+27/05 10:16:49 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_sulfurreducens/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:16:49 DEBUG:
+	1 query sequences.
+
+27/05 10:16:49 DEBUG:
+
+
+27/05 10:16:49 DEBUG:
+Columns = 296
+
+27/05 10:16:49 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_sulfurreducens/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:16:49 DEBUG:
+Read 101 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_sulfurreducens/queries-BMGE.fasta.
+
+27/05 10:16:50 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfuromonadales; f__Geobacteraceae; g__Geobacter; s__Geobacter uraniireducens:
+
+27/05 10:16:50 DEBUG:
+Reference sequence filtering stats for s__Geobacter uraniireducens
+Match taxon	1
+Unclassified	1
+Too shallow	7
+Remaining	100
+
+27/05 10:16:50 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:16:50 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_uraniireducens/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:16:50 DEBUG:
+8 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:16:50 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	69_HgcA
+	81_HgcA
+	30_HgcA
+	29_HgcA
+	31_HgcA
+	94_HgcA
+	27_HgcA
+	10_HgcA
+	42_HgcA
+	88_HgcA
+	93_HgcA
+	11_HgcA
+	78_HgcA
+	62_HgcA
+	80_HgcA
+	103_HgcA
+	63_HgcA
+	5_HgcA
+	95_HgcA
+	76_HgcA
+	89_HgcA
+	68_HgcA
+	91_HgcA
+	57_HgcA
+	1_HgcA
+	77_HgcA
+	44_HgcA
+	33_HgcA
+	101_HgcA
+	79_HgcA
+	82_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	90_HgcA
+	64_HgcA
+	71_HgcA
+	32_HgcA
+	92_HgcA
+	37_HgcA
+
+27/05 10:16:52 DEBUG:
+Building HMM profile... 
+27/05 10:16:52 DEBUG:
+done.
+
+27/05 10:16:52 DEBUG:
+done.
+
+27/05 10:16:52 DEBUG:
+59 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:16:52 DEBUG:
+	100 leaves in pruned tree.
+
+27/05 10:16:52 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:16:53 DEBUG:
+done.
+
+27/05 10:16:53 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_uraniireducens/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:16:53 DEBUG:
+	1 query sequences.
+
+27/05 10:16:53 DEBUG:
+
+
+27/05 10:16:53 DEBUG:
+Columns = 296
+
+27/05 10:16:53 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_uraniireducens/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:16:53 DEBUG:
+Read 101 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Geobacter_uraniireducens/queries-BMGE.fasta.
+
+27/05 10:16:54 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Syntrophobacterales; f__Syntrophaceae; g__Syntrophus; s__Syntrophus aciditrophicus:
+
+27/05 10:16:54 DEBUG:
+Reference sequence filtering stats for s__Syntrophus aciditrophicus
+Match taxon	1
+Unclassified	1
+Too shallow	7
+Remaining	100
+
+27/05 10:16:54 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:16:54 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Syntrophus_aciditrophicus/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:16:54 DEBUG:
+8 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:16:54 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	44_HgcA
+	82_HgcA
+	31_HgcA
+	71_HgcA
+	32_HgcA
+	90_HgcA
+	95_HgcA
+	37_HgcA
+	11_HgcA
+	89_HgcA
+	94_HgcA
+	12_HgcA
+	62_HgcA
+	30_HgcA
+	23_HgcA
+	5_HgcA
+	79_HgcA
+	63_HgcA
+	29_HgcA
+	81_HgcA
+	80_HgcA
+	64_HgcA
+	96_HgcA
+	10_HgcA
+	103_HgcA
+	77_HgcA
+	69_HgcA
+	1_HgcA
+	92_HgcA
+	78_HgcA
+	76_HgcA
+	26_HgcA
+	68_HgcA
+	34_HgcA
+	91_HgcA
+	27_HgcA
+	42_HgcA
+	88_HgcA
+	57_HgcA
+	33_HgcA
+	93_HgcA
+
+27/05 10:16:56 DEBUG:
+Building HMM profile... 
+27/05 10:16:57 DEBUG:
+done.
+
+27/05 10:16:57 DEBUG:
+done.
+
+27/05 10:16:57 DEBUG:
+59 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:16:57 DEBUG:
+	100 leaves in pruned tree.
+
+27/05 10:16:57 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:16:57 DEBUG:
+done.
+
+27/05 10:16:57 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Syntrophus_aciditrophicus/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:16:57 DEBUG:
+	1 query sequences.
+
+27/05 10:16:57 DEBUG:
+
+
+27/05 10:16:58 DEBUG:
+Columns = 296
+
+27/05 10:16:58 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Syntrophus_aciditrophicus/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:16:58 DEBUG:
+Read 101 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Syntrophus_aciditrophicus/queries-BMGE.fasta.
+
+27/05 10:16:58 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Syntrophobacterales; f__Syntrophaceae; g__Syntrophus; s__Syntrophus gentianae:
+
+27/05 10:16:58 DEBUG:
+Reference sequence filtering stats for s__Syntrophus gentianae
+Match taxon	1
+Unclassified	1
+Too shallow	7
+Remaining	100
+
+27/05 10:16:58 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:16:58 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Syntrophus_gentianae/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:16:58 DEBUG:
+8 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:16:58 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	44_HgcA
+	82_HgcA
+	31_HgcA
+	71_HgcA
+	32_HgcA
+	90_HgcA
+	95_HgcA
+	37_HgcA
+	11_HgcA
+	89_HgcA
+	94_HgcA
+	12_HgcA
+	62_HgcA
+	30_HgcA
+	23_HgcA
+	5_HgcA
+	79_HgcA
+	63_HgcA
+	29_HgcA
+	81_HgcA
+	80_HgcA
+	64_HgcA
+	96_HgcA
+	10_HgcA
+	103_HgcA
+	77_HgcA
+	69_HgcA
+	1_HgcA
+	92_HgcA
+	78_HgcA
+	76_HgcA
+	26_HgcA
+	68_HgcA
+	34_HgcA
+	91_HgcA
+	27_HgcA
+	42_HgcA
+	88_HgcA
+	57_HgcA
+	33_HgcA
+	93_HgcA
+
+27/05 10:17:01 DEBUG:
+Building HMM profile... 
+27/05 10:17:01 DEBUG:
+done.
+
+27/05 10:17:01 DEBUG:
+done.
+
+27/05 10:17:01 DEBUG:
+59 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:17:01 DEBUG:
+	100 leaves in pruned tree.
+
+27/05 10:17:01 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:17:02 DEBUG:
+done.
+
+27/05 10:17:02 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Syntrophus_gentianae/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:17:02 DEBUG:
+	1 query sequences.
+
+27/05 10:17:02 DEBUG:
+
+
+27/05 10:17:02 DEBUG:
+Columns = 296
+
+27/05 10:17:02 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Syntrophus_gentianae/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:17:02 DEBUG:
+Read 101 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Syntrophus_gentianae/queries-BMGE.fasta.
+
+27/05 10:17:03 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Syntrophobacterales; f__Syntrophobacteraceae; g__Desulfacinum; s__Desulfacinum hydrothermale:
+
+27/05 10:17:03 DEBUG:
+Reference sequence filtering stats for s__Desulfacinum hydrothermale
+Match taxon	1
+Unclassified	1
+Too shallow	7
+Remaining	100
+
+27/05 10:17:03 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:17:03 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfacinum_hydrothermale/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:17:03 DEBUG:
+8 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:17:03 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	44_HgcA
+	82_HgcA
+	31_HgcA
+	71_HgcA
+	32_HgcA
+	90_HgcA
+	95_HgcA
+	37_HgcA
+	11_HgcA
+	89_HgcA
+	94_HgcA
+	12_HgcA
+	62_HgcA
+	30_HgcA
+	23_HgcA
+	5_HgcA
+	79_HgcA
+	63_HgcA
+	29_HgcA
+	81_HgcA
+	80_HgcA
+	64_HgcA
+	96_HgcA
+	10_HgcA
+	77_HgcA
+	69_HgcA
+	1_HgcA
+	92_HgcA
+	78_HgcA
+	76_HgcA
+	26_HgcA
+	101_HgcA
+	68_HgcA
+	34_HgcA
+	91_HgcA
+	27_HgcA
+	42_HgcA
+	88_HgcA
+	57_HgcA
+	33_HgcA
+	93_HgcA
+
+27/05 10:17:05 DEBUG:
+Building HMM profile... 
+27/05 10:17:05 DEBUG:
+done.
+
+27/05 10:17:05 DEBUG:
+done.
+
+27/05 10:17:05 DEBUG:
+59 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:17:05 DEBUG:
+	100 leaves in pruned tree.
+
+27/05 10:17:05 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:17:06 DEBUG:
+done.
+
+27/05 10:17:06 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfacinum_hydrothermale/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:17:06 DEBUG:
+	1 query sequences.
+
+27/05 10:17:06 DEBUG:
+
+
+27/05 10:17:06 DEBUG:
+Columns = 296
+
+27/05 10:17:06 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfacinum_hydrothermale/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:17:06 DEBUG:
+Read 101 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfacinum_hydrothermale/queries-BMGE.fasta.
+
+27/05 10:17:07 DEBUG:
+Testing placements for d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Syntrophobacterales; f__Syntrophobacteraceae; g__Desulfacinum; s__Desulfacinum infernum:
+
+27/05 10:17:07 DEBUG:
+Reference sequence filtering stats for s__Desulfacinum infernum
+Match taxon	1
+Unclassified	1
+Too shallow	7
+Remaining	100
+
+27/05 10:17:07 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:17:07 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfacinum_infernum/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:17:07 DEBUG:
+8 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:17:07 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	44_HgcA
+	82_HgcA
+	31_HgcA
+	71_HgcA
+	32_HgcA
+	90_HgcA
+	95_HgcA
+	37_HgcA
+	11_HgcA
+	89_HgcA
+	94_HgcA
+	12_HgcA
+	62_HgcA
+	30_HgcA
+	23_HgcA
+	5_HgcA
+	79_HgcA
+	63_HgcA
+	29_HgcA
+	81_HgcA
+	80_HgcA
+	64_HgcA
+	96_HgcA
+	10_HgcA
+	77_HgcA
+	69_HgcA
+	1_HgcA
+	92_HgcA
+	78_HgcA
+	76_HgcA
+	26_HgcA
+	101_HgcA
+	68_HgcA
+	34_HgcA
+	91_HgcA
+	27_HgcA
+	42_HgcA
+	88_HgcA
+	57_HgcA
+	33_HgcA
+	93_HgcA
+
+27/05 10:17:09 DEBUG:
+Building HMM profile... 
+27/05 10:17:10 DEBUG:
+done.
+
+27/05 10:17:10 DEBUG:
+done.
+
+27/05 10:17:10 DEBUG:
+59 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:17:10 DEBUG:
+	100 leaves in pruned tree.
+
+27/05 10:17:10 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:17:11 DEBUG:
+done.
+
+27/05 10:17:11 DEBUG:
+Read 100 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfacinum_infernum/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:17:11 DEBUG:
+	1 query sequences.
+
+27/05 10:17:11 DEBUG:
+
+
+27/05 10:17:11 DEBUG:
+Columns = 296
+
+27/05 10:17:11 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfacinum_infernum/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:17:11 DEBUG:
+Read 101 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/s__Desulfacinum_infernum/queries-BMGE.fasta.
+
+27/05 10:17:11 DEBUG:
+RANK: species
+	Samples = 55
+	Median = 0.2492
+	Mean = 0.3945
+
+27/05 10:17:11 DEBUG:
+3 lineages truncated before 'class' were removed during lineage trimming.
+
+27/05 10:17:11 DEBUG:
+Testing placements for d__Bacteria; p__Firmicutes; c__Clostridia:
+
+27/05 10:17:11 DEBUG:
+Reference sequence filtering stats for c__Clostridia
+Match taxon	24
+Unclassified	1
+Too shallow	1
+Remaining	83
+
+27/05 10:17:12 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:17:12 DEBUG:
+Read 83 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/c__Clostridia/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:17:12 DEBUG:
+12 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:17:12 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	50_HgcA
+	49_HgcA
+	5_HgcA
+	10_HgcA
+	71_HgcA
+	64_HgcA
+	78_HgcA
+	11_HgcA
+	44_HgcA
+	51_HgcA
+	69_HgcA
+	94_HgcA
+	79_HgcA
+	89_HgcA
+	103_HgcA
+	96_HgcA
+	76_HgcA
+	82_HgcA
+	92_HgcA
+	1_HgcA
+	77_HgcA
+	93_HgcA
+	91_HgcA
+	47_HgcA
+	101_HgcA
+	95_HgcA
+	62_HgcA
+	12_HgcA
+	48_HgcA
+	63_HgcA
+	80_HgcA
+	88_HgcA
+	81_HgcA
+	42_HgcA
+	90_HgcA
+	68_HgcA
+	57_HgcA
+
+27/05 10:17:13 DEBUG:
+Building HMM profile... 
+27/05 10:17:13 DEBUG:
+done.
+
+27/05 10:17:13 DEBUG:
+done.
+
+27/05 10:17:13 DEBUG:
+46 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:17:13 DEBUG:
+	83 leaves in pruned tree.
+
+27/05 10:17:13 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:17:14 DEBUG:
+done.
+
+27/05 10:17:14 DEBUG:
+Read 83 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/c__Clostridia/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:17:14 DEBUG:
+	24 query sequences.
+
+27/05 10:17:14 DEBUG:
+
+
+27/05 10:17:14 DEBUG:
+Columns = 295
+
+27/05 10:17:14 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/c__Clostridia/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:17:14 DEBUG:
+Read 107 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/c__Clostridia/queries-BMGE.fasta.
+
+27/05 10:17:15 DEBUG:
+Testing placements for d__Bacteria; p__Firmicutes; c__Negativicutes:
+
+27/05 10:17:15 DEBUG:
+Reference sequence filtering stats for c__Negativicutes
+Match taxon	1
+Unclassified	1
+Too shallow	1
+Remaining	106
+
+27/05 10:17:15 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+27/05 10:17:15 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/c__Negativicutes/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:17:15 DEBUG:
+14 lineages truncated before 'genus' were removed during lineage trimming.
+
+27/05 10:17:15 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	34_HgcA
+	64_HgcA
+	44_HgcA
+	77_HgcA
+	30_HgcA
+	92_HgcA
+	29_HgcA
+	31_HgcA
+	94_HgcA
+	27_HgcA
+	10_HgcA
+	50_HgcA
+	49_HgcA
+	89_HgcA
+	11_HgcA
+	57_HgcA
+	81_HgcA
+	48_HgcA
+	93_HgcA
+	68_HgcA
+	76_HgcA
+	103_HgcA
+	90_HgcA
+	80_HgcA
+	69_HgcA
+	71_HgcA
+	63_HgcA
+	1_HgcA
+	79_HgcA
+	95_HgcA
+	62_HgcA
+	101_HgcA
+	33_HgcA
+	78_HgcA
+	96_HgcA
+	12_HgcA
+	23_HgcA
+	26_HgcA
+	42_HgcA
+	82_HgcA
+	51_HgcA
+	5_HgcA
+	91_HgcA
+	32_HgcA
+	47_HgcA
+	88_HgcA
+	37_HgcA
+
+27/05 10:17:17 DEBUG:
+Building HMM profile... 
+27/05 10:17:18 DEBUG:
+done.
+
+27/05 10:17:18 DEBUG:
+done.
+
+27/05 10:17:18 DEBUG:
+59 genus-dereplicated sequences retained for building HMM profile.
+
+27/05 10:17:18 DEBUG:
+	106 leaves in pruned tree.
+
+27/05 10:17:18 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+27/05 10:17:18 DEBUG:
+done.
+
+27/05 10:17:18 DEBUG:
+Read 106 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/c__Negativicutes/HgcA_Z1111_2020-05-27/HgcA.fa.
+
+27/05 10:17:18 DEBUG:
+	1 query sequences.
+
+27/05 10:17:18 DEBUG:
+
+
+27/05 10:17:19 DEBUG:
+Columns = 295
+
+27/05 10:17:19 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/c__Negativicutes/queries-BMGE.fasta = 0 (retained)
+
+27/05 10:17:19 DEBUG:
+Read 107 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/intermediates/placement_trainer/intermediates/c__Negativicutes/queries-BMGE.fasta.
+
+27/05 10:17:19 DEBUG:
+RANK: class
+	Samples = 25
+	Median = 0.6783
+	Mean = 0.9887
+
+27/05 10:17:19 INFO:
+Placement distance regression model complete.
+
+27/05 10:17:19 INFO:
+
+To integrate this package for use in TreeSAPP the following steps must be performed:
+1. Write a properly formatted reference package 'code' in /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Mercury/HgcA/seed_refpkg/final_outputs/HgcA_build.json
+
+27/05 10:17:19 INFO:
+Data for HgcA has been generated successfully.
+
+27/05 10:17:19 INFO:
+TreeSAPP has finished successfully.
+
