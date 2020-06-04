@@ -1,0 +1,494 @@
+03/06 18:44:23 INFO:
+
+##			Creating TreeSAPP reference package			##
+
+03/06 18:44:23 INFO:
+Arguments used:
+-i Ambiguous/CoV_Spike_glycoprotein/uniprot_Spike-glycoprotein_Orthocoronavirinae_reviewed.fasta -o Ambiguous/CoV_Spike_glycoprotein/seed_refpkg --trim_align --fast -b 0 -n 4 --headless -p 0.99 --cluster -c Cov2_Spike -m prot --overwrite
+
+03/06 18:44:23 DEBUG:
+Continuing with stage 'lineages'
+
+03/06 18:44:23 DEBUG:
+Ambiguous/CoV_Spike_glycoprotein/uniprot_Spike-glycoprotein_Orthocoronavirinae_reviewed.fasta read by pyfastx in 0.0006918907165527344 seconds.
+
+03/06 18:44:23 DEBUG:
+Read 60 headers from Ambiguous/CoV_Spike_glycoprotein/uniprot_Spike-glycoprotein_Orthocoronavirinae_reviewed.fasta.
+
+03/06 18:44:23 DEBUG:
+Identified and replaced invalid ambiguity characters in 0 sequences.
+
+03/06 18:44:23 INFO:
+Sequence summary:
+	Number of sequences: 60
+	Longest sequence length: 1453
+	Shortest sequence length: 121
+	Mean sequence length: 1157.9
+	Median sequence length: 1351.0
+
+03/06 18:44:23 INFO:
+Extracting information from headers... 
+03/06 18:44:23 INFO:
+done.
+
+03/06 18:44:23 DEBUG:
+	Number of input sequences =	60
+
+03/06 18:44:23 DEBUG:
+	Number of queries =	60
+
+03/06 18:44:23 INFO:
+Preparing Bio.Entrez for NCBI queries... 
+03/06 18:44:23 INFO:
+done.
+
+03/06 18:44:23 INFO:
+Retrieving Entrez taxonomy records for each accession... 
+03/06 18:44:27 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 100	0.0:3.9
+
+03/06 18:44:27 INFO:
+done.
+
+03/06 18:44:27 DEBUG:
+41 unique organism queries.
+
+03/06 18:44:27 INFO:
+Retrieving NCBI taxonomy IDs for each organism... 
+03/06 18:44:54 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 1	0.0:0.66
+	1 - 2	0.0:0.66
+	2 - 3	0.0:0.66
+	3 - 4	0.0:0.66
+	4 - 5	0.0:0.66
+	5 - 6	0.0:0.66
+	6 - 7	0.0:0.66
+	7 - 8	0.0:0.66
+	8 - 9	0.0:0.66
+	9 - 10	0.0:0.66
+	10 - 11	0.0:0.66
+	11 - 12	0.0:0.66
+	12 - 13	0.0:0.66
+	13 - 14	0.0:0.66
+	14 - 15	0.0:0.66
+	15 - 16	0.0:0.66
+	16 - 17	0.0:0.66
+	17 - 18	0.0:0.66
+	18 - 19	0.0:0.66
+	19 - 20	0.0:0.66
+	20 - 21	0.0:0.66
+	21 - 22	0.0:0.66
+	22 - 23	0.0:0.66
+	23 - 24	0.0:0.66
+	24 - 25	0.0:0.66
+	25 - 26	0.0:0.66
+	26 - 27	0.0:0.66
+	27 - 28	0.0:0.66
+	28 - 29	0.0:0.66
+	29 - 30	0.0:0.66
+	30 - 31	0.0:0.66
+	31 - 32	0.0:0.66
+	32 - 33	0.0:0.66
+	33 - 34	0.0:0.66
+	34 - 35	0.0:0.66
+	35 - 36	0.0:0.66
+	36 - 37	0.0:0.66
+	37 - 38	0.0:0.66
+	38 - 39	0.0:0.66
+	39 - 40	0.0:0.66
+	40 - 41	0.0:0.66
+
+03/06 18:44:54 INFO:
+done.
+
+03/06 18:44:54 WARNING:
+Unable to map organism 'Murine hepatitis virus strain JHMV/variant CL-2[All Names]' to an EntrezRecord:
+
+03/06 18:44:54 DEBUG:
+Value for 'TranslationStack' not found in Entrez record. It is likely this organism name doesn't exist in Entrez's taxonomy database.
+Unable to link taxonomy ID to organism.
+Record:
+{'Count': '0', 'RetMax': '0', 'RetStart': '0', 'IdList': [], 'TranslationSet': [], 'QueryTranslation': '(Bovine respiratory coronavirus[All Names])', 'ErrorList': {'PhraseNotFound': ['Bovine respiratory coronavirus[All Names]'], 'FieldNotFound': []}, 'WarningList': {'PhraseIgnored': [], 'OutputMessage': ['No items found.'], 'QuotedPhraseNotFound': []}}
+
+03/06 18:44:54 INFO:
+Preparing Bio.Entrez for NCBI queries... 
+03/06 18:44:55 INFO:
+done.
+
+03/06 18:44:55 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+Information for EntrezRecord ID '12_Cov2_Spike':
+accession = Q02385, acc.version = 
+organism = Murine hepatitis virus strain JHMV / variant CL-2, rank resolved = 
+NCBI taxid = , bitflag = 1
+lineage = 
+description = , locus = 
+
+
+03/06 18:44:55 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+Information for EntrezRecord ID '30_Cov2_Spike':
+accession = Q8V436, acc.version = 
+organism = Bovine respiratory coronavirus, rank resolved = 
+NCBI taxid = , bitflag = 1
+lineage = 
+description = , locus = 
+
+
+03/06 18:44:55 INFO:
+Retrieving lineage information for each taxonomy ID... 
+03/06 18:44:55 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 100	0.0:0.75
+
+03/06 18:44:55 INFO:
+done.
+
+03/06 18:44:55 DEBUG:
+Queries mapped ideally = 58
+Queries with organism unmapped = 0
+Queries with NCBI taxonomy ID unmapped = 2
+Queries mapped with alternative accessions = 0
+Queries that outright failed = 0
+
+03/06 18:44:55 DEBUG:
+Entrez.efetch query stats:
+	Downloaded	60
+	Provided	0
+	Total		60
+
+
+03/06 18:44:55 DEBUG:
+Switching multifurcating trie to include rank prefixes.
+
+03/06 18:44:55 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Viruses; p__Pisuviricota; c__Pisoniviricetes; o__Nidovirales; f__Coronaviridae; s__Bat coronavirus' is unexpected.
+Lineage will be truncated to 'd__Viruses; p__Pisuviricota; c__Pisoniviricetes; o__Nidovirales; f__Coronaviridae'.
+
+03/06 18:44:55 WARNING:
+No lineages from the accession map were added to the EntrezRecord attributes.
+
+03/06 18:44:55 INFO:
+Clustering sequences with UCLUST... 
+03/06 18:44:55 INFO:
+done.
+
+03/06 18:44:55 DEBUG:
+usearch v11.0.667_i86linux32, 4.0Gb RAM (32.9Gb total), 4 cores
+(C) Copyright 2013-18 Robert C. Edgar, all rights reserved.
+https://drive5.com/usearch
+
+License: c.morganlang@gmail.com
+
+00:00 37Mb      0.1% Reading /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_Spike_glycoprotein/seed_refpkg/intermediates/uniprot_Spike-glycoprotein_Orthocoronavirinae_reviewed_uclust_input.fasta00:00 41Mb    100.0% Reading /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_Spike_glycoprotein/seed_refpkg/intermediates/uniprot_Spike-glycoprotein_Orthocoronavirinae_reviewed_uclust_input.fasta
+00:00 39Mb      7.7% DF                                                                                                                                                                                              00:00 36Mb    100.0% DF
+00:00 36Mb   60 seqs, 60 uniques, 60 singletons (100.0%)
+00:00 36Mb   Min size 1, median 1, max 1, avg 1.00
+00:00 39Mb      1.7% DB00:00 39Mb    100.0% DB
+00:00 39Mb   Sort length... done.
+00:00 78Mb      1.6% Clustering00:00 78Mb      1.6% 0 clusters, max size 0, avg 0.000:00 90Mb    100.0% 52 clusters, max size 4, avg 1.2
+00:00 90Mb      1.9% Writing centroids to /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_Spike_glycoprotein/seed_refpkg/intermediates/uniprot_Spike-glycoprotein_Orthocoronavirinae_reviewed_uclust0.99.fa00:00 90Mb    100.0% Writing centroids to /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_Spike_glycoprotein/seed_refpkg/intermediates/uniprot_Spike-glycoprotein_Orthocoronavirinae_reviewed_uclust0.99.fa
+                                                                                                                                                                                                                             
+      Seqs  60
+  Clusters  52
+  Max size  4
+  Avg size  1.2
+  Min size  1
+Singletons  46, 76.7% of seqs, 88.5% of clusters
+   Max mem  90Mb
+      Time  1.00s
+Throughput  60.0 seqs/sec.
+
+
+03/06 18:44:55 DEBUG:
+Reading usearch cluster file... 
+03/06 18:44:55 DEBUG:
+done.
+
+03/06 18:44:55 DEBUG:
+	52 sequence clusters
+
+03/06 18:44:55 DEBUG:
+Empty LCA from lineages:
+	d__Viruses; p__Pisuviricota; c__Pisoniviricetes; o__Nidovirales; f__Coronaviridae; g__Betacoronavirus; s__Murine coronavirus
+	r__Root
+
+03/06 18:44:55 DEBUG:
+Empty LCA from lineages:
+	d__Viruses; p__Pisuviricota; c__Pisoniviricetes; o__Nidovirales; f__Coronaviridae; g__Betacoronavirus; s__Betacoronavirus 1
+	r__Root
+
+03/06 18:44:55 DEBUG:
+Finalizing representative sequence clusters... 
+03/06 18:44:55 DEBUG:
+done.
+
+03/06 18:44:55 DEBUG:
+Re-enumerating the reference sequences in taxonomic order... 
+03/06 18:44:55 DEBUG:
+done.
+
+03/06 18:44:55 INFO:
+Detecting outlier reference sequences... 
+03/06 18:45:10 INFO:
+done.
+
+03/06 18:45:10 DEBUG:
+0 outlier sequences detected and discarded.
+	
+
+03/06 18:45:10 DEBUG:
+Re-enumerating the reference sequences in taxonomic order... 
+03/06 18:45:10 DEBUG:
+done.
+
+03/06 18:45:10 DEBUG:
+60 references before and 52 remaining after filtering.
+
+03/06 18:45:10 DEBUG:
+Removing 8 taxa (8 unique) from taxonomic hierarchy.
+
+03/06 18:45:10 DEBUG:
+Taxon name 's__Bovine coronavirus strain L9' not present in taxonomic hierarchy.
+
+03/06 18:45:10 DEBUG:
+Taxon name 's__Bovine coronavirus' not present in taxonomic hierarchy.
+
+03/06 18:45:10 DEBUG:
+Taxon name 's__Bovine coronavirus strain vaccine' not present in taxonomic hierarchy.
+
+03/06 18:45:10 DEBUG:
+Taxon name 'r__Murine hepatitis virus strain JHMV / variant CL-2' not present in taxonomic hierarchy.
+
+03/06 18:45:10 DEBUG:
+Taxon name 'r__Bovine respiratory coronavirus' not present in taxonomic hierarchy.
+
+03/06 18:45:10 DEBUG:
+Taxon name 's__Bovine coronavirus Mebus' not present in taxonomic hierarchy.
+
+03/06 18:45:10 DEBUG:
+Taxon name 's__Porcine transmissible gastroenteritis coronavirus strain Purdue' not present in taxonomic hierarchy.
+
+03/06 18:45:10 INFO:
+Number of unique lineages:
+	domain     1
+	phylum     1
+	class      1
+	order      1
+	family     1
+	genus      3
+	species   14
+Unclassified and incomplete lineages account for 1/52 (1.9%) references.
+
+03/06 18:45:10 INFO:
+Aligning the sequences using MAFFT... 
+03/06 18:45:21 INFO:
+done.
+
+03/06 18:45:21 DEBUG:
+Read 52 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_Spike_glycoprotein/seed_refpkg/final_outputs/Cov2_Spike.fa.
+
+03/06 18:45:21 DEBUG:
+Reference alignment contains 52 sequences with 1866 character positions.
+
+03/06 18:45:21 DEBUG:
+Building HMM profile... 
+03/06 18:45:22 DEBUG:
+done.
+
+03/06 18:45:22 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+03/06 18:45:22 DEBUG:
+Read 52 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_Spike_glycoprotein/seed_refpkg/final_outputs/Cov2_Spike.fa.
+
+03/06 18:45:22 DEBUG:
+1 lineages truncated before 'genus' were removed during lineage trimming.
+
+03/06 18:45:22 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	4_Cov2_Spike
+	16_Cov2_Spike
+	30_Cov2_Spike
+	11_Cov2_Spike
+	38_Cov2_Spike
+	34_Cov2_Spike
+	10_Cov2_Spike
+	23_Cov2_Spike
+	27_Cov2_Spike
+	41_Cov2_Spike
+	48_Cov2_Spike
+	51_Cov2_Spike
+	8_Cov2_Spike
+	45_Cov2_Spike
+	13_Cov2_Spike
+	17_Cov2_Spike
+	29_Cov2_Spike
+	36_Cov2_Spike
+	32_Cov2_Spike
+	6_Cov2_Spike
+	25_Cov2_Spike
+	19_Cov2_Spike
+	49_Cov2_Spike
+	40_Cov2_Spike
+	33_Cov2_Spike
+	22_Cov2_Spike
+	21_Cov2_Spike
+	12_Cov2_Spike
+	15_Cov2_Spike
+	28_Cov2_Spike
+	37_Cov2_Spike
+	47_Cov2_Spike
+	44_Cov2_Spike
+	31_Cov2_Spike
+	2_Cov2_Spike
+	5_Cov2_Spike
+	20_Cov2_Spike
+	46_Cov2_Spike
+	26_Cov2_Spike
+	50_Cov2_Spike
+	18_Cov2_Spike
+	35_Cov2_Spike
+	24_Cov2_Spike
+	9_Cov2_Spike
+	42_Cov2_Spike
+	3_Cov2_Spike
+	39_Cov2_Spike
+	7_Cov2_Spike
+
+03/06 18:45:22 DEBUG:
+Building HMM profile... 
+03/06 18:45:23 DEBUG:
+done.
+
+03/06 18:45:23 DEBUG:
+done.
+
+03/06 18:45:23 DEBUG:
+4 genus-dereplicated sequences retained for building HMM profile.
+
+03/06 18:45:23 INFO:
+Running BMGE... 
+03/06 18:45:23 DEBUG:
+STAGE: Multiple alignment trimming with BMGE
+	COMMAND:
+java -Xmx512m -jar /home/connor/Bioinformatics/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp/sub_binaries/BMGE.jar -t AA -m BLOSUM30 -g 0.99:0.33 -i /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_Spike_glycoprotein/seed_refpkg/final_outputs/Cov2_Spike.fa -of /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_Spike_glycoprotein/seed_refpkg/final_outputs/Cov2_Spike-BMGE.fasta
+
+03/06 18:45:24 INFO:
+done.
+
+03/06 18:45:24 DEBUG:
+	BMGE time required: 0.0:0.0:0.54
+
+03/06 18:45:24 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_Spike_glycoprotein/seed_refpkg/final_outputs/Cov2_Spike-BMGE.fasta = 0 (retained)
+
+03/06 18:45:24 INFO:
+Building phylogenetic tree with FastTree... 
+03/06 18:45:29 INFO:
+done.
+
+03/06 18:45:29 DEBUG:
+FastTree Version 2.1.10 Double precision (No SSE3)
+Alignment: /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_Spike_glycoprotein/seed_refpkg/intermediates/Cov2_Spike.phy
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Le-Gascuel 2008, CAT approximation with 4 rate categories
+Initial topology in 0.04 seconds
+Refining topology: 23 rounds ME-NNIs, 2 rounds ME-SPRs, 11 rounds ML-NNIs
+      0.32 seconds: SPR round   1 of   2, 101 of 102 nodes
+      0.59 seconds: SPR round   2 of   2, 101 of 102 nodes
+Total branch-length 7.921 after 0.61 sec
+      0.92 seconds: ML NNI round 1 of 11, 1 of 50 splits
+ML-NNI round 1: LogLk = -33417.290 NNIs 6 max delta 34.00 Time 1.94
+      2.04 seconds: Site likelihoods with rate category 4 of 4
+Switched to using 4 rate categories (CAT approximation)
+Rate categories were divided by 0.983 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+ML-NNI round 2: LogLk = -31869.939 NNIs 5 max delta 7.98 Time 2.60
+      2.60 seconds: ML NNI round 3 of 11, 1 of 50 splits
+ML-NNI round 3: LogLk = -31869.354 NNIs 1 max delta 0.00 Time 2.91
+Turning off heuristics for final round of ML NNIs (converged)
+      2.91 seconds: ML NNI round 4 of 11, 1 of 50 splits
+ML-NNI round 4: LogLk = -31859.496 NNIs 1 max delta 0.00 Time 3.97 (final)
+Optimize all lengths: LogLk = -31859.391 Time 4.28
+      5.17 seconds: Site likelihoods with rate category 1 of 4
+      5.28 seconds: Optimizing alpha round 1
+Gamma(4) LogLk = -32639.328 alpha = 1.662 rescaling lengths by 1.159
+Total time: 5.29 seconds Unique: 52/52 Bad splits: 0/49
+
+
+03/06 18:45:29 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+03/06 18:45:30 DEBUG:
+done.
+
+03/06 18:45:30 INFO:
+
+##			Train taxonomic rank-placement distance model			##
+
+03/06 18:45:30 INFO:
+Arguments used:
+-i /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_Spike_glycoprotein/seed_refpkg/intermediates/uniprot_Spike-glycoprotein_Orthocoronavirinae_reviewed_filtered.fa -r /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_Spike_glycoprotein/seed_refpkg/final_outputs/Cov2_Spike_build.json -o /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_Spike_glycoprotein/seed_refpkg/intermediates/placement_trainer/ -m prot -a /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_Spike_glycoprotein/seed_refpkg/intermediates//accession_id_lineage_map.tsv -n 4 --trim_align
+
+03/06 18:45:30 DEBUG:
+Unable to open stage file '' for reading. Defaulting to stage 2.
+
+03/06 18:45:30 DEBUG:
+Continuing with stage 'place'
+
+03/06 18:45:30 DEBUG:
+Read 60 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_Spike_glycoprotein/seed_refpkg/intermediates/uniprot_Spike-glycoprotein_Orthocoronavirinae_reviewed_filtered.fa.
+
+03/06 18:45:30 INFO:
+Extracting information from headers... 
+03/06 18:45:30 INFO:
+done.
+
+03/06 18:45:30 DEBUG:
+	Number of input sequences =	60
+
+03/06 18:45:30 INFO:
+Reading cached lineages in '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_Spike_glycoprotein/seed_refpkg/intermediates//accession_id_lineage_map.tsv'... 
+03/06 18:45:30 INFO:
+done.
+
+03/06 18:45:30 DEBUG:
+Read 60 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_Spike_glycoprotein/seed_refpkg/intermediates/uniprot_Spike-glycoprotein_Orthocoronavirinae_reviewed_filtered.fa.
+
+03/06 18:45:30 DEBUG:
+Checking for redundant sequences with duplicate accessions.
+
+03/06 18:45:30 DEBUG:
+Checking for redundant FASTA records with duplicate sequences... 
+03/06 18:45:30 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	sp|Q02385|SPIKE_CVMJC Spike glycoprotein OS=Murine coronavirus (strain JHMV / variant CL-2) OX=33735 GN=S PE=1 SV=1
+	sp|Q8V436|SPIKE_CVBLU Spike glycoprotein OS=Bovine coronavirus (strain 98TXSF-110-LUN) OX=233264 GN=S PE=3 SV=1
+
+03/06 18:45:30 DEBUG:
+1 lineages truncated before 'species' were removed during lineage trimming.
+
+03/06 18:45:30 DEBUG:
+92.9% of optimal  species lineages are present in the pruned trees.
+
+03/06 18:45:30 DEBUG:
+0 lineages truncated before 'class' were removed during lineage trimming.
+
+03/06 18:45:30 ERROR:
+No sequences were found in input FASTA that could be used to train class.
+
+03/06 18:45:30 INFO:
+
+To integrate this package for use in TreeSAPP the following steps must be performed:
+1. Write a properly formatted reference package 'code' in /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_Spike_glycoprotein/seed_refpkg/final_outputs/Cov2_Spike_build.json
+
+03/06 18:45:30 INFO:
+Data for Cov2_Spike has been generated successfully.
+
+03/06 18:45:30 INFO:
+TreeSAPP has finished successfully.
+

@@ -1,0 +1,548 @@
+03/06 18:37:05 INFO:
+
+##			Creating TreeSAPP reference package			##
+
+03/06 18:37:05 INFO:
+Arguments used:
+-i Ambiguous/CoV_RdRP/uniprot_RdRP_Orthocoronavirinae_reviewed.fasta -o Ambiguous/CoV_RdRP/seed_refpkg --trim_align --fast -b 0 -n 4 --headless -p 0.99 --cluster -c Cov2_RdRP -m prot --overwrite
+
+03/06 18:37:05 DEBUG:
+Continuing with stage 'lineages'
+
+03/06 18:37:05 DEBUG:
+Ambiguous/CoV_RdRP/uniprot_RdRP_Orthocoronavirinae_reviewed.fasta read by pyfastx in 0.0024633407592773438 seconds.
+
+03/06 18:37:05 DEBUG:
+Read 66 headers from Ambiguous/CoV_RdRP/uniprot_RdRP_Orthocoronavirinae_reviewed.fasta.
+
+03/06 18:37:05 DEBUG:
+Identified and replaced invalid ambiguity characters in 0 sequences.
+
+03/06 18:37:05 INFO:
+Sequence summary:
+	Number of sequences: 66
+	Longest sequence length: 7182
+	Shortest sequence length: 131
+	Mean sequence length: 5103.1
+	Median sequence length: 4469.5
+
+03/06 18:37:05 INFO:
+Extracting information from headers... 
+03/06 18:37:05 INFO:
+done.
+
+03/06 18:37:05 DEBUG:
+	Number of input sequences =	66
+
+03/06 18:37:05 DEBUG:
+	Number of queries =	66
+
+03/06 18:37:05 INFO:
+Preparing Bio.Entrez for NCBI queries... 
+03/06 18:37:05 INFO:
+done.
+
+03/06 18:37:05 INFO:
+Retrieving Entrez taxonomy records for each accession... 
+03/06 18:37:11 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 100	0.0:5.51
+
+03/06 18:37:11 INFO:
+done.
+
+03/06 18:37:11 DEBUG:
+32 unique organism queries.
+
+03/06 18:37:11 INFO:
+Retrieving NCBI taxonomy IDs for each organism... 
+03/06 18:37:32 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 1	0.0:0.66
+	1 - 2	0.0:0.66
+	2 - 3	0.0:0.66
+	3 - 4	0.0:0.66
+	4 - 5	0.0:0.66
+	5 - 6	0.0:0.66
+	6 - 7	0.0:0.66
+	7 - 8	0.0:0.66
+	8 - 9	0.0:0.66
+	9 - 10	0.0:0.66
+	10 - 11	0.0:0.66
+	11 - 12	0.0:0.66
+	12 - 13	0.0:0.66
+	13 - 14	0.0:0.66
+	14 - 15	0.0:0.66
+	15 - 16	0.0:0.66
+	16 - 17	0.0:0.66
+	17 - 18	0.0:0.66
+	18 - 19	0.0:0.66
+	19 - 20	0.0:0.66
+	20 - 21	0.0:0.66
+	21 - 22	0.0:0.66
+	22 - 23	0.0:0.66
+	23 - 24	0.0:0.66
+	24 - 25	0.0:0.66
+	25 - 26	0.0:0.66
+	26 - 27	0.0:0.66
+	27 - 28	0.0:0.66
+	28 - 29	0.0:0.66
+	29 - 30	0.0:0.66
+	30 - 31	0.0:0.66
+	31 - 32	0.0:0.66
+
+03/06 18:37:32 INFO:
+done.
+
+03/06 18:37:32 DEBUG:
+Value for 'TranslationStack' not found in Entrez record. It is likely this organism name doesn't exist in Entrez's taxonomy database.
+Unable to link taxonomy ID to organism.
+Record:
+{'Count': '0', 'RetMax': '0', 'RetStart': '0', 'IdList': [], 'TranslationSet': [], 'QueryTranslation': '(Bovine respiratory coronavirus[All Names])', 'ErrorList': {'FieldNotFound': [], 'PhraseNotFound': ['Bovine respiratory coronavirus[All Names]']}, 'WarningList': {'PhraseIgnored': [], 'QuotedPhraseNotFound': [], 'OutputMessage': ['No items found.']}}
+
+03/06 18:37:32 INFO:
+Preparing Bio.Entrez for NCBI queries... 
+03/06 18:37:33 INFO:
+done.
+
+03/06 18:37:33 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+Information for EntrezRecord ID '37_Cov2_RdRP':
+accession = P0C6W8, acc.version = 
+organism = Bovine respiratory coronavirus, rank resolved = 
+NCBI taxid = , bitflag = 1
+lineage = 
+description = , locus = 
+
+
+03/06 18:37:33 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+Information for EntrezRecord ID '54_Cov2_RdRP':
+accession = P0C6T9, acc.version = 
+organism = Bovine respiratory coronavirus, rank resolved = 
+NCBI taxid = , bitflag = 1
+lineage = 
+description = , locus = 
+
+
+03/06 18:37:33 INFO:
+Retrieving lineage information for each taxonomy ID... 
+03/06 18:37:34 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 100	0.0:0.7
+
+03/06 18:37:34 INFO:
+done.
+
+03/06 18:37:34 DEBUG:
+Queries mapped ideally = 64
+Queries with organism unmapped = 0
+Queries with NCBI taxonomy ID unmapped = 2
+Queries mapped with alternative accessions = 0
+Queries that outright failed = 0
+
+03/06 18:37:34 DEBUG:
+Entrez.efetch query stats:
+	Downloaded	66
+	Provided	0
+	Total		66
+
+
+03/06 18:37:34 DEBUG:
+Switching multifurcating trie to include rank prefixes.
+
+03/06 18:37:34 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Viruses; p__Pisuviricota; c__Pisoniviricetes; o__Nidovirales; f__Coronaviridae; s__Bat coronavirus' is unexpected.
+Lineage will be truncated to 'd__Viruses; p__Pisuviricota; c__Pisoniviricetes; o__Nidovirales; f__Coronaviridae'.
+
+03/06 18:37:34 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Viruses; p__Pisuviricota; c__Pisoniviricetes; o__Nidovirales; f__Coronaviridae; s__Bat coronavirus' is unexpected.
+Lineage will be truncated to 'd__Viruses; p__Pisuviricota; c__Pisoniviricetes; o__Nidovirales; f__Coronaviridae'.
+
+03/06 18:37:34 WARNING:
+No lineages from the accession map were added to the EntrezRecord attributes.
+
+03/06 18:37:34 INFO:
+Clustering sequences with UCLUST... 
+03/06 18:37:34 INFO:
+done.
+
+03/06 18:37:34 DEBUG:
+usearch v11.0.667_i86linux32, 4.0Gb RAM (32.9Gb total), 4 cores
+(C) Copyright 2013-18 Robert C. Edgar, all rights reserved.
+https://drive5.com/usearch
+
+License: c.morganlang@gmail.com
+
+00:00 37Mb      0.1% Reading /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_RdRP/seed_refpkg/intermediates/uniprot_RdRP_Orthocoronavirinae_reviewed_uclust_input.fasta00:00 41Mb    100.0% Reading /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_RdRP/seed_refpkg/intermediates/uniprot_RdRP_Orthocoronavirinae_reviewed_uclust_input.fasta
+00:00 39Mb      4.8% DF                                                                                                                                                                  00:00 36Mb    100.0% DF
+00:00 36Mb   66 seqs, 65 uniques, 64 singletons (98.5%)
+00:00 36Mb   Min size 1, median 1, max 2, avg 1.02
+00:00 39Mb      1.5% DB00:00 39Mb    100.0% DB
+00:00 39Mb   Sort length... done.
+00:00 78Mb      1.5% Clustering00:00 78Mb      1.5% 0 clusters, max size 0, avg 0.000:00 96Mb    100.0% 32 clusters, max size 6, avg 2.1
+00:00 96Mb      3.1% Writing centroids to /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_RdRP/seed_refpkg/intermediates/uniprot_RdRP_Orthocoronavirinae_reviewed_uclust0.99.fa00:00 96Mb    100.0% Writing centroids to /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_RdRP/seed_refpkg/intermediates/uniprot_RdRP_Orthocoronavirinae_reviewed_uclust0.99.fa
+                                                                                                                                                                                                 
+      Seqs  65
+  Clusters  32
+  Max size  6
+  Avg size  2.1
+  Min size  1
+Singletons  6, 9.2% of seqs, 18.8% of clusters
+   Max mem  96Mb
+      Time  1.00s
+Throughput  65.0 seqs/sec.
+
+
+03/06 18:37:34 DEBUG:
+Reading usearch cluster file... 
+03/06 18:37:34 DEBUG:
+done.
+
+03/06 18:37:34 DEBUG:
+	32 sequence clusters
+
+03/06 18:37:34 DEBUG:
+Empty LCA from lineages:
+	d__Viruses; p__Pisuviricota; c__Pisoniviricetes; o__Nidovirales; f__Coronaviridae; g__Betacoronavirus; s__Betacoronavirus 1
+	d__Viruses; p__Pisuviricota; c__Pisoniviricetes; o__Nidovirales; f__Coronaviridae; g__Betacoronavirus; s__Betacoronavirus 1
+	r__Root
+	r__Root
+	d__Viruses; p__Pisuviricota; c__Pisoniviricetes; o__Nidovirales; f__Coronaviridae; g__Betacoronavirus; s__Betacoronavirus 1
+	d__Viruses; p__Pisuviricota; c__Pisoniviricetes; o__Nidovirales; f__Coronaviridae; g__Betacoronavirus; s__Betacoronavirus 1
+
+03/06 18:37:34 DEBUG:
+Finalizing representative sequence clusters... 
+03/06 18:37:34 DEBUG:
+done.
+
+03/06 18:37:34 DEBUG:
+Re-enumerating the reference sequences in taxonomic order... 
+03/06 18:37:34 DEBUG:
+done.
+
+03/06 18:37:34 INFO:
+Detecting outlier reference sequences... 
+03/06 18:38:07 INFO:
+done.
+
+03/06 18:38:07 DEBUG:
+0 outlier sequences detected and discarded.
+	
+
+03/06 18:38:07 DEBUG:
+Re-enumerating the reference sequences in taxonomic order... 
+03/06 18:38:07 DEBUG:
+done.
+
+03/06 18:38:07 DEBUG:
+66 references before and 32 remaining after filtering.
+
+03/06 18:38:07 DEBUG:
+Removing 34 taxa (27 unique) from taxonomic hierarchy.
+
+03/06 18:38:07 DEBUG:
+Taxon name 's__Porcine transmissible gastroenteritis coronavirus strain Purdue' not present in taxonomic hierarchy.
+
+03/06 18:38:07 DEBUG:
+Taxon name 's__Bat SARS CoV Rp3/2004' not present in taxonomic hierarchy.
+
+03/06 18:38:07 DEBUG:
+Taxon name 's__Infectious bronchitis virus' not present in taxonomic hierarchy.
+
+03/06 18:38:07 DEBUG:
+Taxon name 's__Infectious bronchitis virus' not present in taxonomic hierarchy.
+
+03/06 18:38:07 DEBUG:
+Taxon name 's__Porcine transmissible gastroenteritis coronavirus strain FS772/70' not present in taxonomic hierarchy.
+
+03/06 18:38:07 DEBUG:
+Taxon name 's__Porcine epidemic diarrhea virus CV777' not present in taxonomic hierarchy.
+
+03/06 18:38:07 DEBUG:
+Taxon name 's__Murine hepatitis virus strain 2' not present in taxonomic hierarchy.
+
+03/06 18:38:07 DEBUG:
+Taxon name 's__Bat CoV 279/2005' not present in taxonomic hierarchy.
+
+03/06 18:38:07 DEBUG:
+Taxon name 's__Human coronavirus HKU1' not present in taxonomic hierarchy.
+
+03/06 18:38:07 DEBUG:
+Taxon name 's__Human coronavirus OC43' not present in taxonomic hierarchy.
+
+03/06 18:38:07 DEBUG:
+Taxon name 's__Rat coronavirus' not present in taxonomic hierarchy.
+
+03/06 18:38:07 DEBUG:
+Taxon name 's__Bovine coronavirus strain Quebec' not present in taxonomic hierarchy.
+
+03/06 18:38:07 DEBUG:
+Taxon name 's__Infectious bronchitis virus' not present in taxonomic hierarchy.
+
+03/06 18:38:07 DEBUG:
+Taxon name 's__Murine hepatitis virus strain A59' not present in taxonomic hierarchy.
+
+03/06 18:38:07 DEBUG:
+Taxon name 's__Bovine coronavirus Mebus' not present in taxonomic hierarchy.
+
+03/06 18:38:07 DEBUG:
+Taxon name 's__Bovine coronavirus' not present in taxonomic hierarchy.
+
+03/06 18:38:07 DEBUG:
+Taxon name 'r__Bovine respiratory coronavirus' not present in taxonomic hierarchy.
+
+03/06 18:38:07 DEBUG:
+Taxon name 's__Infectious bronchitis virus' not present in taxonomic hierarchy.
+
+03/06 18:38:07 DEBUG:
+Taxon name 's__Betacoronavirus England 1' not present in taxonomic hierarchy.
+
+03/06 18:38:07 DEBUG:
+Taxon name 's__Severe acute respiratory syndrome coronavirus 2' not present in taxonomic hierarchy.
+
+03/06 18:38:07 DEBUG:
+Taxon name 's__Bat SARS coronavirus HKU3' not present in taxonomic hierarchy.
+
+03/06 18:38:07 DEBUG:
+Taxon name 'f__Bat coronavirus' not present in taxonomic hierarchy.
+
+03/06 18:38:07 DEBUG:
+Taxon name 's__Murine hepatitis virus strain JHM' not present in taxonomic hierarchy.
+
+03/06 18:38:07 DEBUG:
+Taxon name 's__Bovine coronavirus Mebus' not present in taxonomic hierarchy.
+
+03/06 18:38:07 DEBUG:
+Taxon name 's__Human coronavirus HKU1' not present in taxonomic hierarchy.
+
+03/06 18:38:07 DEBUG:
+Taxon name 'r__Bovine respiratory coronavirus' not present in taxonomic hierarchy.
+
+03/06 18:38:07 INFO:
+Number of unique lineages:
+	domain     1
+	phylum     1
+	class      1
+	order      1
+	family     1
+	genus      3
+	species    8
+Unclassified and incomplete lineages account for 1/32 (3.1%) references.
+
+03/06 18:38:07 INFO:
+Aligning the sequences using MAFFT... 
+03/06 18:38:40 INFO:
+done.
+
+03/06 18:38:40 DEBUG:
+Read 32 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_RdRP/seed_refpkg/final_outputs/Cov2_RdRP.fa.
+
+03/06 18:38:40 DEBUG:
+Reference alignment contains 32 sequences with 8748 character positions.
+
+03/06 18:38:40 DEBUG:
+Building HMM profile... 
+03/06 18:38:45 DEBUG:
+done.
+
+03/06 18:38:45 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+03/06 18:38:45 DEBUG:
+Read 32 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_RdRP/seed_refpkg/final_outputs/Cov2_RdRP.fa.
+
+03/06 18:38:45 DEBUG:
+1 lineages truncated before 'genus' were removed during lineage trimming.
+
+03/06 18:38:45 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	2_Cov2_RdRP
+	22_Cov2_RdRP
+	5_Cov2_RdRP
+	23_Cov2_RdRP
+	18_Cov2_RdRP
+	8_Cov2_RdRP
+	13_Cov2_RdRP
+	24_Cov2_RdRP
+	30_Cov2_RdRP
+	4_Cov2_RdRP
+	11_Cov2_RdRP
+	12_Cov2_RdRP
+	29_Cov2_RdRP
+	15_Cov2_RdRP
+	25_Cov2_RdRP
+	7_Cov2_RdRP
+	31_Cov2_RdRP
+	26_Cov2_RdRP
+	16_Cov2_RdRP
+	19_Cov2_RdRP
+	17_Cov2_RdRP
+	10_Cov2_RdRP
+	27_Cov2_RdRP
+	21_Cov2_RdRP
+	6_Cov2_RdRP
+	20_Cov2_RdRP
+	14_Cov2_RdRP
+	3_Cov2_RdRP
+
+03/06 18:38:50 DEBUG:
+Building HMM profile... 
+03/06 18:38:54 DEBUG:
+done.
+
+03/06 18:38:54 DEBUG:
+done.
+
+03/06 18:38:54 DEBUG:
+4 genus-dereplicated sequences retained for building HMM profile.
+
+03/06 18:38:54 INFO:
+Running BMGE... 
+03/06 18:38:54 DEBUG:
+STAGE: Multiple alignment trimming with BMGE
+	COMMAND:
+java -Xmx512m -jar /home/connor/Bioinformatics/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp/sub_binaries/BMGE.jar -t AA -m BLOSUM30 -g 0.99:0.33 -i /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_RdRP/seed_refpkg/final_outputs/Cov2_RdRP.fa -of /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_RdRP/seed_refpkg/final_outputs/Cov2_RdRP-BMGE.fasta
+
+03/06 18:38:56 INFO:
+done.
+
+03/06 18:38:56 DEBUG:
+	BMGE time required: 0.0:0.0:1.9
+
+03/06 18:38:56 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_RdRP/seed_refpkg/final_outputs/Cov2_RdRP-BMGE.fasta = 0 (retained)
+
+03/06 18:38:56 INFO:
+Building phylogenetic tree with FastTree... 
+03/06 18:39:14 INFO:
+done.
+
+03/06 18:39:14 DEBUG:
+FastTree Version 2.1.10 Double precision (No SSE3)
+Alignment: /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_RdRP/seed_refpkg/intermediates/Cov2_RdRP.phy
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Le-Gascuel 2008, CAT approximation with 4 rate categories
+Initial topology in 0.13 seconds
+Refining topology: 20 rounds ME-NNIs, 2 rounds ME-SPRs, 10 rounds ML-NNIs
+      0.13 seconds: ME NNI round 1 of 20, 1 of 30 splits
+      1.11 seconds: ME NNI round 7 of 20, 1 of 30 splits
+      2.09 seconds: ME NNI round 13 of 20, 1 of 30 splits
+Total branch-length 4.734 after 2.17 sec
+      3.31 seconds: ML NNI round 1 of 10, 1 of 30 splits
+ML-NNI round 1: LogLk = -133416.425 NNIs 4 max delta 39.52 Time 6.96
+      7.07 seconds: Site likelihoods with rate category 1 of 4
+      7.18 seconds: Site likelihoods with rate category 2 of 4
+      7.29 seconds: Site likelihoods with rate category 3 of 4
+      7.41 seconds: Site likelihoods with rate category 4 of 4
+Switched to using 4 rate categories (CAT approximation)
+Rate categories were divided by 0.909 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+      7.61 seconds: ML NNI round 2 of 10, 1 of 30 splits
+ML-NNI round 2: LogLk = -124411.452 NNIs 2 max delta 0.55 Time 8.86
+      8.86 seconds: ML NNI round 3 of 10, 1 of 30 splits
+ML-NNI round 3: LogLk = -124409.198 NNIs 1 max delta 0.01 Time 9.49
+Turning off heuristics for final round of ML NNIs (converged)
+      9.48 seconds: ML NNI round 4 of 10, 1 of 30 splits
+ML-NNI round 4: LogLk = -124370.907 NNIs 1 max delta 0.00 Time 13.04 (final)
+     13.04 seconds: ML Lengths 1 of 30 splits
+Optimize all lengths: LogLk = -124370.117 Time 14.12
+     17.11 seconds: Site likelihoods with rate category 1 of 4
+     17.23 seconds: Site likelihoods with rate category 2 of 4
+     17.34 seconds: Site likelihoods with rate category 3 of 4
+     17.45 seconds: Site likelihoods with rate category 4 of 4
+     17.56 seconds: Optimizing alpha round 1
+Gamma(4) LogLk = -128524.792 alpha = 0.874 rescaling lengths by 1.229
+Total time: 17.60 seconds Unique: 32/32 Bad splits: 0/29
+
+
+03/06 18:39:14 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+03/06 18:39:15 DEBUG:
+done.
+
+03/06 18:39:15 INFO:
+
+##			Train taxonomic rank-placement distance model			##
+
+03/06 18:39:15 INFO:
+Arguments used:
+-i /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_RdRP/seed_refpkg/intermediates/uniprot_RdRP_Orthocoronavirinae_reviewed_filtered.fa -r /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_RdRP/seed_refpkg/final_outputs/Cov2_RdRP_build.json -o /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_RdRP/seed_refpkg/intermediates/placement_trainer/ -m prot -a /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_RdRP/seed_refpkg/intermediates//accession_id_lineage_map.tsv -n 4 --trim_align
+
+03/06 18:39:15 DEBUG:
+Unable to open stage file '' for reading. Defaulting to stage 2.
+
+03/06 18:39:15 DEBUG:
+Continuing with stage 'place'
+
+03/06 18:39:15 DEBUG:
+Read 66 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_RdRP/seed_refpkg/intermediates/uniprot_RdRP_Orthocoronavirinae_reviewed_filtered.fa.
+
+03/06 18:39:15 INFO:
+Extracting information from headers... 
+03/06 18:39:15 INFO:
+done.
+
+03/06 18:39:15 DEBUG:
+	Number of input sequences =	66
+
+03/06 18:39:15 INFO:
+Reading cached lineages in '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_RdRP/seed_refpkg/intermediates//accession_id_lineage_map.tsv'... 
+03/06 18:39:15 INFO:
+done.
+
+03/06 18:39:15 DEBUG:
+Read 66 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_RdRP/seed_refpkg/intermediates/uniprot_RdRP_Orthocoronavirinae_reviewed_filtered.fa.
+
+03/06 18:39:15 DEBUG:
+Checking for redundant sequences with duplicate accessions.
+
+03/06 18:39:15 DEBUG:
+Checking for redundant FASTA records with duplicate sequences... 
+03/06 18:39:15 DEBUG:
+done.
+
+03/06 18:39:15 DEBUG:
+Removed 1 sequences with duplicate sequences.
+
+03/06 18:39:15 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	sp|P0C6V4|R1A_IBVBC Replicase polyprotein 1a OS=Avian infectious bronchitis virus (strain Beaudette CK) OX=160235 GN=1a PE=3 SV=1
+
+03/06 18:39:15 WARNING:
+1 sequences were not mapped to FASTA dictionary.
+
+03/06 18:39:15 DEBUG:
+Headers that were not mapped to FASTA dictionary:
+	P0C6V4
+
+03/06 18:39:15 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	sp|P0C6W8|R1AB_CVBLU Replicase polyprotein 1ab OS=Bovine coronavirus (strain 98TXSF-110-LUN) OX=233264 GN=rep PE=3 SV=1
+	sp|P0C6T9|R1A_CVBLU Replicase polyprotein 1a OS=Bovine coronavirus (strain 98TXSF-110-LUN) OX=233264 GN=1a PE=3 SV=1
+
+03/06 18:39:15 DEBUG:
+1 lineages truncated before 'species' were removed during lineage trimming.
+
+03/06 18:39:15 DEBUG:
+92.9% of optimal  species lineages are present in the pruned trees.
+
+03/06 18:39:15 DEBUG:
+0 lineages truncated before 'class' were removed during lineage trimming.
+
+03/06 18:39:15 ERROR:
+No sequences were found in input FASTA that could be used to train class.
+
+03/06 18:39:15 INFO:
+
+To integrate this package for use in TreeSAPP the following steps must be performed:
+1. Write a properly formatted reference package 'code' in /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/CoV_RdRP/seed_refpkg/final_outputs/Cov2_RdRP_build.json
+
+03/06 18:39:16 INFO:
+Data for Cov2_RdRP has been generated successfully.
+
+03/06 18:39:16 INFO:
+TreeSAPP has finished successfully.
+
