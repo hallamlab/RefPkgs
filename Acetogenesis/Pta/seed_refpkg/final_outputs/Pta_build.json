@@ -1,1 +1,0 @@
-{"RefPkg": {"name": "Pta", "code": "Z1111", "molecule": "prot", "sequences": 1426, "model": "PROTGAMMALG", "lowest_confident_rank": "Orders", "kind": "functional", "tree-tool": "FastTree", "regression-parameters": ["-5.1773", "7.0"], "cluster-similarity": "0.90", "description": ""}}

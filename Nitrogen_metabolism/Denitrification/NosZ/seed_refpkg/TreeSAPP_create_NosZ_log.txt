@@ -1,0 +1,354 @@
+05/06 13:32:46 INFO:
+
+##			Creating TreeSAPP reference package			##
+
+05/06 13:32:46 INFO:
+Arguments used:
+--fastx_input Nitrogen_metabolism/Denitrification/NosZ/TIGRFAM_seed.faa -o Nitrogen_metabolism/Denitrification/NosZ/seed_refpkg/ --cluster -p 0.97 -c NosZ -n 4 --headless --delete --fast -b 0 -m prot --overwrite
+
+05/06 13:32:46 DEBUG:
+Continuing with stage 'lineages'
+
+05/06 13:32:46 DEBUG:
+Nitrogen_metabolism/Denitrification/NosZ/TIGRFAM_seed.faa read by pyfastx in 0.00022554397583007812 seconds.
+
+05/06 13:32:46 DEBUG:
+Read 27 headers from Nitrogen_metabolism/Denitrification/NosZ/TIGRFAM_seed.faa.
+
+05/06 13:32:46 DEBUG:
+Identified and replaced invalid ambiguity characters in 0 sequences.
+
+05/06 13:32:46 INFO:
+Sequence summary:
+	Number of sequences: 27
+	Longest sequence length: 670
+	Shortest sequence length: 645
+	Mean sequence length: 658.9
+	Median sequence length: 670
+
+05/06 13:32:46 INFO:
+Extracting information from headers... 
+05/06 13:32:46 INFO:
+done.
+
+05/06 13:32:46 DEBUG:
+	Number of input sequences =	27
+
+05/06 13:32:46 DEBUG:
+	Number of queries =	27
+
+05/06 13:32:46 INFO:
+Preparing Bio.Entrez for NCBI queries... 
+05/06 13:32:47 INFO:
+done.
+
+05/06 13:32:47 INFO:
+Retrieving Entrez taxonomy records for each accession... 
+05/06 13:33:20 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 100	0.0:33.47
+
+05/06 13:33:20 INFO:
+done.
+
+05/06 13:33:20 DEBUG:
+27 unique organism queries.
+
+05/06 13:33:20 INFO:
+Retrieving NCBI taxonomy IDs for each organism... 
+05/06 13:33:38 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 1	0.0:0.66
+	1 - 2	0.0:0.66
+	2 - 3	0.0:0.66
+	3 - 4	0.0:0.66
+	4 - 5	0.0:0.66
+	5 - 6	0.0:0.66
+	6 - 7	0.0:0.66
+	7 - 8	0.0:0.66
+	8 - 9	0.0:0.66
+	9 - 10	0.0:0.66
+	10 - 11	0.0:0.66
+	11 - 12	0.0:0.66
+	12 - 13	0.0:0.66
+	13 - 14	0.0:0.66
+	14 - 15	0.0:0.66
+	15 - 16	0.0:0.66
+	16 - 17	0.0:0.66
+	17 - 18	0.0:0.66
+	18 - 19	0.0:0.66
+	19 - 20	0.0:0.66
+	20 - 21	0.0:0.66
+	21 - 22	0.0:0.66
+	22 - 23	0.0:0.66
+	23 - 24	0.0:0.66
+	24 - 25	0.0:0.66
+	25 - 26	0.0:0.66
+	26 - 27	0.0:0.66
+
+05/06 13:33:38 INFO:
+done.
+
+05/06 13:33:38 DEBUG:
+Value for 'TranslationStack' not found in Entrez record. It is likely this organism name doesn't exist in Entrez's taxonomy database.
+Unable to link taxonomy ID to organism.
+Record:
+{'Count': '0', 'RetMax': '0', 'RetStart': '0', 'IdList': [], 'TranslationSet': [], 'QueryTranslation': "(Leptospira biflexa serovar Patoc strain 'Patoc 1'[All Names])", 'ErrorList': {'PhraseNotFound': ["Leptospira biflexa serovar Patoc strain 'Patoc 1'[All Names]"], 'FieldNotFound': []}, 'WarningList': {'PhraseIgnored': [], 'QuotedPhraseNotFound': [], 'OutputMessage': ['No items found.']}}
+
+05/06 13:33:38 INFO:
+Preparing Bio.Entrez for NCBI queries... 
+05/06 13:33:39 INFO:
+done.
+
+05/06 13:33:39 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+Information for EntrezRecord ID '23_NosZ':
+accession = YP_001837801, acc.version = 
+organism = Leptospira biflexa serovar Patoc strain 'Patoc 1', rank resolved = 
+NCBI taxid = , bitflag = 1
+lineage = 
+description = , locus = 
+
+
+05/06 13:33:39 INFO:
+Retrieving lineage information for each taxonomy ID... 
+05/06 13:33:39 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 100	0.0:0.66
+
+05/06 13:33:39 INFO:
+done.
+
+05/06 13:33:39 DEBUG:
+Queries mapped ideally = 26
+Queries with organism unmapped = 0
+Queries with NCBI taxonomy ID unmapped = 1
+Queries mapped with alternative accessions = 0
+Queries that outright failed = 0
+
+05/06 13:33:39 DEBUG:
+Entrez.efetch query stats:
+	Downloaded	27
+	Provided	0
+	Total		27
+
+
+05/06 13:33:39 DEBUG:
+Switching multifurcating trie to include rank prefixes.
+
+05/06 13:33:39 WARNING:
+No lineages from the accession map were added to the EntrezRecord attributes.
+
+05/06 13:33:39 INFO:
+Clustering sequences with UCLUST... 
+05/06 13:33:39 INFO:
+done.
+
+05/06 13:33:39 DEBUG:
+usearch v11.0.667_i86linux32, 4.0Gb RAM (32.9Gb total), 4 cores
+(C) Copyright 2013-18 Robert C. Edgar, all rights reserved.
+https://drive5.com/usearch
+
+License: c.morganlang@gmail.com
+
+00:00 37Mb      0.1% Reading /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NosZ/seed_refpkg/intermediates/TIGRFAM_seed_uclust_input.fasta00:00 41Mb    100.0% Reading /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NosZ/seed_refpkg/intermediates/TIGRFAM_seed_uclust_input.fasta
+00:00 36Mb     14.3% DF                                                                                                                                                            00:00 35Mb    100.0% DF
+00:00 35Mb   27 seqs, 27 uniques, 27 singletons (100.0%)
+00:00 35Mb   Min size 1, median 1, max 1, avg 1.00
+00:00 39Mb      3.7% DB00:00 39Mb    100.0% DB
+00:00 39Mb   Sort length... done.
+00:00 78Mb      3.6% Clustering00:00 78Mb      3.6% 0 clusters, max size 0, avg 0.000:00 89Mb    100.0% 27 clusters, max size 1, avg 1.0
+00:00 89Mb      3.7% Writing centroids to /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NosZ/seed_refpkg/intermediates/TIGRFAM_seed_uclust0.97.fa00:00 89Mb    100.0% Writing centroids to /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NosZ/seed_refpkg/intermediates/TIGRFAM_seed_uclust0.97.fa
+                                                                                                                                                                                           
+      Seqs  27
+  Clusters  27
+  Max size  1
+  Avg size  1.0
+  Min size  1
+Singletons  27, 100.0% of seqs, 100.0% of clusters
+   Max mem  89Mb
+      Time  1.00s
+Throughput  27.0 seqs/sec.
+
+
+05/06 13:33:39 DEBUG:
+Reading usearch cluster file... 
+05/06 13:33:39 DEBUG:
+done.
+
+05/06 13:33:39 DEBUG:
+	27 sequence clusters
+
+05/06 13:33:39 DEBUG:
+Finalizing representative sequence clusters... 
+05/06 13:33:39 DEBUG:
+done.
+
+05/06 13:33:39 DEBUG:
+Re-enumerating the reference sequences in taxonomic order... 
+05/06 13:33:39 DEBUG:
+done.
+
+05/06 13:33:39 INFO:
+Detecting outlier reference sequences... 
+05/06 13:33:40 INFO:
+done.
+
+05/06 13:33:40 DEBUG:
+0 outlier sequences detected and discarded.
+	
+
+05/06 13:33:40 DEBUG:
+Re-enumerating the reference sequences in taxonomic order... 
+05/06 13:33:40 DEBUG:
+done.
+
+05/06 13:33:40 DEBUG:
+27 references before and 27 remaining after filtering.
+
+05/06 13:33:40 DEBUG:
+Removing 0 taxa (0 unique) from taxonomic hierarchy.
+
+05/06 13:33:40 INFO:
+Number of unique lineages:
+	domain     1
+	phylum     6
+	class     12
+	order     19
+	family    23
+	genus     26
+	species   26
+Unclassified and incomplete lineages account for 1/27 (3.7%) references.
+
+05/06 13:33:40 INFO:
+Aligning the sequences using MAFFT... 
+05/06 13:33:41 INFO:
+done.
+
+05/06 13:33:41 DEBUG:
+Read 27 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NosZ/seed_refpkg/final_outputs/NosZ.fa.
+
+05/06 13:33:41 DEBUG:
+Reference alignment contains 27 sequences with 758 character positions.
+
+05/06 13:33:41 DEBUG:
+Building HMM profile... 
+05/06 13:33:41 DEBUG:
+done.
+
+05/06 13:33:41 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+05/06 13:33:41 DEBUG:
+Read 27 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NosZ/seed_refpkg/final_outputs/NosZ.fa.
+
+05/06 13:33:41 DEBUG:
+1 lineages truncated before 'genus' were removed during lineage trimming.
+
+05/06 13:33:42 DEBUG:
+Building HMM profile... 
+05/06 13:33:43 DEBUG:
+done.
+
+05/06 13:33:43 DEBUG:
+done.
+
+05/06 13:33:43 DEBUG:
+27 genus-dereplicated sequences retained for building HMM profile.
+
+05/06 13:33:43 INFO:
+Building phylogenetic tree with FastTree... 
+05/06 13:33:44 INFO:
+done.
+
+05/06 13:33:44 DEBUG:
+FastTree Version 2.1.10 Double precision (No SSE3)
+Alignment: /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NosZ/seed_refpkg/intermediates/NosZ.phy
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Le-Gascuel 2008, CAT approximation with 4 rate categories
+Initial topology in 0.01 seconds
+Refining topology: 19 rounds ME-NNIs, 2 rounds ME-SPRs, 10 rounds ML-NNIs
+      0.12 seconds: ME NNI round 7 of 19, 1 of 25 splits
+      0.22 seconds: ME NNI round 13 of 19, 1 of 25 splits
+Total branch-length 6.528 after 0.24 sec
+      0.34 seconds: ML NNI round 1 of 10, 1 of 25 splits
+ML-NNI round 1: LogLk = -22859.780 NNIs 3 max delta 11.74 Time 0.69
+      0.69 seconds: Site likelihoods with rate category 1 of 4
+Switched to using 4 rate categories (CAT approximation)
+Rate categories were divided by 0.943 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+ML-NNI round 2: LogLk = -21757.175 NNIs 1 max delta 1.78 Time 0.91
+      0.90 seconds: ML NNI round 3 of 10, 1 of 25 splits
+ML-NNI round 3: LogLk = -21754.731 NNIs 0 max delta 0.00 Time 0.97
+Turning off heuristics for final round of ML NNIs (converged)
+ML-NNI round 4: LogLk = -21745.804 NNIs 1 max delta 1.72 Time 1.35 (final)
+      1.35 seconds: ML Lengths 1 of 25 splits
+Optimize all lengths: LogLk = -21745.669 Time 1.46
+      1.75 seconds: Site likelihoods with rate category 1 of 4
+Gamma(4) LogLk = -22274.579 alpha = 1.630 rescaling lengths by 1.211
+Total time: 1.80 seconds Unique: 27/27 Bad splits: 0/24
+
+
+05/06 13:33:44 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+05/06 13:33:44 DEBUG:
+done.
+
+05/06 13:33:44 INFO:
+
+##			Train taxonomic rank-placement distance model			##
+
+05/06 13:33:44 INFO:
+Arguments used:
+-i /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NosZ/seed_refpkg/intermediates/TIGRFAM_seed_filtered.fa -r /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NosZ/seed_refpkg/final_outputs/NosZ_build.json -o /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NosZ/seed_refpkg/intermediates/placement_trainer/ -m prot -a /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NosZ/seed_refpkg/intermediates//accession_id_lineage_map.tsv -n 4
+
+05/06 13:33:44 DEBUG:
+Unable to open stage file '' for reading. Defaulting to stage 2.
+
+05/06 13:33:44 DEBUG:
+Continuing with stage 'place'
+
+05/06 13:33:44 DEBUG:
+Read 27 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NosZ/seed_refpkg/intermediates/TIGRFAM_seed_filtered.fa.
+
+05/06 13:33:44 INFO:
+Extracting information from headers... 
+05/06 13:33:44 INFO:
+done.
+
+05/06 13:33:44 DEBUG:
+	Number of input sequences =	27
+
+05/06 13:33:44 INFO:
+Reading cached lineages in '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NosZ/seed_refpkg/intermediates//accession_id_lineage_map.tsv'... 
+05/06 13:33:44 INFO:
+done.
+
+05/06 13:33:44 DEBUG:
+Read 27 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NosZ/seed_refpkg/intermediates/TIGRFAM_seed_filtered.fa.
+
+05/06 13:33:45 DEBUG:
+Checking for redundant sequences with duplicate accessions.
+
+05/06 13:33:45 DEBUG:
+Checking for redundant FASTA records with duplicate sequences... 
+05/06 13:33:45 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	YP_001837801
+
+05/06 13:33:45 DEBUG:
+1 lineages truncated before 'species' were removed during lineage trimming.
+
+05/06 13:33:45 ERROR:
+No sequences were found in input FASTA that could be used to train species.
+
+05/06 13:33:45 INFO:
+
+To integrate this package for use in TreeSAPP the following steps must be performed:
+1. Write a properly formatted reference package 'code' in /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NosZ/seed_refpkg/final_outputs/NosZ_build.json
+2. Copy /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NosZ/seed_refpkg/final_outputs/NosZ_build.json to a directory containing other reference packages you want to analyse. This may be in /home/connor/Bioinformatics/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp//treesapp/data/ or elsewhere.
+
+05/06 13:33:45 INFO:
+TreeSAPP has finished successfully.
+
