@@ -13,15 +13,16 @@ def get_arguments():
     parser = argparse.ArgumentParser(description="integrate_refpkgs.py is a script that allows users to integrate "
                                                  "all reference packages stored in this repository into a TreeSAPP "
                                                  "installation directory.")
-    parser.add_argument("-i", "--treesapp_install", required=True,
+    parser.add_argument("-i", "--treesapp_install",
+                        required=False, default=None,
                         help="Path to a TreeSAPP installation directory. "
                              "Reference packages will be integrated into this installation.")
-    parser.add_argument("-n", "--name", required=False,
-                        default=None,
+    parser.add_argument("-n", "--name",
+                        required=False, default=None,
                         help="The name or names of reference packages that you would like to be integrated. "
                              "If multiple names are provided, separate only with commas (no spaces).")
-    parser.add_argument("-l", "--list", required=False,
-                        default=False, action="store_true",
+    parser.add_argument("-l", "--list",
+                        required=False, default=False, action="store_true",
                         help="List all of the reference package names that are available for integration.")
 
     return parser.parse_args()
@@ -129,6 +130,10 @@ def main():
         filter_refpkgs_by_name(ref_packages, args.name)
 
     # Copy reference pacakge JSON files
+    if not args.treesapp_install:
+        print("ERROR: TreeSAPP installation directory was not provided. Not sure where to copy the refpkgs!")
+        return
+
     copy_refpkg_files_to_treesapp(ref_packages, args.treesapp_install)
 
     return
