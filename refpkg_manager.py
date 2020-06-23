@@ -18,6 +18,7 @@ def get_arguments():
     parser = argparse.ArgumentParser(description="refpkg_manager.py is a script that allows users to integrate "
                                                  "all reference packages stored in this repository into a TreeSAPP "
                                                  "installation directory.")
+    cg = parser.add_argument_group("Compute cluster commands")
     parser.add_argument("-i", "--treesapp_install",
                         required=False, default=None,
                         help="Path to a TreeSAPP installation directory. "
@@ -29,16 +30,18 @@ def get_arguments():
     parser.add_argument("-l", "--list",
                         required=False, default=False, action="store_true",
                         help="List all of the reference package names that are available for integration.")
-
     parser.add_argument("--update", required=False, default=False, action="store_true",
                         help="Updates reference packages specified by the user with --name parameter.")
-
-    parser.add_argument("--template", default=None, choices=["slurm"],
-                        help="[ IN PROGRESS ] "
-                             "Create a template file for running `treesapp create` to rebuild reference packages.")
-
     parser.add_argument("--copy", default=False, action="store_true",
                         help="Copies the reference packages specified (all by default) to a directory.")
+    parser.add_argument("--threads", default=2, type=int,
+                        help="Number of threads to use when rebuilding the reference package(s). [ DEFAULT = 2 ]")
+
+    cg.add_argument("--template", required=False, default=None,
+                        help="A template file containing scheduler-specific arguments."
+                             " The 'treesapp create' command will be written beneath in a new file.")
+    cg.add_argument("--scheduler", default="slurm", choices=["slurm"],
+                        help="The system's scheduling software determines the template format. [ DEFAULT = slurm ]")
 
     return parser.parse_args()
 
@@ -109,21 +112,65 @@ def filter_refpkgs_by_name(ref_packages: list, names: str) -> None:
     return
 
 
-def build_templates(ref_packages: list, scheduler: str) -> None:
+def create_command_validator(command_list: list):
+    arguments_to_check = ["--accession2taxid", "-a", "--accession2lin", "--seqs2lineage", "--profile"]
+    for arg in arguments_to_check:
+        try:
+            i = command_list.index(arg)
+            arg_file = command_list[i+1]
+            if not os.path.isfile(arg_file):
+                logging.warning("File '{}' was not found, unable to use argument {}.\n".format(arg_file, arg))
+                command_list.pop(i+1)
+                command_list.pop(i)
+        except ValueError:
+            continue
+
+    if "--overwrite" not in command_list:
+        command_list.append("--overwrite")
+
+    return
+
+
+def build_templates(ref_packages: list, template: str, scheduler: str, n_proc=4) -> None:
     """
     Automatically generate scripts for launching treesapp create with popular job scheduling systems.
 
-    :param scheduler:
-    :param ref_packages:
-    :return:
+    :param scheduler: Name of the computer cluster's scheduler
+    :param template: Path to a file containing scheduler arguments. New commands will be appended to this file
+    :param ref_packages: The list of ReferencePackage instances to rebuild
+    :param n_proc: The number of parallel processes to use on the grid system
+    :return: None
     """
-    # TODO: Parse the treesapp create command from each reference package
-    # TODO: Find the number of threads to use
+    with open(template, 'r') as template_handler:
+        jobscript_lines = template_handler.readlines()
+
     if scheduler == "slurm":
-        pass
+        jobscript_lines.append("\n")
+        jobscript_lines.append("srun -n 1 {} ".format(n_proc))
     else:
         logging.error("Unknown scheduler provided. Unable to write template file.\n")
         sys.exit(3)
+
+    for refpkg in ref_packages:  # type: ts_refpkg.ReferencePackage
+        # Parse the treesapp create command from each reference package
+        create_params = refpkg.cmd.split()
+        # Correct a treesapp create command based on the presence/absence of file paths
+        create_command_validator(create_params)
+
+        if create_params[0:2] != ["treesapp", "create"]:
+            create_params = ["treesapp", "create"] + create_params
+
+        output_file = refpkg.prefix + '_' + scheduler + '.txt'
+        try:
+            output_handler = open(output_file, 'w')
+        except IOError:
+            logging.error("Unable to open '{}' for writing.\n".format(output_file))
+            sys.exit(3)
+
+        output_handler.write(''.join(jobscript_lines))
+        output_handler.write(' '.join(create_params) + "\n")
+        output_handler.close()
+
     return
 
 
@@ -164,6 +211,7 @@ def rebuild_gather_reference_packages(ref_packages: list) -> None:
         refpkg.f__json = os.path.join(rebuild_path, "final_outputs", refpkg.prefix + refpkg.refpkg_suffix)
         refpkg.slurp()
 
+    # TODO: Include the previous refpkg code and description before the update
     return
 
 
@@ -213,7 +261,7 @@ def main():
         filter_refpkgs_by_name(ref_packages, args.name)
 
     if args.template:
-        build_templates(ref_packages, args.template)
+        build_templates(ref_packages, scheduler=args.scheduler, template=args.template)
 
     if args.update:
         rebuild_gather_reference_packages(ref_packages)
