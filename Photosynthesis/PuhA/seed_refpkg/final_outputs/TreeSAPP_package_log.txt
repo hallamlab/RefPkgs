@@ -1,6 +1,9 @@
-18/06 22:35:59 INFO:
-Replacing attribute 'refpkg_code' (currently 'Z1111')
+22/06 22:00:29 INFO:
+refpkg_code	P0001
 
-18/06 22:35:59 INFO:
+22/06 22:00:29 INFO:
+description	Photosynthetic reaction center subunit H
+
+22/06 22:00:29 INFO:
 TreeSAPP has finished successfully.
 

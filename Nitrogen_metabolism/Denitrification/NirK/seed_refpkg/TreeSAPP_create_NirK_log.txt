@@ -1,0 +1,1447 @@
+22/06 17:47:08 INFO:
+
+##			Creating TreeSAPP reference package			##
+
+22/06 17:47:08 INFO:
+Arguments used:
+-b 0 --fast -n 4 --cluster -m prot --headless --overwrite --trim_align --outdet_align --delete --screen Bacteria,Archaea -i Nitrogen_metabolism/Denitrification/NirK/fungene_9.9_nirK_uclust99.faa -o Nitrogen_metabolism/Denitrification/NirK/seed_refpkg -c NirK
+
+22/06 17:47:08 DEBUG:
+Continuing with stage 'lineages'
+
+22/06 17:47:08 DEBUG:
+Nitrogen_metabolism/Denitrification/NirK/fungene_9.9_nirK_uclust99.faa read by pyfastx in 0.0025746822357177734 seconds.
+
+22/06 17:47:08 DEBUG:
+Read 510 headers from Nitrogen_metabolism/Denitrification/NirK/fungene_9.9_nirK_uclust99.faa.
+
+22/06 17:47:08 DEBUG:
+Identified and replaced invalid ambiguity characters in 0 sequences.
+
+22/06 17:47:08 INFO:
+Sequence summary:
+	Number of sequences: 510
+	Longest sequence length: 568
+	Shortest sequence length: 221
+	Mean sequence length: 422.5
+	Median sequence length: 428.0
+
+22/06 17:47:08 INFO:
+Extracting information from headers... 
+22/06 17:47:08 INFO:
+done.
+
+22/06 17:47:08 DEBUG:
+	Number of input sequences =	510
+
+22/06 17:47:08 DEBUG:
+	Number of queries =	510
+
+22/06 17:47:08 INFO:
+Preparing Bio.Entrez for NCBI queries... 
+22/06 17:47:08 INFO:
+done.
+
+22/06 17:47:08 INFO:
+Retrieving Entrez taxonomy records for each accession... 
+22/06 17:55:42 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 100	2.0:7.98
+	100 - 200	1.0:45.47
+	200 - 300	1.0:31.99
+	300 - 400	1.0:17.26
+	400 - 500	1.0:41.3
+	500 - 600	0.0:9.76
+
+22/06 17:55:42 INFO:
+done.
+
+22/06 17:55:42 DEBUG:
+384 unique organism queries.
+
+22/06 17:55:42 INFO:
+Retrieving NCBI taxonomy IDs for each organism... 
+22/06 17:59:56 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 1	0.0:0.66
+	1 - 2	0.0:0.66
+	2 - 3	0.0:0.66
+	3 - 4	0.0:0.66
+	4 - 5	0.0:0.66
+	5 - 6	0.0:0.66
+	6 - 7	0.0:0.66
+	7 - 8	0.0:0.66
+	8 - 9	0.0:0.66
+	9 - 10	0.0:0.66
+	10 - 11	0.0:0.66
+	11 - 12	0.0:0.66
+	12 - 13	0.0:0.66
+	13 - 14	0.0:0.66
+	14 - 15	0.0:0.66
+	15 - 16	0.0:0.66
+	16 - 17	0.0:0.66
+	17 - 18	0.0:0.66
+	18 - 19	0.0:0.66
+	19 - 20	0.0:0.66
+	20 - 21	0.0:0.66
+	21 - 22	0.0:0.66
+	22 - 23	0.0:0.66
+	23 - 24	0.0:0.66
+	24 - 25	0.0:0.66
+	25 - 26	0.0:0.66
+	26 - 27	0.0:0.66
+	27 - 28	0.0:0.66
+	28 - 29	0.0:0.66
+	29 - 30	0.0:0.66
+	30 - 31	0.0:0.66
+	31 - 32	0.0:0.66
+	32 - 33	0.0:0.66
+	33 - 34	0.0:0.66
+	34 - 35	0.0:0.66
+	35 - 36	0.0:0.66
+	36 - 37	0.0:0.66
+	37 - 38	0.0:0.66
+	38 - 39	0.0:0.66
+	39 - 40	0.0:0.66
+	40 - 41	0.0:0.66
+	41 - 42	0.0:0.66
+	42 - 43	0.0:0.66
+	43 - 44	0.0:0.66
+	44 - 45	0.0:0.66
+	45 - 46	0.0:0.66
+	46 - 47	0.0:0.66
+	47 - 48	0.0:0.66
+	48 - 49	0.0:0.66
+	49 - 50	0.0:0.66
+	50 - 51	0.0:0.66
+	51 - 52	0.0:0.66
+	52 - 53	0.0:0.66
+	53 - 54	0.0:0.66
+	54 - 55	0.0:0.66
+	55 - 56	0.0:0.66
+	56 - 57	0.0:0.66
+	57 - 58	0.0:0.66
+	58 - 59	0.0:0.66
+	59 - 60	0.0:0.66
+	60 - 61	0.0:0.66
+	61 - 62	0.0:0.66
+	62 - 63	0.0:0.66
+	63 - 64	0.0:0.66
+	64 - 65	0.0:0.66
+	65 - 66	0.0:0.66
+	66 - 67	0.0:0.66
+	67 - 68	0.0:0.66
+	68 - 69	0.0:0.66
+	69 - 70	0.0:0.66
+	70 - 71	0.0:0.66
+	71 - 72	0.0:0.66
+	72 - 73	0.0:0.66
+	73 - 74	0.0:0.66
+	74 - 75	0.0:0.66
+	75 - 76	0.0:0.66
+	76 - 77	0.0:0.66
+	77 - 78	0.0:0.66
+	78 - 79	0.0:0.66
+	79 - 80	0.0:0.66
+	80 - 81	0.0:0.66
+	81 - 82	0.0:0.66
+	82 - 83	0.0:0.66
+	83 - 84	0.0:0.66
+	84 - 85	0.0:0.66
+	85 - 86	0.0:0.66
+	86 - 87	0.0:0.66
+	87 - 88	0.0:0.66
+	88 - 89	0.0:0.66
+	89 - 90	0.0:0.66
+	90 - 91	0.0:0.66
+	91 - 92	0.0:0.66
+	92 - 93	0.0:0.66
+	93 - 94	0.0:0.66
+	94 - 95	0.0:0.66
+	95 - 96	0.0:0.66
+	96 - 97	0.0:0.66
+	97 - 98	0.0:0.66
+	98 - 99	0.0:0.66
+	99 - 100	0.0:0.66
+	100 - 101	0.0:0.66
+	101 - 102	0.0:0.66
+	102 - 103	0.0:0.66
+	103 - 104	0.0:0.66
+	104 - 105	0.0:0.66
+	105 - 106	0.0:0.66
+	106 - 107	0.0:0.66
+	107 - 108	0.0:0.66
+	108 - 109	0.0:0.66
+	109 - 110	0.0:0.66
+	110 - 111	0.0:0.66
+	111 - 112	0.0:0.66
+	112 - 113	0.0:0.66
+	113 - 114	0.0:0.66
+	114 - 115	0.0:0.66
+	115 - 116	0.0:0.66
+	116 - 117	0.0:0.66
+	117 - 118	0.0:0.66
+	118 - 119	0.0:0.66
+	119 - 120	0.0:0.66
+	120 - 121	0.0:0.66
+	121 - 122	0.0:0.66
+	122 - 123	0.0:0.66
+	123 - 124	0.0:0.66
+	124 - 125	0.0:0.66
+	125 - 126	0.0:0.66
+	126 - 127	0.0:0.66
+	127 - 128	0.0:0.66
+	128 - 129	0.0:0.66
+	129 - 130	0.0:0.66
+	130 - 131	0.0:0.66
+	131 - 132	0.0:0.66
+	132 - 133	0.0:0.66
+	133 - 134	0.0:0.66
+	134 - 135	0.0:0.66
+	135 - 136	0.0:0.66
+	136 - 137	0.0:0.66
+	137 - 138	0.0:0.66
+	138 - 139	0.0:0.66
+	139 - 140	0.0:0.66
+	140 - 141	0.0:0.66
+	141 - 142	0.0:0.66
+	142 - 143	0.0:0.66
+	143 - 144	0.0:0.66
+	144 - 145	0.0:0.66
+	145 - 146	0.0:0.66
+	146 - 147	0.0:0.66
+	147 - 148	0.0:0.66
+	148 - 149	0.0:0.66
+	149 - 150	0.0:0.66
+	150 - 151	0.0:0.66
+	151 - 152	0.0:0.66
+	152 - 153	0.0:0.66
+	153 - 154	0.0:0.66
+	154 - 155	0.0:0.66
+	155 - 156	0.0:0.66
+	156 - 157	0.0:0.66
+	157 - 158	0.0:0.66
+	158 - 159	0.0:0.66
+	159 - 160	0.0:0.66
+	160 - 161	0.0:0.66
+	161 - 162	0.0:0.66
+	162 - 163	0.0:0.66
+	163 - 164	0.0:0.66
+	164 - 165	0.0:0.66
+	165 - 166	0.0:0.66
+	166 - 167	0.0:0.66
+	167 - 168	0.0:0.66
+	168 - 169	0.0:0.66
+	169 - 170	0.0:0.66
+	170 - 171	0.0:0.66
+	171 - 172	0.0:0.66
+	172 - 173	0.0:0.66
+	173 - 174	0.0:0.66
+	174 - 175	0.0:0.66
+	175 - 176	0.0:0.66
+	176 - 177	0.0:0.66
+	177 - 178	0.0:0.66
+	178 - 179	0.0:0.66
+	179 - 180	0.0:0.66
+	180 - 181	0.0:0.66
+	181 - 182	0.0:0.66
+	182 - 183	0.0:0.66
+	183 - 184	0.0:0.66
+	184 - 185	0.0:0.66
+	185 - 186	0.0:0.66
+	186 - 187	0.0:0.66
+	187 - 188	0.0:0.66
+	188 - 189	0.0:0.66
+	189 - 190	0.0:0.66
+	190 - 191	0.0:0.66
+	191 - 192	0.0:0.66
+	192 - 193	0.0:0.66
+	193 - 194	0.0:0.66
+	194 - 195	0.0:0.66
+	195 - 196	0.0:0.66
+	196 - 197	0.0:0.66
+	197 - 198	0.0:0.66
+	198 - 199	0.0:0.66
+	199 - 200	0.0:0.66
+	200 - 201	0.0:0.66
+	201 - 202	0.0:0.66
+	202 - 203	0.0:0.66
+	203 - 204	0.0:0.66
+	204 - 205	0.0:0.66
+	205 - 206	0.0:0.66
+	206 - 207	0.0:0.66
+	207 - 208	0.0:0.66
+	208 - 209	0.0:0.66
+	209 - 210	0.0:0.66
+	210 - 211	0.0:0.66
+	211 - 212	0.0:0.66
+	212 - 213	0.0:0.66
+	213 - 214	0.0:0.66
+	214 - 215	0.0:0.66
+	215 - 216	0.0:0.66
+	216 - 217	0.0:0.66
+	217 - 218	0.0:0.66
+	218 - 219	0.0:0.66
+	219 - 220	0.0:0.66
+	220 - 221	0.0:0.66
+	221 - 222	0.0:0.66
+	222 - 223	0.0:0.66
+	223 - 224	0.0:0.66
+	224 - 225	0.0:0.66
+	225 - 226	0.0:0.66
+	226 - 227	0.0:0.66
+	227 - 228	0.0:0.66
+	228 - 229	0.0:0.66
+	229 - 230	0.0:0.66
+	230 - 231	0.0:0.66
+	231 - 232	0.0:0.66
+	232 - 233	0.0:0.66
+	233 - 234	0.0:0.66
+	234 - 235	0.0:0.66
+	235 - 236	0.0:0.66
+	236 - 237	0.0:0.66
+	237 - 238	0.0:0.66
+	238 - 239	0.0:0.66
+	239 - 240	0.0:0.66
+	240 - 241	0.0:0.66
+	241 - 242	0.0:0.66
+	242 - 243	0.0:0.66
+	243 - 244	0.0:0.66
+	244 - 245	0.0:0.66
+	245 - 246	0.0:0.66
+	246 - 247	0.0:0.66
+	247 - 248	0.0:0.66
+	248 - 249	0.0:0.66
+	249 - 250	0.0:0.66
+	250 - 251	0.0:0.66
+	251 - 252	0.0:0.66
+	252 - 253	0.0:0.66
+	253 - 254	0.0:0.66
+	254 - 255	0.0:0.66
+	255 - 256	0.0:0.66
+	256 - 257	0.0:0.66
+	257 - 258	0.0:0.66
+	258 - 259	0.0:0.66
+	259 - 260	0.0:0.66
+	260 - 261	0.0:0.66
+	261 - 262	0.0:0.66
+	262 - 263	0.0:0.66
+	263 - 264	0.0:0.66
+	264 - 265	0.0:0.66
+	265 - 266	0.0:0.66
+	266 - 267	0.0:0.66
+	267 - 268	0.0:0.66
+	268 - 269	0.0:0.66
+	269 - 270	0.0:0.66
+	270 - 271	0.0:0.66
+	271 - 272	0.0:0.66
+	272 - 273	0.0:0.66
+	273 - 274	0.0:0.66
+	274 - 275	0.0:0.66
+	275 - 276	0.0:0.66
+	276 - 277	0.0:0.66
+	277 - 278	0.0:0.66
+	278 - 279	0.0:0.66
+	279 - 280	0.0:0.66
+	280 - 281	0.0:0.66
+	281 - 282	0.0:0.66
+	282 - 283	0.0:0.66
+	283 - 284	0.0:0.66
+	284 - 285	0.0:0.66
+	285 - 286	0.0:0.66
+	286 - 287	0.0:0.66
+	287 - 288	0.0:0.66
+	288 - 289	0.0:0.66
+	289 - 290	0.0:0.66
+	290 - 291	0.0:0.66
+	291 - 292	0.0:0.66
+	292 - 293	0.0:0.66
+	293 - 294	0.0:0.66
+	294 - 295	0.0:0.66
+	295 - 296	0.0:0.66
+	296 - 297	0.0:0.66
+	297 - 298	0.0:0.66
+	298 - 299	0.0:0.66
+	299 - 300	0.0:0.66
+	300 - 301	0.0:0.66
+	301 - 302	0.0:0.66
+	302 - 303	0.0:0.66
+	303 - 304	0.0:0.66
+	304 - 305	0.0:0.66
+	305 - 306	0.0:0.66
+	306 - 307	0.0:0.66
+	307 - 308	0.0:0.66
+	308 - 309	0.0:0.66
+	309 - 310	0.0:0.66
+	310 - 311	0.0:0.66
+	311 - 312	0.0:0.66
+	312 - 313	0.0:0.66
+	313 - 314	0.0:0.66
+	314 - 315	0.0:0.66
+	315 - 316	0.0:0.66
+	316 - 317	0.0:0.66
+	317 - 318	0.0:0.66
+	318 - 319	0.0:0.66
+	319 - 320	0.0:0.66
+	320 - 321	0.0:0.66
+	321 - 322	0.0:0.66
+	322 - 323	0.0:0.66
+	323 - 324	0.0:0.66
+	324 - 325	0.0:0.66
+	325 - 326	0.0:0.66
+	326 - 327	0.0:0.66
+	327 - 328	0.0:0.66
+	328 - 329	0.0:0.66
+	329 - 330	0.0:0.66
+	330 - 331	0.0:0.66
+	331 - 332	0.0:0.66
+	332 - 333	0.0:0.66
+	333 - 334	0.0:0.66
+	334 - 335	0.0:0.66
+	335 - 336	0.0:0.66
+	336 - 337	0.0:0.66
+	337 - 338	0.0:0.66
+	338 - 339	0.0:0.66
+	339 - 340	0.0:0.66
+	340 - 341	0.0:0.66
+	341 - 342	0.0:0.66
+	342 - 343	0.0:0.66
+	343 - 344	0.0:0.66
+	344 - 345	0.0:0.66
+	345 - 346	0.0:0.66
+	346 - 347	0.0:0.66
+	347 - 348	0.0:0.66
+	348 - 349	0.0:0.66
+	349 - 350	0.0:0.66
+	350 - 351	0.0:0.66
+	351 - 352	0.0:0.66
+	352 - 353	0.0:0.66
+	353 - 354	0.0:0.66
+	354 - 355	0.0:0.66
+	355 - 356	0.0:0.66
+	356 - 357	0.0:0.66
+	357 - 358	0.0:0.66
+	358 - 359	0.0:0.66
+	359 - 360	0.0:0.66
+	360 - 361	0.0:0.66
+	361 - 362	0.0:0.66
+	362 - 363	0.0:0.66
+	363 - 364	0.0:0.66
+	364 - 365	0.0:0.66
+	365 - 366	0.0:0.66
+	366 - 367	0.0:0.66
+	367 - 368	0.0:0.66
+	368 - 369	0.0:0.66
+	369 - 370	0.0:0.66
+	370 - 371	0.0:0.66
+	371 - 372	0.0:0.66
+	372 - 373	0.0:0.66
+	373 - 374	0.0:0.66
+	374 - 375	0.0:0.66
+	375 - 376	0.0:0.66
+	376 - 377	0.0:0.66
+	377 - 378	0.0:0.66
+	378 - 379	0.0:0.66
+	379 - 380	0.0:0.66
+	380 - 381	0.0:0.66
+	381 - 382	0.0:0.66
+	382 - 383	0.0:0.66
+	383 - 384	0.0:0.66
+
+22/06 17:59:56 INFO:
+done.
+
+22/06 17:59:56 DEBUG:
+Value for 'TranslationStack' not found in Entrez record. It is likely this organism name doesn't exist in Entrez's taxonomy database.
+Unable to link taxonomy ID to organism.
+Record:
+{'Count': '0', 'RetMax': '0', 'RetStart': '0', 'IdList': [], 'TranslationSet': [], 'QueryTranslation': '(Bacillus mycoides NBRC 101238[All Names])', 'ErrorList': {'FieldNotFound': [], 'PhraseNotFound': ['Bacillus mycoides NBRC 101238[All Names]']}, 'WarningList': {'QuotedPhraseNotFound': [], 'PhraseIgnored': [], 'OutputMessage': ['No items found.']}}
+
+22/06 17:59:56 DEBUG:
+Value for 'TranslationStack' not found in Entrez record. It is likely this organism name doesn't exist in Entrez's taxonomy database.
+Unable to link taxonomy ID to organism.
+Record:
+{'Count': '0', 'RetMax': '0', 'RetStart': '0', 'IdList': [], 'TranslationSet': [], 'QueryTranslation': "(Leptospira biflexa serovar Patoc strain 'Patoc 1'[All Names])", 'ErrorList': {'FieldNotFound': [], 'PhraseNotFound': ["Leptospira biflexa serovar Patoc strain 'Patoc 1'[All Names]"]}, 'WarningList': {'QuotedPhraseNotFound': [], 'PhraseIgnored': [], 'OutputMessage': ['No items found.']}}
+
+22/06 17:59:56 DEBUG:
+Value for 'TranslationStack' not found in Entrez record. It is likely this organism name doesn't exist in Entrez's taxonomy database.
+Unable to link taxonomy ID to organism.
+Record:
+{'Count': '0', 'RetMax': '0', 'RetStart': '0', 'IdList': [], 'TranslationSet': [], 'QueryTranslation': 'Mannheimia[All Names] AND succiniciproducens MBEL55E[All Names]', 'ErrorList': {'FieldNotFound': [], 'PhraseNotFound': ['succiniciproducens MBEL55E[All Names]']}, 'WarningList': {'QuotedPhraseNotFound': [], 'PhraseIgnored': [], 'OutputMessage': ['No items found.']}}
+
+22/06 17:59:56 DEBUG:
+Value for 'TranslationStack' not found in Entrez record. It is likely this organism name doesn't exist in Entrez's taxonomy database.
+Unable to link taxonomy ID to organism.
+Record:
+{'Count': '0', 'RetMax': '0', 'RetStart': '0', 'IdList': [], 'TranslationSet': [], 'QueryTranslation': 'Neocosmospora[All Names] AND tonkinensis[All Names]', 'ErrorList': {'FieldNotFound': [], 'PhraseNotFound': ['tonkinensis[All Names]']}, 'WarningList': {'QuotedPhraseNotFound': [], 'PhraseIgnored': [], 'OutputMessage': ['No items found.']}}
+
+22/06 17:59:56 DEBUG:
+Value for 'TranslationStack' not found in Entrez record. It is likely this organism name doesn't exist in Entrez's taxonomy database.
+Unable to link taxonomy ID to organism.
+Record:
+{'Count': '0', 'RetMax': '0', 'RetStart': '0', 'IdList': [], 'TranslationSet': [], 'QueryTranslation': 'Psychrobacter sp. 1501[All Names] AND (2011[All Names]) AND All Names[All Names]', 'ErrorList': {'FieldNotFound': [], 'PhraseNotFound': ['2011', 'All', 'Names']}, 'WarningList': {'QuotedPhraseNotFound': [], 'PhraseIgnored': [], 'OutputMessage': ['No items found.']}}
+
+22/06 17:59:56 INFO:
+Preparing Bio.Entrez for NCBI queries... 
+22/06 17:59:56 INFO:
+done.
+
+22/06 17:59:56 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+Information for EntrezRecord ID '79_NirK':
+accession = GAE39005, acc.version = 
+organism = Bacillus mycoides NBRC 101238, rank resolved = 
+NCBI taxid = , bitflag = 1
+lineage = 
+description = GAE39005  coded_by=complement(47650..49278),organism=Bacillus weihenstephanensis NBRC 101238 = DSM 11821,definition=putative multicopper oxidase, locus = 
+
+
+22/06 17:59:56 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+Information for EntrezRecord ID '115_NirK':
+accession = ABZ97186, acc.version = 
+organism = Leptospira biflexa serovar Patoc strain 'Patoc 1', rank resolved = 
+NCBI taxid = , bitflag = 1
+lineage = 
+description = ABZ97186  coded_by=1105003..1106409,organism=Leptospira biflexa serovar Patoc strain 'Patoc 1 (Paris)',definition=Copper-containing nitrite reductase (Major outer membrane protein Pan 1), locus = 
+
+
+22/06 17:59:56 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+Information for EntrezRecord ID '259_NirK':
+accession = AAU37483, acc.version = 
+organism = [Mannheimia] succiniciproducens MBEL55E, rank resolved = 
+NCBI taxid = , bitflag = 1
+lineage = 
+description = AAU37483  coded_by=complement(853773..854711),organism=Mannheimia succiniciproducens MBEL55E,definition=SufI protein, locus = 
+
+
+22/06 17:59:56 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+Information for EntrezRecord ID '311_NirK':
+accession = ADB82651, acc.version = 
+organism = [Neocosmospora] tonkinensis, rank resolved = 
+NCBI taxid = , bitflag = 1
+lineage = 
+description = ADB82651  coded_by=join(47..433,494..1558),organism=Fusarium lichenicola,definition=copper-containing nitrite reductase, locus = 
+
+
+22/06 17:59:56 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+Information for EntrezRecord ID '388_NirK':
+accession = EGK14836, acc.version = 
+organism = Psychrobacter sp. 1501(2011), rank resolved = 
+NCBI taxid = , bitflag = 1
+lineage = 
+description = EGK14836  coded_by=2645..4162,organism=Psychrobacter sp. 1501(2011),definition=copper-containing nitrite reductase, locus = 
+
+
+22/06 17:59:56 INFO:
+Retrieving lineage information for each taxonomy ID... 
+22/06 18:00:00 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 100	0.0:1.01
+	100 - 200	0.0:1.18
+	200 - 300	0.0:0.88
+	300 - 400	0.0:0.82
+
+22/06 18:00:00 INFO:
+done.
+
+22/06 18:00:00 DEBUG:
+Queries mapped ideally = 505
+Queries with organism unmapped = 0
+Queries with NCBI taxonomy ID unmapped = 5
+Queries mapped with alternative accessions = 0
+Queries that outright failed = 0
+
+22/06 18:00:00 DEBUG:
+Entrez.efetch query stats:
+	Downloaded	510
+	Provided	0
+	Total		510
+
+
+22/06 18:00:00 DEBUG:
+Switching multifurcating trie to include rank prefixes.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiaceae; s__Pseudomonas sp. G-179' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiaceae'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Bacteroidetes; o__Bacteroidetes Order II. Incertae sedis; f__Rhodothermaceae; g__Rhodothermus; s__Rhodothermus marinus' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Bacteroidetes'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; s__uncultured marine thaumarchaeote' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; s__uncultured marine thaumarchaeote' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; s__uncultured marine thaumarchaeote' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; g__Candidatus Caldiarchaeum; s__Candidatus Caldiarchaeum subterraneum' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; s__uncultured bacterium 1062' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; s__uncultured bacterium 1116' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; s__uncultured bacterium 1042' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; s__uncultured marine thaumarchaeote' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; s__uncultured marine thaumarchaeote' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; s__uncultured marine thaumarchaeote' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; s__uncultured marine thaumarchaeote' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; s__uncultured marine thaumarchaeote' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; s__uncultured marine thaumarchaeote' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Candidatus Bipolaricaulota; g__Candidatus Acetothermum; s__Candidatus Acetothermum autotrophicum' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Candidatus Bipolaricaulota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Candidatus Bipolaricaulota; g__Candidatus Acetothermum; s__Candidatus Acetothermum autotrophicum' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Candidatus Bipolaricaulota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; s__uncultured marine thaumarchaeote' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; s__uncultured marine thaumarchaeote' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; s__uncultured marine thaumarchaeote' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; s__uncultured marine thaumarchaeote' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; s__uncultured marine thaumarchaeote' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; s__uncultured marine thaumarchaeote' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; s__uncultured marine thaumarchaeote' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; s__uncultured marine thaumarchaeote' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; s__uncultured marine thaumarchaeote' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; s__uncultured marine thaumarchaeote' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; s__uncultured marine thaumarchaeote' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Eukaryota; p__Discosea; o__Longamoebia; f__Acanthamoebidae; g__Acanthamoeba; s__Acanthamoeba castellanii' is unexpected.
+Lineage will be truncated to 'd__Eukaryota; p__Discosea'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Eukaryota; p__Tubulinea; c__Echinamoebida; g__Vermamoeba; s__Vermamoeba vermiformis' is unexpected.
+Lineage will be truncated to 'd__Eukaryota; p__Tubulinea; c__Echinamoebida'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; o__Nitrosopumilales; f__Nitrosopumilaceae; g__Nitrosopumilus; s__Candidatus Nitrosopumilus salaria' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; s__Flavobacteriaceae bacterium 3519-10' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Eukaryota; p__Ascomycota; c__Eurotiomycetes; o__Onygenales; g__Coccidioides; s__Coccidioides posadasii' is unexpected.
+Lineage will be truncated to 'd__Eukaryota; p__Ascomycota; c__Eurotiomycetes; o__Onygenales'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; s__uncultured marine crenarchaeote HF4000_ANIW97M7' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; o__Nitrosopumilales; f__Nitrosopumilaceae; g__Nitrosarchaeum; s__Candidatus Nitrosarchaeum limnium' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; o__Nitrosopumilales; f__Nitrosopumilaceae; g__Nitrosopumilus; s__Nitrosopumilus maritimus' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; o__Nitrosopumilales; f__Nitrosopumilaceae; g__Nitrosopumilus; s__Nitrosopumilus maritimus' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; s__uncultured crenarchaeote 57a5' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; g__Thermobaculum; s__Thermobaculum terrenum' is unexpected.
+Lineage will be truncated to 'd__Bacteria'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; s__uncultured crenarchaeote' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 's__mine drainage metagenome' is unexpected.
+Lineage will be truncated to ''.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; s__uncultured bacterium 1114' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; g__Thiomonas; s__Thiomonas intermedia' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Oxalobacteraceae; s__Oxalobacteraceae bacterium IMCC9480' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Oxalobacteraceae'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; o__Nitrosopumilales; f__Nitrosopumilaceae; g__Nitrosopumilus; s__Candidatus Nitrosopumilus salaria' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; o__Nitrosopumilales; f__Nitrosopumilaceae; g__Nitrosarchaeum; s__Nitrosarchaeum koreense' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; s__uncultured marine thaumarchaeote' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; o__Nitrosopumilales; f__Nitrosopumilaceae; g__Nitrosarchaeum; s__Nitrosarchaeum koreense' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; o__Nitrosopumilales; f__Nitrosopumilaceae; g__Nitrosopumilus; s__Nitrosopumilus maritimus' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; o__Nitrosopumilales; f__Nitrosopumilaceae; g__Nitrosarchaeum; s__Candidatus Nitrosarchaeum limnium' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; o__Nitrosopumilales; f__Nitrosopumilaceae; g__Nitrosarchaeum; s__Candidatus Nitrosarchaeum limnium' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 's__mine drainage metagenome' is unexpected.
+Lineage will be truncated to ''.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; s__uncultured crenarchaeote 76h13' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; s__uncultured crenarchaeote 29d5' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; s__uncultured marine thaumarchaeote' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; g__Thiomonas; s__Thiomonas sp. ACO7' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; s__uncultured marine thaumarchaeote' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Archaea; p__Thaumarchaeota; s__uncultured marine thaumarchaeote' is unexpected.
+Lineage will be truncated to 'd__Archaea; p__Thaumarchaeota'.
+
+22/06 18:00:00 DEBUG:
+No lineages from the accession map were added to the EntrezRecord attributes.
+
+22/06 18:00:00 DEBUG:
+	20 sequences removed after failing screen.
+	0 sequences removed after failing filter.
+	490 sequences retained.
+
+22/06 18:00:00 INFO:
+Clustering sequences with UCLUST... 
+22/06 18:00:00 INFO:
+done.
+
+22/06 18:00:00 DEBUG:
+usearch v11.0.667_i86linux32, 4.0Gb RAM (32.9Gb total), 4 cores
+(C) Copyright 2013-18 Robert C. Edgar, all rights reserved.
+https://drive5.com/usearch
+
+License: c.morganlang@gmail.com
+
+00:00 37Mb      0.1% Reading /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirK/seed_refpkg/intermediates/fungene_9.9_nirK_uclust99_uclust_input.fasta00:00 41Mb    100.0% Reading /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirK/seed_refpkg/intermediates/fungene_9.9_nirK_uclust99_uclust_input.fasta
+00:00 37Mb      0.8% DF                                                                                                                                                                         00:00 35Mb    100.0% DF
+00:00 36Mb   490 seqs, 490 uniques, 490 singletons (100.0%)
+00:00 36Mb   Min size 1, median 1, max 1, avg 1.00
+00:00 39Mb      0.2% DB00:00 39Mb    100.0% DB
+00:00 39Mb   Sort length... done.
+00:00 78Mb      0.2% Clustering00:00 78Mb      0.2% 0 clusters, max size 0, avg 0.000:00 95Mb    100.0% 490 clusters, max size 1, avg 1.0
+00:00 95Mb      0.2% Writing centroids to /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirK/seed_refpkg/intermediates/fungene_9.9_nirK_uclust99_uclust1.0.fa00:00 95Mb    100.0% Writing centroids to /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirK/seed_refpkg/intermediates/fungene_9.9_nirK_uclust99_uclust1.0.fa
+                                                                                                                                                                                                       
+      Seqs  490
+  Clusters  490
+  Max size  1
+  Avg size  1.0
+  Min size  1
+Singletons  490, 100.0% of seqs, 100.0% of clusters
+   Max mem  95Mb
+      Time  1.00s
+Throughput  490.0 seqs/sec.
+
+
+22/06 18:00:00 DEBUG:
+Reading usearch cluster file... 
+22/06 18:00:00 DEBUG:
+done.
+
+22/06 18:00:00 DEBUG:
+	490 sequence clusters
+
+22/06 18:00:00 DEBUG:
+Finalizing representative sequence clusters... 
+22/06 18:00:00 DEBUG:
+done.
+
+22/06 18:00:00 DEBUG:
+Re-enumerating the reference sequences in taxonomic order... 
+22/06 18:00:00 DEBUG:
+done.
+
+22/06 18:00:00 INFO:
+Detecting outlier reference sequences... 
+22/06 18:00:28 INFO:
+done.
+
+22/06 18:00:28 DEBUG:
+0 outlier sequences detected and discarded.
+	
+
+22/06 18:00:28 DEBUG:
+Re-enumerating the reference sequences in taxonomic order... 
+22/06 18:00:28 DEBUG:
+done.
+
+22/06 18:00:28 DEBUG:
+510 references before and 490 remaining after filtering.
+
+22/06 18:00:28 DEBUG:
+Removing 20 taxa (19 unique) from taxonomic hierarchy.
+
+22/06 18:00:28 DEBUG:
+Taxon name 'r__Bacillus mycoides NBRC 101238' not present in taxonomic hierarchy.
+
+22/06 18:00:28 DEBUG:
+Taxon name 'o__Coccidioides posadasii C735 delta SOWgp' not present in taxonomic hierarchy.
+
+22/06 18:00:28 DEBUG:
+Taxon name 's__Thermothielavioides terrestris NRRL 8126' not present in taxonomic hierarchy.
+
+22/06 18:00:28 DEBUG:
+Taxon name 'p__Acanthamoeba castellanii' not present in taxonomic hierarchy.
+
+22/06 18:00:28 DEBUG:
+Taxon name 'r__Leptospira biflexa serovar Patoc strain 'Patoc 1'' not present in taxonomic hierarchy.
+
+22/06 18:00:28 DEBUG:
+Taxon name 's__Aspergillus oryzae RIB40' not present in taxonomic hierarchy.
+
+22/06 18:00:28 DEBUG:
+Taxon name 'r__[Mannheimia] succiniciproducens MBEL55E' not present in taxonomic hierarchy.
+
+22/06 18:00:28 DEBUG:
+Taxon name 's__Aspergillus fumigatus Af293' not present in taxonomic hierarchy.
+
+22/06 18:00:28 DEBUG:
+Taxon name 's__Thermothelomyces thermophilus ATCC 42464' not present in taxonomic hierarchy.
+
+22/06 18:00:28 DEBUG:
+Taxon name 'c__Vermamoeba vermiformis' not present in taxonomic hierarchy.
+
+22/06 18:00:28 DEBUG:
+Taxon name 'r__mine drainage metagenome' not present in taxonomic hierarchy.
+
+22/06 18:00:28 DEBUG:
+Taxon name 's__Penicillium rubens Wisconsin 54-1255' not present in taxonomic hierarchy.
+
+22/06 18:00:28 DEBUG:
+Taxon name 's__Trichophyton verrucosum HKI 0517' not present in taxonomic hierarchy.
+
+22/06 18:00:28 DEBUG:
+Taxon name 's__Fusarium oxysporum Fo5176' not present in taxonomic hierarchy.
+
+22/06 18:00:28 DEBUG:
+Taxon name 's__Trichophyton benhamiae CBS 112371' not present in taxonomic hierarchy.
+
+22/06 18:00:28 DEBUG:
+Taxon name 'r__mine drainage metagenome' not present in taxonomic hierarchy.
+
+22/06 18:00:28 DEBUG:
+Taxon name 'r__Psychrobacter sp. 1501(2011)' not present in taxonomic hierarchy.
+
+22/06 18:00:28 DEBUG:
+Taxon name 'r__[Neocosmospora] tonkinensis' not present in taxonomic hierarchy.
+
+22/06 18:00:28 INFO:
+Number of unique lineages:
+	domain     3
+	phylum    20
+	class     30
+	order     62
+	family    96
+	genus    172
+	species  318
+Unclassified and incomplete lineages account for 53/490 (10.8%) references.
+
+22/06 18:00:28 INFO:
+Aligning the sequences using MAFFT... 
+22/06 18:00:54 INFO:
+done.
+
+22/06 18:00:54 DEBUG:
+Read 490 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirK/seed_refpkg/final_outputs/NirK.fa.
+
+22/06 18:00:54 DEBUG:
+Reference alignment contains 490 sequences with 1905 character positions.
+
+22/06 18:00:54 DEBUG:
+Building HMM profile... 
+22/06 18:00:55 DEBUG:
+done.
+
+22/06 18:00:55 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+22/06 18:00:55 DEBUG:
+Read 490 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirK/seed_refpkg/final_outputs/NirK.fa.
+
+22/06 18:00:55 DEBUG:
+53 lineages truncated before 'genus' were removed during lineage trimming.
+
+22/06 18:00:55 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	467_NirK
+	150_NirK
+	386_NirK
+	408_NirK
+	398_NirK
+	190_NirK
+	3_NirK
+	161_NirK
+	12_NirK
+	370_NirK
+	86_NirK
+	31_NirK
+	123_NirK
+	283_NirK
+	305_NirK
+	141_NirK
+	337_NirK
+	354_NirK
+	239_NirK
+	340_NirK
+	325_NirK
+	328_NirK
+	33_NirK
+	58_NirK
+	457_NirK
+	281_NirK
+	448_NirK
+	390_NirK
+	413_NirK
+	313_NirK
+	45_NirK
+	186_NirK
+	363_NirK
+	447_NirK
+	488_NirK
+	38_NirK
+	400_NirK
+	393_NirK
+	485_NirK
+	151_NirK
+	439_NirK
+	477_NirK
+	26_NirK
+	435_NirK
+	330_NirK
+	47_NirK
+	54_NirK
+	483_NirK
+	318_NirK
+	282_NirK
+	197_NirK
+	399_NirK
+	415_NirK
+	376_NirK
+	338_NirK
+	2_NirK
+	206_NirK
+	449_NirK
+	109_NirK
+	134_NirK
+	401_NirK
+	110_NirK
+	89_NirK
+	473_NirK
+	66_NirK
+	224_NirK
+	270_NirK
+	355_NirK
+	60_NirK
+	368_NirK
+	387_NirK
+	472_NirK
+	265_NirK
+	254_NirK
+	246_NirK
+	391_NirK
+	204_NirK
+	245_NirK
+	94_NirK
+	183_NirK
+	317_NirK
+	319_NirK
+	225_NirK
+	159_NirK
+	178_NirK
+	91_NirK
+	81_NirK
+	255_NirK
+	43_NirK
+	48_NirK
+	22_NirK
+	329_NirK
+	234_NirK
+	71_NirK
+	36_NirK
+	475_NirK
+	166_NirK
+	342_NirK
+	263_NirK
+	395_NirK
+	237_NirK
+	153_NirK
+	470_NirK
+	136_NirK
+	235_NirK
+	379_NirK
+	382_NirK
+	310_NirK
+	28_NirK
+	65_NirK
+	456_NirK
+	171_NirK
+	16_NirK
+	233_NirK
+	181_NirK
+	466_NirK
+	78_NirK
+	352_NirK
+	139_NirK
+	148_NirK
+	68_NirK
+	59_NirK
+	339_NirK
+	167_NirK
+	17_NirK
+	140_NirK
+	193_NirK
+	243_NirK
+	214_NirK
+	216_NirK
+	1_NirK
+	272_NirK
+	411_NirK
+	450_NirK
+	184_NirK
+	132_NirK
+	383_NirK
+	396_NirK
+	346_NirK
+	67_NirK
+	162_NirK
+	44_NirK
+	252_NirK
+	259_NirK
+	279_NirK
+	438_NirK
+	230_NirK
+	137_NirK
+	238_NirK
+	149_NirK
+	241_NirK
+	431_NirK
+	37_NirK
+	56_NirK
+	154_NirK
+	156_NirK
+	371_NirK
+	164_NirK
+	394_NirK
+	187_NirK
+	284_NirK
+	306_NirK
+	249_NirK
+	343_NirK
+	280_NirK
+	145_NirK
+	169_NirK
+	353_NirK
+	46_NirK
+	51_NirK
+	430_NirK
+	57_NirK
+	422_NirK
+	146_NirK
+	4_NirK
+	88_NirK
+	357_NirK
+	147_NirK
+	474_NirK
+	367_NirK
+	455_NirK
+	64_NirK
+	158_NirK
+	402_NirK
+	39_NirK
+	232_NirK
+	69_NirK
+	331_NirK
+	385_NirK
+	155_NirK
+	180_NirK
+	361_NirK
+	175_NirK
+	29_NirK
+	288_NirK
+	433_NirK
+	135_NirK
+	362_NirK
+	404_NirK
+	335_NirK
+	388_NirK
+	191_NirK
+	157_NirK
+	378_NirK
+	334_NirK
+	55_NirK
+	432_NirK
+	392_NirK
+	208_NirK
+	113_NirK
+	341_NirK
+	220_NirK
+	403_NirK
+	32_NirK
+	251_NirK
+	152_NirK
+	248_NirK
+	481_NirK
+	412_NirK
+	63_NirK
+	463_NirK
+	13_NirK
+	62_NirK
+	244_NirK
+	442_NirK
+	333_NirK
+	256_NirK
+	291_NirK
+	142_NirK
+	79_NirK
+	360_NirK
+	53_NirK
+	176_NirK
+	344_NirK
+	451_NirK
+	163_NirK
+	247_NirK
+	465_NirK
+	127_NirK
+	292_NirK
+	311_NirK
+	231_NirK
+	21_NirK
+	351_NirK
+	273_NirK
+	298_NirK
+	293_NirK
+	42_NirK
+	73_NirK
+	138_NirK
+	347_NirK
+	267_NirK
+	296_NirK
+	359_NirK
+	459_NirK
+	200_NirK
+	389_NirK
+	172_NirK
+	327_NirK
+	160_NirK
+	34_NirK
+	323_NirK
+	120_NirK
+	345_NirK
+	50_NirK
+	23_NirK
+	484_NirK
+	108_NirK
+	87_NirK
+	185_NirK
+	226_NirK
+	170_NirK
+	144_NirK
+	321_NirK
+	222_NirK
+	336_NirK
+	257_NirK
+	452_NirK
+	358_NirK
+	6_NirK
+	405_NirK
+	458_NirK
+	80_NirK
+	90_NirK
+	173_NirK
+	276_NirK
+	143_NirK
+	165_NirK
+	18_NirK
+	464_NirK
+	182_NirK
+	168_NirK
+	133_NirK
+	70_NirK
+	72_NirK
+	266_NirK
+	486_NirK
+	61_NirK
+	277_NirK
+	14_NirK
+	236_NirK
+	227_NirK
+	446_NirK
+	295_NirK
+	365_NirK
+	10_NirK
+	228_NirK
+	40_NirK
+	52_NirK
+	221_NirK
+	397_NirK
+	332_NirK
+	414_NirK
+	41_NirK
+	297_NirK
+	240_NirK
+	229_NirK
+	471_NirK
+	315_NirK
+	476_NirK
+	49_NirK
+	258_NirK
+	25_NirK
+	262_NirK
+	35_NirK
+	364_NirK
+
+22/06 18:01:15 DEBUG:
+Building HMM profile... 
+22/06 18:01:15 DEBUG:
+done.
+
+22/06 18:01:15 DEBUG:
+done.
+
+22/06 18:01:15 DEBUG:
+164 genus-dereplicated sequences retained for building HMM profile.
+
+22/06 18:01:15 INFO:
+Running BMGE... 
+22/06 18:01:15 DEBUG:
+STAGE: Multiple alignment trimming with BMGE
+	COMMAND:
+java -Xmx512m -jar /home/connor/Bioinformatics/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp/sub_binaries/BMGE.jar -t AA -m BLOSUM30 -g 0.99:0.33 -i /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirK/seed_refpkg/final_outputs/NirK.fa -of /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirK/seed_refpkg/final_outputs/NirK-BMGE.fasta
+
+22/06 18:01:16 INFO:
+done.
+
+22/06 18:01:16 DEBUG:
+	BMGE time required: 0.0:0.0:1.13
+
+22/06 18:01:16 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirK/seed_refpkg/final_outputs/NirK-BMGE.fasta = 0 (retained)
+
+22/06 18:01:16 INFO:
+Building phylogenetic tree with FastTree... 
+22/06 18:01:26 INFO:
+done.
+
+22/06 18:01:26 DEBUG:
+FastTree Version 2.1.10 Double precision (No SSE3)
+Alignment: /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirK/seed_refpkg/intermediates/NirK.phy
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Le-Gascuel 2008, CAT approximation with 4 rate categories
+      0.12 seconds: Joined    300 of    460
+Initial topology in 0.18 seconds
+Refining topology: 35 rounds ME-NNIs, 2 rounds ME-SPRs, 18 rounds ML-NNIs
+      0.22 seconds: SPR round   1 of   2, 1 of 924 nodes
+      0.36 seconds: SPR round   1 of   2, 301 of 924 nodes
+      0.50 seconds: SPR round   1 of   2, 601 of 924 nodes
+      0.64 seconds: SPR round   1 of   2, 901 of 924 nodes
+      0.77 seconds: SPR round   2 of   2, 201 of 924 nodes
+      0.91 seconds: SPR round   2 of   2, 501 of 924 nodes
+      1.05 seconds: SPR round   2 of   2, 801 of 924 nodes
+Total branch-length 45.309 after 1.14 sec
+      1.24 seconds: ML Lengths 101 of 461 splits
+      1.34 seconds: ML Lengths 201 of 461 splits
+      1.44 seconds: ML Lengths 301 of 461 splits
+      1.55 seconds: ML Lengths 401 of 461 splits
+      2.00 seconds: ML NNI round 1 of 18, 101 of 461 splits, 19 changes (max delta 3.282)
+      2.38 seconds: ML NNI round 1 of 18, 201 of 461 splits, 42 changes (max delta 4.846)
+      2.76 seconds: ML NNI round 1 of 18, 301 of 461 splits, 58 changes (max delta 6.406)
+      3.13 seconds: ML NNI round 1 of 18, 401 of 461 splits, 73 changes (max delta 6.406)
+ML-NNI round 1: LogLk = -43266.367 NNIs 80 max delta 7.24 Time 3.37
+      3.41 seconds: Site likelihoods with rate category 1 of 4
+      3.55 seconds: Site likelihoods with rate category 4 of 4
+Switched to using 4 rate categories (CAT approximation)
+Rate categories were divided by 1.044 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+      3.91 seconds: ML NNI round 2 of 18, 101 of 461 splits, 5 changes (max delta 2.775)
+      4.20 seconds: ML NNI round 2 of 18, 201 of 461 splits, 18 changes (max delta 2.775)
+      4.43 seconds: ML NNI round 2 of 18, 301 of 461 splits, 24 changes (max delta 2.775)
+      4.73 seconds: ML NNI round 2 of 18, 401 of 461 splits, 34 changes (max delta 3.031)
+ML-NNI round 2: LogLk = -41788.928 NNIs 38 max delta 4.51 Time 4.88
+      4.87 seconds: ML NNI round 3 of 18, 1 of 461 splits
+      5.12 seconds: ML NNI round 3 of 18, 101 of 461 splits, 4 changes (max delta 3.249)
+      5.33 seconds: ML NNI round 3 of 18, 201 of 461 splits, 9 changes (max delta 3.249)
+ML-NNI round 3: LogLk = -41779.979 NNIs 11 max delta 3.25 Time 5.59
+      5.58 seconds: ML NNI round 4 of 18, 1 of 461 splits
+      5.80 seconds: ML NNI round 4 of 18, 101 of 461 splits, 0 changes
+ML-NNI round 4: LogLk = -41779.382 NNIs 0 max delta 0.00 Time 5.93
+Turning off heuristics for final round of ML NNIs (converged)
+      5.92 seconds: ML NNI round 5 of 18, 1 of 461 splits
+      6.32 seconds: ML NNI round 5 of 18, 101 of 461 splits, 1 changes (max delta 0.281)
+      6.70 seconds: ML NNI round 5 of 18, 201 of 461 splits, 3 changes (max delta 0.281)
+      7.08 seconds: ML NNI round 5 of 18, 301 of 461 splits, 4 changes (max delta 0.281)
+      7.50 seconds: ML NNI round 5 of 18, 401 of 461 splits, 5 changes (max delta 0.281)
+ML-NNI round 5: LogLk = -41774.290 NNIs 5 max delta 0.28 Time 7.74 (final)
+      7.73 seconds: ML Lengths 1 of 461 splits
+      7.83 seconds: ML Lengths 101 of 461 splits
+      7.94 seconds: ML Lengths 201 of 461 splits
+      8.13 seconds: ML Lengths 401 of 461 splits
+Optimize all lengths: LogLk = -41774.059 Time 8.20
+      8.51 seconds: ML split tests for    100 of    460 internal splits
+      8.82 seconds: ML split tests for    200 of    460 internal splits
+      9.12 seconds: ML split tests for    300 of    460 internal splits
+      9.43 seconds: ML split tests for    400 of    460 internal splits
+      9.66 seconds: Site likelihoods with rate category 1 of 4
+      9.80 seconds: Site likelihoods with rate category 4 of 4
+Gamma(4) LogLk = -41945.116 alpha = 2.225 rescaling lengths by 1.085
+Total time: 9.85 seconds Unique: 463/490 Bad splits: 1/460 Worst delta-LogLk 0.188
+
+
+22/06 18:01:26 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+22/06 18:01:26 ERROR:
+/usr/local/bin/raxml-ng did not complete successfully! Command used:
+/usr/local/bin/raxml-ng --evaluate --msa /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirK/seed_refpkg/intermediates/NirK.phy --tree /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirK/seed_refpkg/intermediates/phylogeny_files/NirK.FastTree.nwk --prefix /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirK/seed_refpkg/intermediates/phylogeny_files/NirK --model LG+G4 --threads 4 --force
+Output:
+
+RAxML-NG v. 0.9.0git released on 26.11.2019 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+RAxML-NG was called at 22-Jun-2020 18:01:26 as follows:
+
+/usr/local/bin/raxml-ng --evaluate --msa /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirK/seed_refpkg/intermediates/NirK.phy --tree /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirK/seed_refpkg/intermediates/phylogeny_files/NirK.FastTree.nwk --prefix /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirK/seed_refpkg/intermediates/phylogeny_files/NirK --model LG+G4 --threads 4 --force
+
+Analysis options:
+  run mode: Evaluate tree likelihood
+  start tree(s): user
+  random seed: 1592874086
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: AVX2
+  parallelization: PTHREADS (4 threads), thread pinning: OFF
+
+WARNING: Running in FORCE mode: all safety checks are disabled!
+
+[00:00:00] Reading alignment from file: /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirK/seed_refpkg/intermediates/NirK.phy
+[00:00:00] Loaded alignment with 490 taxa and 156 sites
+
+Alignment comprises 1 partitions and 155 patterns
+
+Partition 0: noname
+Model: LG+G4m
+Alignment sites / patterns: 156 / 155
+Gaps: 1.13 %
+Invariant sites: 2.56 %
+
+
+NOTE: Binary MSA file created: /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirK/seed_refpkg/intermediates/phylogeny_files/NirK.raxml.rba
+
+[00:00:00] Loading user starting tree(s) from: /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirK/seed_refpkg/intermediates/phylogeny_files/NirK.FastTree.nwk
+[00:00:00] Data distribution: max. partitions/sites/weight per thread: 1 / 39 / 3120
+
+Evaluating 1 trees
+
+raxml-ng: /home/connor/bin/raxml-ng/libs/pll-modules/libs/libpll/src/parse_utree.y:500: utree_wraptree: Assertion `inner_index == tip_count + inner_count' failed.
+Aborted (core dumped)
+

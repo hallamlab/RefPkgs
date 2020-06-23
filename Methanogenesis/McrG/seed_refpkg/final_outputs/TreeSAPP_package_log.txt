@@ -1,0 +1,21 @@
+22/06 16:24:58 INFO:
+date	2020-06-22
+
+22/06 16:24:58 INFO:
+num_seqs	135
+
+22/06 16:24:58 INFO:
+pid	0.97
+
+22/06 16:24:58 INFO:
+prefix	McrG
+
+22/06 16:24:58 INFO:
+ts_version	0.8.4
+
+22/06 16:24:58 INFO:
+refpkg_code	M0705
+
+22/06 16:24:58 INFO:
+TreeSAPP has finished successfully.
+

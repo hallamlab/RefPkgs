@@ -1,0 +1,4584 @@
+22/06 21:37:29 INFO:
+
+##			Creating TreeSAPP reference package			##
+
+22/06 21:37:29 INFO:
+Arguments used:
+-b 0 --fast -n 4 --cluster -m prot --headless --overwrite --trim_align --outdet_align --delete --screen Bacteria,Archaea -p 0.95 --min_taxonomic_rank c -i Nitrogen_metabolism/Denitrification/NirS/fungene_9.9_nirS_uclust99.faa -o Nitrogen_metabolism/Denitrification/NirS/seed_refpkg -c NirS -a Nitrogen_metabolism/Denitrification/NirS/fungene_9.9_nirS_uclust99_accession_id_lineage_map.tsv
+
+22/06 21:37:29 DEBUG:
+Continuing with stage 'clean'
+
+22/06 21:37:29 DEBUG:
+Nitrogen_metabolism/Denitrification/NirS/fungene_9.9_nirS_uclust99.faa read by pyfastx in 0.0034651756286621094 seconds.
+
+22/06 21:37:29 DEBUG:
+Read 727 headers from Nitrogen_metabolism/Denitrification/NirS/fungene_9.9_nirS_uclust99.faa.
+
+22/06 21:37:29 DEBUG:
+Identified and replaced invalid ambiguity characters in 0 sequences.
+
+22/06 21:37:29 INFO:
+Sequence summary:
+	Number of sequences: 727
+	Longest sequence length: 798
+	Shortest sequence length: 366
+	Mean sequence length: 537.7
+	Median sequence length: 539
+
+22/06 21:37:29 INFO:
+Extracting information from headers... 
+22/06 21:37:29 INFO:
+done.
+
+22/06 21:37:29 DEBUG:
+	Number of input sequences =	727
+
+22/06 21:37:29 INFO:
+Reading cached lineages in 'Nitrogen_metabolism/Denitrification/NirS/fungene_9.9_nirS_uclust99_accession_id_lineage_map.tsv'... 
+22/06 21:37:29 INFO:
+done.
+
+22/06 21:37:29 DEBUG:
+No lineages from the accession map were added to the EntrezRecord attributes.
+
+22/06 21:37:29 DEBUG:
+	7 sequences removed after failing screen.
+	0 sequences removed after failing filter.
+	720 sequences retained.
+
+22/06 21:37:29 DEBUG:
+	21 sequences removed with truncated taxonomic lineages.
+	678 sequences retained for building tree.
+
+22/06 21:37:29 INFO:
+Clustering sequences with UCLUST... 
+22/06 21:37:29 INFO:
+done.
+
+22/06 21:37:29 DEBUG:
+usearch v11.0.667_i86linux32, 4.0Gb RAM (32.9Gb total), 4 cores
+(C) Copyright 2013-18 Robert C. Edgar, all rights reserved.
+https://drive5.com/usearch
+
+License: c.morganlang@gmail.com
+
+00:00 37Mb      0.1% Reading /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/fungene_9.9_nirS_uclust99_uclust_input.fasta00:00 41Mb    100.0% Reading /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/fungene_9.9_nirS_uclust99_uclust_input.fasta
+00:00 35Mb      0.6% DF                                                                                                                                                                         00:00 36Mb    100.0% DF
+00:00 36Mb   699 seqs, 699 uniques, 699 singletons (100.0%)
+00:00 36Mb   Min size 1, median 1, max 1, avg 1.00
+00:00 39Mb      0.1% DB00:00 39Mb    100.0% DB
+00:00 39Mb   Sort length... done.
+00:00 78Mb      0.1% Clustering00:00 78Mb      0.1% 0 clusters, max size 0, avg 0.000:00 96Mb    100.0% 512 clusters, max size 10, avg 1.4
+00:00 96Mb      0.2% Writing centroids to /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/fungene_9.9_nirS_uclust99_uclust0.95.fa00:00 96Mb    100.0% Writing centroids to /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/fungene_9.9_nirS_uclust99_uclust0.95.fa
+                                                                                                                                                                                                        
+      Seqs  699
+  Clusters  512
+  Max size  10
+  Avg size  1.4
+  Min size  1
+Singletons  418, 59.8% of seqs, 81.6% of clusters
+   Max mem  96Mb
+      Time  1.00s
+Throughput  699.0 seqs/sec.
+
+
+22/06 21:37:29 DEBUG:
+Reading usearch cluster file... 
+22/06 21:37:29 DEBUG:
+done.
+
+22/06 21:37:29 DEBUG:
+	512 sequence clusters
+
+22/06 21:37:29 DEBUG:
+Finalizing representative sequence clusters... 
+22/06 21:37:29 DEBUG:
+done.
+
+22/06 21:37:29 DEBUG:
+Re-enumerating the reference sequences in taxonomic order... 
+22/06 21:37:29 DEBUG:
+done.
+
+22/06 21:37:29 INFO:
+Detecting outlier reference sequences... 
+22/06 21:37:31 INFO:
+done.
+
+22/06 21:37:31 DEBUG:
+0 outlier sequences detected and discarded.
+	
+
+22/06 21:37:31 DEBUG:
+Re-enumerating the reference sequences in taxonomic order... 
+22/06 21:37:31 DEBUG:
+done.
+
+22/06 21:37:31 DEBUG:
+727 references before and 512 remaining after filtering.
+
+22/06 21:37:31 DEBUG:
+Removing 215 taxa (100 unique) from taxonomic hierarchy.
+
+22/06 21:37:31 INFO:
+Number of unique lineages:
+	domain     2
+	phylum     7
+	class     14
+	order     28
+	family    48
+	genus    109
+	species  247
+Unclassified and incomplete lineages account for 72/512 (14.1%) references.
+
+22/06 21:37:31 INFO:
+Aligning the sequences using MAFFT... 
+22/06 21:37:33 INFO:
+done.
+
+22/06 21:37:33 DEBUG:
+Read 512 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/final_outputs/NirS.fa.
+
+22/06 21:37:33 DEBUG:
+Reference alignment contains 512 sequences with 1552 character positions.
+
+22/06 21:37:33 DEBUG:
+Building HMM profile... 
+22/06 21:37:33 DEBUG:
+done.
+
+22/06 21:37:33 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+22/06 21:37:33 DEBUG:
+Read 512 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/final_outputs/NirS.fa.
+
+22/06 21:37:33 DEBUG:
+72 lineages truncated before 'genus' were removed during lineage trimming.
+
+22/06 21:37:33 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	251_NirS
+	414_NirS
+	271_NirS
+	158_NirS
+	43_NirS
+	121_NirS
+	497_NirS
+	289_NirS
+	462_NirS
+	384_NirS
+	488_NirS
+	174_NirS
+	205_NirS
+	169_NirS
+	211_NirS
+	9_NirS
+	353_NirS
+	61_NirS
+	185_NirS
+	485_NirS
+	456_NirS
+	262_NirS
+	426_NirS
+	439_NirS
+	318_NirS
+	316_NirS
+	431_NirS
+	6_NirS
+	124_NirS
+	501_NirS
+	198_NirS
+	474_NirS
+	194_NirS
+	188_NirS
+	143_NirS
+	51_NirS
+	302_NirS
+	315_NirS
+	247_NirS
+	327_NirS
+	68_NirS
+	89_NirS
+	244_NirS
+	404_NirS
+	126_NirS
+	403_NirS
+	224_NirS
+	298_NirS
+	402_NirS
+	56_NirS
+	275_NirS
+	383_NirS
+	78_NirS
+	130_NirS
+	79_NirS
+	468_NirS
+	449_NirS
+	189_NirS
+	133_NirS
+	37_NirS
+	179_NirS
+	349_NirS
+	299_NirS
+	450_NirS
+	200_NirS
+	147_NirS
+	131_NirS
+	438_NirS
+	458_NirS
+	270_NirS
+	308_NirS
+	313_NirS
+	337_NirS
+	338_NirS
+	288_NirS
+	233_NirS
+	228_NirS
+	443_NirS
+	72_NirS
+	323_NirS
+	344_NirS
+	419_NirS
+	157_NirS
+	511_NirS
+	229_NirS
+	163_NirS
+	435_NirS
+	366_NirS
+	356_NirS
+	486_NirS
+	451_NirS
+	30_NirS
+	422_NirS
+	445_NirS
+	86_NirS
+	191_NirS
+	65_NirS
+	63_NirS
+	91_NirS
+	484_NirS
+	440_NirS
+	371_NirS
+	418_NirS
+	160_NirS
+	398_NirS
+	293_NirS
+	183_NirS
+	250_NirS
+	253_NirS
+	415_NirS
+	113_NirS
+	141_NirS
+	322_NirS
+	369_NirS
+	287_NirS
+	331_NirS
+	328_NirS
+	459_NirS
+	127_NirS
+	286_NirS
+	167_NirS
+	357_NirS
+	149_NirS
+	235_NirS
+	92_NirS
+	164_NirS
+	489_NirS
+	498_NirS
+	417_NirS
+	142_NirS
+	412_NirS
+	463_NirS
+	493_NirS
+	44_NirS
+	58_NirS
+	400_NirS
+	395_NirS
+	213_NirS
+	296_NirS
+	83_NirS
+	261_NirS
+	490_NirS
+	348_NirS
+	71_NirS
+	259_NirS
+	482_NirS
+	33_NirS
+	49_NirS
+	239_NirS
+	88_NirS
+	274_NirS
+	295_NirS
+	461_NirS
+	481_NirS
+	67_NirS
+	111_NirS
+	453_NirS
+	390_NirS
+	467_NirS
+	389_NirS
+	159_NirS
+	329_NirS
+	186_NirS
+	432_NirS
+	278_NirS
+	290_NirS
+	454_NirS
+	110_NirS
+	82_NirS
+	57_NirS
+	273_NirS
+	346_NirS
+	46_NirS
+	134_NirS
+	479_NirS
+	448_NirS
+	334_NirS
+	362_NirS
+	492_NirS
+	294_NirS
+	215_NirS
+	354_NirS
+	32_NirS
+	227_NirS
+	255_NirS
+	137_NirS
+	252_NirS
+	27_NirS
+	103_NirS
+	161_NirS
+	8_NirS
+	487_NirS
+	84_NirS
+	430_NirS
+	280_NirS
+	272_NirS
+	336_NirS
+	76_NirS
+	423_NirS
+	70_NirS
+	372_NirS
+	392_NirS
+	367_NirS
+	442_NirS
+	145_NirS
+	429_NirS
+	225_NirS
+	222_NirS
+	156_NirS
+	26_NirS
+	276_NirS
+	483_NirS
+	17_NirS
+	434_NirS
+	499_NirS
+	172_NirS
+	181_NirS
+	375_NirS
+	283_NirS
+	105_NirS
+	321_NirS
+	4_NirS
+	93_NirS
+	446_NirS
+	115_NirS
+	31_NirS
+	345_NirS
+	281_NirS
+	54_NirS
+	476_NirS
+	319_NirS
+	264_NirS
+	464_NirS
+	171_NirS
+	441_NirS
+	330_NirS
+	405_NirS
+	469_NirS
+	36_NirS
+	102_NirS
+	455_NirS
+	465_NirS
+	452_NirS
+	80_NirS
+	437_NirS
+	425_NirS
+	53_NirS
+	41_NirS
+	116_NirS
+	173_NirS
+	136_NirS
+	496_NirS
+	138_NirS
+	394_NirS
+	199_NirS
+	352_NirS
+	129_NirS
+	427_NirS
+	491_NirS
+	254_NirS
+	360_NirS
+	55_NirS
+	66_NirS
+	475_NirS
+	122_NirS
+	118_NirS
+	94_NirS
+	13_NirS
+	500_NirS
+	478_NirS
+	69_NirS
+	495_NirS
+	292_NirS
+	410_NirS
+	166_NirS
+	269_NirS
+	363_NirS
+	74_NirS
+	265_NirS
+	125_NirS
+	355_NirS
+	509_NirS
+	342_NirS
+	64_NirS
+	494_NirS
+	243_NirS
+	385_NirS
+	291_NirS
+	470_NirS
+	99_NirS
+	351_NirS
+	436_NirS
+	135_NirS
+	47_NirS
+	176_NirS
+	209_NirS
+	168_NirS
+	340_NirS
+	306_NirS
+	187_NirS
+	232_NirS
+	282_NirS
+	151_NirS
+	139_NirS
+	201_NirS
+	285_NirS
+	120_NirS
+	473_NirS
+	359_NirS
+	457_NirS
+	182_NirS
+	108_NirS
+	241_NirS
+	407_NirS
+	378_NirS
+	112_NirS
+	237_NirS
+	472_NirS
+	109_NirS
+	148_NirS
+	350_NirS
+	2_NirS
+	117_NirS
+	358_NirS
+	246_NirS
+	218_NirS
+	114_NirS
+	95_NirS
+	444_NirS
+	416_NirS
+	132_NirS
+	207_NirS
+	238_NirS
+	1_NirS
+	480_NirS
+	333_NirS
+	335_NirS
+	382_NirS
+	162_NirS
+	301_NirS
+	59_NirS
+	248_NirS
+	90_NirS
+	365_NirS
+	460_NirS
+	177_NirS
+	144_NirS
+	170_NirS
+	165_NirS
+	386_NirS
+	35_NirS
+	420_NirS
+	466_NirS
+	39_NirS
+	314_NirS
+	184_NirS
+	175_NirS
+	477_NirS
+	399_NirS
+	309_NirS
+	326_NirS
+	307_NirS
+	401_NirS
+	364_NirS
+	101_NirS
+	376_NirS
+	428_NirS
+	220_NirS
+	277_NirS
+	154_NirS
+	332_NirS
+	97_NirS
+	424_NirS
+	284_NirS
+	347_NirS
+	421_NirS
+	45_NirS
+	433_NirS
+	447_NirS
+	471_NirS
+	15_NirS
+	7_NirS
+	107_NirS
+	256_NirS
+	397_NirS
+	297_NirS
+	128_NirS
+	146_NirS
+	77_NirS
+
+22/06 21:37:47 DEBUG:
+Building HMM profile... 
+22/06 21:37:47 DEBUG:
+done.
+
+22/06 21:37:47 DEBUG:
+done.
+
+22/06 21:37:47 DEBUG:
+123 genus-dereplicated sequences retained for building HMM profile.
+
+22/06 21:37:47 INFO:
+Running BMGE... 
+22/06 21:37:47 DEBUG:
+STAGE: Multiple alignment trimming with BMGE
+	COMMAND:
+java -Xmx512m -jar /home/connor/Bioinformatics/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp/sub_binaries/BMGE.jar -t AA -m BLOSUM30 -g 0.99:0.33 -i /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/final_outputs/NirS.fa -of /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/final_outputs/NirS-BMGE.fasta
+
+22/06 21:37:48 INFO:
+done.
+
+22/06 21:37:48 DEBUG:
+	BMGE time required: 0.0:0.0:0.76
+
+22/06 21:37:48 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/final_outputs/NirS-BMGE.fasta = 0 (retained)
+
+22/06 21:37:48 INFO:
+Building phylogenetic tree with FastTree... 
+22/06 21:38:11 INFO:
+done.
+
+22/06 21:38:11 DEBUG:
+FastTree Version 2.1.10 Double precision (No SSE3)
+Alignment: /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/NirS.phy
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Le-Gascuel 2008, CAT approximation with 4 rate categories
+      0.10 seconds: Joined    100 of    509
+      0.21 seconds: Joined    200 of    509
+      0.32 seconds: Joined    300 of    509
+      0.44 seconds: Joined    500 of    509
+Initial topology in 0.44 seconds
+Refining topology: 36 rounds ME-NNIs, 2 rounds ME-SPRs, 18 rounds ML-NNIs
+      0.54 seconds: ME NNI round 4 of 36, 101 of 510 splits, 3 changes (max delta 0.007)
+      0.67 seconds: SPR round   1 of   2, 101 of 1022 nodes
+      0.77 seconds: SPR round   1 of   2, 201 of 1022 nodes
+      0.88 seconds: SPR round   1 of   2, 301 of 1022 nodes
+      1.00 seconds: SPR round   1 of   2, 401 of 1022 nodes
+      1.14 seconds: SPR round   1 of   2, 501 of 1022 nodes
+      1.28 seconds: SPR round   1 of   2, 601 of 1022 nodes
+      1.39 seconds: SPR round   1 of   2, 701 of 1022 nodes
+      1.50 seconds: SPR round   1 of   2, 801 of 1022 nodes
+      1.61 seconds: SPR round   1 of   2, 901 of 1022 nodes
+      1.72 seconds: SPR round   1 of   2, 1001 of 1022 nodes
+      1.89 seconds: SPR round   2 of   2, 101 of 1022 nodes
+      2.00 seconds: SPR round   2 of   2, 201 of 1022 nodes
+      2.13 seconds: SPR round   2 of   2, 301 of 1022 nodes
+      2.25 seconds: SPR round   2 of   2, 401 of 1022 nodes
+      2.39 seconds: SPR round   2 of   2, 501 of 1022 nodes
+      2.53 seconds: SPR round   2 of   2, 601 of 1022 nodes
+      2.65 seconds: SPR round   2 of   2, 701 of 1022 nodes
+      2.76 seconds: SPR round   2 of   2, 801 of 1022 nodes
+      2.88 seconds: SPR round   2 of   2, 901 of 1022 nodes
+      2.99 seconds: SPR round   2 of   2, 1001 of 1022 nodes
+Total branch-length 47.359 after 3.11 sec
+      3.11 seconds: ML Lengths 1 of 510 splits
+      3.38 seconds: ML Lengths 101 of 510 splits
+      3.64 seconds: ML Lengths 201 of 510 splits
+      3.89 seconds: ML Lengths 301 of 510 splits
+      4.13 seconds: ML Lengths 401 of 510 splits
+      4.38 seconds: ML Lengths 501 of 510 splits
+      5.24 seconds: ML NNI round 1 of 18, 101 of 510 splits, 16 changes (max delta 9.606)
+      6.12 seconds: ML NNI round 1 of 18, 201 of 510 splits, 27 changes (max delta 9.606)
+      6.96 seconds: ML NNI round 1 of 18, 301 of 510 splits, 37 changes (max delta 14.432)
+      7.75 seconds: ML NNI round 1 of 18, 401 of 510 splits, 48 changes (max delta 20.255)
+      8.63 seconds: ML NNI round 1 of 18, 501 of 510 splits, 67 changes (max delta 20.255)
+ML-NNI round 1: LogLk = -114966.283 NNIs 68 max delta 20.26 Time 8.71
+      8.83 seconds: Site likelihoods with rate category 1 of 4
+      8.95 seconds: Site likelihoods with rate category 2 of 4
+      9.08 seconds: Site likelihoods with rate category 3 of 4
+      9.20 seconds: Site likelihoods with rate category 4 of 4
+Switched to using 4 rate categories (CAT approximation)
+Rate categories were divided by 1.113 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+      9.44 seconds: ML NNI round 2 of 18, 1 of 510 splits
+      9.91 seconds: ML NNI round 2 of 18, 101 of 510 splits, 2 changes (max delta 2.354)
+     10.39 seconds: ML NNI round 2 of 18, 201 of 510 splits, 10 changes (max delta 2.354)
+     10.80 seconds: ML NNI round 2 of 18, 301 of 510 splits, 17 changes (max delta 8.038)
+     11.14 seconds: ML NNI round 2 of 18, 401 of 510 splits, 21 changes (max delta 11.919)
+     11.72 seconds: ML NNI round 2 of 18, 501 of 510 splits, 26 changes (max delta 11.919)
+ML-NNI round 2: LogLk = -108964.777 NNIs 26 max delta 11.92 Time 11.78
+     12.03 seconds: ML NNI round 3 of 18, 101 of 510 splits, 1 changes (max delta 1.301)
+     12.48 seconds: ML NNI round 3 of 18, 201 of 510 splits, 5 changes (max delta 6.434)
+     12.80 seconds: ML NNI round 3 of 18, 301 of 510 splits, 6 changes (max delta 6.434)
+ML-NNI round 3: LogLk = -108948.513 NNIs 6 max delta 6.43 Time 12.85
+     13.17 seconds: ML NNI round 4 of 18, 101 of 510 splits, 2 changes (max delta 2.569)
+ML-NNI round 4: LogLk = -108944.605 NNIs 2 max delta 2.57 Time 13.35
+     13.35 seconds: ML NNI round 5 of 18, 1 of 510 splits
+ML-NNI round 5: LogLk = -108943.160 NNIs 1 max delta 1.37 Time 13.54
+     13.53 seconds: ML NNI round 6 of 18, 1 of 510 splits
+ML-NNI round 6: LogLk = -108943.158 NNIs 0 max delta 0.00 Time 13.65
+Turning off heuristics for final round of ML NNIs (converged)
+     13.65 seconds: ML NNI round 7 of 18, 1 of 510 splits
+     14.52 seconds: ML NNI round 7 of 18, 101 of 510 splits, 2 changes (max delta 3.181)
+     15.34 seconds: ML NNI round 7 of 18, 201 of 510 splits, 2 changes (max delta 3.181)
+     16.20 seconds: ML NNI round 7 of 18, 301 of 510 splits, 5 changes (max delta 3.181)
+     17.04 seconds: ML NNI round 7 of 18, 401 of 510 splits, 8 changes (max delta 3.181)
+     17.87 seconds: ML NNI round 7 of 18, 501 of 510 splits, 9 changes (max delta 3.181)
+ML-NNI round 7: LogLk = -108888.370 NNIs 9 max delta 3.18 Time 17.96 (final)
+     18.19 seconds: ML Lengths 101 of 510 splits
+     18.42 seconds: ML Lengths 201 of 510 splits
+     18.65 seconds: ML Lengths 301 of 510 splits
+     18.87 seconds: ML Lengths 401 of 510 splits
+     19.10 seconds: ML Lengths 501 of 510 splits
+Optimize all lengths: LogLk = -108887.253 Time 19.13
+     19.79 seconds: ML split tests for    100 of    509 internal splits
+     20.43 seconds: ML split tests for    200 of    509 internal splits
+     21.07 seconds: ML split tests for    300 of    509 internal splits
+     21.71 seconds: ML split tests for    400 of    509 internal splits
+     22.36 seconds: ML split tests for    500 of    509 internal splits
+     22.53 seconds: Site likelihoods with rate category 1 of 4
+     22.65 seconds: Site likelihoods with rate category 2 of 4
+     22.77 seconds: Site likelihoods with rate category 3 of 4
+     22.89 seconds: Site likelihoods with rate category 4 of 4
+     23.01 seconds: Optimizing alpha round 1
+Gamma(4) LogLk = -109389.853 alpha = 1.276 rescaling lengths by 1.073
+Total time: 23.01 seconds Unique: 512/512 Bad splits: 1/509 Worst delta-LogLk 0.251
+
+
+22/06 21:38:11 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+22/06 21:38:12 DEBUG:
+done.
+
+22/06 21:38:13 INFO:
+
+##			Train taxonomic rank-placement distance model			##
+
+22/06 21:38:13 INFO:
+Arguments used:
+-i /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/fungene_9.9_nirS_uclust99_filtered.fa -r /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/final_outputs/NirS_build.pkl -o /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/placement_trainer/ -m prot -a Nitrogen_metabolism/Denitrification/NirS/fungene_9.9_nirS_uclust99_accession_id_lineage_map.tsv -n 4 --trim_align
+
+22/06 21:38:13 DEBUG:
+Unable to open stage file '' for reading. Defaulting to stage 2.
+
+22/06 21:38:13 DEBUG:
+Continuing with stage 'place'
+
+22/06 21:38:13 DEBUG:
+Read 699 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/fungene_9.9_nirS_uclust99_filtered.fa.
+
+22/06 21:38:13 INFO:
+Extracting information from headers... 
+22/06 21:38:13 INFO:
+done.
+
+22/06 21:38:13 DEBUG:
+	Number of input sequences =	699
+
+22/06 21:38:13 INFO:
+Reading cached lineages in 'Nitrogen_metabolism/Denitrification/NirS/fungene_9.9_nirS_uclust99_accession_id_lineage_map.tsv'... 
+22/06 21:38:13 INFO:
+done.
+
+22/06 21:38:13 DEBUG:
+Read 699 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/fungene_9.9_nirS_uclust99_filtered.fa.
+
+22/06 21:38:13 DEBUG:
+Checking for redundant sequences with duplicate accessions.
+
+22/06 21:38:13 DEBUG:
+Checking for redundant FASTA records with duplicate sequences... 
+22/06 21:38:13 WARNING:
+21 sequences were not mapped to FASTA dictionary.
+
+22/06 21:38:13 DEBUG:
+Headers that were not mapped to FASTA dictionary:
+	ACF98047
+	ACF98055
+	ACF98165
+	ACF98171
+	ACF98178
+	ACF98225
+	ACF98231
+	ACY47550
+	AND67184
+	AND67185
+	AND67203
+	AND67204
+	AND67205
+	BAL57500
+	CBE69462
+	EKD59781
+	EKD97125
+	EKE17633
+	EKE18010
+	KKT81373
+	QEA05711
+
+22/06 21:38:13 DEBUG:
+0 lineages truncated before 'class' were removed during lineage trimming.
+
+22/06 21:38:13 DEBUG:
+64.3% of optimal class lineages are present in the pruned trees.
+
+22/06 21:38:13 DEBUG:
+72 lineages truncated before 'genus' were removed during lineage trimming.
+
+22/06 21:38:13 DEBUG:
+78.0% of optimal genus lineages are present in the pruned trees.
+
+22/06 21:38:13 DEBUG:
+63 lineages truncated before 'family' were removed during lineage trimming.
+
+22/06 21:38:13 DEBUG:
+66.7% of optimal family lineages are present in the pruned trees.
+
+22/06 21:38:13 DEBUG:
+0 lineages truncated before 'phylum' were removed during lineage trimming.
+
+22/06 21:38:13 DEBUG:
+71.4% of optimal phylum lineages are present in the pruned trees.
+
+22/06 21:38:13 DEBUG:
+72 lineages truncated before 'species' were removed during lineage trimming.
+
+22/06 21:38:13 DEBUG:
+70.0% of optimal species lineages are present in the pruned trees.
+
+22/06 21:38:13 DEBUG:
+43 lineages truncated before 'order' were removed during lineage trimming.
+
+22/06 21:38:13 DEBUG:
+64.3% of optimal order lineages are present in the pruned trees.
+
+22/06 21:38:13 DEBUG:
+Optimal placement target was not found in the pruned tree for following taxa:
+	d__Archaea; p__Euryarchaeota
+	d__Bacteria; p__Aquificae
+	d__Bacteria; p__Bacteroidetes
+	d__Bacteria; p__Deinococcus-Thermus
+	d__Bacteria; p__Planctomycetes
+	d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae
+	d__Bacteria; p__Chloroflexi; c__Chloroflexia; o__Chloroflexales; f__Roseiflexaceae
+	d__Bacteria; p__Planctomycetes; c__Candidatus Brocadiae; o__Candidatus Brocadiales; f__Candidatus Brocadiaceae
+	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae
+	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae
+	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Methylophilaceae
+	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Thiobacillaceae
+	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Azonexaceae
+	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfobacterales; f__Desulfobacteraceae
+	d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Helicobacteraceae
+	d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Hydrogenimonaceae
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Alteromonadaceae
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Idiomarinaceae
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Chromatiales; f__Ectothiorhodospiraceae
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Chromatiales; f__Wenzhouxiangellaceae
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Chromatiales; f__Woeseiaceae
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Nevskiales; f__Steroidobacteraceae
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Alcanivoracaceae
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Hahellaceae
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Kangiellaceae
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Oceanospirillaceae
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Oleiphilaceae
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Xanthomonadales; f__Rhodanobacteraceae
+	d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Natrialbales
+	d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales
+	d__Bacteria; p__Chloroflexi; c__Anaerolineae; o__Anaerolineales
+	d__Bacteria; p__Chloroflexi; c__Chloroflexia; o__Chloroflexales
+	d__Bacteria; p__Deinococcus-Thermus; c__Deinococci; o__Thermales
+	d__Bacteria; p__Planctomycetes; c__Candidatus Brocadiae; o__Candidatus Brocadiales
+	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales
+	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales
+	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales
+	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfobacterales
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Acidiferrobacterales
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Nevskiales
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Thiotrichales
+	d__Bacteria; p__Proteobacteria; c__Hydrogenophilalia; o__Hydrogenophilales
+	d__Archaea
+	d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Natrialbales; f__Natrialbaceae; g__Haloterrigena
+	d__Bacteria; p__Aquificae; c__Aquificae; o__Aquificales; f__Aquificaceae; g__Hydrogenivirga
+	d__Bacteria; p__Aquificae; c__Aquificae; o__Aquificales; f__Aquificaceae; g__Hydrogenobacter
+	d__Bacteria; p__Aquificae; c__Aquificae; o__Aquificales; f__Aquificaceae; g__Hydrogenobaculum
+	d__Bacteria; p__Aquificae; c__Aquificae; o__Aquificales; f__Hydrogenothermaceae; g__Persephonella
+	d__Bacteria; p__Aquificae; c__Aquificae; o__Aquificales; f__Hydrogenothermaceae; g__Sulfurihydrogenibium
+	d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Lutibacter
+	d__Bacteria; p__Chloroflexi; c__Anaerolineae; o__Anaerolineales; f__Anaerolineaceae; g__Anaerolinea
+	d__Bacteria; p__Chloroflexi; c__Anaerolineae; o__Anaerolineales; f__Anaerolineaceae; g__Bellilinea
+	d__Bacteria; p__Chloroflexi; c__Anaerolineae; o__Anaerolineales; f__Anaerolineaceae; g__Levilinea
+	d__Bacteria; p__Chloroflexi; c__Anaerolineae; o__Anaerolineales; f__Anaerolineaceae; g__Thermanaerothrix
+	d__Bacteria; p__Chloroflexi; c__Chloroflexia; o__Chloroflexales; f__Roseiflexaceae; g__Roseiflexus
+	d__Bacteria; p__Deinococcus-Thermus; c__Deinococci; o__Thermales; f__Thermaceae; g__Oceanithermus
+	d__Bacteria; p__Planctomycetes; c__Candidatus Brocadiae; o__Candidatus Brocadiales; f__Candidatus Brocadiaceae; g__Candidatus Kuenenia
+	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bradyrhizobium
+	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Prosthecomicrobium
+	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Aliiroseovarius
+	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Dinoroseobacter
+	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Litoreibacter
+	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Pseudorhodobacter
+	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Sulfitobacter
+	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Thioclava
+	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Caenispirillum
+	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Alcaligenes
+	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Bordetella
+	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Ralstonia
+	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Brachymonas
+	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Curvibacter
+	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Diaphorobacter
+	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Melaminivora
+	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Pelomonas
+	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Pulveribacter
+	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Simplicispira
+	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Oxalobacteraceae; g__Noviherbaspirillum
+	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Oxalobacteraceae; g__Undibacterium
+	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Chromobacteriaceae; g__Aquaspirillum
+	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Chromobacteriaceae; g__Chromobacterium
+	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Chromobacteriaceae; g__Gulbenkiania
+	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Chromobacteriaceae; g__Laribacter
+	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Chromobacteriaceae; g__Microvirgula
+	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Gallionellaceae; g__Sideroxydans
+	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Gallionellaceae; g__Sulfuricella
+	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Methylophilaceae; g__Methylobacillus
+	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Sterolibacteriaceae; g__Denitratisoma
+	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Sterolibacteriaceae; g__Sterolibacterium
+	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Sterolibacteriaceae; g__Sulfuritalea
+	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Thiobacillaceae; g__Thiobacillus
+	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Rhodocyclaceae; g__Aromatoleum
+	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Rhodocyclaceae; g__Oryzomicrobium
+	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Rhodocyclaceae; g__Propionivibrio
+	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfobacterales; f__Desulfobacteraceae; g__Desulfotignum
+	d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Campylobacteraceae; g__Halarcobacter
+	d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Hydrogenimonaceae; g__Hydrogenimonas
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Acidiferrobacterales; f__Acidiferrobacteraceae; g__Sulfuricaulis
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Acidiferrobacterales; f__Acidiferrobacteraceae; g__Sulfurifustis
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Colwelliaceae; g__Litorilituus
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Idiomarinaceae; g__Idiomarina
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Chromatiales; f__Ectothiorhodospiraceae; g__Thioalkalivibrio
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Chromatiales; f__Wenzhouxiangellaceae; g__Wenzhouxiangella
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Chromatiales; f__Woeseiaceae; g__Woeseia
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__Methylovulum
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Nevskiales; f__Steroidobacteraceae; g__Steroidobacter
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Alcanivoracaceae; g__Ketobacter
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Halomonadaceae; g__Pistricoccus
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Kangiellaceae; g__Kangiella
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Oceanospirillaceae; g__Oleispira
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Thiotrichales; f__Thiotrichaceae; g__Beggiatoa
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Thiotrichales; f__Thiotrichaceae; g__Thiomargarita
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Thiotrichales; f__Thiotrichaceae; g__Thioploca
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Xanthomonadales; f__Rhodanobacteraceae; g__Ahniella
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Xanthomonadales; f__Xanthomonadaceae; g__Arenimonas
+	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Xanthomonadales; f__Xanthomonadaceae; g__Luteimonas
+	d__Bacteria; p__Proteobacteria; c__Hydrogenophilalia; o__Hydrogenophilales; f__Hydrogenophilaceae; g__Hydrogenophilus
+	d__Bacteria; p__Proteobacteria; c__Hydrogenophilalia; o__Hydrogenophilales; f__Hydrogenophilaceae; g__Tepidiphilus
+	d__Archaea; p__Euryarchaeota; c__Halobacteria
+	d__Bacteria; p__Aquificae; c__Aquificae
+	d__Bacteria; p__Bacteroidetes; c__Flavobacteriia
+	d__Bacteria; p__Chloroflexi; c__Anaerolineae
+	d__Bacteria; p__Chloroflexi; c__Chloroflexia
+	d__Bacteria; p__Deinococcus-Thermus; c__Deinococci
+	d__Bacteria; p__Planctomycetes; c__Candidatus Brocadiae
+	d__Bacteria; p__Proteobacteria; c__Acidithiobacillia
+	d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria
+	d__Bacteria; p__Proteobacteria; c__Hydrogenophilalia
+
+22/06 21:38:13 DEBUG:
+Unable to generate placement data for the following taxa since the refpkg would be too small:
+	d__Bacteria
+
+22/06 21:38:13 DEBUG:
+Sequences available for training class-level placement distances:
+	0	d__Archaea; p__Euryarchaeota; c__Halobacteria
+	0	d__Bacteria; p__Aquificae; c__Aquificae
+	0	d__Bacteria; p__Bacteroidetes; c__Flavobacteriia
+	4	d__Bacteria; p__Chloroflexi; c__Anaerolineae
+	1	d__Bacteria; p__Chloroflexi; c__Chloroflexia
+	0	d__Bacteria; p__Deinococcus-Thermus; c__Deinococci
+	0	d__Bacteria; p__Planctomycetes; c__Candidatus Brocadiae
+	5	d__Bacteria; p__Proteobacteria; c__Acidithiobacillia
+	118	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria
+	211	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria
+	5	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria
+	23	d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria
+	298	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria
+	4	d__Bacteria; p__Proteobacteria; c__Hydrogenophilalia
+9/14 unique class-level taxa have training sequences.
+
+Sequences available for training genus-level placement distances:
+	3	d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Natrialbales; f__Natrialbaceae; g__Halobiforma
+	3	d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Natrialbales; f__Natrialbaceae; g__Haloterrigena
+	9	d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Natrialbales; f__Natrialbaceae; g__Natrinema
+	1	d__Bacteria; p__Aquificae; c__Aquificae; o__Aquificales; f__Aquificaceae; g__Hydrogenivirga
+	1	d__Bacteria; p__Aquificae; c__Aquificae; o__Aquificales; f__Aquificaceae; g__Hydrogenobacter
+	2	d__Bacteria; p__Aquificae; c__Aquificae; o__Aquificales; f__Aquificaceae; g__Hydrogenobaculum
+	2	d__Bacteria; p__Aquificae; c__Aquificae; o__Aquificales; f__Hydrogenothermaceae; g__Persephonella
+	2	d__Bacteria; p__Aquificae; c__Aquificae; o__Aquificales; f__Hydrogenothermaceae; g__Sulfurihydrogenibium
+	0	d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Lutibacter
+	1	d__Bacteria; p__Chloroflexi; c__Anaerolineae; o__Anaerolineales; f__Anaerolineaceae; g__Anaerolinea
+	1	d__Bacteria; p__Chloroflexi; c__Anaerolineae; o__Anaerolineales; f__Anaerolineaceae; g__Bellilinea
+	1	d__Bacteria; p__Chloroflexi; c__Anaerolineae; o__Anaerolineales; f__Anaerolineaceae; g__Levilinea
+	1	d__Bacteria; p__Chloroflexi; c__Anaerolineae; o__Anaerolineales; f__Anaerolineaceae; g__Thermanaerothrix
+	0	d__Bacteria; p__Chloroflexi; c__Chloroflexia; o__Chloroflexales; f__Roseiflexaceae; g__Roseiflexus
+	1	d__Bacteria; p__Deinococcus-Thermus; c__Deinococci; o__Thermales; f__Thermaceae; g__Oceanithermus
+	3	d__Bacteria; p__Deinococcus-Thermus; c__Deinococci; o__Thermales; f__Thermaceae; g__Thermus
+	0	d__Bacteria; p__Planctomycetes; c__Candidatus Brocadiae; o__Candidatus Brocadiales; f__Candidatus Brocadiaceae; g__Candidatus Kuenenia
+	0	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bradyrhizobium
+	0	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Prosthecomicrobium
+	2	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Aliiroseovarius
+	2	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Dinoroseobacter
+	11	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Labrenzia
+	2	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Litoreibacter
+	15	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus
+	2	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Pseudorhodobacter
+	13	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Pseudovibrio
+	4	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Rhodobacter
+	4	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Roseobacter
+	11	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Ruegeria
+	2	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Sulfitobacter
+	2	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Thioclava
+	4	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Azospirillum
+	2	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Caenispirillum
+	19	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Magnetospirillum
+	9	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Thalassospira
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Achromobacter
+	3	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Alcaligenes
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Bordetella
+	38	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Cupriavidus
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Ralstonia
+	14	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Acidovorax
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Alicycliphilus
+	1	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Brachymonas
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Comamonas
+	1	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Curvibacter
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Diaphorobacter
+	6	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Hydrogenophaga
+	1	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Melaminivora
+	1	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Pelomonas
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Pulveribacter
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Simplicispira
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Oxalobacteraceae; g__Noviherbaspirillum
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Oxalobacteraceae; g__Undibacterium
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Chromobacteriaceae; g__Aquaspirillum
+	3	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Chromobacteriaceae; g__Aquitalea
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Chromobacteriaceae; g__Chromobacterium
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Chromobacteriaceae; g__Gulbenkiania
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Chromobacteriaceae; g__Laribacter
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Chromobacteriaceae; g__Microvirgula
+	3	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Chromobacteriaceae; g__Pseudogulbenkiania
+	4	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Chromobacteriaceae; g__Vogesella
+	1	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Gallionellaceae; g__Sideroxydans
+	3	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Gallionellaceae; g__Sulfuricella
+	0	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Methylophilaceae; g__Methylobacillus
+	4	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Sterolibacteriaceae; g__Denitratisoma
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Sterolibacteriaceae; g__Sterolibacterium
+	3	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Sterolibacteriaceae; g__Sulfuritalea
+	0	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Thiobacillaceae; g__Thiobacillus
+	0	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Azonexaceae; g__Dechloromonas
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Rhodocyclaceae; g__Aromatoleum
+	3	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Rhodocyclaceae; g__Azospira
+	3	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Rhodocyclaceae; g__Oryzomicrobium
+	1	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Rhodocyclaceae; g__Propionivibrio
+	14	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Azoarcus
+	23	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Thauera
+	0	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfobacterales; f__Desulfobacteraceae; g__Desulfotignum
+	8	d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Campylobacteraceae; g__Arcobacter
+	3	d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Campylobacteraceae; g__Halarcobacter
+	0	d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Helicobacteraceae; g__Sulfurimonas
+	0	d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Hydrogenimonaceae; g__Hydrogenimonas
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Acidiferrobacterales; f__Acidiferrobacteraceae; g__Sulfuricaulis
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Acidiferrobacterales; f__Acidiferrobacteraceae; g__Sulfurifustis
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Alteromonadaceae; g__Marinobacter
+	7	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Colwelliaceae; g__Colwellia
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Colwelliaceae; g__Litorilituus
+	4	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Colwelliaceae; g__Thalassomonas
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Idiomarinaceae; g__Idiomarina
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Chromatiales; f__Ectothiorhodospiraceae; g__Thioalkalivibrio
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Chromatiales; f__Wenzhouxiangellaceae; g__Wenzhouxiangella
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Chromatiales; f__Woeseiaceae; g__Woeseia
+	8	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__Methylomonas
+	1	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__Methylovulum
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Nevskiales; f__Steroidobacteraceae; g__Steroidobacter
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Alcanivoracaceae; g__Ketobacter
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Hahellaceae; g__Hahella
+	12	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Halomonadaceae; g__Halomonas
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Halomonadaceae; g__Pistricoccus
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Kangiellaceae; g__Kangiella
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Oceanospirillaceae; g__Oleispira
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Oleiphilaceae; g__Oleiphilus
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas
+	1	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Thiotrichales; f__Thiotrichaceae; g__Beggiatoa
+	1	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Thiotrichales; f__Thiotrichaceae; g__Thiomargarita
+	1	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Thiotrichales; f__Thiotrichaceae; g__Thioploca
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Xanthomonadales; f__Rhodanobacteraceae; g__Ahniella
+	1	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Xanthomonadales; f__Xanthomonadaceae; g__Arenimonas
+	1	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Xanthomonadales; f__Xanthomonadaceae; g__Luteimonas
+	2	d__Bacteria; p__Proteobacteria; c__Hydrogenophilalia; o__Hydrogenophilales; f__Hydrogenophilaceae; g__Hydrogenophilus
+	2	d__Bacteria; p__Proteobacteria; c__Hydrogenophilalia; o__Hydrogenophilales; f__Hydrogenophilaceae; g__Tepidiphilus
+85/109 unique genus-level taxa have training sequences.
+
+Sequences available for training family-level placement distances:
+	0	d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Natrialbales; f__Natrialbaceae
+	4	d__Bacteria; p__Aquificae; c__Aquificae; o__Aquificales; f__Aquificaceae
+	4	d__Bacteria; p__Aquificae; c__Aquificae; o__Aquificales; f__Hydrogenothermaceae
+	0	d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae
+	0	d__Bacteria; p__Chloroflexi; c__Anaerolineae; o__Anaerolineales; f__Anaerolineaceae
+	0	d__Bacteria; p__Chloroflexi; c__Chloroflexia; o__Chloroflexales; f__Roseiflexaceae
+	0	d__Bacteria; p__Deinococcus-Thermus; c__Deinococci; o__Thermales; f__Thermaceae
+	0	d__Bacteria; p__Planctomycetes; c__Candidatus Brocadiae; o__Candidatus Brocadiales; f__Candidatus Brocadiaceae
+	2	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae
+	2	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae
+	0	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae
+	0	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae
+	7	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae
+	40	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae
+	34	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae
+	4	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Oxalobacteraceae
+	0	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Chromobacteriaceae
+	4	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Gallionellaceae
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Methylophilaceae
+	9	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Sterolibacteriaceae
+	4	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Thiobacillaceae
+	8	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Azonexaceae
+	10	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Rhodocyclaceae
+	38	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae
+	0	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfobacterales; f__Desulfobacteraceae
+	12	d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Campylobacteraceae
+	4	d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Helicobacteraceae
+	1	d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Hydrogenimonaceae
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Acidiferrobacterales; f__Acidiferrobacteraceae
+	24	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Alteromonadaceae
+	13	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Colwelliaceae
+	1	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Idiomarinaceae
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Chromatiales; f__Ectothiorhodospiraceae
+	1	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Chromatiales; f__Wenzhouxiangellaceae
+	1	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Chromatiales; f__Woeseiaceae
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Nevskiales; f__Steroidobacteraceae
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Alcanivoracaceae
+	4	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Hahellaceae
+	14	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Halomonadaceae
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Kangiellaceae
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Oceanospirillaceae
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Oleiphilaceae
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Thiotrichales; f__Thiotrichaceae
+	1	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Xanthomonadales; f__Rhodanobacteraceae
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Xanthomonadales; f__Xanthomonadaceae
+	0	d__Bacteria; p__Proteobacteria; c__Hydrogenophilalia; o__Hydrogenophilales; f__Hydrogenophilaceae
+32/48 unique family-level taxa have training sequences.
+
+Sequences available for training phylum-level placement distances:
+	0	d__Archaea; p__Euryarchaeota
+	8	d__Bacteria; p__Aquificae
+	1	d__Bacteria; p__Bacteroidetes
+	5	d__Bacteria; p__Chloroflexi
+	4	d__Bacteria; p__Deinococcus-Thermus
+	1	d__Bacteria; p__Planctomycetes
+	0	d__Bacteria; p__Proteobacteria
+5/7 unique phylum-level taxa have training sequences.
+
+Sequences available for training species-level placement distances:
+	2	d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Natrialbales; f__Natrialbaceae; g__Halobiforma; s__Halobiforma lacisalsi
+	1	d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Natrialbales; f__Natrialbaceae; g__Halobiforma; s__Halobiforma nitratireducens
+	0	d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Natrialbales; f__Natrialbaceae; g__Haloterrigena; s__Haloterrigena jeotgali
+	2	d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Natrialbales; f__Natrialbaceae; g__Natrinema; s__Natrinema altunense
+	2	d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Natrialbales; f__Natrialbaceae; g__Natrinema; s__Natrinema pallidum
+	2	d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Natrialbales; f__Natrialbaceae; g__Natrinema; s__Natrinema sp. J7-2
+	0	d__Bacteria; p__Aquificae; c__Aquificae; o__Aquificales; f__Aquificaceae; g__Hydrogenivirga; s__Hydrogenivirga sp. 128-5-R1-1
+	0	d__Bacteria; p__Aquificae; c__Aquificae; o__Aquificales; f__Aquificaceae; g__Hydrogenobacter; s__Hydrogenobacter thermophilus
+	0	d__Bacteria; p__Aquificae; c__Aquificae; o__Aquificales; f__Aquificaceae; g__Hydrogenobaculum; s__Hydrogenobaculum sp. Y04AAS1
+	0	d__Bacteria; p__Aquificae; c__Aquificae; o__Aquificales; f__Hydrogenothermaceae; g__Persephonella; s__Persephonella marina
+	0	d__Bacteria; p__Aquificae; c__Aquificae; o__Aquificales; f__Hydrogenothermaceae; g__Sulfurihydrogenibium; s__Sulfurihydrogenibium sp. YO3AOP1
+	0	d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Lutibacter; s__Lutibacter profundi
+	0	d__Bacteria; p__Chloroflexi; c__Anaerolineae; o__Anaerolineales; f__Anaerolineaceae; g__Anaerolinea; s__Anaerolinea thermophila
+	0	d__Bacteria; p__Chloroflexi; c__Anaerolineae; o__Anaerolineales; f__Anaerolineaceae; g__Bellilinea; s__Bellilinea caldifistulae
+	0	d__Bacteria; p__Chloroflexi; c__Anaerolineae; o__Anaerolineales; f__Anaerolineaceae; g__Levilinea; s__Levilinea saccharolytica
+	0	d__Bacteria; p__Chloroflexi; c__Anaerolineae; o__Anaerolineales; f__Anaerolineaceae; g__Thermanaerothrix; s__Thermanaerothrix daxensis
+	0	d__Bacteria; p__Chloroflexi; c__Chloroflexia; o__Chloroflexales; f__Roseiflexaceae; g__Roseiflexus; s__Roseiflexus castenholzii
+	0	d__Bacteria; p__Deinococcus-Thermus; c__Deinococci; o__Thermales; f__Thermaceae; g__Oceanithermus; s__Oceanithermus profundus
+	1	d__Bacteria; p__Deinococcus-Thermus; c__Deinococci; o__Thermales; f__Thermaceae; g__Thermus; s__Thermus oshimai
+	1	d__Bacteria; p__Deinococcus-Thermus; c__Deinococci; o__Thermales; f__Thermaceae; g__Thermus; s__Thermus scotoductus
+	1	d__Bacteria; p__Deinococcus-Thermus; c__Deinococci; o__Thermales; f__Thermaceae; g__Thermus; s__Thermus thermophilus
+	0	d__Bacteria; p__Planctomycetes; c__Candidatus Brocadiae; o__Candidatus Brocadiales; f__Candidatus Brocadiaceae; g__Candidatus Kuenenia; s__Candidatus Kuenenia stuttgartiensis
+	0	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bradyrhizobium; s__Bradyrhizobium oligotrophicum
+	0	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Prosthecomicrobium; s__Prosthecomicrobium hirschii
+	0	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Aliiroseovarius; s__Aliiroseovarius crassostreae
+	0	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Dinoroseobacter; s__Dinoroseobacter shibae
+	5	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Labrenzia; s__Labrenzia aggregata
+	4	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Labrenzia; s__Labrenzia alba
+	2	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Labrenzia; s__Labrenzia sp. PHM005
+	0	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Litoreibacter; s__Litoreibacter arenae
+	2	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus; s__Paracoccus aminovorans
+	3	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus; s__Paracoccus denitrificans
+	2	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus; s__Paracoccus jeotgali
+	1	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus; s__Paracoccus pantotrophus
+	5	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus; s__Paracoccus sanguinis
+	0	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Pseudorhodobacter; s__Pseudorhodobacter sp. S12M18
+	2	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Pseudovibrio; s__Pseudovibrio axinellae
+	2	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Pseudovibrio; s__Pseudovibrio sp. Ad37
+	2	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Pseudovibrio; s__Pseudovibrio sp. Ad46
+	3	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Pseudovibrio; s__Pseudovibrio sp. FO-BEG1
+	1	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Pseudovibrio; s__Pseudovibrio sp. W64
+	2	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Rhodobacter; s__Rhodobacter sp. LPB0142
+	2	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Rhodobacter; s__Rhodobacter sp. SW2
+	2	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Roseobacter; s__Roseobacter denitrificans
+	2	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Roseobacter; s__Roseobacter litoralis
+	3	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Ruegeria; s__Ruegeria atlantica
+	2	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Ruegeria; s__Ruegeria denitrificans
+	2	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Ruegeria; s__Ruegeria marisrubri
+	2	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Ruegeria; s__Ruegeria pomeroyi
+	2	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Ruegeria; s__Ruegeria sp. AD91A
+	0	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Sulfitobacter; s__Sulfitobacter sp. JL08
+	0	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Thioclava; s__Thioclava indica
+	2	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Azospirillum; s__Azospirillum brasilense
+	2	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Azospirillum; s__Azospirillum sp. CFH 70021
+	0	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Caenispirillum; s__Caenispirillum salinarum
+	3	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Magnetospirillum; s__Magnetospirillum caucaseum
+	3	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Magnetospirillum; s__Magnetospirillum gryphiswaldense
+	3	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Magnetospirillum; s__Magnetospirillum magneticum
+	2	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Magnetospirillum; s__Magnetospirillum marisnigri
+	2	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Magnetospirillum; s__Magnetospirillum moscoviense
+	3	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Magnetospirillum; s__Magnetospirillum sp. ME-1
+	3	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Magnetospirillum; s__Magnetospirillum sp. XM-1
+	2	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Thalassospira; s__Thalassospira lucentensis
+	3	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Thalassospira; s__Thalassospira sp. KO164
+	4	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Thalassospira; s__Thalassospira xiamenensis
+	1	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Achromobacter; s__Achromobacter denitrificans
+	1	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Achromobacter; s__Achromobacter sp. 2789STDY5608625
+	0	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Alcaligenes; s__Alcaligenes faecalis
+	0	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Bordetella; s__Bordetella petrii
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Cupriavidus; s__Cupriavidus alkaliphilus
+	4	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Cupriavidus; s__Cupriavidus metallidurans
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Cupriavidus; s__Cupriavidus nantongensis
+	4	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Cupriavidus; s__Cupriavidus necator
+	4	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Cupriavidus; s__Cupriavidus oxalaticus
+	3	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Cupriavidus; s__Cupriavidus pauculus
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Cupriavidus; s__Cupriavidus pinatubonensis
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Cupriavidus; s__Cupriavidus sp. HMR-1
+	1	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Cupriavidus; s__Cupriavidus sp. IDO
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Cupriavidus; s__Cupriavidus sp. SK-4
+	12	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Cupriavidus; s__Cupriavidus taiwanensis
+	0	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Ralstonia; s__Ralstonia pickettii
+	4	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Acidovorax; s__Acidovorax carolinensis
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Acidovorax; s__Acidovorax delafieldii
+	1	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Acidovorax; s__Acidovorax ebreus
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Acidovorax; s__Acidovorax sp. 1608163
+	1	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Acidovorax; s__Acidovorax sp. Root267
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Acidovorax; s__Acidovorax sp. Root70
+	1	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Alicycliphilus; s__Alicycliphilus denitrificans
+	1	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Alicycliphilus; s__Alicycliphilus sp. B1
+	0	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Brachymonas; s__Brachymonas denitrificans
+	1	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Comamonas; s__Comamonas denitrificans
+	1	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Comamonas; s__Comamonas sp. NLF-7-7
+	0	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Curvibacter; s__Curvibacter sp. PAE-UM
+	0	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Diaphorobacter; s__Diaphorobacter polyhydroxybutyrativorans
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Hydrogenophaga; s__Hydrogenophaga crassostreae
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Hydrogenophaga; s__Hydrogenophaga pseudoflava
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Hydrogenophaga; s__Hydrogenophaga sp. PAMC20947
+	0	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Melaminivora; s__Melaminivora sp. SC2-9
+	0	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Pelomonas; s__Pelomonas sp. Root1444
+	0	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Pulveribacter; s__Pulveribacter suum
+	0	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Simplicispira; s__Simplicispira suum
+	0	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Oxalobacteraceae; g__Noviherbaspirillum; s__Noviherbaspirillum sp. UKPF54
+	0	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Oxalobacteraceae; g__Undibacterium; s__Undibacterium parvum
+	0	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Chromobacteriaceae; g__Aquaspirillum; s__Aquaspirillum sp. LM1
+	1	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Chromobacteriaceae; g__Aquitalea; s__Aquitalea magnusonii
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Chromobacteriaceae; g__Aquitalea; s__Aquitalea sp. USM4
+	0	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Chromobacteriaceae; g__Chromobacterium; s__Chromobacterium sp. LK1
+	0	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Chromobacteriaceae; g__Gulbenkiania; s__Gulbenkiania indica
+	0	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Chromobacteriaceae; g__Laribacter; s__Laribacter hongkongensis
+	0	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Chromobacteriaceae; g__Microvirgula; s__Microvirgula aerodenitrificans
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Chromobacteriaceae; g__Pseudogulbenkiania; s__Pseudogulbenkiania ferrooxidans
+	1	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Chromobacteriaceae; g__Pseudogulbenkiania; s__Pseudogulbenkiania sp. NH8B
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Chromobacteriaceae; g__Vogesella; s__Vogesella sp. EB
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Chromobacteriaceae; g__Vogesella; s__Vogesella sp. LIG4
+	0	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Gallionellaceae; g__Sideroxydans; s__Sideroxydans lithotrophicus
+	0	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Gallionellaceae; g__Sulfuricella; s__Sulfuricella denitrificans
+	0	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Methylophilaceae; g__Methylobacillus; s__Methylobacillus sp. MM3
+	0	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Sterolibacteriaceae; g__Denitratisoma; s__Denitratisoma sp. DHT3
+	0	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Sterolibacteriaceae; g__Sterolibacterium; s__Sterolibacterium denitrificans
+	0	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Sterolibacteriaceae; g__Sulfuritalea; s__Sulfuritalea hydrogenivorans
+	0	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Thiobacillaceae; g__Thiobacillus; s__Thiobacillus denitrificans
+	3	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Azonexaceae; g__Dechloromonas; s__Dechloromonas aromatica
+	3	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Azonexaceae; g__Dechloromonas; s__Dechloromonas denitrificans
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Azonexaceae; g__Dechloromonas; s__Dechloromonas sp. HYN0024
+	0	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Rhodocyclaceae; g__Aromatoleum; s__Aromatoleum aromaticum
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Rhodocyclaceae; g__Azospira; s__Azospira sp. I09
+	1	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Rhodocyclaceae; g__Azospira; s__Dechlorosoma suillum
+	0	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Rhodocyclaceae; g__Oryzomicrobium; s__Oryzomicrobium terrae
+	0	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Rhodocyclaceae; g__Propionivibrio; s__Candidatus Propionivibrio aalborgensis
+	4	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Azoarcus; s__Azoarcus communis
+	3	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Azoarcus; s__Azoarcus sp. CIB
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Azoarcus; s__Azoarcus sp. DN11
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Azoarcus; s__Azoarcus sp. KH32C
+	3	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Azoarcus; s__Azoarcus sp. PA01
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Thauera; s__Thauera aminoaromatica
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Thauera; s__Thauera aromatica
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Thauera; s__Thauera chlorobenzoica
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Thauera; s__Thauera humireducens
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Thauera; s__Thauera linaloolentis
+	3	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Thauera; s__Thauera phenylacetica
+	1	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Thauera; s__Thauera sp. 27
+	3	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Thauera; s__Thauera sp. 28
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Thauera; s__Thauera sp. 63
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Thauera; s__Thauera sp. K11
+	2	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Thauera; s__Thauera terpenica
+	0	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfobacterales; f__Desulfobacteraceae; g__Desulfotignum; s__Desulfotignum phosphitoxidans
+	4	d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Campylobacteraceae; g__Arcobacter; s__Arcobacter cryaerophilus
+	2	d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Campylobacteraceae; g__Arcobacter; s__Arcobacter mytili
+	2	d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Campylobacteraceae; g__Arcobacter; s__Arcobacter trophiarum
+	0	d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Campylobacteraceae; g__Halarcobacter; s__Halarcobacter bivalviorum
+	1	d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Helicobacteraceae; g__Sulfurimonas; s__Sulfurimonas autotrophica
+	1	d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Helicobacteraceae; g__Sulfurimonas; s__Sulfurimonas denitrificans
+	1	d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Helicobacteraceae; g__Sulfurimonas; s__Sulfurimonas gotlandica
+	1	d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Helicobacteraceae; g__Sulfurimonas; s__Sulfurimonas hongkongensis
+	0	d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Hydrogenimonaceae; g__Hydrogenimonas; s__Hydrogenimonas sp.
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Acidiferrobacterales; f__Acidiferrobacteraceae; g__Sulfuricaulis; s__Sulfuricaulis limicola
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Acidiferrobacterales; f__Acidiferrobacteraceae; g__Sulfurifustis; s__Sulfurifustis variabilis
+	6	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Alteromonadaceae; g__Marinobacter; s__Marinobacter hydrocarbonoclasticus
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Alteromonadaceae; g__Marinobacter; s__Marinobacter nitratireducens
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Alteromonadaceae; g__Marinobacter; s__Marinobacter sp. Arc7-DN-1
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Alteromonadaceae; g__Marinobacter; s__Marinobacter sp. EN3
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Alteromonadaceae; g__Marinobacter; s__Marinobacter sp. EhN04
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Alteromonadaceae; g__Marinobacter; s__Marinobacter sp. JH2
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Alteromonadaceae; g__Marinobacter; s__Marinobacter sp. LV10R510-11A
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Alteromonadaceae; g__Marinobacter; s__Marinobacter sp. P4B1
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Alteromonadaceae; g__Marinobacter; s__Marinobacter sp. T13-3
+	3	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Colwelliaceae; g__Colwellia; s__Colwellia psychrerythraea
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Colwelliaceae; g__Colwellia; s__Colwellia sp. Arc7-635
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Colwelliaceae; g__Colwellia; s__Colwellia sp. Phe_37
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Colwelliaceae; g__Litorilituus; s__Litorilituus sediminis
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Colwelliaceae; g__Thalassomonas; s__Thalassomonas actiniarum
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Colwelliaceae; g__Thalassomonas; s__Thalassomonas viridans
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Idiomarinaceae; g__Idiomarina; s__Idiomarina woesei
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Chromatiales; f__Ectothiorhodospiraceae; g__Thioalkalivibrio; s__Thioalkalivibrio nitratireducens
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Chromatiales; f__Wenzhouxiangellaceae; g__Wenzhouxiangella; s__Wenzhouxiangella marina
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Chromatiales; f__Woeseiaceae; g__Woeseia; s__Woeseia oceani
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__Methylomonas; s__Methylomonas koyamae
+	1	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__Methylomonas; s__Methylomonas lenta
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__Methylomonas; s__Methylomonas methanica
+	1	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__Methylomonas; s__Methylomonas sp. 16a
+	1	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__Methylomonas; s__Methylomonas sp. LW13
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales; f__Methylococcaceae; g__Methylovulum; s__Methylovulum psychrotolerans
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Nevskiales; f__Steroidobacteraceae; g__Steroidobacter; s__Steroidobacter denitrificans
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Alcanivoracaceae; g__Ketobacter; s__Ketobacter alkanivorans
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Hahellaceae; g__Hahella; s__Hahella chejuensis
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Hahellaceae; g__Hahella; s__Hahella sp. KA22
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Halomonadaceae; g__Halomonas; s__Halomonas aestuarii
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Halomonadaceae; g__Halomonas; s__Halomonas chromatireducens
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Halomonadaceae; g__Halomonas; s__Halomonas sp. JS92-SW72
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Halomonadaceae; g__Halomonas; s__Halomonas sp. PBN3
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Halomonadaceae; g__Halomonas; s__Halomonas subglaciescola
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Halomonadaceae; g__Pistricoccus; s__Pistricoccus aurantiacus
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Kangiellaceae; g__Kangiella; s__Kangiella koreensis
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Oceanospirillaceae; g__Oleispira; s__Oleispira antarctica
+	1	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Oleiphilaceae; g__Oleiphilus; s__Oleiphilus sp. HI0061
+	1	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Oleiphilaceae; g__Oleiphilus; s__Oleiphilus sp. HI0081
+	18	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas aeruginosa
+	5	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas balearica
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas bauzanensis
+	4	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas brassicacearum
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas cedrina
+	3	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas corrugata
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas donghuensis
+	3	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas flexibilis
+	24	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas fluorescens
+	4	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas frederiksbergensis
+	1	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas litoralis
+	7	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas mandelii
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas marginalis
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas mediterranea
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas mucidolens
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas rhodesiae
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas saudimassiliensis
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas silesiensis
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas sp. 11K1
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas sp. 22 E 5
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas sp. 7SR1
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas sp. A214
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas sp. ABAC61
+	1	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas sp. ATCC 13867
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas sp. BAY1663
+	1	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas sp. CFII64
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas sp. CMR12a
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas sp. CMR5c
+	1	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas sp. CO183
+	1	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas sp. Chol1
+	1	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas sp. FH4
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas sp. GM67
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas sp. GM79
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas sp. GR 6-02
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas sp. KG01
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas sp. MT-1
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas sp. NIBRBAC000502773
+	1	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas sp. SNU WT1
+	32	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas stutzeri
+	1	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas synxantha
+	3	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas syringae
+	2	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas veronii
+	5	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas xanthomarina
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Thiotrichales; f__Thiotrichaceae; g__Beggiatoa; s__Beggiatoa sp. PS
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Thiotrichales; f__Thiotrichaceae; g__Thiomargarita; s__Candidatus Thiomargarita nelsonii
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Thiotrichales; f__Thiotrichaceae; g__Thioploca; s__Thioploca ingrica
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Xanthomonadales; f__Rhodanobacteraceae; g__Ahniella; s__Ahniella affigens
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Xanthomonadales; f__Xanthomonadaceae; g__Arenimonas; s__Arenimonas donghaensis
+	0	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Xanthomonadales; f__Xanthomonadaceae; g__Luteimonas; s__Luteimonas sp. Gr-4
+	0	d__Bacteria; p__Proteobacteria; c__Hydrogenophilalia; o__Hydrogenophilales; f__Hydrogenophilaceae; g__Hydrogenophilus; s__Hydrogenophilus thermoluteolus
+	0	d__Bacteria; p__Proteobacteria; c__Hydrogenophilalia; o__Hydrogenophilales; f__Hydrogenophilaceae; g__Tepidiphilus; s__Tepidiphilus thermophilus
+173/247 unique species-level taxa have training sequences.
+
+Sequences available for training order-level placement distances:
+	0	d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Natrialbales
+	0	d__Bacteria; p__Aquificae; c__Aquificae; o__Aquificales
+	0	d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales
+	0	d__Bacteria; p__Chloroflexi; c__Anaerolineae; o__Anaerolineales
+	0	d__Bacteria; p__Chloroflexi; c__Chloroflexia; o__Chloroflexales
+	0	d__Bacteria; p__Deinococcus-Thermus; c__Deinococci; o__Thermales
+	0	d__Bacteria; p__Planctomycetes; c__Candidatus Brocadiae; o__Candidatus Brocadiales
+	0	d__Bacteria; p__Proteobacteria; c__Acidithiobacillia; o__Acidithiobacillales
+	4	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales
+	76	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales
+	34	d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales
+	95	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales
+	20	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales
+	19	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales
+	56	d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Bradymonadales
+	1	d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Desulfobacterales
+	0	d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales
+	4	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Acidiferrobacterales
+	38	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales
+	7	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Chromatiales
+	9	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Methylococcales
+	3	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Nevskiales
+	26	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales
+	191	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales
+	3	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Thiotrichales
+	3	d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Xanthomonadales
+	0	d__Bacteria; p__Proteobacteria; c__Hydrogenophilalia; o__Hydrogenophilales
+18/28 unique order-level taxa have training sequences.
+
+
+22/06 21:38:13 INFO:
+Clustering sequences with UCLUST... 
+22/06 21:38:13 INFO:
+done.
+
+22/06 21:38:13 DEBUG:
+usearch v11.0.667_i86linux32, 4.0Gb RAM (32.9Gb total), 4 cores
+(C) Copyright 2013-18 Robert C. Edgar, all rights reserved.
+https://drive5.com/usearch
+
+License: c.morganlang@gmail.com
+
+00:00 37Mb      0.1% Reading /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/placement_trainer/intermediates//uclust_input.fasta00:00 41Mb    100.0% Reading /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/placement_trainer/intermediates//uclust_input.fasta
+00:00 36Mb      0.6% DF                                                                                                                                                                                00:00 36Mb    100.0% DF
+00:00 36Mb   699 seqs, 699 uniques, 699 singletons (100.0%)
+00:00 36Mb   Min size 1, median 1, max 1, avg 1.00
+00:00 39Mb      0.1% DB00:00 39Mb    100.0% DB
+00:00 39Mb   Sort length... done.
+00:00 78Mb      0.1% Clustering00:00 78Mb      0.1% 0 clusters, max size 0, avg 0.000:00 96Mb    100.0% 696 clusters, max size 3, avg 1.0
+00:00 96Mb      0.1% Writing centroids to /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/placement_trainer/intermediates//uclust0.99.fa00:00 96Mb    100.0% Writing centroids to /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/placement_trainer/intermediates//uclust0.99.fa
+                                                                                                                                                                                                               
+      Seqs  699
+  Clusters  696
+  Max size  3
+  Avg size  1.0
+  Min size  1
+Singletons  694, 99.3% of seqs, 99.7% of clusters
+   Max mem  96Mb
+      Time  1.00s
+Throughput  699.0 seqs/sec.
+
+
+22/06 21:38:13 DEBUG:
+Reading usearch cluster file... 
+22/06 21:38:13 DEBUG:
+done.
+
+22/06 21:38:13 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	AEA85495  coded_by=3885313..3886821,organism=Pseudomonas stutzeri DSM 4166,definition=c-type cytochrome
+	AAZ43116  coded_by=11589..13097,organism=Pseudomonas stutzeri A1501,definition=NirN
+	SDU91660  coded_by=complement(1713784..1715463),organism=Pseudomonas corrugata,definition=dissimilatory nitrite reductase (NO-forming), cytochrome cd1 type apoprotein
+
+22/06 21:38:13 DEBUG:
+	696 sequence clusters
+
+22/06 21:38:13 INFO:
+Preparing deduplicated sequence set for training... 
+22/06 21:38:13 DEBUG:
+0 lineages truncated before 'class' were removed during lineage trimming.
+
+22/06 21:38:13 DEBUG:
+72 lineages truncated before 'genus' were removed during lineage trimming.
+
+22/06 21:38:13 DEBUG:
+63 lineages truncated before 'family' were removed during lineage trimming.
+
+22/06 21:38:13 DEBUG:
+0 lineages truncated before 'phylum' were removed during lineage trimming.
+
+22/06 21:38:13 DEBUG:
+72 lineages truncated before 'species' were removed during lineage trimming.
+
+22/06 21:38:14 DEBUG:
+43 lineages truncated before 'order' were removed during lineage trimming.
+
+22/06 21:38:14 INFO:
+done.
+
+22/06 21:38:14 DEBUG:
+Calculating the total number of queries to be used for training... 
+22/06 21:38:14 DEBUG:
+132 sequences to train class-level placement distances
+
+22/06 21:38:14 DEBUG:
+351 sequences to train genus-level placement distances
+
+22/06 21:38:14 DEBUG:
+238 sequences to train family-level placement distances
+
+22/06 21:38:14 DEBUG:
+No sequences available for estimating phylum-level placement distances.
+
+22/06 21:38:14 DEBUG:
+446 sequences to train species-level placement distances
+
+22/06 21:38:14 DEBUG:
+280 sequences to train order-level placement distances
+
+22/06 21:38:14 DEBUG:
+done.
+
+22/06 21:38:14 INFO:
+Estimating branch-length placement distances for taxonomic ranks
+
+22/06 21:38:14 DEBUG:
+72 lineages truncated before 'species' were removed during lineage trimming.
+
+22/06 21:38:14 DEBUG:
+Testing placements for d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Natrialbales; f__Natrialbaceae; g__Halobiforma; s__Halobiforma lacisalsi:
+
+22/06 21:38:14 DEBUG:
+Reference sequence filtering stats for s__Halobiforma lacisalsi
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	510
+
+22/06 21:38:14 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+22/06 21:38:14 DEBUG:
+Read 510 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/placement_trainer/intermediates/s__Halobiforma_lacisalsi/NirS_Z1111_2020-06-22/NirS.fa.
+
+22/06 21:38:14 DEBUG:
+72 lineages truncated before 'genus' were removed during lineage trimming.
+
+22/06 21:38:14 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	134_NirS
+	328_NirS
+	489_NirS
+	475_NirS
+	118_NirS
+	94_NirS
+	301_NirS
+	179_NirS
+	241_NirS
+	346_NirS
+	350_NirS
+	243_NirS
+	139_NirS
+	115_NirS
+	88_NirS
+	445_NirS
+	493_NirS
+	362_NirS
+	56_NirS
+	322_NirS
+	8_NirS
+	256_NirS
+	456_NirS
+	264_NirS
+	43_NirS
+	112_NirS
+	314_NirS
+	357_NirS
+	448_NirS
+	7_NirS
+	286_NirS
+	253_NirS
+	291_NirS
+	31_NirS
+	103_NirS
+	184_NirS
+	108_NirS
+	41_NirS
+	302_NirS
+	128_NirS
+	77_NirS
+	412_NirS
+	355_NirS
+	435_NirS
+	338_NirS
+	168_NirS
+	486_NirS
+	498_NirS
+	136_NirS
+	290_NirS
+	389_NirS
+	149_NirS
+	454_NirS
+	490_NirS
+	69_NirS
+	105_NirS
+	91_NirS
+	27_NirS
+	297_NirS
+	67_NirS
+	33_NirS
+	58_NirS
+	276_NirS
+	270_NirS
+	255_NirS
+	146_NirS
+	275_NirS
+	386_NirS
+	49_NirS
+	39_NirS
+	467_NirS
+	132_NirS
+	397_NirS
+	161_NirS
+	309_NirS
+	511_NirS
+	59_NirS
+	509_NirS
+	211_NirS
+	321_NirS
+	466_NirS
+	465_NirS
+	172_NirS
+	496_NirS
+	485_NirS
+	464_NirS
+	148_NirS
+	137_NirS
+	205_NirS
+	283_NirS
+	447_NirS
+	292_NirS
+	472_NirS
+	154_NirS
+	353_NirS
+	170_NirS
+	372_NirS
+	117_NirS
+	334_NirS
+	218_NirS
+	171_NirS
+	61_NirS
+	394_NirS
+	225_NirS
+	457_NirS
+	271_NirS
+	125_NirS
+	280_NirS
+	220_NirS
+	419_NirS
+	239_NirS
+	294_NirS
+	46_NirS
+	133_NirS
+	262_NirS
+	416_NirS
+	487_NirS
+	82_NirS
+	395_NirS
+	330_NirS
+	371_NirS
+	426_NirS
+	336_NirS
+	30_NirS
+	15_NirS
+	102_NirS
+	281_NirS
+	68_NirS
+	207_NirS
+	233_NirS
+	278_NirS
+	185_NirS
+	111_NirS
+	497_NirS
+	90_NirS
+	345_NirS
+	459_NirS
+	70_NirS
+	37_NirS
+	384_NirS
+	405_NirS
+	162_NirS
+	86_NirS
+	307_NirS
+	365_NirS
+	500_NirS
+	471_NirS
+	250_NirS
+	344_NirS
+	165_NirS
+	97_NirS
+	318_NirS
+	429_NirS
+	167_NirS
+	340_NirS
+	47_NirS
+	130_NirS
+	121_NirS
+	213_NirS
+	390_NirS
+	441_NirS
+	308_NirS
+	248_NirS
+	494_NirS
+	173_NirS
+	431_NirS
+	122_NirS
+	422_NirS
+	277_NirS
+	421_NirS
+	285_NirS
+	116_NirS
+	120_NirS
+	114_NirS
+	158_NirS
+	78_NirS
+	127_NirS
+	482_NirS
+	449_NirS
+	342_NirS
+	364_NirS
+	273_NirS
+	63_NirS
+	159_NirS
+	157_NirS
+	450_NirS
+	418_NirS
+	495_NirS
+	222_NirS
+	182_NirS
+	76_NirS
+	499_NirS
+	194_NirS
+	142_NirS
+	156_NirS
+	436_NirS
+	479_NirS
+	126_NirS
+	252_NirS
+	110_NirS
+	378_NirS
+	439_NirS
+	26_NirS
+	356_NirS
+	470_NirS
+	92_NirS
+	237_NirS
+	287_NirS
+	282_NirS
+	460_NirS
+	359_NirS
+	209_NirS
+	366_NirS
+	66_NirS
+	468_NirS
+	425_NirS
+	327_NirS
+	95_NirS
+	274_NirS
+	51_NirS
+	265_NirS
+	32_NirS
+	289_NirS
+	476_NirS
+	228_NirS
+	392_NirS
+	434_NirS
+	360_NirS
+	147_NirS
+	138_NirS
+	198_NirS
+	319_NirS
+	398_NirS
+	53_NirS
+	469_NirS
+	442_NirS
+	215_NirS
+	201_NirS
+	35_NirS
+	296_NirS
+	251_NirS
+	423_NirS
+	315_NirS
+	65_NirS
+	199_NirS
+	235_NirS
+	376_NirS
+	417_NirS
+	101_NirS
+	424_NirS
+	313_NirS
+	183_NirS
+	80_NirS
+	238_NirS
+	89_NirS
+	323_NirS
+	478_NirS
+	298_NirS
+	10_NirS
+	93_NirS
+	451_NirS
+	229_NirS
+	473_NirS
+	57_NirS
+	189_NirS
+	186_NirS
+	501_NirS
+	299_NirS
+	383_NirS
+	84_NirS
+	477_NirS
+	410_NirS
+	13_NirS
+	288_NirS
+	462_NirS
+	316_NirS
+	407_NirS
+	100_NirS
+	72_NirS
+	401_NirS
+	458_NirS
+	293_NirS
+	369_NirS
+	403_NirS
+	175_NirS
+	337_NirS
+	446_NirS
+	333_NirS
+	247_NirS
+	415_NirS
+	187_NirS
+	164_NirS
+	335_NirS
+	74_NirS
+	181_NirS
+	430_NirS
+	144_NirS
+	17_NirS
+	349_NirS
+	54_NirS
+	254_NirS
+	55_NirS
+	443_NirS
+	44_NirS
+	160_NirS
+	200_NirS
+	453_NirS
+	131_NirS
+	480_NirS
+	135_NirS
+	375_NirS
+	452_NirS
+	244_NirS
+	385_NirS
+	399_NirS
+	269_NirS
+	491_NirS
+	427_NirS
+	352_NirS
+	433_NirS
+	326_NirS
+	259_NirS
+	474_NirS
+	363_NirS
+	145_NirS
+	174_NirS
+	151_NirS
+	284_NirS
+	6_NirS
+	461_NirS
+	177_NirS
+	348_NirS
+	444_NirS
+	141_NirS
+	463_NirS
+	71_NirS
+	166_NirS
+	191_NirS
+	440_NirS
+	488_NirS
+	402_NirS
+	428_NirS
+	83_NirS
+	367_NirS
+	438_NirS
+	295_NirS
+	351_NirS
+	420_NirS
+	129_NirS
+	306_NirS
+	400_NirS
+	331_NirS
+	188_NirS
+	484_NirS
+	224_NirS
+	329_NirS
+	124_NirS
+	358_NirS
+	246_NirS
+	414_NirS
+	481_NirS
+	227_NirS
+	272_NirS
+	143_NirS
+	492_NirS
+	64_NirS
+	107_NirS
+	79_NirS
+	113_NirS
+	176_NirS
+	109_NirS
+	382_NirS
+	354_NirS
+	332_NirS
+	347_NirS
+	404_NirS
+	169_NirS
+	45_NirS
+	36_NirS
+	483_NirS
+	163_NirS
+	437_NirS
+	455_NirS
+	232_NirS
+	432_NirS
+	261_NirS
+	4_NirS
+
+22/06 21:38:36 DEBUG:
+Building HMM profile... 
+22/06 21:38:36 DEBUG:
+done.
+
+22/06 21:38:36 DEBUG:
+done.
+
+22/06 21:38:36 DEBUG:
+123 genus-dereplicated sequences retained for building HMM profile.
+
+22/06 21:38:37 DEBUG:
+	510 leaves in pruned tree.
+
+22/06 21:38:37 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+22/06 21:38:46 DEBUG:
+done.
+
+22/06 21:38:46 DEBUG:
+Read 510 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/placement_trainer/intermediates/s__Halobiforma_lacisalsi/NirS_Z1111_2020-06-22/NirS.fa.
+
+22/06 21:38:46 DEBUG:
+	2 query sequences.
+
+22/06 21:38:46 DEBUG:
+
+
+22/06 21:38:47 DEBUG:
+Columns = 376
+
+22/06 21:38:47 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/placement_trainer/intermediates/s__Halobiforma_lacisalsi/queries-BMGE.fasta = 0 (retained)
+
+22/06 21:38:47 DEBUG:
+Read 512 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/placement_trainer/intermediates/s__Halobiforma_lacisalsi/queries-BMGE.fasta.
+
+22/06 21:38:50 DEBUG:
+Testing placements for d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Natrialbales; f__Natrialbaceae; g__Halobiforma; s__Halobiforma nitratireducens:
+
+22/06 21:38:50 DEBUG:
+Reference sequence filtering stats for s__Halobiforma nitratireducens
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	511
+
+22/06 21:38:50 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+22/06 21:38:50 DEBUG:
+Read 511 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/placement_trainer/intermediates/s__Halobiforma_nitratireducens/NirS_Z1111_2020-06-22/NirS.fa.
+
+22/06 21:38:50 DEBUG:
+72 lineages truncated before 'genus' were removed during lineage trimming.
+
+22/06 21:38:50 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	134_NirS
+	326_NirS
+	488_NirS
+	474_NirS
+	302_NirS
+	118_NirS
+	93_NirS
+	179_NirS
+	344_NirS
+	349_NirS
+	139_NirS
+	74_NirS
+	209_NirS
+	115_NirS
+	95_NirS
+	444_NirS
+	492_NirS
+	360_NirS
+	55_NirS
+	89_NirS
+	255_NirS
+	455_NirS
+	439_NirS
+	112_NirS
+	355_NirS
+	447_NirS
+	79_NirS
+	278_NirS
+	285_NirS
+	252_NirS
+	290_NirS
+	318_NirS
+	103_NirS
+	184_NirS
+	108_NirS
+	419_NirS
+	128_NirS
+	76_NirS
+	353_NirS
+	434_NirS
+	511_NirS
+	336_NirS
+	168_NirS
+	485_NirS
+	497_NirS
+	136_NirS
+	149_NirS
+	453_NirS
+	385_NirS
+	68_NirS
+	105_NirS
+	211_NirS
+	90_NirS
+	296_NirS
+	66_NirS
+	338_NirS
+	57_NirS
+	275_NirS
+	26_NirS
+	229_NirS
+	254_NirS
+	146_NirS
+	274_NirS
+	372_NirS
+	384_NirS
+	499_NirS
+	398_NirS
+	466_NirS
+	322_NirS
+	61_NirS
+	97_NirS
+	132_NirS
+	395_NirS
+	161_NirS
+	307_NirS
+	58_NirS
+	31_NirS
+	465_NirS
+	213_NirS
+	464_NirS
+	172_NirS
+	495_NirS
+	301_NirS
+	375_NirS
+	369_NirS
+	484_NirS
+	463_NirS
+	148_NirS
+	348_NirS
+	137_NirS
+	282_NirS
+	446_NirS
+	256_NirS
+	291_NirS
+	471_NirS
+	154_NirS
+	351_NirS
+	170_NirS
+	117_NirS
+	222_NirS
+	332_NirS
+	171_NirS
+	86_NirS
+	392_NirS
+	224_NirS
+	456_NirS
+	270_NirS
+	125_NirS
+	27_NirS
+	418_NirS
+	238_NirS
+	293_NirS
+	469_NirS
+	133_NirS
+	261_NirS
+	415_NirS
+	486_NirS
+	329_NirS
+	36_NirS
+	425_NirS
+	334_NirS
+	308_NirS
+	15_NirS
+	102_NirS
+	280_NirS
+	67_NirS
+	232_NirS
+	218_NirS
+	277_NirS
+	185_NirS
+	111_NirS
+	496_NirS
+	51_NirS
+	8_NirS
+	458_NirS
+	6_NirS
+	378_NirS
+	382_NirS
+	404_NirS
+	405_NirS
+	35_NirS
+	30_NirS
+	162_NirS
+	363_NirS
+	4_NirS
+	470_NirS
+	342_NirS
+	165_NirS
+	316_NirS
+	428_NirS
+	167_NirS
+	410_NirS
+	479_NirS
+	130_NirS
+	121_NirS
+	241_NirS
+	389_NirS
+	440_NirS
+	306_NirS
+	247_NirS
+	493_NirS
+	173_NirS
+	430_NirS
+	122_NirS
+	421_NirS
+	276_NirS
+	262_NirS
+	420_NirS
+	284_NirS
+	116_NirS
+	120_NirS
+	114_NirS
+	158_NirS
+	84_NirS
+	77_NirS
+	127_NirS
+	481_NirS
+	319_NirS
+	448_NirS
+	501_NirS
+	340_NirS
+	362_NirS
+	272_NirS
+	159_NirS
+	157_NirS
+	44_NirS
+	417_NirS
+	494_NirS
+	182_NirS
+	498_NirS
+	194_NirS
+	142_NirS
+	156_NirS
+	435_NirS
+	259_NirS
+	478_NirS
+	126_NirS
+	289_NirS
+	33_NirS
+	251_NirS
+	110_NirS
+	407_NirS
+	376_NirS
+	438_NirS
+	269_NirS
+	309_NirS
+	354_NirS
+	46_NirS
+	91_NirS
+	244_NirS
+	286_NirS
+	225_NirS
+	281_NirS
+	45_NirS
+	357_NirS
+	364_NirS
+	65_NirS
+	467_NirS
+	265_NirS
+	424_NirS
+	94_NirS
+	273_NirS
+	264_NirS
+	328_NirS
+	288_NirS
+	475_NirS
+	201_NirS
+	227_NirS
+	390_NirS
+	433_NirS
+	359_NirS
+	147_NirS
+	399_NirS
+	138_NirS
+	198_NirS
+	468_NirS
+	441_NirS
+	200_NirS
+	358_NirS
+	295_NirS
+	250_NirS
+	422_NirS
+	313_NirS
+	64_NirS
+	199_NirS
+	233_NirS
+	416_NirS
+	101_NirS
+	205_NirS
+	423_NirS
+	183_NirS
+	248_NirS
+	7_NirS
+	237_NirS
+	88_NirS
+	321_NirS
+	477_NirS
+	297_NirS
+	10_NirS
+	92_NirS
+	450_NirS
+	37_NirS
+	228_NirS
+	472_NirS
+	56_NirS
+	189_NirS
+	186_NirS
+	500_NirS
+	298_NirS
+	83_NirS
+	476_NirS
+	13_NirS
+	287_NirS
+	461_NirS
+	314_NirS
+	100_NirS
+	71_NirS
+	400_NirS
+	457_NirS
+	292_NirS
+	367_NirS
+	402_NirS
+	175_NirS
+	335_NirS
+	80_NirS
+	445_NirS
+	331_NirS
+	246_NirS
+	207_NirS
+	414_NirS
+	187_NirS
+	371_NirS
+	164_NirS
+	333_NirS
+	323_NirS
+	181_NirS
+	144_NirS
+	315_NirS
+	17_NirS
+	347_NirS
+	53_NirS
+	366_NirS
+	253_NirS
+	54_NirS
+	72_NirS
+	442_NirS
+	449_NirS
+	160_NirS
+	1_NirS
+	509_NirS
+	452_NirS
+	131_NirS
+	47_NirS
+	59_NirS
+	135_NirS
+	451_NirS
+	243_NirS
+	383_NirS
+	397_NirS
+	490_NirS
+	426_NirS
+	350_NirS
+	432_NirS
+	473_NirS
+	145_NirS
+	174_NirS
+	151_NirS
+	283_NirS
+	235_NirS
+	69_NirS
+	460_NirS
+	177_NirS
+	346_NirS
+	412_NirS
+	443_NirS
+	141_NirS
+	394_NirS
+	220_NirS
+	462_NirS
+	70_NirS
+	166_NirS
+	429_NirS
+	386_NirS
+	191_NirS
+	43_NirS
+	487_NirS
+	401_NirS
+	427_NirS
+	299_NirS
+	82_NirS
+	365_NirS
+	437_NirS
+	294_NirS
+	41_NirS
+	129_NirS
+	239_NirS
+	39_NirS
+	32_NirS
+	188_NirS
+	483_NirS
+	327_NirS
+	124_NirS
+	356_NirS
+	337_NirS
+	480_NirS
+	271_NirS
+	143_NirS
+	491_NirS
+	63_NirS
+	107_NirS
+	78_NirS
+	113_NirS
+	176_NirS
+	109_NirS
+	489_NirS
+	352_NirS
+	330_NirS
+	345_NirS
+	403_NirS
+	169_NirS
+	459_NirS
+	482_NirS
+	163_NirS
+	215_NirS
+	436_NirS
+	454_NirS
+	431_NirS
+	49_NirS
+
+22/06 21:39:12 DEBUG:
+Building HMM profile... 
+22/06 21:39:12 DEBUG:
+done.
+
+22/06 21:39:12 DEBUG:
+done.
+
+22/06 21:39:12 DEBUG:
+123 genus-dereplicated sequences retained for building HMM profile.
+
+22/06 21:39:13 DEBUG:
+	511 leaves in pruned tree.
+
+22/06 21:39:13 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+22/06 21:39:24 DEBUG:
+done.
+
+22/06 21:39:24 DEBUG:
+Read 511 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/placement_trainer/intermediates/s__Halobiforma_nitratireducens/NirS_Z1111_2020-06-22/NirS.fa.
+
+22/06 21:39:24 DEBUG:
+	1 query sequences.
+
+22/06 21:39:24 DEBUG:
+
+
+22/06 21:39:24 DEBUG:
+Columns = 376
+
+22/06 21:39:24 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/placement_trainer/intermediates/s__Halobiforma_nitratireducens/queries-BMGE.fasta = 0 (retained)
+
+22/06 21:39:24 DEBUG:
+Read 512 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/placement_trainer/intermediates/s__Halobiforma_nitratireducens/queries-BMGE.fasta.
+
+22/06 21:39:27 DEBUG:
+Testing placements for d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Natrialbales; f__Natrialbaceae; g__Natrinema; s__Natrinema altunense:
+
+22/06 21:39:27 DEBUG:
+Reference sequence filtering stats for s__Natrinema altunense
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	510
+
+22/06 21:39:27 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+22/06 21:39:27 DEBUG:
+Read 510 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/placement_trainer/intermediates/s__Natrinema_altunense/NirS_Z1111_2020-06-22/NirS.fa.
+
+22/06 21:39:27 DEBUG:
+72 lineages truncated before 'genus' were removed during lineage trimming.
+
+22/06 21:39:27 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	134_NirS
+	326_NirS
+	487_NirS
+	473_NirS
+	302_NirS
+	118_NirS
+	94_NirS
+	2_NirS
+	179_NirS
+	344_NirS
+	349_NirS
+	139_NirS
+	74_NirS
+	209_NirS
+	407_NirS
+	115_NirS
+	88_NirS
+	443_NirS
+	491_NirS
+	360_NirS
+	54_NirS
+	8_NirS
+	255_NirS
+	454_NirS
+	438_NirS
+	112_NirS
+	355_NirS
+	446_NirS
+	79_NirS
+	278_NirS
+	285_NirS
+	252_NirS
+	290_NirS
+	318_NirS
+	103_NirS
+	184_NirS
+	108_NirS
+	418_NirS
+	501_NirS
+	128_NirS
+	76_NirS
+	410_NirS
+	353_NirS
+	433_NirS
+	336_NirS
+	168_NirS
+	484_NirS
+	496_NirS
+	136_NirS
+	149_NirS
+	452_NirS
+	385_NirS
+	489_NirS
+	67_NirS
+	105_NirS
+	211_NirS
+	91_NirS
+	296_NirS
+	65_NirS
+	338_NirS
+	56_NirS
+	275_NirS
+	26_NirS
+	229_NirS
+	254_NirS
+	146_NirS
+	274_NirS
+	372_NirS
+	384_NirS
+	498_NirS
+	398_NirS
+	465_NirS
+	322_NirS
+	132_NirS
+	395_NirS
+	161_NirS
+	307_NirS
+	57_NirS
+	31_NirS
+	464_NirS
+	213_NirS
+	463_NirS
+	172_NirS
+	494_NirS
+	301_NirS
+	375_NirS
+	369_NirS
+	483_NirS
+	462_NirS
+	148_NirS
+	348_NirS
+	137_NirS
+	282_NirS
+	445_NirS
+	256_NirS
+	291_NirS
+	470_NirS
+	154_NirS
+	351_NirS
+	170_NirS
+	117_NirS
+	222_NirS
+	332_NirS
+	171_NirS
+	392_NirS
+	224_NirS
+	455_NirS
+	270_NirS
+	125_NirS
+	27_NirS
+	417_NirS
+	238_NirS
+	293_NirS
+	468_NirS
+	133_NirS
+	261_NirS
+	414_NirS
+	485_NirS
+	82_NirS
+	329_NirS
+	36_NirS
+	424_NirS
+	334_NirS
+	308_NirS
+	15_NirS
+	102_NirS
+	280_NirS
+	66_NirS
+	232_NirS
+	218_NirS
+	277_NirS
+	185_NirS
+	111_NirS
+	495_NirS
+	90_NirS
+	457_NirS
+	69_NirS
+	378_NirS
+	382_NirS
+	403_NirS
+	404_NirS
+	35_NirS
+	30_NirS
+	162_NirS
+	86_NirS
+	363_NirS
+	49_NirS
+	46_NirS
+	342_NirS
+	165_NirS
+	97_NirS
+	316_NirS
+	427_NirS
+	167_NirS
+	478_NirS
+	130_NirS
+	121_NirS
+	241_NirS
+	389_NirS
+	43_NirS
+	306_NirS
+	247_NirS
+	492_NirS
+	173_NirS
+	122_NirS
+	420_NirS
+	276_NirS
+	262_NirS
+	41_NirS
+	284_NirS
+	116_NirS
+	120_NirS
+	114_NirS
+	158_NirS
+	77_NirS
+	127_NirS
+	480_NirS
+	319_NirS
+	447_NirS
+	500_NirS
+	340_NirS
+	362_NirS
+	272_NirS
+	61_NirS
+	159_NirS
+	157_NirS
+	449_NirS
+	416_NirS
+	493_NirS
+	182_NirS
+	497_NirS
+	194_NirS
+	142_NirS
+	156_NirS
+	434_NirS
+	259_NirS
+	477_NirS
+	126_NirS
+	289_NirS
+	33_NirS
+	251_NirS
+	110_NirS
+	376_NirS
+	437_NirS
+	269_NirS
+	309_NirS
+	354_NirS
+	469_NirS
+	92_NirS
+	244_NirS
+	286_NirS
+	225_NirS
+	281_NirS
+	459_NirS
+	357_NirS
+	364_NirS
+	64_NirS
+	466_NirS
+	265_NirS
+	423_NirS
+	95_NirS
+	273_NirS
+	511_NirS
+	264_NirS
+	328_NirS
+	288_NirS
+	474_NirS
+	201_NirS
+	227_NirS
+	390_NirS
+	432_NirS
+	359_NirS
+	147_NirS
+	399_NirS
+	138_NirS
+	198_NirS
+	51_NirS
+	467_NirS
+	440_NirS
+	200_NirS
+	358_NirS
+	295_NirS
+	250_NirS
+	421_NirS
+	313_NirS
+	63_NirS
+	199_NirS
+	233_NirS
+	415_NirS
+	101_NirS
+	205_NirS
+	422_NirS
+	183_NirS
+	248_NirS
+	80_NirS
+	237_NirS
+	89_NirS
+	321_NirS
+	476_NirS
+	297_NirS
+	10_NirS
+	93_NirS
+	44_NirS
+	37_NirS
+	228_NirS
+	471_NirS
+	55_NirS
+	189_NirS
+	186_NirS
+	4_NirS
+	298_NirS
+	84_NirS
+	475_NirS
+	13_NirS
+	287_NirS
+	460_NirS
+	314_NirS
+	405_NirS
+	100_NirS
+	71_NirS
+	456_NirS
+	292_NirS
+	367_NirS
+	401_NirS
+	175_NirS
+	335_NirS
+	444_NirS
+	331_NirS
+	246_NirS
+	207_NirS
+	187_NirS
+	371_NirS
+	164_NirS
+	333_NirS
+	323_NirS
+	181_NirS
+	429_NirS
+	144_NirS
+	315_NirS
+	17_NirS
+	347_NirS
+	366_NirS
+	253_NirS
+	53_NirS
+	72_NirS
+	441_NirS
+	448_NirS
+	160_NirS
+	1_NirS
+	451_NirS
+	131_NirS
+	479_NirS
+	58_NirS
+	59_NirS
+	135_NirS
+	450_NirS
+	243_NirS
+	383_NirS
+	397_NirS
+	425_NirS
+	350_NirS
+	431_NirS
+	472_NirS
+	509_NirS
+	145_NirS
+	174_NirS
+	151_NirS
+	283_NirS
+	235_NirS
+	68_NirS
+	45_NirS
+	177_NirS
+	346_NirS
+	442_NirS
+	141_NirS
+	394_NirS
+	220_NirS
+	461_NirS
+	70_NirS
+	166_NirS
+	428_NirS
+	386_NirS
+	191_NirS
+	439_NirS
+	486_NirS
+	400_NirS
+	426_NirS
+	299_NirS
+	83_NirS
+	365_NirS
+	436_NirS
+	294_NirS
+	419_NirS
+	129_NirS
+	239_NirS
+	39_NirS
+	32_NirS
+	188_NirS
+	482_NirS
+	327_NirS
+	124_NirS
+	356_NirS
+	337_NirS
+	412_NirS
+	47_NirS
+	271_NirS
+	143_NirS
+	490_NirS
+	107_NirS
+	78_NirS
+	113_NirS
+	176_NirS
+	109_NirS
+	488_NirS
+	352_NirS
+	330_NirS
+	345_NirS
+	402_NirS
+	169_NirS
+	458_NirS
+	481_NirS
+	163_NirS
+	215_NirS
+	435_NirS
+	453_NirS
+	430_NirS
+	499_NirS
+
+22/06 21:39:49 DEBUG:
+Building HMM profile... 
+22/06 21:39:49 DEBUG:
+done.
+
+22/06 21:39:49 DEBUG:
+done.
+
+22/06 21:39:49 DEBUG:
+123 genus-dereplicated sequences retained for building HMM profile.
+
+22/06 21:39:50 DEBUG:
+	510 leaves in pruned tree.
+
+22/06 21:39:50 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+22/06 21:40:00 DEBUG:
+done.
+
+22/06 21:40:00 DEBUG:
+Read 510 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/placement_trainer/intermediates/s__Natrinema_altunense/NirS_Z1111_2020-06-22/NirS.fa.
+
+22/06 21:40:00 DEBUG:
+	2 query sequences.
+
+22/06 21:40:00 DEBUG:
+
+
+22/06 21:40:01 DEBUG:
+Columns = 376
+
+22/06 21:40:01 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/placement_trainer/intermediates/s__Natrinema_altunense/queries-BMGE.fasta = 0 (retained)
+
+22/06 21:40:01 DEBUG:
+Read 512 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/placement_trainer/intermediates/s__Natrinema_altunense/queries-BMGE.fasta.
+
+22/06 21:40:04 DEBUG:
+Testing placements for d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Natrialbales; f__Natrialbaceae; g__Natrinema; s__Natrinema pallidum:
+
+22/06 21:40:04 DEBUG:
+Reference sequence filtering stats for s__Natrinema pallidum
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	511
+
+22/06 21:40:04 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+22/06 21:40:04 DEBUG:
+Read 511 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/placement_trainer/intermediates/s__Natrinema_pallidum/NirS_Z1111_2020-06-22/NirS.fa.
+
+22/06 21:40:04 DEBUG:
+72 lineages truncated before 'genus' were removed during lineage trimming.
+
+22/06 21:40:04 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	134_NirS
+	326_NirS
+	487_NirS
+	473_NirS
+	302_NirS
+	118_NirS
+	93_NirS
+	2_NirS
+	179_NirS
+	344_NirS
+	349_NirS
+	139_NirS
+	209_NirS
+	407_NirS
+	115_NirS
+	86_NirS
+	95_NirS
+	443_NirS
+	491_NirS
+	360_NirS
+	54_NirS
+	88_NirS
+	255_NirS
+	454_NirS
+	438_NirS
+	112_NirS
+	355_NirS
+	446_NirS
+	78_NirS
+	278_NirS
+	285_NirS
+	252_NirS
+	290_NirS
+	318_NirS
+	103_NirS
+	184_NirS
+	108_NirS
+	418_NirS
+	501_NirS
+	128_NirS
+	410_NirS
+	353_NirS
+	433_NirS
+	336_NirS
+	168_NirS
+	484_NirS
+	496_NirS
+	136_NirS
+	149_NirS
+	452_NirS
+	385_NirS
+	489_NirS
+	67_NirS
+	105_NirS
+	211_NirS
+	90_NirS
+	296_NirS
+	65_NirS
+	338_NirS
+	56_NirS
+	275_NirS
+	26_NirS
+	229_NirS
+	254_NirS
+	146_NirS
+	274_NirS
+	372_NirS
+	384_NirS
+	498_NirS
+	398_NirS
+	465_NirS
+	322_NirS
+	97_NirS
+	132_NirS
+	395_NirS
+	161_NirS
+	307_NirS
+	57_NirS
+	31_NirS
+	464_NirS
+	213_NirS
+	463_NirS
+	172_NirS
+	494_NirS
+	301_NirS
+	375_NirS
+	369_NirS
+	483_NirS
+	462_NirS
+	148_NirS
+	348_NirS
+	137_NirS
+	282_NirS
+	445_NirS
+	256_NirS
+	291_NirS
+	470_NirS
+	154_NirS
+	351_NirS
+	170_NirS
+	117_NirS
+	222_NirS
+	332_NirS
+	171_NirS
+	392_NirS
+	224_NirS
+	455_NirS
+	270_NirS
+	125_NirS
+	27_NirS
+	417_NirS
+	238_NirS
+	293_NirS
+	468_NirS
+	133_NirS
+	261_NirS
+	414_NirS
+	485_NirS
+	80_NirS
+	329_NirS
+	36_NirS
+	424_NirS
+	334_NirS
+	308_NirS
+	15_NirS
+	102_NirS
+	280_NirS
+	66_NirS
+	232_NirS
+	218_NirS
+	277_NirS
+	185_NirS
+	111_NirS
+	495_NirS
+	89_NirS
+	457_NirS
+	69_NirS
+	378_NirS
+	382_NirS
+	403_NirS
+	404_NirS
+	35_NirS
+	30_NirS
+	162_NirS
+	84_NirS
+	363_NirS
+	49_NirS
+	46_NirS
+	342_NirS
+	165_NirS
+	316_NirS
+	427_NirS
+	167_NirS
+	478_NirS
+	130_NirS
+	121_NirS
+	241_NirS
+	389_NirS
+	43_NirS
+	306_NirS
+	247_NirS
+	492_NirS
+	173_NirS
+	122_NirS
+	420_NirS
+	276_NirS
+	262_NirS
+	41_NirS
+	284_NirS
+	116_NirS
+	120_NirS
+	114_NirS
+	158_NirS
+	83_NirS
+	76_NirS
+	127_NirS
+	480_NirS
+	319_NirS
+	447_NirS
+	500_NirS
+	340_NirS
+	362_NirS
+	272_NirS
+	61_NirS
+	159_NirS
+	157_NirS
+	449_NirS
+	416_NirS
+	493_NirS
+	182_NirS
+	74_NirS
+	497_NirS
+	194_NirS
+	142_NirS
+	156_NirS
+	434_NirS
+	259_NirS
+	477_NirS
+	126_NirS
+	289_NirS
+	33_NirS
+	251_NirS
+	110_NirS
+	376_NirS
+	437_NirS
+	269_NirS
+	309_NirS
+	354_NirS
+	469_NirS
+	91_NirS
+	244_NirS
+	286_NirS
+	225_NirS
+	281_NirS
+	459_NirS
+	357_NirS
+	364_NirS
+	64_NirS
+	466_NirS
+	265_NirS
+	423_NirS
+	94_NirS
+	273_NirS
+	511_NirS
+	264_NirS
+	328_NirS
+	288_NirS
+	474_NirS
+	201_NirS
+	227_NirS
+	390_NirS
+	432_NirS
+	359_NirS
+	147_NirS
+	399_NirS
+	138_NirS
+	198_NirS
+	51_NirS
+	467_NirS
+	440_NirS
+	200_NirS
+	358_NirS
+	295_NirS
+	250_NirS
+	421_NirS
+	313_NirS
+	63_NirS
+	199_NirS
+	233_NirS
+	415_NirS
+	101_NirS
+	205_NirS
+	422_NirS
+	183_NirS
+	248_NirS
+	79_NirS
+	237_NirS
+	321_NirS
+	476_NirS
+	297_NirS
+	10_NirS
+	92_NirS
+	44_NirS
+	37_NirS
+	228_NirS
+	471_NirS
+	55_NirS
+	189_NirS
+	186_NirS
+	4_NirS
+	298_NirS
+	82_NirS
+	475_NirS
+	13_NirS
+	287_NirS
+	460_NirS
+	314_NirS
+	405_NirS
+	100_NirS
+	70_NirS
+	456_NirS
+	292_NirS
+	367_NirS
+	401_NirS
+	175_NirS
+	335_NirS
+	7_NirS
+	444_NirS
+	331_NirS
+	246_NirS
+	207_NirS
+	187_NirS
+	371_NirS
+	164_NirS
+	333_NirS
+	72_NirS
+	323_NirS
+	181_NirS
+	429_NirS
+	144_NirS
+	315_NirS
+	17_NirS
+	347_NirS
+	366_NirS
+	253_NirS
+	53_NirS
+	71_NirS
+	441_NirS
+	448_NirS
+	160_NirS
+	1_NirS
+	451_NirS
+	131_NirS
+	479_NirS
+	58_NirS
+	59_NirS
+	135_NirS
+	450_NirS
+	243_NirS
+	383_NirS
+	397_NirS
+	425_NirS
+	350_NirS
+	431_NirS
+	472_NirS
+	509_NirS
+	145_NirS
+	174_NirS
+	151_NirS
+	283_NirS
+	235_NirS
+	68_NirS
+	45_NirS
+	177_NirS
+	346_NirS
+	442_NirS
+	141_NirS
+	394_NirS
+	220_NirS
+	461_NirS
+	6_NirS
+	166_NirS
+	428_NirS
+	386_NirS
+	191_NirS
+	439_NirS
+	486_NirS
+	400_NirS
+	426_NirS
+	299_NirS
+	365_NirS
+	436_NirS
+	294_NirS
+	419_NirS
+	129_NirS
+	239_NirS
+	39_NirS
+	32_NirS
+	188_NirS
+	482_NirS
+	327_NirS
+	124_NirS
+	356_NirS
+	337_NirS
+	412_NirS
+	47_NirS
+	271_NirS
+	143_NirS
+	490_NirS
+	107_NirS
+	77_NirS
+	113_NirS
+	176_NirS
+	109_NirS
+	488_NirS
+	352_NirS
+	330_NirS
+	345_NirS
+	402_NirS
+	169_NirS
+	458_NirS
+	481_NirS
+	163_NirS
+	215_NirS
+	435_NirS
+	453_NirS
+	430_NirS
+	499_NirS
+
+22/06 21:40:26 DEBUG:
+Building HMM profile... 
+22/06 21:40:26 DEBUG:
+done.
+
+22/06 21:40:26 DEBUG:
+done.
+
+22/06 21:40:26 DEBUG:
+123 genus-dereplicated sequences retained for building HMM profile.
+
+22/06 21:40:27 DEBUG:
+	511 leaves in pruned tree.
+
+22/06 21:40:27 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+22/06 21:40:37 DEBUG:
+done.
+
+22/06 21:40:37 DEBUG:
+Read 511 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/placement_trainer/intermediates/s__Natrinema_pallidum/NirS_Z1111_2020-06-22/NirS.fa.
+
+22/06 21:40:37 DEBUG:
+	2 query sequences.
+
+22/06 21:40:37 DEBUG:
+
+
+22/06 21:40:38 DEBUG:
+Columns = 376
+
+22/06 21:40:38 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/placement_trainer/intermediates/s__Natrinema_pallidum/queries-BMGE.fasta = 0 (retained)
+
+22/06 21:40:38 DEBUG:
+Read 513 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/placement_trainer/intermediates/s__Natrinema_pallidum/queries-BMGE.fasta.
+
+22/06 21:40:40 DEBUG:
+Testing placements for d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Natrialbales; f__Natrialbaceae; g__Natrinema; s__Natrinema sp. J7-2:
+
+22/06 21:40:40 DEBUG:
+Reference sequence filtering stats for s__Natrinema sp. J7-2
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	510
+
+22/06 21:40:41 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+22/06 21:40:41 DEBUG:
+Read 510 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/placement_trainer/intermediates/s__Natrinema_sp._J7-2/NirS_Z1111_2020-06-22/NirS.fa.
+
+22/06 21:40:41 DEBUG:
+72 lineages truncated before 'genus' were removed during lineage trimming.
+
+22/06 21:40:41 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	342_NirS
+	135_NirS
+	327_NirS
+	488_NirS
+	474_NirS
+	93_NirS
+	17_NirS
+	241_NirS
+	345_NirS
+	124_NirS
+	243_NirS
+	13_NirS
+	74_NirS
+	116_NirS
+	95_NirS
+	444_NirS
+	492_NirS
+	55_NirS
+	321_NirS
+	89_NirS
+	256_NirS
+	455_NirS
+	264_NirS
+	439_NirS
+	113_NirS
+	313_NirS
+	356_NirS
+	447_NirS
+	79_NirS
+	390_NirS
+	286_NirS
+	253_NirS
+	291_NirS
+	319_NirS
+	103_NirS
+	185_NirS
+	108_NirS
+	419_NirS
+	156_NirS
+	301_NirS
+	129_NirS
+	76_NirS
+	354_NirS
+	434_NirS
+	511_NirS
+	337_NirS
+	169_NirS
+	485_NirS
+	497_NirS
+	137_NirS
+	290_NirS
+	453_NirS
+	386_NirS
+	68_NirS
+	105_NirS
+	389_NirS
+	90_NirS
+	27_NirS
+	297_NirS
+	66_NirS
+	57_NirS
+	276_NirS
+	270_NirS
+	255_NirS
+	147_NirS
+	275_NirS
+	385_NirS
+	499_NirS
+	399_NirS
+	466_NirS
+	323_NirS
+	61_NirS
+	97_NirS
+	133_NirS
+	162_NirS
+	181_NirS
+	308_NirS
+	58_NirS
+	211_NirS
+	465_NirS
+	464_NirS
+	173_NirS
+	495_NirS
+	302_NirS
+	376_NirS
+	36_NirS
+	484_NirS
+	463_NirS
+	149_NirS
+	151_NirS
+	349_NirS
+	138_NirS
+	205_NirS
+	283_NirS
+	446_NirS
+	292_NirS
+	471_NirS
+	352_NirS
+	171_NirS
+	371_NirS
+	118_NirS
+	333_NirS
+	218_NirS
+	172_NirS
+	86_NirS
+	225_NirS
+	456_NirS
+	271_NirS
+	126_NirS
+	280_NirS
+	220_NirS
+	418_NirS
+	239_NirS
+	294_NirS
+	469_NirS
+	134_NirS
+	262_NirS
+	415_NirS
+	486_NirS
+	394_NirS
+	32_NirS
+	425_NirS
+	335_NirS
+	309_NirS
+	160_NirS
+	102_NirS
+	191_NirS
+	281_NirS
+	67_NirS
+	207_NirS
+	233_NirS
+	278_NirS
+	186_NirS
+	112_NirS
+	496_NirS
+	51_NirS
+	344_NirS
+	458_NirS
+	6_NirS
+	2_NirS
+	383_NirS
+	404_NirS
+	405_NirS
+	360_NirS
+	163_NirS
+	306_NirS
+	364_NirS
+	4_NirS
+	470_NirS
+	250_NirS
+	166_NirS
+	392_NirS
+	428_NirS
+	168_NirS
+	410_NirS
+	33_NirS
+	479_NirS
+	131_NirS
+	122_NirS
+	213_NirS
+	440_NirS
+	307_NirS
+	248_NirS
+	493_NirS
+	174_NirS
+	430_NirS
+	421_NirS
+	277_NirS
+	420_NirS
+	285_NirS
+	117_NirS
+	121_NirS
+	115_NirS
+	159_NirS
+	84_NirS
+	77_NirS
+	128_NirS
+	481_NirS
+	31_NirS
+	448_NirS
+	501_NirS
+	363_NirS
+	179_NirS
+	273_NirS
+	15_NirS
+	158_NirS
+	44_NirS
+	417_NirS
+	494_NirS
+	222_NirS
+	183_NirS
+	498_NirS
+	143_NirS
+	157_NirS
+	435_NirS
+	478_NirS
+	127_NirS
+	340_NirS
+	252_NirS
+	111_NirS
+	407_NirS
+	438_NirS
+	26_NirS
+	30_NirS
+	355_NirS
+	46_NirS
+	91_NirS
+	237_NirS
+	287_NirS
+	282_NirS
+	45_NirS
+	358_NirS
+	209_NirS
+	365_NirS
+	65_NirS
+	467_NirS
+	424_NirS
+	326_NirS
+	94_NirS
+	274_NirS
+	265_NirS
+	329_NirS
+	289_NirS
+	475_NirS
+	228_NirS
+	433_NirS
+	35_NirS
+	148_NirS
+	39_NirS
+	139_NirS
+	199_NirS
+	318_NirS
+	397_NirS
+	468_NirS
+	441_NirS
+	215_NirS
+	201_NirS
+	359_NirS
+	296_NirS
+	251_NirS
+	422_NirS
+	314_NirS
+	64_NirS
+	170_NirS
+	235_NirS
+	375_NirS
+	416_NirS
+	101_NirS
+	423_NirS
+	184_NirS
+	7_NirS
+	238_NirS
+	88_NirS
+	322_NirS
+	477_NirS
+	298_NirS
+	110_NirS
+	92_NirS
+	450_NirS
+	229_NirS
+	472_NirS
+	56_NirS
+	187_NirS
+	500_NirS
+	299_NirS
+	382_NirS
+	83_NirS
+	476_NirS
+	288_NirS
+	461_NirS
+	315_NirS
+	100_NirS
+	71_NirS
+	400_NirS
+	457_NirS
+	293_NirS
+	402_NirS
+	176_NirS
+	336_NirS
+	80_NirS
+	445_NirS
+	332_NirS
+	247_NirS
+	414_NirS
+	188_NirS
+	372_NirS
+	165_NirS
+	334_NirS
+	154_NirS
+	130_NirS
+	182_NirS
+	145_NirS
+	316_NirS
+	348_NirS
+	53_NirS
+	367_NirS
+	254_NirS
+	54_NirS
+	72_NirS
+	442_NirS
+	449_NirS
+	161_NirS
+	200_NirS
+	509_NirS
+	452_NirS
+	132_NirS
+	47_NirS
+	59_NirS
+	136_NirS
+	451_NirS
+	120_NirS
+	244_NirS
+	384_NirS
+	398_NirS
+	269_NirS
+	490_NirS
+	426_NirS
+	351_NirS
+	432_NirS
+	259_NirS
+	473_NirS
+	362_NirS
+	146_NirS
+	1_NirS
+	175_NirS
+	284_NirS
+	69_NirS
+	460_NirS
+	37_NirS
+	347_NirS
+	412_NirS
+	443_NirS
+	142_NirS
+	395_NirS
+	378_NirS
+	462_NirS
+	70_NirS
+	167_NirS
+	429_NirS
+	43_NirS
+	487_NirS
+	401_NirS
+	427_NirS
+	82_NirS
+	366_NirS
+	437_NirS
+	295_NirS
+	350_NirS
+	41_NirS
+	330_NirS
+	189_NirS
+	483_NirS
+	224_NirS
+	328_NirS
+	125_NirS
+	357_NirS
+	194_NirS
+	246_NirS
+	338_NirS
+	480_NirS
+	227_NirS
+	272_NirS
+	141_NirS
+	144_NirS
+	491_NirS
+	63_NirS
+	107_NirS
+	78_NirS
+	114_NirS
+	177_NirS
+	198_NirS
+	109_NirS
+	489_NirS
+	353_NirS
+	331_NirS
+	346_NirS
+	403_NirS
+	459_NirS
+	369_NirS
+	482_NirS
+	164_NirS
+	436_NirS
+	454_NirS
+	232_NirS
+	431_NirS
+	261_NirS
+	49_NirS
+
+22/06 21:41:02 DEBUG:
+Building HMM profile... 
+22/06 21:41:03 DEBUG:
+done.
+
+22/06 21:41:03 DEBUG:
+done.
+
+22/06 21:41:03 DEBUG:
+123 genus-dereplicated sequences retained for building HMM profile.
+
+22/06 21:41:03 DEBUG:
+	510 leaves in pruned tree.
+
+22/06 21:41:03 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+22/06 21:41:14 DEBUG:
+done.
+
+22/06 21:41:14 DEBUG:
+Read 510 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/placement_trainer/intermediates/s__Natrinema_sp._J7-2/NirS_Z1111_2020-06-22/NirS.fa.
+
+22/06 21:41:14 DEBUG:
+	2 query sequences.
+
+22/06 21:41:14 DEBUG:
+
+
+22/06 21:41:14 DEBUG:
+Columns = 376
+
+22/06 21:41:14 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/placement_trainer/intermediates/s__Natrinema_sp._J7-2/queries-BMGE.fasta = 0 (retained)
+
+22/06 21:41:14 DEBUG:
+Read 512 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/placement_trainer/intermediates/s__Natrinema_sp._J7-2/queries-BMGE.fasta.
+
+22/06 21:41:17 DEBUG:
+Testing placements for d__Bacteria; p__Deinococcus-Thermus; c__Deinococci; o__Thermales; f__Thermaceae; g__Thermus; s__Thermus oshimai:
+
+22/06 21:41:17 DEBUG:
+Reference sequence filtering stats for s__Thermus oshimai
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	511
+
+22/06 21:41:18 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+22/06 21:41:18 DEBUG:
+Read 511 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/placement_trainer/intermediates/s__Thermus_oshimai/NirS_Z1111_2020-06-22/NirS.fa.
+
+22/06 21:41:18 DEBUG:
+72 lineages truncated before 'genus' were removed during lineage trimming.
+
+22/06 21:41:18 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	342_NirS
+	134_NirS
+	327_NirS
+	488_NirS
+	474_NirS
+	118_NirS
+	93_NirS
+	179_NirS
+	345_NirS
+	139_NirS
+	74_NirS
+	209_NirS
+	115_NirS
+	95_NirS
+	444_NirS
+	492_NirS
+	55_NirS
+	321_NirS
+	89_NirS
+	255_NirS
+	455_NirS
+	439_NirS
+	112_NirS
+	313_NirS
+	356_NirS
+	447_NirS
+	79_NirS
+	390_NirS
+	286_NirS
+	252_NirS
+	291_NirS
+	319_NirS
+	103_NirS
+	184_NirS
+	108_NirS
+	419_NirS
+	301_NirS
+	128_NirS
+	76_NirS
+	354_NirS
+	434_NirS
+	511_NirS
+	337_NirS
+	168_NirS
+	485_NirS
+	497_NirS
+	136_NirS
+	290_NirS
+	149_NirS
+	453_NirS
+	386_NirS
+	68_NirS
+	105_NirS
+	389_NirS
+	211_NirS
+	90_NirS
+	27_NirS
+	297_NirS
+	66_NirS
+	57_NirS
+	276_NirS
+	270_NirS
+	229_NirS
+	254_NirS
+	146_NirS
+	275_NirS
+	385_NirS
+	499_NirS
+	399_NirS
+	466_NirS
+	323_NirS
+	61_NirS
+	97_NirS
+	132_NirS
+	161_NirS
+	308_NirS
+	58_NirS
+	465_NirS
+	213_NirS
+	464_NirS
+	172_NirS
+	495_NirS
+	302_NirS
+	376_NirS
+	36_NirS
+	484_NirS
+	463_NirS
+	148_NirS
+	349_NirS
+	137_NirS
+	283_NirS
+	446_NirS
+	256_NirS
+	292_NirS
+	471_NirS
+	154_NirS
+	352_NirS
+	170_NirS
+	371_NirS
+	117_NirS
+	222_NirS
+	333_NirS
+	171_NirS
+	86_NirS
+	224_NirS
+	456_NirS
+	271_NirS
+	125_NirS
+	280_NirS
+	418_NirS
+	238_NirS
+	294_NirS
+	469_NirS
+	133_NirS
+	261_NirS
+	415_NirS
+	486_NirS
+	394_NirS
+	32_NirS
+	425_NirS
+	335_NirS
+	309_NirS
+	15_NirS
+	102_NirS
+	281_NirS
+	67_NirS
+	232_NirS
+	218_NirS
+	278_NirS
+	185_NirS
+	111_NirS
+	496_NirS
+	51_NirS
+	8_NirS
+	344_NirS
+	458_NirS
+	6_NirS
+	2_NirS
+	383_NirS
+	404_NirS
+	405_NirS
+	360_NirS
+	162_NirS
+	306_NirS
+	364_NirS
+	4_NirS
+	470_NirS
+	165_NirS
+	392_NirS
+	428_NirS
+	167_NirS
+	410_NirS
+	33_NirS
+	479_NirS
+	130_NirS
+	121_NirS
+	241_NirS
+	440_NirS
+	307_NirS
+	247_NirS
+	493_NirS
+	173_NirS
+	430_NirS
+	122_NirS
+	421_NirS
+	277_NirS
+	262_NirS
+	420_NirS
+	285_NirS
+	116_NirS
+	120_NirS
+	114_NirS
+	158_NirS
+	84_NirS
+	77_NirS
+	127_NirS
+	481_NirS
+	31_NirS
+	448_NirS
+	501_NirS
+	363_NirS
+	273_NirS
+	159_NirS
+	157_NirS
+	44_NirS
+	417_NirS
+	494_NirS
+	182_NirS
+	498_NirS
+	194_NirS
+	142_NirS
+	156_NirS
+	435_NirS
+	259_NirS
+	478_NirS
+	126_NirS
+	340_NirS
+	251_NirS
+	110_NirS
+	407_NirS
+	438_NirS
+	269_NirS
+	30_NirS
+	355_NirS
+	46_NirS
+	91_NirS
+	244_NirS
+	287_NirS
+	225_NirS
+	282_NirS
+	45_NirS
+	358_NirS
+	365_NirS
+	65_NirS
+	467_NirS
+	265_NirS
+	424_NirS
+	326_NirS
+	94_NirS
+	274_NirS
+	264_NirS
+	329_NirS
+	289_NirS
+	475_NirS
+	201_NirS
+	227_NirS
+	433_NirS
+	35_NirS
+	147_NirS
+	39_NirS
+	138_NirS
+	198_NirS
+	318_NirS
+	397_NirS
+	468_NirS
+	441_NirS
+	200_NirS
+	359_NirS
+	296_NirS
+	250_NirS
+	422_NirS
+	314_NirS
+	64_NirS
+	199_NirS
+	233_NirS
+	375_NirS
+	416_NirS
+	101_NirS
+	205_NirS
+	423_NirS
+	183_NirS
+	248_NirS
+	7_NirS
+	237_NirS
+	88_NirS
+	322_NirS
+	477_NirS
+	298_NirS
+	10_NirS
+	92_NirS
+	450_NirS
+	228_NirS
+	472_NirS
+	56_NirS
+	189_NirS
+	186_NirS
+	500_NirS
+	299_NirS
+	382_NirS
+	83_NirS
+	476_NirS
+	13_NirS
+	288_NirS
+	461_NirS
+	315_NirS
+	100_NirS
+	71_NirS
+	400_NirS
+	457_NirS
+	293_NirS
+	402_NirS
+	175_NirS
+	336_NirS
+	80_NirS
+	445_NirS
+	332_NirS
+	246_NirS
+	207_NirS
+	414_NirS
+	187_NirS
+	372_NirS
+	164_NirS
+	334_NirS
+	181_NirS
+	144_NirS
+	316_NirS
+	17_NirS
+	348_NirS
+	53_NirS
+	367_NirS
+	253_NirS
+	54_NirS
+	72_NirS
+	442_NirS
+	449_NirS
+	160_NirS
+	1_NirS
+	509_NirS
+	452_NirS
+	131_NirS
+	47_NirS
+	59_NirS
+	135_NirS
+	451_NirS
+	243_NirS
+	384_NirS
+	398_NirS
+	490_NirS
+	426_NirS
+	351_NirS
+	432_NirS
+	473_NirS
+	362_NirS
+	145_NirS
+	174_NirS
+	151_NirS
+	284_NirS
+	235_NirS
+	69_NirS
+	460_NirS
+	177_NirS
+	37_NirS
+	347_NirS
+	412_NirS
+	443_NirS
+	141_NirS
+	395_NirS
+	378_NirS
+	220_NirS
+	462_NirS
+	70_NirS
+	166_NirS
+	429_NirS
+	191_NirS
+	43_NirS
+	487_NirS
+	401_NirS
+	427_NirS
+	82_NirS
+	366_NirS
+	437_NirS
+	295_NirS
+	350_NirS
+	41_NirS
+	129_NirS
+	239_NirS
+	330_NirS
+	188_NirS
+	483_NirS
+	328_NirS
+	124_NirS
+	357_NirS
+	338_NirS
+	480_NirS
+	272_NirS
+	143_NirS
+	491_NirS
+	63_NirS
+	107_NirS
+	78_NirS
+	113_NirS
+	176_NirS
+	109_NirS
+	489_NirS
+	353_NirS
+	331_NirS
+	346_NirS
+	403_NirS
+	169_NirS
+	459_NirS
+	369_NirS
+	482_NirS
+	163_NirS
+	215_NirS
+	436_NirS
+	454_NirS
+	431_NirS
+	49_NirS
+
+22/06 21:41:39 DEBUG:
+Building HMM profile... 
+22/06 21:41:39 DEBUG:
+done.
+
+22/06 21:41:39 DEBUG:
+done.
+
+22/06 21:41:39 DEBUG:
+123 genus-dereplicated sequences retained for building HMM profile.
+
+22/06 21:41:40 DEBUG:
+	511 leaves in pruned tree.
+
+22/06 21:41:40 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+22/06 21:41:50 DEBUG:
+done.
+
+22/06 21:41:50 DEBUG:
+Read 511 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/placement_trainer/intermediates/s__Thermus_oshimai/NirS_Z1111_2020-06-22/NirS.fa.
+
+22/06 21:41:50 DEBUG:
+	1 query sequences.
+
+22/06 21:41:50 DEBUG:
+
+
+22/06 21:41:50 DEBUG:
+Columns = 376
+
+22/06 21:41:50 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/placement_trainer/intermediates/s__Thermus_oshimai/queries-BMGE.fasta = 0 (retained)
+
+22/06 21:41:50 DEBUG:
+Read 512 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/placement_trainer/intermediates/s__Thermus_oshimai/queries-BMGE.fasta.
+
+22/06 21:41:53 DEBUG:
+Testing placements for d__Bacteria; p__Deinococcus-Thermus; c__Deinococci; o__Thermales; f__Thermaceae; g__Thermus; s__Thermus scotoductus:
+
+22/06 21:41:53 DEBUG:
+Reference sequence filtering stats for s__Thermus scotoductus
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	511
+
+22/06 21:41:54 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+22/06 21:41:54 DEBUG:
+Read 511 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NirS/seed_refpkg/intermediates/placement_trainer/intermediates/s__Thermus_scotoductus/NirS_Z1111_2020-06-22/NirS.fa.
+
+22/06 21:41:54 DEBUG:
+72 lineages truncated before 'genus' were removed during lineage trimming.
+
+22/06 21:41:54 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	342_NirS
+	134_NirS
+	327_NirS
+	488_NirS
+	474_NirS
+	118_NirS
+	93_NirS
+	179_NirS
+	345_NirS
+	139_NirS
+	74_NirS
+	209_NirS
+	115_NirS
+	95_NirS
+	444_NirS
+	492_NirS
+	55_NirS
+	321_NirS
+	89_NirS
+	255_NirS
+	455_NirS
+	439_NirS
+	112_NirS
+	313_NirS
+	356_NirS
+	447_NirS
+	79_NirS
+	278_NirS
+	390_NirS
+	286_NirS
+	252_NirS
+	291_NirS
+	319_NirS
+	103_NirS
+	184_NirS
+	108_NirS
+	419_NirS
+	301_NirS
+	128_NirS
+	76_NirS
+	354_NirS
+	434_NirS
+	511_NirS
+	337_NirS
+	168_NirS
+	485_NirS
+	497_NirS
+	136_NirS
+	290_NirS
+	149_NirS
+	453_NirS
+	386_NirS
+	68_NirS
+	105_NirS
+	389_NirS
+	211_NirS
+	90_NirS
+	297_NirS
+	66_NirS
+	57_NirS
+	275_NirS
+	26_NirS
+	229_NirS
+	254_NirS
+	146_NirS
+	274_NirS
+	385_NirS
+	499_NirS
+	399_NirS
+	466_NirS
+	323_NirS
+	61_NirS
+	97_NirS
+	132_NirS
+	161_NirS
+	308_NirS
+	58_NirS
+	465_NirS
+	213_NirS
+	464_NirS
+	172_NirS
+	495_NirS
+	302_NirS
+	376_NirS
+	36_NirS
+	484_NirS
+	463_NirS
+	148_NirS
+	349_NirS
+	137_NirS
+	283_NirS
+	446_NirS
+	256_NirS
+	292_NirS
+	471_NirS
+	154_NirS
+	352_NirS
+	170_NirS
+	371_NirS
+	117_NirS
+	222_NirS
+	333_NirS
+	171_NirS
+	86_NirS
+	224_NirS
+	456_NirS
+	270_NirS
+	125_NirS
+	280_NirS
+	418_NirS
+	238_NirS
+	294_NirS
+	469_NirS
+	133_NirS
+	261_NirS
+	415_NirS
+	486_NirS
+	394_NirS
+	32_NirS
+	425_NirS
+	335_NirS
+	309_NirS
+	15_NirS
+	102_NirS
+	281_NirS
+	67_NirS
+	232_NirS
+	218_NirS
+	277_NirS
+	185_NirS
+	111_NirS
+	496_NirS
+	51_NirS
+	8_NirS
+	344_NirS
+	458_NirS
+	6_NirS
+	2_NirS
+	383_NirS
+	404_NirS
+	405_NirS
+	360_NirS
+	162_NirS
+	306_NirS
+	364_NirS
+	4_NirS
+	470_NirS
+	165_NirS
+	392_NirS
+	428_NirS
+	167_NirS
+	410_NirS
+	33_NirS
+	479_NirS
+	130_NirS
+	121_NirS
+	241_NirS
+	440_NirS
+	307_NirS
+	247_NirS
+	493_NirS
+	173_NirS
+	430_NirS
+	122_NirS
+	421_NirS
+	276_NirS
+	262_NirS
+	420_NirS
+	285_NirS
+	116_NirS
+	120_NirS
+	114_NirS
+	158_NirS
+	84_NirS
+	77_NirS
+	127_NirS
+	481_NirS
+	31_NirS
+	448_NirS
+	501_NirS
+	363_NirS
+	272_NirS
+	159_NirS
+	157_NirS
+	44_NirS
+	417_NirS
+	494_NirS
+	182_NirS
+	498_NirS
+	194_NirS
+	142_NirS
+	156_NirS
+	435_NirS
+	259_NirS
+	478_NirS
+	126_NirS
+	340_NirS
+	251_NirS
+	110_NirS
+	407_NirS
+	438_NirS
+	269_NirS
+	30_NirS
+	355_NirS
+	46_NirS
+	91_NirS
+	244_NirS
+	287_NirS
+	225_NirS
+	282_NirS
+	45_NirS
+	358_NirS
+	365_NirS
+	65_NirS
+	467_NirS
+	265_NirS
+	424_NirS
+	326_NirS
+	94_NirS
+	273_NirS
+	264_NirS
+	329_NirS
+	289_NirS
+	475_NirS
+	201_NirS
+	227_NirS
+	433_NirS
+	35_NirS
+	147_NirS
+	39_NirS
+	138_NirS
+	198_NirS
+	318_NirS
+	397_NirS
+	468_NirS
+	441_NirS
+	200_NirS
+	359_NirS
+	296_NirS
+	250_NirS
+	422_NirS
+	314_NirS
+	64_NirS
+	199_NirS
+	233_NirS
+	375_NirS
+	416_NirS
+	101_NirS
+	205_NirS
+	423_NirS
+	183_NirS
+	248_NirS
+	7_NirS
+	237_NirS
+	88_NirS
+	322_NirS
+	477_NirS
+	298_NirS
+	10_NirS
+	92_NirS
+	450_NirS
+	228_NirS
+	472_NirS
+	56_NirS
+	189_NirS
+	186_NirS
+	500_NirS
+	299_NirS
+	382_NirS
+	83_NirS
+	476_NirS
+	13_NirS
+	288_NirS
+	461_NirS
+	315_NirS
+	100_NirS
+	71_NirS
+	400_NirS
+	457_NirS
+	293_NirS
+	402_NirS
+	175_NirS
+	336_NirS
+	80_NirS
+	445_NirS
+	332_NirS
+	246_NirS
+	207_NirS
+	414_NirS
+	187_NirS
+	372_NirS
+	164_NirS
+	334_NirS
+	181_NirS
+	144_NirS
+	316_NirS
+	17_NirS
+	348_NirS
+	53_NirS
+	367_NirS
+	253_NirS
+	54_NirS
+	72_NirS
+	442_NirS
+	449_NirS
+	160_NirS
+	1_NirS
+	509_NirS
+	452_NirS
+	131_NirS
+	47_NirS
+	59_NirS
+	135_NirS
+	451_NirS
+	243_NirS
+	384_NirS
+	398_NirS
+	490_NirS
+	426_NirS
+	351_NirS
+	432_NirS
+	473_NirS
+	362_NirS
+	145_NirS
+	174_NirS
+	151_NirS
+	284_NirS
+	235_NirS
+	69_NirS
+	460_NirS
+	177_NirS
+	37_NirS
+	347_NirS
+	412_NirS
+	443_NirS
+	141_NirS
+	395_NirS
+	378_NirS
+	220_NirS
+	462_NirS
+	70_NirS
+	166_NirS
+	429_NirS
+	191_NirS
+	43_NirS
+	487_NirS
+	401_NirS
+	427_NirS
+	82_NirS
+	366_NirS
+	437_NirS
+	295_NirS
+	350_NirS
+	41_NirS
+	129_NirS
+	239_NirS
+	330_NirS
+	188_NirS
+	483_NirS
+	328_NirS
+	124_NirS
+	357_NirS
+	338_NirS
+	480_NirS
+	271_NirS
+	143_NirS
+	491_NirS
+	63_NirS
+	107_NirS
+	78_NirS
+	113_NirS
+	176_NirS
+	109_NirS
+	489_NirS
+	353_NirS
+	331_NirS
+	346_NirS
+	403_NirS
+	169_NirS
+	459_NirS
+	369_NirS
+	482_NirS
+	163_NirS
+	215_NirS
+	436_NirS
+	454_NirS
+	431_NirS
+	49_NirS
+

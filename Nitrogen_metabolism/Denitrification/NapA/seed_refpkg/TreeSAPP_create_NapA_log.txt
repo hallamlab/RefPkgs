@@ -1,0 +1,2478 @@
+22/06 16:06:10 INFO:
+
+##			Creating TreeSAPP reference package			##
+
+22/06 16:06:10 INFO:
+Arguments used:
+-n 4 --cluster --trim_align --outdet_align --headless --fast --overwrite --bootstraps 0 --min_taxonomic_rank c --taxa_lca -m prot --delete -o Nitrogen_metabolism/Denitrification/NapA/seed_refpkg -i Nitrogen_metabolism/Denitrification/NapA/ENOG501NS3T_TIGR01706.faa -c NapA -p 0.90 --profile Nitrogen_metabolism/Denitrification/NapA/TIGR01706.HMM --stage build
+
+22/06 16:06:10 WARNING:
+Unable to run 'build' as it is ahead of the last completed stage.
+Continuing with stage 'search'
+
+22/06 16:06:10 DEBUG:
+Nitrogen_metabolism/Denitrification/NapA/ENOG501NS3T_TIGR01706.faa read by pyfastx in 0.010292291641235352 seconds.
+
+22/06 16:06:10 DEBUG:
+The following sequences were removed due to bad characters:
+1150621.SMUL_2901
+177439.DP2986
+306263.Cla_0358
+1244531.CIG1485E_1491
+1244528.CFT03427_1501
+1002804.HBZC1_13530
+
+22/06 16:06:10 DEBUG:
+Read 1536 headers from Nitrogen_metabolism/Denitrification/NapA/ENOG501NS3T_TIGR01706.faa.
+
+22/06 16:06:10 DEBUG:
+Raw, unfiltered sequence summary:
+	Number of sequences: 1530
+	Longest sequence length: 1427
+	Shortest sequence length: 75
+	Mean sequence length: 877.0
+	Median sequence length: 878.0
+
+22/06 16:06:10 INFO:
+Searching for domain sequences... 
+22/06 16:06:27 INFO:
+done.
+
+22/06 16:06:27 DEBUG:
+Filtering HMM alignments using the following thresholds:
+	Maximum E-value = 1e-05
+	Maximum i-Evalue = 0.001
+	Minimum acc = 0.7
+	Minimum score = 20
+	Minimum percentage of the HMM covered = 60%
+
+22/06 16:06:27 INFO:
+Parsing HMMER domain tables for high-quality matches... 
+22/06 16:06:27 INFO:
+done.
+
+22/06 16:06:27 DEBUG:
+	Initial alignments:	3568
+	Alignments discarded:	71
+	Fragmented alignments:	3062
+	Inversions detected:	0
+	Alignments scaffolded:	2032
+	Multi-alignments:	0
+	Sequences identified:	1465
+
+	Number of markers identified:
+		TIGR01706	1465
+
+22/06 16:06:27 DEBUG:
+Creating a temporary dictionary for rapid sequence name look-ups... 
+22/06 16:06:27 DEBUG:
+done.
+
+22/06 16:06:27 INFO:
+Extracting the quality-controlled protein sequences... 
+22/06 16:06:27 DEBUG:
+Unable to map 1002804.HBZC1_13530 to a sequence in the input FASTA.
+
+22/06 16:06:27 DEBUG:
+Unable to map 1150621.SMUL_2901 to a sequence in the input FASTA.
+
+22/06 16:06:27 DEBUG:
+Unable to map 1244528.CFT03427_1501 to a sequence in the input FASTA.
+
+22/06 16:06:27 DEBUG:
+Unable to map 1244531.CIG1485E_1491 to a sequence in the input FASTA.
+
+22/06 16:06:27 DEBUG:
+Unable to map 177439.DP2986 to a sequence in the input FASTA.
+
+22/06 16:06:27 DEBUG:
+Unable to map 306263.Cla_0358 to a sequence in the input FASTA.
+
+22/06 16:06:27 INFO:
+done.
+
+22/06 16:06:27 INFO:
+Low coverage TIGR01706 profile windows (start-stop):
+	1-42
+	829-end
+
+22/06 16:06:27 INFO:
+Maximum coverage for TIGR01706 = 1465 sequences
+
+22/06 16:06:27 DEBUG:
+/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NapA/seed_refpkg/intermediates/NapA_hmm_purified.fasta read by pyfastx in 0.00815272331237793 seconds.
+
+22/06 16:06:27 DEBUG:
+Read 1459 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NapA/seed_refpkg/intermediates/NapA_hmm_purified.fasta.
+
+22/06 16:06:27 DEBUG:
+Identified and replaced invalid ambiguity characters in 0 sequences.
+
+22/06 16:06:27 INFO:
+Sequence summary:
+	Number of sequences: 1459
+	Longest sequence length: 959
+	Shortest sequence length: 243
+	Mean sequence length: 746.6
+	Median sequence length: 713
+
+22/06 16:06:27 INFO:
+Extracting information from headers... 
+22/06 16:06:27 INFO:
+done.
+
+22/06 16:06:27 DEBUG:
+	Number of input sequences =	1459
+
+22/06 16:06:28 DEBUG:
+	Number of queries =	1459
+
+22/06 16:06:28 INFO:
+Preparing Bio.Entrez for NCBI queries... 
+22/06 16:06:28 INFO:
+done.
+
+22/06 16:06:28 INFO:
+Retrieving Entrez taxonomy records for each accession... 
+22/06 16:06:29 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 100	0.0:0.66
+
+22/06 16:06:29 INFO:
+done.
+
+22/06 16:06:29 WARNING:
+Unable to map neither a record's accession nor accession.version to an EntrezRecord:
+Accession: 'P39185'
+Acc.Version: 'P39185.2'
+Alternatives:['P39185.2|NAPA_CUPNH', '52788249']
+{'GBSeq_locus': 'NAPA_CUPNH', 'GBSeq_length': '831', 'GBSeq_moltype': 'AA', 'GBSeq_topology': 'linear', 'GBSeq_division': 'BCT', 'GBSeq_update-date': '11-DEC-2019', 'GBSeq_create-date': '01-FEB-1995', 'GBSeq_definition': 'RecName: Full=Periplasmic nitrate reductase; Flags: Precursor', 'GBSeq_primary-accession': 'P39185', 'GBSeq_accession-version': 'P39185.2', 'GBSeq_other-seqids': ['sp|P39185.2|NAPA_CUPNH', 'gi|52788249'], 'GBSeq_keywords': ['3D-structure', '4Fe-4S', 'Direct protein sequencing', 'Electron transport', 'Iron', 'Iron-sulfur', 'Metal-binding', 'Molybdenum', 'Nitrate assimilation', 'Oxidoreductase', 'Periplasm', 'Plasmid', 'Reference proteome', 'Signal', 'Transport'], 'GBSeq_source': 'Cupriavidus necator H16', 'GBSeq_organism': 'Cupriavidus necator H16', 'GBSeq_taxonomy': 'Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales; Burkholderiaceae; Cupriavidus', 'GBSeq_references': [{'GBReference_reference': '1', 'GBReference_position': '1..831', 'GBReference_authors': ['Siddiqui,R.A.', 'Warnecke-Eberz,U.', 'Hengsberger,A.', 'Schneider,B.', 'Kostka,S.', 'Friedrich,B.'], 'GBReference_title': 'Structure and function of a periplasmic nitrate reductase in Alcaligenes eutrophus H16', 'GBReference_journal': 'J. Bacteriol. 175 (18), 5867-5876 (1993)', 'GBReference_xref': [{'GBXref_dbname': 'doi', 'GBXref_id': '10.1128/jb.175.18.5867-5876.1993'}], 'GBReference_pubmed': '8376334', 'GBReference_remark': 'NUCLEOTIDE SEQUENCE [GENOMIC DNA], PROTEIN SEQUENCE OF 30-50, FUNCTION, CATALYTIC ACTIVITY, SUBUNIT, AND SUBCELLULAR LOCATION.;\nSTRAIN=ATCC 17699 / H16 / DSM 428 / Stanier 337'}, {'GBReference_reference': '2', 'GBReference_position': '1..831', 'GBReference_authors': ['Schwartz,E.', 'Henne,A.', 'Cramm,R.', 'Eitinger,T.', 'Friedrich,B.', 'Gottschalk,G.'], 'GBReference_title': 'Complete nucleotide sequence of pHG1: a Ralstonia eutropha H16 megaplasmid encoding key enzymes of H(2)-based ithoautotrophy and anaerobiosis', 'GBReference_journal': 'J. Mol. Biol. 332 (2), 369-383 (2003)', 'GBReference_xref': [{'GBXref_dbname': 'doi', 'GBXref_id': '10.1016/s0022-2836(03)00894-5'}], 'GBReference_pubmed': '12948488', 'GBReference_remark': 'NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].;\nSTRAIN=ATCC 17699 / H16 / DSM 428 / Stanier 337'}, {'GBReference_reference': '3', 'GBReference_position': '1..831', 'GBReference_authors': ['Coelho,C.', 'Gonzalez,P.J.', 'Moura,J.G.', 'Moura,I.', 'Trincao,J.', 'Joao Romao,M.'], 'GBReference_title': 'The crystal structure of Cupriavidus necator nitrate reductase in oxidized and partially reduced states', 'GBReference_journal': 'J. Mol. Biol. 408 (5), 932-948 (2011)', 'GBReference_xref': [{'GBXref_dbname': 'doi', 'GBXref_id': '10.1016/j.jmb.2011.03.016'}], 'GBReference_pubmed': '21419779', 'GBReference_remark': 'X-RAY CRYSTALLOGRAPHY (1.60 ANGSTROMS) OF 30-831 IN COMPLEX WITH IRON-SULFUR (4FE-4S) AND MOLYBDENUM MOLYBDOPTERIN COFACTOR, COFACTOR, AND SUBUNIT.'}], 'GBSeq_comment': 'On or before Apr 26, 2005 this sequence version replaced gi:538718, gi:730111.; [FUNCTION] Catalytic subunit of the periplasmic nitrate reductase complex NapAB. Receives electrons from NapB and catalyzes the reduction of nitrate to nitrite. {ECO:0000255|HAMAP-Rule:MF_01630, ECO:0000269|PubMed:8376334}.; [CATALYTIC ACTIVITY] Reaction=2 [Fe(II)cytochrome] + 2 H(+) + nitrate = 2 [Fe(III)cytochrome] + H2O + nitrite; Xref=Rhea:RHEA:12909, Rhea:RHEA-COMP:11777, Rhea:RHEA-COMP:11778, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:16301, ChEBI:CHEBI:17632, ChEBI:CHEBI:29033, ChEBI:CHEBI:29034; EC=1.9.6.1; Evidence={ECO:0000255|HAMAP-Rule:MF_01630, ECO:0000269|PubMed:8376334}.; [COFACTOR] Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883; Evidence={ECO:0000255|HAMAP-Rule:MF_01630, ECO:0000269|PubMed:21419779}; Note=Binds 1 [4Fe-4S] cluster. {ECO:0000255|HAMAP-Rule:MF_01630, ECO:0000269|PubMed:21419779}.; [COFACTOR] Name=Mo-bis(molybdopterin guanine dinucleotide); Xref=ChEBI:CHEBI:60539; Evidence={ECO:0000255|HAMAP-Rule:MF_01630, ECO:0000269|PubMed:21419779}; Note=Binds 1 molybdenum-bis(molybdopterin guanine dinucleotide) (Mo-bis-MGD) cofactor per subunit. {ECO:0000255|HAMAP-Rule:MF_01630, ECO:0000269|PubMed:21419779}.; [SUBUNIT] Component of the periplasmic nitrate reductase NapAB complex composed of NapA and NapB. {ECO:0000255|HAMAP-Rule:MF_01630, ECO:0000269|PubMed:21419779, ECO:0000269|PubMed:8376334}.; [SUBCELLULAR LOCATION] Periplasm {ECO:0000255|HAMAP-Rule:MF_01630, ECO:0000305|PubMed:8376334}.; [INDUCTION] Expressed independently of nitrate induction and anaerobiosis.; [PTM] Predicted to be exported by the Tat system (By similarity). The position of the signal peptide cleavage has been experimentally proven (PubMed:8376334). {ECO:0000255|HAMAP-Rule:MF_01630, ECO:0000269|PubMed:8376334}.; [SIMILARITY] Belongs to the prokaryotic molybdopterin-containing oxidoreductase family. NasA/NapA/NarB subfamily. {ECO:0000255|HAMAP-Rule:MF_01630}.', 'GBSeq_source-db': 'UniProtKB: locus NAPA_CUPNH, accession P39185;; class: standard.; extra accessions:Q7WXC3; plasmid:megaplasmi; created: Feb 1, 1995.; sequence updated: Sep 27, 2004.; annotation updated: Dec 11, 2019.; xrefs: X71385.1, CAA50507.1, AY305378.1, AAP85963.1, A48489, WP_011154126.1, 3ML1_A, 3O5A_A; xrefs (non-sequence databases): PDBsum:3ML1, PDBsum:3O5A, SMR:P39185, STRING:381666.PHG211, PRIDE:P39185, EnsemblBacteria:AAP85963, EnsemblBacteria:AAP85963, EnsemblBacteria:PHG211, GeneID:39976666, KEGG:reh:PHG211, PATRIC:fig|381666.6.peg.159, HOGENOM:HOG000031441, KO:K02567, OMA:VCVKGAT, OrthoDB:323168at2, Proteomes:UP000008210, GO:0042597, GO:0051539, GO:0009055, GO:0005506, GO:0030151, GO:0043546, GO:0050140, GO:0008940, GO:0006777, GO:0042128, CDD:cd02791, HAMAP:MF_01630, InterPro:IPR009010, InterPro:IPR041957, InterPro:IPR006657, InterPro:IPR006656, InterPro:IPR006963, InterPro:IPR027467, InterPro:IPR010051, InterPro:IPR006311, InterPro:IPR019546, PANTHER:PTHR11615:SF123, Pfam:PF04879, Pfam:PF00384, Pfam:PF01568, SMART:SM00926, SUPFAM:SSF50692, TIGRFAMs:TIGR01706, TIGRFAMs:TIGR01409, PROSITE:PS51669, PROSITE:PS00551, PROSITE:PS51318', 'GBSeq_feature-table': [{'GBFeature_key': 'source', 'GBFeature_location': '1..831', 'GBFeature_intervals': [{'GBInterval_from': '1', 'GBInterval_to': '831', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'organism', 'GBQualifier_value': 'Cupriavidus necator H16'}, {'GBQualifier_name': 'plasmid', 'GBQualifier_value': ''}, {'GBQualifier_name': 'db_xref', 'GBQualifier_value': 'taxon:381666'}]}, {'GBFeature_key': 'gene', 'GBFeature_location': '1..831', 'GBFeature_intervals': [{'GBInterval_from': '1', 'GBInterval_to': '831', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'gene', 'GBQualifier_value': 'napA'}, {'GBQualifier_name': 'locus_tag', 'GBQualifier_value': 'PHG211'}]}, {'GBFeature_key': 'Protein', 'GBFeature_location': '1..831', 'GBFeature_intervals': [{'GBInterval_from': '1', 'GBInterval_to': '831', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'product', 'GBQualifier_value': 'Periplasmic nitrate reductase'}, {'GBQualifier_name': 'EC_number', 'GBQualifier_value': '1.9.6.1'}, {'GBQualifier_name': 'UniProtKB_evidence', 'GBQualifier_value': 'Evidence at protein level'}, {'GBQualifier_name': 'calculated_mol_wt', 'GBQualifier_value': '93215'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '1..831', 'GBFeature_intervals': [{'GBInterval_from': '1', 'GBInterval_to': '831', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'PRK13532'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'nitrate reductase catalytic subunit; Provisional'}, {'GBQualifier_name': 'db_xref', 'GBQualifier_value': 'CDD:237416'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '1..29', 'GBFeature_intervals': [{'GBInterval_from': '1', 'GBInterval_to': '29', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Signal'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Tat-type signal. /evidence=ECO:0000255|HAMAP-Rule:MF_01630, ECO:0000269|PubMed:8376334.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '30..831', 'GBFeature_intervals': [{'GBInterval_from': '30', 'GBInterval_to': '831', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Mature chain'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Periplasmic nitrate reductase. /evidence=ECO:0000255|HAMAP-Rule:MF_01630. /id=PRO_0000019168.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '40..47', 'GBFeature_intervals': [{'GBInterval_from': '40', 'GBInterval_to': '47', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Beta-strand region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '41..97', 'GBFeature_intervals': [{'GBInterval_from': '41', 'GBInterval_to': '97', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Domain'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '4Fe-4S Mo/W bis-MGD-type. /evidence=ECO:0000255|HAMAP-Rule:MF_01630.'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': '48', 'GBFeature_intervals': [{'GBInterval_point': '48', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'metal-binding'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Iron-sulfur (4Fe-4S). /evidence=ECO:0000244|PDB:3ML1, ECO:0000244|PDB:3O5A, ECO:0000255|HAMAP-Rule:MF_01630, ECO:0000269|PubMed:21419779.'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': '51', 'GBFeature_intervals': [{'GBInterval_point': '51', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'metal-binding'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Iron-sulfur (4Fe-4S). /evidence=ECO:0000244|PDB:3ML1, ECO:0000244|PDB:3O5A, ECO:0000255|HAMAP-Rule:MF_01630, ECO:0000269|PubMed:21419779.'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': '55', 'GBFeature_intervals': [{'GBInterval_point': '55', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'metal-binding'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Iron-sulfur (4Fe-4S). /evidence=ECO:0000244|PDB:3ML1, ECO:0000244|PDB:3O5A, ECO:0000255|HAMAP-Rule:MF_01630, ECO:0000269|PubMed:21419779.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '56..62', 'GBFeature_intervals': [{'GBInterval_from': '56', 'GBInterval_to': '62', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Beta-strand region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '65..71', 'GBFeature_intervals': [{'GBInterval_from': '65', 'GBInterval_to': '71', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Beta-strand region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '76..80', 'GBFeature_intervals': [{'GBInterval_from': '76', 'GBInterval_to': '80', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Hydrogen bonded turn'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': '83', 'GBFeature_intervals': [{'GBInterval_point': '83', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'metal-binding'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Iron-sulfur (4Fe-4S). /evidence=ECO:0000244|PDB:3ML1, ECO:0000244|PDB:3O5A, ECO:0000255|HAMAP-Rule:MF_01630, ECO:0000269|PubMed:21419779.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '84..87', 'GBFeature_intervals': [{'GBInterval_from': '84', 'GBInterval_to': '87', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': '85', 'GBFeature_intervals': [{'GBInterval_point': '85', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'binding'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Mo-bis(molybdopterin guanine dinucleotide). /evidence=ECO:0000244|PDB:3ML1, ECO:0000244|PDB:3O5A, ECO:0000255|HAMAP-Rule:MF_01630, ECO:0000269|PubMed:21419779.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '88..91', 'GBFeature_intervals': [{'GBInterval_from': '88', 'GBInterval_to': '91', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '103..107', 'GBFeature_intervals': [{'GBInterval_from': '103', 'GBInterval_to': '107', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Beta-strand region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '115..119', 'GBFeature_intervals': [{'GBInterval_from': '115', 'GBInterval_to': '119', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Beta-strand region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '122..139', 'GBFeature_intervals': [{'GBInterval_from': '122', 'GBInterval_to': '139', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '142..144', 'GBFeature_intervals': [{'GBInterval_from': '142', 'GBInterval_to': '144', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '145..149', 'GBFeature_intervals': [{'GBInterval_from': '145', 'GBInterval_to': '149', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Beta-strand region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '146..151', 'GBFeature_intervals': [{'GBInterval_from': '146', 'GBInterval_to': '151', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Conflict'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'GMFGSG -> ACSAPA (in Ref. 1; CAA50507). /evidence=ECO:0000305.'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': '152', 'GBFeature_intervals': [{'GBInterval_point': '152', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'binding'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Mo-bis(molybdopterin guanine dinucleotide). /evidence=ECO:0000244|PDB:3ML1, ECO:0000244|PDB:3O5A, ECO:0000255|HAMAP-Rule:MF_01630, ECO:0000269|PubMed:21419779.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '155..166', 'GBFeature_intervals': [{'GBInterval_from': '155', 'GBInterval_to': '166', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '167..169', 'GBFeature_intervals': [{'GBInterval_from': '167', 'GBInterval_to': '169', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Hydrogen bonded turn'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '174..176', 'GBFeature_intervals': [{'GBInterval_from': '174', 'GBInterval_to': '176', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Beta-strand region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '177..180', 'GBFeature_intervals': [{'GBInterval_from': '177', 'GBInterval_to': '180', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': '177', 'GBFeature_intervals': [{'GBInterval_point': '177', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'binding'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Mo-bis(molybdopterin guanine dinucleotide). /evidence=ECO:0000244|PDB:3ML1, ECO:0000244|PDB:3O5A, ECO:0000255|HAMAP-Rule:MF_01630, ECO:0000269|PubMed:21419779.'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': '181', 'GBFeature_intervals': [{'GBInterval_point': '181', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'binding'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Mo-bis(molybdopterin guanine dinucleotide). /evidence=ECO:0000244|PDB:3ML1, ECO:0000244|PDB:3O5A, ECO:0000255|HAMAP-Rule:MF_01630, ECO:0000269|PubMed:21419779.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '183..193', 'GBFeature_intervals': [{'GBInterval_from': '183', 'GBInterval_to': '193', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '202..206', 'GBFeature_intervals': [{'GBInterval_from': '202', 'GBInterval_to': '206', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '209..215', 'GBFeature_intervals': [{'GBInterval_from': '209', 'GBInterval_to': '215', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Beta-strand region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '214..221', 'GBFeature_intervals': [{'GBInterval_from': '214', 'GBInterval_to': '221', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Region of interest in the sequence'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Mo-bis(molybdopterin guanine dinucleotide) binding. /evidence=ECO:0000244|PDB:3ML1, ECO:0000244|PDB:3O5A, ECO:0000255|HAMAP-Rule:MF_01630, ECO:0000269|PubMed:21419779.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '218..221', 'GBFeature_intervals': [{'GBInterval_from': '218', 'GBInterval_to': '221', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '223..235', 'GBFeature_intervals': [{'GBInterval_from': '223', 'GBInterval_to': '235', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '240..248', 'GBFeature_intervals': [{'GBInterval_from': '240', 'GBInterval_to': '248', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Beta-strand region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '245..249', 'GBFeature_intervals': [{'GBInterval_from': '245', 'GBInterval_to': '249', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Region of interest in the sequence'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Mo-bis(molybdopterin guanine dinucleotide) binding. /evidence=ECO:0000244|PDB:3ML1, ECO:0000244|PDB:3O5A, ECO:0000255|HAMAP-Rule:MF_01630, ECO:0000269|PubMed:21419779.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '250..253', 'GBFeature_intervals': [{'GBInterval_from': '250', 'GBInterval_to': '253', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '256..260', 'GBFeature_intervals': [{'GBInterval_from': '256', 'GBInterval_to': '260', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Beta-strand region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '263..265', 'GBFeature_intervals': [{'GBInterval_from': '263', 'GBInterval_to': '265', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Hydrogen bonded turn'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '264..266', 'GBFeature_intervals': [{'GBInterval_from': '264', 'GBInterval_to': '266', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Region of interest in the sequence'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Mo-bis(molybdopterin guanine dinucleotide) binding. /evidence=ECO:0000244|PDB:3ML1, ECO:0000244|PDB:3O5A, ECO:0000255|HAMAP-Rule:MF_01630, ECO:0000269|PubMed:21419779.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '266..279', 'GBFeature_intervals': [{'GBInterval_from': '266', 'GBInterval_to': '279', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '285..291', 'GBFeature_intervals': [{'GBInterval_from': '285', 'GBInterval_to': '291', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '292..297', 'GBFeature_intervals': [{'GBInterval_from': '292', 'GBInterval_to': '297', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Beta-strand region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '310..314', 'GBFeature_intervals': [{'GBInterval_from': '310', 'GBInterval_to': '314', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '324..327', 'GBFeature_intervals': [{'GBInterval_from': '324', 'GBInterval_to': '327', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Beta-strand region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '329..337', 'GBFeature_intervals': [{'GBInterval_from': '329', 'GBInterval_to': '337', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '341..348', 'GBFeature_intervals': [{'GBInterval_from': '341', 'GBInterval_to': '348', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '352..363', 'GBFeature_intervals': [{'GBInterval_from': '352', 'GBInterval_to': '363', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '369..374', 'GBFeature_intervals': [{'GBInterval_from': '369', 'GBInterval_to': '374', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Beta-strand region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '375..378', 'GBFeature_intervals': [{'GBInterval_from': '375', 'GBInterval_to': '378', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': '375', 'GBFeature_intervals': [{'GBInterval_point': '375', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'binding'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Mo-bis(molybdopterin guanine dinucleotide); via amide nitrogen. /evidence=ECO:0000244|PDB:3ML1, ECO:0000244|PDB:3O5A, ECO:0000255|HAMAP-Rule:MF_01630, ECO:0000269|PubMed:21419779.'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': '379', 'GBFeature_intervals': [{'GBInterval_point': '379', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'binding'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Mo-bis(molybdopterin guanine dinucleotide). /evidence=ECO:0000244|PDB:3ML1, ECO:0000244|PDB:3O5A, ECO:0000255|HAMAP-Rule:MF_01630, ECO:0000269|PubMed:21419779.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '383..397', 'GBFeature_intervals': [{'GBInterval_from': '383', 'GBInterval_to': '397', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '405..409', 'GBFeature_intervals': [{'GBInterval_from': '405', 'GBInterval_to': '409', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Beta-strand region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '414..419', 'GBFeature_intervals': [{'GBInterval_from': '414', 'GBInterval_to': '419', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Hydrogen bonded turn'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '420..423', 'GBFeature_intervals': [{'GBInterval_from': '420', 'GBInterval_to': '423', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '439..448', 'GBFeature_intervals': [{'GBInterval_from': '439', 'GBInterval_to': '448', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '464..472', 'GBFeature_intervals': [{'GBInterval_from': '464', 'GBInterval_to': '472', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '478..483', 'GBFeature_intervals': [{'GBInterval_from': '478', 'GBInterval_to': '483', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Beta-strand region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': '485', 'GBFeature_intervals': [{'GBInterval_point': '485', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'binding'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Mo-bis(molybdopterin guanine dinucleotide); via amide nitrogen. /evidence=ECO:0000244|PDB:3ML1, ECO:0000244|PDB:3O5A, ECO:0000255|HAMAP-Rule:MF_01630, ECO:0000269|PubMed:21419779.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '486..489', 'GBFeature_intervals': [{'GBInterval_from': '486', 'GBInterval_to': '489', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '493..496', 'GBFeature_intervals': [{'GBInterval_from': '493', 'GBInterval_to': '496', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Hydrogen bonded turn'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '497..502', 'GBFeature_intervals': [{'GBInterval_from': '497', 'GBInterval_to': '502', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '507..514', 'GBFeature_intervals': [{'GBInterval_from': '507', 'GBInterval_to': '514', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Beta-strand region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '511..512', 'GBFeature_intervals': [{'GBInterval_from': '511', 'GBInterval_to': '512', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Region of interest in the sequence'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Mo-bis(molybdopterin guanine dinucleotide) binding. /evidence=ECO:0000244|PDB:3ML1, ECO:0000244|PDB:3O5A, ECO:0000255|HAMAP-Rule:MF_01630, ECO:0000269|PubMed:21419779.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '517..520', 'GBFeature_intervals': [{'GBInterval_from': '517', 'GBInterval_to': '520', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '523..529', 'GBFeature_intervals': [{'GBInterval_from': '523', 'GBInterval_to': '529', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Beta-strand region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '531..533', 'GBFeature_intervals': [{'GBInterval_from': '531', 'GBInterval_to': '533', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': '534', 'GBFeature_intervals': [{'GBInterval_point': '534', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'binding'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Mo-bis(molybdopterin guanine dinucleotide). /evidence=ECO:0000244|PDB:3ML1, ECO:0000244|PDB:3O5A, ECO:0000255|HAMAP-Rule:MF_01630, ECO:0000269|PubMed:21419779.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '536..539', 'GBFeature_intervals': [{'GBInterval_from': '536', 'GBInterval_to': '539', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Beta-strand region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '543..548', 'GBFeature_intervals': [{'GBInterval_from': '543', 'GBInterval_to': '548', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Beta-strand region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '561..569', 'GBFeature_intervals': [{'GBInterval_from': '561', 'GBInterval_to': '569', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': '561', 'GBFeature_intervals': [{'GBInterval_point': '561', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'binding'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Mo-bis(molybdopterin guanine dinucleotide). /evidence=ECO:0000244|PDB:3ML1, ECO:0000244|PDB:3O5A, ECO:0000255|HAMAP-Rule:MF_01630, ECO:0000269|PubMed:21419779.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '574..577', 'GBFeature_intervals': [{'GBInterval_from': '574', 'GBInterval_to': '577', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '580..583', 'GBFeature_intervals': [{'GBInterval_from': '580', 'GBInterval_to': '583', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '587..589', 'GBFeature_intervals': [{'GBInterval_from': '587', 'GBInterval_to': '589', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '594..598', 'GBFeature_intervals': [{'GBInterval_from': '594', 'GBInterval_to': '598', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '600..603', 'GBFeature_intervals': [{'GBInterval_from': '600', 'GBInterval_to': '603', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Beta-strand region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '609..611', 'GBFeature_intervals': [{'GBInterval_from': '609', 'GBInterval_to': '611', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '619..624', 'GBFeature_intervals': [{'GBInterval_from': '619', 'GBInterval_to': '624', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '628..640', 'GBFeature_intervals': [{'GBInterval_from': '628', 'GBInterval_to': '640', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '641..644', 'GBFeature_intervals': [{'GBInterval_from': '641', 'GBInterval_to': '644', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Hydrogen bonded turn'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '650..655', 'GBFeature_intervals': [{'GBInterval_from': '650', 'GBInterval_to': '655', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '659..662', 'GBFeature_intervals': [{'GBInterval_from': '659', 'GBInterval_to': '662', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Beta-strand region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '670..674', 'GBFeature_intervals': [{'GBInterval_from': '670', 'GBInterval_to': '674', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Beta-strand region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '675..677', 'GBFeature_intervals': [{'GBInterval_from': '675', 'GBInterval_to': '677', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Hydrogen bonded turn'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '697..701', 'GBFeature_intervals': [{'GBInterval_from': '697', 'GBInterval_to': '701', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Beta-strand region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '713..715', 'GBFeature_intervals': [{'GBInterval_from': '713', 'GBInterval_to': '715', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Beta-strand region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '717..722', 'GBFeature_intervals': [{'GBInterval_from': '717', 'GBInterval_to': '722', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Beta-strand region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '721..730', 'GBFeature_intervals': [{'GBInterval_from': '721', 'GBInterval_to': '730', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Region of interest in the sequence'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Mo-bis(molybdopterin guanine dinucleotide) binding. /evidence=ECO:0000244|PDB:3ML1, ECO:0000244|PDB:3O5A, ECO:0000255|HAMAP-Rule:MF_01630, ECO:0000269|PubMed:21419779.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '734..736', 'GBFeature_intervals': [{'GBInterval_from': '734', 'GBInterval_to': '736', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '738..743', 'GBFeature_intervals': [{'GBInterval_from': '738', 'GBInterval_to': '743', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '748..751', 'GBFeature_intervals': [{'GBInterval_from': '748', 'GBInterval_to': '751', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Beta-strand region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '753..758', 'GBFeature_intervals': [{'GBInterval_from': '753', 'GBInterval_to': '758', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '766..770', 'GBFeature_intervals': [{'GBInterval_from': '766', 'GBInterval_to': '770', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Beta-strand region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '775..785', 'GBFeature_intervals': [{'GBInterval_from': '775', 'GBInterval_to': '785', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Beta-strand region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '792..797', 'GBFeature_intervals': [{'GBInterval_from': '792', 'GBInterval_to': '797', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Beta-strand region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': '797', 'GBFeature_intervals': [{'GBInterval_point': '797', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'binding'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Substrate; via amide nitrogen. /evidence=ECO:0000255|HAMAP-Rule:MF_01630.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '804..806', 'GBFeature_intervals': [{'GBInterval_from': '804', 'GBInterval_to': '806', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Helical region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': '805', 'GBFeature_intervals': [{'GBInterval_point': '805', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'binding'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Mo-bis(molybdopterin guanine dinucleotide). /evidence=ECO:0000244|PDB:3ML1, ECO:0000244|PDB:3O5A, ECO:0000255|HAMAP-Rule:MF_01630, ECO:0000269|PubMed:21419779.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '814..816', 'GBFeature_intervals': [{'GBInterval_from': '814', 'GBInterval_to': '816', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Hydrogen bonded turn'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': '822', 'GBFeature_intervals': [{'GBInterval_point': '822', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'binding'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Mo-bis(molybdopterin guanine dinucleotide). /evidence=ECO:0000244|PDB:3ML1, ECO:0000244|PDB:3O5A, ECO:0000255|HAMAP-Rule:MF_01630, ECO:0000269|PubMed:21419779.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '824..830', 'GBFeature_intervals': [{'GBInterval_from': '824', 'GBInterval_to': '830', 'GBInterval_accession': 'P39185.2'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Beta-strand region'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '/evidence=ECO:0000244|PDB:3ML1.'}]}], 'GBSeq_sequence': 'mkisrrdfikqtaitatasvagvtlpagaanfvtdsevtklkwskapcrfcgtgcgvtvavkdnkvvatqgdpqaevnkglncvkgyflskimygqdrltrplmrmkngkydkngdfapvtwdqafdemerqfkrvlkekgptavgmfgsgqwtvwegyaaaklykagfrsnnidpnarhcmasaaagfmrtfgmdepmgcyddfeaadafvlwgsnmaemhpilwtrvtdrrlshpktrvvvlstfthrcfdladigiifkpqtdlamlnyianyiirnnkvnkdfvnkhtvfkegvtdigyglrpdhplqkaaknasdpgaakvitfdefakfvskydadyvsklsavpkakldqlaelyadpnikvmslwtmgfnqhtrgtwannmvynlhlltgkiatpgnspfsltgqpsacgtarevgtfshrlpadmvvtnpkhreeaeriwklppgtipdkpgydavlqnrmlkdgklnaywvqvnnnmqaaanlmeeglpgyrnpanfivvsdayptvtalaadlvlpsamwvekegaygnaerrtqfwhqlvdapgearsdlwqlvefakrfkveevwppeliakkpeykgktlydvlyrngqvdkfplkdvnaeyhnaeakafgfylqkglfeeyatfgrghghdlapfdayhearglrwpvvngketrwryregsdpyvkagtgfqfygnpdgkavifalpyeppaespdkeypywlvtgrvlehwhsgsmtrrvpelyrsfpnavvfmhpedakalglrrgvevevvsrrgrmrsrietrgrdapprglvfvpwfdasqlinkvtldatcpislqtdfkkcavkivkv'}
+
+22/06 16:06:29 WARNING:
+Unable to map neither a record's accession nor accession.version to an EntrezRecord:
+Accession: 'Q56350'
+Acc.Version: 'Q56350.1'
+Alternatives:['Q56350.1|NAPA_PARPN', '2497969']
+{'GBSeq_locus': 'NAPA_PARPN', 'GBSeq_length': '831', 'GBSeq_moltype': 'AA', 'GBSeq_topology': 'linear', 'GBSeq_division': 'BCT', 'GBSeq_update-date': '11-DEC-2019', 'GBSeq_create-date': '01-NOV-1997', 'GBSeq_definition': 'RecName: Full=Periplasmic nitrate reductase; Flags: Precursor', 'GBSeq_primary-accession': 'Q56350', 'GBSeq_accession-version': 'Q56350.1', 'GBSeq_other-seqids': ['sp|Q56350.1|NAPA_PARPN', 'gi|2497969'], 'GBSeq_keywords': ['4Fe-4S', 'Direct protein sequencing', 'Electron transport', 'Iron', 'Iron-sulfur', 'Metal-binding', 'Molybdenum', 'Nitrate assimilation', 'Oxidoreductase', 'Periplasm', 'Signal', 'Transport'], 'GBSeq_source': 'Paracoccus pantotrophus', 'GBSeq_organism': 'Paracoccus pantotrophus', 'GBSeq_taxonomy': 'Bacteria; Proteobacteria; Alphaproteobacteria; Rhodobacterales; Rhodobacteraceae; Paracoccus', 'GBSeq_references': [{'GBReference_reference': '1', 'GBReference_position': '1..831', 'GBReference_authors': ['Berks,B.C.', 'Richardson,D.J.', 'Reilly,A.', 'Willis,A.C.', 'Ferguson,S.J.'], 'GBReference_title': 'The napEDABC gene cluster encoding the periplasmic nitrate reductase system of Thiosphaera pantotropha', 'GBReference_journal': 'Biochem. J. 309 (Pt 3), 983-992 (1995)', 'GBReference_xref': [{'GBXref_dbname': 'doi', 'GBXref_id': '10.1042/bj3090983'}], 'GBReference_pubmed': '7639719', 'GBReference_remark': 'NUCLEOTIDE SEQUENCE [GENOMIC DNA], AND PARTIAL PROTEIN SEQUENCE.;\nSTRAIN=ATCC 35512 / DSM 2944 / LMD 82.5 / NCCB 82005'}, {'GBReference_reference': '2', 'GBReference_position': '1..831', 'GBReference_authors': ['Berks,B.C.', 'Richardson,D.J.', 'Robinson,C.', 'Reilly,A.', 'Aplin,R.T.', 'Ferguson,S.J.'], 'GBReference_title': 'Purification and characterization of the periplasmic nitrate reductase from Thiosphaera pantotropha', 'GBReference_journal': 'Eur. J. Biochem. 220 (1), 117-124 (1994)', 'GBReference_xref': [{'GBXref_dbname': 'doi', 'GBXref_id': '10.1111/j.1432-1033.1994.tb18605.x'}], 'GBReference_pubmed': '8119278', 'GBReference_remark': 'CHARACTERIZATION.;\nSTRAIN=M-6'}, {'GBReference_reference': '3', 'GBReference_position': '1..831', 'GBReference_authors': ['Breton,J.', 'Berks,B.C.', 'Reilly,A.', 'Thomson,A.J.', 'Ferguson,S.J.', 'Richardson,D.J.'], 'GBReference_title': 'Characterization of the paramagnetic iron-containing redox centres of Thiosphaera pantotropha periplasmic nitrate reductase', 'GBReference_journal': 'FEBS Lett. 345 (1), 76-80 (1994)', 'GBReference_xref': [{'GBXref_dbname': 'doi', 'GBXref_id': '10.1016/0014-5793(94)00445-5'}], 'GBReference_pubmed': '8194605', 'GBReference_remark': 'CHARACTERIZATION, AND PROTEIN SEQUENCE OF 642-655 AND 699-715.;\nSTRAIN=M-6'}], 'GBSeq_comment': 'On Apr 26, 2005 this sequence version replaced gi:1086107.; [FUNCTION] Catalytic subunit of the periplasmic nitrate reductase complex NapAB. Receives electrons from NapB and catalyzes the reduction of nitrate to nitrite. {ECO:0000255|HAMAP-Rule:MF_01630}.; [CATALYTIC ACTIVITY] Reaction=2 [Fe(II)cytochrome] + 2 H(+) + nitrate = 2 [Fe(III)cytochrome] + H2O + nitrite; Xref=Rhea:RHEA:12909, Rhea:RHEA-COMP:11777, Rhea:RHEA-COMP:11778, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:16301, ChEBI:CHEBI:17632, ChEBI:CHEBI:29033, ChEBI:CHEBI:29034; EC=1.9.6.1; Evidence={ECO:0000255|HAMAP-Rule:MF_01630}.; [COFACTOR] Name=[4Fe-4S] cluster; Xref=ChEBI:CHEBI:49883; Evidence={ECO:0000255|HAMAP-Rule:MF_01630}; Note=Binds 1 [4Fe-4S] cluster. {ECO:0000255|HAMAP-Rule:MF_01630}.; [COFACTOR] Name=Mo-bis(molybdopterin guanine dinucleotide); Xref=ChEBI:CHEBI:60539; Evidence={ECO:0000255|HAMAP-Rule:MF_01630}; Note=Binds 1 molybdenum-bis(molybdopterin guanine dinucleotide) (Mo-bis-MGD) cofactor per subunit. {ECO:0000255|HAMAP-Rule:MF_01630}.; [SUBUNIT] Component of the periplasmic nitrate reductase NapAB complex composed of NapA and NapB. {ECO:0000255|HAMAP-Rule:MF_01630}.; [SUBCELLULAR LOCATION] Periplasm {ECO:0000255|HAMAP-Rule:MF_01630}.; [PTM] Predicted to be exported by the Tat system. The position of the signal peptide cleavage has not been experimentally proven. {ECO:0000255|HAMAP-Rule:MF_01630}.; [SIMILARITY] Belongs to the prokaryotic molybdopterin-containing oxidoreductase family. NasA/NapA/NarB subfamily. {ECO:0000255|HAMAP-Rule:MF_01630}.', 'GBSeq_source-db': 'UniProtKB: locus NAPA_PARPN, accession Q56350;; class: standard.; created: Nov 1, 1997.; sequence updated: Nov 1, 1996.; annotation updated: Dec 11, 2019.; xrefs: Z36773.1, CAA85346.1, S50163; xrefs (non-sequence databases): SMR:Q56350, STRING:935565.JAEM01000057_gene20, PRIDE:Q56350, BRENDA:1.9.6.1, GO:0042597, GO:0051539, GO:0009055, GO:0005506, GO:0030151, GO:0043546, GO:0050140, GO:0008940, GO:0006777, GO:0042128, CDD:cd02791, HAMAP:MF_01630, InterPro:IPR009010, InterPro:IPR041957, InterPro:IPR006657, InterPro:IPR006656, InterPro:IPR006963, InterPro:IPR027467, InterPro:IPR010051, InterPro:IPR006311, InterPro:IPR019546, PANTHER:PTHR11615:SF123, Pfam:PF04879, Pfam:PF00384, Pfam:PF01568, SMART:SM00926, SUPFAM:SSF50692, TIGRFAMs:TIGR01706, TIGRFAMs:TIGR01409, PROSITE:PS51669, PROSITE:PS00551, PROSITE:PS51318', 'GBSeq_feature-table': [{'GBFeature_key': 'source', 'GBFeature_location': '1..831', 'GBFeature_intervals': [{'GBInterval_from': '1', 'GBInterval_to': '831', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_quals': [{'GBQualifier_name': 'organism', 'GBQualifier_value': 'Paracoccus pantotrophus'}, {'GBQualifier_name': 'db_xref', 'GBQualifier_value': 'taxon:82367'}]}, {'GBFeature_key': 'gene', 'GBFeature_location': '1..831', 'GBFeature_intervals': [{'GBInterval_from': '1', 'GBInterval_to': '831', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_quals': [{'GBQualifier_name': 'gene', 'GBQualifier_value': 'napA'}]}, {'GBFeature_key': 'Protein', 'GBFeature_location': '1..831', 'GBFeature_intervals': [{'GBInterval_from': '1', 'GBInterval_to': '831', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_quals': [{'GBQualifier_name': 'product', 'GBQualifier_value': 'Periplasmic nitrate reductase'}, {'GBQualifier_name': 'EC_number', 'GBQualifier_value': '1.9.6.1'}, {'GBQualifier_name': 'UniProtKB_evidence', 'GBQualifier_value': 'Evidence at protein level'}, {'GBQualifier_name': 'calculated_mol_wt', 'GBQualifier_value': '92487'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '1..831', 'GBFeature_intervals': [{'GBInterval_from': '1', 'GBInterval_to': '831', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'PRK13532'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'nitrate reductase catalytic subunit; Provisional'}, {'GBQualifier_name': 'db_xref', 'GBQualifier_value': 'CDD:237416'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '1..31', 'GBFeature_intervals': [{'GBInterval_from': '1', 'GBInterval_to': '31', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Signal'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Tat-type signal. /evidence=ECO:0000255|HAMAP-Rule:MF_01630.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '32..831', 'GBFeature_intervals': [{'GBInterval_from': '32', 'GBInterval_to': '831', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Mature chain'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Periplasmic nitrate reductase. /evidence=ECO:0000255|HAMAP-Rule:MF_01630. /id=PRO_0000019172.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '41..97', 'GBFeature_intervals': [{'GBInterval_from': '41', 'GBInterval_to': '97', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Domain'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '4Fe-4S Mo/W bis-MGD-type. /evidence=ECO:0000255|HAMAP-Rule:MF_01630.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '45..702', 'GBFeature_intervals': [{'GBInterval_from': '45', 'GBInterval_to': '702', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'MopB_Nitrate-R-NapA-like'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Nitrate reductases, NapA (Nitrate-R-NapA), NasA, and NarB catalyze the reduction of nitrate to nitrite. Monomeric Nas is located in the cytoplasm and participates in nitrogen assimilation. Dimeric Nap is located in the periplasm and is coupled to quinol...; cd02754'}, {'GBQualifier_name': 'db_xref', 'GBQualifier_value': 'CDD:239155'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': 'order(48,50..51,55,83,224)', 'GBFeature_intervals': [{'GBInterval_point': '48', 'GBInterval_accession': 'Q56350.1'}, {'GBInterval_from': '50', 'GBInterval_to': '51', 'GBInterval_accession': 'Q56350.1'}, {'GBInterval_point': '55', 'GBInterval_accession': 'Q56350.1'}, {'GBInterval_point': '83', 'GBInterval_accession': 'Q56350.1'}, {'GBInterval_point': '224', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_operator': 'order', 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'other'}, {'GBQualifier_name': 'note', 'GBQualifier_value': '[4Fe-4S] binding site [ion binding]'}, {'GBQualifier_name': 'db_xref', 'GBQualifier_value': 'CDD:239155'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': '48', 'GBFeature_intervals': [{'GBInterval_point': '48', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'metal-binding'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Iron-sulfur (4Fe-4S). /evidence=ECO:0000255|HAMAP-Rule:MF_01630.'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': '51', 'GBFeature_intervals': [{'GBInterval_point': '51', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'metal-binding'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Iron-sulfur (4Fe-4S). /evidence=ECO:0000255|HAMAP-Rule:MF_01630.'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': '55', 'GBFeature_intervals': [{'GBInterval_point': '55', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'metal-binding'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Iron-sulfur (4Fe-4S). /evidence=ECO:0000255|HAMAP-Rule:MF_01630.'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': '83', 'GBFeature_intervals': [{'GBInterval_point': '83', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'metal-binding'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Iron-sulfur (4Fe-4S). /evidence=ECO:0000255|HAMAP-Rule:MF_01630.'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': 'order(85,152,177,181,214..217,220..221,245..247,264,266,374..376,379,412..413,484..485,489,511..514,528..530,534,561)', 'GBFeature_intervals': [{'GBInterval_point': '85', 'GBInterval_accession': 'Q56350.1'}, {'GBInterval_point': '152', 'GBInterval_accession': 'Q56350.1'}, {'GBInterval_point': '177', 'GBInterval_accession': 'Q56350.1'}, {'GBInterval_point': '181', 'GBInterval_accession': 'Q56350.1'}, {'GBInterval_from': '214', 'GBInterval_to': '217', 'GBInterval_accession': 'Q56350.1'}, {'GBInterval_from': '220', 'GBInterval_to': '221', 'GBInterval_accession': 'Q56350.1'}, {'GBInterval_from': '245', 'GBInterval_to': '247', 'GBInterval_accession': 'Q56350.1'}, {'GBInterval_point': '264', 'GBInterval_accession': 'Q56350.1'}, {'GBInterval_point': '266', 'GBInterval_accession': 'Q56350.1'}, {'GBInterval_from': '374', 'GBInterval_to': '376', 'GBInterval_accession': 'Q56350.1'}, {'GBInterval_point': '379', 'GBInterval_accession': 'Q56350.1'}, {'GBInterval_from': '412', 'GBInterval_to': '413', 'GBInterval_accession': 'Q56350.1'}, {'GBInterval_from': '484', 'GBInterval_to': '485', 'GBInterval_accession': 'Q56350.1'}, {'GBInterval_point': '489', 'GBInterval_accession': 'Q56350.1'}, {'GBInterval_from': '511', 'GBInterval_to': '514', 'GBInterval_accession': 'Q56350.1'}, {'GBInterval_from': '528', 'GBInterval_to': '530', 'GBInterval_accession': 'Q56350.1'}, {'GBInterval_point': '534', 'GBInterval_accession': 'Q56350.1'}, {'GBInterval_point': '561', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_operator': 'order', 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'other'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'molybdopterin cofactor binding site'}, {'GBQualifier_name': 'db_xref', 'GBQualifier_value': 'CDD:239155'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': '85', 'GBFeature_intervals': [{'GBInterval_point': '85', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'binding'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Mo-bis(molybdopterin guanine dinucleotide). /evidence=ECO:0000255|HAMAP-Rule:MF_01630.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '128', 'GBFeature_intervals': [{'GBInterval_point': '128', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Conflict'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'T -> D (in Ref. 1; AA sequence). /evidence=ECO:0000305.'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': '152', 'GBFeature_intervals': [{'GBInterval_point': '152', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'binding'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Mo-bis(molybdopterin guanine dinucleotide). /evidence=ECO:0000255|HAMAP-Rule:MF_01630.'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': '177', 'GBFeature_intervals': [{'GBInterval_point': '177', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'binding'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Mo-bis(molybdopterin guanine dinucleotide). /evidence=ECO:0000255|HAMAP-Rule:MF_01630.'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': '181', 'GBFeature_intervals': [{'GBInterval_point': '181', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'binding'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Mo-bis(molybdopterin guanine dinucleotide). /evidence=ECO:0000255|HAMAP-Rule:MF_01630.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '214..221', 'GBFeature_intervals': [{'GBInterval_from': '214', 'GBInterval_to': '221', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Region of interest in the sequence'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Mo-bis(molybdopterin guanine dinucleotide) binding. /evidence=ECO:0000255|HAMAP-Rule:MF_01630.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '245..249', 'GBFeature_intervals': [{'GBInterval_from': '245', 'GBInterval_to': '249', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Region of interest in the sequence'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Mo-bis(molybdopterin guanine dinucleotide) binding. /evidence=ECO:0000255|HAMAP-Rule:MF_01630.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '264..266', 'GBFeature_intervals': [{'GBInterval_from': '264', 'GBInterval_to': '266', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Region of interest in the sequence'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Mo-bis(molybdopterin guanine dinucleotide) binding. /evidence=ECO:0000255|HAMAP-Rule:MF_01630.'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': '375', 'GBFeature_intervals': [{'GBInterval_point': '375', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'binding'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Mo-bis(molybdopterin guanine dinucleotide); via amide nitrogen. /evidence=ECO:0000255|HAMAP-Rule:MF_01630.'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': '379', 'GBFeature_intervals': [{'GBInterval_point': '379', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'binding'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Mo-bis(molybdopterin guanine dinucleotide). /evidence=ECO:0000255|HAMAP-Rule:MF_01630.'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': '485', 'GBFeature_intervals': [{'GBInterval_point': '485', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'binding'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Mo-bis(molybdopterin guanine dinucleotide); via amide nitrogen. /evidence=ECO:0000255|HAMAP-Rule:MF_01630.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '511..512', 'GBFeature_intervals': [{'GBInterval_from': '511', 'GBInterval_to': '512', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Region of interest in the sequence'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Mo-bis(molybdopterin guanine dinucleotide) binding. /evidence=ECO:0000255|HAMAP-Rule:MF_01630.'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': '534', 'GBFeature_intervals': [{'GBInterval_point': '534', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'binding'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Mo-bis(molybdopterin guanine dinucleotide). /evidence=ECO:0000255|HAMAP-Rule:MF_01630.'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': '561', 'GBFeature_intervals': [{'GBInterval_point': '561', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'binding'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Mo-bis(molybdopterin guanine dinucleotide). /evidence=ECO:0000255|HAMAP-Rule:MF_01630.'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '717..831', 'GBFeature_intervals': [{'GBInterval_from': '717', 'GBInterval_to': '831', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'MopB_CT_Nitrate-R-NapA-like'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Nitrate reductases, NapA (Nitrate-R-NapA), NasA, and NarB catalyze the reduction of nitrate to nitrite. Monomeric Nas is located in the cytoplasm and participates in nitrogen assimilation. Dimeric Nap is located in the periplasm and is coupled to quinol...; cd02791'}, {'GBQualifier_name': 'db_xref', 'GBQualifier_value': 'CDD:239192'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': 'order(721..725,727..730,797,805,821..822)', 'GBFeature_intervals': [{'GBInterval_from': '721', 'GBInterval_to': '725', 'GBInterval_accession': 'Q56350.1'}, {'GBInterval_from': '727', 'GBInterval_to': '730', 'GBInterval_accession': 'Q56350.1'}, {'GBInterval_point': '797', 'GBInterval_accession': 'Q56350.1'}, {'GBInterval_point': '805', 'GBInterval_accession': 'Q56350.1'}, {'GBInterval_from': '821', 'GBInterval_to': '822', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_operator': 'order', 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'other'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'molybdopterin cofactor binding site'}, {'GBQualifier_name': 'db_xref', 'GBQualifier_value': 'CDD:239192'}]}, {'GBFeature_key': 'Region', 'GBFeature_location': '721..730', 'GBFeature_intervals': [{'GBInterval_from': '721', 'GBInterval_to': '730', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_quals': [{'GBQualifier_name': 'region_name', 'GBQualifier_value': 'Region of interest in the sequence'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Mo-bis(molybdopterin guanine dinucleotide) binding. /evidence=ECO:0000255|HAMAP-Rule:MF_01630.'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': '797', 'GBFeature_intervals': [{'GBInterval_point': '797', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'binding'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Substrate; via amide nitrogen. /evidence=ECO:0000255|HAMAP-Rule:MF_01630.'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': '805', 'GBFeature_intervals': [{'GBInterval_point': '805', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'binding'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Mo-bis(molybdopterin guanine dinucleotide). /evidence=ECO:0000255|HAMAP-Rule:MF_01630.'}]}, {'GBFeature_key': 'Site', 'GBFeature_location': '822', 'GBFeature_intervals': [{'GBInterval_point': '822', 'GBInterval_accession': 'Q56350.1'}], 'GBFeature_quals': [{'GBQualifier_name': 'site_type', 'GBQualifier_value': 'binding'}, {'GBQualifier_name': 'note', 'GBQualifier_value': 'Mo-bis(molybdopterin guanine dinucleotide). /evidence=ECO:0000255|HAMAP-Rule:MF_01630.'}]}], 'GBSeq_sequence': 'mtisrrdllkaqaagiaamaaniplssqapavpggveslqitwskapcrfcgtgcgvmvgvkegrvvathgdllaevnrglncvkgyflskimygadrltqpllrkkdgvyakdgeftpvsweeafdtmaaqakrvlrdkgptalgmfgsgqwtifegyaatklmragfrsnnldpnarhcmasaayafmrtfgmdepmgcyddfeaadafvlwgsnmaemhpilwtrvadrrlghphvkvavlstfthrssdladipivfkpgtdlailnyianhiiqtgrvnrdfvdrhttfvagatgigyglrdddpremaartaedpaattpstfeefaelvseytldkvselsgvepafleqlaelyadpdrkvmslwtmgfnqhvrgvwanqmvynlhlltgkisepgnspfsltgqasacgtarqvgtfrhrlpsdmtvtnperrqdaeeiwriphgvipeqpglhavaqdralhdgtlnfywiqvnnnlqaspnndgeawpgyrnpdnfivvsdayptvtalaadlilpaamwvekegaygnaerrthvwhqlveapgearsdlwqmmefstrfttdevwpeeilaanpnyrgqslfdvlfrngsvdrfdlselnpvtptaesnafgfyvqkglfeeyapfgrghghdlapydtyhevrglrwpvvdgketlwryregldpyvepgagvqfygnpdgkariiavpyeppaeppdeeyniwlvtgrvlehwhsgsmtmrvpelyrafpgarcfmnpedardmgfnqgaevrivsrrgeirsrvetrgrnrmprgvvfvpwfdasqlinkvtldatdpiskqtdfkkcavkilpv'}
+
+22/06 16:06:29 DEBUG:
+0 unique organism queries.
+
+22/06 16:06:29 INFO:
+Retrieving NCBI taxonomy IDs for each organism... 
+22/06 16:06:29 INFO:
+done.
+
+22/06 16:06:29 INFO:
+Preparing Bio.Entrez for NCBI queries... 
+22/06 16:06:29 INFO:
+done.
+
+22/06 16:06:29 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+Information for EntrezRecord ID '1455_NapA':
+accession = NTL01CJ00733, acc.version = 
+organism = , rank resolved = 
+NCBI taxid = , bitflag = 0
+lineage = 
+description = OMNI|NTL01CJ00733/2-924, locus = 
+
+
+22/06 16:06:29 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+Information for EntrezRecord ID '1456_NapA':
+accession = NTL03EC3103, acc.version = 
+organism = , rank resolved = 
+NCBI taxid = , bitflag = 0
+lineage = 
+description = OMNI|NTL03EC3103/2-828, locus = 
+
+
+22/06 16:06:29 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+Information for EntrezRecord ID '1457_NapA':
+accession = VCA0678, acc.version = 
+organism = , rank resolved = 
+NCBI taxid = , bitflag = 0
+lineage = 
+description = OMNI|VCA0678/2-828, locus = 
+
+
+22/06 16:06:29 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+Information for EntrezRecord ID '1458_NapA':
+accession = SP|P39185|NAPA_ALCEU/2-831, acc.version = 
+organism = , rank resolved = 
+NCBI taxid = , bitflag = 0
+lineage = 
+description = SP|P39185|NAPA_ALCEU/2-831, locus = 
+
+
+22/06 16:06:29 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+Information for EntrezRecord ID '1459_NapA':
+accession = SP|Q56350|NAPA_PARDT/2-831, acc.version = 
+organism = , rank resolved = 
+NCBI taxid = , bitflag = 0
+lineage = 
+description = SP|Q56350|NAPA_PARDT/2-831, locus = 
+
+
+22/06 16:06:29 INFO:
+Retrieving lineage information for each taxonomy ID... 
+22/06 16:06:44 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 100	0.0:0.82
+	100 - 200	0.0:0.81
+	200 - 300	0.0:3.93
+	300 - 400	0.0:3.58
+	400 - 500	0.0:0.89
+	500 - 600	0.0:0.87
+	600 - 700	0.0:0.87
+	700 - 800	0.0:0.84
+	800 - 900	0.0:0.89
+	900 - 1000	0.0:0.85
+	1000 - 1100	0.0:0.94
+
+22/06 16:06:44 INFO:
+done.
+
+22/06 16:06:45 DEBUG:
+The following NCBI taxids are unique to the queries:
+1220582, 520709, 1333507, 1217713, 911239, 1166016, 469595, 1458427, 667632, 1353531, 1336249, 1552758, 1434929
+The following NCBI taxids are unique to the downloads:
+1885902, 1820025, 1776741, 1367849, 1639133, 1708715, 1368415, 1458425, 122355, 1938600, 1905730, 863227, 1530123
+
+22/06 16:06:45 DEBUG:
+Queries mapped ideally = 1436
+Queries with organism unmapped = 0
+Queries with NCBI taxonomy ID unmapped = 5
+Queries mapped with alternative accessions = 18
+Queries that outright failed = 0
+
+22/06 16:06:45 DEBUG:
+Entrez.efetch query stats:
+	Downloaded	1459
+	Provided	0
+	Total		1459
+
+
+22/06 16:06:45 DEBUG:
+Switching multifurcating trie to include rank prefixes.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; s__gamma proteobacterium HTCC5015' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; g__Leptothrix; s__Leptothrix cholodnii' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; g__Leptothrix; s__Leptothrix cholodnii' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; g__Candidatus Ruthia; s__Candidatus Ruthia magnifica' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; g__Methylibium; s__Methylibium petroleiphilum' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; g__Thiomonas; s__Thiomonas arsenitoxydans' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; s__Rhodobacterales bacterium Y4I' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; s__Burkholderiales bacterium 1_1_47' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; g__Candidatus Accumulibacter; s__Candidatus Accumulibacter phosphatis' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; g__Candidatus Accumulibacter; s__Candidatus Accumulibacter phosphatis' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; g__Enhydrobacter; s__Enhydrobacter aerosaccus' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Methylophilaceae; s__Methylophilaceae bacterium 11' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Methylophilaceae'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacterales; f__Enterobacteriaceae; s__Enterobacteriaceae bacterium strain FGI 57' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacterales; f__Enterobacteriaceae'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; s__Bradyrhizobiaceae bacterium SG-6C' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; g__Nitratifractor; s__Nitratifractor salsuginis' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; s__Burkholderiaceae bacterium PBA' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; s__gamma proteobacterium HdN1' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; s__Burkholderiales bacterium JOSHI_001' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; s__Burkholderiales bacterium JOSHI_001' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Campylobacteraceae; s__Arcobacter sp. L' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Campylobacteraceae'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Campylobacteraceae; s__Arcobacter sp. L' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Campylobacteraceae'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; g__Deferrisoma; s__Deferrisoma camini' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Deltaproteobacteria'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; g__Thiomonas; s__Thiomonas sp. FB-Cd' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; g__Sulfurovum; s__Sulfurovum sp. AR' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; g__Sulfurovum; s__Sulfurovum sp. AR' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Cellvibrionales; f__Spongiibacteraceae; s__gamma proteobacterium BDW918' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Cellvibrionales; f__Spongiibacteraceae'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacterales; f__Enterobacteriaceae; s__Enterobacteriaceae bacterium B14' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacterales; f__Enterobacteriaceae'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacterales; f__Enterobacteriaceae; s__Enterobacteriaceae bacterium LSJC7' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacterales; f__Enterobacteriaceae'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacterales; f__Enterobacteriaceae; s__Enterobacteriaceae bacterium LSJC7' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacterales; f__Enterobacteriaceae'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; s__alpha proteobacterium Mf 1.05b.01' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Alphaproteobacteria'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; g__Sphaerotilus; s__Sphaerotilus natans' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Campylobacteraceae; s__Arcobacter sp. AF1028' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Campylobacteraceae'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; s__Rhizobiales bacterium YIM 77505' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; g__Candidatus Accumulibacter; s__Candidatus Accumulibacter sp. BA-93' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria; g__Candidatus Accumulibacter; s__Candidatus Accumulibacter sp. BA-93' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Betaproteobacteria'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Zetaproteobacteria; g__Ghiorsea; s__Ghiorsea bivora' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Zetaproteobacteria'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; s__Alteromonadales bacterium TW-7' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; s__endosymbiont of Tevnia jerichonana' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Myxococcales; g__Enhygromyxa; s__Enhygromyxa salina' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Myxococcales'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; s__endosymbiont of Tevnia jerichonana' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; s__Solemya velum gill symbiont' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; s__Solemya velum gill symbiont' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Cellvibrionales; f__Spongiibacteraceae; s__marine gamma proteobacterium HTCC2143' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Cellvibrionales; f__Spongiibacteraceae'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Cellvibrionales; f__Halieaceae; s__marine gamma proteobacterium HTCC2148' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Cellvibrionales; f__Halieaceae'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Cellvibrionales; f__Halieaceae; s__marine gamma proteobacterium HTCC2148' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Cellvibrionales; f__Halieaceae'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Cellvibrionales; f__Halieaceae; s__marine gamma proteobacterium HTCC2148' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Cellvibrionales; f__Halieaceae'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Cellvibrionales; f__Porticoccaceae; s__gamma proteobacterium HTCC2207' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Cellvibrionales; f__Porticoccaceae'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; g__Nitratiruptor; s__Nitratiruptor sp. SB155-2' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria'.
+
+22/06 16:06:45 WARNING:
+Order of taxonomic ranks in cleaned lineage 'd__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; g__Sulfurovum; s__Sulfurovum sp. NBC37-1' is unexpected.
+Lineage will be truncated to 'd__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria'.
+
+22/06 16:06:45 DEBUG:
+No lineages from the accession map were added to the EntrezRecord attributes.
+
+22/06 16:06:45 DEBUG:
+	23 sequences removed with truncated taxonomic lineages.
+	1413 sequences retained for building tree.
+
+22/06 16:06:45 INFO:
+Clustering sequences with UCLUST... 
+22/06 16:06:45 INFO:
+done.
+
+22/06 16:06:45 DEBUG:
+usearch v11.0.667_i86linux32, 4.0Gb RAM (32.9Gb total), 4 cores
+(C) Copyright 2013-18 Robert C. Edgar, all rights reserved.
+https://drive5.com/usearch
+
+License: c.morganlang@gmail.com
+
+00:00 37Mb      0.1% Reading /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NapA/seed_refpkg/intermediates/ENOG501NS3T_TIGR01706_uclust_input.fasta00:00 42Mb    100.0% Reading /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NapA/seed_refpkg/intermediates/ENOG501NS3T_TIGR01706_uclust_input.fasta
+00:00 35Mb      0.3% DF                                                                                                                                                                     00:00 35Mb    100.0% DF
+00:00 37Mb   1436 seqs, 1422 uniques, 1409 singletons (99.1%)
+00:00 37Mb   Min size 1, median 1, max 3, avg 1.01
+00:00 40Mb      0.1% DB00:00 40Mb    100.0% DB
+00:00 40Mb   Sort length... done.
+00:00 79Mb      0.1% Clustering00:00 79Mb      0.1% 0 clusters, max size 0, avg 0.000:00 108Mb   100.0% 949 clusters, max size 25, avg 1.5
+00:00 108Mb     0.1% Writing centroids to /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NapA/seed_refpkg/intermediates/ENOG501NS3T_TIGR01706_uclust0.9.fa00:00 108Mb   100.0% Writing centroids to /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NapA/seed_refpkg/intermediates/ENOG501NS3T_TIGR01706_uclust0.9.fa
+                                                                                                                                                                                                   
+      Seqs  1422
+  Clusters  949
+  Max size  25
+  Avg size  1.5
+  Min size  1
+Singletons  746, 52.5% of seqs, 78.6% of clusters
+   Max mem  108Mb
+      Time  1.00s
+Throughput  1422.0 seqs/sec.
+
+
+22/06 16:06:45 DEBUG:
+Reading usearch cluster file... 
+22/06 16:06:45 DEBUG:
+done.
+
+22/06 16:06:45 DEBUG:
+	949 sequence clusters
+
+22/06 16:06:45 DEBUG:
+Finalizing representative sequence clusters... 
+22/06 16:06:45 DEBUG:
+done.
+
+22/06 16:06:45 DEBUG:
+Re-enumerating the reference sequences in taxonomic order... 
+22/06 16:06:45 DEBUG:
+done.
+
+22/06 16:06:45 INFO:
+Detecting outlier reference sequences... 
+22/06 16:06:53 INFO:
+done.
+
+22/06 16:06:53 DEBUG:
+1 outlier sequences detected and discarded.
+	1121403.AUCV01000041_gene157
+
+22/06 16:06:53 DEBUG:
+Re-enumerating the reference sequences in taxonomic order... 
+22/06 16:06:53 DEBUG:
+done.
+
+22/06 16:06:53 DEBUG:
+1459 references before and 948 remaining after filtering.
+
+22/06 16:06:53 DEBUG:
+Removing 511 taxa (422 unique) from taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Rhizobium mongolense USDA 1844' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas fluorescens F113' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Dickeya zeae Ech586' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Photobacterium damselae subsp. damselae CIP 102761' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Sulfurospirillum barnesii SES-3' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Escherichia albertii TW07627' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 'r__Root' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudoxanthomonas suwonensis 11-1' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Vibrio sinaloensis DSM 21326' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas stutzeri ATCC 14405 = CCUG 16156' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Acetobacter okinawensis JCM 25146' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas syringae CC1557' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Escherichia albertii KF1' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas stutzeri A1501' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Acinetobacter lwoffii NCTC 5866 = CIP 64.10 = NIPH 512' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Agrobacterium fabrum str. C58' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Paraburkholderia phenoliruptrix BR3459a' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Vibrio cholerae O1 biovar El Tor str. N16961' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Shigella flexneri 2a str. 301' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas alcaligenes NBRC 14159' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 'r__Root' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Parasutterella excrementihominis YIT 11859' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Helicobacter cinaedi CCUG 18818 = ATCC BAA-847' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas mendocina NK-01' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Salipiger mucosus DSM 16094' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pectobacterium parmentieri WPP163' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Aggregatibacter actinomycetemcomitans D7S-1' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Shewanella halifaxensis HAW-EB4' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Shewanella pealeana ATCC 700345' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Burkholderia pseudomallei K96243' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Afipia birgiae 34632' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas putida NBRC 14164' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Xanthomonas campestris pv. campestris' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Yersinia enterocolitica subsp. enterocolitica 8081' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Helicobacter rodentium ATCC 700285' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Paraburkholderia nodosa DSM 21604' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 'r__Root' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Actinobacillus suis H91-0380' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas pseudoalcaligenes AD6' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Thauera linaloolentis 47Lol = DSM 12138' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Vibrio halioticoli NBRC 102217' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Bradyrhizobium japonicum in8p8' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Shewanella piezotolerans WP3' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas syringae pv. syringae B728a' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Aggregatibacter aphrophilus NJ8700' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas fluorescens F113' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Helicobacter cinaedi PAGU611' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Sorangium cellulosum So0157-2' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Dickeya dadantii 3937' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Achromobacter xylosoxidans A8' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Leisingera daeponensis DSM 23529' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 'r__Root' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 'r__Root' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Campylobacter fetus subsp. venerealis NCTC 10354' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas pseudoalcaligenes CECT 5344' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Escherichia coli 536' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Shewanella oneidensis MR-1' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Aeromonas hydrophila subsp. hydrophila ATCC 7966' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas putida GB-1' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas resinovorans DSM 21078' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas sp. GM21' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 'r__Root' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Cupriavidus metallidurans CH34' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas stutzeri SDM-LAC' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Psychromonas ossibalaenae ATCC BAA-1528' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 'r__Root' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Xanthomonas campestris pv. vesicatoria str. 85-10' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Bradyrhizobium sp. S23321' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas alcaligenes NBRC 14159' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Helicobacter pullorum MIT 98-5489' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pectobacterium parmentieri WPP163' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Microvirga flocculans ATCC BAA-817' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Methylobacterium radiotolerans JCM 2831' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Photobacterium phosphoreum ANT-2200' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Enterovibrio calviensis 1F-211' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Neorhizobium galegae bv. orientalis str. HAMBI 540' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Shewanella sediminis HAW-EB3' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Salmonella bongori NCTC 12419' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Salmonella enterica subsp. enterica serovar Typhi str. CT18' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas putida S16' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Achromobacter piechaudii ATCC 43553' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas furukawaii' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas stutzeri ATCC 14405 = CCUG 16156' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Cupriavidus sp. amp6' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Aliivibrio fischeri ES114' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Atlantibacter hermannii NBRC 105704' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Campylobacter jejuni subsp. jejuni 414' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 'c__Candidatus Accumulibacter phosphatis clade IIA str. UW-1' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Bradyrhizobium sp. DOA9' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Sinorhizobium fredii HH103' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Shewanella algae JCM 14758' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Chania multitudinisentens RB-25' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Sinorhizobium fredii USDA 257' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Citrobacter rodentium ICC168' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 'r__Root' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Escherichia coli str. K-12 substr. W3110' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Arcobacter butzleri RM4018' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Escherichia coli CFT073' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Sphingomonas elodea ATCC 31461' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Acinetobacter oleivorans DR1' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas mendocina NK-01' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Ruegeria lacuscaerulensis ITI-1157' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Xanthomonas vesicatoria ATCC 35937' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Yersinia aldovae ATCC 35236' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Shewanella pealeana ATCC 700345' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Sulfuricurvum kujiense DSM 16994' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 'r__Root' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Afipia birgiae 34632' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Roseovarius mucosus DSM 17069' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Yersinia intermedia ATCC 29909' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Sulfurospirillum barnesii SES-3' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Helicobacter hepaticus ATCC 51449' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Vibrio alginolyticus NBRC 15630 = ATCC 17749' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 'f__Arcobacter sp. AF1028' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Komagataeibacter rhaeticus AF1' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudoalteromonas haloplanktis ANT/505' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__[Mannheimia] succiniciproducens MBEL55E' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Vibrio kanaloae 5S-149' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Grimontia hollisae CIP 101886' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas fluorescens HK44' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Achromobacter xylosoxidans NBRC 15126 = ATCC 27061' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 'r__Root' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Rhizobium gallicum bv. gallicum R602sp' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Arcobacter cibarius LMG 21996' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Shewanella loihica PV-4' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Burkholderia oklahomensis' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Psychrobacter phenylpyruvicus DSM 7000 = NBRC 102152' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Campylobacter rectus RM3267' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Shewanella sp. ECSMB14101' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Avibacterium paragallinarum 221' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 'r__Root' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Vibrio brasiliensis LMG 20546' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Paraburkholderia xenovorans LB400' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas fluorescens Q2-87' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Sorangium cellulosum So ce56' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Bradyrhizobium japonicum 22' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Providencia rettgeri DSM 1131' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Vibrio splendidus ZS-139' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas stutzeri RCH2' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 'r__Root' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Variovorax paradoxus S110' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Sulfurospirillum sp. MES' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Aggregatibacter actinomycetemcomitans HK1651' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Citrobacter farmeri GTC 1319' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Shewanella sediminis HAW-EB3' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 'f__Bradyrhizobiaceae bacterium SG-6C' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Marinobacter santoriniensis NKSG1' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Sulfurospirillum deleyianum DSM 6946' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Aeromonas salmonicida subsp. salmonicida A449' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Desulfobulbus japonicus DSM 18378' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Vibrio cholerae O395' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Vibrio alginolyticus NBRC 15630 = ATCC 17749' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Methylophilus sp. OH31' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Actinobacillus pleuropneumoniae serovar 1 str. 4074' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Methylorubrum extorquens AM1' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Actinobacillus minor NM305' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas stutzeri TS44' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Escherichia coli O157:H7 str. EDL933' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Agrobacterium tumefaciens CCNWGS0286' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Shewanella putrefaciens CN-32' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Bradyrhizobium genosp. SA-4 str. CB756' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas sp. Chol1' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Achromobacter xylosoxidans NBRC 15126 = ATCC 27061' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Shewanella loihica PV-4' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Ralstonia pickettii DTP0602' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Sinorhizobium medicae WSM419' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Escherichia coli str. K-12 substr. MG1655' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Moritella dasanensis ArB 0140' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Roseobacter denitrificans OCh 114' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Burkholderia mallei ATCC 23344' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Edwardsiella tarda ATCC 15947 = NBRC 105688' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 'o__Rhodobacterales bacterium Y4I' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas fluorescens NCIMB 11764' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas stutzeri RCH2' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Bradyrhizobium sp. WSM2793' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Shimwellia blattae DSM 4481 = NBRC 105725' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Vibrio cyclitrophicus FF75' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas stutzeri CCUG 29243' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Dickeya chrysanthemi Ech1591' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pantoea vagans C9-1' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 'o__Alteromonadales bacterium TW-7' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Sinorhizobium meliloti 1021' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Burkholderia ambifaria AMMD' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Marinobacter hydrocarbonoclasticus VT8' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas alkylphenolica' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Desulfovibrio desulfuricans DSM 642' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Herbaspirillum seropedicae SmR1' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas mandelii PD30' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Haemophilus sputorum CCUG 13788' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Rahnella aquatilis HX2' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Bradyrhizobium japonicum in8p8' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Agrobacterium tumefaciens str. Cherry 2E-2-2' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Rhizobium etli CFN 42' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Methylorubrum extorquens PA1' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Haemophilus haemolyticus M19501' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Vibrio kanaloae 5S-149' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Ralstonia pickettii DTP0602' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Rhizobium etli CIAT 652' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Acinetobacter beijerinckii CIP 110307' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Vibrio coralliilyticus ATCC BAA-450' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Yersinia pestis CO92' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Cupriavidus necator H16' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Yersinia enterocolitica LC20' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Shewanella waksmanii ATCC BAA-643' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Comamonas testosteroni CNB-2' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 'r__Root' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Bradyrhizobium sp. WSM1253' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Campylobacter showae CSUNSWCD' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Shewanella putrefaciens CN-32' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Shewanella denitrificans OS217' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Shewanella sp. ANA-3' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Bordetella bronchiseptica RB50' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Bradyrhizobium japonicum USDA 124' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Burkholderia pseudomallei K96243' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Providencia alcalifaciens DSM 30120' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas sp. Chol1' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Teredinibacter turnerae T7902' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Achromobacter piechaudii HLE' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Aeromonas diversa CDC 2478-85' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 'r__Root' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Bilophila wadsworthia ATCC 49260' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 'r__Root' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Vibrio cyclitrophicus FF75' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Thioalkalivibrio thiocyanoxidans ARh 4' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Bradyrhizobium sp. Cp5.3' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas putida F1' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Sinorhizobium fredii NGR234' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Rhizobium giardinii bv. giardinii H152' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Variovorax paradoxus EPS' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pantoea ananatis AJ13355' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Arcobacter butzleri ED-1' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Campylobacter concisus 13826' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas stutzeri NF13' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas mendocina EGD-AQ5' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pectobacterium atrosepticum SCRI1043' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Providencia rustigianii DSM 4541' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Agrobacterium fabrum str. C58' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Haemophilus paraphrohaemolyticus HK411' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Photobacterium angustum S14' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas stutzeri TS44' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Burkholderia sp. WSM2230' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Vibrio ezurae NBRC 102218' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Haemophilus parainfluenzae T3T1' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Bradyrhizobium japonicum USDA 6' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Bradyrhizobium oligotrophicum S58' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Sinorhizobium americanum CCGM7' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Vibrio parahaemolyticus RIMD 2210633' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Actinobacillus pleuropneumoniae serovar 5b str. L20' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Alicycliphilus denitrificans BC' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Cupriavidus pinatubonensis JMP134' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas pseudoalcaligenes CECT 5344' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Cupriavidus taiwanensis LMG 19424' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Shewanella violacea DSS12' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Sulfurospirillum deleyianum DSM 6946' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Salmonella bongori N268-08' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Moritella marina ATCC 15381' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Thioalkalivibrio thiocyanoxidans ARh2' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas nitroreducens HBP1' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Achromobacter arsenitoxydans SY8' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Tolumonas auensis DSM 9187' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Salmonella enterica subsp. enterica serovar Typhimurium' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 'r__Root' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Paraburkholderia ferrariae NBRC 106233' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Mannheimia varigena USDA-ARS-USMARC-1296' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Helicobacter cetorum MIT 00-7128' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Escherichia coli BL21(DE3)' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Rhizobium grahamii CCGE 502' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pectobacterium carotovorum subsp. carotovorum PC1' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudogulbenkiania ferrooxidans 2002' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Bradyrhizobium sp. BTAi1' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Paracoccus denitrificans PD1222' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Sphingobium lactosutens DS20' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Campylobacter jejuni subsp. jejuni 81-176' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Budvicia aquatica DSM 5075 = ATCC 35567' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Actinobacillus capsulatus DSM 19761' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Rhizobium leguminosarum bv. trifolii WSM2304' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Helicobacter hepaticus ATCC 51449' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Bradyrhizobium sp. WSM2793' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Gluconobacter frateurii NBRC 103465' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Rhizobium leguminosarum bv. viciae 248' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Vibrio scophthalmi LMG 19158' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Bradyrhizobium sp. Ec3.3' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Citrobacter youngae ATCC 29220' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Rhizobium leguminosarum bv. viciae GB30' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Campylobacter fetus subsp. testudinum 03-427' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Paracoccus versutus' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas mandelii 36MFCvi1.1' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas stutzeri DSM 10701' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Rhizobium sp. CF122' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas knackmussii B13' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Aeromonas hydrophila YL17' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Providencia burhodogranariea DSM 19968' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas mandelii PD30' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Cupriavidus taiwanensis LMG 19424' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Providencia stuartii ATCC 25827' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Bradyrhizobium sp. WSM3983' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas nitroreducens HBP1' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Paraglaciecola mesophila KMM 241' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Sutterella wadsworthensis HGA0223' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Bradyrhizobium genosp. SA-4 str. CB756' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 'r__Root' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Bradyrhizobium diazoefficiens USDA 110' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Photobacterium leiognathi subsp. mandapamensis svers.1.1.' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Haemophilus haemolyticus M21639' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 'r__Root' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Burkholderia mallei ATCC 23344' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Sphingomonas sp. SKA58' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pectobacterium betavasculorum' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Achromobacter insuavis AXX-A' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Bradyrhizobium japonicum USDA 6' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pectobacterium carotovorum subsp. carotovorum PC1' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas fluorescens Pf0-1' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Acinetobacter haemolyticus MTCC 9819' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Vibrio jasicida MWB 21' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Sinorhizobium arboris LMG 14919' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 'f__Arcobacter sp. L' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Solimonas flava DSM 18980' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Helicobacter rodentium ATCC 700285' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Rhizobium mesoamericanum STM3625' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Rhizobium leguminosarum bv. viciae 3841' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 'r__Root' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Acinetobacter pittii PHEA-2' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Campylobacter fetus subsp. fetus 82-40' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 'r__Root' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Buttiauxella agrestis ATCC 33320' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Rhizobium sp. CF394' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Serratia proteamaculans 568' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Sulfurospirillum sp. SCADC' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Bradyrhizobium oligotrophicum S58' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Shewanella woodyi ATCC 51908' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Acinetobacter gyllenbergii NIPH 230' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Vibrio orientalis CIP 102891 = ATCC 33934' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas savastanoi pv. phaseolicola 1448A' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Vibrio nigripulchritudo SOn1' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Burkholderia cenocepacia J2315' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 'r__Root' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Rhizobium sp. YR295' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas stutzeri A1501' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Acinetobacter lwoffii WJ10621' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Yersinia massiliensis CCUG 53443' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Thauera terpenica 58Eu' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Agrobacterium tumefaciens CCNWGS0286' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 'r__Root' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas fluorescens NZ007' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Helicobacter cinaedi PAGU611' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Rhizobium etli bv. mimosae str. IE4771' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pectobacterium parmentieri WPP163' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Pseudomonas poae RE*1-1-14' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Paracoccus denitrificans PD1222' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Escherichia coli ATCC 8739' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Serratia fonticola AU-AP2C' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Bradyrhizobium diazoefficiens USDA 110' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Vibrio proteolyticus NBRC 13287' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Xanthomonas hortorum pv. carotae str. M081' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 'r__Root' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Mannheimia haemolytica M42548' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Ralstonia solanacearum GMI1000' not present in taxonomic hierarchy.
+
+22/06 16:06:53 DEBUG:
+Taxon name 's__Leisingera aquimarina DSM 24565' not present in taxonomic hierarchy.
+
+22/06 16:06:53 INFO:
+Number of unique lineages:
+	domain     1
+	phylum     1
+	class      7
+	order     34
+	family    91
+	genus    327
+	species  835
+Unclassified and incomplete lineages account for 223/948 (23.5%) references.
+
+22/06 16:06:53 INFO:
+Aligning the sequences using MAFFT... 
+22/06 16:06:58 INFO:
+done.
+
+22/06 16:06:58 DEBUG:
+Read 948 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NapA/seed_refpkg/final_outputs/NapA.fa.
+
+22/06 16:06:58 DEBUG:
+Reference alignment contains 948 sequences with 2729 character positions.
+
+22/06 16:06:58 DEBUG:
+Building HMM profile... 
+22/06 16:06:58 DEBUG:
+done.
+
+22/06 16:06:59 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+22/06 16:06:59 DEBUG:
+Read 948 headers from /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NapA/seed_refpkg/final_outputs/NapA.fa.
+
+22/06 16:06:59 DEBUG:
+73 lineages truncated before 'genus' were removed during lineage trimming.
+
+22/06 16:06:59 DEBUG:
+The following sequences were excluded after synchronizing FASTA:
+	79_NapA
+	41_NapA
+	853_NapA
+	101_NapA
+	328_NapA
+	52_NapA
+	339_NapA
+	912_NapA
+	596_NapA
+	413_NapA
+	99_NapA
+	785_NapA
+	832_NapA
+	105_NapA
+	755_NapA
+	850_NapA
+	927_NapA
+	501_NapA
+	675_NapA
+	901_NapA
+	133_NapA
+	882_NapA
+	36_NapA
+	693_NapA
+	286_NapA
+	598_NapA
+	325_NapA
+	100_NapA
+	421_NapA
+	794_NapA
+	267_NapA
+	143_NapA
+	515_NapA
+	451_NapA
+	530_NapA
+	507_NapA
+	791_NapA
+	345_NapA
+	793_NapA
+	504_NapA
+	132_NapA
+	599_NapA
+	554_NapA
+	354_NapA
+	914_NapA
+	734_NapA
+	695_NapA
+	127_NapA
+	49_NapA
+	579_NapA
+	540_NapA
+	229_NapA
+	353_NapA
+	45_NapA
+	136_NapA
+	195_NapA
+	357_NapA
+	458_NapA
+	261_NapA
+	323_NapA
+	347_NapA
+	513_NapA
+	338_NapA
+	861_NapA
+	943_NapA
+	84_NapA
+	880_NapA
+	937_NapA
+	840_NapA
+	134_NapA
+	51_NapA
+	456_NapA
+	621_NapA
+	575_NapA
+	418_NapA
+	494_NapA
+	945_NapA
+	280_NapA
+	748_NapA
+	926_NapA
+	905_NapA
+	350_NapA
+	204_NapA
+	203_NapA
+	796_NapA
+	197_NapA
+	569_NapA
+	661_NapA
+	293_NapA
+	557_NapA
+	118_NapA
+	731_NapA
+	408_NapA
+	461_NapA
+	789_NapA
+	769_NapA
+	103_NapA
+	549_NapA
+	400_NapA
+	65_NapA
+	946_NapA
+	398_NapA
+	254_NapA
+	43_NapA
+	335_NapA
+	552_NapA
+	601_NapA
+	900_NapA
+	135_NapA
+	899_NapA
+	811_NapA
+	4_NapA
+	108_NapA
+	514_NapA
+	483_NapA
+	792_NapA
+	920_NapA
+	833_NapA
+	340_NapA
+	648_NapA
+	533_NapA
+	867_NapA
+	543_NapA
+	758_NapA
+	446_NapA
+	622_NapA
+	527_NapA
+	842_NapA
+	326_NapA
+	303_NapA
+	724_NapA
+	584_NapA
+	615_NapA
+	829_NapA
+	488_NapA
+	305_NapA
+	564_NapA
+	348_NapA
+	496_NapA
+	205_NapA
+	775_NapA
+	54_NapA
+	546_NapA
+	290_NapA
+	610_NapA
+	836_NapA
+	88_NapA
+	289_NapA
+	55_NapA
+	324_NapA
+	818_NapA
+	481_NapA
+	819_NapA
+	283_NapA
+	677_NapA
+	248_NapA
+	314_NapA
+	606_NapA
+	644_NapA
+	804_NapA
+	269_NapA
+	381_NapA
+	417_NapA
+	744_NapA
+	499_NapA
+	74_NapA
+	113_NapA
+	617_NapA
+	218_NapA
+	713_NapA
+	32_NapA
+	274_NapA
+	279_NapA
+	860_NapA
+	576_NapA
+	542_NapA
+	754_NapA
+	608_NapA
+	253_NapA
+	852_NapA
+	795_NapA
+	902_NapA
+	933_NapA
+	394_NapA
+	414_NapA
+	156_NapA
+	528_NapA
+	437_NapA
+	910_NapA
+	529_NapA
+	167_NapA
+	112_NapA
+	703_NapA
+	801_NapA
+	873_NapA
+	189_NapA
+	47_NapA
+	409_NapA
+	544_NapA
+	202_NapA
+	609_NapA
+	868_NapA
+	411_NapA
+	255_NapA
+	630_NapA
+	415_NapA
+	835_NapA
+	618_NapA
+	155_NapA
+	455_NapA
+	111_NapA
+	523_NapA
+	482_NapA
+	843_NapA
+	151_NapA
+	751_NapA
+	371_NapA
+	790_NapA
+	72_NapA
+	130_NapA
+	856_NapA
+	94_NapA
+	865_NapA
+	230_NapA
+	321_NapA
+	634_NapA
+	887_NapA
+	803_NapA
+	53_NapA
+	711_NapA
+	746_NapA
+	849_NapA
+	473_NapA
+	30_NapA
+	828_NapA
+	285_NapA
+	876_NapA
+	834_NapA
+	80_NapA
+	839_NapA
+	360_NapA
+	752_NapA
+	589_NapA
+	520_NapA
+	365_NapA
+	291_NapA
+	67_NapA
+	352_NapA
+	471_NapA
+	553_NapA
+	614_NapA
+	467_NapA
+	138_NapA
+	268_NapA
+	312_NapA
+	582_NapA
+	604_NapA
+	193_NapA
+	800_NapA
+	142_NapA
+	298_NapA
+	484_NapA
+	441_NapA
+	581_NapA
+	330_NapA
+	292_NapA
+	511_NapA
+	787_NapA
+	129_NapA
+	539_NapA
+	174_NapA
+	97_NapA
+	302_NapA
+	125_NapA
+	259_NapA
+	462_NapA
+	911_NapA
+	521_NapA
+	668_NapA
+	144_NapA
+	823_NapA
+	916_NapA
+	8_NapA
+	871_NapA
+	727_NapA
+	258_NapA
+	697_NapA
+	909_NapA
+	690_NapA
+	355_NapA
+	524_NapA
+	358_NapA
+	307_NapA
+	282_NapA
+	342_NapA
+	904_NapA
+	921_NapA
+	500_NapA
+	632_NapA
+	429_NapA
+	663_NapA
+	301_NapA
+	613_NapA
+	210_NapA
+	106_NapA
+	813_NapA
+	526_NapA
+	932_NapA
+	346_NapA
+	913_NapA
+	858_NapA
+	96_NapA
+	445_NapA
+	306_NapA
+	940_NapA
+	343_NapA
+	46_NapA
+	673_NapA
+	333_NapA
+	213_NapA
+	392_NapA
+	580_NapA
+	272_NapA
+	2_NapA
+	186_NapA
+	61_NapA
+	891_NapA
+	191_NapA
+	367_NapA
+	366_NapA
+	70_NapA
+	58_NapA
+	506_NapA
+	244_NapA
+	657_NapA
+	847_NapA
+	655_NapA
+	35_NapA
+	837_NapA
+	897_NapA
+	799_NapA
+	534_NapA
+	115_NapA
+	522_NapA
+	559_NapA
+	71_NapA
+	179_NapA
+	894_NapA
+	296_NapA
+	126_NapA
+	851_NapA
+	756_NapA
+	531_NapA
+	33_NapA
+	294_NapA
+	216_NapA
+	556_NapA
+	519_NapA
+	397_NapA
+	692_NapA
+	822_NapA
+	385_NapA
+	567_NapA
+	190_NapA
+	662_NapA
+	275_NapA
+	707_NapA
+	188_NapA
+	740_NapA
+	246_NapA
+	616_NapA
+	768_NapA
+	797_NapA
+	929_NapA
+	217_NapA
+	798_NapA
+	591_NapA
+	627_NapA
+	281_NapA
+	594_NapA
+	380_NapA
+	320_NapA
+	309_NapA
+	577_NapA
+	656_NapA
+	626_NapA
+	859_NapA
+	688_NapA
+	270_NapA
+	848_NapA
+	545_NapA
+	319_NapA
+	838_NapA
+	60_NapA
+	185_NapA
+	741_NapA
+	208_NapA
+	538_NapA
+	750_NapA
+	815_NapA
+	368_NapA
+	344_NapA
+	490_NapA
+	370_NapA
+	733_NapA
+	879_NapA
+	925_NapA
+	265_NapA
+	390_NapA
+	578_NapA
+	23_NapA
+	117_NapA
+	512_NapA
+	806_NapA
+	846_NapA
+	31_NapA
+	57_NapA
+	517_NapA
+	605_NapA
+	505_NapA
+	75_NapA
+	532_NapA
+	435_NapA
+	271_NapA
+	20_NapA
+	571_NapA
+	738_NapA
+	763_NapA
+	82_NapA
+	98_NapA
+	372_NapA
+	317_NapA
+	349_NapA
+	672_NapA
+	243_NapA
+	207_NapA
+	619_NapA
+	493_NapA
+	587_NapA
+	814_NapA
+	586_NapA
+	831_NapA
+	387_NapA
+	407_NapA
+	76_NapA
+	362_NapA
+	86_NapA
+	158_NapA
+	146_NapA
+	165_NapA
+	480_NapA
+	812_NapA
+	178_NapA
+	48_NapA
+	12_NapA
+	247_NapA
+	855_NapA
+	153_NapA
+	592_NapA
+	602_NapA
+	226_NapA
+	623_NapA
+	364_NapA
+	706_NapA
+	864_NapA
+	870_NapA
+	691_NapA
+	359_NapA
+	508_NapA
+	50_NapA
+	919_NapA
+	766_NapA
+	73_NapA
+	308_NapA
+	638_NapA
+	95_NapA
+	941_NapA
+	304_NapA
+	857_NapA
+	674_NapA
+	827_NapA
+	215_NapA
+	753_NapA
+	313_NapA
+	844_NapA
+	890_NapA
+	171_NapA
+	503_NapA
+	841_NapA
+	386_NapA
+	689_NapA
+	227_NapA
+	509_NapA
+	42_NapA
+	730_NapA
+	373_NapA
+	510_NapA
+	830_NapA
+	729_NapA
+	878_NapA
+	9_NapA
+	64_NapA
+	788_NapA
+	922_NapA
+	611_NapA
+	238_NapA
+	497_NapA
+	802_NapA
+	805_NapA
+	915_NapA
+	10_NapA
+	123_NapA
+	535_NapA
+	759_NapA
+	379_NapA
+	454_NapA
+	620_NapA
+	923_NapA
+	820_NapA
+	637_NapA
+	137_NapA
+	187_NapA
+	777_NapA
+	712_NapA
+	241_NapA
+	485_NapA
+	862_NapA
+	39_NapA
+	903_NapA
+	863_NapA
+	735_NapA
+	821_NapA
+	612_NapA
+	376_NapA
+	866_NapA
+	928_NapA
+	489_NapA
+	459_NapA
+	44_NapA
+	810_NapA
+	40_NapA
+	341_NapA
+	536_NapA
+	555_NapA
+	329_NapA
+	767_NapA
+	316_NapA
+	104_NapA
+	284_NapA
+	310_NapA
+	37_NapA
+	300_NapA
+	11_NapA
+	433_NapA
+	225_NapA
+	114_NapA
+	444_NapA
+	297_NapA
+	453_NapA
+	664_NapA
+	199_NapA
+	266_NapA
+	460_NapA
+	845_NapA
+	568_NapA
+	918_NapA
+	273_NapA
+	747_NapA
+	736_NapA
+	917_NapA
+	942_NapA
+	884_NapA
+	625_NapA
+	102_NapA
+	83_NapA
+	898_NapA
+	66_NapA
+	159_NapA
+	908_NapA
+	442_NapA
+	131_NapA
+	907_NapA
+	449_NapA
+	824_NapA
+	854_NapA
+	825_NapA
+	694_NapA
+	322_NapA
+	5_NapA
+	377_NapA
+	710_NapA
+	288_NapA
+	757_NapA
+	561_NapA
+	737_NapA
+	140_NapA
+	145_NapA
+	869_NapA
+	930_NapA
+	516_NapA
+	764_NapA
+	502_NapA
+	749_NapA
+	654_NapA
+	399_NapA
+	263_NapA
+	924_NapA
+	436_NapA
+	640_NapA
+	128_NapA
+	299_NapA
+	678_NapA
+	27_NapA
+	124_NapA
+	826_NapA
+	893_NapA
+	593_NapA
+
+22/06 16:07:19 DEBUG:
+Building HMM profile... 
+22/06 16:07:20 DEBUG:
+done.
+
+22/06 16:07:20 DEBUG:
+done.
+
+22/06 16:07:20 DEBUG:
+331 genus-dereplicated sequences retained for building HMM profile.
+
+22/06 16:07:20 INFO:
+Running BMGE... 
+22/06 16:07:20 DEBUG:
+STAGE: Multiple alignment trimming with BMGE
+	COMMAND:
+java -Xmx512m -jar /home/connor/Bioinformatics/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp/sub_binaries/BMGE.jar -t AA -m BLOSUM30 -g 0.99:0.33 -i /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NapA/seed_refpkg/final_outputs/NapA.fa -of /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NapA/seed_refpkg/final_outputs/NapA-BMGE.fasta
+
+22/06 16:07:21 INFO:
+done.
+
+22/06 16:07:21 DEBUG:
+	BMGE time required: 0.0:0.0:1.12
+
+22/06 16:07:21 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NapA/seed_refpkg/final_outputs/NapA-BMGE.fasta = 0 (retained)
+
+22/06 16:07:21 INFO:
+Building phylogenetic tree with FastTree... 
+22/06 16:08:13 INFO:
+done.
+
+22/06 16:08:13 DEBUG:
+FastTree Version 2.1.10 Double precision (No SSE3)
+Alignment: /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NapA/seed_refpkg/intermediates/NapA.phy
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Le-Gascuel 2008, CAT approximation with 4 rate categories
+      0.11 seconds: Top hits for    738 of    948 seqs (at seed    600)
+      0.25 seconds: Joined    100 of    945
+      0.35 seconds: Joined    200 of    945
+      0.53 seconds: Joined    300 of    945
+      0.67 seconds: Joined    400 of    945
+      0.83 seconds: Joined    500 of    945
+      1.01 seconds: Joined    700 of    945
+      1.11 seconds: Joined    800 of    945
+      1.26 seconds: Joined    900 of    945
+Initial topology in 1.30 seconds
+Refining topology: 40 rounds ME-NNIs, 2 rounds ME-SPRs, 20 rounds ML-NNIs
+      1.36 seconds: ME NNI round 1 of 40, 701 of 946 splits, 121 changes (max delta 0.104)
+      1.47 seconds: ME NNI round 3 of 40, 101 of 946 splits, 0 changes
+      1.57 seconds: ME NNI round 6 of 40, 101 of 946 splits, 2 changes (max delta 0.007)
+      1.69 seconds: SPR round   1 of   2, 101 of 1894 nodes
+      1.82 seconds: SPR round   1 of   2, 201 of 1894 nodes
+      1.97 seconds: SPR round   1 of   2, 301 of 1894 nodes
+      2.11 seconds: SPR round   1 of   2, 401 of 1894 nodes
+      2.26 seconds: SPR round   1 of   2, 501 of 1894 nodes
+      2.39 seconds: SPR round   1 of   2, 601 of 1894 nodes
+      2.52 seconds: SPR round   1 of   2, 701 of 1894 nodes
+      2.67 seconds: SPR round   1 of   2, 801 of 1894 nodes
+      2.80 seconds: SPR round   1 of   2, 901 of 1894 nodes
+      2.94 seconds: SPR round   1 of   2, 1001 of 1894 nodes
+      3.06 seconds: SPR round   1 of   2, 1101 of 1894 nodes
+      3.21 seconds: SPR round   1 of   2, 1201 of 1894 nodes
+      3.31 seconds: SPR round   1 of   2, 1301 of 1894 nodes
+      3.44 seconds: SPR round   1 of   2, 1401 of 1894 nodes
+      3.60 seconds: SPR round   1 of   2, 1501 of 1894 nodes
+      3.76 seconds: SPR round   1 of   2, 1601 of 1894 nodes
+      3.91 seconds: SPR round   1 of   2, 1701 of 1894 nodes
+      4.06 seconds: SPR round   1 of   2, 1801 of 1894 nodes
+      4.21 seconds: ME NNI round 14 of 40, 1 of 946 splits
+      4.32 seconds: ME NNI round 15 of 40, 301 of 946 splits, 0 changes
+      4.50 seconds: SPR round   2 of   2, 101 of 1894 nodes
+      4.65 seconds: SPR round   2 of   2, 201 of 1894 nodes
+      4.79 seconds: SPR round   2 of   2, 301 of 1894 nodes
+      4.95 seconds: SPR round   2 of   2, 401 of 1894 nodes
+      5.11 seconds: SPR round   2 of   2, 501 of 1894 nodes
+      5.26 seconds: SPR round   2 of   2, 601 of 1894 nodes
+      5.41 seconds: SPR round   2 of   2, 701 of 1894 nodes
+      5.56 seconds: SPR round   2 of   2, 801 of 1894 nodes
+      5.70 seconds: SPR round   2 of   2, 901 of 1894 nodes
+      5.85 seconds: SPR round   2 of   2, 1001 of 1894 nodes
+      5.99 seconds: SPR round   2 of   2, 1101 of 1894 nodes
+      6.13 seconds: SPR round   2 of   2, 1201 of 1894 nodes
+      6.28 seconds: SPR round   2 of   2, 1301 of 1894 nodes
+      6.42 seconds: SPR round   2 of   2, 1401 of 1894 nodes
+      6.59 seconds: SPR round   2 of   2, 1501 of 1894 nodes
+      6.77 seconds: SPR round   2 of   2, 1601 of 1894 nodes
+      6.92 seconds: SPR round   2 of   2, 1701 of 1894 nodes
+      7.07 seconds: SPR round   2 of   2, 1801 of 1894 nodes
+      7.22 seconds: ME NNI round 27 of 40, 1 of 946 splits
+Total branch-length 116.330 after 7.41 sec
+      7.42 seconds: ML Lengths 1 of 946 splits
+      7.70 seconds: ML Lengths 101 of 946 splits
+      7.99 seconds: ML Lengths 201 of 946 splits
+      8.27 seconds: ML Lengths 301 of 946 splits
+      8.55 seconds: ML Lengths 401 of 946 splits
+      8.83 seconds: ML Lengths 501 of 946 splits
+      9.11 seconds: ML Lengths 601 of 946 splits
+      9.39 seconds: ML Lengths 701 of 946 splits
+      9.65 seconds: ML Lengths 801 of 946 splits
+      9.93 seconds: ML Lengths 901 of 946 splits
+     10.06 seconds: ML NNI round 1 of 20, 1 of 946 splits
+     11.00 seconds: ML NNI round 1 of 20, 101 of 946 splits, 10 changes (max delta 6.404)
+     11.94 seconds: ML NNI round 1 of 20, 201 of 946 splits, 19 changes (max delta 14.858)
+     12.93 seconds: ML NNI round 1 of 20, 301 of 946 splits, 32 changes (max delta 14.858)
+     13.89 seconds: ML NNI round 1 of 20, 401 of 946 splits, 47 changes (max delta 14.858)
+     14.87 seconds: ML NNI round 1 of 20, 501 of 946 splits, 63 changes (max delta 14.858)
+     15.85 seconds: ML NNI round 1 of 20, 601 of 946 splits, 79 changes (max delta 14.858)
+     16.84 seconds: ML NNI round 1 of 20, 701 of 946 splits, 92 changes (max delta 14.858)
+     17.80 seconds: ML NNI round 1 of 20, 801 of 946 splits, 107 changes (max delta 14.858)
+     18.78 seconds: ML NNI round 1 of 20, 901 of 946 splits, 125 changes (max delta 14.858)
+ML-NNI round 1: LogLk = -297449.764 NNIs 132 max delta 14.86 Time 19.25
+     19.50 seconds: Site likelihoods with rate category 1 of 4
+     19.76 seconds: Site likelihoods with rate category 2 of 4
+     20.02 seconds: Site likelihoods with rate category 3 of 4
+     20.28 seconds: Site likelihoods with rate category 4 of 4
+Switched to using 4 rate categories (CAT approximation)
+Rate categories were divided by 1.137 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+     20.77 seconds: ML NNI round 2 of 20, 1 of 946 splits
+     21.29 seconds: ML NNI round 2 of 20, 101 of 946 splits, 11 changes (max delta 6.294)
+     21.66 seconds: ML NNI round 2 of 20, 201 of 946 splits, 17 changes (max delta 6.294)
+     22.11 seconds: ML NNI round 2 of 20, 301 of 946 splits, 22 changes (max delta 6.294)
+     22.64 seconds: ML NNI round 2 of 20, 401 of 946 splits, 29 changes (max delta 11.660)
+     23.18 seconds: ML NNI round 2 of 20, 501 of 946 splits, 37 changes (max delta 11.660)
+     23.68 seconds: ML NNI round 2 of 20, 601 of 946 splits, 48 changes (max delta 11.660)
+     24.19 seconds: ML NNI round 2 of 20, 701 of 946 splits, 55 changes (max delta 11.660)
+     24.80 seconds: ML NNI round 2 of 20, 801 of 946 splits, 63 changes (max delta 11.660)
+     25.41 seconds: ML NNI round 2 of 20, 901 of 946 splits, 72 changes (max delta 11.660)
+ML-NNI round 2: LogLk = -279603.976 NNIs 77 max delta 11.66 Time 25.77
+     25.76 seconds: ML NNI round 3 of 20, 1 of 946 splits
+     26.29 seconds: ML NNI round 3 of 20, 101 of 946 splits, 4 changes (max delta 8.938)
+     26.86 seconds: ML NNI round 3 of 20, 201 of 946 splits, 5 changes (max delta 8.938)
+     27.40 seconds: ML NNI round 3 of 20, 301 of 946 splits, 14 changes (max delta 8.938)
+     27.92 seconds: ML NNI round 3 of 20, 401 of 946 splits, 20 changes (max delta 10.392)
+     28.30 seconds: ML NNI round 3 of 20, 501 of 946 splits, 21 changes (max delta 10.392)
+     28.73 seconds: ML NNI round 3 of 20, 601 of 946 splits, 22 changes (max delta 10.392)
+ML-NNI round 3: LogLk = -279510.387 NNIs 22 max delta 10.39 Time 28.84
+     28.84 seconds: ML NNI round 4 of 20, 1 of 946 splits
+     29.21 seconds: ML NNI round 4 of 20, 101 of 946 splits, 3 changes (max delta 1.253)
+     29.73 seconds: ML NNI round 4 of 20, 201 of 946 splits, 7 changes (max delta 13.998)
+     30.04 seconds: ML NNI round 4 of 20, 301 of 946 splits, 7 changes (max delta 13.998)
+     30.38 seconds: ML NNI round 4 of 20, 401 of 946 splits, 7 changes (max delta 13.998)
+ML-NNI round 4: LogLk = -279475.361 NNIs 7 max delta 14.00 Time 30.52
+     30.52 seconds: ML NNI round 5 of 20, 1 of 946 splits
+     30.92 seconds: ML NNI round 5 of 20, 101 of 946 splits, 2 changes (max delta 3.338)
+ML-NNI round 5: LogLk = -279471.394 NNIs 2 max delta 3.34 Time 31.06
+     31.06 seconds: ML NNI round 6 of 20, 1 of 946 splits
+ML-NNI round 6: LogLk = -279468.620 NNIs 1 max delta 2.57 Time 31.26
+     31.26 seconds: ML NNI round 7 of 20, 1 of 946 splits
+ML-NNI round 7: LogLk = -279468.607 NNIs 0 max delta 0.00 Time 31.37
+Turning off heuristics for final round of ML NNIs (converged)
+     31.36 seconds: ML NNI round 8 of 20, 1 of 946 splits
+     32.35 seconds: ML NNI round 8 of 20, 101 of 946 splits, 0 changes
+     33.34 seconds: ML NNI round 8 of 20, 201 of 946 splits, 2 changes (max delta 2.502)
+     34.32 seconds: ML NNI round 8 of 20, 301 of 946 splits, 5 changes (max delta 4.322)
+     36.32 seconds: ML NNI round 8 of 20, 501 of 946 splits, 10 changes (max delta 4.322)
+     37.30 seconds: ML NNI round 8 of 20, 601 of 946 splits, 14 changes (max delta 4.322)
+     38.26 seconds: ML NNI round 8 of 20, 701 of 946 splits, 15 changes (max delta 4.322)
+     39.25 seconds: ML NNI round 8 of 20, 801 of 946 splits, 15 changes (max delta 4.322)
+ML-NNI round 8: LogLk = -279294.658 NNIs 17 max delta 4.32 Time 40.76 (final)
+     40.76 seconds: ML Lengths 1 of 946 splits
+     41.03 seconds: ML Lengths 101 of 946 splits
+     41.30 seconds: ML Lengths 201 of 946 splits
+     41.57 seconds: ML Lengths 301 of 946 splits
+     41.84 seconds: ML Lengths 401 of 946 splits
+     42.11 seconds: ML Lengths 501 of 946 splits
+     42.37 seconds: ML Lengths 601 of 946 splits
+     42.64 seconds: ML Lengths 701 of 946 splits
+     42.90 seconds: ML Lengths 801 of 946 splits
+     43.17 seconds: ML Lengths 901 of 946 splits
+Optimize all lengths: LogLk = -279291.987 Time 43.30
+     44.05 seconds: ML split tests for    100 of    945 internal splits
+     44.81 seconds: ML split tests for    200 of    945 internal splits
+     45.55 seconds: ML split tests for    300 of    945 internal splits
+     46.32 seconds: ML split tests for    400 of    945 internal splits
+     47.06 seconds: ML split tests for    500 of    945 internal splits
+     47.79 seconds: ML split tests for    600 of    945 internal splits
+     48.52 seconds: ML split tests for    700 of    945 internal splits
+     49.26 seconds: ML split tests for    800 of    945 internal splits
+     50.03 seconds: ML split tests for    900 of    945 internal splits
+     50.63 seconds: Site likelihoods with rate category 1 of 4
+     50.89 seconds: Site likelihoods with rate category 2 of 4
+     51.15 seconds: Site likelihoods with rate category 3 of 4
+     51.41 seconds: Site likelihoods with rate category 4 of 4
+     51.66 seconds: Optimizing alpha round 1
+Gamma(4) LogLk = -279953.610 alpha = 1.119 rescaling lengths by 1.070
+Total time: 51.66 seconds Unique: 948/948 Bad splits: 2/945 Worst delta-LogLk 0.992
+
+
+22/06 16:08:13 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+22/06 16:08:16 DEBUG:
+done.
+
+22/06 16:08:16 INFO:
+Skipping training:
+$ treesapp train-i /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NapA/seed_refpkg/intermediates/ENOG501NS3T_TIGR01706_filtered.fa -r /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NapA/seed_refpkg/final_outputs/NapA_build.pkl -o /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NapA/seed_refpkg/intermediates/placement_trainer/ -m prot -a /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NapA/seed_refpkg/intermediates//accession_id_lineage_map.tsv -n 4 --trim_align
+22/06 16:08:16 INFO:
+
+To integrate this package for use in TreeSAPP the following steps must be performed:
+1. Replace the current refpkg_code 'Z1111' with:
+`treesapp package edit refpkg_code $code --overwrite --refpkg_path /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NapA/seed_refpkg/final_outputs/NapA_build.pkl` where $code is a unique identifier.
+2. Copy /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Denitrification/NapA/seed_refpkg/final_outputs/NapA_build.pkl to a directory containing other reference packages you want to analyse. This may be in /home/connor/Bioinformatics/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp//data/ or elsewhere
+
+22/06 16:08:16 INFO:
+TreeSAPP has finished successfully.
+
