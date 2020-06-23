@@ -30,8 +30,8 @@ def get_arguments(sys_args):
     parser.add_argument("-l", "--list",
                         required=False, default=False, action="store_true",
                         help="List all of the reference package names that are available for integration.")
-    parser.add_argument("-o", "--output_dir", default="./refpkg_temp_dir/", required=False,
-                        help="Path of directory to write output files. [ DEFAULT = ./refpkg_temp_dir/ ]")
+    parser.add_argument("-o", "--output_dir", default="./temp_refpkg_dir/", required=False,
+                        help="Path of directory to write output files. [ DEFAULT = ./temp_refpkg_dir/ ]")
 
     parser.add_argument("--update", required=False, default=False, action="store_true",
                         help="Updates reference packages specified by the user with --name parameter.")
@@ -127,6 +127,13 @@ def create_command_validator(command_list: list):
                 command_list.pop(i)
         except ValueError:
             continue
+
+    stage_param = "--stage"
+    if stage_param in command_list:
+        i = command_list.index(stage_param)
+        stage_name = command_list.pop(i+1)
+        command_list.pop(i)
+        logging.info("Removing '{} {}' from treesapp create command.\n".format(stage_param, stage_name))
 
     if "--overwrite" not in command_list:
         command_list.append("--overwrite")
@@ -224,6 +231,7 @@ def rebuild_gather_reference_packages(ref_packages: list, output_dir: str) -> No
         # Parse the treesapp create command from each reference package
         create_cmd_str = re.sub(r"^treesapp create ", '', refpkg.cmd)
         create_params = create_cmd_str.split()
+        create_command_validator(create_params)
 
         # Find the path of the output
         if "--output" in create_params:
@@ -254,6 +262,7 @@ def rebuild_gather_reference_packages(ref_packages: list, output_dir: str) -> No
         except:
             logging.warning("treesapp create was unable to rebuild '{}'."
                             " The original outputs are being restored.\n".format(refpkg.prefix))
+            clean_out_create_dir(rebuild_path)
             shutil.copytree(temp_refpkg_path, rebuild_path)
 
         preserve_pickled_things(refpkg,
@@ -299,7 +308,7 @@ def manage_refpkgs(sys_args):
         os.mkdir(args.output_dir)
 
     prep_logging(log_file_name=os.path.join(args.output_dir,
-                                            "refpkgs_" + dt.now().strftime("%Y-%m-%d") + "_log.txt"),
+                                            "log_refpkg_manager_" + dt.now().strftime("%Y-%m-%d") + ".txt"),
                  verbosity=False)
 
     refpkg_dirs = gather_refpkg_dirs()
@@ -329,4 +338,5 @@ def manage_refpkgs(sys_args):
 
 
 if __name__ == "__main__":
-    manage_refpkgs(["-n", "PuhA", "--update"])
+    # manage_refpkgs(["-n", "PuhA", "--update"])
+    manage_refpkgs(sys.argv[1:])
