@@ -14,7 +14,7 @@ from treesapp.classy import prep_logging
 from treesapp.commands import create
 
 
-def get_arguments():
+def get_arguments(sys_args):
     parser = argparse.ArgumentParser(description="refpkg_manager.py is a script that allows users to integrate "
                                                  "all reference packages stored in this repository into a TreeSAPP "
                                                  "installation directory.")
@@ -30,6 +30,9 @@ def get_arguments():
     parser.add_argument("-l", "--list",
                         required=False, default=False, action="store_true",
                         help="List all of the reference package names that are available for integration.")
+    parser.add_argument("-o", "--output_dir", default="./refpkg_temp_dir/", required=False,
+                        help="Path of directory to write output files. [ DEFAULT = ./refpkg_temp_dir/ ]")
+
     parser.add_argument("--update", required=False, default=False, action="store_true",
                         help="Updates reference packages specified by the user with --name parameter.")
     parser.add_argument("--copy", default=False, action="store_true",
@@ -38,12 +41,12 @@ def get_arguments():
                         help="Number of threads to use when rebuilding the reference package(s). [ DEFAULT = 2 ]")
 
     cg.add_argument("--template", required=False, default=None,
-                        help="A template file containing scheduler-specific arguments."
-                             " The 'treesapp create' command will be written beneath in a new file.")
+                    help="A template file containing scheduler-specific arguments."
+                         " The 'treesapp create' command will be written beneath in a new file.")
     cg.add_argument("--scheduler", default="slurm", choices=["slurm"],
-                        help="The system's scheduling software determines the template format. [ DEFAULT = slurm ]")
+                    help="The system's scheduling software determines the template format. [ DEFAULT = slurm ]")
 
-    return parser.parse_args()
+    return parser.parse_args(sys_args)
 
 
 _RefPkgPattern = re.compile(r"(\w{2,10})_build.pkl")  # This needs to match ReferencePackage.refpkg_suffix
@@ -174,7 +177,39 @@ def build_templates(ref_packages: list, template: str, scheduler: str, n_proc=4)
     return
 
 
-def rebuild_gather_reference_packages(ref_packages: list) -> None:
+def clean_out_create_dir(ts_dir: str) -> None:
+    """
+    A function designed for removing files and directories specific to treesapp create outputs from a directory.
+    Just don't want any catastrophes, okay?
+
+    :return: None
+    """
+    ts_dirs = ["intermediates", "final_outputs"]
+    if os.path.isdir(ts_dir):
+        for dir_name in ts_dirs:
+            if os.path.isdir(os.path.join(ts_dir, dir_name)):
+                shutil.rmtree(os.path.join(ts_dir, dir_name))
+    return
+
+
+def preserve_pickled_things(refpkg: ts_refpkg.ReferencePackage, replacement_refpkg) -> None:
+    # Include the previous refpkg code and description before the update
+    preserved_attributes = {attr: None for attr in ["refpkg_code", "description"]}
+    for attr in preserved_attributes:
+        preserved_attributes[attr] = refpkg.__dict__[attr]
+
+    refpkg.f__json = replacement_refpkg
+    refpkg.slurp()
+
+    # Swap the default refpkg attributes with the preserved values
+    for attr in preserved_attributes:
+        refpkg.__dict__[attr] = preserved_attributes[attr]
+    refpkg.pickle_package()
+
+    return
+
+
+def rebuild_gather_reference_packages(ref_packages: list, output_dir: str) -> None:
     """
     Attempts to rebuild every reference package in ref_packages by running treesapp create.
     It uses the command in the ReferencePackage.cmd attribute to pull all the parameters needed.
@@ -182,14 +217,13 @@ def rebuild_gather_reference_packages(ref_packages: list) -> None:
     The original treesapp create outputs are overwritten and this is ensured by including the '--overwrite' flag
 
     :param ref_packages: A list of ReferencePackage instances
+    :param output_dir: Path to a directory for writing outputs
     :return: None
     """
     for refpkg in ref_packages:  # type: ts_refpkg.ReferencePackage
         # Parse the treesapp create command from each reference package
         create_cmd_str = re.sub(r"^treesapp create ", '', refpkg.cmd)
         create_params = create_cmd_str.split()
-        if "--overwrite" not in create_params:
-            create_params.append("--overwrite")
 
         # Find the path of the output
         if "--output" in create_params:
@@ -201,17 +235,33 @@ def rebuild_gather_reference_packages(ref_packages: list) -> None:
                           "in treesapp create command used for '{}'\n".format(refpkg.prefix))
             sys.exit(3)
 
+        # Save the original treesapp create output directory in case of failure
+        rebuild_path = rebuild_path.rstrip(os.sep)
+        temp_refpkg_path = os.path.join(output_dir, os.path.split(rebuild_path)[-1])
+        shutil.copytree(rebuild_path, temp_refpkg_path)
+
+        if not os.path.isdir(temp_refpkg_path):
+            logging.error("Copying previous treesapp create outputs failed. "
+                          "Temporary directory {} doesn't exist.".format(temp_refpkg_path))
+            sys.exit(5)
+        else:
+            clean_out_create_dir(rebuild_path)
+
         # Attempt to rebuild
         try:
             # Run treesapp create with each reference package's command
             create(create_params)
         except:
-            logging.warning("treesapp create was unable to rebuild '{}'.\n".format(refpkg.prefix))
+            logging.warning("treesapp create was unable to rebuild '{}'."
+                            " The original outputs are being restored.\n".format(refpkg.prefix))
+            shutil.copytree(temp_refpkg_path, rebuild_path)
 
-        refpkg.f__json = os.path.join(rebuild_path, "final_outputs", refpkg.prefix + refpkg.refpkg_suffix)
-        refpkg.slurp()
+        preserve_pickled_things(refpkg,
+                                os.path.join(rebuild_path, "final_outputs", refpkg.prefix + refpkg.refpkg_suffix))
 
-    # TODO: Include the previous refpkg code and description before the update
+        # Remove the saved treesapp create outputs
+        shutil.rmtree(temp_refpkg_path)
+
     return
 
 
@@ -243,12 +293,14 @@ def copy_refpkg_files_to_treesapp(ref_packages, refpkg_repository: str) -> None:
     return
 
 
-def main():
-    prep_logging(log_file_name=os.path.join(os.getcwd(),
+def manage_refpkgs(sys_args):
+    args = get_arguments(sys_args)
+    if not os.path.exists(args.output_dir):
+        os.mkdir(args.output_dir)
+
+    prep_logging(log_file_name=os.path.join(args.output_dir,
                                             "refpkgs_" + dt.now().strftime("%Y-%m-%d") + "_log.txt"),
                  verbosity=False)
-
-    args = get_arguments()
 
     refpkg_dirs = gather_refpkg_dirs()
     ref_packages = instantiate_refpkgs(refpkg_dirs)
@@ -264,7 +316,7 @@ def main():
         build_templates(ref_packages, scheduler=args.scheduler, template=args.template)
 
     if args.update:
-        rebuild_gather_reference_packages(ref_packages)
+        rebuild_gather_reference_packages(ref_packages, args.output_dir)
 
     if args.copy:
         # Copy reference package pickle files
@@ -276,4 +328,5 @@ def main():
     return
 
 
-main()
+if __name__ == "__main__":
+    manage_refpkgs(["-n", "PuhA", "--update"])
