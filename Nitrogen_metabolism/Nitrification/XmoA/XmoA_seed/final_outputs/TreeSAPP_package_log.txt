@@ -1,6 +1,9 @@
-15/07 16:57:19 INFO:
-Replacing attribute 'description' (currently '')
+15/07 22:21:00 INFO:
+date	2020-07-15
 
-15/07 16:57:19 INFO:
+15/07 22:21:00 INFO:
+refpkg_code	N0102
+
+15/07 22:21:00 INFO:
 TreeSAPP has finished successfully.
 
