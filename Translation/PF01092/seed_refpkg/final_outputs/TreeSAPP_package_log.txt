@@ -1,0 +1,9 @@
+21/07 10:17:05 INFO:
+prefix	PF01092
+
+21/07 10:17:05 INFO:
+svc	OneClassSVM(kernel='linear', max_iter=10000000.0, tol=1e-05)
+
+21/07 10:17:05 INFO:
+TreeSAPP has finished successfully.
+
