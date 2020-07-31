@@ -1,9 +1,0 @@
-15/07 22:21:00 INFO:
-date	2020-07-15
-
-15/07 22:21:00 INFO:
-refpkg_code	N0102
-
-15/07 22:21:00 INFO:
-TreeSAPP has finished successfully.
-
