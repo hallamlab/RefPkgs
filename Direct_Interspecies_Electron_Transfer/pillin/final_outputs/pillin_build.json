@@ -1,1 +1,0 @@
-{"RefPkg": {"name": "pillin", "code": "Z1111", "molecule": "prot", "sequences": 70, "model": "PROTGAMMALG", "lowest_confident_rank": "Kingdoms", "kind": "functional", "tree-tool": "FastTree", "regression-parameters": ["-2.3224", "7.0"], "cluster-similarity": "0.97", "description": ""}}
