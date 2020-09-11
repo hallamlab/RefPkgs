@@ -8,6 +8,7 @@ import os
 import sys
 import logging
 from datetime import datetime as dt
+from time import sleep
 
 from treesapp import refpkg as ts_refpkg
 from treesapp.classy import prep_logging
@@ -192,10 +193,14 @@ def clean_out_create_dir(ts_dir: str) -> None:
     :return: None
     """
     ts_dirs = ["intermediates", "final_outputs"]
+    ts_files = glob.glob(os.path.join(ts_dir, "*_log.txt"))
     if os.path.isdir(ts_dir):
         for dir_name in ts_dirs:
             if os.path.isdir(os.path.join(ts_dir, dir_name)):
                 shutil.rmtree(os.path.join(ts_dir, dir_name))
+    for fname in ts_files:
+        os.remove(fname)
+    os.rmdir(ts_dir)
     return
 
 
@@ -246,6 +251,11 @@ def rebuild_gather_reference_packages(ref_packages: list, output_dir: str) -> No
         # Save the original treesapp create output directory in case of failure
         rebuild_path = rebuild_path.rstrip(os.sep)
         temp_refpkg_path = os.path.join(output_dir, os.path.split(rebuild_path)[-1])
+        if os.path.exists(temp_refpkg_path):
+            logging.warning("Directory '{}' is not empty and will be overwritten. "
+                            "Cancel within 5 seconds to stop... ".format(temp_refpkg_path))
+            sleep(5)
+            shutil.rmtree(temp_refpkg_path)
         shutil.copytree(rebuild_path, temp_refpkg_path)
 
         if not os.path.isdir(temp_refpkg_path):
