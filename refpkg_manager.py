@@ -1,18 +1,85 @@
 #!/usr/bin/env python3
 
-import glob
-import shutil
-import argparse
 import re
 import os
 import sys
+import glob
+import shutil
+import argparse
 import logging
+import unittest
 from datetime import datetime as dt
 from time import sleep
 
 from treesapp import refpkg as ts_refpkg
 from treesapp.classy import prep_logging
 from treesapp.commands import create
+
+_RefPkgPattern = re.compile(r"(\w{2,10})_build.pkl")  # This needs to match ReferencePackage.refpkg_suffix
+
+
+class RefPkgsTestSuite(unittest.TestCase):
+    def setUp(self) -> None:
+        self.mcra_pickle = "Methanogenesis/McrA/seed_refpkg/final_outputs/McrA_build.pkl"
+        self.puha_pickle = "Photosynthesis/PuhA/seed_refpkg/final_outputs/PuhA_build.pkl"
+        self.mcra_refpkg = ts_refpkg.ReferencePackage("")
+        self.puha_refpkg = ts_refpkg.ReferencePackage("")
+        self.xmoa_dir = "Nitrogen_metabolism/Nitrification/XmoA/"
+        self.tmp_dir_path = "./temp_refpkg_dir/"
+
+        # Clear out the temporary directory if it exists. Needs to be empty for tests
+        if os.path.isdir(self.tmp_dir_path):
+            shutil.rmtree(self.tmp_dir_path)
+
+        # Load the McrA and PuhA reference packages
+        self.mcra_refpkg.f__json = self.mcra_pickle
+        self.puha_refpkg.f__json = self.puha_pickle
+        self.mcra_refpkg.slurp()
+        self.puha_refpkg.slurp()
+
+        return
+
+    def tearDown(self) -> None:
+        if os.path.isdir(self.tmp_dir_path):
+            shutil.rmtree(self.tmp_dir_path)
+        return
+
+    def test_refpkg_pattern(self):
+        self.assertEqual(None, _RefPkgPattern.match(self.mcra_pickle))
+        self.assertTrue(_RefPkgPattern.match(os.path.basename(self.mcra_pickle)))
+        return
+
+    def test_gather_refpkg_dirs(self):
+        # Test on empty dir
+        pickles = gather_refpkg_pickles(dir_path=self.tmp_dir_path + "**")
+        self.assertEqual(0, len(pickles))
+        # Test on dir with single reference package
+        pickles = gather_refpkg_pickles(dir_path=os.path.join(self.xmoa_dir, "XmoA_seed", "**"))
+        self.assertEqual(1, len(pickles))
+        # Test on root directory
+        pickles = gather_refpkg_pickles()
+        self.assertTrue(len(pickles) > 1)
+
+    def test_instantiate_refpkgs(self):
+        return
+
+    def test_validate_treesapp_refpkg_dir(self):
+        with self.assertRaises(AssertionError):
+            validate_treesapp_refpkg_dir(self.tmp_dir_path)
+        self.assertFalse(validate_treesapp_refpkg_dir(treesapp_dir=self.xmoa_dir))
+        return
+
+    def test_filter_refpkgs_by_name(self):
+        test_refpkg_list = [self.mcra_refpkg, self.puha_refpkg]
+        filter_refpkgs_by_name(ref_packages=test_refpkg_list, names="McrA")
+        self.assertEqual(1, len(test_refpkg_list))
+        return
+
+    def test_clean_out_create_dir(self):
+        os.mkdir(self.tmp_dir_path)
+        clean_out_create_dir(self.tmp_dir_path)
+        self.assertFalse(os.path.isdir(self.tmp_dir_path))
+        return
 
 
 def get_arguments(sys_args):
@@ -50,12 +117,9 @@ def get_arguments(sys_args):
     return parser.parse_args(sys_args)
 
 
-_RefPkgPattern = re.compile(r"(\w{2,10})_build.pkl")  # This needs to match ReferencePackage.refpkg_suffix
-
-
-def gather_refpkg_dirs() -> list:
+def gather_refpkg_pickles(dir_path="**/final_outputs/") -> list:
     refpkg_files = []
-    for final_dir in glob.iglob("**/final_outputs/", recursive=True):
+    for final_dir in glob.iglob(dir_path, recursive=True):
         # Ensure the directory contains all the right files
         dir_files = glob.glob(final_dir + "*")
         if not dir_files:
@@ -73,8 +137,7 @@ def gather_refpkg_dirs() -> list:
 
 def instantiate_refpkgs(refpkg_files: list) -> list:
     ref_packages = []
-    refpkg_file_map = {}
-    logging.info("Instantiating reference packages:\n")
+    logging.info("Instantiating reference packages... ")
     for refpkg_json in refpkg_files:
         refpkg = ts_refpkg.ReferencePackage()
         refpkg.f__json = refpkg_json
@@ -85,18 +148,30 @@ def instantiate_refpkgs(refpkg_files: list) -> list:
             ref_packages.append(refpkg)
         except (IndexError, KeyError, AttributeError, TypeError):
             logging.warning("Unable to load reference package %s. Skipping.\n" % refpkg.f__json)
-        refpkg_file_map[refpkg.prefix] = refpkg_json
+    logging.info("done.\n")
 
-    logging.info("\t" + "\n\t".join([refpkg_name + ": " + refpkg_file_map[refpkg_name] for
-                                     refpkg_name in sorted(refpkg_file_map)]) + "\n")
     return ref_packages
 
 
 def list_refpkgs(ref_packages: list) -> None:
-    refpkg_list = []
-    for refpkg in ref_packages:  # type: ts_refpkg.ReferencePackage
-        refpkg_list.append(refpkg.prefix)
-    logging.info("Available reference packages:\n\t%s" % "\n\t".join(refpkg_list) + "\n")
+    """
+    Prints the 'prefix' attribute for each ReferencePackage instance in ref_packages to the logging.info stream
+
+    :param ref_packages: A list of ts_refpkg.ReferencePackage instances
+    :return: None
+    """
+    logging.info("Listing reference package summaries:\n")
+
+    refpkg_summary_str = "\t".join(["Name", "Code-name",
+                                    "Molecule", "Tree builder", "RefPkg-type", "Leaf nodes",
+                                    "Description", "Created", "Last-updated"]) + "\n"
+
+    for refpkg in sorted(ref_packages, key=lambda x: x.prefix):  # type: ts_refpkg.ReferencePackage
+        refpkg_summary_str += "\t".join([refpkg.prefix, refpkg.refpkg_code,
+                                         refpkg.molecule, refpkg.tree_tool, refpkg.kind, str(refpkg.num_seqs),
+                                         refpkg.description, refpkg.date, refpkg.update]) + "\n"
+    logging.info(refpkg_summary_str)
+
     return
 
 
@@ -284,9 +359,9 @@ def rebuild_gather_reference_packages(ref_packages: list, output_dir: str) -> No
     return
 
 
-def validate_treesapp_refpkg_dir(treesapp_dir: str) -> None:
+def validate_treesapp_refpkg_dir(treesapp_dir: str) -> bool:
     if not os.path.isdir(treesapp_dir):
-        logging.error("Sorry human, '%s' isn't a directory. Better luck next time.\n" % treesapp_dir)
+        logging.error("Sorry human, '{}' isn't a directory. Better luck next time.\n".format(treesapp_dir))
         raise AssertionError
 
     if os.sep == treesapp_dir[-1]:
@@ -298,12 +373,24 @@ def validate_treesapp_refpkg_dir(treesapp_dir: str) -> None:
         base, dir2 = os.path.split(base)
         if dir2 == "treesapp":
             logging.info("Copying reference packages into TreeSAPP installation directory\n")
-            return
+            return True
     logging.info("Copying reference packages into custom directory location\n")
-    return
+    return False
 
 
-def copy_refpkg_files_to_treesapp(ref_packages, refpkg_repository: str) -> None:
+def copy_refpkg_files_to_treesapp(ref_packages: list, refpkg_repository: str) -> None:
+    """
+    After building or rebuilding reference packages in the RefPkgs repository, users may want to copy the pickle files
+    (e.g. PuhA_build.pkl) to either a TreeSAPP installation directory or another directory where they're keeping pkl
+    files for their analyses.
+    This function facilitates copying, without the user have to find the paths and copy everything - they just need to
+    provide the ReferencePackage.prefix values for the reference packages they want to copy.
+
+    :param ref_packages: A list of ReferencePackage instances with f__json attributes
+    :param refpkg_repository: Path to a directory where the reference packages are to be copied.
+     All instances in ref_packages will be copied.
+    :return: None
+    """
     # Ensure the directory exists
     validate_treesapp_refpkg_dir(refpkg_repository)
 
@@ -321,8 +408,12 @@ def manage_refpkgs(sys_args):
                                             "log_refpkg_manager_" + dt.now().strftime("%Y-%m-%d") + ".txt"),
                  verbosity=False)
 
-    refpkg_dirs = gather_refpkg_dirs()
-    ref_packages = instantiate_refpkgs(refpkg_dirs)
+    refpkg_pickles = gather_refpkg_pickles()
+    ref_packages = instantiate_refpkgs(refpkg_pickles)
+
+    logging.info("Reference package pickles found:\n" +
+                 "\t" + "\n\t".join([refpkg.prefix + ": " + refpkg.f__json for
+                                     refpkg in sorted(ref_packages, key=lambda x: x.prefix)]) + "\n")
 
     # TODO: Differentiate reference packages found in directories made by treesapp update
     if args.list:
@@ -348,5 +439,5 @@ def manage_refpkgs(sys_args):
 
 
 if __name__ == "__main__":
-    # manage_refpkgs(["-n", "PuhA", "--update"])
+    # unittest.main()
     manage_refpkgs(sys.argv[1:])
