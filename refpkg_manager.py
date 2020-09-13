@@ -94,7 +94,7 @@ class RefPkgsTestSuite(unittest.TestCase):
 
     def test_refpkg_updated(self):
         self.assertFalse(refpkg_updated(self.mcra_refpkg))
-        # self.assertTrue(refpkg_updated(self.updated_refpkg))
+        self.assertTrue(refpkg_updated(self.updated_refpkg))
         return
 
     def test_get_output_dir_root(self):
@@ -284,8 +284,19 @@ def filter_by_build_command(ref_packages: list) -> None:
     return
 
 
-def get_output_dir_root(refpkg_path: str) -> str:
-    dirs = refpkg_path.split(os.sep)
+def get_output_dir_root(ts_output_path: str) -> str:
+    """
+    In TreeSAPP, the two main directories are 'intermediates' and 'final_outputs' beneath the base output directory.
+    Therefore the base directory can be identifed as that above those directories,
+     although both do not need to be present to indicate this.
+
+    get_output_dir_root returns the deepest directory (closest to root) with either 'final_outputs/' or 'intermediates/'
+    as subdirectories.
+
+    :param ts_output_path: Path to a TreeSAPP output file or directory
+    :return: Directory name
+    """
+    dirs = ts_output_path.split(os.sep)
     while dirs[1] not in ["intermediates", "final_outputs"]:
         dirs.pop(0)
     return dirs.pop(0)
@@ -311,6 +322,18 @@ def keep_basal_refpkg_in_list(refpkg_list) -> int:
 
 
 def remove_refpkg_progeny(ref_packages: list) -> list:
+    """
+    During `treesapp train`, new ReferencePackage objects are created in a subdirectory of the main `treesapp create`
+    output. There can be _a lot_ of these and it's probably of no interest to anyone that they exist.
+    In other cases, it is possible that users build ReferencePackages from a base ReferencePackage,
+     and are located in a subdirectory of that base ReferencePackage that they could not exist without.
+
+    remove_refpkg_progeny groups all RefPkgs with identical prefixes, then determines whether any are located in a
+     subdirectory of another. Those that are found to be in a subdirectory are popped from the ref_packages list.
+
+    :param ref_packages: A list of ReferencePackage instances
+    :return: A list of ReferencePackage instances
+    """
     ref_packages = sorted(ref_packages, key=lambda x: x.prefix)
     prefix_group = []
     i = 0
@@ -344,8 +367,8 @@ def refpkg_updated(refpkg: ts_refpkg.ReferencePackage) -> bool:
 1. The update attribute is populated
 2. The file 'all_refs.fasta' is the argument for --fastx_input and 'original_refs.fasta' is set for --guarantee
 
-    :param refpkg:
-    :return:
+    :param refpkg: A TreeSAPP ReferencePackage instance
+    :return: True if the ReferencePackage was created using `treesapp update` and False otherwise
     """
     if not refpkg.cmd:
         logging.error("Command attribute empty for RefPkg '{}'.\n".format(refpkg.f__json))
@@ -419,7 +442,21 @@ def clean_out_create_dir(ts_dir: str) -> None:
     return
 
 
-def preserve_pickled_things(refpkg: ts_refpkg.ReferencePackage, replacement_refpkg) -> None:
+def preserve_pickled_things(refpkg: ts_refpkg.ReferencePackage, replacement_refpkg: str) -> None:
+    """
+    When creating new ReferencePackage objects using `treesapp create` several of the attributes are set to defaults,
+    such as the refpkg_code and description. These are usually set by users using `treesapp package edit` once
+    the ReferencePackage has been created. However, this would be annoying to do with every update.
+
+    preserve_pickled_things does three things:
+1. The current ReferencePackage instance is overwritten with the attribute values from replacement_refpkg
+2. Some attributes in the updated ReferencePackage are replaced by those from the original, refpkg
+3. This updated ReferencePackage's pickle is re-written so it contains the populated attributes
+
+    :param refpkg: A ReferencePackage instance, ideally with 'refpkg_code' and "description' attributes set.
+    :param replacement_refpkg: Path to the newly updated RefPkg pickle file
+    :return: None
+    """
     # Include the previous refpkg code and description before the update
     preserved_attributes = {attr: None for attr in ["refpkg_code", "description"]}
     for attr in preserved_attributes:
@@ -438,7 +475,7 @@ def preserve_pickled_things(refpkg: ts_refpkg.ReferencePackage, replacement_refp
 
 def rebuild_reference_packages(ref_packages: list, output_dir: str) -> None:
     """
-    Attempts to rebuild every reference package in ref_packages by running treesapp create.
+    Attempts to rebuild every reference package in ref_packages by running `treesapp create`.
     It uses the command in the ReferencePackage.cmd attribute to pull all the parameters needed.
 
     The original treesapp create outputs are overwritten and this is ensured by including the '--overwrite' flag
@@ -488,7 +525,7 @@ def rebuild_reference_packages(ref_packages: list, output_dir: str) -> None:
         try:
             # Run treesapp create with each reference package's command
             create(create_params)
-        except:
+        except (SystemExit, ValueError, KeyError):
             logging.warning("treesapp create was unable to rebuild '{}'."
                             " The original outputs are being restored.\n".format(refpkg.prefix))
             clean_out_create_dir(rebuild_path)
