@@ -473,7 +473,7 @@ def preserve_pickled_things(refpkg: ts_refpkg.ReferencePackage, replacement_refp
     return
 
 
-def rebuild_reference_packages(ref_packages: list, output_dir: str) -> None:
+def rebuild_reference_packages(ref_packages: list, output_dir: str, num_threads=2) -> None:
     """
     Attempts to rebuild every reference package in ref_packages by running `treesapp create`.
     It uses the command in the ReferencePackage.cmd attribute to pull all the parameters needed.
@@ -503,6 +503,11 @@ def rebuild_reference_packages(ref_packages: list, output_dir: str) -> None:
             logging.error("Unable to find the output path (with neither '-o' nor '--output') "
                           "in treesapp create command used for '{}'\n".format(refpkg.prefix))
             sys.exit(3)
+
+        # Change the number of threads
+        for param_name in ["-n", "--num_procs"]:
+            if param_name in create_params:
+                create_params[create_params.index(param_name) + 1] = str(num_threads)
 
         # Save the original treesapp create output directory in case of failure
         rebuild_path = rebuild_path.rstrip(os.sep)
@@ -611,7 +616,7 @@ def manage_refpkgs(sys_args):
         build_templates(ref_packages, scheduler=args.scheduler, template=args.template)
 
     if args.update:
-        rebuild_reference_packages(ref_packages, args.output_dir)
+        rebuild_reference_packages(ref_packages, args.output_dir, args.threads)
 
     if args.copy:
         # Copy reference package pickle files
