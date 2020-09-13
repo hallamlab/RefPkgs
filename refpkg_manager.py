@@ -22,8 +22,12 @@ class RefPkgsTestSuite(unittest.TestCase):
     def setUp(self) -> None:
         self.mcra_pickle = "Methanogenesis/McrA/seed_refpkg/final_outputs/McrA_build.pkl"
         self.puha_pickle = "Photosynthesis/PuhA/seed_refpkg/final_outputs/PuhA_build.pkl"
+        self.xmoa_pickle = "Nitrogen_metabolism/Nitrification/XmoA/XmoA_FunGene_update/final_outputs/XmoA_build.pkl"
+        self.updated_pickle = "Nitrogen_metabolism/Nitrification/XmoA/XmoA_FunGene_update/final_outputs/XmoA_build.pkl"
         self.mcra_refpkg = ts_refpkg.ReferencePackage("")
         self.puha_refpkg = ts_refpkg.ReferencePackage("")
+        self.xmoa_refpkg = ts_refpkg.ReferencePackage("")
+        self.updated_refpkg = ts_refpkg.ReferencePackage("")
         self.xmoa_dir = "Nitrogen_metabolism/Nitrification/XmoA/"
         self.tmp_dir_path = "./temp_refpkg_dir/"
 
@@ -34,8 +38,12 @@ class RefPkgsTestSuite(unittest.TestCase):
         # Load the McrA and PuhA reference packages
         self.mcra_refpkg.f__json = self.mcra_pickle
         self.puha_refpkg.f__json = self.puha_pickle
+        self.xmoa_refpkg.f__json = self.xmoa_pickle
+        self.updated_refpkg.f__json = self.updated_pickle
         self.mcra_refpkg.slurp()
         self.puha_refpkg.slurp()
+        self.xmoa_refpkg.slurp()
+        self.updated_refpkg.slurp()
 
         return
 
@@ -63,6 +71,9 @@ class RefPkgsTestSuite(unittest.TestCase):
     def test_instantiate_refpkgs(self):
         return
 
+    def test_check_create_inputs(self):
+        self.assertTrue(check_create_inputs(self.mcra_refpkg.cmd.split(' ')))
+
     def test_validate_treesapp_refpkg_dir(self):
         with self.assertRaises(AssertionError):
             validate_treesapp_refpkg_dir(self.tmp_dir_path)
@@ -79,6 +90,21 @@ class RefPkgsTestSuite(unittest.TestCase):
         os.mkdir(self.tmp_dir_path)
         clean_out_create_dir(self.tmp_dir_path)
         self.assertFalse(os.path.isdir(self.tmp_dir_path))
+        return
+
+    def test_refpkg_updated(self):
+        self.assertFalse(refpkg_updated(self.mcra_refpkg))
+        # self.assertTrue(refpkg_updated(self.updated_refpkg))
+        return
+
+    def test_get_output_dir_root(self):
+        self.assertEqual("XmoA_FunGene_update", get_output_dir_root(self.updated_pickle))
+        self.assertEqual("seed_refpkg", get_output_dir_root(self.mcra_pickle))
+
+    def test_remove_refpkg_progeny(self):
+        test_refpkg_list = remove_refpkg_progeny([self.mcra_refpkg, self.puha_refpkg,
+                                                  self.xmoa_refpkg, self.updated_refpkg])
+        self.assertEqual(3, len(test_refpkg_list))
         return
 
 
@@ -192,7 +218,7 @@ def filter_refpkgs_by_name(ref_packages: list, names: str) -> None:
 
 
 def create_command_validator(command_list: list):
-    arguments_to_check = ["--accession2taxid", "-a", "--accession2lin", "--seqs2lineage", "--profile"]
+    arguments_to_check = ["--accession2taxid", "-a", "--accession2lin", "--seqs2lineage"]
     for arg in arguments_to_check:
         try:
             i = command_list.index(arg)
@@ -215,6 +241,120 @@ def create_command_validator(command_list: list):
         command_list.append("--overwrite")
 
     return
+
+
+def check_create_inputs(create_params: list) -> bool:
+    """
+    Some reference packages were not built with paths relative to the RefPkgs directory, or their former input files
+    are not included in RefPkgs and therefore reproducing them is impossible.
+    check_create_inputs identifies where critical files are present or not.
+     If all files exist, True is returned and False otherwise.
+
+    :param create_params: The list of arguments to be passed to treesapp create
+    :return: A boolean indicating whether all parameters for critical aruments exist (True) or not (False)
+    """
+    arguments_to_check = ["-i", "--fastx_input", "-g", "--guarantee", "--profile"]
+    for arg in arguments_to_check:
+        try:
+            i = create_params.index(arg)
+            arg_file = create_params[i+1]
+            if not os.path.isfile(arg_file):
+                return False
+        except ValueError:
+            continue
+    return True
+
+
+def filter_by_build_command(ref_packages: list) -> None:
+    i = 0
+    while i < len(ref_packages):  # type: ts_refpkg.ReferencePackage
+        refpkg = ref_packages[i]
+        if not refpkg.cmd:
+            logging.warning("treesapp create command missing in RefPkg '{}' so it will be removed.\n"
+                            "".format(refpkg.f__json))
+            ref_packages.pop(i)
+        # Parse the treesapp create command from each reference package
+        elif not check_create_inputs(refpkg.cmd.split()):
+            logging.warning("Input files required to build RefPkg '{}' were not found so it will be removed.\n"
+                            "".format(refpkg.f__json))
+            ref_packages.pop(i)
+        else:
+            i += 1
+
+    return
+
+
+def get_output_dir_root(refpkg_path: str) -> str:
+    dirs = refpkg_path.split(os.sep)
+    while dirs[1] not in ["intermediates", "final_outputs"]:
+        dirs.pop(0)
+    return dirs.pop(0)
+
+
+def keep_basal_refpkg_in_list(refpkg_list) -> int:
+    """
+    Determine whether any reference packages are in subdirectories of another
+
+    :param refpkg_list: A list of reference package instances, likely with the same prefix attribute values
+    :return: The number of reference packages removed from the list
+    """
+    num_removed = 0
+    previous = ""
+    for rp in sorted(refpkg_list, key=lambda x: len(x.f__json)):  # type: ts_refpkg.ReferencePackage
+        if get_output_dir_root(rp.f__json) == previous:
+            logging.debug("RefPkg '{}' dumped because it is a subdirectory of another.\n".format(rp.f__json))
+            refpkg_list.remove(rp)
+            num_removed += 1
+        else:
+            previous = get_output_dir_root(rp.f__json)
+    return num_removed
+
+
+def remove_refpkg_progeny(ref_packages: list) -> list:
+    ref_packages = sorted(ref_packages, key=lambda x: x.prefix)
+    prefix_group = []
+    i = 0
+    while i < len(ref_packages):  # type: ts_refpkg.ReferencePackage
+        refpkg = ref_packages.pop(i)
+        if prefix_group:
+            if refpkg.prefix == prefix_group[0].prefix:
+                prefix_group.append(refpkg)
+            else:
+                i -= keep_basal_refpkg_in_list(prefix_group)
+                # Add all basal reference packages back to ref_packages
+                ref_packages = prefix_group + ref_packages
+                prefix_group = [refpkg]
+        else:
+            prefix_group = [refpkg]
+        i += 1
+
+    if len(prefix_group) > 1:
+        keep_basal_refpkg_in_list(prefix_group)
+        ref_packages = prefix_group + ref_packages
+
+    return ref_packages
+
+
+def refpkg_updated(refpkg: ts_refpkg.ReferencePackage) -> bool:
+    """
+    The TreeSAPP ReferencePackage class doesn't have an attribute directly indicating whether a ReferencePackage was
+    built from a call to `treesapp update`. However, in some cases it is useful to know whether a reference package
+    is a seed, or if it is the result of an update.
+    This function determines if a ReferencePackage was created by `treesapp update` by querying  update "hallmarks":
+1. The update attribute is populated
+2. The file 'all_refs.fasta' is the argument for --fastx_input and 'original_refs.fasta' is set for --guarantee
+
+    :param refpkg:
+    :return:
+    """
+    if not refpkg.cmd:
+        logging.error("Command attribute empty for RefPkg '{}'.\n".format(refpkg.f__json))
+        raise AssertionError
+
+    if refpkg.update:
+        if "all_refs.fasta" in refpkg.cmd and "original_refs.fasta" in refpkg.cmd:
+            return True
+    return False
 
 
 def build_templates(ref_packages: list, template: str, scheduler: str, n_proc=4) -> None:
@@ -296,7 +436,7 @@ def preserve_pickled_things(refpkg: ts_refpkg.ReferencePackage, replacement_refp
     return
 
 
-def rebuild_gather_reference_packages(ref_packages: list, output_dir: str) -> None:
+def rebuild_reference_packages(ref_packages: list, output_dir: str) -> None:
     """
     Attempts to rebuild every reference package in ref_packages by running treesapp create.
     It uses the command in the ReferencePackage.cmd attribute to pull all the parameters needed.
@@ -308,6 +448,10 @@ def rebuild_gather_reference_packages(ref_packages: list, output_dir: str) -> No
     :return: None
     """
     for refpkg in ref_packages:  # type: ts_refpkg.ReferencePackage
+        if refpkg_updated(refpkg):
+            logging.info("Skipping rebuild of updated RefPkg '{}'.\n".format(refpkg.f__json))
+            continue
+
         # Parse the treesapp create command from each reference package
         create_cmd_str = re.sub(r"^treesapp create ", '', refpkg.cmd)
         create_params = create_cmd_str.split()
@@ -411,11 +555,15 @@ def manage_refpkgs(sys_args):
     refpkg_pickles = gather_refpkg_pickles()
     ref_packages = instantiate_refpkgs(refpkg_pickles)
 
+    # Remove any reference packages that couldn't be built (i.e. inputs are missing)
+    filter_by_build_command(ref_packages)
+    # Remove reference package that are in subdirectores of others, keeping only the most basal
+    ref_packages = remove_refpkg_progeny(ref_packages)
+
     logging.info("Reference package pickles found:\n" +
                  "\t" + "\n\t".join([refpkg.prefix + ": " + refpkg.f__json for
                                      refpkg in sorted(ref_packages, key=lambda x: x.prefix)]) + "\n")
 
-    # TODO: Differentiate reference packages found in directories made by treesapp update
     if args.list:
         list_refpkgs(ref_packages)
         return
@@ -426,7 +574,7 @@ def manage_refpkgs(sys_args):
         build_templates(ref_packages, scheduler=args.scheduler, template=args.template)
 
     if args.update:
-        rebuild_gather_reference_packages(ref_packages, args.output_dir)
+        rebuild_reference_packages(ref_packages, args.output_dir)
 
     if args.copy:
         # Copy reference package pickle files
