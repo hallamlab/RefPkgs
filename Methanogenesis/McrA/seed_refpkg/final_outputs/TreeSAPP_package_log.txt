@@ -1,6 +1,9 @@
-23/06 12:53:01 INFO:
-Replacing attribute 'description' (currently '')
+13/09 16:32:23 INFO:
+description	Methyl coenzyme M reductase alpha subunit
 
-23/06 12:53:01 INFO:
+13/09 16:32:23 INFO:
+refpkg_code	M0701
+
+13/09 16:32:23 INFO:
 TreeSAPP has finished successfully.
 
