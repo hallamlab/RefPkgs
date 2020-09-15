@@ -351,7 +351,7 @@ def remove_refpkg_progeny(ref_packages: list) -> list:
             prefix_group = [refpkg]
         i += 1
 
-    if len(prefix_group) > 1:
+    if len(prefix_group) >= 1:
         keep_basal_refpkg_in_list(prefix_group)
         ref_packages = prefix_group + ref_packages
 
@@ -482,6 +482,7 @@ def rebuild_reference_packages(ref_packages: list, output_dir: str, num_threads=
 
     :param ref_packages: A list of ReferencePackage instances
     :param output_dir: Path to a directory for writing outputs
+    :param num_threads: The number of threads for treesapp create to use
     :return: None
     """
     for refpkg in ref_packages:  # type: ts_refpkg.ReferencePackage
