@@ -1,0 +1,998 @@
+#Marker	Rank	Lineage	Query.Name	Internal.Node	Placement.LWR	Tree.Likelihood	Dist.Distal	Dist.Pendant	Dist.MeanTip	Dist.Total
+NosZ	species	r__Root; d__Bacteria; p__Aquificae; c__Aquificae; o__Aquificales; f__Hydrogenothermaceae; g__Persephonella; s__Persephonella sp. IF05-L8	NosZ	86	1.0	-87689.9932654393	0.1149704552	0.0676139205	0.0	0.1826
+NosZ	species	r__Root; d__Bacteria; p__Aquificae; c__Aquificae; o__Aquificales; f__Hydrogenothermaceae; g__Persephonella; s__Persephonella marina	NosZ	86	1.0	-87690.0310152365	0.0683234934	0.1127678339	0.0	0.1811
+NosZ	species	r__Root; d__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Prevotellaceae; g__Prevotella; s__Prevotella veroralis	NosZ	157	0.8059658415	-86394.4567336586	0.0350774821	0.0534971973	0.0	0.0886
+NosZ	species	r__Root; d__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Prevotellaceae; g__Prevotella	NosZ	627	0.6422907021	-86371.0948291458	0.0128057563	0.123652828	0.0376	0.1741
+NosZ	species	r__Root; d__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Prevotellaceae; g__Prevotella	NosZ	158	0.9912454217	-86364.3533961672	0.0129609522	0.0351765922	0.0376	0.0857
+NosZ	species	r__Root; d__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Prevotellaceae; g__Prevotella; s__Prevotella denticola	NosZ	157	0.9911928869	-86394.0833032425	0.0424252899	0.0445663289	0.0	0.087
+NosZ	species	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Aequorivita; s__Aequorivita sublithincola	NosZ	30	1.0	-86060.1030439994	0.0348361739	0.0396719113	0.0	0.0745
+NosZ	species	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Aequorivita; s__Aequorivita capsosiphonis	NosZ	30	1.0	-86060.1073354013	0.0396650851	0.0348395107	0.0	0.0745
+NosZ	species	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Aquimarina; s__Aquimarina muelleri	NosZ	22	1.0	-86060.1151094331	0.0489574747	0.0611067015	0.0	0.1101
+NosZ	species	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Aquimarina; s__Aquimarina megaterium	NosZ	22	1.0	-86060.106189259	0.0610274193	0.0490310084	0.0	0.1101
+NosZ	species	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae	NosZ	41	1.0	-86060.1018669972	0.0158605946	0.0526129873	0.063	0.1315
+NosZ	species	r__Root; d__Bacteria	NosZ	636	1.0	-86055.2092261798	0.0627364629	0.0751103482	1.8767	2.0145
+NosZ	species	r__Root; d__Bacteria	NosZ	639	1.0	-86060.040540788	0.0179719419	0.0210005643	2.0847	2.1237
+NosZ	species	r__Root; d__Bacteria	NosZ	639	1.0	-86060.0202933742	0.0180297852	0.0318158216	2.0847	2.1345
+NosZ	species	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Capnocytophaga; s__Capnocytophaga granulosa	NosZ	639	0.8535339999	-86065.33618079	0.0304708532	0.0349532863	0.0	0.0654
+NosZ	species	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales	NosZ	119	1.0	-86060.0386112941	0.0094657109	0.1088842694	0.1649	0.2832
+NosZ	species	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Flavobacterium	NosZ	118	1.0	-86060.0989091365	0.0130841377	0.0659773019	0.0499	0.129
+NosZ	species	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Flavobacterium	NosZ	117	1.0	-86060.0987497809	0.0233304282	0.048762029	0.0268	0.0989
+NosZ	species	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Flavobacterium; s__Flavobacterium sasangense	NosZ	115	1.0	-86060.1034330651	0.0225185462	0.0308828118	0.0	0.0534
+NosZ	species	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Flavobacterium; s__Flavobacterium filum	NosZ	115	1.0	-86060.0989598755	0.0309971517	0.022473177	0.0	0.0535
+NosZ	species	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Weeksellaceae	NosZ	109	0.7727137922	-86060.5111024967	0.0444269405	0.1266194857	0.1251	0.2961
+NosZ	species	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Flavobacterium	NosZ	119	1.0	-86060.1010267262	0.0089148893	0.0239793673	0.0638	0.0967
+NosZ	species	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Salinimicrobium; s__Salinimicrobium terrae	NosZ	72	1.0	-86060.0979558812	0.0686876123	0.0614100805	0.0	0.1301
+NosZ	species	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Gramella; s__Gramella forsetii	NosZ	45	1.0	-86060.0999129531	0.0200248041	0.0620284989	0.0	0.0821
+NosZ	species	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Aquimarina	NosZ	24	1.0	-86060.1067709475	0.0399251402	0.0463433661	0.055	0.1413
+NosZ	species	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae	NosZ	45	1.0	-86060.1091725374	0.023753731	0.1032721701	0.0737	0.2007
+NosZ	species	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Muricauda; s__Muricauda sp. MAR_2010_75	NosZ	35	1.0	-86060.1043690082	0.0163047939	0.0184964968	0.0	0.0348
+NosZ	species	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Muricauda; s__Muricauda ruestringensis	NosZ	35	1.0	-86060.103091682	0.0184999539	0.0163027337	0.0	0.0348
+NosZ	species	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Myroides; s__Myroides odoratimimus	NosZ	17	1.0	-86060.1019607506	0.0166650895	0.0457732361	0.0	0.0624
+NosZ	species	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Myroides; s__Myroides odoratus	NosZ	16	1.0	-86065.2877606189	0.016884	0.0196305894	0.0	0.0365
+NosZ	species	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Myroides; s__Myroides odoratimimus	NosZ	23	1.0	-86064.1339229708	0.016190757	0.0261840607	0.0	0.0424
+NosZ	species	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Psychroflexus; s__Psychroflexus tropicus	NosZ	68	1.0	-86058.843942432	0.0515656463	0.0704503836	0.0	0.122
+NosZ	species	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Psychroflexus; s__Psychroflexus torquis	NosZ	68	1.0	-86055.8504547763	0.0702997925	0.0506785683	0.0	0.121
+NosZ	species	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales	NosZ	108	1.0	-86229.3612111631	0.0450230576	0.11735245	0.0483	0.2107
+NosZ	species	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae	NosZ	107	1.0	-86229.3579901688	0.0472896946	0.0494379982	0.0	0.0967
+NosZ	species	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Weeksellaceae; g__Riemerella; s__Riemerella columbina	NosZ	108	1.0	-86229.3526115126	0.032298228	0.0375649579	0.0	0.0699
+NosZ	species	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Weeksellaceae; g__Riemerella; s__Riemerella anatipestifer	NosZ	108	1.0	-86229.3613894348	0.0378024455	0.0321323855	0.0	0.0699
+NosZ	species	r__Root; d__Bacteria	NosZ	637	1.0	-86364.3527971313	0.0521952546	0.0877423917	1.7666	1.9065
+NosZ	species	r__Root; d__Bacteria; p__Bacteroidetes; c__Cytophagia; o__Cytophagales; f__Marivirgaceae; g__Marivirga; s__Marivirga tractuosa	NosZ	76	1.0	-86364.354991513	0.0664955497	0.084124579	0.0	0.1506
+NosZ	species	r__Root; d__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae; g__Bacillus; s__Bacillus sp. J33	NosZ	262	1.0	-87690.0143403176	0.0483864348	0.0737570782	0.0	0.1221
+NosZ	species	r__Root; d__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae; g__Bacillus; s__Bacillus sp. UNC438CL73TsuS30	NosZ	260	1.0	-87690.0941481773	0.1014131812	0.0363325484	0.0	0.1377
+NosZ	species	r__Root; d__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae; g__Bacillus; s__Bacillus massiliosenegalensis	NosZ	262	1.0	-87690.0251369739	0.0718294763	0.0507387517	0.0	0.1226
+NosZ	species	r__Root; d__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae; g__Bacillus; s__Bacillus rubiinfantis	NosZ	260	1.0	-87690.0169008775	0.0364396208	0.1014935321	0.0	0.1379
+NosZ	species	r__Root; d__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae	NosZ	262	1.0	-87690.0180250781	0.0242262904	0.0379746783	0.0733	0.1355
+NosZ	species	r__Root; d__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae; g__Bacillus	NosZ	261	1.0	-87690.0495199136	0.0288924041	0.0232755699	0.0689	0.1211
+NosZ	species	r__Root; d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae; g__Desulfitobacterium; s__Desulfitobacterium dichloroeliminans	NosZ	249	1.0	-87692.1218543558	0.0430623928	0.0284148461	0.0	0.0715
+NosZ	species	r__Root; d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae; g__Desulfitobacterium; s__Desulfitobacterium dehalogenans	NosZ	249	1.0	-87690.0576005989	0.028462657	0.0430686714	0.0	0.0715
+NosZ	species	r__Root; d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae; g__Desulfitobacterium; s__Desulfitobacterium dehalogenans	NosZ	248	1.0	-87698.0587164488	0.0277427911	0.0561556485	0.0	0.0839
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bradyrhizobium	NosZ	612	1.0	-87318.2171942493	0.0201706251	0.0372204729	0.0414	0.0988
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Oligotropha; s__Oligotropha carboxidovorans	NosZ	601	1.0	-87318.2065429544	0.0295334811	0.027313774	0.0	0.0568
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bradyrhizobium	NosZ	560	1.0	-87213.5727010634	0.016703823	0.0370478022	0.0467	0.1005
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bradyrhizobium; s__Bradyrhizobium sp. WSM2793	NosZ	608	1.0	-87189.9856206306	0.0169654255	0.0340646928	0.0	0.051
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bradyrhizobium; s__Bradyrhizobium sp. WSM2793	NosZ	608	1.0	-87166.4622412389	0.0144706699	0.0286221217	0.0	0.0431
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bradyrhizobium; s__Bradyrhizobium sp. WSM2793	NosZ	608	1.0	-87166.0695044609	0.0138050263	0.0241045168	0.0	0.0379
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bradyrhizobium; s__Bradyrhizobium sp. BTAi1	NosZ	559	1.0	-87318.2082464864	0.0444217699	0.0491431813	0.0	0.0936
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bradyrhizobium; s__Bradyrhizobium sp. Ec3.3	NosZ	610	1.0	-87318.2158998361	0.0348963372	0.0248565647	0.0	0.0598
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bradyrhizobium; s__Bradyrhizobium sp. Cp5.3	NosZ	610	1.0	-87318.2218658948	0.024842045	0.0349119919	0.0	0.0598
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bradyrhizobium; s__Bradyrhizobium japonicum	NosZ	610	1.0	-87318.206571406	0.0340479001	0.0169407925	0.0	0.051
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Brucellaceae; g__Ochrobactrum; s__Ochrobactrum rhizosphaerae	NosZ	585	1.0	-87318.2107544476	0.0460995769	0.032221831	0.0	0.0783
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Brucellaceae; g__Ochrobactrum; s__Ochrobactrum anthropi	NosZ	585	1.0	-87318.2144743641	0.0322392467	0.0460627055	0.0	0.0783
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae	NosZ	610	0.8779549967	-87224.0416064963	0.0118799844	0.0631855471	0.0284	0.1035
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae	NosZ	610	1.0	-87157.1255527379	0.0171569117	0.0284497584	0.0284	0.074
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria	NosZ	624	1.0	-87313.7956848189	0.0805298106	0.2568589215	0.4613	0.7987
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Methylocystaceae; g__Pleomorphomonas; s__Pleomorphomonas oryzae	NosZ	459	1.0	-87327.5601514266	0.0204829113	0.0332937038	0.0	0.0538
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Methylocystaceae; g__Pleomorphomonas; s__Pleomorphomonas koreensis	NosZ	459	1.0	-87318.2038566324	0.0288251273	0.0200343887	0.0	0.0489
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiaceae; g__Rhizobium; s__Rhizobium sp. YS-1r	NosZ	574	1.0	-87315.5012020712	0.0420135887	0.0886393485	0.0	0.1307
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria	NosZ	585	1.0	-87318.2163169664	0.0186609959	0.0282775133	0.1299	0.1768
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiaceae; g__Rhizobium; s__Rhizobium sullae	NosZ	574	1.0	-87315.2659651677	0.0429598771	0.0514775146	0.0	0.0944
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiaceae; g__Rhizobium; s__Rhizobium giardinii	NosZ	574	1.0	-87311.3329112705	0.0877926481	0.0412421542	0.0	0.129
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiaceae; g__Rhizobium; s__Rhizobium sp. IBUN	NosZ	574	1.0	-87312.5561912985	0.0514704998	0.0418605494	0.0	0.0933
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus; s__Paracoccus yeei	NosZ	581	1.0	-87381.2129582005	0.0142022113	0.1066720561	0.0	0.1209
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus; s__Paracoccus versutus	NosZ	492	1.0	-87380.3616851818	0.021719111	0.053745924	0.0	0.0755
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae; g__Aquamicrobium; s__Aquamicrobium defluvii	NosZ	496	0.9936251211	-87385.688734551	0.0446353362	0.0458964901	0.0	0.0905
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus	NosZ	582	1.0	-87382.6983602582	0.0349302651	0.0260709803	0.0616	0.1226
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus	NosZ	496	1.0	-87385.7872641429	0.0149155484	0.0270496263	0.0386	0.0806
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus; s__Paracoccus pantotrophus	NosZ	492	1.0	-87385.4773710123	0.0548285304	0.021992735	0.0	0.0768
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus; s__Paracoccus halophilus	NosZ	581	1.0	-87382.1348448338	0.1067685314	0.0140541164	0.0	0.1208
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Leisingera; s__Leisingera sp. ANG1	NosZ	511	1.0	-87385.0441004455	0.0432334406	0.0687110968	0.0	0.1119
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Roseovarius; s__Roseovarius sp. MCTG156(2b)	NosZ	477	1.0	-87385.8616495859	0.0389330993	0.0153524783	0.0	0.0543
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Ruegeria; s__Ruegeria halocynthiae	NosZ	469	1.0	-87385.8838441445	0.0297024348	0.016694134	0.0	0.0464
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Ruegeria; s__Ruegeria conchae	NosZ	469	1.0	-87380.3906223146	0.0173576919	0.0273366447	0.0	0.0447
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Ruegeria	NosZ	501	1.0	-87385.8837402936	0.0261541622	0.0171161817	0.0231	0.0664
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae	NosZ	512	1.0	-87387.511576171	0.0332663453	0.0407603262	0.062	0.136
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Magnetospirillum; s__Magnetospirillum gryphiswaldense	NosZ	188	1.0	-87519.9931012028	0.087882354	0.1415950448	0.0	0.2295
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Magnetospirillum; s__Magnetospirillum caucaseum	NosZ	188	1.0	-87519.9039756662	0.1415119269	0.087974541	0.0	0.2295
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Achromobacter; s__Achromobacter xylosoxidans	NosZ	522	1.0	-87021.3691163512	0.0412310448	0.0276380003	0.0	0.0689
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Achromobacter; s__Achromobacter arsenitoxydans	NosZ	522	1.0	-87003.4313038437	0.0271971225	0.0308271153	0.0	0.058
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Achromobacter; s__Achromobacter arsenitoxydans	NosZ	522	1.0	-87028.0139854413	0.0301963856	0.0408952304	0.0	0.0711
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Oligella; s__Oligella urethralis	NosZ	526	1.0	-87020.9115394564	0.0476991836	0.0612961301	0.0	0.109
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Oligella; s__Oligella ureolytica	NosZ	526	1.0	-87024.522257845	0.0639778248	0.0463440578	0.0	0.1103
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Ralstonia; s__Ralstonia solanacearum	NosZ	281	1.0	-87030.1196740157	0.0473992418	0.0395044947	0.0	0.0869
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae	NosZ	292	1.0	-87033.6128354027	0.0204473808	0.0433015692	0.0645	0.1282
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Ralstonia; s__Ralstonia pickettii	NosZ	281	1.0	-87033.1404400593	0.0200945146	0.0232718096	0.0	0.0434
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Cupriavidus; s__Cupriavidus sp. amp6	NosZ	281	1.0	-87033.1618036016	0.0225624174	0.0207478897	0.0	0.0433
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Ralstonia; s__Ralstonia solanacearum	NosZ	279	1.0	-87009.220418387	0.0154727054	0.0110415837	0.0	0.0265
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Cupriavidus; s__Cupriavidus metallidurans	NosZ	281	1.0	-87029.59165038	0.041691872	0.0451058724	0.0	0.0868
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae	NosZ	291	1.0	-87028.209388367	0.0099288648	0.0351831878	0.0265	0.0716
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Alicycliphilus; s__Alicycliphilus denitrificans	NosZ	291	1.0	-87028.0432627012	0.0378790621	0.0355217294	0.0	0.0734
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae	NosZ	291	0.9881820576	-87030.7953033201	0.0069680241	0.02619315	0.0327	0.0659
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria	NosZ	306	1.0	-87479.0466194875	0.0641861655	0.0856043693	0.2079	0.3577
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae	NosZ	324	1.0	-87488.4036597807	0.0795919999	0.0675240846	0.0583	0.2054
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae; g__Neisseria; s__Neisseria sp. oral taxon 014	NosZ	542	1.0	-87494.8711297979	0.021978	0.0336033464	0.0	0.0556
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae; g__Neisseria; s__Neisseria sp. oral taxon 014	NosZ	537	1.0	-87488.5837855139	0.0220241977	0.0358714449	0.0	0.0579
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae; g__Neisseria; s__Neisseria mucosa	NosZ	537	1.0	-87488.5823734286	0.0358329464	0.0220561654	0.0	0.0579
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Thiobacillaceae; g__Thiobacillus; s__Thiobacillus thioparus	NosZ	313	1.0	-87345.7634834394	0.047449607	0.0347162655	0.0	0.0822
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Thiobacillaceae; g__Thiobacillus; s__Thiobacillus thioparus	NosZ	313	1.0	-87354.0013892203	0.0481247368	0.0374217596	0.0	0.0855
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Thiobacillaceae; g__Thiobacillus; s__Thiobacillus denitrificans	NosZ	315	0.9997985461	-87488.4712491364	0.0135761696	0.0415592813	0.0378	0.0929
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Rhodocyclaceae; g__Azospira; s__Dechlorosoma suillum	NosZ	178	1.0	-87488.3402073074	0.0296175917	0.0337421577	0.0	0.0634
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales	NosZ	179	0.9412914924	-87490.234439114	0.0105489377	0.0519800727	0.0634	0.1259
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria	NosZ	184	1.0	-87349.7525203967	0.0521812347	0.0991412831	0.081	0.2323
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Thauera; s__Thauera sp. 27	NosZ	295	1.0	-87221.3136829353	0.0491976468	0.0372134298	0.0	0.0864
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Thauera; s__Thauera linaloolentis	NosZ	297	1.0	-87477.1151154863	0.0376410227	0.0431423662	0.0	0.0808
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Thauera; s__Thauera terpenica	NosZ	305	1.0	-87495.3603868251	0.0083735	0.1053605157	0.0	0.1137
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Thauera; s__Thauera terpenica	NosZ	305	1.0	-87488.5916929953	0.0167713237	0.0471774999	0.0	0.0639
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Thauera; s__Thauera sp. MZ1T	NosZ	305	1.0	-87488.582343937	0.0472179429	0.0167711948	0.0	0.064
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Myxococcales; f__Anaeromyxobacteraceae; g__Anaeromyxobacter; s__Anaeromyxobacter sp. K	NosZ	241	1.0	-87690.0485486476	0.068532435	0.0652437498	0.0	0.1338
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Deltaproteobacteria; o__Myxococcales; f__Anaeromyxobacteraceae; g__Anaeromyxobacter; s__Anaeromyxobacter sp. Fw109-5	NosZ	241	1.0	-87690.0201316375	0.0654286641	0.0683238847	0.0	0.1338
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Campylobacteraceae; g__Campylobacter; s__Campylobacter rectus	NosZ	217	1.0	-87134.5547106905	0.0395251132	0.0480840041	0.0	0.0876
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Campylobacteraceae; g__Campylobacter; s__Campylobacter rectus	NosZ	217	1.0	-87153.9545796593	0.0464629442	0.0575557329	0.0	0.104
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Campylobacteraceae; g__Campylobacter; s__Campylobacter iguaniorum	NosZ	217	1.0	-86624.7483189131	0.0403168664	0.0288583452	0.0	0.0692
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Campylobacteraceae; g__Campylobacter	NosZ	219	1.0	-87138.4434921491	0.0257130048	0.1193301793	0.0768	0.2218
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Campylobacteraceae; g__Campylobacter; s__Campylobacter fetus	NosZ	217	1.0	-86626.4571133875	0.0241574743	0.0451216526	0.0	0.0693
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Campylobacteraceae; g__Campylobacter; s__Campylobacter concisus	NosZ	217	1.0	-87157.5723974181	0.0482747691	0.050273009	0.0	0.0985
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales	NosZ	220	1.0	-87523.0668132472	0.04192	0.1053605157	0.128	0.2753
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Thiovulaceae; g__Sulfurimonas; s__Sulfurimonas hongkongensis	NosZ	212	1.0	-85993.7487012496	0.0665287271	0.0599897291	0.0	0.1265
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Thiovulaceae; g__Sulfurimonas; s__Sulfurimonas hongkongensis	NosZ	207	1.0	-86020.5887442797	0.0636020137	0.0669759905	0.0	0.1306
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Thiovulaceae; g__Sulfurimonas	NosZ	215	1.0	-87542.7433649953	0.0281349885	0.1234871443	0.0622	0.2138
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Thiovulaceae; g__Sulfurimonas; s__Sulfurimonas denitrificans	NosZ	207	1.0	-85997.5483472157	0.0612113348	0.0681826802	0.0	0.1294
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Thiovulaceae; g__Sulfurimonas; s__Sulfurimonas denitrificans	NosZ	212	1.0	-86022.0861700864	0.0586343684	0.0825919261	0.0	0.1412
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Alteromonadaceae; g__Marinobacter	NosZ	398	1.0	-86928.3912182609	0.0098674604	0.0435269425	0.0444	0.0978
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Alteromonadaceae; g__Marinobacter; s__Marinobacter sp. ELB17	NosZ	398	0.9993370028	-86928.8795351854	0.0689545183	0.0551172399	0.0	0.1241
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Alteromonadaceae; g__Marinobacter; s__Marinobacter santoriniensis	NosZ	398	0.9995790581	-86928.7721670515	0.0552380328	0.0690681045	0.0	0.1243
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Alteromonadaceae; g__Marinobacter; s__Marinobacter sp. HL-58	NosZ	394	0.9903480378	-86928.6987532786	0.0543002504	0.0351813587	0.0	0.0895
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Alteromonadaceae; g__Marinobacter; s__Marinobacter sp. ES-1	NosZ	394	1.0	-86928.6696183957	0.034922807	0.0547390958	0.0	0.0897
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Colwelliaceae; g__Colwellia; s__Colwellia psychrerythraea	NosZ	430	1.0	-86691.3242777992	0.0843030088	0.0601778857	0.0	0.1445
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Psychromonadaceae; g__Psychromonas; s__Psychromonas ingrahamii	NosZ	432	0.9934046601	-86718.5164061274	0.0735164319	0.0839311764	0.0	0.1574
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Colwelliaceae; g__Colwellia; s__Colwellia piezophila	NosZ	433	1.0	-86928.0868397579	0.0636511493	0.0846285569	0.0	0.1483
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Colwelliaceae; g__Colwellia; s__Colwellia piezophila	NosZ	434	0.9998908767	-86928.6030088744	0.0851396168	0.071341383	0.0	0.1565
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Vibrionales; f__Vibrionaceae; g__Photobacterium; s__Photobacterium profundum	NosZ	424	0.9881373852	-86928.5246474728	0.0477207989	0.0394895876	0.0	0.0872
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	427	0.8801049965	-86932.5365737112	0.013313	0.0696767635	0.057	0.14
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	430	0.5993677103	-86931.4180476817	0.006238	0.0564633384	0.0788	0.1415
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Chromatiales; f__Ectothiorhodospiraceae; g__Thioalkalivibrio; s__Thioalkalivibrio thiocyanoxidans	NosZ	335	1.0	-86916.0152036389	0.0373091913	0.0341052296	0.0	0.0714
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Chromatiales; f__Ectothiorhodospiraceae; g__Thioalkalivibrio; s__Thioalkalivibrio thiocyanodenitrificans	NosZ	340	1.0	-86923.9629019385	0.109570716	0.0962341938	0.0	0.2058
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Chromatiales; f__Ectothiorhodospiraceae; g__Thioalkalivibrio	NosZ	625	1.0	-86914.0697214241	0.134440329	0.1452085998	0.0384	0.318
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Chromatiales; f__Ectothiorhodospiraceae; g__Thioalkalivibrio; s__Thioalkalivibrio sp. AKL11	NosZ	340	1.0	-86925.1835729899	0.0979117119	0.107969095	0.0	0.2059
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Chromatiales; f__Ectothiorhodospiraceae; g__Thioalkalivibrio; s__Thioalkalivibrio nitratireducens	NosZ	335	1.0	-86923.3838750985	0.0357283008	0.0374800942	0.0	0.0732
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Hahellaceae; g__Hahella; s__Hahella ganghwensis	NosZ	407	1.0	-86928.3017064568	0.0438486776	0.0356494403	0.0	0.0795
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Hahellaceae; g__Hahella; s__Hahella chejuensis	NosZ	407	1.0	-86928.3329848183	0.0365518949	0.0428588922	0.0	0.0794
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Halomonadaceae; g__Halomonas; s__Halomonas xinjiangensis	NosZ	406	1.0	-86927.8024675041	0.0781215199	0.0396854043	0.0	0.1178
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Halomonadaceae; g__Halomonas	NosZ	407	1.0	-86923.2884644146	0.0298147266	0.0556874356	0.058	0.1435
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Halomonadaceae; g__Halomonas; s__Halomonas sp. 23_GOM-1509m	NosZ	406	1.0	-86928.7966924115	0.0395702286	0.0766252518	0.0	0.1162
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas sp. M1	NosZ	362	1.0	-86928.6671651347	0.0298584702	0.0529744118	0.0	0.0828
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas mandelii	NosZ	373	1.0	-86871.1448574844	0.0108935	0.1053605157	0.0	0.1163
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas fluorescens	NosZ	379	1.0	-86810.4649255057	0.0042098121	0.0085229853	0.0	0.0127
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas fluorescens	NosZ	374	1.0	-86870.0713617316	0.0216020903	0.0259872984	0.0	0.0476
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	409	1.0	-86928.803226763	0.0384653404	0.121394226	0.136	0.2959
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas stutzeri	NosZ	381	1.0	-86742.9436448308	0.0475475965	0.0316199136	0.0216	0.1008
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas stutzeri	NosZ	381	1.0	-86753.4540102013	0.0435777457	0.0384961682	0.0216	0.1037
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas	NosZ	377	1.0	-86691.2103346472	0.0256926069	0.0094668566	0.0374	0.0726
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas brassicacearum	NosZ	374	1.0	-86709.5986044363	0.0225399841	0.0252505499	0.0	0.0478
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas	NosZ	376	1.0	-86928.066438523	0.0212253293	0.0218870147	0.0238	0.0669
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas	NosZ	367	1.0	-86928.8007236103	0.0405864599	0.0262045977	0.0522	0.119
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas sp. ATCC 13867	NosZ	362	1.0	-86928.7294545067	0.0183557246	0.030204249	0.0	0.0486
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	388	0.7508256853	-86933.0207238482	0.0156369591	0.1081171101	0.1083	0.2321
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas stutzeri	NosZ	354	1.0	-86928.7977569771	0.0150966093	0.0325701135	0.0	0.0477
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas nitroreducens	NosZ	362	1.0	-86928.7451697888	0.0300298152	0.0184803681	0.0	0.0485
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas sp. RL	NosZ	366	0.9999356873	-86928.8041461197	0.1055158331	0.0817273901	0.0	0.1872
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas aeruginosa	NosZ	362	1.0	-86928.7191802277	0.0526361379	0.0300744057	0.0	0.0827
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas sp. BAY1663	NosZ	366	1.0	-86920.742198472	0.0817518235	0.1013885763	0.0	0.1831
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas	NosZ	385	1.0	-86923.7774805008	0.0316173569	0.0802457234	0.0572	0.1691
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas saudiphocaensis	NosZ	346	1.0	-86043.4809502365	0.0257640698	0.0225983442	0.0	0.0484
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas sp. Chol1	NosZ	347	1.0	-86112.8688686173	0.0379265544	0.0517238489	0.0	0.0897
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas sp. Chol1	NosZ	347	1.0	-86119.7626722359	0.0415552178	0.0536755067	0.0	0.0952
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas sp. Chol1	NosZ	347	0.9506125432	-86118.2766660797	0.0403791669	0.054297726	0.0	0.0947
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas fluorescens	NosZ	375	1.0	-86133.8152774627	0.0362132173	0.0670407979	0.0	0.1033
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas fluorescens	NosZ	375	1.0	-86134.5921597067	0.042184433	0.0619365718	0.0	0.1041
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas sp. Chol1	NosZ	347	1.0	-85972.9978582364	0.0145620797	0.002311047	0.0	0.0169
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas saudiphocaensis	NosZ	346	1.0	-85998.7872110322	0.0269252766	0.0114904554	0.0	0.0384
+NosZ	species	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas; s__Pseudomonas sp. Chol1	NosZ	347	1.0	-86101.0430676597	0.0358804926	0.0479689602	0.0	0.0838
+NosZ	phylum	r__Root; d__Bacteria; p__Ignavibacteriae; c__Ignavibacteria; o__Ignavibacteriales	NosZ	82	1.0	-86710.797725842	0.0447872713	0.1843540211	0.1053	0.3344
+NosZ	phylum	r__Root; d__Bacteria; p__Ignavibacteriae; c__Ignavibacteria; o__Ignavibacteriales	NosZ	82	0.9066306887	-86698.7689351166	0.0530252823	0.1778983532	0.1053	0.3362
+NosZ	phylum	r__Root; d__Bacteria	NosZ	84	1.0	-86756.2085858813	0.0344447398	0.2219740903	0.2169	0.4733
+NosZ	phylum	r__Root; d__Bacteria	NosZ	84	1.0	-86843.2366817902	0.0346810814	0.2823847313	0.2169	0.534
+NosZ	phylum	r__Root; d__Bacteria; p__Gemmatimonadetes; c__Gemmatimonadetes; o__Gemmatimonadales; f__Gemmatimonadaceae; g__Gemmatimonas; s__Gemmatimonas aurantiaca	NosZ	3	0.9927033862	-63564.9162135697	0.2422549576	0.2538450438	0.0	0.4961
+NosZ	phylum	r__Root; d__Bacteria; p__Aquificae; c__Aquificae; o__Aquificales	NosZ	10	0.8311651512	-63528.0197024898	0.0438862866	0.2416701781	0.1742	0.4598
+NosZ	phylum	r__Root; d__Bacteria; p__Aquificae; c__Aquificae; o__Aquificales	NosZ	10	0.7656139022	-63597.7233051233	0.038310943	0.3237571369	0.1742	0.5363
+NosZ	phylum	r__Root; d__Bacteria	NosZ	481	1.0	-63576.5538577247	0.5226032244	0.1604169531	1.4635	2.1465
+NosZ	phylum	r__Root; d__Bacteria	NosZ	481	1.0	-63659.7081279967	0.432301146	0.2491668565	1.4635	2.145
+NosZ	phylum	r__Root; d__Bacteria	NosZ	481	1.0	-63618.5945200702	0.5598844605	0.2238285003	1.4635	2.2472
+NosZ	phylum	r__Root; d__Bacteria	NosZ	481	1.0	-63574.7760256735	0.5138316145	0.1692904099	1.4635	2.1466
+NosZ	phylum	r__Root; d__Bacteria	NosZ	481	1.0	-63583.1628401927	0.53929416	0.1811736782	1.4635	2.184
+NosZ	phylum	r__Root; d__Bacteria; p__Gemmatimonadetes; c__Gemmatimonadetes; o__Gemmatimonadales; f__Gemmatimonadaceae; g__Gemmatimonas; s__Gemmatimonas aurantiaca	NosZ	3	1.0	-63560.2544126568	0.222408822	0.2482779573	0.0	0.4707
+NosZ	phylum	r__Root; d__Bacteria	NosZ	481	1.0	-63578.103047737	0.5164127197	0.1694856307	1.4635	2.1494
+NosZ	phylum	r__Root; d__Bacteria	NosZ	481	1.0	-63636.8546831637	0.507249796	0.2510287522	1.4635	2.2218
+NosZ	phylum	r__Root; d__Bacteria; p__Ignavibacteriae; c__Ignavibacteria; o__Ignavibacteriales	NosZ	2	1.0	-63490.5782942484	0.039499526	0.203674479	0.1053	0.3485
+NosZ	phylum	r__Root; d__Bacteria	NosZ	481	1.0	-63602.1532266897	0.5295613639	0.1960571225	1.4635	2.1891
+NosZ	phylum	r__Root; d__Bacteria	NosZ	481	1.0	-63601.8640325885	0.5028945784	0.2060036834	1.4635	2.1724
+NosZ	phylum	r__Root; d__Bacteria; p__Gemmatimonadetes; c__Gemmatimonadetes; o__Gemmatimonadales; f__Gemmatimonadaceae; g__Gemmatimonas; s__Gemmatimonas aurantiaca	NosZ	3	1.0	-63582.6001394245	0.2147327615	0.2693439873	0.0	0.4841
+NosZ	phylum	r__Root; d__Bacteria	NosZ	481	1.0	-63637.5512708711	0.5372767305	0.2382338948	1.4635	2.239
+NosZ	phylum	r__Root; d__Bacteria	NosZ	481	1.0	-63626.6135449376	0.4825091182	0.2201835024	1.4635	2.1662
+NosZ	phylum	r__Root; d__Bacteria	NosZ	481	1.0	-63520.2593246604	0.529548102	0.1139198482	1.4635	2.107
+NosZ	phylum	r__Root; d__Bacteria; p__Aquificae; c__Aquificae; o__Aquificales	NosZ	10	0.9389710019	-63563.5649067253	0.0399439068	0.28074952	0.1742	0.4949
+NosZ	phylum	r__Root; d__Bacteria	NosZ	481	1.0	-63609.1973361688	0.5398928707	0.2097804875	1.4635	2.2132
+NosZ	phylum	r__Root; d__Bacteria	NosZ	481	1.0	-63595.8436926042	0.4829472033	0.187421024	1.4635	2.1339
+NosZ	phylum	r__Root; d__Bacteria; p__Gemmatimonadetes; c__Gemmatimonadetes; o__Gemmatimonadales; f__Gemmatimonadaceae; g__Gemmatimonas; s__Gemmatimonas aurantiaca	NosZ	3	0.8652185538	-63575.3969204721	0.2470560395	0.2691776057	0.0	0.5162
+NosZ	phylum	r__Root; d__Bacteria	NosZ	481	1.0	-63557.0438061507	0.5050310055	0.140610176	1.4635	2.1091
+NosZ	phylum	r__Root; d__Bacteria	NosZ	481	1.0	-63612.6521679102	0.5469553191	0.2110775101	1.4635	2.2215
+NosZ	phylum	r__Root; d__Bacteria; p__Verrucomicrobia; c__Opitutae; o__Opitutales; f__Opitutaceae	NosZ	88	1.0	-63580.3826821778	0.0683206454	0.2562456779	0.1206	0.4452
+NosZ	phylum	r__Root; d__Bacteria; p__Gemmatimonadetes; c__Gemmatimonadetes; o__Gemmatimonadales; f__Gemmatimonadaceae; g__Gemmatimonas; s__Gemmatimonas aurantiaca	NosZ	3	1.0	-63527.8665259035	0.2281265413	0.2195976233	0.0	0.4477
+NosZ	phylum	r__Root; d__Bacteria	NosZ	481	1.0	-63609.7600067614	0.5337872652	0.1979463967	1.4635	2.1952
+NosZ	phylum	r__Root; d__Bacteria	NosZ	481	1.0	-63586.8411412014	0.5091999139	0.1747208445	1.4635	2.1474
+NosZ	phylum	r__Root; d__Bacteria	NosZ	481	1.0	-63592.7990874548	0.5367709115	0.2058006693	1.4635	2.2061
+NosZ	phylum	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	223	1.0	-86661.9299640672	0.2000551434	0.2464949794	0.0	0.4466
+NosZ	phylum	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	223	1.0	-86713.0250884699	0.1869205691	0.3121971882	0.0	0.4991
+NosZ	phylum	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	223	1.0	-86719.9447809244	0.190055164	0.3179785293	0.0	0.508
+NosZ	phylum	r__Root; d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Campylobacteraceae; g__Campylobacter	NosZ	202	1.0	-87689.8332094625	0.0340381448	0.1318844253	0.1051	0.271
+NosZ	phylum	r__Root; d__Bacteria; p__Proteobacteria	NosZ	604	0.5849979559	-83989.7396776546	0.8682963389	0.309428963	0.7106	1.8883
+NosZ	phylum	r__Root; d__Bacteria; p__Proteobacteria	NosZ	604	0.9857720513	-84013.1054656761	0.8506039627	0.4040659552	0.7106	1.9653
+NosZ	phylum	r__Root; d__Bacteria; p__Proteobacteria	NosZ	604	1.0	-84070.9867431538	0.802958111	0.4551416128	0.7106	1.9687
+NosZ	phylum	r__Root; d__Bacteria; p__Proteobacteria	NosZ	604	1.0	-84074.0915207886	0.8183749312	0.4565608666	0.7106	1.9855
+NosZ	phylum	r__Root; d__Bacteria; p__Proteobacteria	NosZ	604	0.9889263809	-84017.2218845416	0.8475210154	0.4110467622	0.7106	1.9692
+NosZ	phylum	r__Root; d__Bacteria; p__Proteobacteria	NosZ	604	0.9860987334	-84069.2722020173	0.8111929547	0.4543661773	0.7106	1.9762
+NosZ	phylum	r__Root; d__Bacteria; p__Proteobacteria	NosZ	604	1.0	-84023.5356691016	0.8483947874	0.424824114	0.7106	1.9838
+NosZ	phylum	r__Root; d__Bacteria; p__Proteobacteria	NosZ	604	1.0	-84071.6593959791	0.7994285999	0.4682801949	0.7106	1.9783
+NosZ	phylum	r__Root; d__Bacteria; p__Proteobacteria	NosZ	604	1.0	-84021.4017842475	0.8297579649	0.415350044	0.7106	1.9557
+NosZ	phylum	r__Root; d__Bacteria; p__Proteobacteria	NosZ	604	0.992103243	-84048.9948341109	0.8231958119	0.4230261547	0.7106	1.9568
+NosZ	phylum	r__Root; d__Bacteria	NosZ	605	0.5065482025	-83946.1802705181	0.0016533261	0.3764698443	1.5452	1.9233
+NosZ	phylum	r__Root; d__Bacteria; p__Proteobacteria	NosZ	604	1.0	-84058.8246926009	0.8074466749	0.4036766039	0.7106	1.9217
+NosZ	phylum	r__Root; d__Bacteria; p__Proteobacteria	NosZ	604	1.0	-84097.1584881626	0.8011425194	0.4990795585	0.7106	2.0108
+NosZ	phylum	r__Root; d__Bacteria; p__Proteobacteria	NosZ	604	1.0	-84093.7108795565	0.8045175937	0.5187011899	0.7106	2.0338
+NosZ	phylum	r__Root; d__Bacteria; p__Proteobacteria	NosZ	604	1.0	-84078.9565597325	0.7882515093	0.4633656285	0.7106	1.9622
+NosZ	phylum	r__Root; d__Bacteria; p__Proteobacteria	NosZ	604	1.0	-84045.1494586119	0.7917674413	0.4044864945	0.7106	1.9069
+NosZ	phylum	r__Root; d__Bacteria; p__Bacteroidetes; c__Cytophagia; o__Cytophagales; f__Cesiribacteraceae; g__Cesiribacter; s__Cesiribacter andamanensis	NosZ	91	1.0	-87687.5466141964	0.195283274	0.2715740595	0.0	0.4669
+NosZ	phylum	r__Root; d__Bacteria	NosZ	635	0.9635416067	-87368.5795576614	0.0180177162	0.1217811723	0.248	0.3878
+NosZ	phylum	r__Root; d__Bacteria	NosZ	635	1.0	-87435.3498154171	0.0210498336	0.1915906173	0.248	0.4606
+NosZ	phylum	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	237	1.0	-87250.5039054785	0.1700922843	0.163665327	0.1285	0.4623
+NosZ	phylum	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	237	1.0	-87248.6624528536	0.1948114958	0.1598663641	0.1285	0.4832
+NosZ	phylum	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	237	1.0	-87260.3270149492	0.1993051946	0.1771691534	0.1285	0.505
+NosZ	order	r__Root; d__Bacteria	NosZ	166	1.0	-87698.1953496689	0.0284485439	0.3242164088	0.2721	0.6248
+NosZ	order	r__Root; d__Bacteria; p__Chloroflexi; c__Caldilineae; o__Caldilineales; f__Caldilineaceae; g__Caldilinea; s__Caldilinea aerophila	NosZ	165	1.0	-87690.0299054957	0.2197636811	0.2686725351	0.0	0.4884
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria	NosZ	622	1.0	-87519.8890847377	0.0359334976	0.1763486638	0.4295	0.6418
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Sulfitobacter; s__Sulfitobacter mediterraneus	NosZ	489	1.0	-82104.7293455759	0.0705769339	0.0591962138	0.0	0.1298
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus	NosZ	542	1.0	-82196.748285286	0.1939035	0.1053605157	0.0729	0.3722
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus	NosZ	542	1.0	-82192.6005049519	0.1939035	0.1053605157	0.0729	0.3722
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus	NosZ	542	1.0	-82186.3987912241	0.1939035	0.1053605157	0.0729	0.3722
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus	NosZ	542	1.0	-82198.9971757032	0.1939035	0.1053605157	0.0729	0.3722
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus	NosZ	542	1.0	-82430.0099034647	0.1431218014	0.2686770902	0.0729	0.4847
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae	NosZ	552	1.0	-82243.7701782874	0.0779479483	0.1408347936	0.0967	0.3155
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus	NosZ	542	1.0	-82295.1537732407	0.1939035	0.1053605157	0.0729	0.3722
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus	NosZ	542	1.0	-82260.6482206068	0.1939035	0.1053605157	0.0729	0.3722
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae	NosZ	552	1.0	-82235.8900544934	0.0663860927	0.1304395302	0.0967	0.2935
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus	NosZ	542	1.0	-82204.3627117689	0.1939035	0.1053605157	0.0729	0.3722
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus	NosZ	542	1.0	-82220.2545576109	0.1939035	0.1053605157	0.0729	0.3722
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus	NosZ	542	1.0	-82197.4841751611	0.1939035	0.1053605157	0.0729	0.3722
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus	NosZ	542	1.0	-82196.0389950274	0.1939035	0.1053605157	0.0729	0.3722
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus	NosZ	542	1.0	-82186.5341424179	0.1030966688	0.0701516713	0.0729	0.2461
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus	NosZ	542	1.0	-82168.767773498	0.1939035	0.1053605157	0.0729	0.3722
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus	NosZ	542	1.0	-82246.1112665679	0.1939035	0.1053605157	0.0729	0.3722
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus	NosZ	542	1.0	-82180.8188974845	0.1939035	0.1053605157	0.0729	0.3722
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus	NosZ	542	1.0	-82201.4036399864	0.1939035	0.1053605157	0.0729	0.3722
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus	NosZ	542	1.0	-82226.9369777223	0.1939035	0.1053605157	0.0729	0.3722
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus	NosZ	542	1.0	-82192.274953377	0.0971362714	0.0746976553	0.0729	0.2447
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus	NosZ	542	1.0	-82197.0776800237	0.1939035	0.1053605157	0.0729	0.3722
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus	NosZ	542	1.0	-82205.4103571357	0.1939035	0.1053605157	0.0729	0.3722
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus	NosZ	542	1.0	-82223.1847926428	0.1939035	0.1053605157	0.0729	0.3722
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus	NosZ	542	1.0	-82275.0960494967	0.1948900983	0.1252302027	0.0729	0.393
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus	NosZ	542	1.0	-82197.4551846936	0.1939035	0.1053605157	0.0729	0.3722
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus	NosZ	542	1.0	-82185.1347703731	0.0903701251	0.0759335171	0.0729	0.2392
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae	NosZ	552	1.0	-82126.4129347336	0.0378587044	0.0594941216	0.0967	0.1941
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae; g__Aquamicrobium; s__Aquamicrobium defluvii	NosZ	457	1.0	-80737.2240033359	0.208619	0.1053605157	0.0	0.314
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae; g__Aquamicrobium; s__Aquamicrobium defluvii	NosZ	457	1.0	-80743.6219228351	0.2206377477	0.1136553748	0.0	0.3343
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae; g__Aquamicrobium; s__Aquamicrobium defluvii	NosZ	457	1.0	-80717.9272537271	0.208619	0.1053605157	0.0	0.314
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae; g__Aquamicrobium; s__Aquamicrobium defluvii	NosZ	457	1.0	-80760.091968341	0.208619	0.1053605157	0.0	0.314
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae; g__Aquamicrobium; s__Aquamicrobium defluvii	NosZ	457	1.0	-80597.6191194221	0.0603715418	0.0690493761	0.0	0.1294
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae; g__Aquamicrobium; s__Aquamicrobium defluvii	NosZ	457	1.0	-80718.2087226415	0.2087327036	0.0982453714	0.0	0.307
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae; g__Hoeflea; s__Hoeflea sp. BAL378	NosZ	458	1.0	-80602.5962657927	0.09664	0.0623258984	0.0	0.159
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae	NosZ	459	0.6202861252	-80664.0873183357	0.0045471265	0.0917681306	0.2569	0.3532
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae; g__Aquamicrobium; s__Aquamicrobium defluvii	NosZ	457	1.0	-80527.8384002953	0.059221182	0.0269910325	0.0	0.0862
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae; g__Hoeflea; s__Hoeflea sp. BAL378	NosZ	458	1.0	-80620.6596629135	0.09664	0.0729549502	0.0	0.1696
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae; g__Nitratireductor; s__Nitratireductor indicus	NosZ	453	1.0	-80655.1864282972	0.0571504297	0.1304737666	0.0	0.1876
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae; g__Aquamicrobium; s__Aquamicrobium defluvii	NosZ	457	1.0	-80544.057111104	0.0479403056	0.0436714124	0.0	0.0916
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae; g__Aquamicrobium; s__Aquamicrobium defluvii	NosZ	457	1.0	-80522.4259704351	0.0590792676	0.0286516502	0.0	0.0877
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae	NosZ	459	1.0	-80648.1689265426	0.1096155	0.1053605157	0.2569	0.4719
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae; g__Aquamicrobium; s__Aquamicrobium defluvii	NosZ	457	1.0	-80675.1494601626	0.267630764	0.078571572	0.0	0.3462
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae; g__Aquamicrobium; s__Aquamicrobium defluvii	NosZ	457	1.0	-80660.1531579065	0.2978529769	0.0617752454	0.0	0.3596
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae; g__Hoeflea; s__Hoeflea sp. BAL378	NosZ	458	1.0	-80639.1298740308	0.09664	0.0923035077	0.0	0.1889
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae; g__Aquamicrobium; s__Aquamicrobium defluvii	NosZ	457	1.0	-80729.4033868425	0.208619	0.1053605157	0.0	0.314
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae; g__Aquamicrobium; s__Aquamicrobium defluvii	NosZ	457	1.0	-80716.0715592434	0.208619	0.1053605157	0.0	0.314
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae; g__Hoeflea; s__Hoeflea sp. BAL378	NosZ	458	1.0	-80546.7933301119	0.0795399514	0.0539792913	0.0	0.1335
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae; g__Nitratireductor; s__Nitratireductor indicus	NosZ	453	1.0	-80642.055320167	0.0536469316	0.1190734596	0.0	0.1727
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae; g__Aquamicrobium; s__Aquamicrobium defluvii	NosZ	457	1.0	-80521.1877739072	0.0512340281	0.0352803924	0.0	0.0865
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae	NosZ	459	1.0	-80605.3849083778	0.0083245402	0.062316169	0.2569	0.3275
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiaceae; g__Rhizobium; s__Rhizobium giardinii	NosZ	515	1.0	-80655.8249981286	0.0579114015	0.140311585	0.0	0.1982
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae; g__Nitratireductor; s__Nitratireductor indicus	NosZ	453	1.0	-80660.529118298	0.0704922431	0.1357694778	0.0	0.2063
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae; g__Aquamicrobium; s__Aquamicrobium defluvii	NosZ	457	1.0	-80534.0084799122	0.0570299675	0.0347608823	0.0	0.0918
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae; g__Hoeflea; s__Hoeflea sp. BAL378	NosZ	458	1.0	-80584.7854201739	0.092960006	0.0728111675	0.0	0.1658
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiaceae; g__Rhizobium; s__Rhizobium giardinii	NosZ	515	1.0	-80678.6208066289	0.061574547	0.1643101895	0.0	0.2259
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria	NosZ	187	1.0	-85222.1788202597	0.0564749666	0.1626872789	0.1234	0.3426
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria	NosZ	187	0.8208943784	-85297.1425245866	0.0560910732	0.2169114093	0.1234	0.3964
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria	NosZ	611	1.0	-85247.5903440348	0.0587668713	0.1820216805	0.2509	0.4917
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria	NosZ	612	1.0	-85174.8689978272	0.0279956666	0.1378516179	0.3113	0.4771
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria	NosZ	584	1.0	-85224.0832000643	0.0381056083	0.1931541564	0.2451	0.4764
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria	NosZ	516	1.0	-85270.8019790259	0.0416217311	0.2095456024	0.3884	0.6396
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Thauera	NosZ	275	1.0	-82054.9173020098	0.0510988423	0.0710996866	0.0431	0.1653
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria	NosZ	276	0.9664397443	-82112.7314878025	0.0169862433	0.1043886143	0.1555	0.2769
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Thauera	NosZ	275	1.0	-82086.5979824512	0.0510041342	0.0997347297	0.0431	0.1938
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Thauera	NosZ	275	1.0	-82084.1839175432	0.0511252164	0.0910542907	0.0431	0.1853
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Thauera	NosZ	275	1.0	-82078.1069367754	0.067118378	0.0842418426	0.0431	0.1945
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Chromobacteriaceae; g__Pseudogulbenkiania; s__Pseudogulbenkiania sp. NH8B	NosZ	293	1.0	-82094.9700618329	0.0915422101	0.086245119	0.0	0.1778
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae	NosZ	498	1.0	-82119.3917521476	0.1092838317	0.0909689862	0.1166	0.3169
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae	NosZ	498	1.0	-82208.6899779424	0.1068431094	0.155802953	0.1166	0.3792
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Thauera	NosZ	275	1.0	-82077.1071118651	0.0634247973	0.0902010025	0.0431	0.1967
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae	NosZ	498	1.0	-82152.0537986224	0.0934535	0.1053605157	0.1166	0.3154
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Thauera	NosZ	275	1.0	-82075.9715702712	0.056778416	0.0862444112	0.0431	0.1861
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae	NosZ	498	1.0	-82195.1241668771	0.101301679	0.1383311768	0.1166	0.3562
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Thauera	NosZ	275	1.0	-82054.1138816262	0.0604195685	0.0649008353	0.0431	0.1684
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria	NosZ	292	1.0	-82111.0216078947	0.025241	0.1053605157	0.0925	0.2231
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae	NosZ	498	1.0	-82094.9439370421	0.1068102981	0.0755038842	0.1166	0.2989
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Thauera	NosZ	275	1.0	-82089.8650095743	0.0724174954	0.0957780975	0.0431	0.2113
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Thauera	NosZ	275	1.0	-82081.7454666664	0.0537972498	0.0997029695	0.0431	0.1966
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae	NosZ	498	1.0	-82138.4387236335	0.1191659043	0.1026075057	0.1166	0.3384
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Thauera	NosZ	275	1.0	-82081.862601656	0.0705189385	0.0856256521	0.0431	0.1992
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Methylophilaceae; g__Methylotenera; s__Methylotenera mobilis	NosZ	295	1.0	-82285.6951157381	0.186713543	0.2387022049	0.0	0.4254
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Thauera	NosZ	275	1.0	-82069.7728362292	0.0605734555	0.0850000083	0.0431	0.1887
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae	NosZ	498	1.0	-82126.7362072387	0.1161429715	0.0979489368	0.1166	0.3307
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Thauera	NosZ	275	1.0	-82342.6848882583	0.0501424679	0.3060413603	0.0431	0.3993
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Thauera	NosZ	275	1.0	-82054.0901125453	0.0568085135	0.0705716298	0.0431	0.1705
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Chromobacteriaceae; g__Pseudogulbenkiania; s__Pseudogulbenkiania sp. NH8B	NosZ	293	1.0	-82146.4511955398	0.070172	0.1053605157	0.0	0.1755
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae	NosZ	498	1.0	-82084.0908518324	0.118937331	0.0686293437	0.1166	0.3042
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae	NosZ	498	1.0	-82127.8318456152	0.1144325108	0.0958664469	0.1166	0.3269
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria	NosZ	306	1.0	-84955.4044926284	0.0633221562	0.0881056632	0.2079	0.3593
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Alcaligenes; s__Alcaligenes faecalis	NosZ	531	1.0	-85026.7836705449	0.1160881189	0.1624220615	0.0	0.2785
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Alcaligenes; s__Alcaligenes faecalis	NosZ	531	1.0	-85067.5125230465	0.1165923889	0.1866726791	0.0	0.3033
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Oligella	NosZ	528	1.0	-85070.088139168	0.0819004425	0.189521111	0.0559	0.3273
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae	NosZ	322	1.0	-84858.6162795951	0.0779829404	0.0714255903	0.0583	0.2077
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Oligella	NosZ	528	1.0	-85059.1949968745	0.0842204846	0.1767065696	0.0559	0.3168
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Oligella	NosZ	528	1.0	-85069.5286552678	0.0846909588	0.1914423533	0.0559	0.332
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Oligella	NosZ	528	1.0	-85070.719058149	0.0835268788	0.1894191839	0.0559	0.3288
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae	NosZ	532	1.0	-85078.2017863023	0.0369114639	0.1992096405	0.1563	0.3924
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Oligella	NosZ	528	1.0	-85077.0644087933	0.0782255719	0.1923163924	0.0559	0.3264
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Oligella	NosZ	528	1.0	-85068.6580613241	0.0898560838	0.1912702752	0.0559	0.337
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales	NosZ	180	0.9973270133	-86521.0904570241	0.0198081319	0.056073364	0.0659	0.1418
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Oxalobacteraceae; g__Janthinobacterium; s__Janthinobacterium lividum	NosZ	321	1.0	-86777.0395247249	0.2467848747	0.1864532958	0.0	0.4332
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales	NosZ	319	1.0	-86569.4215417722	0.0403010564	0.0751128578	0.0553	0.1707
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales	NosZ	319	1.0	-86573.5510477937	0.0341061301	0.0791224895	0.0553	0.1685
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales	NosZ	319	1.0	-86577.7218667989	0.0382663672	0.0859992059	0.0553	0.1796
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Sulfuricellaceae; g__Sulfuricella; s__Sulfuricella denitrificans	NosZ	176	1.0	-85254.2221340366	0.052625011	0.0883337767	0.0	0.141
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales	NosZ	305	1.0	-85209.7970482576	0.0211201909	0.0702921807	0.1153	0.2067
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria	NosZ	308	1.0	-85420.7253612398	0.0217079512	0.2075640422	0.2645	0.4938
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Sulfuricellaceae; g__Sulfuricella; s__Sulfuricella denitrificans	NosZ	176	1.0	-85266.6058075836	0.095184803	0.1029407965	0.0	0.1981
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Sulfuricellaceae; g__Sulfuricella; s__Sulfuricella denitrificans	NosZ	176	1.0	-85183.3303832019	0.0567055345	0.0488464638	0.0	0.1056
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria	NosZ	308	1.0	-85430.5012058287	0.0202420711	0.2112148082	0.2645	0.496
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales	NosZ	305	1.0	-85218.3225661309	0.0189532631	0.0803124766	0.1153	0.2146
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Thiobacillaceae; g__Thiobacillus	NosZ	274	1.0	-85249.6963325492	0.045858032	0.0853423467	0.048	0.1792
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria	NosZ	308	1.0	-85433.4681802338	0.0222370415	0.2141859373	0.2645	0.5009
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Thiobacillaceae; g__Thiobacillus	NosZ	274	1.0	-85203.9040686461	0.0491302548	0.0612950849	0.048	0.1584
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Sulfuricellaceae; g__Sulfuricella; s__Sulfuricella denitrificans	NosZ	176	1.0	-85204.1288285121	0.0565612416	0.0597397085	0.0	0.1163
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Sulfuricellaceae; g__Sulfuricella; s__Sulfuricella denitrificans	NosZ	176	1.0	-85199.6909823513	0.0485654489	0.0666776371	0.0	0.1152
+NosZ	order	r__Root; d__Bacteria	NosZ	227	1.0	-85963.6708409032	0.0956434089	0.445832019	0.3722	0.9137
+NosZ	order	r__Root; d__Bacteria	NosZ	240	1.0	-87460.7023128303	0.2399916806	0.2475197935	0.2383	0.7258
+NosZ	order	r__Root; d__Bacteria	NosZ	240	1.0	-87464.4867066217	0.241451037	0.2434514112	0.2383	0.7232
+NosZ	order	r__Root; d__Bacteria	NosZ	240	1.0	-87461.1594415645	0.2253307071	0.2442370234	0.2383	0.7079
+NosZ	order	r__Root; d__Bacteria	NosZ	632	1.0	-87690.0435014642	0.066201365	0.3707418785	0.4196	0.8565
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales	NosZ	401	1.0	-84835.9526379286	0.0253495	0.1053605157	0.1368	0.2675
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Vibrionales; f__Vibrionaceae; g__Photobacterium; s__Photobacterium profundum	NosZ	408	1.0	-84801.1479169274	0.0590369511	0.0880100227	0.0	0.147
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Vibrionales; f__Vibrionaceae	NosZ	409	0.9925409095	-84811.0541529274	0.0303538885	0.072663037	0.077	0.18
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	392	1.0	-84832.9246073189	0.014227	0.1053605157	0.1727	0.2923
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Vibrionales; f__Vibrionaceae; g__Photobacterium; s__Photobacterium profundum	NosZ	408	1.0	-84748.1890099905	0.0619646383	0.0556807775	0.0	0.1176
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Vibrionales; f__Vibrionaceae; g__Photobacterium; s__Photobacterium profundum	NosZ	408	1.0	-84745.5323039994	0.0515937102	0.0552798406	0.0	0.1069
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Vibrionales; f__Vibrionaceae; g__Photobacterium; s__Photobacterium profundum	NosZ	408	1.0	-84753.0107857339	0.0540578961	0.05750419	0.0	0.1116
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Vibrionales; f__Vibrionaceae	NosZ	409	0.9712599574	-84834.7886254453	0.0196772879	0.0953415148	0.077	0.192
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Hahellaceae; g__Hahella	NosZ	395	0.7049104597	-84810.3328387538	0.070025553	0.0791219674	0.0391	0.1882
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Vibrionales; f__Vibrionaceae	NosZ	409	0.9900743543	-84823.7636056101	0.0318245258	0.0716818409	0.077	0.1805
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Hahellaceae; g__Hahella	NosZ	395	0.5418438537	-84810.5074218856	0.0683444525	0.0828908369	0.0391	0.1903
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Vibrionales; f__Vibrionaceae; g__Photobacterium; s__Photobacterium profundum	NosZ	408	1.0	-84758.7562262115	0.0595082874	0.0553603614	0.0	0.1149
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	392	1.0	-84790.7444309816	0.014227	0.1053605157	0.1727	0.2923
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Vibrionales; f__Vibrionaceae; g__Photobacterium; s__Photobacterium profundum	NosZ	408	1.0	-84728.7151617769	0.055270767	0.0468748627	0.0	0.1021
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales	NosZ	401	1.0	-84801.7701050764	0.0237325246	0.0711385454	0.1368	0.2317
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Vibrionales; f__Vibrionaceae; g__Photobacterium; s__Photobacterium profundum	NosZ	408	1.0	-84702.7833127367	0.0597893719	0.0291011324	0.0	0.0889
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria	NosZ	550	1.0	-86928.2261043228	0.0624725614	0.1635458746	0.1955	0.4215
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria	NosZ	223	1.0	-84395.0711432291	0.0401861144	0.2230931794	0.1819	0.4452
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria	NosZ	614	0.8385739025	-84394.2548488723	0.017855998	0.1970042464	0.5862	0.8011
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria	NosZ	614	1.0	-84489.3671622484	0.0513772557	0.2996258176	0.5862	0.9372
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria	NosZ	614	1.0	-84486.0514625513	0.0498407847	0.290850297	0.5862	0.9269
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	429	1.0	-84403.2765974698	0.0546126581	0.2371244638	0.2373	0.529
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria	NosZ	614	1.0	-84494.9443006826	0.0510085961	0.2924361897	0.5862	0.9296
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	429	0.997172285	-84385.9560959124	0.0627022581	0.2313433241	0.2373	0.5313
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas	NosZ	388	1.0	-84872.4570649439	0.0114318618	0.0795733933	0.0999	0.1909
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	400	1.0	-84963.601161889	0.0141045	0.1053605157	0.1889	0.3084
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	400	0.5112304615	-84958.1362587098	0.0141045	0.1053605157	0.1889	0.3084
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	422	0.8818436659	-84994.3481733482	0.0133187571	0.1368477083	0.241	0.3912
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	400	1.0	-84975.8809080099	0.0141045	0.1053605157	0.1889	0.3084
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas	NosZ	388	1.0	-84868.8283057804	0.0115125432	0.0767002522	0.0999	0.1881
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	421	1.0	-85046.8604703798	0.0905463461	0.1542105254	0.0995	0.3443
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	421	0.9999321126	-85069.5120145961	0.1598883157	0.1776487077	0.0995	0.437
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	400	1.0	-85092.1049009117	0.028204	0.2098965111	0.1889	0.427
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Alteromonadaceae; g__Marinobacter	NosZ	399	1.0	-84951.6800704254	0.0218754216	0.120068015	0.0774	0.2193
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Alcanivoracaceae; g__Alcanivorax; s__Alcanivorax sp. 43B_GOM-46m	NosZ	363	1.0	-82905.5682834438	0.081672	0.1053605157	0.0	0.187
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Alcanivoracaceae; g__Alcanivorax; s__Alcanivorax sp. 43B_GOM-46m	NosZ	363	1.0	-82882.6995682544	0.0523226252	0.0707242227	0.0	0.123
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Alcanivoracaceae; g__Alcanivorax; s__Alcanivorax sp. 43B_GOM-46m	NosZ	363	1.0	-82927.0716265911	0.081672	0.1053605157	0.0	0.187
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Alcanivoracaceae; g__Alcanivorax; s__Alcanivorax sp. 43B_GOM-46m	NosZ	363	1.0	-82993.1260138318	0.081672	0.1053605157	0.0	0.187
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Alcanivoracaceae; g__Alcanivorax; s__Alcanivorax sp. 43B_GOM-46m	NosZ	363	1.0	-82990.1553515445	0.081672	0.1053605157	0.0	0.187
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Alcanivoracaceae; g__Alcanivorax; s__Alcanivorax sp. 43B_GOM-46m	NosZ	363	1.0	-82911.8339649681	0.081672	0.1053605157	0.0	0.187
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Alcanivoracaceae; g__Alcanivorax; s__Alcanivorax sp. 43B_GOM-46m	NosZ	363	1.0	-82931.1660204007	0.081672	0.1053605157	0.0	0.187
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Alcanivoracaceae; g__Alcanivorax; s__Alcanivorax sp. 43B_GOM-46m	NosZ	363	1.0	-82922.4980169818	0.081672	0.1053605157	0.0	0.187
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Alcanivoracaceae; g__Alcanivorax; s__Alcanivorax sp. 43B_GOM-46m	NosZ	363	1.0	-82919.6867372348	0.081672	0.1053605157	0.0	0.187
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Alcanivoracaceae; g__Alcanivorax; s__Alcanivorax sp. 43B_GOM-46m	NosZ	363	1.0	-82920.2841002454	0.081672	0.1053605157	0.0	0.187
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Alcanivoracaceae; g__Alcanivorax; s__Alcanivorax sp. 43B_GOM-46m	NosZ	363	1.0	-82916.6882683982	0.081672	0.1053605157	0.0	0.187
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Alcanivoracaceae; g__Alcanivorax; s__Alcanivorax sp. 43B_GOM-46m	NosZ	363	1.0	-82922.0248182814	0.081672	0.1053605157	0.0	0.187
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Alcanivoracaceae; g__Alcanivorax; s__Alcanivorax sp. 43B_GOM-46m	NosZ	363	1.0	-82956.9602641039	0.081672	0.1053605157	0.0	0.187
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Alcanivoracaceae; g__Alcanivorax; s__Alcanivorax sp. 43B_GOM-46m	NosZ	363	1.0	-82947.4559178694	0.081672	0.1053605157	0.0	0.187
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Alcanivoracaceae; g__Alcanivorax; s__Alcanivorax sp. 43B_GOM-46m	NosZ	363	1.0	-82887.5538198412	0.081672	0.1053605157	0.0	0.187
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Alcanivoracaceae; g__Alcanivorax; s__Alcanivorax sp. 43B_GOM-46m	NosZ	363	1.0	-82980.2703269115	0.081672	0.1053605157	0.0	0.187
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Alcanivoracaceae; g__Alcanivorax; s__Alcanivorax sp. 43B_GOM-46m	NosZ	363	1.0	-82989.8047420609	0.0884578008	0.132213588	0.0	0.2207
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Alcanivoracaceae; g__Alcanivorax; s__Alcanivorax sp. 43B_GOM-46m	NosZ	363	1.0	-82965.0443737487	0.0826729385	0.1249165907	0.0	0.2076
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Alcanivoracaceae; g__Alcanivorax; s__Alcanivorax sp. 43B_GOM-46m	NosZ	363	1.0	-82988.2189215076	0.081672	0.1053605157	0.0	0.187
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Alcanivoracaceae; g__Alcanivorax; s__Alcanivorax sp. 43B_GOM-46m	NosZ	363	1.0	-82963.4712517647	0.081672	0.1053605157	0.0	0.187
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	364	1.0	-82953.4076293639	0.0141045	0.1053605157	0.1559	0.2754
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Alcanivoracaceae; g__Alcanivorax; s__Alcanivorax sp. 43B_GOM-46m	NosZ	363	1.0	-82921.2445000023	0.081672	0.1053605157	0.0	0.187
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Alcanivoracaceae; g__Alcanivorax; s__Alcanivorax sp. 43B_GOM-46m	NosZ	363	1.0	-82958.1982753635	0.081672	0.1053605157	0.0	0.187
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria	NosZ	623	1.0	-86927.1431311467	0.0621988333	0.2038264926	0.4032	0.6692
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Psychromonadaceae; g__Psychromonas; s__Psychromonas ossibalaenae	NosZ	426	0.9851337232	-86707.8999767074	0.0397030645	0.0476763876	0.0	0.0874
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales	NosZ	427	0.511731484	-86792.6799495181	0.011904257	0.0871230374	0.0575	0.1565
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales	NosZ	427	0.5782757281	-86790.9737546371	0.0142299563	0.0873467458	0.0575	0.1591
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	624	1.0	-86930.8965656871	0.0446906028	0.29109551	0.2936	0.6294
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	624	0.9111857213	-86947.2978688946	0.0507501913	0.3184729429	0.2936	0.6628
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	624	1.0	-86947.3795562012	0.040588603	0.3186630864	0.2936	0.6529
+NosZ	order	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	624	1.0	-86928.4831181172	0.0406067671	0.2891801069	0.2936	0.6234
+NosZ	genus	r__Root; d__Bacteria; p__Aquificae; c__Aquificae; o__Aquificales; f__Aquificaceae; g__Hydrogenobacter; s__Hydrogenobacter thermophilus	NosZ	85	1.0	-87434.7151149155	0.0768936655	0.1987873984	0.0	0.2757
+NosZ	genus	r__Root; d__Bacteria; p__Aquificae; c__Aquificae; o__Aquificales; f__Aquificaceae; g__Hydrogenobacter; s__Hydrogenobacter thermophilus	NosZ	85	1.0	-87356.1094204408	0.0966676628	0.1539829921	0.0	0.2507
+NosZ	genus	r__Root; d__Bacteria; p__Aquificae; c__Aquificae; o__Aquificales	NosZ	88	1.0	-87689.8601587649	0.0453123709	0.1162198148	0.1531	0.3146
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	149	1.0	-86360.6452909133	0.0401504035	0.1240159323	0.2024	0.3666
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	124	1.0	-86367.6769558113	0.0105425	0.1053605157	0.217	0.3329
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	149	1.0	-86360.349253193	0.0290584689	0.0879061946	0.243	0.36
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales	NosZ	126	1.0	-86364.3588754939	0.0321610369	0.0716140127	0.1589	0.2627
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	131	1.0	-86364.357496056	0.0219550809	0.1250667486	0.2275	0.3745
+NosZ	genus	r__Root; d__Bacteria	NosZ	631	1.0	-86364.267837829	0.0573191061	0.2540678746	1.7806	2.092
+NosZ	genus	r__Root; d__Bacteria	NosZ	632	1.0	-86367.6407952682	0.0248812012	0.1596130108	1.7009	1.8854
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Cytophagia; o__Cytophagales	NosZ	144	1.0	-86369.1616056505	0.014827797	0.0553609585	0.0426	0.1128
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Cytophagia; o__Cytophagales; f__Cytophagaceae; g__Rhodonellum; s__Rhodonellum psychrophilum	NosZ	143	0.9988366631	-86364.3530028762	0.0470528083	0.0379337785	0.0	0.085
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Cytophagia; o__Cytophagales	NosZ	147	1.0	-86364.3531514588	0.0638129304	0.0907957534	0.0636	0.2182
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__Sphingobacteriales; f__Sphingobacteriaceae	NosZ	97	1.0	-86364.3588986217	0.128228992	0.0671607159	0.0	0.1954
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Cytophagia; o__Cytophagales; f__Cyclobacteriaceae; g__Belliella; s__Belliella baltica	NosZ	143	1.0	-86364.3533432541	0.0378838195	0.0471105184	0.0	0.085
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	147	1.0	-86360.1168773335	0.0406795693	0.0668327969	0.0791	0.1866
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Saprospiria; o__Saprospirales; f__Haliscomenobacteraceae; g__Haliscomenobacter; s__Haliscomenobacter hydrossis	NosZ	137	1.0	-86364.3532395945	0.1123401148	0.0458934674	0.0	0.1582
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Gelidibacter; s__Gelidibacter mesophilus	NosZ	60	1.0	-85919.7072671592	0.0267689559	0.0613549006	0.0	0.0881
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Gelidibacter; s__Gelidibacter mesophilus	NosZ	60	1.0	-85920.139432785	0.0199353956	0.0608677601	0.0	0.0808
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae	NosZ	25	1.0	-86060.110974918	0.0187003878	0.0558167614	0.0787	0.1532
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Maribacter; s__Maribacter sp. HTCC2170	NosZ	22	1.0	-85894.8266702922	0.0406841375	0.0903101851	0.0	0.131
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae	NosZ	59	0.6970960935	-85904.0778735007	0.0162102097	0.095158586	0.1206	0.232
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae	NosZ	54	1.0	-85832.2331940482	0.0169649596	0.0511341878	0.063	0.1311
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Psychroflexus	NosZ	72	1.0	-86059.051629906	0.0588206725	0.0948635216	0.0614	0.2151
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Xanthomarina; s__Xanthomarina gelatinilytica	NosZ	59	1.0	-86060.1102838663	0.0361921969	0.0526515676	0.0	0.0888
+NosZ	genus	r__Root; d__Bacteria	NosZ	632	0.6789775604	-85575.9155294659	0.0197720955	0.219043949	1.8212	2.06
+NosZ	genus	r__Root; d__Bacteria	NosZ	632	1.0	-85576.5683565445	0.0229163253	0.2111135492	1.8212	2.0552
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae	NosZ	73	1.0	-85570.2465825193	0.0660038429	0.2046712172	0.2088	0.4795
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Imtechella; s__Imtechella halotolerans	NosZ	0	1.0	-85470.3371325494	0.0605801938	0.1278112118	0.0	0.1884
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Muricauda	NosZ	37	1.0	-86060.1062212707	0.0194035336	0.0833421892	0.0174	0.1201
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Psychroserpens; s__Psychroserpens jangbogonensis	NosZ	53	1.0	-86059.5922225269	0.0181237157	0.0266695876	0.0	0.0448
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Weeksellaceae	NosZ	109	0.9995010604	-84946.7602937534	0.0733544882	0.0564233392	0.1251	0.2549
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Weeksellaceae	NosZ	109	1.0	-85028.1135936977	0.0658475	0.1053605157	0.1251	0.2963
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Aequorivita	NosZ	62	0.9999999996	-86060.1019122281	0.0346585684	0.0150931695	0.0373	0.0871
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Gramella; s__Gramella forsetii	NosZ	45	1.0	-85856.5359585623	0.0210518903	0.0610526566	0.0	0.0821
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Salinimicrobium; s__Salinimicrobium terrae	NosZ	70	1.0	-85900.5036883264	0.0689815728	0.0612136074	0.0	0.1302
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Gillisia; s__Gillisia sp. CAL575	NosZ	45	1.0	-86060.1003978829	0.0623264294	0.0199217122	0.0	0.0822
+NosZ	genus	r__Root; d__Bacteria	NosZ	635	1.0	-86056.8107405655	0.0310809101	0.0657616345	1.8489	1.9457
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae	NosZ	60	1.0	-86060.0995732844	0.0180970913	0.0407522298	0.0444	0.1032
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae	NosZ	43	1.0	-85906.1343415379	0.0233649697	0.1034757428	0.0737	0.2005
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Aquimarina	NosZ	24	1.0	-85804.4241147225	0.0399541742	0.0459762914	0.055	0.1409
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae	NosZ	54	1.0	-86060.2392953881	0.0124599694	0.0310552434	0.022	0.0655
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae	NosZ	36	1.0	-85996.9401232196	0.015976	0.037091194	0.0803	0.1334
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae	NosZ	36	1.0	-85997.9989763603	0.0124152956	0.0341443455	0.0803	0.1269
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae	NosZ	59	1.0	-85840.1438446606	0.0447472969	0.1292177786	0.087	0.261
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae	NosZ	59	1.0	-85841.0943472356	0.0413703072	0.1252126635	0.087	0.2536
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Arenitalea; s__Arenitalea lutea	NosZ	70	1.0	-85847.7803602798	0.0938215739	0.0970507867	0.0	0.1909
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Arenitalea; s__Arenitalea lutea	NosZ	70	1.0	-85866.4489536187	0.101183	0.1053605157	0.0	0.2065
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Arenitalea; s__Arenitalea lutea	NosZ	70	1.0	-85870.5112609074	0.1093043543	0.1092784247	0.0	0.2186
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Lacinutrix; s__Lacinutrix jangbogonensis	NosZ	51	0.746693868	-86098.2652012246	0.0227390742	0.0353166882	0.0	0.0581
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Flaviramulus; s__Flaviramulus ichthyoenteri	NosZ	53	1.0	-86054.6444163714	0.0270080783	0.015473912	0.0	0.0425
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae	NosZ	39	1.0	-86060.1049691693	0.0089232014	0.068786707	0.0522	0.1299
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Gillisia; s__Gillisia limnaea	NosZ	72	1.0	-86060.1096754574	0.0615675118	0.0684531928	0.0	0.13
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae; g__Bizionia; s__Bizionia argentinensis	NosZ	59	0.995060231	-86060.1041553648	0.0520716529	0.0366884578	0.0	0.0888
+NosZ	genus	r__Root; d__Bacteria	NosZ	634	1.0	-86060.1003853599	0.0335458726	0.0840182697	1.8212	1.9388
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae	NosZ	106	1.0	-86060.0421059398	0.0745645764	0.105814267	0.0	0.1804
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae	NosZ	106	1.0	-85951.7105942046	0.0537394999	0.0421929276	0.0	0.0959
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales	NosZ	108	1.0	-86094.4294309591	0.0386861133	0.0986347971	0.1014	0.2387
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales	NosZ	108	1.0	-86099.8491058057	0.0375245518	0.0985115862	0.1014	0.2374
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__Sphingobacteriales; f__Sphingobacteriaceae; g__Pedobacter; s__Daejeonella oryzae	NosZ	124	1.0	-86067.5962378225	0.0901975675	0.1358666089	0.0	0.2261
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__Sphingobacteriales; f__Sphingobacteriaceae; g__Arcticibacter; s__Arcticibacter svalbardensis	NosZ	124	1.0	-86067.4837944928	0.1362657536	0.0908949201	0.0	0.2272
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	149	1.0	-86067.5628269472	0.0423438538	0.1455106951	0.2842	0.4721
+NosZ	genus	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	627	1.0	-86067.5348348231	0.0463855041	0.2007139264	0.3191	0.5662
+NosZ	genus	r__Root; d__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae	NosZ	268	1.0	-87690.0131729429	0.0194433591	0.0575939537	0.0339	0.1109
+NosZ	genus	r__Root; d__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae; g__Neobacillus; s__Neobacillus vireti	NosZ	261	1.0	-87028.7514884627	0.0255164389	0.0608049933	0.0	0.0863
+NosZ	genus	r__Root; d__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae; g__Neobacillus	NosZ	262	1.0	-87076.3606932478	0.0353252975	0.0712223425	0.043	0.1495
+NosZ	genus	r__Root; d__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae; g__Parageobacillus; s__Parageobacillus caldoxylosilyticus	NosZ	267	1.0	-87689.9197290034	0.0375588194	0.0292762955	0.0	0.0668
+NosZ	genus	r__Root; d__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae	NosZ	271	1.0	-87689.9951889929	0.1203787736	0.2399246841	0.1204	0.4807
+NosZ	genus	r__Root; d__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae; g__Bacillus	NosZ	260	1.0	-87581.8410906091	0.0457923425	0.0359780089	0.0689	0.1507
+NosZ	genus	r__Root; d__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae; g__Bacillus	NosZ	260	1.0	-87542.6457053152	0.0309820158	0.0191851555	0.0689	0.1191
+NosZ	genus	r__Root; d__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae; g__Geobacillus; s__Geobacillus thermodenitrificans	NosZ	267	1.0	-87690.0613144576	0.0277812359	0.0378791404	0.0	0.0657
+NosZ	genus	r__Root; d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae; g__Desulfosporosinus; s__Desulfosporosinus meridiei	NosZ	247	1.0	-87402.5852139843	0.0775101782	0.2005336902	0.0	0.278
+NosZ	genus	r__Root; d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae; g__Desulfitobacterium	NosZ	251	1.0	-87690.020210336	0.1681066568	0.0822294186	0.0507	0.301
+NosZ	genus	r__Root; d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae; g__Desulfitobacterium; s__Desulfitobacterium hafniense	NosZ	247	1.0	-87510.8321397571	0.0162511666	0.0311927741	0.0	0.0474
+NosZ	genus	r__Root; d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae	NosZ	271	1.0	-87690.0136164325	0.0600872265	0.0733926458	0.1849	0.3184
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Oligotropha; s__Oligotropha carboxidovorans	NosZ	601	1.0	-87195.0695428358	0.0292329218	0.0275196071	0.0	0.0568
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bradyrhizobium	NosZ	610	1.0	-87227.0283655881	0.0205518866	0.0369579516	0.0414	0.0989
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Xanthobacteraceae; g__Azorhizobium; s__Azorhizobium doebereinerae	NosZ	604	1.0	-86554.3172037916	0.0887030528	0.0731110515	0.0	0.1618
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Afipia; s__Afipia birgiae	NosZ	599	1.0	-86457.11291332	0.0414079558	0.0468282942	0.0	0.0882
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Afipia; s__Afipia birgiae	NosZ	599	1.0	-86475.5775935896	0.0433688344	0.0564646034	0.0	0.0998
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Afipia; s__Afipia sp. 1NLS2	NosZ	601	1.0	-87318.2177358821	0.0273056584	0.0295397603	0.0	0.0568
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales	NosZ	598	0.8592763794	-86966.1139399097	0.0211205499	0.073185651	0.0489	0.1432
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales	NosZ	608	1.0	-86968.150593318	0.015272919	0.0753412578	0.0778	0.1684
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales	NosZ	608	1.0	-86931.4252196885	0.0120743707	0.0566487699	0.0778	0.1465
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales	NosZ	608	1.0	-86942.9929990975	0.0162588054	0.0600274758	0.0778	0.1541
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales	NosZ	608	1.0	-86918.933284334	0.0145810534	0.052376413	0.0778	0.1448
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria	NosZ	619	1.0	-87208.1634990228	0.0508100024	0.1196532318	0.1255	0.296
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria	NosZ	619	1.0	-87221.0092433362	0.0621442021	0.1327915164	0.1255	0.3204
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria	NosZ	618	1.0	-87318.2110481248	0.0482318936	0.1334363236	0.1985	0.3802
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus; s__Paracoccus sp. J39	NosZ	496	0.9979162134	-87318.0707594625	0.0439749441	0.0458837807	0.0	0.0899
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Sulfitobacter; s__Sulfitobacter mediterraneus	NosZ	505	1.0	-87318.2347914881	0.070666435	0.0599397855	0.0	0.1306
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae	NosZ	459	1.0	-87306.1798914622	0.046217333	0.0525084899	0.0967	0.1954
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria	NosZ	577	1.0	-86583.6153173247	0.0198298274	0.0254388342	0.1417	0.187
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiaceae	NosZ	569	0.6913339767	-86633.3365804802	0.0194717044	0.0686435696	0.0366	0.1247
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Rhizobiaceae; g__Rhizobium	NosZ	582	0.9440781487	-87318.1794891073	0.0095918385	0.0729571318	0.0845	0.167
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Sediminimonas; s__Sediminimonas qiaohouensis	NosZ	500	1.0	-87366.9265644015	0.0733632597	0.0790328251	0.0	0.1524
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Pseudophaeobacter; s__Pseudophaeobacter arcticus	NosZ	484	1.0	-87384.3705472542	0.0892223534	0.0752999429	0.0	0.1645
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Oceaniovalibus; s__Oceaniovalibus guishaninsula	NosZ	484	1.0	-87385.8611851718	0.099321796	0.0784347807	0.0	0.1778
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria	NosZ	498	0.9999628128	-87385.8578143012	0.01755063	0.0349930886	0.0613	0.1138
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria	NosZ	516	1.0	-87385.8265460558	0.0266340151	0.0500814379	0.3213	0.398
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Roseobacter; s__Roseobacter sp. SK209-2-6	NosZ	511	1.0	-87405.5238596608	0.058667644	0.0623359174	0.0	0.121
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Roseobacter; s__Roseobacter sp. SK209-2-6	NosZ	511	1.0	-87403.939152055	0.0640013398	0.0580667486	0.0	0.1221
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Roseobacter; s__Roseobacter sp. SK209-2-6	NosZ	511	1.0	-87370.0434580799	0.0677212611	0.0406940265	0.0	0.1084
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae	NosZ	457	1.0	-87391.3037201175	0.0308225537	0.0509449093	0.0294	0.1112
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Dinoroseobacter; s__Dinoroseobacter shibae	NosZ	484	1.0	-87381.9947675527	0.0784599104	0.0969770843	0.0	0.1754
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Roseovarius	NosZ	485	1.0	-87385.8667914286	0.0666631407	0.070794035	0.0271	0.1646
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria	NosZ	492	0.9778293115	-86300.6312955726	0.0123097153	0.0689784175	0.0536	0.1349
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae; g__Aquamicrobium; s__Aquamicrobium defluvii	NosZ	491	1.0	-86250.9162074682	0.0388101072	0.0514248831	0.0	0.0902
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae; g__Aquamicrobium; s__Aquamicrobium defluvii	NosZ	491	1.0	-86247.7798351488	0.0428893251	0.0463865397	0.0	0.0893
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Salipiger; s__Salipiger mucosus	NosZ	456	1.0	-87395.3815961447	0.0346390775	0.0244808095	0.0	0.0591
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Citreicella; s__Citreicella sp. 357	NosZ	484	1.0	-87382.7813268729	0.0776841212	0.0905633996	0.0	0.1682
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria	NosZ	517	1.0	-87395.2890013688	0.074390983	0.0995845171	0.3361	0.5101
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria	NosZ	499	1.0	-87375.8177163741	0.0595294865	0.114165585	0.0702	0.2439
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria	NosZ	513	1.0	-87205.3455724838	0.0328895	0.1053605157	0.2967	0.435
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Leisingera; s__Leisingera sp. ANG1	NosZ	511	1.0	-87133.1905853256	0.0439981209	0.0676188914	0.0	0.1116
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Pannonibacter; s__Pannonibacter phragmitetus	NosZ	483	1.0	-87262.7909324066	0.0635101061	0.087054552	0.0	0.1506
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Pannonibacter; s__Pannonibacter phragmitetus	NosZ	483	1.0	-87261.0289634681	0.067670481	0.0811050116	0.0	0.1488
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Pannonibacter; s__Pannonibacter phragmitetus	NosZ	483	1.0	-87284.6827330851	0.0674858929	0.0975501166	0.0	0.165
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Pannonibacter; s__Pannonibacter phragmitetus	NosZ	483	1.0	-87282.9666734978	0.0732100998	0.0957005905	0.0	0.1689
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae	NosZ	506	1.0	-86985.7536507355	0.0275115503	0.0460398814	0.062	0.1356
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria	NosZ	501	1.0	-87049.4116318734	0.0493991828	0.0653042116	0.2573	0.372
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Pseudooceanicola; s__Pseudooceanicola nanhaiensis	NosZ	456	1.0	-87386.5047319553	0.0208848268	0.0387757511	0.0	0.0597
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria	NosZ	512	1.0	-87396.5029570107	0.0239014783	0.0541550649	0.2903	0.3684
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Celeribacter; s__Celeribacter baekdonensis	NosZ	500	1.0	-87381.7556432325	0.0859349458	0.0722092708	0.0	0.1581
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Phyllobacteriaceae; g__Hoeflea; s__Hoeflea sp. BAL378	NosZ	505	1.0	-87234.1690316503	0.0595459565	0.0691334372	0.0	0.1287
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae	NosZ	458	1.0	-87388.3819905745	0.0367537596	0.1067191667	0.0569	0.2004
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Rhodospirillum; s__Rhodospirillum centenum	NosZ	552	1.0	-87519.8840434708	0.0730411161	0.0853420968	0.0	0.1584
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria	NosZ	520	1.0	-86918.1392522456	0.0430779565	0.2103761335	0.3884	0.6419
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria	NosZ	187	1.0	-87173.8277988692	0.0560135766	0.1614462466	0.1234	0.3409
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria	NosZ	187	0.8283771569	-87249.575869629	0.0553106294	0.2150755795	0.1234	0.3938
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Azospirillum; s__Azospirillum halopraeferens	NosZ	552	1.0	-87514.0728687547	0.0858632215	0.0687899398	0.0	0.1547
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria	NosZ	622	1.0	-87519.9006526034	0.031768878	0.1444107362	0.308	0.4842
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Bordetella; s__Bordetella petrii	NosZ	524	1.0	-86881.5526937519	0.0328705989	0.0533778647	0.0	0.0862
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Bordetella; s__Bordetella petrii	NosZ	524	1.0	-86885.6695403468	0.0318297513	0.0553633135	0.0	0.0872
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Bordetella; s__Bordetella petrii	NosZ	524	1.0	-86899.5730880887	0.027686526	0.0667606581	0.0	0.0944
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Bordetella; s__Bordetella petrii	NosZ	524	1.0	-86886.1427691466	0.0299025724	0.0603414027	0.0	0.0902
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae	NosZ	541	1.0	-87028.0690975864	0.0846494498	0.1246762084	0.1166	0.3259
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae	NosZ	541	1.0	-87028.0595966946	0.0184231114	0.0705504487	0.1329	0.2219
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae	NosZ	525	0.8246735766	-86818.5944253863	0.0502719745	0.1566582893	0.057	0.2639
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae	NosZ	525	0.6191713263	-86829.9074448168	0.0513350963	0.1727421187	0.057	0.2811
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Paraburkholderia; s__Paraburkholderia nodosa	NosZ	319	1.0	-87028.0824056023	0.0796195379	0.036933495	0.0	0.1166
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Ralstonia; s__Ralstonia pickettii	NosZ	287	1.0	-86762.7590927767	0.0273025979	0.0161113227	0.0	0.0434
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Ralstonia	NosZ	288	1.0	-86834.865803628	0.0229638006	0.0423878297	0.0652	0.1306
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Ralstonia; s__Ralstonia solanacearum	NosZ	286	1.0	-86811.8831523105	0.0472341317	0.0408355552	0.0	0.0881
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria	NosZ	296	1.0	-87028.0241780798	0.0370350954	0.3185843653	0.1598	0.5154
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Burkholderia; s__Burkholderia pseudomallei	NosZ	319	1.0	-87027.653540671	0.0369127186	0.0800221433	0.0	0.1169
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Cupriavidus; s__Cupriavidus sp. amp6	NosZ	279	1.0	-86899.9429745145	0.025301239	0.0180305282	0.0	0.0433
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Cupriavidus; s__Cupriavidus metallidurans	NosZ	278	1.0	-86953.8461890524	0.0423401288	0.0451722575	0.0	0.0875
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae; g__Cupriavidus; s__Cupriavidus metallidurans	NosZ	278	1.0	-86953.0108962366	0.0369827881	0.0412891165	0.0	0.0783
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Alicycliphilus; s__Alicycliphilus denitrificans	NosZ	287	1.0	-86821.289570607	0.0402450895	0.0330948286	0.0	0.0733
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Acidovorax; s__Acidovorax sp. JS42	NosZ	291	1.0	-87027.8518816911	0.0355233625	0.0379358042	0.0	0.0735
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Acidovorax; s__Acidovorax sp. MR-S7	NosZ	289	1.0	-87035.3761638878	0.026389	0.0269461709	0.0	0.0533
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Simplicispira; s__Simplicispira psychrophila	NosZ	320	1.0	-87022.6931999842	0.0940110525	0.0519898759	0.0	0.146
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae; g__Rhodoferax; s__Rhodoferax ferrireducens	NosZ	320	1.0	-87027.8112414222	0.0543377679	0.0943836465	0.0	0.1487
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae; g__Simonsiella; s__Simonsiella muelleri	NosZ	542	1.0	-87488.439978645	0.0733388075	0.0485410969	0.0	0.1219
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae	NosZ	543	1.0	-87487.6302806747	0.0307039529	0.0924032277	0.0606	0.1837
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae	NosZ	540	1.0	-87270.6355991845	0.0271468975	0.100282169	0.0901	0.2175
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae	NosZ	540	1.0	-87267.2814165004	0.0342584962	0.0968946063	0.0901	0.2213
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae	NosZ	540	1.0	-87263.4139103897	0.0289854778	0.0956810414	0.0901	0.2148
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae	NosZ	540	1.0	-87277.8737757039	0.0289713607	0.1031264368	0.0901	0.2222
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae	NosZ	540	1.0	-87277.3399119628	0.0244853734	0.1047878769	0.0901	0.2194
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae; g__Alysiella; s__Alysiella crassa	NosZ	542	1.0	-87487.7035635504	0.0492117673	0.0742107914	0.0	0.1234
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Azoarcus; s__Azoarcus sp. KH32C	NosZ	315	1.0	-87488.5840403717	0.0414823561	0.0693409576	0.0	0.1108
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Azonexaceae; g__Dechloromonas; s__Dechloromonas agitata	NosZ	176	1.0	-87374.1451059043	0.0319181284	0.0768562248	0.0	0.1088
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Azonexaceae; g__Dechloromonas; s__Dechloromonas agitata	NosZ	176	1.0	-87277.4379207462	0.0314364073	0.0343489884	0.0	0.0658
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Rhodocyclaceae; g__Aromatoleum; s__Aromatoleum aromaticum	NosZ	315	1.0	-87483.6429469364	0.0695144759	0.0399731998	0.0	0.1095
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria	NosZ	320	1.0	-86551.0184302671	0.0178531286	0.2154323669	0.2645	0.4978
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales	NosZ	317	1.0	-86339.3868636381	0.0190224444	0.0802455621	0.1153	0.2146
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria	NosZ	320	1.0	-86540.628146578	0.0204479456	0.209694093	0.2645	0.4946
+NosZ	genus	r__Root; d__Bacteria; p__Deferribacteres; c__Deferribacteres; o__Deferribacterales; f__Deferribacteraceae; g__Denitrovibrio; s__Denitrovibrio acetiphilus	NosZ	212	1.0	-86344.9104559638	0.133881	0.1053605157	0.0	0.2392
+NosZ	genus	r__Root; d__Bacteria; p__Deferribacteres; c__Deferribacteres; o__Deferribacterales; f__Deferribacteraceae; g__Denitrovibrio; s__Denitrovibrio acetiphilus	NosZ	212	1.0	-86391.9168626814	0.1198837775	0.137798779	0.0	0.2577
+NosZ	genus	r__Root; d__Bacteria; p__Deferribacteres; c__Deferribacteres; o__Deferribacterales; f__Deferribacteraceae; g__Denitrovibrio; s__Denitrovibrio acetiphilus	NosZ	212	1.0	-86351.5974709922	0.133881	0.1053605157	0.0	0.2392
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Thiovulaceae; g__Sulfurimonas	NosZ	206	1.0	-86827.5788931631	0.0411124626	0.0692201305	0.0632	0.1735
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Thiovulaceae; g__Sulfurimonas	NosZ	206	1.0	-86822.492156301	0.0393508774	0.0648235994	0.0632	0.1674
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Thiovulaceae; g__Sulfurimonas	NosZ	198	1.0	-86943.7774346955	0.0362398306	0.1508708884	0.0916	0.2787
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Sulfurovaceae; g__Sulfurovum; s__Sulfurovum sp. NBC37-1	NosZ	220	1.0	-87532.0444684331	0.0425599088	0.0624950984	0.0	0.1051
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Sulfurovaceae; g__Nitratifractor; s__Nitratifractor salsuginis	NosZ	220	1.0	-87534.0043243176	0.0436499168	0.0613136164	0.0	0.105
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Moritellaceae; g__Moritella; s__Moritella dasanensis	NosZ	424	0.9407799699	-86928.6536445243	0.0435110678	0.0580514776	0.0	0.1016
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Chromatiales; f__Ectothiorhodospiraceae; g__Thioalkalivibrio	NosZ	438	1.0	-86928.792063993	0.0690638355	0.1533214903	0.1036	0.326
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria	NosZ	618	1.0	-85716.1182509723	0.0473659567	0.29502899	0.5842	0.9266
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Chromatiales; f__Ectothiorhodospiraceae; g__Alkalilimnicola; s__Alkalilimnicola ehrlichii	NosZ	431	1.0	-85543.8200146344	0.1536452805	0.1531689044	0.0	0.3068
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Chromatiales; f__Ectothiorhodospiraceae; g__Alkalilimnicola; s__Alkalilimnicola ehrlichii	NosZ	431	1.0	-85524.0612759685	0.140163996	0.148318802	0.0	0.2885
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Oceanospirillaceae; g__Neptunomonas; s__Neptunomonas japonica	NosZ	436	1.0	-86928.7921231096	0.0531037195	0.0411721129	0.0	0.0943
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Oceanospirillaceae; g__Amphritea; s__Amphritea japonica	NosZ	436	1.0	-86923.0293227081	0.0419230822	0.0501051572	0.0	0.092
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Psychromonadaceae; g__Psychromonas; s__Psychromonas ossibalaenae	NosZ	424	0.989216975	-86928.456945801	0.0387908663	0.0485318415	0.0	0.0873
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	429	0.6824334114	-86928.1945282925	0.013152918	0.086754762	0.057	0.1569
+NosZ	genus	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	429	0.8634549068	-86923.9692316168	0.0131343755	0.0867374581	0.057	0.1569
+NosZ	genus	r__Root; d__Bacteria; p__Verrucomicrobia; c__Opitutae; o__Opitutales; f__Opitutaceae; g__Opitutus; s__Opitutus terrae	NosZ	235	1.0	-87586.5583151904	0.1149881468	0.1362700885	0.0	0.2513
+NosZ	genus	r__Root; d__Bacteria; p__Verrucomicrobia; c__Opitutae; o__Opitutales; f__Opitutaceae; g__Geminisphaera; s__Geminisphaera colitermitum	NosZ	235	1.0	-87586.5937370009	0.1355819438	0.1148265602	0.0	0.2504
+NosZ	family	r__Root; d__Bacteria; p__Aquificae; c__Aquificae; o__Aquificales; f__Hydrogenothermaceae; g__Persephonella	NosZ	87	1.0	-87689.9336981557	0.0918371296	0.090612501	0.0914	0.2738
+NosZ	family	r__Root; d__Bacteria; p__Aquificae; c__Aquificae; o__Aquificales; f__Aquificaceae; g__Hydrogenobacter; s__Hydrogenobacter thermophilus	NosZ	84	1.0	-87134.227495605	0.0851217992	0.1890686463	0.0	0.2742
+NosZ	family	r__Root; d__Bacteria; p__Aquificae; c__Aquificae; o__Aquificales; f__Aquificaceae; g__Hydrogenobacter; s__Hydrogenobacter thermophilus	NosZ	84	1.0	-87014.1546522963	0.1253711148	0.1126443478	0.0	0.238
+NosZ	family	r__Root; d__Bacteria; p__Aquificae; c__Aquificae; o__Aquificales; f__Aquificaceae; g__Hydrogenobacter; s__Hydrogenobacter thermophilus	NosZ	84	1.0	-87059.2919528429	0.0982368516	0.1471671434	0.0	0.2454
+NosZ	family	r__Root; d__Bacteria	NosZ	628	1.0	-86043.8431885994	0.056804406	0.253438516	1.7806	2.0908
+NosZ	family	r__Root; d__Bacteria	NosZ	630	1.0	-85909.435590577	0.0202970074	0.1608644605	1.7053	1.8865
+NosZ	family	r__Root; d__Bacteria; p__Bacteroidetes; c__Cytophagia; o__Cytophagales; f__Cytophagaceae; g__Rhodonellum; s__Rhodonellum psychrophilum	NosZ	142	1.0	-86036.4440771907	0.0348214235	0.0447110906	0.0	0.0795
+NosZ	family	r__Root; d__Bacteria; p__Bacteroidetes; c__Cytophagia; o__Cytophagales; f__Cytophagaceae; g__Rhodonellum; s__Rhodonellum psychrophilum	NosZ	142	1.0	-86073.2107809732	0.0422364729	0.0640503989	0.0	0.1063
+NosZ	family	r__Root; d__Bacteria; p__Bacteroidetes; c__Cytophagia; o__Cytophagales; f__Cytophagaceae; g__Rhodonellum; s__Rhodonellum psychrophilum	NosZ	142	1.0	-86075.4949198332	0.0444925327	0.0665213578	0.0	0.111
+NosZ	family	r__Root; d__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__Sphingobacteriales; f__Sphingobacteriaceae	NosZ	97	1.0	-85495.7660244964	0.1275583438	0.0675644985	0.0	0.1951
+NosZ	family	r__Root; d__Bacteria; p__Bacteroidetes; c__Cytophagia; o__Cytophagales; f__Cyclobacteriaceae; g__Belliella; s__Belliella baltica	NosZ	136	1.0	-85399.8544123143	0.0366375936	0.0497331468	0.0	0.0864
+NosZ	family	r__Root; d__Bacteria; p__Bacteroidetes; c__Cytophagia; o__Cytophagales; f__Cyclobacteriaceae	NosZ	139	1.0	-85498.1043593779	0.0751297883	0.0834310076	0.0608	0.2194
+NosZ	family	r__Root; d__Bacteria; p__Bacteroidetes; c__Saprospiria; o__Saprospirales; f__Haliscomenobacteraceae; g__Haliscomenobacter; s__Haliscomenobacter hydrossis	NosZ	134	1.0	-85536.9099728198	0.1288363972	0.0863640698	0.0	0.2152
+NosZ	family	r__Root; d__Bacteria; p__Bacteroidetes; c__Saprospiria; o__Saprospirales; f__Haliscomenobacteraceae; g__Haliscomenobacter; s__Haliscomenobacter hydrossis	NosZ	134	1.0	-85502.9549201129	0.082459789	0.0702181758	0.0	0.1527
+NosZ	family	r__Root; d__Bacteria; p__Bacteroidetes; c__Cytophagia; o__Cytophagales; f__Fulvivirgaceae; g__Fulvivirga; s__Fulvivirga imtechensis	NosZ	634	1.0	-86359.0881963638	0.0955274062	0.1004832967	0.0	0.196
+NosZ	family	r__Root; d__Bacteria; p__Bacteroidetes; c__Cytophagia; o__Cytophagales; f__Flammeovirgaceae; g__Flexithrix; s__Flexithrix dorotheae	NosZ	634	1.0	-86359.8178060282	0.102649513	0.0937037819	0.0	0.1964
+NosZ	family	r__Root; d__Bacteria; p__Bacteroidetes; c__Saprospiria; o__Saprospirales; f__Lewinellaceae; g__Lewinella; s__Lewinella persica	NosZ	76	1.0	-86364.3666190893	0.0846642464	0.0661809035	0.0	0.1508
+NosZ	family	r__Root; d__Bacteria; p__Bacteroidetes; c__Cytophagia; o__Cytophagales; f__Cesiribacteraceae; g__Nafulsella; s__Nafulsella turpanensis	NosZ	633	0.9914853782	-86360.0634041651	0.1374822532	0.1934938986	0.0	0.331
+NosZ	family	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Weeksellaceae	NosZ	39	0.9954606261	-74830.4783618063	0.0733614475	0.0503773204	0.1251	0.2488
+NosZ	family	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	549	1.0	-75045.1645203043	0.2033166963	0.2038276961	0.0753	0.4824
+NosZ	family	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	549	1.0	-75100.6053604071	0.1878644527	0.2532571536	0.0753	0.5164
+NosZ	family	r__Root; d__Bacteria	NosZ	550	0.7214376632	-75003.4578408329	0.031799	0.1992709599	1.8968	2.1279
+NosZ	family	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Weeksellaceae	NosZ	39	0.9623545634	-74844.5902545898	0.0710888895	0.0579666318	0.1251	0.2542
+NosZ	family	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	549	1.0	-75060.806275625	0.1900227435	0.218665341	0.0753	0.484
+NosZ	family	r__Root; d__Bacteria	NosZ	553	1.0	-75040.1451757366	0.0468193694	0.2177262896	1.9553	2.2198
+NosZ	family	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	549	1.0	-75086.4373704234	0.1923534244	0.2427032149	0.0753	0.5104
+NosZ	family	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	549	1.0	-75090.898431571	0.1913351972	0.2512114509	0.0753	0.5178
+NosZ	family	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	549	1.0	-75070.9651226861	0.1933606029	0.2248052895	0.0753	0.4935
+NosZ	family	r__Root; d__Bacteria	NosZ	551	1.0	-75035.322784352	0.0305888209	0.2090025477	1.916	2.1556
+NosZ	family	r__Root; d__Bacteria	NosZ	552	1.0	-75066.7118892057	0.0163576724	0.254233752	1.9347	2.2053
+NosZ	family	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Weeksellaceae	NosZ	39	0.9969271459	-74851.2914604768	0.0735240103	0.0598401459	0.1251	0.2585
+NosZ	family	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	549	1.0	-75089.9246490943	0.1981993187	0.2443536284	0.0753	0.5179
+NosZ	family	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Weeksellaceae	NosZ	39	1.0	-74955.0605763914	0.0332428217	0.1365363803	0.1251	0.2949
+NosZ	family	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	549	1.0	-75086.1221931511	0.1861273158	0.2280719904	0.0753	0.4895
+NosZ	family	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	549	1.0	-75124.0289784678	0.1881426112	0.2813652586	0.0753	0.5448
+NosZ	family	r__Root; d__Bacteria	NosZ	553	1.0	-74905.2328985822	0.043923498	0.1023461485	1.9553	2.1016
+NosZ	family	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	549	1.0	-75078.9293943325	0.1992824888	0.2275008723	0.0753	0.5021
+NosZ	family	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	549	1.0	-75114.3083410381	0.171770437	0.2636768952	0.0753	0.5107
+NosZ	family	r__Root; d__Bacteria	NosZ	634	1.0	-86225.5567508359	0.0273070641	0.1098320968	1.7488	1.8859
+NosZ	family	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae	NosZ	104	1.0	-85662.3031483729	0.1188738828	0.0879450495	0.0	0.2068
+NosZ	family	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae	NosZ	104	1.0	-85668.9169605951	0.1175736167	0.0884191366	0.0	0.206
+NosZ	family	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae	NosZ	104	1.0	-85665.583407914	0.0923519471	0.0908349195	0.0	0.1832
+NosZ	family	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Flavobacteriaceae	NosZ	104	1.0	-85567.5733613637	0.060471724	0.0361982848	0.0	0.0967
+NosZ	family	r__Root; d__Bacteria; p__Bacteroidetes; c__Cytophagia; o__Cytophagales; f__Cytophagaceae; g__Runella; s__Runella slithyformis	NosZ	137	1.0	-86364.3572672757	0.0458748687	0.1123947898	0.0	0.1583
+NosZ	family	r__Root; d__Bacteria; p__Bacteroidetes; c__Cytophagia; o__Cytophagales; f__Marivirgaceae; g__Marivirga; s__Marivirga tractuosa	NosZ	75	1.0	-86121.4568069825	0.0668414903	0.0838739191	0.0	0.1507
+NosZ	family	r__Root; d__Bacteria	NosZ	635	1.0	-86111.1244346189	0.0522144324	0.087925289	1.7709	1.911
+NosZ	family	r__Root; d__Bacteria; p__Ignavibacteriae; c__Ignavibacteria; o__Ignavibacteriales; f__Melioribacteraceae; g__Melioribacter; s__Melioribacter roseus	NosZ	89	1.0	-87690.0238188003	0.0752052772	0.1341816276	0.0	0.2094
+NosZ	family	r__Root; d__Bacteria; p__Ignavibacteriae; c__Ignavibacteria; o__Ignavibacteriales; f__Ignavibacteriaceae; g__Ignavibacterium; s__Ignavibacterium album	NosZ	89	1.0	-87685.7756855109	0.1343517856	0.0724750898	0.0	0.2068
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Hyphomicrobium; s__Hyphomicrobium denitrificans	NosZ	587	1.0	-85865.1389231166	0.0344925981	0.0665870254	0.0479	0.149
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Hyphomicrobium; s__Hyphomicrobium denitrificans	NosZ	587	1.0	-85850.6659199299	0.0285848992	0.0616890199	0.0479	0.1382
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Hyphomicrobium; s__Hyphomicrobium denitrificans	NosZ	586	0.5712269407	-85793.7771625729	0.0566820948	0.0340934455	0.0	0.0908
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Hyphomicrobium; s__Hyphomicrobium denitrificans	NosZ	587	1.0	-85849.3130539536	0.0260625506	0.0640808031	0.0479	0.138
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Hyphomicrobium; s__Hyphomicrobium denitrificans	NosZ	587	1.0	-85841.8905925331	0.0346983091	0.0574136879	0.0479	0.14
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Xanthobacteraceae; g__Azorhizobium; s__Azorhizobium doebereinerae	NosZ	590	1.0	-85912.3534500925	0.0858919827	0.0755387332	0.0	0.1614
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Hyphomicrobium; s__Hyphomicrobium denitrificans	NosZ	587	1.0	-85860.7044811917	0.0379278656	0.0680282294	0.0479	0.1539
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Hyphomicrobium; s__Hyphomicrobium denitrificans	NosZ	586	0.7979980017	-85793.9911264233	0.0605979973	0.0400264896	0.0	0.1006
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Hyphomicrobium; s__Hyphomicrobium denitrificans	NosZ	587	1.0	-85829.778542666	0.0370398456	0.0546107718	0.0479	0.1396
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Xanthobacteraceae; g__Azorhizobium; s__Azorhizobium doebereinerae	NosZ	590	1.0	-85890.6736021341	0.104865688	0.0601731491	0.0	0.165
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Hyphomicrobium; s__Hyphomicrobium denitrificans	NosZ	587	1.0	-85848.3960387684	0.0326557978	0.0619727499	0.0479	0.1425
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Hyphomicrobium; s__Hyphomicrobium denitrificans	NosZ	587	1.0	-85851.6884658716	0.0292078949	0.0629625827	0.0479	0.1401
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Hyphomicrobium; s__Hyphomicrobium denitrificans	NosZ	587	1.0	-85865.2435335519	0.0270090949	0.0692493294	0.0479	0.1442
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Hyphomicrobiaceae; g__Hyphomicrobium; s__Hyphomicrobium denitrificans	NosZ	587	1.0	-85870.3297340517	0.0330577532	0.075046903	0.0479	0.156
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria	NosZ	585	0.9986288207	-87173.1671702284	0.013968403	0.0721980745	0.1371	0.2233
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria	NosZ	585	1.0	-87193.3119618005	0.023494305	0.0846976124	0.1371	0.2453
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria	NosZ	615	1.0	-87318.2084270249	0.038624038	0.0703092252	0.1417	0.2506
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae	NosZ	609	0.874771585	-86719.9207291077	0.0118848264	0.0631630394	0.0284	0.1034
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae	NosZ	609	1.0	-86652.7435922591	0.0171635966	0.0284622	0.0284	0.074
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria	NosZ	620	1.0	-87042.3743950494	0.0804872584	0.2568342404	0.4629	0.8002
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales	NosZ	615	1.0	-87318.2066659115	0.0147721566	0.0780094323	0.0882	0.181
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria	NosZ	617	1.0	-86902.555968444	0.0610764329	0.1345971765	0.1255	0.3212
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria	NosZ	605	1.0	-86906.0734567676	0.0495651598	0.1342416277	0.1985	0.3823
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria	NosZ	617	1.0	-86890.079043759	0.0491450061	0.1219659701	0.1255	0.2966
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus; s__Paracoccus sp. J39	NosZ	494	0.9979112932	-86904.4412738523	0.0440788602	0.0459991037	0.0	0.0901
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae	NosZ	459	1.0	-86970.5167967719	0.046353195	0.0525529654	0.0967	0.1956
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Sulfitobacter; s__Sulfitobacter mediterraneus	NosZ	501	1.0	-86956.9954634421	0.0712409768	0.0597183483	0.0	0.131
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus	NosZ	571	1.0	-86206.8180963145	0.0892543504	0.0874753511	0.0729	0.2496
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus	NosZ	571	0.9999450792	-86156.6451950265	0.1120332297	0.0519824701	0.0729	0.2369
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria	NosZ	572	1.0	-86121.1248201497	0.0242891779	0.0427530545	0.1818	0.2488
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria	NosZ	572	1.0	-86147.1526526574	0.0145184877	0.0588368589	0.1818	0.2552
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus	NosZ	571	0.9998735803	-86142.0232763392	0.1197869081	0.0551747542	0.0729	0.2479
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria	NosZ	572	0.7465811654	-86168.6794080782	0.0102214945	0.0793789494	0.1818	0.2714
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus	NosZ	571	1.0	-86183.8539029443	0.1029352221	0.0710766538	0.0729	0.2469
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodobacterales; f__Rhodobacteraceae; g__Paracoccus	NosZ	571	1.0	-86170.154385302	0.1134022208	0.0697380224	0.0729	0.256
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhizobiales; f__Bradyrhizobiaceae; g__Bradyrhizobium	NosZ	616	1.0	-87318.2124386598	0.0276720919	0.1036242235	0.0546	0.1859
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae	NosZ	530	1.0	-85621.6126362216	0.1191781821	0.0692672383	0.1166	0.305
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae	NosZ	530	1.0	-85675.7464824225	0.1193603015	0.1035610106	0.1166	0.3395
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae	NosZ	530	1.0	-85632.7960990797	0.1068220597	0.076186476	0.1166	0.2996
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae	NosZ	530	1.0	-85656.7171530205	0.109405612	0.0917780003	0.1166	0.3178
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae	NosZ	530	1.0	-85732.6375305621	0.1013827801	0.1391958038	0.1166	0.3572
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae	NosZ	530	1.0	-85664.2359535263	0.1163325042	0.098870376	0.1166	0.3318
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae	NosZ	530	1.0	-85746.1010105842	0.1070070815	0.1570414215	0.1166	0.3806
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae	NosZ	530	1.0	-85665.1571182297	0.1145483303	0.0967342867	0.1166	0.3279
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Neisseriaceae	NosZ	530	1.0	-85689.1721032148	0.0934535	0.1053605157	0.1166	0.3154
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae	NosZ	284	1.0	-85421.6068958295	0.0157851473	0.0732067622	0.0636	0.1526
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Chromobacteriaceae; g__Pseudogulbenkiania; s__Pseudogulbenkiania sp. NH8B	NosZ	306	1.0	-85576.9701795565	0.073655989	0.151714129	0.0	0.2254
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae	NosZ	284	1.0	-85438.4106000121	0.0160030499	0.0782074865	0.0636	0.1578
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae	NosZ	284	1.0	-85398.7342961872	0.00565439	0.0644432914	0.0636	0.1337
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae	NosZ	284	1.0	-85439.1495686428	0.0174569222	0.0797185049	0.0636	0.1608
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae	NosZ	284	1.0	-85452.644829079	0.0215354657	0.0929006152	0.0636	0.178
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Neisseriales; f__Chromobacteriaceae; g__Pseudogulbenkiania; s__Pseudogulbenkiania sp. NH8B	NosZ	306	1.0	-85546.0376714401	0.0705357548	0.1154985244	0.0	0.186
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Comamonadaceae	NosZ	284	1.0	-85444.9480790704	0.0137107821	0.086305419	0.0636	0.1636
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria	NosZ	286	1.0	-85757.8893405159	0.0353270702	0.3131793513	0.1499	0.4984
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae	NosZ	285	1.0	-86049.9892621591	0.0330941663	0.0747506875	0.0761	0.1839
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae	NosZ	285	1.0	-86005.9067790116	0.0341241417	0.0411622229	0.0761	0.1514
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria	NosZ	304	1.0	-86130.2706614684	0.025241	0.1053605157	0.0925	0.2231
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae	NosZ	285	1.0	-86010.4606351956	0.0339518962	0.0421781626	0.0761	0.1522
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria	NosZ	309	1.0	-86094.7294023352	0.0411452909	0.0785203956	0.1149	0.2346
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae	NosZ	285	1.0	-86001.8115666822	0.0282903606	0.0398687228	0.0761	0.1443
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae	NosZ	285	1.0	-86051.2843176184	0.0352427968	0.0663132326	0.0761	0.1777
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Nitrosomonadales; f__Methylophilaceae; g__Methylotenera; s__Methylotenera mobilis	NosZ	325	1.0	-87022.8628187606	0.1861223317	0.2418958033	0.0	0.428
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria	NosZ	306	1.0	-87300.6115688667	0.0627284743	0.0873999652	0.2079	0.358
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Burkholderiaceae	NosZ	322	1.0	-87204.955862313	0.0764008974	0.070579958	0.0583	0.2053
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Oligella	NosZ	532	1.0	-85530.2306390938	0.0898154955	0.1912307598	0.0559	0.3369
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Oligella	NosZ	532	1.0	-85531.6767937449	0.0818534897	0.1894994546	0.0559	0.3273
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Oligella	NosZ	532	1.0	-85520.7613020397	0.0841838013	0.1766728616	0.0559	0.3168
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Alcaligenes; s__Alcaligenes faecalis	NosZ	535	1.0	-85488.4114639621	0.1161395391	0.1624662358	0.0	0.2786
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Oligella	NosZ	532	1.0	-85538.6728072602	0.0781833729	0.1922912469	0.0559	0.3264
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Oligella	NosZ	532	1.0	-85532.3152730534	0.0834884447	0.1894029534	0.0559	0.3288
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Alcaligenes; s__Alcaligenes faecalis	NosZ	535	1.0	-85529.1334726456	0.116594841	0.1867115648	0.0	0.3033
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae	NosZ	536	1.0	-85539.9251848325	0.0369212339	0.1992521849	0.1563	0.3925
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Alcaligenaceae; g__Oligella	NosZ	532	1.0	-85531.0406132871	0.0846632236	0.1914446098	0.0559	0.332
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Oxalobacteraceae; g__Janthinobacterium; s__Janthinobacterium lividum	NosZ	329	1.0	-87488.0327492114	0.2448136088	0.1870511372	0.0	0.4319
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales	NosZ	180	0.9973624798	-87488.5477883604	0.0198253696	0.0560838979	0.0659	0.1418
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales	NosZ	321	1.0	-87196.1285486154	0.0407132835	0.07690766	0.0553	0.1729
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales	NosZ	321	1.0	-87204.9503529933	0.0364870159	0.0894283086	0.0553	0.1812
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales	NosZ	321	1.0	-87198.0304012969	0.0344937258	0.0798903956	0.0553	0.1697
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Rhodocyclaceae; g__Azospira; s__Dechlorosoma suillum	NosZ	176	1.0	-87326.2582001852	0.0372914739	0.0260615597	0.0	0.0634
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Rhodocyclaceae; g__Azospira; s__Dechlorosoma suillum	NosZ	177	1.0	-87371.7719628656	0.015653712	0.0495228688	0.0768	0.142
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Azonexaceae; g__Dechloromonas; s__Dechloromonas agitata	NosZ	176	1.0	-87064.8808133348	0.0314361072	0.034356981	0.0	0.0658
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Zoogloeaceae; g__Azoarcus; s__Azoarcus sp. KH32C	NosZ	311	1.0	-87165.527469014	0.0414744069	0.0693269182	0.0	0.1108
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Azonexaceae; g__Dechloromonas; s__Dechloromonas agitata	NosZ	176	1.0	-87161.5279172279	0.0319204485	0.0768662898	0.0	0.1088
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales	NosZ	315	1.0	-86158.363503734	0.0211723548	0.0700756232	0.1153	0.2065
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria	NosZ	318	1.0	-86379.3586211171	0.0207139216	0.2147660212	0.2645	0.5
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria	NosZ	184	1.0	-86203.9866446386	0.0521574925	0.0989052889	0.081	0.2321
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Rhodocyclales; f__Rhodocyclaceae; g__Aromatoleum; s__Aromatoleum aromaticum	NosZ	274	1.0	-86105.498412682	0.0697473907	0.0396539458	0.0	0.1094
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria	NosZ	318	1.0	-86377.5887873459	0.0195020428	0.2117319291	0.2645	0.4957
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria	NosZ	318	1.0	-86367.4875538847	0.020187572	0.2098892134	0.2645	0.4946
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales	NosZ	315	1.0	-86166.4895309631	0.0189879591	0.0804350248	0.1153	0.2147
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Thiovulaceae; g__Sulfurimonas	NosZ	198	1.0	-84572.9466156078	0.0362215428	0.1415587233	0.0916	0.2694
+NosZ	family	r__Root; d__Bacteria; p__Deferribacteres; c__Deferribacteres; o__Deferribacterales; f__Deferribacteraceae; g__Denitrovibrio; s__Denitrovibrio acetiphilus	NosZ	208	1.0	-84621.1434653936	0.136188653	0.1661392786	0.0	0.3023
+NosZ	family	r__Root; d__Bacteria; p__Deferribacteres; c__Deferribacteres; o__Deferribacterales; f__Deferribacteraceae; g__Denitrovibrio; s__Denitrovibrio acetiphilus	NosZ	208	1.0	-84535.6583192909	0.133881	0.1053605157	0.0	0.2392
+NosZ	family	r__Root; d__Bacteria; p__Deferribacteres; c__Deferribacteres; o__Deferribacterales; f__Deferribacteraceae; g__Denitrovibrio; s__Denitrovibrio acetiphilus	NosZ	208	1.0	-84543.1994947693	0.133881	0.1053605157	0.0	0.2392
+NosZ	family	r__Root; d__Bacteria; p__Deferribacteres; c__Deferribacteres; o__Deferribacterales; f__Deferribacteraceae; g__Denitrovibrio; s__Denitrovibrio acetiphilus	NosZ	208	1.0	-84539.2404699783	0.133881	0.1053605157	0.0	0.2392
+NosZ	family	r__Root; d__Bacteria; p__Deferribacteres; c__Deferribacteres; o__Deferribacterales; f__Deferribacteraceae; g__Denitrovibrio; s__Denitrovibrio acetiphilus	NosZ	208	1.0	-84600.5128115572	0.1166586528	0.1432645717	0.0	0.2599
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Thiovulaceae; g__Sulfurimonas	NosZ	206	1.0	-84474.7538710605	0.0413525526	0.0722188451	0.0632	0.1768
+NosZ	family	r__Root; d__Bacteria; p__Deferribacteres; c__Deferribacteres; o__Deferribacterales; f__Deferribacteraceae; g__Denitrovibrio; s__Denitrovibrio acetiphilus	NosZ	208	1.0	-84563.4614228012	0.133881	0.1053605157	0.0	0.2392
+NosZ	family	r__Root; d__Bacteria; p__Deferribacteres; c__Deferribacteres; o__Deferribacterales; f__Deferribacteraceae; g__Denitrovibrio; s__Denitrovibrio acetiphilus	NosZ	208	1.0	-84542.8505939117	0.133881	0.1053605157	0.0	0.2392
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Thiovulaceae; g__Sulfurimonas	NosZ	206	1.0	-84469.8030374288	0.0394720251	0.0679314291	0.0632	0.1706
+NosZ	family	r__Root; d__Bacteria; p__Deferribacteres; c__Deferribacteres; o__Deferribacterales; f__Deferribacteraceae; g__Denitrovibrio; s__Denitrovibrio acetiphilus	NosZ	208	1.0	-84544.9924787107	0.133881	0.1053605157	0.0	0.2392
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales	NosZ	219	1.0	-87360.2460527877	0.0391759959	0.1433188119	0.1475	0.33
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales	NosZ	219	1.0	-87356.4883397576	0.0508399604	0.138862468	0.1475	0.3372
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Sulfurovaceae	NosZ	208	0.5176311647	-82714.0959246199	0.0748264684	0.1236337841	0.0443	0.2428
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Campylobacteraceae; g__Sulfurospirillum; s__Sulfurospirillum sp. MES	NosZ	209	1.0	-82738.1156093086	0.0975328067	0.1363105958	0.0	0.2338
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Campylobacteraceae; g__Sulfurospirillum; s__Sulfurospirillum sp. MES	NosZ	209	1.0	-82764.6921799807	0.1009293357	0.1477895354	0.0	0.2487
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Campylobacteraceae; g__Sulfurospirillum; s__Sulfurospirillum sp. MES	NosZ	211	1.0	-82674.696619797	0.0726514156	0.0944868488	0.0	0.1671
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Campylobacteraceae; g__Sulfurospirillum; s__Sulfurospirillum sp. MES	NosZ	209	1.0	-82779.2789251911	0.1018074152	0.1610094207	0.0	0.2628
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Campylobacteraceae; g__Sulfurospirillum; s__Sulfurospirillum sp. MES	NosZ	211	1.0	-82671.9818488811	0.0825554982	0.0864498033	0.0	0.169
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Hahellaceae; g__Hahella	NosZ	395	0.7538533104	-86235.7217955081	0.0701971405	0.0779136108	0.0391	0.1872
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	392	1.0	-86217.132654582	0.014227	0.1053605157	0.1727	0.2923
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Hahellaceae; g__Hahella	NosZ	395	0.730230502	-86235.2995833019	0.0684507473	0.0817626687	0.0391	0.1893
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales	NosZ	401	1.0	-86260.890275726	0.0253495	0.1053605157	0.1368	0.2675
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	392	1.0	-86258.2220294043	0.014227	0.1053605157	0.1727	0.2923
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales	NosZ	401	1.0	-86227.9097966662	0.0236259127	0.0700360205	0.1368	0.2305
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Psychromonadaceae; g__Psychromonas; s__Psychromonas ingrahamii	NosZ	417	0.9072599773	-86296.9819611161	0.0714378576	0.0852469388	0.0	0.1567
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Moritellaceae; g__Moritella; s__Moritella dasanensis	NosZ	422	0.7105045829	-86320.5059707044	0.0301729768	0.1131591874	0.0	0.1433
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Moritellaceae; g__Moritella; s__Moritella dasanensis	NosZ	422	0.7004872279	-86305.9666552047	0.0356655771	0.0917330394	0.0	0.1274
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Moritellaceae; g__Moritella; s__Moritella dasanensis	NosZ	422	0.999524605	-86236.1963899367	0.0443272775	0.0577130265	0.0	0.102
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Colwelliaceae; g__Colwellia	NosZ	433	0.981469848	-86923.7294945005	0.0327818182	0.0409761194	0.0743	0.1481
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Colwelliaceae; g__Thalassotalea; s__Thalassotalea sp. ND16A	NosZ	424	1.0	-86936.4417867328	0.0479849973	0.050997137	0.0	0.099
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Vibrionales; f__Vibrionaceae; g__Photobacterium; s__Photobacterium profundum	NosZ	421	0.987359155	-86714.758716337	0.0482107943	0.0388672348	0.0	0.0871
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Alteromonadales; f__Colwelliaceae; g__Colwellia; s__Colwellia piezophila	NosZ	432	0.9989740761	-86805.1640560323	0.0860493162	0.0704060734	0.0	0.1565
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	431	0.5981321934	-86773.1882258083	0.0052011782	0.0680300283	0.0733	0.1465
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	432	0.5615689427	-86743.7206389503	0.0085947791	0.058948924	0.0931	0.1606
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria	NosZ	223	1.0	-86611.7040783482	0.0400325236	0.2304213522	0.1819	0.4524
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	431	0.9977054692	-85156.8672923842	0.0619390581	0.2331380132	0.2373	0.5324
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria	NosZ	616	1.0	-85263.531719111	0.0509237794	0.2901136337	0.5862	0.9272
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria	NosZ	616	0.8407008816	-85163.0624750821	0.0177419014	0.1958457702	0.5862	0.7998
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria	NosZ	616	1.0	-85258.0837664271	0.0511304493	0.2973253984	0.5862	0.9347
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	431	1.0	-85171.9241598106	0.0541933071	0.235879201	0.2373	0.5274
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria	NosZ	616	1.0	-85254.5709105524	0.0496840255	0.2887412606	0.5862	0.9246
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas	NosZ	388	1.0	-86920.833804781	0.0119969367	0.075294554	0.0999	0.1872
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Pseudomonadales; f__Pseudomonadaceae; g__Pseudomonas	NosZ	388	1.0	-86924.5204617958	0.0119073272	0.0782894775	0.0999	0.1901
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Halomonadaceae; g__Halomonas	NosZ	406	1.0	-86778.9266019076	0.0695117677	0.1109155674	0.0785	0.2589
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Halomonadaceae; g__Halomonas	NosZ	406	1.0	-86785.3376895165	0.0684768574	0.1114752372	0.0785	0.2585
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	406	1.0	-86534.0078862364	0.0190063152	0.1326609817	0.1868	0.3385
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Hahellaceae; g__Hahella	NosZ	404	1.0	-86561.6983614141	0.0611546333	0.147058409	0.0391	0.2473
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Oceanospirillales; f__Hahellaceae; g__Hahella	NosZ	404	0.9895526962	-86535.496155105	0.0721126744	0.1319628116	0.0391	0.2432
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	435	1.0	-86759.3246315276	0.0785512637	0.1916130806	0.1904	0.4606
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	435	1.0	-86745.7882058944	0.0751435525	0.1842948117	0.1904	0.4498
+NosZ	family	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	436	1.0	-86924.5171346745	0.0932271453	0.1532223143	0.0995	0.3459
+NosZ	class	r__Root; d__Bacteria	NosZ	623	1.0	-85813.3972893525	0.4320095465	0.2885511855	1.4635	2.1841
+NosZ	class	r__Root; d__Bacteria	NosZ	623	1.0	-85805.9435752017	0.4367672378	0.2824622302	1.4635	2.1827
+NosZ	class	r__Root; d__Bacteria	NosZ	623	1.0	-85808.1298160609	0.4462809772	0.2981706899	1.4635	2.208
+NosZ	class	r__Root; d__Bacteria	NosZ	623	1.0	-85833.8322949969	0.4515794025	0.3141016354	1.4635	2.2292
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	125	0.8740537633	-85301.8055910236	0.0762994354	0.1007684131	0.0976	0.2747
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	122	0.5465142906	-85290.8943970066	0.0105425	0.1053605157	0.2243	0.3402
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales	NosZ	121	1.0	-85262.7552677658	0.0313286369	0.074949428	0.1589	0.2652
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	141	1.0	-85350.7002687721	0.034752294	0.1375661165	0.2024	0.3747
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	126	1.0	-85350.5689502612	0.0208303812	0.1330823396	0.2404	0.3943
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes; c__Saprospiria; o__Saprospirales; f__Haliscomenobacteraceae; g__Haliscomenobacter; s__Haliscomenobacter hydrossis	NosZ	125	1.0	-82901.1400431558	0.1528372007	0.154762472	0.0	0.3076
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes; c__Saprospiria; o__Saprospirales; f__Haliscomenobacteraceae; g__Haliscomenobacter; s__Haliscomenobacter hydrossis	NosZ	125	1.0	-82913.3122225029	0.1554441182	0.1695700721	0.0	0.325
+NosZ	class	r__Root; d__Bacteria	NosZ	609	1.0	-82826.4340014784	0.0489268565	0.119953591	1.7416	1.9105
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes; c__Saprospiria; o__Saprospirales; f__Lewinellaceae; g__Lewinella; s__Lewinella persica	NosZ	70	1.0	-82769.2502410974	0.0858200708	0.0649177754	0.0	0.1507
+NosZ	class	r__Root; d__Bacteria	NosZ	608	1.0	-82863.4202552018	0.0334124879	0.1642243055	1.8743	2.0719
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes; c__Saprospiria; o__Saprospirales; f__Haliscomenobacteraceae; g__Haliscomenobacter; s__Haliscomenobacter hydrossis	NosZ	125	1.0	-82926.1615774298	0.1481118536	0.1759543109	0.0	0.3241
+NosZ	class	r__Root; d__Bacteria	NosZ	607	1.0	-82939.258015784	0.066671226	0.2027603192	1.8234	2.0928
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes; c__Flavobacteriia; o__Flavobacteriales; f__Schleiferiaceae; g__Owenweeksia; s__Owenweeksia hongkongensis	NosZ	6	0.7530576712	-82847.8990483672	0.1079782007	0.1404524492	0.0	0.2484
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes; c__Saprospiria; o__Saprospirales; f__Haliscomenobacteraceae; g__Haliscomenobacter; s__Haliscomenobacter hydrossis	NosZ	125	1.0	-82930.5832756259	0.1561847583	0.1843193929	0.0	0.3405
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes; c__Saprospiria; o__Saprospirales; f__Haliscomenobacteraceae; g__Haliscomenobacter; s__Haliscomenobacter hydrossis	NosZ	125	1.0	-82873.4726958462	0.161327934	0.1431104015	0.0	0.3044
+NosZ	class	r__Root; d__Bacteria	NosZ	607	1.0	-82987.8554106807	0.0628734305	0.2502066734	1.8234	2.1365
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes; c__Saprospiria; o__Saprospirales; f__Haliscomenobacteraceae; g__Haliscomenobacter; s__Haliscomenobacter hydrossis	NosZ	125	1.0	-82814.3287286632	0.1402215	0.1053605157	0.0	0.2456
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes; c__Saprospiria; o__Saprospirales; f__Haliscomenobacteraceae; g__Haliscomenobacter; s__Haliscomenobacter hydrossis	NosZ	125	1.0	-82770.7320386012	0.0884810923	0.0652013207	0.0	0.1537
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__Sphingobacteriales; f__Sphingobacteriaceae	NosZ	88	1.0	-82771.4034652708	0.128013243	0.0670281297	0.0	0.195
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes; c__Chitinophagia; o__Chitinophagales; f__Chitinophagaceae; g__Sediminibacterium; s__Sediminibacterium sp. C3	NosZ	31	1.0	-73582.0072472638	0.0710102775	0.0949463264	0.0	0.166
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	540	1.0	-73758.0453962723	0.1896909199	0.2168488128	0.0753	0.4818
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	540	1.0	-73789.7155355561	0.2022508194	0.256293535	0.0753	0.5338
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes; c__Sphingobacteriia; o__Sphingobacteriales; f__Sphingobacteriaceae	NosZ	30	0.9960060706	-73672.9342343954	0.0423729962	0.1755534184	0.1134	0.3313
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	540	1.0	-73800.9094339426	0.1837879501	0.2560333685	0.0753	0.5151
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	540	1.0	-73789.1633474781	0.1802879385	0.2336687647	0.0753	0.4893
+NosZ	class	r__Root; d__Bacteria	NosZ	542	1.0	-73770.2652497691	0.031797	0.2543517287	1.934	2.2201
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes; c__Chitinophagia; o__Chitinophagales; f__Chitinophagaceae; g__Sediminibacterium; s__Sediminibacterium sp. C3	NosZ	31	1.0	-73609.0772735375	0.0659066267	0.1138857408	0.0	0.1798
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	540	1.0	-73811.1673523615	0.1674396603	0.2599988717	0.0753	0.5027
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	540	1.0	-73822.9064819699	0.1874266157	0.2820510219	0.0753	0.5448
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes; c__Saprospiria; o__Saprospirales; f__Lewinellaceae; g__Lewinella; s__Lewinella cohaerens	NosZ	0	1.0	-73749.3253271835	0.0871244035	0.2166543311	0.0	0.3038
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	37	1.0	-73685.4433154656	0.0296478258	0.1829773234	0.1977	0.4103
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	540	1.0	-73768.9574992584	0.193382015	0.2235568178	0.0753	0.4922
+NosZ	class	r__Root; d__Bacteria	NosZ	541	0.9946549356	-73696.9421519687	0.0291125853	0.1912489167	1.9151	2.1355
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes; c__Chitinophagia; o__Chitinophagales; f__Chitinophagaceae; g__Sediminibacterium; s__Sediminibacterium sp. C3	NosZ	31	1.0	-73580.3261163264	0.0739042238	0.0919947534	0.0	0.1659
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes; c__Chitinophagia; o__Chitinophagales; f__Chitinophagaceae; g__Sediminibacterium; s__Sediminibacterium sp. C3	NosZ	31	1.0	-73594.0061533944	0.0666740616	0.0958395111	0.0	0.1625
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	55	1.0	-73669.1073666834	0.0254632878	0.1626465636	0.2433	0.4314
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	540	1.0	-73755.7505415453	0.207956201	0.2235915308	0.0753	0.5068
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	540	1.0	-73788.2963172947	0.1982704916	0.2426441982	0.0753	0.5162
+NosZ	class	r__Root; d__Bacteria	NosZ	541	1.0	-73751.0749152897	0.0216431267	0.2159509719	1.9151	2.1527
+NosZ	class	r__Root; d__Bacteria	NosZ	542	1.0	-73751.5279551158	0.031797	0.2268969275	1.934	2.1927
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes; c__Chitinophagia; o__Chitinophagales; f__Chitinophagaceae; g__Sediminibacterium; s__Sediminibacterium sp. C3	NosZ	31	1.0	-73562.0030264447	0.0728286059	0.0744062591	0.0	0.1472
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	540	1.0	-73743.3600808197	0.2021009505	0.2041462496	0.0753	0.4815
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	540	1.0	-73808.3102496168	0.1816495239	0.2688370711	0.0753	0.5258
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes; c__Chitinophagia; o__Chitinophagales; f__Chitinophagaceae; g__Sediminibacterium; s__Sediminibacterium sp. C3	NosZ	31	1.0	-73542.2857805354	0.0696349823	0.0637495562	0.0	0.1334
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	540	1.0	-73781.027399571	0.1935252483	0.2326479495	0.0753	0.5015
+NosZ	class	r__Root; d__Bacteria	NosZ	543	1.0	-73616.9509092625	0.0719703688	0.1031361231	1.9524	2.1275
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	540	1.0	-73790.243187202	0.1898157551	0.2520271872	0.0753	0.5171
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	540	1.0	-73780.1876784624	0.1929433425	0.2479079881	0.0753	0.5162
+NosZ	class	r__Root; d__Bacteria	NosZ	542	1.0	-73735.1731853572	0.031797	0.2121164357	1.934	2.1779
+NosZ	class	r__Root; d__Bacteria	NosZ	633	1.0	-85841.0108826363	0.0523527419	0.0880961932	1.7744	1.9148
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes; c__Cytophagia; o__Cytophagales; f__Marivirgaceae; g__Marivirga; s__Marivirga tractuosa	NosZ	75	1.0	-85851.0291818553	0.0670929474	0.0840533088	0.0	0.1511
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes; c__Cytophagia; o__Cytophagales; f__Cytophagaceae; g__Runella; s__Runella slithyformis	NosZ	134	1.0	-85868.1892457111	0.0458633519	0.1124132105	0.0	0.1583
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes; c__Cytophagia; o__Cytophagales; f__Cytophagaceae; g__Dyadobacter; s__Dyadobacter fermentans	NosZ	572	1.0	-84988.8735031493	0.120032522	0.114756239	0.0	0.2348
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	621	1.0	-85048.1743558296	0.0427834288	0.1557395584	0.2848	0.4833
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes	NosZ	621	1.0	-85121.4319056401	0.0626929374	0.2102792291	0.2848	0.5578
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes; c__Cytophagia; o__Cytophagales; f__Cytophagaceae; g__Dyadobacter; s__Dyadobacter fermentans	NosZ	572	1.0	-85000.4542430448	0.0754268612	0.1206743253	0.0	0.1961
+NosZ	class	r__Root; d__Bacteria; p__Bacteroidetes; c__Cytophagia; o__Cytophagales; f__Cytophagaceae; g__Dyadobacter; s__Dyadobacter fermentans	NosZ	572	1.0	-85048.9454123133	0.1219303038	0.1619367783	0.0	0.2839
+NosZ	class	r__Root; d__Bacteria; p__Chloroflexi; c__Thermomicrobia; o__Thermomicrobiales; f__Thermomicrobiaceae; g__Thermomicrobium; s__Thermomicrobium roseum	NosZ	165	0.9998172573	-87690.0604857536	0.2687662866	0.2201775062	0.0	0.4889
+NosZ	class	r__Root; d__Bacteria	NosZ	164	1.0	-87199.3694107325	0.0270879353	0.3202227982	0.2453	0.5926
+NosZ	class	r__Root; d__Bacteria; p__Chloroflexi; c__Caldilineae; o__Caldilineales; f__Caldilineaceae; g__Caldilinea; s__Caldilinea aerophila	NosZ	162	1.0	-87171.1699576659	0.2090458673	0.2695583584	0.0	0.4786
+NosZ	class	r__Root; d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae	NosZ	613	1.0	-85639.0576608525	0.1607181559	0.3780097312	0.2113	0.75
+NosZ	class	r__Root; d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae	NosZ	613	1.0	-85609.2834357772	0.1657973673	0.3430723722	0.2113	0.7202
+NosZ	class	r__Root; d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae	NosZ	613	1.0	-85610.2344148827	0.1526984464	0.3393452895	0.2113	0.7033
+NosZ	class	r__Root; d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae	NosZ	613	1.0	-85624.5992657256	0.1480035322	0.3688766977	0.2113	0.7282
+NosZ	class	r__Root; d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae	NosZ	613	1.0	-85655.5387876278	0.1457061167	0.4009831506	0.2113	0.758
+NosZ	class	r__Root; d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae	NosZ	613	1.0	-85660.2375368185	0.1454945952	0.4238691709	0.2113	0.7807
+NosZ	class	r__Root; d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae	NosZ	613	1.0	-85624.1438266561	0.1379050522	0.3581423708	0.2113	0.7073
+NosZ	class	r__Root; d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae	NosZ	613	1.0	-85620.0554506611	0.1378593603	0.3443038993	0.2113	0.6935
+NosZ	class	r__Root; d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae	NosZ	613	1.0	-85660.4229937832	0.1730594946	0.4264530617	0.2113	0.8108
+NosZ	class	r__Root; d__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Peptococcaceae	NosZ	613	1.0	-85599.153975906	0.1548139645	0.327494056	0.2113	0.6936
+NosZ	class	r__Root; d__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae	NosZ	623	1.0	-86749.8140020143	0.2013862243	0.3113785908	0.2409	0.7537
+NosZ	class	r__Root; d__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae	NosZ	623	1.0	-86739.4837870877	0.1937693867	0.2930736027	0.2409	0.7277
+NosZ	class	r__Root; d__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae	NosZ	623	1.0	-86750.520267244	0.2082855198	0.309595578	0.2409	0.7588
+NosZ	class	r__Root; d__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae	NosZ	623	1.0	-86707.0289682646	0.208924037	0.2652638074	0.2409	0.7151
+NosZ	class	r__Root; d__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae	NosZ	623	1.0	-86653.7487866111	0.205734866	0.2181251629	0.2409	0.6648
+NosZ	class	r__Root; d__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae	NosZ	623	1.0	-86748.6872849551	0.1966157474	0.3102140191	0.2409	0.7477
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	471	1.0	-72098.6748244646	0.0710677822	0.1660865413	0.2509	0.4881
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	471	1.0	-72247.0134081737	0.0718636008	0.3305910779	0.2509	0.6534
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	471	1.0	-72145.1983012848	0.0769715608	0.2091041729	0.2509	0.537
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	471	1.0	-72143.9193417304	0.0924371421	0.2082127688	0.2509	0.5515
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	471	1.0	-72128.4086216002	0.0829107928	0.2055976253	0.2509	0.5394
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	471	1.0	-72110.4890767326	0.0666645875	0.1785636448	0.2509	0.4961
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	471	1.0	-72131.3475280725	0.0397081385	0.1952403851	0.2509	0.4858
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	471	1.0	-72152.4429015842	0.0561606354	0.2206861265	0.2509	0.5277
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	471	1.0	-72267.9187531376	0.0790570936	0.3516242427	0.2509	0.6816
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	471	1.0	-72139.8577001254	0.0562191079	0.2238270582	0.2509	0.5309
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	471	1.0	-72256.8105632981	0.0725897234	0.334064978	0.2509	0.6576
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria	NosZ	187	0.7342726595	-72127.1566607919	0.0516067633	0.2316434416	0.1234	0.4067
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	471	1.0	-72139.1312103864	0.0708334506	0.2107828791	0.2509	0.5325
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	471	1.0	-72144.1061348623	0.0560880693	0.2106626912	0.2509	0.5177
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	471	1.0	-72149.0678583684	0.068660513	0.2090328232	0.2509	0.5286
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	471	1.0	-72128.5002123277	0.0654770037	0.202051845	0.2509	0.5184
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	471	1.0	-72155.8710221639	0.0788416602	0.2276056779	0.2509	0.5573
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	471	1.0	-72131.8526097985	0.0665899551	0.2025089675	0.2509	0.52
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	471	1.0	-72138.3363985616	0.0581614237	0.208013536	0.2509	0.5171
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	471	1.0	-72131.3863320204	0.0718806042	0.2069239842	0.2509	0.5297
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	471	1.0	-72212.9753131069	0.072603539	0.2808653622	0.2509	0.6044
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	471	1.0	-72173.9495883108	0.0794031243	0.2626397479	0.2509	0.5929
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	471	1.0	-72246.5972197677	0.0583678891	0.3309101687	0.2509	0.6402
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	471	1.0	-72152.3022883127	0.0653375895	0.225734994	0.2509	0.542
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	472	1.0	-72223.7929570109	0.0618499653	0.3063727587	0.4604	0.8286
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Magnetospirillum	NosZ	175	1.0	-75799.2290081332	0.0638752951	0.1326287343	0.1146	0.3111
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Cardiobacteriales; f__Cardiobacteriaceae; g__Cardiobacterium; s__Cardiobacterium hominis	NosZ	451	1.0	-75814.680189834	0.1640862174	0.1416122806	0.0	0.3057
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Cardiobacteriales; f__Cardiobacteriaceae; g__Cardiobacterium; s__Cardiobacterium hominis	NosZ	451	1.0	-75792.4851439868	0.1585441361	0.1243234188	0.0	0.2829
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	528	1.0	-75842.0789696504	0.179979602	0.088275091	0.0	0.2683
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	528	1.0	-75860.4966746607	0.1758872563	0.1102789368	0.0	0.2862
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	528	1.0	-76027.1320903356	0.2892219862	0.210560562	0.0	0.4998
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	528	1.0	-75847.2372133361	0.1943214995	0.0868704525	0.0	0.2812
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Cardiobacteriales; f__Cardiobacteriaceae; g__Cardiobacterium; s__Cardiobacterium hominis	NosZ	451	1.0	-75871.520637833	0.1351534558	0.1871938067	0.0	0.3223
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	528	1.0	-76048.8895904255	0.2938125998	0.2471818572	0.0	0.541
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	528	1.0	-75852.12837225	0.174413445	0.1055727512	0.0	0.28
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Cardiobacteriales; f__Cardiobacteriaceae; g__Cardiobacterium; s__Cardiobacterium hominis	NosZ	451	1.0	-75876.6483764362	0.1603569023	0.1954163188	0.0	0.3558
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	528	1.0	-75836.0691030695	0.1779013727	0.0801727733	0.0	0.2581
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Magnetospirillum	NosZ	175	1.0	-75799.1983723404	0.0655070343	0.1276748936	0.1146	0.3078
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	528	1.0	-76059.3193388137	0.2956540496	0.245390829	0.0	0.541
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	528	1.0	-75854.0573344587	0.1753260382	0.1002179923	0.0	0.2755
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Magnetospirillum	NosZ	175	0.8914206997	-75793.1333628353	0.0843477285	0.138380973	0.1146	0.3373
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	528	1.0	-76008.8804063337	0.2630790623	0.1776598405	0.0	0.4407
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	528	1.0	-76013.7434113042	0.2726054488	0.1867527847	0.0	0.4594
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Magnetospirillum	NosZ	175	1.0	-75809.6711615809	0.0560908599	0.143732462	0.1146	0.3144
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	528	1.0	-75858.0581732626	0.1699716976	0.1129011114	0.0	0.2829
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Cardiobacteriales; f__Cardiobacteriaceae; g__Cardiobacterium; s__Cardiobacterium hominis	NosZ	451	1.0	-75806.759450421	0.1673181767	0.1399111937	0.0	0.3072
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Cardiobacteriales; f__Cardiobacteriaceae; g__Cardiobacterium; s__Cardiobacterium hominis	NosZ	451	1.0	-75870.5035215183	0.139285488	0.1916632539	0.0	0.3309
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	528	1.0	-75876.0374244536	0.1732549889	0.1255634163	0.0	0.2988
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	528	1.0	-75855.4447498868	0.1689604251	0.1092400144	0.0	0.2782
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	528	1.0	-76021.6329079765	0.2675892235	0.2013301302	0.0	0.4689
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	528	1.0	-76028.2964829012	0.241443906	0.2045681471	0.0	0.446
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	528	1.0	-76032.7207420098	0.2901807746	0.2149068131	0.0	0.5051
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Rhodospirillales; f__Rhodospirillaceae; g__Magnetospirillum	NosZ	175	1.0	-75789.8631458506	0.0737831722	0.1178844247	0.1146	0.3063
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	528	1.0	-76008.8437287774	0.2869586718	0.1933308396	0.0	0.4803
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria	NosZ	528	1.0	-75826.9791461012	0.1752742888	0.0772351538	0.0	0.2525
+NosZ	class	r__Root; d__Bacteria	NosZ	227	1.0	-84625.1998265519	0.0955520524	0.4481109429	0.3722	0.9159
+NosZ	class	r__Root; d__Bacteria	NosZ	626	1.0	-84568.7248893115	0.2657560994	0.3708856665	0.2383	0.8749
+NosZ	class	r__Root; d__Bacteria	NosZ	626	1.0	-84477.4850657534	0.2390733658	0.2557399424	0.2383	0.7331
+NosZ	class	r__Root; d__Bacteria	NosZ	626	1.0	-84482.1825738017	0.2425608219	0.2517753232	0.2383	0.7326
+NosZ	class	r__Root; d__Bacteria	NosZ	626	1.0	-84474.3626255925	0.2264244943	0.251032151	0.2383	0.7158
+NosZ	class	r__Root; d__Bacteria; p__Deferribacteres; c__Deferribacteres; o__Deferribacterales; f__Deferribacteraceae; g__Denitrovibrio; s__Denitrovibrio acetiphilus	NosZ	193	1.0	-79833.8471604419	0.2293408275	0.1886305468	0.0	0.418
+NosZ	class	r__Root; d__Bacteria; p__Deferribacteres; c__Deferribacteres; o__Deferribacterales; f__Deferribacteraceae; g__Denitrovibrio; s__Denitrovibrio acetiphilus	NosZ	193	1.0	-79720.3878585515	0.1234366724	0.115389386	0.0	0.2388
+NosZ	class	r__Root; d__Bacteria; p__Deferribacteres; c__Deferribacteres; o__Deferribacterales; f__Deferribacteraceae; g__Denitrovibrio; s__Denitrovibrio acetiphilus	NosZ	193	1.0	-79833.7533052171	0.2116175819	0.204643592	0.0	0.4163
+NosZ	class	r__Root; d__Bacteria; p__Deferribacteres; c__Deferribacteres; o__Deferribacterales; f__Deferribacteraceae; g__Denitrovibrio; s__Denitrovibrio acetiphilus	NosZ	193	1.0	-79678.9143968125	0.1310188387	0.0898136839	0.0	0.2208
+NosZ	class	r__Root; d__Bacteria; p__Deferribacteres; c__Deferribacteres; o__Deferribacterales; f__Deferribacteraceae; g__Denitrovibrio; s__Denitrovibrio acetiphilus	NosZ	193	1.0	-79831.210841601	0.2064429603	0.1995152399	0.0	0.406
+NosZ	class	r__Root; d__Bacteria; p__Deferribacteres; c__Deferribacteres; o__Deferribacterales; f__Deferribacteraceae; g__Denitrovibrio; s__Denitrovibrio acetiphilus	NosZ	193	1.0	-79890.399659429	0.1967205594	0.2570705342	0.0	0.4538
+NosZ	class	r__Root; d__Bacteria; p__Deferribacteres; c__Deferribacteres; o__Deferribacterales; f__Deferribacteraceae; g__Denitrovibrio; s__Denitrovibrio acetiphilus	NosZ	193	1.0	-79707.5715507949	0.1252687353	0.105934833	0.0	0.2312
+NosZ	class	r__Root; d__Bacteria; p__Deferribacteres; c__Deferribacteres; o__Deferribacterales; f__Deferribacteraceae; g__Denitrovibrio; s__Denitrovibrio acetiphilus	NosZ	193	1.0	-79764.6022284643	0.1102678042	0.1615289094	0.0	0.2718
+NosZ	class	r__Root; d__Bacteria; p__Deferribacteres; c__Deferribacteres; o__Deferribacterales; f__Deferribacteraceae; g__Denitrovibrio; s__Denitrovibrio acetiphilus	NosZ	193	1.0	-79883.0098421196	0.184407971	0.2694270014	0.0	0.4538
+NosZ	class	r__Root; d__Bacteria; p__Deferribacteres; c__Deferribacteres; o__Deferribacterales; f__Deferribacteraceae; g__Denitrovibrio; s__Denitrovibrio acetiphilus	NosZ	193	1.0	-79788.1890437099	0.1539531532	0.1707380503	0.0	0.3247
+NosZ	class	r__Root; d__Bacteria; p__Deferribacteres; c__Deferribacteres; o__Deferribacterales; f__Deferribacteraceae; g__Denitrovibrio; s__Denitrovibrio acetiphilus	NosZ	193	1.0	-79681.0299261256	0.1323632907	0.0910097279	0.0	0.2234
+NosZ	class	r__Root; d__Bacteria; p__Deferribacteres; c__Deferribacteres; o__Deferribacterales; f__Deferribacteraceae; g__Denitrovibrio; s__Denitrovibrio acetiphilus	NosZ	193	1.0	-79879.3256047964	0.1929643405	0.2532481611	0.0	0.4462
+NosZ	class	r__Root; d__Bacteria; p__Deferribacteres; c__Deferribacteres; o__Deferribacterales; f__Deferribacteraceae; g__Denitrovibrio; s__Denitrovibrio acetiphilus	NosZ	193	1.0	-79819.7397224786	0.2246740954	0.1802094419	0.0	0.4049
+NosZ	class	r__Root; d__Bacteria; p__Deferribacteres; c__Deferribacteres; o__Deferribacterales; f__Deferribacteraceae; g__Denitrovibrio; s__Denitrovibrio acetiphilus	NosZ	193	1.0	-79825.0321470692	0.2294179668	0.1807875505	0.0	0.4102
+NosZ	class	r__Root; d__Bacteria; p__Deferribacteres; c__Deferribacteres; o__Deferribacterales; f__Deferribacteraceae; g__Denitrovibrio; s__Denitrovibrio acetiphilus	NosZ	193	1.0	-79887.4290584266	0.2046027541	0.260207448	0.0	0.4648
+NosZ	class	r__Root; d__Bacteria; p__Deferribacteres; c__Deferribacteres; o__Deferribacterales; f__Deferribacteraceae; g__Denitrovibrio; s__Denitrovibrio acetiphilus	NosZ	193	1.0	-79889.1491404381	0.195799269	0.2566371586	0.0	0.4524
+NosZ	class	r__Root; d__Bacteria; p__Deferribacteres; c__Deferribacteres; o__Deferribacterales; f__Deferribacteraceae; g__Denitrovibrio; s__Denitrovibrio acetiphilus	NosZ	193	1.0	-79674.81078142	0.1268191278	0.081634091	0.0	0.2085
+NosZ	class	r__Root; d__Bacteria; p__Deferribacteres; c__Deferribacteres; o__Deferribacterales; f__Deferribacteraceae; g__Denitrovibrio; s__Denitrovibrio acetiphilus	NosZ	193	1.0	-79837.2597365387	0.1973947289	0.2140854335	0.0	0.4115
+NosZ	class	r__Root; d__Bacteria; p__Deferribacteres; c__Deferribacteres; o__Deferribacterales; f__Deferribacteraceae; g__Denitrovibrio; s__Denitrovibrio acetiphilus	NosZ	193	1.0	-79698.2436435617	0.1361990312	0.1001186026	0.0	0.2363
+NosZ	class	r__Root; d__Bacteria; p__Deferribacteres; c__Deferribacteres; o__Deferribacterales; f__Deferribacteraceae; g__Denitrovibrio; s__Denitrovibrio acetiphilus	NosZ	193	1.0	-79827.3643334581	0.2120740871	0.1995743766	0.0	0.4116
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	510	1.0	-73017.2336110651	0.1461672031	0.3043816957	0.5406	0.9911
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	510	1.0	-72976.9727167808	0.1313966677	0.2485585365	0.5406	0.9206
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	510	1.0	-73000.6012896099	0.1441646613	0.2636369695	0.5406	0.9484
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	510	1.0	-72954.7569270881	0.1630748518	0.2036020126	0.5406	0.9073
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	510	1.0	-72956.4672134967	0.1361642427	0.2026290832	0.5406	0.8794
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	510	1.0	-73006.2022871894	0.1550932348	0.2749400323	0.5406	0.9706
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	510	1.0	-73012.9284866048	0.1530145823	0.3003601595	0.5406	0.994
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	510	1.0	-73034.6668173467	0.1565765424	0.3051100402	0.5406	1.0023
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	510	1.0	-73017.3064420074	0.1528390666	0.3017218059	0.5406	0.9952
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	510	1.0	-72993.7348669002	0.1279964617	0.246226434	0.5406	0.9148
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	510	1.0	-73001.2786352926	0.1452640918	0.2630366401	0.5406	0.9489
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	510	1.0	-73006.5917404549	0.1649826282	0.2730535313	0.5406	0.9786
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	510	1.0	-73010.8206281605	0.1593358834	0.2676197205	0.5406	0.9676
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	510	1.0	-73032.4691796313	0.1576816776	0.2906815472	0.5406	0.989
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	510	1.0	-72985.1096275014	0.1250710499	0.2473222018	0.5406	0.913
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	223	1.0	-72829.6043780624	0.0479835374	0.1798247986	0.1819	0.4097
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	510	1.0	-72969.010320122	0.1188820663	0.2207482454	0.5406	0.8802
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	509	1.0	-72874.3697762446	0.0553006345	0.2196542714	0.404	0.679
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	510	1.0	-72960.5232132245	0.1503110988	0.217889329	0.5406	0.9088
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	510	1.0	-73019.2298543396	0.1591968714	0.2779221083	0.5406	0.9777
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	510	1.0	-73013.6080345021	0.1415066679	0.2648771065	0.5406	0.947
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	510	1.0	-72983.1681197554	0.1273550568	0.2575874005	0.5406	0.9255
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	510	1.0	-72994.5525697445	0.1581066116	0.2608252129	0.5406	0.9595
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	510	1.0	-72976.3971657172	0.1173907269	0.2327760895	0.5406	0.8908
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	510	1.0	-72996.8931729057	0.1410921574	0.2557787061	0.5406	0.9375
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	510	1.0	-73025.1222353199	0.1526588102	0.2902618243	0.5406	0.9835
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	510	1.0	-73013.6239218801	0.1698952486	0.2929147273	0.5406	1.0034
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	510	1.0	-72960.0808356304	0.1560153265	0.2242469853	0.5406	0.9209
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	510	1.0	-72997.062426782	0.1425125491	0.2628537266	0.5406	0.946
+NosZ	class	r__Root; d__Bacteria; p__Proteobacteria	NosZ	510	1.0	-73028.5266171881	0.1556657612	0.3087157682	0.5406	1.005
