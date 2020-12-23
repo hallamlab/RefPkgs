@@ -1,9 +1,0 @@
-13/09 16:32:23 INFO:
-description	Methyl coenzyme M reductase alpha subunit
-
-13/09 16:32:23 INFO:
-refpkg_code	M0701
-
-13/09 16:32:23 INFO:
-TreeSAPP has finished successfully.
-

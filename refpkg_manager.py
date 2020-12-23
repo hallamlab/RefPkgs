@@ -12,8 +12,8 @@ from datetime import datetime as dt
 from time import sleep
 
 from treesapp import refpkg as ts_refpkg
-from treesapp.classy import prep_logging
-from treesapp.commands import create
+from treesapp import classy as ts_class
+from treesapp import commands as ts_cmds
 
 _RefPkgPattern = re.compile(r"(\w{2,10})_build.pkl")  # This needs to match ReferencePackage.refpkg_suffix
 
@@ -107,6 +107,12 @@ class RefPkgsTestSuite(unittest.TestCase):
         self.assertEqual(3, len(test_refpkg_list))
         return
 
+    def test_markdown_table(self):
+        markdown_table(pkg_list=[self.mcra_refpkg, self.puha_refpkg, self.xmoa_refpkg], output_file="tmp.md")
+        self.assertTrue(os.path.isfile("tmp.md"))
+        os.remove("tmp.md")
+        return
+
 
 def get_arguments(sys_args):
     parser = argparse.ArgumentParser(description="refpkg_manager.py is a script that allows users to integrate "
@@ -133,6 +139,9 @@ def get_arguments(sys_args):
                         help="Copies the reference packages specified (all by default) to a directory.")
     parser.add_argument("--threads", default=2, type=int,
                         help="Number of threads to use when rebuilding the reference package(s). [ DEFAULT = 2 ]")
+
+    parser.add_argument("--markdown", action="store_true",
+                        help="Updates the table summarizing available reference packages, 'refpkgs.md'")
 
     cg.add_argument("--template", required=False, default=None,
                     help="A template file containing scheduler-specific arguments."
@@ -319,6 +328,31 @@ def keep_basal_refpkg_in_list(refpkg_list) -> int:
         else:
             previous = get_output_dir_root(rp.f__json)
     return num_removed
+
+
+def get_tracked_refpkgs() -> set:
+    temporary_f = "tmp.tracked.txt"
+    os.system("git ls-tree -r master --name-only >{}".format(temporary_f))
+    with open(temporary_f) as git_files:
+        tracked_pkls = set([f.strip() for f in git_files.readlines() if _RefPkgPattern.match(os.path.basename(f))])
+    os.remove(temporary_f)
+    return tracked_pkls
+
+
+def markdown_table(pkg_list: list, output_file: str) -> None:
+    tracked_pkls = get_tracked_refpkgs()
+    markdown_str = "| {} | {} | {} | {} | {} | {} |\n" \
+                   "| -- | -- | -- | -- | -- | -- |\n".format("Name", "Description", "Leaf nodes",
+                                                              "TreeSAPP", "Created", "Path")
+    for refpkg in pkg_list:  # type: ts_refpkg.ReferencePackage
+        if refpkg.f__json not in tracked_pkls:
+            continue
+        markdown_str += "| {} | '{}' | {} | {} | {} | {} |\n".format(refpkg.prefix, refpkg.description, refpkg.num_seqs,
+                                                                     refpkg.ts_version, refpkg.date,
+                                                                     os.path.dirname(refpkg.f__json))
+    with open(output_file, 'w') as out_handler:
+        out_handler.write(markdown_str)
+    return
 
 
 def remove_refpkg_progeny(ref_packages: list) -> list:
@@ -530,7 +564,7 @@ def rebuild_reference_packages(ref_packages: list, output_dir: str, num_threads=
         # Attempt to rebuild
         try:
             # Run treesapp create with each reference package's command
-            create(create_params)
+            ts_cmds.create(create_params)
         except (SystemExit, ValueError, KeyError):
             logging.warning("treesapp create was unable to rebuild '{}'."
                             " The original outputs are being restored.\n".format(refpkg.prefix))
@@ -591,9 +625,9 @@ def manage_refpkgs(sys_args):
     if not os.path.exists(args.output_dir):
         os.mkdir(args.output_dir)
 
-    prep_logging(log_file_name=os.path.join(args.output_dir,
-                                            "log_refpkg_manager_" + dt.now().strftime("%Y-%m-%d") + ".txt"),
-                 verbosity=False)
+    ts_class.prep_logging(log_file=os.path.join(args.output_dir,
+                                                "log_refpkg_manager_" + dt.now().strftime("%Y-%m-%d") + ".txt"),
+                          verbosity=False)
 
     refpkg_pickles = gather_refpkg_pickles()
     ref_packages = instantiate_refpkgs(refpkg_pickles)
@@ -606,6 +640,10 @@ def manage_refpkgs(sys_args):
     logging.info("Reference package pickles found:\n" +
                  "\t" + "\n\t".join([refpkg.prefix + ": " + refpkg.f__json for
                                      refpkg in sorted(ref_packages, key=lambda x: x.prefix)]) + "\n")
+
+    if args.markdown:
+        markdown_table(ref_packages, "refpkgs.tbl")
+        return
 
     if args.list:
         list_refpkgs(ref_packages)
