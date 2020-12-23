@@ -642,7 +642,7 @@ def manage_refpkgs(sys_args):
                                      refpkg in sorted(ref_packages, key=lambda x: x.prefix)]) + "\n")
 
     if args.markdown:
-        markdown_table(ref_packages, "refpkgs.tbl")
+        markdown_table(ref_packages, os.path.join("RefPkgs.wiki", "refpkgs.md"))
         return
 
     if args.list:
