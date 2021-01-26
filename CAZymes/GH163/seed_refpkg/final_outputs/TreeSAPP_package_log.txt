@@ -1,6 +1,6 @@
-23/06 16:15:53 INFO:
-Replacing attribute 'refpkg_code' (currently 'Z1111')
+23/06 16:47:44 INFO:
+cmd	treesapp create -b 0 --fast -n 4 --cluster -m prot --headless --overwrite --trim_align --outdet_align --delete --screen Bacteria,Archaea --min_taxonomic_rank p -i CAZymes/GH163/GH163_cazy.fasta --guarantee CAZymes/GH163/GH163_characterized_cazy.fasta -c GH163 -p 0.95 -o CAZymes/GH163/seed_refpkg/ -a CAZymes/GH163/GH163_cazy_accession_id_lineage_map.tsv
 
-23/06 16:15:53 INFO:
+23/06 16:47:44 INFO:
 TreeSAPP has finished successfully.
 
