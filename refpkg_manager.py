@@ -36,10 +36,10 @@ class RefPkgsTestSuite(unittest.TestCase):
             shutil.rmtree(self.tmp_dir_path)
 
         # Load the McrA and PuhA reference packages
-        self.mcra_refpkg.f__json = self.mcra_pickle
-        self.puha_refpkg.f__json = self.puha_pickle
-        self.xmoa_refpkg.f__json = self.xmoa_pickle
-        self.updated_refpkg.f__json = self.updated_pickle
+        self.mcra_refpkg.f__pkl = self.mcra_pickle
+        self.puha_refpkg.f__pkl = self.puha_pickle
+        self.xmoa_refpkg.f__pkl = self.xmoa_pickle
+        self.updated_refpkg.f__pkl = self.updated_pickle
         self.mcra_refpkg.slurp()
         self.puha_refpkg.slurp()
         self.xmoa_refpkg.slurp()
@@ -175,14 +175,14 @@ def instantiate_refpkgs(refpkg_files: list) -> list:
     logging.info("Instantiating reference packages... ")
     for refpkg_json in refpkg_files:
         refpkg = ts_refpkg.ReferencePackage()
-        refpkg.f__json = refpkg_json
+        refpkg.f__pkl = refpkg_json
         try:
             refpkg.slurp()
             if not refpkg.validate():
                 continue
             ref_packages.append(refpkg)
         except (IndexError, KeyError, AttributeError, TypeError):
-            logging.warning("Unable to load reference package %s. Skipping.\n" % refpkg.f__json)
+            logging.warning("Unable to load reference package %s. Skipping.\n" % refpkg.f__pkl)
     logging.info("done.\n")
 
     return ref_packages
@@ -280,12 +280,12 @@ def filter_by_build_command(ref_packages: list) -> None:
         refpkg = ref_packages[i]
         if not refpkg.cmd:
             logging.warning("treesapp create command missing in RefPkg '{}' so it will be removed.\n"
-                            "".format(refpkg.f__json))
+                            "".format(refpkg.f__pkl))
             ref_packages.pop(i)
         # Parse the treesapp create command from each reference package
         elif not check_create_inputs(refpkg.cmd.split()):
             logging.warning("Input files required to build RefPkg '{}' were not found so it will be removed.\n"
-                            "".format(refpkg.f__json))
+                            "".format(refpkg.f__pkl))
             ref_packages.pop(i)
         else:
             i += 1
@@ -320,13 +320,13 @@ def keep_basal_refpkg_in_list(refpkg_list) -> int:
     """
     num_removed = 0
     previous = ""
-    for rp in sorted(refpkg_list, key=lambda x: len(x.f__json)):  # type: ts_refpkg.ReferencePackage
-        if get_output_dir_root(rp.f__json) == previous:
-            logging.debug("RefPkg '{}' dumped because it is a subdirectory of another.\n".format(rp.f__json))
+    for rp in sorted(refpkg_list, key=lambda x: len(x.f__pkl)):  # type: ts_refpkg.ReferencePackage
+        if get_output_dir_root(rp.f__pkl) == previous:
+            logging.debug("RefPkg '{}' dumped because it is a subdirectory of another.\n".format(rp.f__pkl))
             refpkg_list.remove(rp)
             num_removed += 1
         else:
-            previous = get_output_dir_root(rp.f__json)
+            previous = get_output_dir_root(rp.f__pkl)
     return num_removed
 
 
@@ -341,17 +341,32 @@ def get_tracked_refpkgs() -> set:
 
 def markdown_table(pkg_list: list, output_file: str) -> None:
     tracked_pkls = get_tracked_refpkgs()
+    url_prefix = "https://github.com/hallamlab/RefPkgs/blob/master/"
     markdown_str = "| {} | {} | {} | {} | {} | {} |\n" \
                    "| -- | -- | -- | -- | -- | -- |\n".format("Name", "Description", "Leaf nodes",
                                                               "TreeSAPP", "Created", "Path")
     for refpkg in pkg_list:  # type: ts_refpkg.ReferencePackage
-        if refpkg.f__json not in tracked_pkls:
+        if refpkg.f__pkl not in tracked_pkls:
             continue
-        markdown_str += "| {} | '{}' | {} | {} | {} | {} |\n".format(refpkg.prefix, refpkg.description, refpkg.num_seqs,
-                                                                     refpkg.ts_version, refpkg.date,
-                                                                     os.path.dirname(refpkg.f__json))
+        markdown_str += "| [{}]({}) | '{}' | {} | {} | {} | {} |\n".format(refpkg.prefix,
+                                                                           url_prefix + os.path.dirname(refpkg.f__pkl),
+                                                                           refpkg.description, refpkg.num_seqs,
+                                                                           refpkg.ts_version, refpkg.date,
+                                                                           os.path.dirname(refpkg.f__pkl))
     with open(output_file, 'w') as out_handler:
         out_handler.write(markdown_str)
+
+    # with open("refpkgs.tsv", 'w') as tmp_h:
+    #     table_str = "\t".join(["Name", "Description", "Leaf nodes", "Pathway"]) + "\n"
+    #     for refpkg in pkg_list:  # type: ts_refpkg.ReferencePackage
+    #         if refpkg.f__pkl not in tracked_pkls:
+    #             continue
+    #         table_str += "\t".join(["[{}]({})".format(refpkg.prefix, url_prefix + os.path.dirname(refpkg.f__pkl)),
+    #                                 refpkg.description,
+    #                                 str(refpkg.num_seqs),
+    #                                 '']) + "\n"
+    #     tmp_h.write(table_str)
+
     return
 
 
@@ -405,7 +420,7 @@ def refpkg_updated(refpkg: ts_refpkg.ReferencePackage) -> bool:
     :return: True if the ReferencePackage was created using `treesapp update` and False otherwise
     """
     if not refpkg.cmd:
-        logging.error("Command attribute empty for RefPkg '{}'.\n".format(refpkg.f__json))
+        logging.error("Command attribute empty for RefPkg '{}'.\n".format(refpkg.f__pkl))
         raise AssertionError
 
     if refpkg.update:
@@ -496,7 +511,7 @@ def preserve_pickled_things(refpkg: ts_refpkg.ReferencePackage, replacement_refp
     for attr in preserved_attributes:
         preserved_attributes[attr] = refpkg.__dict__[attr]
 
-    refpkg.f__json = replacement_refpkg
+    refpkg.f__pkl = replacement_refpkg
     refpkg.slurp()
 
     # Swap the default refpkg attributes with the preserved values
@@ -521,7 +536,7 @@ def rebuild_reference_packages(ref_packages: list, output_dir: str, num_threads=
     """
     for refpkg in ref_packages:  # type: ts_refpkg.ReferencePackage
         if refpkg_updated(refpkg):
-            logging.info("Skipping rebuild of updated RefPkg '{}'.\n".format(refpkg.f__json))
+            logging.info("Skipping rebuild of updated RefPkg '{}'.\n".format(refpkg.f__pkl))
             continue
 
         # Parse the treesapp create command from each reference package
@@ -607,7 +622,7 @@ def copy_refpkg_files_to_treesapp(ref_packages: list, refpkg_repository: str) ->
     This function facilitates copying, without the user have to find the paths and copy everything - they just need to
     provide the ReferencePackage.prefix values for the reference packages they want to copy.
 
-    :param ref_packages: A list of ReferencePackage instances with f__json attributes
+    :param ref_packages: A list of ReferencePackage instances with f__pkl attributes
     :param refpkg_repository: Path to a directory where the reference packages are to be copied.
      All instances in ref_packages will be copied.
     :return: None
@@ -616,7 +631,7 @@ def copy_refpkg_files_to_treesapp(ref_packages: list, refpkg_repository: str) ->
     validate_treesapp_refpkg_dir(refpkg_repository)
 
     for refpkg in ref_packages:  # type: ts_refpkg.ReferencePackage
-        shutil.copy(refpkg.f__json, refpkg_repository)
+        shutil.copy(refpkg.f__pkl, refpkg_repository)
     return
 
 
@@ -638,7 +653,7 @@ def manage_refpkgs(sys_args):
     ref_packages = remove_refpkg_progeny(ref_packages)
 
     logging.info("Reference package pickles found:\n" +
-                 "\t" + "\n\t".join([refpkg.prefix + ": " + refpkg.f__json for
+                 "\t" + "\n\t".join([refpkg.prefix + ": " + refpkg.f__pkl for
                                      refpkg in sorted(ref_packages, key=lambda x: x.prefix)]) + "\n")
 
     if args.markdown:
