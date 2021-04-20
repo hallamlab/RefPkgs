@@ -1,0 +1,1201 @@
+TREE_COLORS
+SEPARATOR TAB
+DATA
+2105_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+193_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+2121_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+241_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+1841_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+2341_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+2516_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+1287_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+369_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+2317_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+3274_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+2395_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+1667_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+541_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+1377_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+1916_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+422_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+613_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+383_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+357_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+2223_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+1693_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+252_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+2023_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+852_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+1686_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+2851_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+2552_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+1860_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+1081_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+722_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+2029_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+2446_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+954_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+331_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+1662_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+1802_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+1353_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+2999_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+2093_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+266_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+2071_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+684_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+1065_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+1174_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+2200_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+2466_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+2776_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+382_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+3204_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+2292_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+1770_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+377_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+2074_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+2202_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+2695_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+3337_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+3186_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+1435_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+2408_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+1422_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+1648_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+1328_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+1808_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+1403_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+493_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+2414_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+2422_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+2472_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+2310_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+352_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+1961_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+1872_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+365_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+1900_Aldedh	range	#874e0a	phenylacetic acid degradation protein paaN
+27_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+1584_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+33_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+1489_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+1594_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+3033_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+3159_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+91_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+417_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+3042_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+61_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+1494_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+1521_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+3320_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+6_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+2966_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+1476_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+1559_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+95_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+1483_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+1498_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+30_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+45_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+1572_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+3334_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+3022_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+2956_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+3108_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+1563_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+1454_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+1450_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+3302_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+1473_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+57_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+1603_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+1589_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+1570_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+3007_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+1544_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+2931_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+69_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+15_Aldedh	range	#b57826	succinylglutamate-semialdehyde dehydrogenase
+3169_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1627_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+134_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1409_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+109_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+594_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+3124_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2605_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1393_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+965_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2813_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1721_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1539_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+55_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1782_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+747_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1351_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1552_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2364_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1462_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+3044_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2539_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1362_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+100_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+111_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1984_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2517_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+491_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+3317_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1416_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2767_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+429_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1709_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+372_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2531_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1533_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2338_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2927_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2812_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2922_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+468_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+201_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2625_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1797_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2569_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+477_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1595_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+3140_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+470_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+165_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2078_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1445_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+192_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+443_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+559_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+11_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1466_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2713_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1704_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+359_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+184_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1543_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1951_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+87_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1275_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2697_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+3357_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2631_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1499_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1759_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1870_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2742_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2195_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+277_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2975_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+3_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1303_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+3182_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2643_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2822_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2607_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+518_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1909_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+918_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+3411_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2498_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1699_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+47_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2756_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2988_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2283_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2591_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+82_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1564_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1949_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1591_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2161_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+20_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+103_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2226_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1565_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+3399_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+351_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2824_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+585_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2788_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1577_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1326_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+554_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+509_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+609_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1522_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1271_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+158_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2792_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+3245_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+3219_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2534_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1618_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+584_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+708_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1374_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2852_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2616_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+119_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1633_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+3382_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+3270_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2187_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+21_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1642_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+963_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+539_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2371_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1602_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1625_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+488_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+378_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2620_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+556_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+211_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+632_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2796_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+2846_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+210_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+113_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1583_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+3179_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1314_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+198_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+1844_Aldedh	range	#d6af65	methylmalonate-semialdehyde dehydrogenase (acylating)
+751_Aldedh	range	#eedbaa	putative phosphonoacetaldehyde dehydrogenase
+1849_Aldedh	range	#eedbaa	putative phosphonoacetaldehyde dehydrogenase
+1785_Aldedh	range	#eedbaa	putative phosphonoacetaldehyde dehydrogenase
+2299_Aldedh	range	#eedbaa	putative phosphonoacetaldehyde dehydrogenase
+323_Aldedh	range	#eedbaa	putative phosphonoacetaldehyde dehydrogenase
+836_Aldedh	range	#eedbaa	putative phosphonoacetaldehyde dehydrogenase
+247_Aldedh	range	#eedbaa	putative phosphonoacetaldehyde dehydrogenase
+283_Aldedh	range	#eedbaa	putative phosphonoacetaldehyde dehydrogenase
+2140_Aldedh	range	#eedbaa	putative phosphonoacetaldehyde dehydrogenase
+410_Aldedh	range	#eedbaa	putative phosphonoacetaldehyde dehydrogenase
+2730_Aldedh	range	#eedbaa	putative phosphonoacetaldehyde dehydrogenase
+2109_Aldedh	range	#eedbaa	putative phosphonoacetaldehyde dehydrogenase
+3379_Aldedh	range	#eedbaa	putative phosphonoacetaldehyde dehydrogenase
+2751_Aldedh	range	#eedbaa	putative phosphonoacetaldehyde dehydrogenase
+1531_Aldedh	range	#eedbaa	putative phosphonoacetaldehyde dehydrogenase
+1612_Aldedh	range	#eedbaa	putative phosphonoacetaldehyde dehydrogenase
+147_Aldedh	range	#eedbaa	putative phosphonoacetaldehyde dehydrogenase
+229_Aldedh	range	#eedbaa	putative phosphonoacetaldehyde dehydrogenase
+1716_Aldedh	range	#eedbaa	putative phosphonoacetaldehyde dehydrogenase
+1229_Aldedh	range	#eedbaa	putative phosphonoacetaldehyde dehydrogenase
+2858_Aldedh	range	#eedbaa	putative phosphonoacetaldehyde dehydrogenase
+1293_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+819_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+702_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2150_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2303_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+278_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2994_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1327_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1805_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+658_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1107_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3116_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1371_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+882_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+642_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3144_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+162_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2031_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1862_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2795_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1191_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1966_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2220_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+985_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1614_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1151_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1178_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1098_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1746_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3088_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1819_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1807_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1930_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1469_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1955_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2707_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+557_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2740_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1740_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1619_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1168_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+267_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2759_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2638_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2339_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+10_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+328_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1922_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1623_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2794_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2033_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2084_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2782_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1925_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2935_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1170_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+203_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+37_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3172_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2180_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1376_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2173_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3023_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+504_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+521_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1309_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+368_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2156_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1650_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1124_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3149_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+898_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+456_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2450_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3220_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1329_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1417_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1989_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1256_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+364_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+362_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1063_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+830_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1194_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+736_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1016_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+242_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2325_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1378_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1117_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1343_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1363_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1153_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2600_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1561_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1022_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+718_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1865_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+212_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+224_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2250_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2748_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2948_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2780_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2057_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+271_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+12_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2357_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+616_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1460_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2080_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1348_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1962_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1748_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+354_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2716_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+273_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+332_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1306_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+681_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1389_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1231_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2117_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1037_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3330_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+770_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2660_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1932_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2770_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2050_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1212_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+623_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+337_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1279_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2916_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1342_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+104_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+901_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1410_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1123_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+548_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2461_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1060_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+191_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2871_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3230_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2351_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2042_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2000_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+787_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+618_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+582_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1958_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+510_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2962_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2880_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1672_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2558_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+409_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+299_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+778_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2764_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1414_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+182_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1020_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3029_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2598_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+997_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3093_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+440_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2224_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+344_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+622_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1390_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+438_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1361_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1232_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1720_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+471_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3408_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1790_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2830_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+987_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+476_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+486_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1664_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2700_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+600_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1948_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+843_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1162_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1911_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+958_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+983_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1580_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2102_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2674_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2421_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2116_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2775_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2597_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2637_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2107_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2693_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1776_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2875_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+941_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3135_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+18_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2854_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+160_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2353_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+793_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+990_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+391_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+750_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2635_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3089_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1185_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2320_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2793_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1861_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+516_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+231_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2496_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1987_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1574_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2520_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1083_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1921_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2738_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1247_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2192_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+989_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1230_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+133_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1097_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+695_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+908_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+67_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1527_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+411_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1513_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1269_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1697_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1732_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3383_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1397_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2992_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2734_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3362_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+759_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2823_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1685_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2720_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+449_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2145_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2266_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+749_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2850_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+801_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1630_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1715_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2529_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1202_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+545_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1041_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+76_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1518_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1585_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1228_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+868_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2368_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1294_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1547_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1260_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+914_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+188_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1015_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1556_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+442_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+343_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1970_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+75_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1997_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+757_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3396_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2925_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+386_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3178_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2803_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+920_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2617_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+508_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2777_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1941_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2334_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+479_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2196_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+790_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1310_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+653_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+972_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2452_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+209_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+163_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3194_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1254_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3168_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1910_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1430_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1882_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2502_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+700_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1126_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3359_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2016_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+124_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+949_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1215_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2193_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2474_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1251_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+671_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3092_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+998_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+774_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2540_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2387_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2186_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1419_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2624_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1218_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2842_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2149_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1051_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1407_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+202_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+633_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1315_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2268_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+23_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+647_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3225_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+170_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+860_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1386_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2856_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2402_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3134_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1205_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2698_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1917_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1001_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1220_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+495_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+275_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2037_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1138_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1536_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1239_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3298_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+228_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1415_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2825_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1281_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1100_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2806_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2129_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1291_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1188_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2677_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1457_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+650_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+568_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1745_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+969_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+888_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3314_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+467_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2445_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1401_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+235_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+773_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2557_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+428_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2350_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+763_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2833_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1099_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1118_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+572_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2510_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1046_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3341_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1172_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3000_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+389_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3352_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1199_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3287_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1360_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2575_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1006_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+381_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3142_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1411_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1183_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1323_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+115_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+402_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1696_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2210_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+717_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+795_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2817_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3394_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+805_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2059_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1890_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3315_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1892_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+670_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+358_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2291_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2365_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+558_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+846_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+666_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1373_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3214_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2574_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2724_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3358_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2612_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2205_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1780_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1898_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1470_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1523_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+144_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+896_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+322_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1549_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1893_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3059_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3076_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+803_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+219_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+197_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+693_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+425_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1553_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3183_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1671_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+796_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1105_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+154_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1606_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+555_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+766_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+24_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1288_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3032_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+549_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+641_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+406_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2758_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2747_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+687_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1903_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2861_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+256_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2928_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+475_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+200_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2455_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2061_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+956_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1424_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+116_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+660_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3353_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+593_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2685_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+42_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+220_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2431_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1942_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2311_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1206_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+120_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2284_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+945_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1391_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+992_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1530_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+829_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+387_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+875_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+393_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1440_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2297_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+861_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2489_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+703_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+503_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2001_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1632_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+48_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+993_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3158_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+234_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1062_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2344_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2126_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+583_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2152_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1263_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+514_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1983_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2536_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+900_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2058_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2729_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3171_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2101_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1760_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1283_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2682_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+970_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1768_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3286_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2404_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1936_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2650_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+269_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3081_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2649_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2228_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1883_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+205_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2568_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2595_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1010_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+132_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1070_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1803_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+190_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+118_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2860_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+414_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1061_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1057_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2388_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3071_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1793_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+669_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1515_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+527_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1879_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+606_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2914_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2894_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1607_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3073_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1887_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1243_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1703_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2655_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3325_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+917_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1725_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3163_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1193_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1036_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1394_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+373_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1471_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2644_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+928_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+838_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3243_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2261_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+712_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+857_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2241_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2232_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1167_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+213_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2951_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1338_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2177_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+776_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+961_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1628_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1074_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+672_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1976_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3156_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+1400_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+767_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3041_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2940_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+574_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2848_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2993_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+99_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2068_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+2708_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+634_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+435_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+496_Aldedh	range	#f5efde	succinate-semialdehyde dehydrogenase
+3060_Aldedh	range	#e0f0ee	aldehyde dehydrogenase, Rv0768 family
+2982_Aldedh	range	#e0f0ee	aldehyde dehydrogenase, Rv0768 family
+3267_Aldedh	range	#e0f0ee	aldehyde dehydrogenase, Rv0768 family
+3268_Aldedh	range	#e0f0ee	aldehyde dehydrogenase, Rv0768 family
+1493_Aldedh	range	#e0f0ee	aldehyde dehydrogenase, Rv0768 family
+3025_Aldedh	range	#e0f0ee	aldehyde dehydrogenase, Rv0768 family
+3021_Aldedh	range	#e0f0ee	aldehyde dehydrogenase, Rv0768 family
+420_Aldedh	range	#e0f0ee	aldehyde dehydrogenase, Rv0768 family
+2959_Aldedh	range	#e0f0ee	aldehyde dehydrogenase, Rv0768 family
+3367_Aldedh	range	#e0f0ee	aldehyde dehydrogenase, Rv0768 family
+3067_Aldedh	range	#e0f0ee	aldehyde dehydrogenase, Rv0768 family
+3065_Aldedh	range	#e0f0ee	aldehyde dehydrogenase, Rv0768 family
+1495_Aldedh	range	#e0f0ee	aldehyde dehydrogenase, Rv0768 family
+3110_Aldedh	range	#e0f0ee	aldehyde dehydrogenase, Rv0768 family
+2984_Aldedh	range	#e0f0ee	aldehyde dehydrogenase, Rv0768 family
+3004_Aldedh	range	#e0f0ee	aldehyde dehydrogenase, Rv0768 family
+3122_Aldedh	range	#e0f0ee	aldehyde dehydrogenase, Rv0768 family
+3148_Aldedh	range	#e0f0ee	aldehyde dehydrogenase, Rv0768 family
+2715_Aldedh	range	#aee0d8	1-pyrroline dehydrogenase
+461_Aldedh	range	#aee0d8	1-pyrroline dehydrogenase
+1121_Aldedh	range	#aee0d8	1-pyrroline dehydrogenase
+1986_Aldedh	range	#aee0d8	1-pyrroline dehydrogenase
+1646_Aldedh	range	#aee0d8	1-pyrroline dehydrogenase
+2603_Aldedh	range	#aee0d8	1-pyrroline dehydrogenase
+2537_Aldedh	range	#aee0d8	1-pyrroline dehydrogenase
+2518_Aldedh	range	#aee0d8	1-pyrroline dehydrogenase
+2459_Aldedh	range	#aee0d8	1-pyrroline dehydrogenase
+894_Aldedh	range	#aee0d8	1-pyrroline dehydrogenase
+2406_Aldedh	range	#aee0d8	1-pyrroline dehydrogenase
+1661_Aldedh	range	#aee0d8	1-pyrroline dehydrogenase
+2267_Aldedh	range	#aee0d8	1-pyrroline dehydrogenase
+839_Aldedh	range	#aee0d8	1-pyrroline dehydrogenase
+959_Aldedh	range	#aee0d8	1-pyrroline dehydrogenase
+727_Aldedh	range	#aee0d8	1-pyrroline dehydrogenase
+2849_Aldedh	range	#aee0d8	1-pyrroline dehydrogenase
+436_Aldedh	range	#aee0d8	1-pyrroline dehydrogenase
+696_Aldedh	range	#aee0d8	1-pyrroline dehydrogenase
+529_Aldedh	range	#aee0d8	1-pyrroline dehydrogenase
+586_Aldedh	range	#aee0d8	1-pyrroline dehydrogenase
+1943_Aldedh	range	#aee0d8	1-pyrroline dehydrogenase
+1017_Aldedh	range	#aee0d8	1-pyrroline dehydrogenase
+2619_Aldedh	range	#aee0d8	1-pyrroline dehydrogenase
+775_Aldedh	range	#aee0d8	1-pyrroline dehydrogenase
+1387_Aldedh	range	#aee0d8	1-pyrroline dehydrogenase
+2639_Aldedh	range	#aee0d8	1-pyrroline dehydrogenase
+1535_Aldedh	range	#aee0d8	1-pyrroline dehydrogenase
+2567_Aldedh	range	#aee0d8	1-pyrroline dehydrogenase
+437_Aldedh	range	#aee0d8	1-pyrroline dehydrogenase
+1617_Aldedh	range	#aee0d8	1-pyrroline dehydrogenase
+2968_Aldedh	range	#aee0d8	1-pyrroline dehydrogenase
+1843_Aldedh	range	#aee0d8	1-pyrroline dehydrogenase
+2119_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1944_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2476_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1895_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2329_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1244_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1791_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+218_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2139_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1280_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1919_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2254_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2666_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2142_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2733_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+968_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+346_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1950_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+855_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2572_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1957_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1952_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1931_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2542_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1302_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1134_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2488_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1355_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2479_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1781_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1914_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2433_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1832_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2259_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1810_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2178_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2467_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1032_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1266_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2760_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+841_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1866_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1878_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2394_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2233_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+690_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2294_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1728_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1851_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2755_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2511_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1669_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2818_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2209_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2069_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+948_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2296_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1532_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2486_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1734_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1800_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2230_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1798_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2113_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2717_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2410_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+125_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+614_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+390_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1028_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+637_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1877_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1656_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1308_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2172_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+465_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2495_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2146_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+665_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2027_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1980_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+878_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+821_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2678_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2285_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1827_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1645_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+605_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1545_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1756_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2342_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1086_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1341_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1959_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1901_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1777_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1906_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+619_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2613_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+740_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1240_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+474_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1381_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2471_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+785_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1710_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2231_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1285_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+567_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1209_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2221_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2137_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2473_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2360_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2535_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2448_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1264_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2766_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2216_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1852_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+726_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1722_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1711_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2229_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2026_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2427_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1475_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+395_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1654_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+865_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2836_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1864_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1042_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2546_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1482_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2313_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1753_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1825_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2337_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2158_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+856_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+728_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+662_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1684_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1886_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+445_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+141_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2171_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1811_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+454_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2611_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1678_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+761_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1320_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+707_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2099_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1701_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1749_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+625_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2321_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2157_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2316_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2085_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2130_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2122_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2820_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2434_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2385_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+129_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+688_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1395_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1135_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+991_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2206_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2243_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2199_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1234_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2419_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+3201_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2066_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+974_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1979_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1912_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1738_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2454_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2399_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+460_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+831_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2441_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1769_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2548_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1889_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2381_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2181_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+2512_Aldedh	range	#6abdb2	betaine-aldehyde dehydrogenase (BetB)
+1278_Aldedh	range	#2b8d85	2-hydroxymuconic semialdehyde dehydrogenase
+858_Aldedh	range	#2b8d85	2-hydroxymuconic semialdehyde dehydrogenase
+177_Aldedh	range	#2b8d85	2-hydroxymuconic semialdehyde dehydrogenase
+166_Aldedh	range	#2b8d85	2-hydroxymuconic semialdehyde dehydrogenase
+3374_Aldedh	range	#2b8d85	2-hydroxymuconic semialdehyde dehydrogenase
+3096_Aldedh	range	#2b8d85	2-hydroxymuconic semialdehyde dehydrogenase
+3030_Aldedh	range	#2b8d85	2-hydroxymuconic semialdehyde dehydrogenase
+851_Aldedh	range	#2b8d85	2-hydroxymuconic semialdehyde dehydrogenase
+3215_Aldedh	range	#2b8d85	2-hydroxymuconic semialdehyde dehydrogenase
+349_Aldedh	range	#2b8d85	2-hydroxymuconic semialdehyde dehydrogenase
+2525_Aldedh	range	#2b8d85	2-hydroxymuconic semialdehyde dehydrogenase
+3355_Aldedh	range	#2b8d85	2-hydroxymuconic semialdehyde dehydrogenase
+1432_Aldedh	range	#2b8d85	2-hydroxymuconic semialdehyde dehydrogenase
+1653_Aldedh	range	#2b8d85	2-hydroxymuconic semialdehyde dehydrogenase
+2977_Aldedh	range	#2b8d85	2-hydroxymuconic semialdehyde dehydrogenase
+3386_Aldedh	range	#2b8d85	2-hydroxymuconic semialdehyde dehydrogenase
+2732_Aldedh	range	#2b8d85	2-hydroxymuconic semialdehyde dehydrogenase
+1665_Aldedh	range	#2b8d85	2-hydroxymuconic semialdehyde dehydrogenase
+922_Aldedh	range	#2b8d85	2-hydroxymuconic semialdehyde dehydrogenase
+3272_Aldedh	range	#2b8d85	2-hydroxymuconic semialdehyde dehydrogenase
+2298_Aldedh	range	#016259	5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase
+2440_Aldedh	range	#016259	5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase
+615_Aldedh	range	#016259	5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase
+2104_Aldedh	range	#016259	5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase
+2167_Aldedh	range	#016259	5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase
+2499_Aldedh	range	#016259	5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase
+2370_Aldedh	range	#016259	5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase
+2125_Aldedh	range	#016259	5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase
+2245_Aldedh	range	#016259	5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase
+226_Aldedh	range	#016259	5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase
+651_Aldedh	range	#016259	5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase
+2596_Aldedh	range	#016259	5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase
+379_Aldedh	range	#016259	5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase
+2258_Aldedh	range	#016259	5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase
+2082_Aldedh	range	#016259	5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase
+2135_Aldedh	range	#016259	5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase
+806_Aldedh	range	#016259	5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase
+3361_Aldedh	range	#016259	5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase
+3410_Aldedh	range	#016259	5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase
+595_Aldedh	range	#016259	5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase
+329_Aldedh	range	#016259	5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase
+313_Aldedh	range	#016259	5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase
+1655_Aldedh	range	#016259	5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase
+2456_Aldedh	range	#016259	5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase
+2096_Aldedh	range	#016259	5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase
+2949_Aldedh	range	#016259	5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase
+2932_Aldedh	range	#016259	5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase
+3103_Aldedh	range	#016259	5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase
+2308_Aldedh	range	#016259	5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase
+1766_Aldedh	range	#016259	5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase

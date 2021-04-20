@@ -1,0 +1,18 @@
+DATASET_COLORSTRIP
+SEPARATOR SPACE
+DATASET_LABEL clade_colours
+STRIP_WIDTH 75
+MARGIN 0
+SHOW_INTERNAL 1
+DATA
+2074_Aldedh|2851_Aldedh #874e0a phenylacetic acid degradation protein paaN
+1544_Aldedh|1603_Aldedh #b57826 succinylglutamate-semialdehyde dehydrogenase
+584_Aldedh|210_Aldedh #d6af65 methylmalonate-semialdehyde dehydrogenase (acylating)
+283_Aldedh|1785_Aldedh #eedbaa putative phosphonoacetaldehyde dehydrogenase
+1997_Aldedh|2520_Aldedh #f5efde succinate-semialdehyde dehydrogenase
+2959_Aldedh|1495_Aldedh #e0f0ee aldehyde dehydrogenase, Rv0768 family
+959_Aldedh|2715_Aldedh #aee0d8 1-pyrroline dehydrogenase
+2760_Aldedh|1302_Aldedh #6abdb2 betaine-aldehyde dehydrogenase (BetB)
+460_Aldedh|1800_Aldedh #6abdb2 betaine-aldehyde dehydrogenase (BetB)
+1665_Aldedh|2732_Aldedh #2b8d85 2-hydroxymuconic semialdehyde dehydrogenase
+329_Aldedh|595_Aldedh #016259 5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase

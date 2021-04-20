@@ -1,0 +1,30 @@
+20/04 12:41:15 INFO:
+
+##			Painting a phylogeny			##
+
+20/04 12:41:15 INFO:
+Arguments used:
+-n Paralog -o Ambiguous/Aldedh/seed_refpkg/ -r Ambiguous/Aldedh/seed_refpkg/final_outputs/Aldedh_build.pkl
+
+20/04 12:41:15 DEBUG:
+	Generating colour palette for reference package(s): Aldedh.
+
+20/04 12:41:15 DEBUG:
+Identified 10 unique clades for 'Paralog'.
+
+20/04 12:41:15 INFO:
+Using palette 'BrBG' for styling.
+
+20/04 12:41:16 INFO:
+Output is available in /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/Aldedh/seed_refpkg/Aldedh_Paralog_colours_style.txt.
+
+20/04 12:41:16 DEBUG:
+0 lineages were not assigned to a colour:
+	
+
+20/04 12:41:16 INFO:
+Output is available in /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Ambiguous/Aldedh/seed_refpkg/Aldedh_Paralog_colour_strip.txt.
+
+20/04 12:41:16 INFO:
+TreeSAPP has finished successfully.
+
