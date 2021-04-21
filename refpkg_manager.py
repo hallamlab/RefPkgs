@@ -345,27 +345,17 @@ def markdown_table(pkg_list: list, output_file: str) -> None:
     markdown_str = "| {} | {} | {} | {} | {} | {} |\n" \
                    "| -- | -- | -- | -- | -- | -- |\n".format("Name", "Description", "Leaf nodes",
                                                               "TreeSAPP", "Created", "Path")
-    for refpkg in pkg_list:  # type: ts_refpkg.ReferencePackage
-        if refpkg.f__pkl not in tracked_pkls:
+    for ref_pkg in sorted(pkg_list, key=lambda x: os.path.dirname(x.f__pkl)):  # type: ts_refpkg.ReferencePackage
+        if ref_pkg.f__pkl not in tracked_pkls:
             continue
-        markdown_str += "| [{}]({}) | '{}' | {} | {} | {} | {} |\n".format(refpkg.prefix,
-                                                                           url_prefix + os.path.dirname(refpkg.f__pkl),
-                                                                           refpkg.description, refpkg.num_seqs,
-                                                                           refpkg.ts_version, refpkg.date,
-                                                                           os.path.dirname(refpkg.f__pkl))
+        markdown_str += "| [{}]({}) | '{}' | {} | {} | {} | {} |\n".format(ref_pkg.prefix,
+                                                                           url_prefix + os.path.dirname(ref_pkg.f__pkl),
+                                                                           re.sub(r'\|', ';', ref_pkg.description),
+                                                                           ref_pkg.num_seqs,
+                                                                           ref_pkg.ts_version, ref_pkg.date,
+                                                                           os.path.dirname(ref_pkg.f__pkl))
     with open(output_file, 'w') as out_handler:
         out_handler.write(markdown_str)
-
-    # with open("refpkgs.tsv", 'w') as tmp_h:
-    #     table_str = "\t".join(["Name", "Description", "Leaf nodes", "Pathway"]) + "\n"
-    #     for refpkg in pkg_list:  # type: ts_refpkg.ReferencePackage
-    #         if refpkg.f__pkl not in tracked_pkls:
-    #             continue
-    #         table_str += "\t".join(["[{}]({})".format(refpkg.prefix, url_prefix + os.path.dirname(refpkg.f__pkl)),
-    #                                 refpkg.description,
-    #                                 str(refpkg.num_seqs),
-    #                                 '']) + "\n"
-    #     tmp_h.write(table_str)
 
     return
 
