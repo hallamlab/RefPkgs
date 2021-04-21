@@ -2,7 +2,7 @@
 -------------------------MF---N-SYTDN--TLEYYPDKCVGCGMCWNVCPH
 AVF----GQEERKSTNLLMKAKTVAKLERKEACMECGACQLNCPSGAIKVQS--GVGCAA
 AMIRAALTGGPEVCG-----------------------------DGG-------------
----C-CGSSTTEQSC-----GCGEKK-
+---C-CGSSTTEQSC-----GCGEK-K
 >2_HgcB
 -------------------------MF---N-SYKVN--TLKFDPEECTGCGMCTKVCPH
 AVF----AYQD-----------KKVVLANKEACMECGACFLNCPTTAIEVES--GVGCAA
@@ -427,7 +427,7 @@ AILYGWLSRVPLLRRVVA--------------------------PDA-------------
 -------------------------ME---HYRYIPGVVSLNFDEEACTGCGLCVDVCPH
 RVF----EMIN-----------GKARLRDRDGCVECGACAKNCEGRAIRVDP--GVGCAV
 CVIKSWLWSMGLRVS-----------------------------RPS-------------
----C---------------------R-
+---C----------------------R
 >87_HgcB
 -------------------------MK---DFRYIDGVSSLALDTDKCVGCGSCVDVCPH
 RIL----AVRE-----------RKTTILDFDACMECGACARNCPVEAITVTP--GTGCAA
@@ -597,7 +597,7 @@ AVINSALGRKGDSCCSL---------------------------DSG-------------
 -------------------------MQ---SMVYLKDVVTLAHKPEMCNGCGICLTVCPR
 RVL----RRSN-----------GKVEVAQRDACIECGACQRNCPQGAVTVRT--GVGCAS
 ALINQMLGRKKA------------------------------------------------
----C-CVADDAPGKT----IASNTAR-
+---C-CVADDAPGKT----IASNTA-R
 >121_HgcB
 -------------------------ME---SFRYLSGVTTLQLDPEACVGCGMCENVCPH
 GVF----LLEG-----------KKAVVRDIDGCMECGACALNCPTDAIHVTP--GVGCAS
