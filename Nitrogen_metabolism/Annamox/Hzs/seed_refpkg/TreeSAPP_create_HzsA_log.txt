@@ -1,0 +1,732 @@
+21/04 11:17:31 INFO:
+
+##			Creating TreeSAPP reference package			##
+
+21/04 11:17:31 INFO:
+Arguments used:
+-i Nitrogen_metabolism/Annamox/Hzs/HzsA_seed.faa -c HzsA -o Nitrogen_metabolism/Annamox/Hzs/seed_refpkg -n 4 --trim_align --profile Nitrogen_metabolism/Annamox/Hzs/HZS_alpha.hmm --seqs2lineage Nitrogen_metabolism/Annamox/Hzs/Hzs_seq_lineage_map.tsv --cluster --similarity 0.97 --overwrite --headless --fast --delete
+
+21/04 11:17:31 DEBUG:
+Sequences appear to be 'prot'.
+
+21/04 11:17:31 DEBUG:
+Continuing with stage 'search'
+
+21/04 11:17:31 DEBUG:
+Nitrogen_metabolism/Annamox/Hzs/HzsA_seed.faa read by pyfastx in 0.0004754066467285156 seconds.
+
+21/04 11:17:31 DEBUG:
+Read 83 headers from FASTA file 'Nitrogen_metabolism/Annamox/Hzs/HzsA_seed.faa'.
+
+21/04 11:17:31 DEBUG:
+Raw, unfiltered sequence summary:
+	Number of sequences: 83
+	Longest sequence length: 821
+	Shortest sequence length: 276
+	Mean sequence length: 473.5
+	Median sequence length: 431
+
+21/04 11:17:31 INFO:
+Searching for domain sequences... 
+21/04 11:17:31 INFO:
+done.
+
+21/04 11:17:31 DEBUG:
+Filtering HMM alignments using the following thresholds:
+	Maximum E-value = 1e-05
+	Maximum i-Evalue = 0.001
+	Minimum acc = 0.7
+	Minimum score = 20
+	Minimum percentage of the HMM covered = 60%
+
+21/04 11:17:31 INFO:
+Parsing HMMER domain tables for high-quality matches... 
+21/04 11:17:31 INFO:
+done.
+
+21/04 11:17:31 DEBUG:
+	Initial alignments:	74
+	Alignments discarded:	4
+	Fragmented alignments:	8
+	Inversions detected:	0
+	Alignments scaffolded:	0
+	Multi-alignments:	0
+	Sequences identified:	70
+
+	Number of markers identified:
+		HZS_alpha	70
+
+21/04 11:17:31 DEBUG:
+Creating a temporary dictionary for rapid sequence name look-ups... 
+21/04 11:17:31 DEBUG:
+done.
+
+21/04 11:17:31 INFO:
+Extracting the quality-controlled protein sequences... 
+21/04 11:17:31 INFO:
+done.
+
+21/04 11:17:31 INFO:
+Maximum coverage for HZS_alpha = 70 sequences
+
+21/04 11:17:31 DEBUG:
+/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Annamox/Hzs/seed_refpkg/intermediates/HzsA_hmm_purified.fasta read by pyfastx in 0.000270843505859375 seconds.
+
+21/04 11:17:31 DEBUG:
+Read 70 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Annamox/Hzs/seed_refpkg/intermediates/HzsA_hmm_purified.fasta'.
+
+21/04 11:17:31 DEBUG:
+Identified and replaced invalid ambiguity characters in 0 sequences.
+
+21/04 11:17:31 INFO:
+Sequence summary:
+	Number of sequences: 70
+	Longest sequence length: 105
+	Shortest sequence length: 105
+	Mean sequence length: 105.0
+	Median sequence length: 105.0
+
+21/04 11:17:31 INFO:
+Extracting information from headers... 
+21/04 11:17:31 INFO:
+done.
+
+21/04 11:17:31 DEBUG:
+	Number of input sequences = 70
+
+21/04 11:17:31 INFO:
+Mapping sequence names to provided taxonomic lineages in Nitrogen_metabolism/Annamox/Hzs/Hzs_seq_lineage_map.tsv:
+
+21/04 11:17:31 DEBUG:
+Unable to find parent sequence for 5 ORFs in Nitrogen_metabolism/Annamox/Hzs/Hzs_seq_lineage_map.tsv map:
+237368.SCABRO_01598
+247490.KSU1_D0439
+CAJ73613 K20934 hydrazine synthase subunit [EC:1.7.2.7] | (KEGG) hydrazine synthase subunit (EC:1.7.2.7) (A)
+IPI25_10105 K20934 hydrazine synthase subunit [EC:1.7.2.7] | (GenBank) hypothetical protein (A)
+KSMBR1_2713 K20934 hydrazine synthase subunit [EC:1.7.2.7] | (GenBank) hzsA_1; hydrazine synthase subunit A (A)
+
+
+21/04 11:17:31 DEBUG:
+	Number of queries =	5
+
+21/04 11:17:31 DEBUG:
+Preparing Bio.Entrez for NCBI queries... 
+21/04 11:17:32 DEBUG:
+done.
+
+21/04 11:17:32 INFO:
+Retrieving Entrez taxonomy records for each accession... 
+21/04 11:17:33 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 100	0.0:1.54
+
+21/04 11:17:33 INFO:
+done.
+
+21/04 11:17:33 DEBUG:
+1 unique organism queries.
+
+21/04 11:17:33 INFO:
+Retrieving NCBI taxonomy IDs for each organism... 
+21/04 11:17:34 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 1	0.0:0.66
+
+21/04 11:17:34 INFO:
+done.
+
+21/04 11:17:34 DEBUG:
+Preparing Bio.Entrez for NCBI queries... 
+21/04 11:17:35 DEBUG:
+done.
+
+21/04 11:17:35 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+Information for EntrezRecord ID '4_HzsA':
+accession = IPI25_10105, acc.version = IPI25_10105
+organism = , rank resolved = 
+NCBI taxid = , bitflag = 0
+lineage = 
+description = IPI25_10105 K20934 hydrazine synthase subunit [EC:1.7.2.7] | (GenBank) hypothetical protein (A), locus = 
+
+
+21/04 11:17:35 DEBUG:
+Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+Information for EntrezRecord ID '35_HzsA':
+accession = KSMBR1_2713, acc.version = KSMBR1_2713
+organism = , rank resolved = 
+NCBI taxid = , bitflag = 0
+lineage = 
+description = KSMBR1_2713 K20934 hydrazine synthase subunit [EC:1.7.2.7] | (GenBank) hzsA_1; hydrazine synthase subunit A (A), locus = 
+
+
+21/04 11:17:35 INFO:
+Retrieving lineage information for each taxonomy ID... 
+21/04 11:17:36 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 100	0.0:0.87
+
+21/04 11:17:36 INFO:
+done.
+
+21/04 11:17:36 DEBUG:
+Repairing any taxonomic lineages lacking rank prefixes... 
+21/04 11:17:36 DEBUG:
+Preparing Bio.Entrez for NCBI queries... 
+21/04 11:17:36 DEBUG:
+done.
+
+21/04 11:17:36 DEBUG:
+done.
+
+21/04 11:17:36 DEBUG:
+Rooting domains in taxonomic hierarchy... 
+21/04 11:17:36 DEBUG:
+done.
+
+21/04 11:17:36 DEBUG:
+Validating lineages of all entrez records... 
+21/04 11:17:36 DEBUG:
+done.
+
+21/04 11:17:36 DEBUG:
+Queries mapped ideally = 3
+Queries with organism unmapped = 0
+Queries with NCBI taxonomy ID unmapped = 2
+Queries mapped with alternative accessions = 0
+Queries that outright failed = 0
+
+21/04 11:17:36 DEBUG:
+Entrez.efetch query stats:
+	Downloaded	5
+	Provided	65
+	Total		70
+
+
+21/04 11:17:36 DEBUG:
+No lineages from the accession map were added to the EntrezRecord attributes.
+
+21/04 11:17:36 DEBUG:
+Resolving conflicting lineages within taxonomic hierarchy... 
+21/04 11:17:36 DEBUG:
+Taxonomic hierarchy conflicts were fixed by merging the left into the right:
+	'PVC group' (no rank) -> 'Bacteria' (domain)
+
+21/04 11:17:36 DEBUG:
+done.
+
+21/04 11:17:36 DEBUG:
+Repairing any taxonomic lineages lacking rank prefixes... 
+21/04 11:17:36 DEBUG:
+Preparing Bio.Entrez for NCBI queries... 
+21/04 11:17:37 DEBUG:
+done.
+
+21/04 11:17:37 DEBUG:
+done.
+
+21/04 11:17:37 DEBUG:
+Rooting domains in taxonomic hierarchy... 
+21/04 11:17:37 DEBUG:
+done.
+
+21/04 11:17:37 DEBUG:
+Validating lineages of all entrez records... 
+21/04 11:17:37 DEBUG:
+done.
+
+21/04 11:17:37 INFO:
+Clustering sequences with MMSeqs' Linclust... 
+21/04 11:17:37 INFO:
+done.
+
+21/04 11:17:37 DEBUG:
+	19 sequence clusters
+
+21/04 11:17:37 DEBUG:
+Finalizing representative sequence clusters... 
+21/04 11:17:37 DEBUG:
+done.
+
+21/04 11:17:37 DEBUG:
+51 sequences were excluded after synchronizing FASTA.
+
+21/04 11:17:37 DEBUG:
+Re-enumerating the reference sequences in taxonomic order... 
+21/04 11:17:37 DEBUG:
+done.
+
+21/04 11:17:37 DEBUG:
+70 references before and 19 remaining after filtering.
+
+21/04 11:17:37 DEBUG:
+Removing 51 taxa (9 unique) from taxonomic hierarchy.
+
+21/04 11:17:37 INFO:
+Number of unique lineages:
+	root       1
+	domain     1
+	phylum     2
+	class      2
+	order      2
+	family     3
+	genus      7
+	species    8
+Unclassified and incomplete lineages account for 15/19 (78.9%) references.
+
+21/04 11:17:37 INFO:
+Aligning the sequences using MAFFT... 
+21/04 11:17:37 INFO:
+done.
+
+21/04 11:17:37 DEBUG:
+Read 19 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Annamox/Hzs/seed_refpkg/final_outputs/HzsA.fa'.
+
+21/04 11:17:37 DEBUG:
+Reference alignment contains 19 sequences with 105 character positions.
+
+21/04 11:17:37 DEBUG:
+Building HMM profile... 
+21/04 11:17:37 DEBUG:
+done.
+
+21/04 11:17:37 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+21/04 11:17:37 DEBUG:
+Read 19 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Annamox/Hzs/seed_refpkg/final_outputs/HzsA.fa'.
+
+21/04 11:17:37 DEBUG:
+0 lineages truncated before 'genus' were removed during lineage trimming.
+
+21/04 11:17:37 DEBUG:
+13 sequences were excluded after synchronizing FASTA.
+
+21/04 11:17:37 DEBUG:
+Building HMM profile... 
+21/04 11:17:37 DEBUG:
+done.
+
+21/04 11:17:37 DEBUG:
+done.
+
+21/04 11:17:37 DEBUG:
+6 genus-dereplicated sequences retained for building HMM profile.
+
+21/04 11:17:37 INFO:
+Running BMGE... 
+21/04 11:17:37 DEBUG:
+STAGE: Multiple alignment trimming with BMGE
+	COMMAND:
+java -Xmx512m -jar /home/connor/Bioinformatics/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp/sub_binaries/BMGE.jar -t AA -m BLOSUM30 -g 0.99:0.33 -i /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Annamox/Hzs/seed_refpkg/final_outputs/HzsA.fa -of /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Annamox/Hzs/seed_refpkg/final_outputs/HzsA-BMGE.fasta
+
+21/04 11:17:38 INFO:
+done.
+
+21/04 11:17:38 DEBUG:
+	BMGE time required: 0.0:0.0:0.14
+
+21/04 11:17:38 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Annamox/Hzs/seed_refpkg/final_outputs/HzsA-BMGE.fasta = 0 (retained)
+
+21/04 11:17:38 INFO:
+Building phylogenetic tree with FastTree... 
+21/04 11:17:38 INFO:
+done.
+
+21/04 11:17:38 DEBUG:
+FastTree Version 2.1.11 Double precision (No SSE3)
+Alignment: /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Annamox/Hzs/seed_refpkg/intermediates/HzsA.phy
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Le-Gascuel 2008, CAT approximation with 4 rate categories
+Initial topology in 0.00 seconds
+Refining topology: 17 rounds ME-NNIs, 2 rounds ME-SPRs, 8 rounds ML-NNIs
+Total branch-length 1.235 after 0.02 sec
+ML-NNI round 1: LogLk = -1103.216 NNIs 3 max delta 5.31 Time 0.05
+Switched to using 4 rate categories (CAT approximation)
+Rate categories were divided by 0.807 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+ML-NNI round 2: LogLk = -1051.261 NNIs 1 max delta 0.00 Time 0.08
+Turning off heuristics for final round of ML NNIs (converged)
+ML-NNI round 3: LogLk = -1051.247 NNIs 0 max delta 0.00 Time 0.10 (final)
+      0.10 seconds: ML Lengths 1 of 17 splits
+Optimize all lengths: LogLk = -1051.247 Time 0.11
+Gamma(4) LogLk = -1082.635 alpha = 0.775 rescaling lengths by 1.112
+Total time: 0.14 seconds Unique: 19/19 Bad splits: 0/16
+
+
+21/04 11:17:38 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+21/04 11:17:38 DEBUG:
+done.
+
+21/04 11:17:38 INFO:
+
+##			Train taxonomic rank-placement distance model			##
+
+21/04 11:17:38 INFO:
+Arguments used:
+-i /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Annamox/Hzs/seed_refpkg/intermediates/HzsA_seed_filtered.fa -r /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Annamox/Hzs/seed_refpkg/final_outputs/HzsA_build.pkl -o /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Annamox/Hzs/seed_refpkg/intermediates/placement_trainer/ -m prot --num_procs 4 --max_examples 1000 --svm_kernel lin --trim_align -a /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Annamox/Hzs/seed_refpkg/intermediates//accession_id_lineage_map.tsv
+
+21/04 11:17:38 DEBUG:
+Continuing with stage 'clean'
+
+21/04 11:17:38 INFO:
+Reading and formatting /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Annamox/Hzs/seed_refpkg/intermediates/HzsA_seed_filtered.fa... 
+21/04 11:17:38 DEBUG:
+/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Annamox/Hzs/seed_refpkg/intermediates/HzsA_seed_filtered.fa read by pyfastx in 0.0 seconds.
+
+21/04 11:17:38 INFO:
+done.
+
+21/04 11:17:38 INFO:
+Profile HMM homology search skipped. Using all sequences in /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Annamox/Hzs/seed_refpkg/intermediates/HzsA_seed_filtered.fa.
+
+21/04 11:17:38 INFO:
+Enumeration of potential query sequence classes:
+
+21/04 11:17:38 INFO:
+	True positives:                 70
+	False positives:                 0
+	False negatives:                 0
+	Sequence names provided:        70
+
+
+21/04 11:17:38 INFO:
+Extracting information from headers... 
+21/04 11:17:38 INFO:
+done.
+
+21/04 11:17:38 DEBUG:
+	Number of input sequences = 70
+
+21/04 11:17:38 INFO:
+Reading cached lineages in '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Annamox/Hzs/seed_refpkg/intermediates//accession_id_lineage_map.tsv'... 
+21/04 11:17:38 INFO:
+done.
+
+21/04 11:17:38 DEBUG:
+Read 70 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Nitrogen_metabolism/Annamox/Hzs/seed_refpkg/intermediates/HzsA_seed_filtered.fa'.
+
+21/04 11:17:38 DEBUG:
+Checking for redundant sequences with duplicate accessions.
+
+21/04 11:17:38 DEBUG:
+Checking for redundant FASTA records with duplicate sequences... 
+21/04 11:17:38 DEBUG:
+done.
+
+21/04 11:17:38 DEBUG:
+Removed 21 sequences with duplicate sequences.
+
+21/04 11:17:38 DEBUG:
+21 sequences were excluded after synchronizing FASTA.
+
+21/04 11:17:38 DEBUG:
+1 sequences were excluded after synchronizing FASTA.
+
+21/04 11:17:38 DEBUG:
+0 lineages truncated before 'family' were removed during lineage trimming.
+
+21/04 11:17:38 DEBUG:
+Reference sequence filtering stats for taxon 'f__Candidatus Brocadiaceae'
+Match taxon	1
+Unclassified	0
+Too shallow	13
+Remaining	5
+
+21/04 11:17:38 DEBUG:
+Reference sequence filtering stats for taxon 'f__Brocadiaceae'
+Match taxon	4
+Unclassified	0
+Too shallow	13
+Remaining	2
+
+21/04 11:17:38 DEBUG:
+Reference sequence filtering stats for taxon 'f__Scalinduaceae'
+Match taxon	1
+Unclassified	0
+Too shallow	13
+Remaining	5
+
+21/04 11:17:38 WARNING:
+Only 0.0% of unique family-level taxa can be used represent family phylogenetic placements.
+
+21/04 11:17:38 DEBUG:
+0.0% of optimal family lineages are present in the pruned trees.
+
+21/04 11:17:38 DEBUG:
+0 lineages truncated before 'class' were removed during lineage trimming.
+
+21/04 11:17:38 DEBUG:
+Reference sequence filtering stats for taxon 'c__Candidatus Brocadiae'
+Match taxon	1
+Unclassified	0
+Too shallow	13
+Remaining	5
+
+21/04 11:17:38 DEBUG:
+Reference sequence filtering stats for taxon 'c__Brocadiae'
+Match taxon	5
+Unclassified	0
+Too shallow	13
+Remaining	1
+
+21/04 11:17:38 WARNING:
+Only 0.0% of unique class-level taxa can be used represent class phylogenetic placements.
+
+21/04 11:17:38 DEBUG:
+0.0% of optimal class lineages are present in the pruned trees.
+
+21/04 11:17:38 DEBUG:
+0 lineages truncated before 'species' were removed during lineage trimming.
+
+21/04 11:17:38 DEBUG:
+Reference sequence filtering stats for taxon 's__Candidatus Scalindua brodae'
+Match taxon	1
+Unclassified	0
+Too shallow	13
+Remaining	5
+
+21/04 11:17:38 DEBUG:
+Reference sequence filtering stats for taxon 's__Brocadia sapporoensis'
+Match taxon	1
+Unclassified	0
+Too shallow	14
+Remaining	4
+
+21/04 11:17:38 DEBUG:
+Reference sequence filtering stats for taxon 's__Jettenia caeni'
+Match taxon	1
+Unclassified	0
+Too shallow	13
+Remaining	5
+
+21/04 11:17:38 DEBUG:
+Reference sequence filtering stats for taxon 's__Kuenenia stuttgartiensis'
+Match taxon	1
+Unclassified	0
+Too shallow	13
+Remaining	5
+
+21/04 11:17:38 WARNING:
+Only 0.0% of unique species-level taxa can be used represent species phylogenetic placements.
+
+21/04 11:17:38 DEBUG:
+0.0% of optimal species lineages are present in the pruned trees.
+
+21/04 11:17:38 DEBUG:
+0 lineages truncated before 'genus' were removed during lineage trimming.
+
+21/04 11:17:38 DEBUG:
+Reference sequence filtering stats for taxon 'g__Candidatus Scalindua'
+Match taxon	1
+Unclassified	0
+Too shallow	13
+Remaining	5
+
+21/04 11:17:38 DEBUG:
+Reference sequence filtering stats for taxon 'g__Brocadia'
+Match taxon	2
+Unclassified	0
+Too shallow	13
+Remaining	4
+
+21/04 11:17:38 DEBUG:
+Reference sequence filtering stats for taxon 'g__Jettenia'
+Match taxon	1
+Unclassified	0
+Too shallow	13
+Remaining	5
+
+21/04 11:17:38 DEBUG:
+Reference sequence filtering stats for taxon 'g__Kuenenia'
+Match taxon	1
+Unclassified	0
+Too shallow	13
+Remaining	5
+
+21/04 11:17:38 DEBUG:
+Reference sequence filtering stats for taxon 'g__Scalindua'
+Match taxon	1
+Unclassified	0
+Too shallow	13
+Remaining	5
+
+21/04 11:17:38 WARNING:
+Only 0.0% of unique genus-level taxa can be used represent genus phylogenetic placements.
+
+21/04 11:17:38 DEBUG:
+0.0% of optimal genus lineages are present in the pruned trees.
+
+21/04 11:17:38 DEBUG:
+0 lineages truncated before 'phylum' were removed during lineage trimming.
+
+21/04 11:17:38 DEBUG:
+Reference sequence filtering stats for taxon 'p__Planctomycetes'
+Match taxon	1
+Unclassified	0
+Too shallow	13
+Remaining	5
+
+21/04 11:17:38 DEBUG:
+Reference sequence filtering stats for taxon 'p__Planctomycetota'
+Match taxon	5
+Unclassified	0
+Too shallow	13
+Remaining	1
+
+21/04 11:17:38 WARNING:
+Only 0.0% of unique phylum-level taxa can be used represent phylum phylogenetic placements.
+
+21/04 11:17:38 DEBUG:
+0.0% of optimal phylum lineages are present in the pruned trees.
+
+21/04 11:17:38 DEBUG:
+0 lineages truncated before 'order' were removed during lineage trimming.
+
+21/04 11:17:38 DEBUG:
+Reference sequence filtering stats for taxon 'o__Candidatus Brocadiales'
+Match taxon	1
+Unclassified	0
+Too shallow	13
+Remaining	5
+
+21/04 11:17:38 DEBUG:
+Reference sequence filtering stats for taxon 'o__Brocadiales'
+Match taxon	5
+Unclassified	0
+Too shallow	13
+Remaining	1
+
+21/04 11:17:38 WARNING:
+Only 0.0% of unique order-level taxa can be used represent order phylogenetic placements.
+
+21/04 11:17:38 DEBUG:
+0.0% of optimal order lineages are present in the pruned trees.
+
+21/04 11:17:38 DEBUG:
+Optimal placement target was not found in the pruned tree for following taxa:
+	r__Root; d__Bacteria; p__Planctomycetota
+	r__Root; d__Bacteria; p__Planctomycetota; c__Brocadiae; o__Brocadiales; f__Brocadiaceae; g__Brocadia
+	r__Root; d__Bacteria; p__Planctomycetota; c__Brocadiae; o__Brocadiales; f__Brocadiaceae; g__Jettenia
+	r__Root; d__Bacteria; p__Planctomycetes
+	r__Root; d__Bacteria; p__Planctomycetota; c__Brocadiae; o__Brocadiales; f__Scalinduaceae
+	r__Root; d__Bacteria; p__Planctomycetes; c__Candidatus Brocadiae; o__Candidatus Brocadiales; f__Candidatus Brocadiaceae
+	r__Root; d__Bacteria; p__Planctomycetota; c__Brocadiae
+	r__Root; d__Bacteria; p__Planctomycetes; c__Candidatus Brocadiae; o__Candidatus Brocadiales
+	r__Root; d__Bacteria; p__Planctomycetota; c__Brocadiae; o__Brocadiales; f__Brocadiaceae; g__Kuenenia
+	r__Root; d__Bacteria; p__Planctomycetes; c__Candidatus Brocadiae
+	r__Root; d__Bacteria; p__Planctomycetes; c__Candidatus Brocadiae; o__Candidatus Brocadiales; f__Candidatus Brocadiaceae; g__Candidatus Scalindua
+
+21/04 11:17:38 DEBUG:
+Unable to generate placement data for the following taxa since the refpkg would be too small:
+	r__Root; d__Bacteria; p__Planctomycetota; c__Brocadiae; o__Brocadiales; f__Brocadiaceae
+	r__Root; d__Bacteria; p__Planctomycetota; c__Brocadiae; o__Brocadiales; f__Scalinduaceae
+	r__Root; d__Bacteria; p__Planctomycetota; c__Brocadiae; o__Brocadiales; f__Brocadiaceae; g__Brocadia
+	r__Root; d__Bacteria; p__Planctomycetota; c__Brocadiae; o__Brocadiales; f__Brocadiaceae; g__Jettenia
+	r__Root; d__Bacteria; p__Planctomycetota; c__Brocadiae; o__Brocadiales; f__Brocadiaceae; g__Kuenenia
+	r__Root; d__Bacteria; p__Planctomycetes
+	r__Root; d__Bacteria; p__Planctomycetota
+
+21/04 11:17:38 DEBUG:
+Sequences available for training family-level placement distances:
+	0	r__Root; d__Bacteria; p__Planctomycetes; c__Candidatus Brocadiae; o__Candidatus Brocadiales; f__Candidatus Brocadiaceae
+	0	r__Root; d__Bacteria; p__Planctomycetota; c__Brocadiae; o__Brocadiales; f__Brocadiaceae
+	0	r__Root; d__Bacteria; p__Planctomycetota; c__Brocadiae; o__Brocadiales; f__Scalinduaceae
+0/3 unique family-level taxa have training sequences.
+
+Sequences available for training class-level placement distances:
+	0	r__Root; d__Bacteria; p__Planctomycetes; c__Candidatus Brocadiae
+	0	r__Root; d__Bacteria; p__Planctomycetota; c__Brocadiae
+0/2 unique class-level taxa have training sequences.
+
+Sequences available for training species-level placement distances:
+	0	r__Root; d__Bacteria; p__Planctomycetes; c__Candidatus Brocadiae; o__Candidatus Brocadiales; f__Candidatus Brocadiaceae; g__Candidatus Scalindua; s__Candidatus Scalindua brodae
+	0	r__Root; d__Bacteria; p__Planctomycetota; c__Brocadiae; o__Brocadiales; f__Brocadiaceae; g__Brocadia; s__Brocadia sapporoensis
+	0	r__Root; d__Bacteria; p__Planctomycetota; c__Brocadiae; o__Brocadiales; f__Brocadiaceae; g__Jettenia; s__Jettenia caeni
+	0	r__Root; d__Bacteria; p__Planctomycetota; c__Brocadiae; o__Brocadiales; f__Brocadiaceae; g__Kuenenia; s__Kuenenia stuttgartiensis
+0/4 unique species-level taxa have training sequences.
+
+Sequences available for training genus-level placement distances:
+	0	r__Root; d__Bacteria; p__Planctomycetes; c__Candidatus Brocadiae; o__Candidatus Brocadiales; f__Candidatus Brocadiaceae; g__Candidatus Scalindua
+	0	r__Root; d__Bacteria; p__Planctomycetota; c__Brocadiae; o__Brocadiales; f__Brocadiaceae; g__Brocadia
+	0	r__Root; d__Bacteria; p__Planctomycetota; c__Brocadiae; o__Brocadiales; f__Brocadiaceae; g__Jettenia
+	0	r__Root; d__Bacteria; p__Planctomycetota; c__Brocadiae; o__Brocadiales; f__Brocadiaceae; g__Kuenenia
+	0	r__Root; d__Bacteria; p__Planctomycetota; c__Brocadiae; o__Brocadiales; f__Scalinduaceae; g__Scalindua
+0/5 unique genus-level taxa have training sequences.
+
+Sequences available for training phylum-level placement distances:
+	0	r__Root; d__Bacteria; p__Planctomycetes
+	0	r__Root; d__Bacteria; p__Planctomycetota
+0/2 unique phylum-level taxa have training sequences.
+
+Sequences available for training order-level placement distances:
+	0	r__Root; d__Bacteria; p__Planctomycetes; c__Candidatus Brocadiae; o__Candidatus Brocadiales
+	0	r__Root; d__Bacteria; p__Planctomycetota; c__Brocadiae; o__Brocadiales
+0/2 unique order-level taxa have training sequences.
+
+
+21/04 11:17:38 INFO:
+Clustering sequences with MMSeqs' Linclust... 
+21/04 11:17:38 INFO:
+done.
+
+21/04 11:17:38 DEBUG:
+13 sequences were excluded after synchronizing FASTA.
+
+21/04 11:17:38 DEBUG:
+	35 sequence clusters
+
+21/04 11:17:38 INFO:
+Preparing deduplicated sequence set for training... 
+21/04 11:17:38 DEBUG:
+0 lineages truncated before 'family' were removed during lineage trimming.
+
+21/04 11:17:38 DEBUG:
+0 lineages truncated before 'class' were removed during lineage trimming.
+
+21/04 11:17:38 DEBUG:
+0 lineages truncated before 'species' were removed during lineage trimming.
+
+21/04 11:17:38 DEBUG:
+0 lineages truncated before 'genus' were removed during lineage trimming.
+
+21/04 11:17:38 DEBUG:
+0 lineages truncated before 'phylum' were removed during lineage trimming.
+
+21/04 11:17:38 DEBUG:
+0 lineages truncated before 'order' were removed during lineage trimming.
+
+21/04 11:17:38 INFO:
+done.
+
+21/04 11:17:38 DEBUG:
+Calculating the total number of queries to be used for training... 
+21/04 11:17:38 DEBUG:
+No sequences available for estimating family-level placement distances.
+
+21/04 11:17:38 DEBUG:
+No sequences available for estimating class-level placement distances.
+
+21/04 11:17:38 DEBUG:
+No sequences available for estimating species-level placement distances.
+
+21/04 11:17:38 DEBUG:
+No sequences available for estimating genus-level placement distances.
+
+21/04 11:17:38 DEBUG:
+No sequences available for estimating phylum-level placement distances.
+
+21/04 11:17:38 DEBUG:
+No sequences available for estimating order-level placement distances.
+
+21/04 11:17:38 ERROR:
+Clade-exclusion analysis could not be performed for training the reference package models:
+Too few (0) sequences for training placement distance model.
+
+
+21/04 11:17:38 INFO:
+Generating placement data without clade exclusion for SVM... 
