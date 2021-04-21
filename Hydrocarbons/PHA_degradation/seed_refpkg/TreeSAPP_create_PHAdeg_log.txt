@@ -1,0 +1,317 @@
+21/04 10:32:14 INFO:
+
+##			Creating TreeSAPP reference package			##
+
+21/04 10:32:14 INFO:
+Arguments used:
+-i Hydrocarbons/PHA_degradation/PETases.fasta -o Hydrocarbons/PHA_degradation/seed_refpkg/ --trim_align -n 8 --headless --cluster -p 0.99 -c PHAdeg --overwrite --delete --fast --stage support
+
+21/04 10:32:14 DEBUG:
+Sequences appear to be 'prot'.
+
+21/04 10:32:14 WARNING:
+Unable to run 'support' as it is ahead of the last completed stage.
+Continuing with stage 'lineages'
+
+21/04 10:32:14 DEBUG:
+Hydrocarbons/PHA_degradation/PETases.fasta read by pyfastx in 0.0001366138458251953 seconds.
+
+21/04 10:32:14 DEBUG:
+Read 11 headers from FASTA file 'Hydrocarbons/PHA_degradation/PETases.fasta'.
+
+21/04 10:32:14 DEBUG:
+Hydrocarbons/PHA_degradation/PETases.fasta read by pyfastx in 5.030632019042969e-05 seconds.
+
+21/04 10:32:14 DEBUG:
+Read 11 headers from FASTA file 'Hydrocarbons/PHA_degradation/PETases.fasta'.
+
+21/04 10:32:14 DEBUG:
+Identified and replaced invalid ambiguity characters in 0 sequences.
+
+21/04 10:32:14 INFO:
+Sequence summary:
+	Number of sequences: 11
+	Longest sequence length: 489
+	Shortest sequence length: 214
+	Mean sequence length: 291.0
+	Median sequence length: 262
+
+21/04 10:32:14 INFO:
+Extracting information from headers... 
+21/04 10:32:14 INFO:
+done.
+
+21/04 10:32:14 DEBUG:
+	Number of input sequences = 11
+
+21/04 10:32:14 DEBUG:
+	Number of queries =	11
+
+21/04 10:32:14 DEBUG:
+Preparing Bio.Entrez for NCBI queries... 
+21/04 10:32:14 DEBUG:
+done.
+
+21/04 10:32:14 INFO:
+Retrieving Entrez taxonomy records for each accession... 
+21/04 10:32:15 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 100	0.0:1.12
+
+21/04 10:32:15 INFO:
+done.
+
+21/04 10:32:15 DEBUG:
+9 unique organism queries.
+
+21/04 10:32:15 INFO:
+Retrieving NCBI taxonomy IDs for each organism... 
+21/04 10:32:21 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 1	0.0:0.66
+	1 - 2	0.0:0.66
+	2 - 3	0.0:0.66
+	3 - 4	0.0:0.66
+	4 - 5	0.0:0.66
+	5 - 6	0.0:0.67
+	6 - 7	0.0:0.66
+	7 - 8	0.0:0.76
+	8 - 9	0.0:0.66
+
+21/04 10:32:21 INFO:
+done.
+
+21/04 10:32:21 DEBUG:
+Preparing Bio.Entrez for NCBI queries... 
+21/04 10:32:22 DEBUG:
+done.
+
+21/04 10:32:22 INFO:
+Retrieving lineage information for each taxonomy ID... 
+21/04 10:32:23 DEBUG:
+Entrez query time for accessions (minutes:seconds):
+	0 - 100	0.0:0.87
+
+21/04 10:32:23 INFO:
+done.
+
+21/04 10:32:23 DEBUG:
+Repairing any taxonomic lineages lacking rank prefixes... 
+21/04 10:32:23 DEBUG:
+Preparing Bio.Entrez for NCBI queries... 
+21/04 10:32:24 DEBUG:
+done.
+
+21/04 10:32:24 DEBUG:
+done.
+
+21/04 10:32:24 DEBUG:
+Rooting domains in taxonomic hierarchy... 
+21/04 10:32:24 DEBUG:
+No taxa at rank 'root' were present in reference package hierarchy - adding now.
+
+21/04 10:32:24 DEBUG:
+done.
+
+21/04 10:32:24 DEBUG:
+Validating lineages of all entrez records... 
+21/04 10:32:24 DEBUG:
+Order of taxonomic ranks in cleaned lineage 'r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; g__Ideonella; s__Ideonella sakaiensis' is unexpected.
+Lineage will be truncated to 'r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales'.
+
+21/04 10:32:24 DEBUG:
+Order of taxonomic ranks in cleaned lineage 'r__Root; d__Bacteria; s__uncultured bacterium' is unexpected.
+Lineage will be truncated to 'r__Root; d__Bacteria'.
+
+21/04 10:32:24 DEBUG:
+done.
+
+21/04 10:32:24 DEBUG:
+Queries mapped ideally = 11
+Queries with organism unmapped = 0
+Queries with NCBI taxonomy ID unmapped = 0
+Queries mapped with alternative accessions = 0
+Queries that outright failed = 0
+
+21/04 10:32:24 DEBUG:
+Entrez.efetch query stats:
+	Downloaded	11
+	Provided	0
+	Total		11
+
+
+21/04 10:32:24 DEBUG:
+No lineages from the accession map were added to the EntrezRecord attributes.
+
+21/04 10:32:24 DEBUG:
+Resolving conflicting lineages within taxonomic hierarchy... 
+21/04 10:32:24 DEBUG:
+Taxonomic hierarchy conflicts were fixed by merging the left into the right:
+	'Terrabacteria group' (no rank) -> 'Bacteria' (domain)
+	'sordariomyceta' (no rank) -> 'Ascomycota' (phylum)
+	'Dikarya' (no rank) -> 'Eukaryota' (domain)
+	'Fusarium solani species complex' (no rank) -> 'Fusarium' (genus)
+	'Hypocreomycetidae' (no rank) -> 'Sordariomycetes' (class)
+	'Bacillus subtilis group' (no rank) -> 'Bacillus' (genus)
+
+21/04 10:32:24 DEBUG:
+done.
+
+21/04 10:32:24 DEBUG:
+Repairing any taxonomic lineages lacking rank prefixes... 
+21/04 10:32:24 DEBUG:
+Preparing Bio.Entrez for NCBI queries... 
+21/04 10:32:24 DEBUG:
+done.
+
+21/04 10:32:24 DEBUG:
+done.
+
+21/04 10:32:24 DEBUG:
+Rooting domains in taxonomic hierarchy... 
+21/04 10:32:24 DEBUG:
+done.
+
+21/04 10:32:24 DEBUG:
+Validating lineages of all entrez records... 
+21/04 10:32:24 DEBUG:
+done.
+
+21/04 10:32:24 INFO:
+Clustering sequences with MMSeqs' Linclust... 
+21/04 10:32:24 INFO:
+done.
+
+21/04 10:32:24 DEBUG:
+	10 sequence clusters
+
+21/04 10:32:24 DEBUG:
+Finalizing representative sequence clusters... 
+21/04 10:32:24 DEBUG:
+done.
+
+21/04 10:32:24 DEBUG:
+1 sequences were excluded after synchronizing FASTA.
+
+21/04 10:32:24 DEBUG:
+Re-enumerating the reference sequences in taxonomic order... 
+21/04 10:32:24 DEBUG:
+done.
+
+21/04 10:32:24 DEBUG:
+11 references before and 10 remaining after filtering.
+
+21/04 10:32:24 DEBUG:
+Removing 1 taxa (1 unique) from taxonomic hierarchy.
+
+21/04 10:32:24 INFO:
+Number of unique lineages:
+	root       1
+	domain     2
+	phylum     4
+	class      4
+	order      5
+	family     4
+	genus      4
+	species    7
+Unclassified and incomplete lineages account for 2/10 (20.0%) references.
+
+21/04 10:32:24 INFO:
+Aligning the sequences using MAFFT... 
+21/04 10:32:24 INFO:
+done.
+
+21/04 10:32:24 DEBUG:
+Read 10 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Hydrocarbons/PHA_degradation/seed_refpkg/final_outputs/PHAdeg.fa'.
+
+21/04 10:32:24 DEBUG:
+Reference alignment contains 10 sequences with 543 character positions.
+
+21/04 10:32:24 DEBUG:
+Building HMM profile... 
+21/04 10:32:25 DEBUG:
+done.
+
+21/04 10:32:25 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+21/04 10:32:25 DEBUG:
+Read 10 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Hydrocarbons/PHA_degradation/seed_refpkg/final_outputs/PHAdeg.fa'.
+
+21/04 10:32:25 DEBUG:
+0 lineages truncated before 'genus' were removed during lineage trimming.
+
+21/04 10:32:25 DEBUG:
+4 sequences were excluded after synchronizing FASTA.
+
+21/04 10:32:25 DEBUG:
+Building HMM profile... 
+21/04 10:32:25 DEBUG:
+done.
+
+21/04 10:32:25 DEBUG:
+done.
+
+21/04 10:32:25 DEBUG:
+6 genus-dereplicated sequences retained for building HMM profile.
+
+21/04 10:32:25 INFO:
+Running BMGE... 
+21/04 10:32:25 DEBUG:
+STAGE: Multiple alignment trimming with BMGE
+	COMMAND:
+java -Xmx512m -jar /home/connor/Bioinformatics/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp/sub_binaries/BMGE.jar -t AA -m BLOSUM30 -g 0.99:0.33 -i /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Hydrocarbons/PHA_degradation/seed_refpkg/final_outputs/PHAdeg.fa -of /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Hydrocarbons/PHA_degradation/seed_refpkg/final_outputs/PHAdeg-BMGE.fasta
+
+21/04 10:32:25 INFO:
+done.
+
+21/04 10:32:25 DEBUG:
+	BMGE time required: 0.0:0.0:0.18
+
+21/04 10:32:25 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Hydrocarbons/PHA_degradation/seed_refpkg/final_outputs/PHAdeg-BMGE.fasta = 0 (retained)
+
+21/04 10:32:25 INFO:
+Building phylogenetic tree with FastTree... 
+21/04 10:32:25 INFO:
+done.
+
+21/04 10:32:25 DEBUG:
+FastTree Version 2.1.11 Double precision (No SSE3)
+Alignment: /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Hydrocarbons/PHA_degradation/seed_refpkg/intermediates/PHAdeg.phy
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Le-Gascuel 2008, CAT approximation with 4 rate categories
+Initial topology in 0.00 seconds
+Refining topology: 13 rounds ME-NNIs, 2 rounds ME-SPRs, 7 rounds ML-NNIs
+Total branch-length 3.873 after 0.02 sec
+ML-NNI round 1: LogLk = -3229.941 NNIs 2 max delta 2.04 Time 0.05
+Switched to using 4 rate categories (CAT approximation)
+Rate categories were divided by 0.827 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+ML-NNI round 2: LogLk = -3122.130 NNIs 0 max delta 0.00 Time 0.07
+Turning off heuristics for final round of ML NNIs (converged)
+ML-NNI round 3: LogLk = -3121.796 NNIs 0 max delta 0.00 Time 0.10 (final)
+Optimize all lengths: LogLk = -3121.771 Time 0.11
+      0.12 seconds: Site likelihoods with rate category 1 of 4
+Gamma(4) LogLk = -3220.534 alpha = 4.160 rescaling lengths by 1.092
+Total time: 0.13 seconds Unique: 10/10 Bad splits: 0/7
+
+
+21/04 10:32:25 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+21/04 10:32:25 DEBUG:
+done.
+
+21/04 10:32:25 INFO:
+Skipping training:
+$ treesapp train -i /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Hydrocarbons/PHA_degradation/seed_refpkg/intermediates/PETases_filtered.fa -r /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Hydrocarbons/PHA_degradation/seed_refpkg/final_outputs/PHAdeg_build.pkl -o /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Hydrocarbons/PHA_degradation/seed_refpkg/intermediates/placement_trainer/ -m prot --num_procs 8 --max_examples 1000 --svm_kernel lin --trim_align -a /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Hydrocarbons/PHA_degradation/seed_refpkg/intermediates//accession_id_lineage_map.tsv.
+
+21/04 10:32:25 INFO:
+
+To integrate this package for use in TreeSAPP you must copy /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Hydrocarbons/PHA_degradation/seed_refpkg/final_outputs/PHAdeg_build.pkl to a directory containing other reference packages you want to analyse. This may be in /home/connor/Bioinformatics/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp//data/ or elsewhere
+
+21/04 10:32:25 INFO:
+TreeSAPP has finished successfully.
+
