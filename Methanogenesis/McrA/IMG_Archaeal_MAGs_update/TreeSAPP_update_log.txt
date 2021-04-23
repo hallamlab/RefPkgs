@@ -1,0 +1,587 @@
+23/04 10:09:29 INFO:
+
+##			Updating TreeSAPP reference package			##
+
+23/04 10:09:29 INFO:
+Arguments used:
+--treesapp_output ProcessedData/TreeSAPP_output/classifications/Genomes//IMG_Archaeal_MAGs/ --refpkg_path ProcessedData/TreeSAPP_output/updates//Archaeal_SAGs_update//final_outputs/McrA_build.pkl --output ProcessedData/TreeSAPP_output/updates//IMG_Archaeal_MAGs_update/ --seqs2lineage RawData/Genomes/IMG_Archaeal_MAGs_lineage_map.tsv --cluster --similarity 0.97 --min_seq_length 400 --num_procs 8 --skip_assign --fast --resolve --trim_align --headless --overwrite --delete
+
+23/04 10:09:29 DEBUG:
+Continuing with stage 'lineages'
+
+23/04 10:09:29 DEBUG:
+Read 722 headers from FASTA file 'ProcessedData/TreeSAPP_output/classifications/Genomes//IMG_Archaeal_MAGs/final_outputs/IMG_Archaeal_MAGs_classified.faa'.
+
+23/04 10:09:29 DEBUG:
+0 classified sequences did not meet minimum LWR of 0.1 for updating
+
+23/04 10:09:29 INFO:
+	Number of sequences: 722
+	Longest sequence length: 590
+	Shortest sequence length: 337
+	Mean sequence length: 545.7
+	Median sequence length: 556.0
+
+23/04 10:09:29 DEBUG:
+24 sequences were found to be shorter than 400 and removed.
+
+23/04 10:09:29 DEBUG:
+24 sequences were excluded after synchronizing FASTA.
+
+23/04 10:09:29 INFO:
+Extracting information from headers... 
+23/04 10:09:29 INFO:
+done.
+
+23/04 10:09:29 DEBUG:
+	Number of input sequences = 698
+
+23/04 10:09:29 INFO:
+Mapping sequence names to provided taxonomic lineages in RawData/Genomes/IMG_Archaeal_MAGs_lineage_map.tsv:
+
+23/04 10:09:31 DEBUG:
+	Number of queries =	0
+
+23/04 10:09:31 DEBUG:
+No lineages from the accession map were added to the EntrezRecord attributes.
+
+23/04 10:09:32 DEBUG:
+Read 208 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/McrA_census/ProcessedData/TreeSAPP_output/updates/IMG_Archaeal_MAGs_update/intermediates/0423.1619159847/McrA.fa'.
+
+23/04 10:09:32 INFO:
+Clustering sequences with MMSeqs' Linclust... 
+23/04 10:09:32 INFO:
+done.
+
+23/04 10:09:32 DEBUG:
+	440 sequence clusters
+
+23/04 10:09:32 DEBUG:
+183 original reference sequences saved from clustering:
+	2774011238 lineage=r__Root; d__Archaea; p__Crenarchaeota [Unclassified Crenarchaeota JZ-1 bin_66]
+	ACL17594 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanoregulaceae; g__Methanosphaerula; s__Methanosphaerula palustris [Methanosphaerula palustris E1-9c]
+	AGF92165 lineage=r__Root; d__Archaea [uncultured archaeon]
+	AMD18197 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobrevibacter; s__Methanobrevibacter sp. YE315 [Methanobrevibacter sp. YE315]
+	WP_048191628.1 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__Methanobacterium sp. SMA-27 [Methanobacterium sp. SMA-27]
+	2774012914 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Hadesarchaea [Unclassified Hadesarchaeota JZ-1 bin_103]
+	ACV24756 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci; o__Methanococcales; f__Methanocaldococcaceae; g__Methanocaldococcus; s__Methanocaldococcus fervens [Methanocaldococcus fervens AG86]
+	AGF92168 lineage=r__Root; d__Archaea [uncultured archaeon]
+	KUG20861 lineage=r__Root [hydrocarbon metagenome]
+	lcl_contig000006_E20_A2_E20_A2_104 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanogasteraceae; g__Methanogaster [ANME-2c sp. E20]
+	2774012919 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Hadesarchaea [Unclassified Hadesarchaeota JZ-1 bin_103]
+	ADC47774 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobrevibacter; s__Methanobrevibacter ruminantium [Methanobrevibacter ruminantium M1]
+	AGF92169 lineage=r__Root; d__Archaea [uncultured archaeon]
+	AMK13668 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales [methanogenic archaeon mixed culture ISO4-G1]
+	CVK33165 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanomicrobiaceae; g__Methanoculleus; s__Methanoculleus bourgensis [Methanoculleus bourgensis]
+	KUK04994 lineage=r__Root; d__Archaea; p__Euryarchaeota [Euryarchaeota archaeon 55_53]
+	OFV67100.1 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales [Candidatus Syntrophoarchaeum caldarius]
+	KYC47884 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Candidatus Methanofastidiosa [Candidatus Methanofastidiosum methylthiophilus]
+	OKY78426.1 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanonatronarchaeia; o__Methanonatronarchaeales; f__Methanonatronarchaeaceae; g__Candidatus Methanohalarchaeum; s__Candidatus Methanohalarchaeum thermophilum [Candidatus Methanohalarchaeum thermophilum]
+	2774019680 lineage=r__Root; d__Archaea; p__Candidatus Verstraetearchaeota [Unclassified Verstraetearchaeota GMQP bin_44]
+	ADN36741 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanomicrobiaceae; g__Methanolacinia; s__Methanolacinia petrolearia [Methanolacinia petrolearia DSM 11571]
+	APO18197 lineage=r__Root; d__Archaea [uncultured archaeon]
+	EHP88088 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci; o__Methanococcales; f__Methanocaldococcaceae; g__Methanotorris; s__Methanotorris formicicus [Methanotorris formicicus Mc-S-70]
+	KZX10527 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobrevibacter; s__Methanobrevibacter oralis [Methanobrevibacter oralis]
+	OUJ18543.1 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanonatronarchaeia; o__Methanonatronarchaeales; f__Methanonatronarchaeaceae; g__Methanonatronarchaeum; s__Methanonatronarchaeum thermophilum [Methanonatronarchaeum thermophilum]
+	2774024479 lineage=r__Root; d__Archaea; p__Candidatus Verstraetearchaeota [Unclassified Verstraetearchaeota JZ-3 bin_107]
+	ADN37161 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanomicrobiaceae; g__Methanolacinia; s__Methanolacinia petrolearia [Methanolacinia petrolearia DSM 11571]
+	AHY86395 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobrevibacter; s__Methanobrevibacter sp. D5 [Methanobrevibacter sp. D5]
+	APO18212 lineage=r__Root; d__Archaea [uncultured archaeon]
+	EHQ36916.1 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanomicrobiaceae; g__Methanoplanus; s__Methanoplanus limicola [Methanoplanus limicola DSM 2279]
+	KZX11644 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobrevibacter; s__Methanobrevibacter filiformis [Methanobrevibacter filiformis]
+	OYT62528.1 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales [Methanosarcinales archaeon ex4484_138]
+	2774028605 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Archaeoglobi; o__Archaeoglobales [Unclassified Archaeoglobales GMQP bin_32]
+	ADP77533 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanothermaceae; g__Methanothermus; s__Methanothermus fervidus [Methanothermus fervidus DSM 2088]
+	AHY86396 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanosphaera; s__Methanosphaera sp. ISO3-F5 [Methanosphaera sp. ISO3-F5]
+	EJG06466.1 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanomicrobiaceae; g__Methanofollis; s__Methanofollis liminatans [Methanofollis liminatans DSM 4140]
+	KZX12896 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobrevibacter; s__Methanobrevibacter oralis [Methanobrevibacter oralis]
+	PHJCHKPG_3_ANME_sp._SA_14 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanophagales [ANME-1 sp. SA]
+	5133_contig_8396_join_504_23 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanocomedenaceae; g__Methanomarinus [ANME-2b sp. HR1]
+	ADQ42341 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanotrichaceae; g__Methanothrix; s__Methanosaeta harundinacea [Methanosaeta harundinacea 6Ac]
+	AIJ05353 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci; o__Methanococcales; f__Methanocaldococcaceae; g__Methanocaldococcus; s__Methanocaldococcus bathoardescens [Methanocaldococcus bathoardescens]
+	APO18213 lineage=r__Root; d__Archaea [uncultured archaeon]
+	KZX14437 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobrevibacter; s__Methanobrevibacter curvatus [Methanobrevibacter curvatus]
+	PRCZ01000073.1_1 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanophagales [Methanophagales]
+	AAA72197 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanothermaceae; g__Methanothermus; s__Methanothermus fervidus [Methanothermus fervidus]
+	AIZ56101 lineage=r__Root; d__Archaea; p__Candidatus Thermoplasmatota; c__Thermoplasmata_1; o__Methanomassiliicoccales_1; f__Methanomassiliicoccaceae; g__Candidatus Methanoplasma; s__Candidatus Methanoplasma termitum [Candidatus Methanoplasma termitum]
+	APO18215 lineage=r__Root; d__Archaea [uncultured archaeon]
+	EJG07654.1 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanomicrobiaceae; g__Methanofollis; s__Methanofollis liminatans [Methanofollis liminatans DSM 4140]
+	AAA73439 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanothermobacter; s__Methanothermobacter thermautotrophicus [Methanothermobacter thermautotrophicus]
+	AKB20360 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanosarcina; s__Methanosarcina sp. WH1 [Methanosarcina sp. WH1]
+	APO18219 lineage=r__Root; d__Archaea [uncultured archaeon]
+	EKQ53862 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__Methanobacterium sp. Maddingley MBC34 [Methanobacterium sp. Maddingley MBC34]
+	KZX17247 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobrevibacter; s__Methanobrevibacter cuticularis [Methanobrevibacter cuticularis]
+	AAB85618.1 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanothermobacter; s__Methanothermobacter thermautotrophicus [Methanothermobacter thermautotrophicus]
+	AKB23569 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanosarcina; s__Methanosarcina sp. MTP4 [Methanosarcina sp. MTP4]
+	EKQ54655 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__Methanobacterium sp. Maddingley MBC34 [Methanobacterium sp. Maddingley MBC34]
+	AAU82711 lineage=r__Root; d__Archaea [uncultured archaeon GZfos19C7]
+	AKB49358 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanosarcina; s__Methanosarcina barkeri [Methanosarcina barkeri str. Wiesmoor]
+	AXI24849 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci; o__Methanococcales [Methanofervidicoccus sp. A16]
+	GOMG1_24_Anme_sp._GoMg1_17 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanophagales [ANME-1 sp. GoMg1]
+	MAGU01000068.1 lineage=r__Root; d__Archaea; p__Candidatus Verstraetearchaeota; c__Candidatus Methanomethylia; o__Candidatus Methanomethyliales; f__Candidatus Methanomethyliaceae; g__Candidatus Methanomethylicus [Candidatus Methanomethylicus oleusabulum isolate V3 V3 s66]
+	SUPS01000008.1 lineage=r__Root; d__Archaea; p__Candidatus Helarchaeota [Hel_GB_A]
+	AAU83007 lineage=r__Root; d__Archaea [uncultured archaeon GZfos26B2]
+	AEH60719 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanosalsum; s__Methanosalsum zhilinae [Methanosalsum zhilinae DSM 4017]
+	AXV36901 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__Methanobacterium sp. BRmetb2 [Methanobacterium sp. BRmetb2]
+	GOMG4_62_Anme_sp._GoMg4_4 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanophagales [ANME-1 sp. GoMg4]
+	TDA25649.1 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Archaeoglobi [Archaeoglobi archaeon]
+	ABC56731 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanosphaera; s__Methanosphaera stadtmanae [Methanosphaera stadtmanae DSM 3091]
+	AEV59717 lineage=r__Root; d__Archaea [uncultured archaeon]
+	AXV37353.1 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__Methanobacterium sp. BRmetb2 [Methanobacterium sp. BRmetb2]
+	GZfos15C8_A09057_1_15 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanogasteraceae; g__Methanogaster [ANME-2c sp. ERB4]
+	MN1LE27704677 lineage=r__Root; d__Archaea [NM1a_pc1]
+	TDA31058.1 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Hadesarchaea [Hadesarchaea archaeon]
+	ABD41854 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanospirillaceae; g__Methanospirillum; s__Methanospirillum hungatei [Methanospirillum hungatei JF-1]
+	AFC99668 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanocellales; f__Methanocellaceae; g__Methanocella; s__Methanocella conradii [Methanocella conradii HZ254]
+	AKB73417 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanosarcina; s__Methanosarcina lacustris [Methanosarcina lacustris Z-7289]
+	GZfos35D7_28 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanogasteraceae; g__Methanogaster [ANME-2c sp. ERB4]
+	MN1LE99113100777 lineage=r__Root; d__Archaea [NM1a]
+	WP_013826564.1 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__Methanobacterium paludis [Methanobacterium paludis]
+	ABN07725 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanocorpusculaceae; g__Methanocorpusculum; s__Methanocorpusculum labreanum [Methanocorpusculum labreanum Z]
+	WP_042699351.1 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanocorpusculaceae; g__Methanocorpusculum; s__Methanocorpusculum bavaricum [Methanocorpusculum bavaricum]
+	AFV23037 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanolobus; s__Methanolobus psychrophilus [Methanolobus psychrophilus R15]
+	ALG76131 lineage=r__Root; d__Archaea [uncultured archaeon]
+	BAP63757 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci; o__Methanococcales; f__Methanococcaceae; g__Methanococcus; s__Methanococcus maripaludis [Methanococcus maripaludis OS7]
+	KDE55049 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanomicrobiaceae; g__Methanoculleus; s__Methanoculleus sp. MH98A [Methanoculleus sp. MH98A]
+	WP_019176774.1 lineage=r__Root; d__Archaea; p__Candidatus Thermoplasmatota; c__Thermoplasmata_1; o__Methanomassiliicoccales_1; f__Methanomassiliicoccaceae; g__Methanomassiliicoccus; s__Methanomassiliicoccus luminyensis [Methanomassiliicoccus luminyensis]
+	ABN56546 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanomicrobiaceae; g__Methanoculleus; s__Methanoculleus marisnigri [Methanoculleus marisnigri JR1]
+	AGB01930 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanoregulaceae; g__Methanoregula; s__Methanoregula formicica [Methanoregula formicica SMSP]
+	ALK27805 lineage=r__Root; d__Archaea; p__Candidatus Bathyarchaeota [uncultured Bathyarchaeota archaeon]
+	KKG08643 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanosarcina; s__Methanosarcina sp. 2.H.A.1B.4 [Methanosarcina sp. 2.H.A.1B.4]
+	WP_042697841.1 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanocorpusculaceae; g__Methanocorpusculum; s__Methanocorpusculum bavaricum [Methanocorpusculum bavaricum]
+	ABO34334 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci; o__Methanococcales; f__Methanococcaceae; g__Methanococcus; s__Methanococcus maripaludis [Methanococcus maripaludis C5]
+	AGB03601 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanoregulaceae; g__Methanoregula; s__Methanoregula formicica [Methanoregula formicica SMSP]
+	ALK27806 lineage=r__Root; d__Archaea; p__Candidatus Bathyarchaeota [uncultured Bathyarchaeota archaeon]
+	CAA30633 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci; o__Methanococcales; f__Methanococcaceae; g__Methanococcus; s__Methanococcus voltae [Methanococcus voltae PS]
+	KKH68122 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanosarcina; s__Methanosarcina mazei [Methanosarcina mazei]
+	AGB07531 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanosarcina; s__Methanosarcina mazei [Methanosarcina mazei]
+	ALK27809 lineage=r__Root; d__Archaea [uncultured archaeon]
+	CAD7773414.1 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Candidatus Methanoperedenaceae [Candidatus Methanoperedenaceae]
+	KLK89043 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanomicrobiaceae; g__Methanoculleus; s__Methanoculleus sediminis [Methanoculleus sediminis]
+	WP_042703044.1 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobrevibacter; s__Methanobrevibacter arboriphilus [Methanobrevibacter arboriphilus]
+	ALK27810 lineage=r__Root; d__Archaea [uncultured archaeon]
+	CAJ37204 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanocellales; f__Methanocellaceae; g__Methanocella; s__Methanocella arvoryzae [Methanocella arvoryzae MRE50]
+	KQC10137 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanoregulaceae; g__Methanolinea; s__Methanolinea sp. SDB [Methanolinea sp. SDB]
+	NM648286489 lineage=r__Root; d__Archaea [NM2]
+	WP_042705994.1 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanomicrobiaceae; g__Methanomicrobium; s__Methanomicrobium mobile [Methanomicrobium mobile]
+	ABR54777 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci; o__Methanococcales; f__Methanococcaceae; g__Methanococcus; s__Methanococcus vannielii [Methanococcus vannielii SB]
+	AGB49863 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanomethylovorans; s__Methanomethylovorans hollandica [Methanomethylovorans hollandica DSM 15978]
+	ALT69134 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobrevibacter; s__Methanobrevibacter millerae [Methanobrevibacter millerae]
+	CBH39484 lineage=r__Root; d__Archaea [uncultured archaeon]
+	KQM10793 lineage=r__Root; d__Archaea; p__Candidatus Thermoplasmatota; c__Thermoplasmata_1; o__Methanomassiliicoccales_1 [Methanomassiliicoccales archaeon RumEn M2]
+	OFV65745.1 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales [Candidatus Syntrophoarchaeum butanivorans]
+	WP_042708239.1 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobrevibacter; s__Methanobrevibacter wolinii [Methanobrevibacter wolinii]
+	2518787893 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia [Methanoflorens stordalenmirensis]
+	ABR56844 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci; o__Methanococcales; f__Methanococcaceae; g__Methanococcus; s__Methanococcus aeolicus [Methanococcus aeolicus Nankai-3]
+	AGF92161 lineage=r__Root; d__Archaea [uncultured archaeon]
+	CCJ36661 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanomicrobiaceae; g__Methanoculleus; s__Methanoculleus bourgensis [Methanoculleus bourgensis MS2]
+	KUE73676 lineage=r__Root; d__Archaea; p__Candidatus Thermoplasmatota; c__Thermoplasmata_1; o__Methanomassiliicoccales_1; f__Candidatus Methanomethylophilaceae; g__Candidatus Methanomethylophilus; s__Candidatus Methanomethylophilus sp. 1R26 [Candidatus Methanomethylophilus sp. 1R26]
+	OFV65760.1 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales [Candidatus Syntrophoarchaeum butanivorans]
+	WP_048080940.1 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium [Methanobacterium]
+	2617404690 lineage=r__Root; d__Archaea [M. Mx2]
+	ABS55100 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanoregulaceae; g__Methanoregula; s__Methanoregula boonei [Methanoregula boonei 6A8]
+	2774014847 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Thermoplasmata; o__Methanomassiliicoccales [Unclassified Methanomassiliicoccales JZ-2 bin_168]
+	AGI47474 lineage=r__Root; d__Archaea; p__Candidatus Thermoplasmatota; c__Thermoplasmata_1; o__Thermoplasmatales [Thermoplasmatales archaeon BRNA1]
+	AMK15668 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobrevibacter; s__Methanobrevibacter olleyae [Methanobrevibacter olleyae]
+	EET29231 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci; o__Methanococcales; f__Methanocaldococcaceae; g__Methanocaldococcus; s__Methanocaldococcus vulcanius [Methanocaldococcus vulcanius M7]
+	KUK43252 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanotrichaceae; g__Methanothrix; s__Methanosaeta harundinacea [Methanosaeta harundinacea]
+	OFV67773.1 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales [Candidatus Syntrophoarchaeum caldarius]
+	2774016226 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Hadesarchaea [Unclassified Hadesarchaeota JZ-2 bin_199]
+	ADI36785 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci; o__Methanococcales; f__Methanococcaceae; g__Methanococcus; s__Methanococcus voltae [Methanococcus voltae A3]
+	AGN17395 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobrevibacter; s__Methanobrevibacter sp. AbM4 [Methanobrevibacter sp. AbM4]
+	AMK15936 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobrevibacter; s__Methanobrevibacter olleyae [Methanobrevibacter olleyae]
+	EET30029 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci; o__Methanococcales; f__Methanocaldococcaceae; g__Methanocaldococcus; s__Methanocaldococcus vulcanius [Methanocaldococcus vulcanius M7]
+	KUL02431 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales [Methanomicrobiales archaeon 53_19]
+	OFV68281.1 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales [Candidatus Syntrophoarchaeum caldarius]
+	ADI73798 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanohalobium; s__Methanohalobium evestigatum [Methanohalobium evestigatum Z-7303]
+	AGN26871 lineage=r__Root; d__Archaea; p__Candidatus Thermoplasmatota; c__Thermoplasmata_1; o__Methanomassiliicoccales_1; f__Methanomassiliicoccaceae; g__Methanomassiliicoccus; s__Candidatus Methanomassiliicoccus intestinalis [Candidatus Methanomassiliicoccus intestinalis Issoire-Mx1]
+	ANME2a2303 lineage=r__Root; d__Archaea [ANME-2a]
+	EHF09948 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanoregulaceae; g__Methanolinea; s__Methanolinea tarda [Methanolinea tarda NOBI-1]
+	KXS44245 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanolobus; s__Methanolobus sp. T82-4 [Methanolobus sp. T82-4]
+	OFV68676.1 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales [Candidatus Syntrophoarchaeum caldarius]
+	2774018586 lineage=r__Root; d__Archaea; p__Crenarchaeota [Unclassified Crenarchaetoa JZ-2 bin_220]
+	AHY86394 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobrevibacter; s__Methanobrevibacter sp. D5 [Methanobrevibacter sp. D5]
+	ANME3_10_Genus_species_strain_strain_7 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanovorans [ANME-3 sp. HMMV]
+	EHP86352 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci; o__Methanococcales; f__Methanocaldococcaceae; g__Methanotorris; s__Methanotorris formicicus [Methanotorris formicicus Mc-S-70]
+	LBLEPAFP_38_Anme_HMMV2_1 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanovorans [ANME-3 sp. HMMV2]
+	AAM01870 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanopyri; o__Methanopyrales; f__Methanopyraceae; g__Methanopyrus; s__Methanopyrus kandleri [Methanopyrus kandleri AV19]
+	AEF96001 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci; o__Methanococcales; f__Methanocaldococcaceae; g__Methanotorris; s__Methanotorris igneus [Methanotorris igneus Kol 5]
+	AKB38845 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanosarcina; s__Methanosarcina siciliae [Methanosarcina siciliae C2J]
+	AUB60672 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium; s__Methanobacterium subterraneum [Methanobacterium subterraneum]
+	ENN96460 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci; o__Methanococcales; f__Methanocaldococcaceae; g__Methanocaldococcus; s__Methanocaldococcus villosus [Methanocaldococcus villosus KIN24-T80]
+	LDLILCAP_37_Genus_species_strain_strain_9 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanogasteraceae; g__Methanogaster [ANME-2c sp. HMMV-459B1]
+	RZB32666.1 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales [Candidatus Argoarchaeum ethanivorans]
+	AAU82276 lineage=r__Root; d__Archaea [uncultured archaeon GZfos13E1]
+	AEF96774 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci; o__Methanococcales; f__Methanocaldococcaceae; g__Methanotorris; s__Methanotorris igneus [Methanotorris igneus Kol 5]
+	AKB45682 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanosarcina; s__Methanosarcina vacuolata [Methanosarcina vacuolata Z-761]
+	AUD55425 lineage=r__Root; d__Archaea; p__Euryarchaeota [uncultured euryarchaeote]
+	ETA68796 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanolobus; s__Methanolobus tindarius [Methanolobus tindarius DSM 2278]
+	AEH06926 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci; o__Methanococcales; f__Methanococcaceae; g__Methanothermococcus; s__Methanothermococcus okinawensis [Methanothermococcus okinawensis IH1]
+	AKB49151 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanosarcina; s__Methanosarcina sp. Kolksee [Methanosarcina sp. Kolksee]
+	AWX32581 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanosphaera; s__Methanosphaera sp. BMS [Methanosphaera sp. BMS]
+	EURA2336EURA1606 lineage=r__Root; d__Archaea [ANME-1-THS]
+	SUPR01000026.1 lineage=r__Root; d__Archaea; p__Candidatus Helarchaeota [Hel_GB_B]
+	ABE53268 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanococcoides; s__Methanococcoides burtonii [Methanococcoides burtonii DSM 6242]
+	AFI62033 lineage=r__Root; d__Archaea [uncultured archaeon]
+	AKB82918 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanosarcina; s__Methanosarcina barkeri [Methanosarcina barkeri 3]
+	MSPA0772 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanosphaera; s__Methanosphaera cuniculi [M. cuniculi_mrt]
+	ABK14360 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanotrichaceae; g__Methanothrix; s__Methanothrix thermoacetophila [Methanothrix thermoacetophila PT]
+	AFI62037 lineage=r__Root; d__Archaea [uncultured archaeon]
+	AKB84612 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanococcoides; s__Methanococcoides methylutens [Methanococcoides methylutens MM1]
+	AYQ54575 lineage=r__Root; d__Archaea; p__Candidatus Thermoplasmatota; c__Thermoplasmata_1; o__Methanomassiliicoccales_1; f__Candidatus Methanomethylophilaceae; g__Candidatus Methanomethylophilus; s__Candidatus Methanomethylophilus alvus [Candidatus Methanomethylophilus alvus]
+	MSRA2291MSRA2292 lineage=r__Root; d__Archaea [ANME-2c]
+	WP_018154763.1 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci; o__Methanococcales; f__Methanococcaceae; g__Methanothermococcus; s__Methanothermococcus thermolithotrophicus [Methanothermococcus thermolithotrophicus]
+	ABN07237 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanocorpusculaceae; g__Methanocorpusculum; s__Methanocorpusculum labreanum [Methanocorpusculum labreanum Z]
+	AFI62039 lineage=r__Root; d__Archaea [uncultured archaeon]
+	AL1256114219 lineage=r__Root; d__Archaea [M. natro-ASL]
+	BAI60588 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanocellales; f__Methanocellaceae; g__Methanocella; s__Methanocella paludicola [Methanocella paludicola SANAE]
+	KDE55005 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanomicrobiaceae; g__Methanoculleus; s__Methanoculleus sp. MH98A [Methanoculleus sp. MH98A]
+	NM128664353 lineage=r__Root; d__Archaea [NM1b_pc1]
+	AGF92163 lineage=r__Root; d__Archaea [uncultured archaeon]
+	KUG15452 lineage=r__Root [hydrocarbon metagenome]
+	OFV67021.1 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales [Candidatus Syntrophoarchaeum butanivorans]
+	WP_048081846.1 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobacterium [Methanobacterium]
+
+23/04 10:09:32 DEBUG:
+Finalizing representative sequence clusters... 
+23/04 10:09:32 DEBUG:
+done.
+
+23/04 10:09:32 DEBUG:
+460 sequences were excluded after synchronizing FASTA.
+
+23/04 10:09:32 DEBUG:
+12 sequences were excluded after synchronizing FASTA.
+
+23/04 10:09:32 DEBUG:
+472 sequences were excluded after synchronizing FASTA.
+
+23/04 10:09:32 INFO:
+12 reference sequences were resolved by updating sequences:
+	2774024479 lineage=r__Root; d__Archaea; p__Candidatus Verstraetearchaeota [Unclassified Verstraetearchaeota JZ-3 bin_107]
+	AEV59717 lineage=r__Root; d__Archaea [uncultured archaeon]
+	ALG76131 lineage=r__Root; d__Archaea [uncultured archaeon]
+	M0343248034144 lineage=r__Root; d__Archaea [M. archaeon]
+	MAGS01000030.1 lineage=r__Root; d__Archaea; p__Candidatus Verstraetearchaeota; c__Candidatus Methanomethylia; o__Candidatus Methanomethyliales; f__Candidatus Methanomethyliaceae; g__Candidatus Methanomethylicus [Candidatus Methanomethylicus mesodigestum isolate V1 V1 s30]
+	MN1LE27704677 lineage=r__Root; d__Archaea [NM1a_pc1]
+	MN1LE99113100777 lineage=r__Root; d__Archaea [NM1a]
+	NM17892456 lineage=r__Root; d__Archaea [NM1b]
+	NM3LE45496204 lineage=r__Root; d__Archaea [NM3]
+	NM412872330390 lineage=r__Root; d__Archaea [ANM41]
+	NM423249334157 lineage=r__Root; d__Archaea [NM4]
+	TDA25649.1 lineage=r__Root; d__Archaea; p__Euryarchaeota; c__Archaeoglobi [Archaeoglobi archaeon]
+
+23/04 10:09:32 INFO:
+238 assigned sequence(s) will be used in the update.
+
+23/04 10:09:32 INFO:
+
+##			Creating TreeSAPP reference package			##
+
+23/04 10:09:32 INFO:
+Arguments used:
+-i /home/connor/Bioinformatics/Hallam_projects/McrA_census/ProcessedData/TreeSAPP_output/updates/IMG_Archaeal_MAGs_update/intermediates/all_refs.fasta -c McrA -p 0.97 -m prot --guarantee /home/connor/Bioinformatics/Hallam_projects/McrA_census/ProcessedData/TreeSAPP_output/updates/IMG_Archaeal_MAGs_update/intermediates/original_refs.fasta -o /home/connor/Bioinformatics/Hallam_projects/McrA_census/ProcessedData/TreeSAPP_output/updates/IMG_Archaeal_MAGs_update/ --accession2lin /home/connor/Bioinformatics/Hallam_projects/McrA_census/ProcessedData/TreeSAPP_output/updates/IMG_Archaeal_MAGs_update/intermediates/accession_id_lineage_map.tsv --num_procs 8 --bootstraps 0 --stage support --trim_align --fast --cluster --headless --min_taxonomic_rank r
+
+23/04 10:09:32 WARNING:
+Unable to run 'support' as it is ahead of the last completed stage.
+Continuing with stage 'clean'
+
+23/04 10:09:32 DEBUG:
+/home/connor/Bioinformatics/Hallam_projects/McrA_census/ProcessedData/TreeSAPP_output/updates/IMG_Archaeal_MAGs_update/intermediates/all_refs.fasta read by pyfastx in 0.0027849674224853516 seconds.
+
+23/04 10:09:32 DEBUG:
+Read 434 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/McrA_census/ProcessedData/TreeSAPP_output/updates/IMG_Archaeal_MAGs_update/intermediates/all_refs.fasta'.
+
+23/04 10:09:32 DEBUG:
+/home/connor/Bioinformatics/Hallam_projects/McrA_census/ProcessedData/TreeSAPP_output/updates/IMG_Archaeal_MAGs_update/intermediates/all_refs.fasta read by pyfastx in 0.002655506134033203 seconds.
+
+23/04 10:09:32 DEBUG:
+Read 434 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/McrA_census/ProcessedData/TreeSAPP_output/updates/IMG_Archaeal_MAGs_update/intermediates/all_refs.fasta'.
+
+23/04 10:09:32 DEBUG:
+Identified and replaced invalid ambiguity characters in 0 sequences.
+
+23/04 10:09:32 INFO:
+Sequence summary:
+	Number of sequences: 434
+	Longest sequence length: 733
+	Shortest sequence length: 402
+	Mean sequence length: 553.0
+	Median sequence length: 557.0
+
+23/04 10:09:32 DEBUG:
+Read 196 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/McrA_census/ProcessedData/TreeSAPP_output/updates/IMG_Archaeal_MAGs_update/intermediates/original_refs.fasta'.
+
+23/04 10:09:32 INFO:
+Extracting information from headers... 
+23/04 10:09:32 INFO:
+done.
+
+23/04 10:09:32 DEBUG:
+	Number of input sequences = 434
+
+23/04 10:09:32 INFO:
+Reading cached lineages in '/home/connor/Bioinformatics/Hallam_projects/McrA_census/ProcessedData/TreeSAPP_output/updates/IMG_Archaeal_MAGs_update/intermediates/accession_id_lineage_map.tsv'... 
+23/04 10:09:32 INFO:
+done.
+
+23/04 10:09:32 DEBUG:
+Resolving conflicting lineages within taxonomic hierarchy... 
+23/04 10:09:32 DEBUG:
+Conflicting nodes 'Thermoplasmata' and 'Thermoplasmata_1' both had valid ranks so the more popular one (Thermoplasmata = 37) was selected to represent.
+
+23/04 10:09:32 DEBUG:
+Conflicting nodes 'Methanomassiliicoccales' and 'Methanomassiliicoccales_1' both had valid ranks so the more popular one (Methanomassiliicoccales = 36) was selected to represent.
+
+23/04 10:09:32 DEBUG:
+Conflicting nodes 'Methanosaetaceae' and 'Methanotrichaceae' both had valid ranks so the more popular one (Methanosaetaceae = 22) was selected to represent.
+
+23/04 10:09:32 DEBUG:
+Taxonomic hierarchy conflicts were fixed by merging the left into the right:
+	'Thermoplasmata_1' (class) -> 'Thermoplasmata' (class)
+	'Methanomassiliicoccales_1' (order) -> 'Methanomassiliicoccales' (order)
+	'Methanotrichaceae' (family) -> 'Methanosaetaceae' (family)
+
+23/04 10:09:32 DEBUG:
+Taxon name 'o__Methanomassiliicoccales_1' not present in taxonomic hierarchy.
+
+23/04 10:09:32 DEBUG:
+Taxon name 'o__Methanomassiliicoccales_1' not present in taxonomic hierarchy.
+
+23/04 10:09:32 DEBUG:
+Taxon name 'c__Thermoplasmata_1' not present in taxonomic hierarchy.
+
+23/04 10:09:32 DEBUG:
+Taxon name 'p__Candidatus Thermoplasmatota' not present in taxonomic hierarchy.
+
+23/04 10:09:32 DEBUG:
+done.
+
+23/04 10:09:32 DEBUG:
+Repairing any taxonomic lineages lacking rank prefixes... 
+23/04 10:09:32 DEBUG:
+Preparing Bio.Entrez for NCBI queries... 
+23/04 10:09:33 DEBUG:
+done.
+
+23/04 10:09:33 DEBUG:
+done.
+
+23/04 10:09:33 DEBUG:
+Rooting domains in taxonomic hierarchy... 
+23/04 10:09:33 DEBUG:
+done.
+
+23/04 10:09:33 DEBUG:
+Validating lineages of all entrez records... 
+23/04 10:09:33 DEBUG:
+done.
+
+23/04 10:09:33 INFO:
+Clustering sequences with MMSeqs' Linclust... 
+23/04 10:09:34 INFO:
+done.
+
+23/04 10:09:34 DEBUG:
+	430 sequence clusters
+
+23/04 10:09:34 DEBUG:
+0 former representative sequences were succeeded by 'guaranteed-sequences'.
+
+23/04 10:09:34 DEBUG:
+Finalizing representative sequence clusters... 
+23/04 10:09:34 DEBUG:
+done.
+
+23/04 10:09:34 DEBUG:
+4 sequences were excluded after synchronizing FASTA.
+
+23/04 10:09:34 DEBUG:
+Re-enumerating the reference sequences in taxonomic order... 
+23/04 10:09:34 DEBUG:
+done.
+
+23/04 10:09:34 DEBUG:
+434 references before and 430 remaining after filtering.
+
+23/04 10:09:34 DEBUG:
+Removing 4 taxa (4 unique) from taxonomic hierarchy.
+
+23/04 10:09:34 INFO:
+Number of unique lineages:
+	root       1
+	domain     1
+	phylum     5
+	class     10
+	order     12
+	family    20
+	genus     42
+	species   95
+Unclassified and incomplete lineages account for 301/430 (70.0%) references.
+
+23/04 10:09:34 INFO:
+Aligning the sequences using MAFFT... 
+23/04 10:09:46 INFO:
+done.
+
+23/04 10:09:46 DEBUG:
+Read 430 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/McrA_census/ProcessedData/TreeSAPP_output/updates/IMG_Archaeal_MAGs_update/final_outputs/McrA.fa'.
+
+23/04 10:09:46 DEBUG:
+Reference alignment contains 430 sequences with 899 character positions.
+
+23/04 10:09:46 DEBUG:
+Building HMM profile... 
+23/04 10:09:46 DEBUG:
+done.
+
+23/04 10:09:46 DEBUG:
+Creating taxonomically-dereplicated HMM... 
+23/04 10:09:46 DEBUG:
+Read 430 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/McrA_census/ProcessedData/TreeSAPP_output/updates/IMG_Archaeal_MAGs_update/final_outputs/McrA.fa'.
+
+23/04 10:09:46 DEBUG:
+0 lineages truncated before 'genus' were removed during lineage trimming.
+
+23/04 10:09:46 DEBUG:
+356 sequences were excluded after synchronizing FASTA.
+
+23/04 10:09:48 DEBUG:
+Building HMM profile... 
+23/04 10:09:48 DEBUG:
+done.
+
+23/04 10:09:48 DEBUG:
+done.
+
+23/04 10:09:48 DEBUG:
+74 genus-dereplicated sequences retained for building HMM profile.
+
+23/04 10:09:48 INFO:
+Running BMGE... 
+23/04 10:09:48 DEBUG:
+STAGE: Multiple alignment trimming with BMGE
+	COMMAND:
+java -Xmx512m -jar /home/connor/Bioinformatics/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp/sub_binaries/BMGE.jar -t AA -m BLOSUM30 -g 0.99:0.33 -i /home/connor/Bioinformatics/Hallam_projects/McrA_census/ProcessedData/TreeSAPP_output/updates/IMG_Archaeal_MAGs_update/final_outputs/McrA.fa -of /home/connor/Bioinformatics/Hallam_projects/McrA_census/ProcessedData/TreeSAPP_output/updates/IMG_Archaeal_MAGs_update/final_outputs/McrA-BMGE.fasta
+
+23/04 10:09:48 INFO:
+done.
+
+23/04 10:09:48 DEBUG:
+	BMGE time required: 0.0:0.0:0.36
+
+23/04 10:09:49 DEBUG:
+Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/McrA_census/ProcessedData/TreeSAPP_output/updates/IMG_Archaeal_MAGs_update/final_outputs/McrA-BMGE.fasta = 0 (retained)
+
+23/04 10:09:49 INFO:
+Building phylogenetic tree with FastTree... 
+23/04 10:10:03 INFO:
+done.
+
+23/04 10:10:03 DEBUG:
+FastTree Version 2.1.11 Double precision (No SSE3)
+Alignment: /home/connor/Bioinformatics/Hallam_projects/McrA_census/ProcessedData/TreeSAPP_output/updates/IMG_Archaeal_MAGs_update/intermediates/McrA.phy
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Le-Gascuel 2008, CAT approximation with 4 rate categories
+      0.13 seconds: Joined    200 of    427
+Initial topology in 0.25 seconds
+Refining topology: 35 rounds ME-NNIs, 2 rounds ME-SPRs, 17 rounds ML-NNIs
+      0.24 seconds: ME NNI round 1 of 35, 1 of 428 splits
+      0.40 seconds: SPR round   1 of   2, 101 of 858 nodes
+      0.60 seconds: SPR round   1 of   2, 301 of 858 nodes
+      0.80 seconds: SPR round   1 of   2, 501 of 858 nodes
+      0.96 seconds: SPR round   1 of   2, 701 of 858 nodes
+      1.10 seconds: ME NNI round 12 of 35, 1 of 428 splits
+      1.20 seconds: SPR round   2 of   2, 101 of 858 nodes
+      1.36 seconds: SPR round   2 of   2, 301 of 858 nodes
+      1.47 seconds: SPR round   2 of   2, 401 of 858 nodes
+      1.66 seconds: SPR round   2 of   2, 601 of 858 nodes
+      1.86 seconds: SPR round   2 of   2, 801 of 858 nodes
+Total branch-length 25.511 after 1.95 sec
+      2.15 seconds: ML Lengths 101 of 428 splits
+      2.35 seconds: ML Lengths 201 of 428 splits
+      2.54 seconds: ML Lengths 301 of 428 splits
+      2.73 seconds: ML Lengths 401 of 428 splits
+      3.46 seconds: ML NNI round 1 of 17, 101 of 428 splits, 8 changes (max delta 3.495)
+      4.09 seconds: ML NNI round 1 of 17, 201 of 428 splits, 19 changes (max delta 7.321)
+      4.75 seconds: ML NNI round 1 of 17, 301 of 428 splits, 37 changes (max delta 13.072)
+      5.40 seconds: ML NNI round 1 of 17, 401 of 428 splits, 53 changes (max delta 13.072)
+ML-NNI round 1: LogLk = -87036.161 NNIs 58 max delta 13.07 Time 5.60
+      5.69 seconds: Site likelihoods with rate category 1 of 4
+      5.87 seconds: Site likelihoods with rate category 3 of 4
+Switched to using 4 rate categories (CAT approximation)
+Rate categories were divided by 1.055 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+      6.11 seconds: ML NNI round 2 of 17, 1 of 428 splits
+      6.39 seconds: ML NNI round 2 of 17, 101 of 428 splits, 4 changes (max delta 5.708)
+      6.72 seconds: ML NNI round 2 of 17, 201 of 428 splits, 7 changes (max delta 5.708)
+      7.02 seconds: ML NNI round 2 of 17, 301 of 428 splits, 13 changes (max delta 5.708)
+      7.45 seconds: ML NNI round 2 of 17, 401 of 428 splits, 22 changes (max delta 8.463)
+ML-NNI round 2: LogLk = -82237.217 NNIs 23 max delta 8.46 Time 7.57
+      7.56 seconds: ML NNI round 3 of 17, 1 of 428 splits
+      7.81 seconds: ML NNI round 3 of 17, 101 of 428 splits, 2 changes (max delta 5.534)
+      8.11 seconds: ML NNI round 3 of 17, 201 of 428 splits, 3 changes (max delta 13.061)
+ML-NNI round 3: LogLk = -82212.861 NNIs 3 max delta 13.06 Time 8.26
+      8.26 seconds: ML NNI round 4 of 17, 1 of 428 splits
+      8.42 seconds: ML NNI round 4 of 17, 101 of 428 splits, 0 changes
+ML-NNI round 4: LogLk = -82212.801 NNIs 0 max delta 0.00 Time 8.48
+Turning off heuristics for final round of ML NNIs (converged)
+      9.17 seconds: ML NNI round 5 of 17, 101 of 428 splits, 4 changes (max delta 2.230)
+      9.85 seconds: ML NNI round 5 of 17, 201 of 428 splits, 5 changes (max delta 2.830)
+     10.54 seconds: ML NNI round 5 of 17, 301 of 428 splits, 5 changes (max delta 2.830)
+     11.19 seconds: ML NNI round 5 of 17, 401 of 428 splits, 8 changes (max delta 2.847)
+ML-NNI round 5: LogLk = -82165.241 NNIs 8 max delta 2.85 Time 11.39 (final)
+     11.38 seconds: ML Lengths 1 of 428 splits
+     11.58 seconds: ML Lengths 101 of 428 splits
+     11.76 seconds: ML Lengths 201 of 428 splits
+     11.95 seconds: ML Lengths 301 of 428 splits
+     12.14 seconds: ML Lengths 401 of 428 splits
+Optimize all lengths: LogLk = -82162.735 Time 12.20
+     12.74 seconds: ML split tests for    100 of    427 internal splits
+     13.27 seconds: ML split tests for    200 of    427 internal splits
+     13.80 seconds: ML split tests for    300 of    427 internal splits
+     14.32 seconds: ML split tests for    400 of    427 internal splits
+     14.56 seconds: Site likelihoods with rate category 1 of 4
+     14.74 seconds: Site likelihoods with rate category 3 of 4
+     14.92 seconds: Optimizing alpha round 1
+Gamma(4) LogLk = -82759.635 alpha = 1.004 rescaling lengths by 1.093
+Total time: 14.93 seconds Unique: 430/430 Bad splits: 2/427 Worst delta-LogLk 6.770
+
+
+23/04 10:10:03 DEBUG:
+Evaluating phylogenetic tree with RAxML-NG... 
+23/04 10:10:06 DEBUG:
+done.
+
+23/04 10:10:06 INFO:
+Skipping training:
+$ treesapp train -i /home/connor/Bioinformatics/Hallam_projects/McrA_census/ProcessedData/TreeSAPP_output/updates/IMG_Archaeal_MAGs_update/intermediates/all_refs_filtered.fa -r /home/connor/Bioinformatics/Hallam_projects/McrA_census/ProcessedData/TreeSAPP_output/updates/IMG_Archaeal_MAGs_update/final_outputs/McrA_build.pkl -o /home/connor/Bioinformatics/Hallam_projects/McrA_census/ProcessedData/TreeSAPP_output/updates/IMG_Archaeal_MAGs_update/intermediates/placement_trainer/ -m prot --num_procs 8 --max_examples 1000 --svm_kernel lin --trim_align -a /home/connor/Bioinformatics/Hallam_projects/McrA_census/ProcessedData/TreeSAPP_output/updates/IMG_Archaeal_MAGs_update/intermediates/accession_id_lineage_map.tsv.
+
+23/04 10:10:06 INFO:
+
+To integrate this package for use in TreeSAPP you must copy /home/connor/Bioinformatics/Hallam_projects/McrA_census/ProcessedData/TreeSAPP_output/updates/IMG_Archaeal_MAGs_update/final_outputs/McrA_build.pkl to a directory containing other reference packages you want to analyse. This may be in /home/connor/Bioinformatics/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp//data/ or elsewhere
+
+23/04 10:10:06 INFO:
+Summary of the updated reference package:
+ReferencePackage instance of McrA (0423.1619159847):
+	Molecule type:                                      'prot'
+	TreeSAPP version:                                   '0.11.0'
+	Profile HMM length:                                 '553'
+	Substitution model used for phylogenetic inference: 'LG+G4'
+	Number of reference sequences (leaf nodes):          430
+	Software used to infer phylogeny:                   'FastTree'
+	Date of last update:                                '2021-04-23'
+	Description:                                        ''
+
+
+23/04 10:10:06 DEBUG:
+	New sequences  = 222
+	Old HMM length = 554
+	New HMM length = 553
+
+23/04 10:10:06 INFO:
+TreeSAPP has finished successfully.
+

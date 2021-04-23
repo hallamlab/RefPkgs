@@ -1,4 +1,4 @@
-HMMER3/f [3.3 | Nov 2019]
+HMMER3/f [3.3.2 | Nov 2020]
 NAME  NosZ
 LENG  586
 ALPH  amino
@@ -7,7 +7,7 @@ MM    no
 CONS  yes
 CS    no
 MAP   yes
-DATE  Thu Dec  3 21:35:12 2020
+DATE  Thu Apr 22 20:49:36 2021
 NSEQ  26
 EFFN  1.012451
 CKSUM 2201513806
