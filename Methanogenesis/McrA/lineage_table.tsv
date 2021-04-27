@@ -3,6 +3,9 @@ AggC03_149_14	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomi
 PHJCHKPG_3_ANME_sp._SA_14	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanophagales; n__unclassified Methanophagales	ANME-1 sp. SA
 Ga0123271_1456_6	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanophagales; n__unclassified Methanophagales	ANME-1 sp. CONS3730MDAH03UFb1
 Ga0123266_1025_13	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanophagales; n__unclassified Methanophagales	ANME-1 sp. CONS3730B06UFb1
+Ga0123293_1206_5	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanophagales; n__unclassified Methanophagales	ANME-1 sp. CONS3730F07p2b1
+scaffold21_size25442_G60_A1_G60_A1_12	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanophagales; n__unclassified Methanophagales	ANME-1 sp. GB60
+scaffold1_size602113_G37_A1_v2_G37_A1_v2_572	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanophagales; n__unclassified Methanophagales	ANME-1 sp. GB37
 GOMG4_62_Anme_sp._GoMg4_4	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanophagales; n__unclassified Methanophagales	ANME-1 sp. GoMg4
 gnl_CIT_PRJEB7694_contig000005_7	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanophagales; n__unclassified Methanophagales	ANME-1 sp. SCGC_AAA252-L18
 GOMG1_24_Anme_sp._GoMg1_17	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanophagales; n__unclassified Methanophagales	ANME-1 sp. GoMg1
@@ -25,6 +28,7 @@ GZfos30H9_36	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomic
 GZfos33H6_32	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanophagales; n__unclassified Methanophagales	ANME-1 sp. ERB7
 GZfos33H6_3436057_1_8	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanophagales; n__unclassified Methanophagales	ANME-1 sp. ERB7
 FP565147.1	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanophagales	ANME-1 sp. Meyerdierks
+EURA2336EURA1606	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanophagales	ANME-1-THS
 AAU82374	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanophagales; n__unclassified Methanophagales	uncultured archaeon GZfos17A3
 AAU83544	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanophagales; n__unclassified Methanophagales	uncultured archaeon GZfos30H9
 AAU83782	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanophagales; n__unclassified Methanophagales	uncultured archaeon GZfos33H6
@@ -35,6 +39,7 @@ MAGV01000073.1	d__Archaea; n__TACK group; p__Candidatus Verstraetearchaeota; c__
 MAGU01000068.1	d__Archaea; n__TACK group; p__Candidatus Verstraetearchaeota; c__Candidatus Methanomethylia; o__Candidatus Methanomethyliales; f__Candidatus Methanomethyliaceae; g__Candidatus Methanomethylicus	Candidatus Methanomethylicus oleusabulum isolate V3 V3 s66
 MAGT01000008.1	d__Archaea; p__Candidatus Verstraetearchaeota; c__Candidatus Methanomethylia; o__Candidatus Methanomethyliales; f__Candidatus Methanomethyliaceae; g__Candidatus Methanomethylicus; s__Candidatus Methanomethylicus mesodigestum	Candidatus Methanomethylicus mesodigestum
 2774017087	d__Archaea; p__Candidatus Verstraetearchaeota	Unclassified Verstraetearchaeota JZ-2 bin_200
+2774021194	d__Archaea; p__Candidatus Verstraetearchaeota	Unclassified Verstraetearchaeota JZ-3 bin_106
 2774023652	d__Archaea; p__Candidatus Verstraetearchaeota	Unclassified Verstraetearchaeota DRTY-6 bin_144
 MAGS01000030.1	d__Archaea; n__TACK group; p__Candidatus Verstraetearchaeota; c__Candidatus Methanomethylia; o__Candidatus Methanomethyliales; f__Candidatus Methanomethyliaceae; g__Candidatus Methanomethylicus	Candidatus Methanomethylicus mesodigestum isolate V1 V1 s30
 MOV32776929439	d__Archaea; p__Candidatus Verstraetearchaeota; c__Candidatus Methanomethylia; o__Candidatus Methanomethyliales; f__Candidatus Methanomethyliaceae; g__Candidatus Methanomethylicus; s__Candidatus Methanomethylicus oleusabulum	Candidatus Methanomethylicus oleusabulum
@@ -53,11 +58,11 @@ NM648286489	d__Archaea	NM2
 2774025851	d__Archaea; p__Crenarchaeota; n__unclassified Crenarchaeota	Unclassified Crenarchaeota ZMQR bin_18
 Ga0123279_1026_2	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanosarcinales; f__Methanocomedenaceae; g__Methanocomedens	ANME-2a sp. CONS7142G09b1
 EAHJLNLH_169_Anme_sp._S7142MS1_5	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanosarcinales; f__Methanocomedenaceae; g__Methanocomedens	ANME-2a sp. S7142MS1
+ANME2a2_Scaffold65.65_unknown	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanosarcinales; f__Methanocomedenaceae; g__Methanocomedens	ANME-2a sp. Wang
 scaffold1_size602113_G37_A1_v2_G37_A1_v2_572	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanophagales; n__unclassified Methanophagales	ANME-1 sp. GB37
 GZfos15C8_A09057_1_15	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanosarcinales; f__Methanogasteraceae; g__Methanogaster	ANME-2c sp. ERB4
 JCNPLBNJ_63_14	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanosarcinales; f__Methanogasteraceae; g__Methanogaster	ANME-2c sp. COP1
 5133_contig_8396_join_504_23	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanosarcinales; f__Methanocomedenaceae; g__Methanomarinus	ANME-2b sp. HR1
-MN1LE27704677	d__Archaea	NM1a_pc1
 NM3LE45496204	d__Archaea	NM3
 SUPR01000026.1	d__Archaea; n__Asgard group; p__Candidatus Helarchaeota	Hel_GB_B 
 AL1256114219	d__Archaea	M. natro-ASL
@@ -66,16 +71,13 @@ lcl_contig000006_E20_A2_E20_A2_104	d__Archaea; p__Euryarchaeota; n__Stenosarchae
 BCPHJLHL_1_Genus_species_strain_strain_25	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanosarcinales; f__Methanocomedenaceae; g__Methanocomedens 	ANME-2a sp. HMMV-459B4
 ANME3_10_Genus_species_strain_strain_7	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanovorans 	ANME-3 sp. HMMV
 MSRB0112	d__Archaea	Gom-Arc1-GOS
-EURA2336EURA1606	d__Archaea	ANME-1-THS
 2774014847	d__Archaea; p__Euryarchaeota; n__Diaforarchaea group; c__Thermoplasmata; o__Methanomassiliicoccales	Unclassified Methanomassiliicoccales JZ-2 bin_168
 2774016231	d__Archaea; p__Euryarchaeota; c__Hadesarchaea; n__unclassified Hadesarchaeota	Unclassified Hadesarchaeota JZ-2 bin_199
 2774016226	d__Archaea; p__Euryarchaeota; c__Hadesarchaea; n__unclassified Hadesarchaeota	Unclassified Hadesarchaeota JZ-2 bin_199
 LBLEPAFP_38_Anme_HMMV2_1	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanovorans	ANME-3 sp. HMMV2
-MN1LE99113100777	d__Archaea	NM1a
 2617405898	d__Archaea	M. Mx3
 2617404690	d__Archaea	M. Mx2
 2774018586	d__Archaea; p__Crenarchaeota; n__unclassified Crenarchaeota	Unclassified Crenarchaetoa JZ-2 bin_220
-NM128664353	d__Archaea	NM1b_pc1
 MSPA0772	d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanosphaera; s__Methanosphaera cuniculi	M. cuniculi_mrt
 2518787893	d__Archaea; p__Euryarchaeota; c__Methanomicrobia	s__Methanoflorens stordalenmirensis
 2774012919	d__Archaea; p__Euryarchaeota; c__Hadesarchaea; n__unclassified Hadesarchaeota	Unclassified Hadesarchaeota JZ-1 bin_103
@@ -83,7 +85,6 @@ SUPS01000008.1	d__Archaea; n__Asgard group; p__Candidatus Helarchaeota	Hel_GB_A
 MSRA2291MSRA2292	d__Archaea	ANME-2c
 lcl_contig000001_E20_A2_E20_A2_1122	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanosarcinales; f__Methanogasteraceae; g__Methanogaster	ANME-2c sp. E20
 2774028605	d__Archaea; p__Euryarchaeota; c__Archaeoglobi; o__Archaeoglobales	Unclassified Archaeoglobales GMQP bin_32
-NM17892456	d__Archaea	NM1b
 M0343248034144	d__Archaea	M. archaeon
 KPV61791.1	d__Archaea; p__Thermoproteota; c__Bathyarchaeia; o__B26-1; f__BA1; g__BA2; s__BA2 sp001399795	Bathyarchaeota BA2 sp001399795
 KPV65186.1	d__Archaea; p__Thermoproteota; c__Bathyarchaeia; o__B26-1; f__BA1; g__BA1; s__BA1 sp001399805	Bathyarchaeota BA1 sp001399805
