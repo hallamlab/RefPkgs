@@ -24,6 +24,7 @@ GZfos30H8_3436643_1_7	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__M
 GZfos30H9_36	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanophagales; n__unclassified Methanophagales	ANME-1 sp. ERB7
 GZfos33H6_32	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanophagales; n__unclassified Methanophagales	ANME-1 sp. ERB7
 GZfos33H6_3436057_1_8	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanophagales; n__unclassified Methanophagales	ANME-1 sp. ERB7
+FP565147.1	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanophagales	ANME-1 sp. Meyerdierks
 AAU82374	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanophagales; n__unclassified Methanophagales	uncultured archaeon GZfos17A3
 AAU83544	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanophagales; n__unclassified Methanophagales	uncultured archaeon GZfos30H9
 AAU83782	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanophagales; n__unclassified Methanophagales	uncultured archaeon GZfos33H6
@@ -42,7 +43,6 @@ GZfos35D7_28	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomic
 14E1_10	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanosarcinales; f__Methanogasteraceae; g__Methanogaster	ANME-2c sp. ERB4
 GZfos26B2_2773120_1_19	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanosarcinales; f__Methanogasteraceae; g__Methanogaster	ANME-2c sp. ERB4
 GZfos26B2_4	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanosarcinales; f__Methanogasteraceae; g__Methanogaster	ANME-2c sp. ERB4
-
 AAU84044	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanosarcinales; f__Methanogasteraceae; g__Methanogaster	uncultured archaeon GZfos35D7
 2774011238	d__Archaea; p__Crenarchaeota; n__unclassified Crenarchaeota	Unclassified Crenarchaeota JZ-1 bin_66
 NM423249334157	d__Archaea	NM4
@@ -89,4 +89,3 @@ KPV61791.1	d__Archaea; p__Thermoproteota; c__Bathyarchaeia; o__B26-1; f__BA1; g_
 KPV65186.1	d__Archaea; p__Thermoproteota; c__Bathyarchaeia; o__B26-1; f__BA1; g__BA1; s__BA1 sp001399805	Bathyarchaeota BA1 sp001399805
 TDA40885.1	d__Archaea; p__Candidatus Korarchaeota	Candidatus Korarchaeota archaeon
 RSN72832.1	d__Archaea; p__Candidatus Korarchaeota	Candidatus Methanodesulfokores washburnensis
-
