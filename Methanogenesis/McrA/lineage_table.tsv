@@ -1,4 +1,5 @@
 Seq_name	lineage	organism
+AUD55425	d__Archaea	uncultured cold seep euryarchaeote
 AggC03_149_14	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanophagales; n__unclassified Methanophagales	ANME-1 sp. Agg-C03
 PHJCHKPG_3_ANME_sp._SA_14	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanophagales; n__unclassified Methanophagales	ANME-1 sp. SA
 Ga0123271_1456_6	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanophagales; n__unclassified Methanophagales	ANME-1 sp. CONS3730MDAH03UFb1
@@ -70,6 +71,7 @@ LDLILCAP_37_Genus_species_strain_strain_9	d__Archaea; p__Euryarchaeota; n__Steno
 BCPHJLHL_1_Genus_species_strain_strain_25	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanosarcinales; f__Methanocomedenaceae; g__Methanocomedens 	ANME-2a sp. HMMV-459B4
 ANME3_10_Genus_species_strain_strain_7	d__Archaea; p__Euryarchaeota; n__Stenosarchaea group; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanovorans 	ANME-3 sp. HMMV
 MSRB0112	d__Archaea	Gom-Arc1-GOS
+AMK13668.1	d__Archaea; p__Euryarchaeota; c__Thermoplasmata; o__Methanomassiliicoccales; f__Methanomassiliicoccaceae; g__ISO4-G1	methanogenic archaeon mixed culture ISO4-G1
 2774014847	d__Archaea; p__Euryarchaeota; n__Diaforarchaea group; c__Thermoplasmata; o__Methanomassiliicoccales	Unclassified Methanomassiliicoccales JZ-2 bin_168
 2774016231	d__Archaea; p__Euryarchaeota; c__Hadesarchaea; n__unclassified Hadesarchaeota	Unclassified Hadesarchaeota JZ-2 bin_199
 2774016226	d__Archaea; p__Euryarchaeota; c__Hadesarchaea; n__unclassified Hadesarchaeota	Unclassified Hadesarchaeota JZ-2 bin_199
@@ -89,3 +91,11 @@ KPV61791.1	d__Archaea; p__Thermoproteota; c__Bathyarchaeia; o__B26-1; f__BA1; g_
 KPV65186.1	d__Archaea; p__Thermoproteota; c__Bathyarchaeia; o__B26-1; f__BA1; g__BA1; s__BA1 sp001399805	Bathyarchaeota BA1 sp001399805
 TDA40885.1	d__Archaea; p__Candidatus Korarchaeota	Candidatus Korarchaeota archaeon
 RSN72832.1	d__Archaea; p__Candidatus Korarchaeota	Candidatus Methanodesulfokores washburnensis
+OFV65745.1	d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Candidatus Syntropharchaeaceae; g__Candidatus Syntrophoarchaeum; s__Candidatus Syntrophoarchaeum butanivorans	Candidatus Syntrophoarchaeum butanivorans
+OFV65760.1	d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Candidatus Syntropharchaeaceae; g__Candidatus Syntrophoarchaeum; s__Candidatus Syntrophoarchaeum butanivorans	Candidatus Syntrophoarchaeum butanivorans
+OFV67021.1	d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Candidatus Syntropharchaeaceae; g__Candidatus Syntrophoarchaeum; s__Candidatus Syntrophoarchaeum butanivorans	Candidatus Syntrophoarchaeum butanivorans
+OFV67100.1	d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Candidatus Syntropharchaeaceae; g__Candidatus Syntrophoarchaeum; s__Candidatus Syntrophoarchaeum caldarius	Candidatus Syntrophoarchaeum caldarius
+OFV67773.1	d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Candidatus Syntropharchaeaceae; g__Candidatus Syntrophoarchaeum; s__Candidatus Syntrophoarchaeum caldarius	Candidatus Syntrophoarchaeum caldarius
+OFV68281.1	d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Candidatus Syntropharchaeaceae; g__Candidatus Syntrophoarchaeum; s__Candidatus Syntrophoarchaeum caldarius	Candidatus Syntrophoarchaeum caldarius
+OFV68676.1	d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Candidatus Syntropharchaeaceae; g__Candidatus Syntrophoarchaeum; s__Candidatus Syntrophoarchaeum caldarius	Candidatus Syntrophoarchaeum caldarius
+RZB32666.1	d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__EX4572-44; g__Candidatus Argoarchaeum; s__Candidatus Argoarchaeum ethanivorans	Candidatus Argoarchaeum ethanivorans
