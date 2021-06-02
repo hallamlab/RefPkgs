@@ -1,0 +1,3617 @@
+[2021-06-02 10:33:52] INFO: 
+##			Creating TreeSAPP reference package			##
+
+[2021-06-02 10:33:52] INFO: Arguments used:
+-i Translation/RadA/RadA_uniprot_reviewed.fasta -o Translation/RadA/seed_refpkg/ -c RadA --profile Translation/RadA/TIGR02236.HMM --cluster --similarity 0.97 --min_taxonomic_rank g --fast --kind taxonomic -n 8 --headless --overwrite
+
+[2021-06-02 10:33:52] DEBUG: Sequences appear to be 'prot'.
+
+[2021-06-02 10:33:52] DEBUG: Continuing with stage 'search'
+
+[2021-06-02 10:33:52] DEBUG: /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/RadA_uniprot_reviewed.fa read by pyfastx in 0.0003695487976074219 seconds.
+
+[2021-06-02 10:33:52] DEBUG: Read 80 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/RadA_uniprot_reviewed.fa'.
+
+[2021-06-02 10:33:52] DEBUG: Raw, unfiltered sequence summary:
+	Number of sequences: 80
+	Longest sequence length: 836
+	Shortest sequence length: 140
+	Mean sequence length: 312.7
+	Median sequence length: 323.0
+
+[2021-06-02 10:33:52] INFO: Searching for domain sequences... 
+[2021-06-02 10:33:53] INFO: done.
+
+[2021-06-02 10:33:53] DEBUG: Filtering HMM alignments using the following thresholds:
+	Maximum E-value = 1e-05
+	Maximum i-Evalue = 0.001
+	Minimum acc = 0.7
+	Minimum score = 20
+	Minimum percentage of the HMM covered = 60%
+	Minimum percentage of the query aligned = 60%
+
+[2021-06-02 10:33:53] INFO: Parsing HMMER domain tables for high-quality matches... 
+[2021-06-02 10:33:53] INFO: done.
+
+[2021-06-02 10:33:53] DEBUG: 	Initial alignments:	80
+	Alignments discarded:	10
+	Fragmented alignments:	4
+	Inversions detected:	0
+	Alignments scaffolded:	0
+	Multi-alignments:	0
+	Sequences identified:	70
+
+	Number of markers identified:
+		TIGR02236	70
+
+[2021-06-02 10:33:53] DEBUG: Creating a temporary dictionary for rapid sequence name look-ups... 
+[2021-06-02 10:33:53] DEBUG: done.
+
+[2021-06-02 10:33:53] INFO: Extracting the quality-controlled protein sequences... 
+[2021-06-02 10:33:53] INFO: done.
+
+[2021-06-02 10:33:53] INFO: Low coverage TIGR02236 profile windows (start-stop):
+	1-2
+
+[2021-06-02 10:33:53] INFO: Maximum coverage for TIGR02236 = 70 sequences
+
+[2021-06-02 10:33:53] DEBUG: /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/RadA_hmm_purified.fasta read by pyfastx in 0.0005638599395751953 seconds.
+
+[2021-06-02 10:33:53] DEBUG: Read 70 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/RadA_hmm_purified.fasta'.
+
+[2021-06-02 10:33:53] DEBUG: Identified and replaced invalid ambiguity characters in 0 sequences.
+
+[2021-06-02 10:33:53] INFO: Sequence summary:
+	Number of sequences: 70
+	Longest sequence length: 338
+	Shortest sequence length: 210
+	Mean sequence length: 285.1
+	Median sequence length: 309.0
+
+[2021-06-02 10:33:53] INFO: Extracting information from headers... 
+[2021-06-02 10:33:53] INFO: done.
+
+[2021-06-02 10:33:53] DEBUG: 	Number of input sequences = 70
+
+[2021-06-02 10:33:53] DEBUG: 	Number of queries =	70
+
+[2021-06-02 10:33:53] DEBUG: Preparing Bio.Entrez for NCBI queries... 
+[2021-06-02 10:33:53] DEBUG: done.
+
+[2021-06-02 10:33:53] INFO: Retrieving Entrez taxonomy records for each accession... 
+[2021-06-02 10:34:00] DEBUG: Entrez query time for accessions (minutes:seconds):
+	0 - 100	0.0:6.55
+
+[2021-06-02 10:34:00] INFO: done.
+
+[2021-06-02 10:34:00] DEBUG: 53 unique organism queries.
+
+[2021-06-02 10:34:00] INFO: Retrieving NCBI taxonomy IDs for each organism... 
+[2021-06-02 10:34:35] DEBUG: Entrez query time for accessions (minutes:seconds):
+	0 - 1	0.0:0.66
+	1 - 2	0.0:0.66
+	2 - 3	0.0:0.66
+	3 - 4	0.0:0.66
+	4 - 5	0.0:0.66
+	5 - 6	0.0:0.66
+	6 - 7	0.0:0.66
+	7 - 8	0.0:0.66
+	8 - 9	0.0:0.66
+	9 - 10	0.0:0.66
+	10 - 11	0.0:0.66
+	11 - 12	0.0:0.66
+	12 - 13	0.0:0.77
+	13 - 14	0.0:0.66
+	14 - 15	0.0:0.66
+	15 - 16	0.0:0.66
+	16 - 17	0.0:0.66
+	17 - 18	0.0:0.66
+	18 - 19	0.0:0.66
+	19 - 20	0.0:0.66
+	20 - 21	0.0:0.66
+	21 - 22	0.0:0.66
+	22 - 23	0.0:0.66
+	23 - 24	0.0:0.66
+	24 - 25	0.0:0.66
+	25 - 26	0.0:0.66
+	26 - 27	0.0:0.66
+	27 - 28	0.0:0.66
+	28 - 29	0.0:0.66
+	29 - 30	0.0:0.66
+	30 - 31	0.0:0.66
+	31 - 32	0.0:0.66
+	32 - 33	0.0:0.66
+	33 - 34	0.0:0.66
+	34 - 35	0.0:0.66
+	35 - 36	0.0:0.66
+	36 - 37	0.0:0.66
+	37 - 38	0.0:0.66
+	38 - 39	0.0:0.66
+	39 - 40	0.0:0.66
+	40 - 41	0.0:0.66
+	41 - 42	0.0:0.66
+	42 - 43	0.0:0.66
+	43 - 44	0.0:0.66
+	44 - 45	0.0:0.66
+	45 - 46	0.0:0.66
+	46 - 47	0.0:0.66
+	47 - 48	0.0:0.66
+	48 - 49	0.0:0.66
+	49 - 50	0.0:0.66
+	50 - 51	0.0:0.66
+	51 - 52	0.0:0.66
+	52 - 53	0.0:1.0
+
+[2021-06-02 10:34:35] INFO: done.
+
+[2021-06-02 10:34:35] DEBUG: Preparing Bio.Entrez for NCBI queries... 
+[2021-06-02 10:34:36] DEBUG: done.
+
+[2021-06-02 10:34:36] INFO: Retrieving lineage information for each taxonomy ID... 
+[2021-06-02 10:34:37] DEBUG: Entrez query time for accessions (minutes:seconds):
+	0 - 100	0.0:1.22
+
+[2021-06-02 10:34:37] INFO: done.
+
+[2021-06-02 10:34:37] DEBUG: Repairing any taxonomic lineages lacking rank prefixes... 
+[2021-06-02 10:34:37] DEBUG: Preparing Bio.Entrez for NCBI queries... 
+[2021-06-02 10:34:38] DEBUG: done.
+
+[2021-06-02 10:34:38] DEBUG: done.
+
+[2021-06-02 10:34:38] DEBUG: Rooting domains in taxonomic hierarchy... 
+[2021-06-02 10:34:38] DEBUG: No taxa at rank 'root' were present in reference package hierarchy - adding now.
+
+[2021-06-02 10:34:38] DEBUG: done.
+
+[2021-06-02 10:34:38] DEBUG: Validating lineages of all entrez records... 
+[2021-06-02 10:34:38] DEBUG: Order of taxonomic ranks in cleaned lineage 'r__Root; d__Archaea; p__Thaumarchaeota; o__Cenarchaeales; f__Cenarchaeaceae; g__Cenarchaeum; s__Cenarchaeum symbiosum' is unexpected.
+Lineage will be truncated to 'r__Root; d__Archaea; p__Thaumarchaeota'.
+
+[2021-06-02 10:34:38] DEBUG: Order of taxonomic ranks in cleaned lineage 'r__Root; d__Archaea; p__Nanoarchaeota; o__Nanoarchaeales; f__Nanoarchaeaceae; g__Nanoarchaeum; s__Nanoarchaeum equitans' is unexpected.
+Lineage will be truncated to 'r__Root; d__Archaea; p__Nanoarchaeota'.
+
+[2021-06-02 10:34:38] DEBUG: done.
+
+[2021-06-02 10:34:38] DEBUG: Queries mapped ideally = 70
+Queries with organism unmapped = 0
+Queries with NCBI taxonomy ID unmapped = 0
+Queries mapped with alternative accessions = 0
+Queries that outright failed = 0
+
+[2021-06-02 10:34:38] DEBUG: Entrez.efetch query stats:
+	Downloaded	70
+	Provided	0
+	Total		70
+
+
+[2021-06-02 10:34:38] DEBUG: No lineages from the accession map were added to the EntrezRecord attributes.
+
+[2021-06-02 10:34:38] DEBUG: Resolving conflicting lineages within taxonomic hierarchy... 
+[2021-06-02 10:34:38] DEBUG: Taxonomic hierarchy conflicts were fixed by merging the left into the right:
+	'TACK group' (no rank) -> 'Archaea' (domain)
+	'Stenosarchaea group' (no rank) -> 'Euryarchaeota' (phylum)
+	'DPANN group' (no rank) -> 'Archaea' (domain)
+	'Methanomada group' (no rank) -> 'Euryarchaeota' (phylum)
+
+[2021-06-02 10:34:38] DEBUG: done.
+
+[2021-06-02 10:34:38] DEBUG: Repairing any taxonomic lineages lacking rank prefixes... 
+[2021-06-02 10:34:38] DEBUG: Preparing Bio.Entrez for NCBI queries... 
+[2021-06-02 10:34:39] DEBUG: done.
+
+[2021-06-02 10:34:39] DEBUG: done.
+
+[2021-06-02 10:34:39] DEBUG: Rooting domains in taxonomic hierarchy... 
+[2021-06-02 10:34:39] DEBUG: done.
+
+[2021-06-02 10:34:39] DEBUG: Validating lineages of all entrez records... 
+[2021-06-02 10:34:39] DEBUG: done.
+
+[2021-06-02 10:34:39] DEBUG: 	2 sequences removed with truncated taxonomic lineages.
+	66 sequences retained for building tree.
+
+[2021-06-02 10:34:39] INFO: Clustering sequences with MMSeqs' Linclust... 
+[2021-06-02 10:34:39] INFO: done.
+
+[2021-06-02 10:34:39] DEBUG: 	53 sequence clusters
+
+[2021-06-02 10:34:39] DEBUG: Finalizing representative sequence clusters... 
+[2021-06-02 10:34:39] DEBUG: done.
+
+[2021-06-02 10:34:39] DEBUG: 17 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:34:39] DEBUG: Re-enumerating the reference sequences in taxonomic order... 
+[2021-06-02 10:34:39] DEBUG: done.
+
+[2021-06-02 10:34:39] DEBUG: 70 references before and 53 remaining after filtering.
+
+[2021-06-02 10:34:39] DEBUG: Removing 17 taxa (10 unique) from taxonomic hierarchy.
+
+[2021-06-02 10:34:39] INFO: Number of unique lineages:
+	root       1
+	domain     1
+	phylum     5
+	class      8
+	order     12
+	family    15
+	genus     25
+	species   39
+Unclassified and incomplete lineages account for 0/53 (0.0%) references.
+
+[2021-06-02 10:34:39] INFO: Aligning the sequences using MAFFT... 
+[2021-06-02 10:34:39] INFO: done.
+
+[2021-06-02 10:34:39] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/final_outputs/RadA.fa'.
+
+[2021-06-02 10:34:39] DEBUG: Reference alignment contains 53 sequences with 351 character positions.
+
+[2021-06-02 10:34:39] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:39] DEBUG: done.
+
+[2021-06-02 10:34:39] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:34:39] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/final_outputs/RadA.fa'.
+
+[2021-06-02 10:34:39] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:34:39] DEBUG: 29 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:34:40] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:40] DEBUG: done.
+
+[2021-06-02 10:34:40] DEBUG: done.
+
+[2021-06-02 10:34:40] DEBUG: 24 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:34:40] INFO: Building phylogenetic tree with FastTree... 
+[2021-06-02 10:34:41] INFO: done.
+
+[2021-06-02 10:34:41] DEBUG: FastTree Version 2.1.11 Double precision (No SSE3)
+Alignment: /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/RadA.phy
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Le-Gascuel 2008, CAT approximation with 4 rate categories
+Initial topology in 0.02 seconds
+Refining topology: 23 rounds ME-NNIs, 2 rounds ME-SPRs, 11 rounds ML-NNIs
+      0.15 seconds: SPR round   2 of   2, 101 of 104 nodes
+Total branch-length 10.083 after 0.16 sec
+ML-NNI round 1: LogLk = -15273.929 NNIs 7 max delta 4.44 Time 0.47
+      0.47 seconds: Site likelihoods with rate category 1 of 4
+Switched to using 4 rate categories (CAT approximation)
+Rate categories were divided by 1.015 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+ML-NNI round 2: LogLk = -14521.525 NNIs 1 max delta 1.27 Time 0.64
+      0.63 seconds: ML NNI round 3 of 11, 1 of 51 splits
+ML-NNI round 3: LogLk = -14521.235 NNIs 0 max delta 0.00 Time 0.72
+Turning off heuristics for final round of ML NNIs (converged)
+ML-NNI round 4: LogLk = -14516.088 NNIs 1 max delta 0.08 Time 0.98 (final)
+      0.98 seconds: ML Lengths 1 of 51 splits
+Optimize all lengths: LogLk = -14515.846 Time 1.05
+      1.24 seconds: Site likelihoods with rate category 1 of 4
+Gamma(4) LogLk = -14795.532 alpha = 1.600 rescaling lengths by 1.211
+Total time: 1.27 seconds Unique: 53/53 Bad splits: 0/50
+
+
+[2021-06-02 10:34:41] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:34:41] DEBUG: done.
+
+[2021-06-02 10:34:41] INFO: 
+##			Train taxonomic rank-placement distance model			##
+
+[2021-06-02 10:34:41] INFO: Arguments used:
+-i /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/RadA_uniprot_reviewed_filtered.fa -r /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/final_outputs/RadA_build.pkl -o /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/ -m prot --num_procs 8 --max_examples 1000 --svm_kernel lin -a /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates//accession_id_lineage_map.tsv
+
+[2021-06-02 10:34:41] DEBUG: Continuing with stage 'clean'
+
+[2021-06-02 10:34:41] INFO: Reading and formatting /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/RadA_uniprot_reviewed_filtered.fa... 
+[2021-06-02 10:34:41] DEBUG: /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/RadA_uniprot_reviewed_filtered.fa read by pyfastx in 0.0 seconds.
+
+[2021-06-02 10:34:41] INFO: done.
+
+[2021-06-02 10:34:41] INFO: Profile HMM homology search skipped. Using all sequences in /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/RadA_uniprot_reviewed_filtered.fa.
+
+[2021-06-02 10:34:41] INFO: Enumeration of potential query sequence classes:
+
+[2021-06-02 10:34:41] INFO: 	True positives:                 68
+	False positives:                 0
+	False negatives:                 0
+	Sequence names provided:        68
+
+
+[2021-06-02 10:34:41] INFO: Extracting information from headers... 
+[2021-06-02 10:34:41] INFO: done.
+
+[2021-06-02 10:34:41] DEBUG: 	Number of input sequences = 68
+
+[2021-06-02 10:34:41] INFO: Reading cached lineages in '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates//accession_id_lineage_map.tsv'... 
+[2021-06-02 10:34:41] INFO: done.
+
+[2021-06-02 10:34:41] DEBUG: Taxon name 'p__Thaumarchaeota' not present in taxonomic hierarchy.
+
+[2021-06-02 10:34:41] DEBUG: Taxon name 'p__Nanoarchaeota' not present in taxonomic hierarchy.
+
+[2021-06-02 10:34:41] DEBUG: Read 68 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/RadA_uniprot_reviewed_filtered.fa'.
+
+[2021-06-02 10:34:41] DEBUG: Checking for redundant sequences with duplicate accessions.
+
+[2021-06-02 10:34:41] DEBUG: Checking for redundant FASTA records with duplicate sequences... 
+[2021-06-02 10:34:41] DEBUG: done.
+
+[2021-06-02 10:34:41] DEBUG: Removed 9 sequences with duplicate sequences.
+
+[2021-06-02 10:34:41] DEBUG: 9 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:34:41] DEBUG: Taxon name 'p__Thaumarchaeota' not present in taxonomic hierarchy.
+
+[2021-06-02 10:34:41] DEBUG: Taxon name 'p__Nanoarchaeota' not present in taxonomic hierarchy.
+
+[2021-06-02 10:34:41] DEBUG: 0 lineages truncated before 'family' were removed during lineage trimming.
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'f__Picrophilaceae'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'f__Thermoplasmataceae'
+Match taxon	3
+Unclassified	0
+Too shallow	0
+Remaining	50
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'f__Desulfurococcaceae'
+Match taxon	3
+Unclassified	0
+Too shallow	0
+Remaining	50
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'f__Sulfolobaceae'
+Match taxon	4
+Unclassified	0
+Too shallow	0
+Remaining	49
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'f__Thermoproteaceae'
+Match taxon	4
+Unclassified	0
+Too shallow	0
+Remaining	49
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'f__Archaeoglobaceae'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'f__Halobacteriaceae'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'f__Haloferacaceae'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'f__Methanobacteriaceae'
+Match taxon	6
+Unclassified	0
+Too shallow	0
+Remaining	47
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'f__Methanocaldococcaceae'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'f__Methanococcaceae'
+Match taxon	7
+Unclassified	0
+Too shallow	0
+Remaining	46
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'f__Methanocorpusculaceae'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'f__Methanomicrobiaceae'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'f__Methanosarcinaceae'
+Match taxon	5
+Unclassified	0
+Too shallow	0
+Remaining	48
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'f__Thermococcaceae'
+Match taxon	9
+Unclassified	0
+Too shallow	0
+Remaining	44
+
+[2021-06-02 10:34:41] DEBUG: 40.0% of optimal family lineages are present in the pruned trees.
+
+[2021-06-02 10:34:41] DEBUG: 0 lineages truncated before 'order' were removed during lineage trimming.
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'o__Thermoplasmatales'
+Match taxon	4
+Unclassified	0
+Too shallow	0
+Remaining	49
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'o__Desulfurococcales'
+Match taxon	3
+Unclassified	0
+Too shallow	0
+Remaining	50
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'o__Sulfolobales'
+Match taxon	4
+Unclassified	0
+Too shallow	0
+Remaining	49
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'o__Thermoproteales'
+Match taxon	4
+Unclassified	0
+Too shallow	0
+Remaining	49
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'o__Archaeoglobales'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'o__Halobacteriales'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'o__Haloferacales'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'o__Methanobacteriales'
+Match taxon	6
+Unclassified	0
+Too shallow	0
+Remaining	47
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'o__Methanococcales'
+Match taxon	9
+Unclassified	0
+Too shallow	0
+Remaining	44
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'o__Methanomicrobiales'
+Match taxon	3
+Unclassified	0
+Too shallow	0
+Remaining	50
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'o__Methanosarcinales'
+Match taxon	5
+Unclassified	0
+Too shallow	0
+Remaining	48
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'o__Thermococcales'
+Match taxon	9
+Unclassified	0
+Too shallow	0
+Remaining	44
+
+[2021-06-02 10:34:41] DEBUG: 58.3% of optimal order lineages are present in the pruned trees.
+
+[2021-06-02 10:34:41] DEBUG: 0 lineages truncated before 'phylum' were removed during lineage trimming.
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'p__Candidatus Thermoplasmatota'
+Match taxon	4
+Unclassified	0
+Too shallow	0
+Remaining	49
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'p__Crenarchaeota'
+Match taxon	11
+Unclassified	0
+Too shallow	0
+Remaining	42
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'p__Euryarchaeota'
+Match taxon	38
+Unclassified	0
+Too shallow	0
+Remaining	15
+
+[2021-06-02 10:34:41] DEBUG: 66.7% of optimal phylum lineages are present in the pruned trees.
+
+[2021-06-02 10:34:41] DEBUG: 0 lineages truncated before 'species' were removed during lineage trimming.
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Picrophilus torridus'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Thermoplasma acidophilum'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Thermoplasma volcanium'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Aeropyrum pernix'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Desulfurococcus amylolyticus'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Ignicoccus hospitalis'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Metallosphaera sedula'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Sulfolobus acidocaldarius'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Sulfolobus islandicus'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Sulfurisphaera tokodaii'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Pyrobaculum aerophilum'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Pyrobaculum arsenaticum'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Pyrobaculum calidifontis'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Pyrobaculum neutrophilum'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Archaeoglobus fulgidus'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Halobacterium salinarum'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Haloferax volcanii'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Haloquadratum walsbyi'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Methanobrevibacter smithii'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Methanosphaera stadtmanae'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Methanothermobacter thermautotrophicus'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Methanocaldococcus jannaschii'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Methanococcus maripaludis'
+Match taxon	6
+Unclassified	0
+Too shallow	0
+Remaining	47
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Methanococcus voltae'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Methanocorpusculum labreanum'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Methanoculleus marisnigri'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Methanococcoides burtonii'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Methanosarcina acetivorans'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Methanosarcina barkeri'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Methanosarcina mazei'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Pyrococcus abyssi'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Pyrococcus furiosus'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Pyrococcus horikoshii'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Thermococcus gammatolerans'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Thermococcus kodakarensis'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Thermococcus onnurineus'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 's__Thermococcus sibiricus'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: 54.1% of optimal species lineages are present in the pruned trees.
+
+[2021-06-02 10:34:41] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'g__Picrophilus'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'g__Thermoplasma'
+Match taxon	3
+Unclassified	0
+Too shallow	0
+Remaining	50
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'g__Aeropyrum'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'g__Desulfurococcus'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'g__Ignicoccus'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'g__Metallosphaera'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'g__Sulfolobus'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'g__Sulfurisphaera'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'g__Pyrobaculum'
+Match taxon	4
+Unclassified	0
+Too shallow	0
+Remaining	49
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'g__Archaeoglobus'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'g__Halobacterium'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'g__Haloferax'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'g__Haloquadratum'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'g__Methanobrevibacter'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'g__Methanosphaera'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'g__Methanothermobacter'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'g__Methanocaldococcus'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'g__Methanococcus'
+Match taxon	7
+Unclassified	0
+Too shallow	0
+Remaining	46
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'g__Methanocorpusculum'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'g__Methanoculleus'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'g__Methanococcoides'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'g__Methanosarcina'
+Match taxon	3
+Unclassified	0
+Too shallow	0
+Remaining	50
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'g__Pyrococcus'
+Match taxon	5
+Unclassified	0
+Too shallow	0
+Remaining	48
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'g__Thermococcus'
+Match taxon	4
+Unclassified	0
+Too shallow	0
+Remaining	49
+
+[2021-06-02 10:34:41] DEBUG: 62.5% of optimal genus lineages are present in the pruned trees.
+
+[2021-06-02 10:34:41] DEBUG: 0 lineages truncated before 'class' were removed during lineage trimming.
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'c__Thermoplasmata'
+Match taxon	4
+Unclassified	0
+Too shallow	0
+Remaining	49
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'c__Thermoprotei'
+Match taxon	11
+Unclassified	0
+Too shallow	0
+Remaining	42
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'c__Archaeoglobi'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'c__Halobacteria'
+Match taxon	4
+Unclassified	0
+Too shallow	0
+Remaining	49
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'c__Methanobacteria'
+Match taxon	6
+Unclassified	0
+Too shallow	0
+Remaining	47
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'c__Methanococci'
+Match taxon	9
+Unclassified	0
+Too shallow	0
+Remaining	44
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'c__Methanomicrobia'
+Match taxon	8
+Unclassified	0
+Too shallow	0
+Remaining	45
+
+[2021-06-02 10:34:41] DEBUG: Reference sequence filtering stats for taxon 'c__Thermococci'
+Match taxon	9
+Unclassified	0
+Too shallow	0
+Remaining	44
+
+[2021-06-02 10:34:41] DEBUG: 75.0% of optimal class lineages are present in the pruned trees.
+
+[2021-06-02 10:34:41] DEBUG: Optimal placement target was not found in the pruned tree for following taxa:
+	r__Root; d__Archaea; p__Euryarchaeota; c__Thermococci; o__Thermococcales
+	r__Root; d__Archaea; p__Euryarchaeota; c__Archaeoglobi; o__Archaeoglobales; f__Archaeoglobaceae; g__Archaeoglobus
+	r__Root; d__Archaea; p__Candidatus Thermoplasmatota; c__Thermoplasmata
+	r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci; o__Methanococcales; f__Methanocaldococcaceae; g__Methanocaldococcus
+	r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanomicrobiaceae; g__Methanoculleus
+	r__Root; d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Halobacteriales
+	r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanococcoides
+	r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales
+	r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanocorpusculaceae
+	r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanocorpusculaceae; g__Methanocorpusculum
+	r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci; o__Methanococcales; f__Methanococcaceae
+	r__Root; d__Archaea; p__Candidatus Thermoplasmatota
+	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Thermoproteales
+	r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanothermobacter
+	r__Root; d__Archaea; p__Candidatus Thermoplasmatota; c__Thermoplasmata; o__Thermoplasmatales; f__Picrophilaceae; g__Picrophilus
+	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Desulfurococcales; f__Desulfurococcaceae; g__Aeropyrum
+	r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci; o__Methanococcales; f__Methanocaldococcaceae
+	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Desulfurococcales
+	r__Root; d__Archaea; p__Candidatus Thermoplasmatota; c__Thermoplasmata; o__Thermoplasmatales; f__Picrophilaceae
+	r__Root; d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Haloferacales; f__Haloferacaceae; g__Haloquadratum
+	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Thermoproteales; f__Thermoproteaceae
+	r__Root; d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Haloferacales
+	r__Root; d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Halobacteriales; f__Halobacteriaceae
+	r__Root; d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Halobacteriales; f__Halobacteriaceae; g__Halobacterium
+	r__Root; d__Archaea; p__Euryarchaeota; c__Archaeoglobi
+	r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanomicrobiaceae
+	r__Root; d__Archaea; p__Crenarchaeota
+	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Desulfurococcales; f__Desulfurococcaceae; g__Ignicoccus
+	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Sulfolobales; f__Sulfolobaceae; g__Sulfurisphaera
+	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Desulfurococcales; f__Desulfurococcaceae; g__Desulfurococcus
+	r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanosphaera
+	r__Root; d__Archaea; p__Euryarchaeota; c__Thermococci
+	r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales
+	r__Root; d__Archaea; p__Euryarchaeota; c__Archaeoglobi; o__Archaeoglobales
+	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Sulfolobales; f__Sulfolobaceae; g__Metallosphaera
+	r__Root; d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Haloferacales; f__Haloferacaceae; g__Haloferax
+	r__Root; d__Archaea; p__Euryarchaeota; c__Archaeoglobi; o__Archaeoglobales; f__Archaeoglobaceae
+	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Sulfolobales
+	r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci
+	r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobrevibacter
+	r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria
+	r__Root; d__Archaea; p__Candidatus Thermoplasmatota; c__Thermoplasmata; o__Thermoplasmatales; f__Thermoplasmataceae
+
+[2021-06-02 10:34:41] DEBUG: Unable to generate placement data for the following taxa since the refpkg would be too small:
+	r__Root; d__Archaea; p__Euryarchaeota
+
+[2021-06-02 10:34:41] DEBUG: Sequences available for training family-level placement distances:
+	1	r__Root; d__Archaea; p__Candidatus Thermoplasmatota; c__Thermoplasmata; o__Thermoplasmatales; f__Picrophilaceae
+	4	r__Root; d__Archaea; p__Candidatus Thermoplasmatota; c__Thermoplasmata; o__Thermoplasmatales; f__Thermoplasmataceae
+	0	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Desulfurococcales; f__Desulfurococcaceae
+	0	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Sulfolobales; f__Sulfolobaceae
+	0	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Thermoproteales; f__Thermoproteaceae
+	0	r__Root; d__Archaea; p__Euryarchaeota; c__Archaeoglobi; o__Archaeoglobales; f__Archaeoglobaceae
+	0	r__Root; d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Halobacteriales; f__Halobacteriaceae
+	0	r__Root; d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Haloferacales; f__Haloferacaceae
+	0	r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae
+	2	r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci; o__Methanococcales; f__Methanocaldococcaceae
+	9	r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci; o__Methanococcales; f__Methanococcaceae
+	1	r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanocorpusculaceae
+	2	r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanomicrobiaceae
+	0	r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae
+	0	r__Root; d__Archaea; p__Euryarchaeota; c__Thermococci; o__Thermococcales; f__Thermococcaceae
+6/15 unique family-level taxa have training sequences.
+
+Sequences available for training order-level placement distances:
+	0	r__Root; d__Archaea; p__Candidatus Thermoplasmatota; c__Thermoplasmata; o__Thermoplasmatales
+	5	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Desulfurococcales
+	4	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Sulfolobales
+	5	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Thermoproteales
+	0	r__Root; d__Archaea; p__Euryarchaeota; c__Archaeoglobi; o__Archaeoglobales
+	2	r__Root; d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Halobacteriales
+	2	r__Root; d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Haloferacales
+	0	r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales
+	0	r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci; o__Methanococcales
+	3	r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales
+	5	r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales
+	0	r__Root; d__Archaea; p__Euryarchaeota; c__Thermococci; o__Thermococcales
+7/12 unique order-level taxa have training sequences.
+
+Sequences available for training phylum-level placement distances:
+	5	r__Root; d__Archaea; p__Candidatus Thermoplasmatota
+	14	r__Root; d__Archaea; p__Crenarchaeota
+	0	r__Root; d__Archaea; p__Euryarchaeota
+2/3 unique phylum-level taxa have training sequences.
+
+Sequences available for training species-level placement distances:
+	0	r__Root; d__Archaea; p__Candidatus Thermoplasmatota; c__Thermoplasmata; o__Thermoplasmatales; f__Picrophilaceae; g__Picrophilus; s__Picrophilus torridus
+	2	r__Root; d__Archaea; p__Candidatus Thermoplasmatota; c__Thermoplasmata; o__Thermoplasmatales; f__Thermoplasmataceae; g__Thermoplasma; s__Thermoplasma acidophilum
+	2	r__Root; d__Archaea; p__Candidatus Thermoplasmatota; c__Thermoplasmata; o__Thermoplasmatales; f__Thermoplasmataceae; g__Thermoplasma; s__Thermoplasma volcanium
+	0	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Desulfurococcales; f__Desulfurococcaceae; g__Aeropyrum; s__Aeropyrum pernix
+	0	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Desulfurococcales; f__Desulfurococcaceae; g__Desulfurococcus; s__Desulfurococcus amylolyticus
+	0	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Desulfurococcales; f__Desulfurococcaceae; g__Ignicoccus; s__Ignicoccus hospitalis
+	0	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Sulfolobales; f__Sulfolobaceae; g__Metallosphaera; s__Metallosphaera sedula
+	1	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Sulfolobales; f__Sulfolobaceae; g__Sulfolobus; s__Sulfolobus acidocaldarius
+	1	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Sulfolobales; f__Sulfolobaceae; g__Sulfolobus; s__Sulfolobus islandicus
+	0	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Sulfolobales; f__Sulfolobaceae; g__Sulfurisphaera; s__Sulfurisphaera tokodaii
+	1	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Thermoproteales; f__Thermoproteaceae; g__Pyrobaculum; s__Pyrobaculum aerophilum
+	1	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Thermoproteales; f__Thermoproteaceae; g__Pyrobaculum; s__Pyrobaculum arsenaticum
+	1	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Thermoproteales; f__Thermoproteaceae; g__Pyrobaculum; s__Pyrobaculum calidifontis
+	1	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Thermoproteales; f__Thermoproteaceae; g__Pyrobaculum; s__Pyrobaculum neutrophilum
+	0	r__Root; d__Archaea; p__Euryarchaeota; c__Archaeoglobi; o__Archaeoglobales; f__Archaeoglobaceae; g__Archaeoglobus; s__Archaeoglobus fulgidus
+	0	r__Root; d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Halobacteriales; f__Halobacteriaceae; g__Halobacterium; s__Halobacterium salinarum
+	0	r__Root; d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Haloferacales; f__Haloferacaceae; g__Haloferax; s__Haloferax volcanii
+	0	r__Root; d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Haloferacales; f__Haloferacaceae; g__Haloquadratum; s__Haloquadratum walsbyi
+	0	r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobrevibacter; s__Methanobrevibacter smithii
+	0	r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanosphaera; s__Methanosphaera stadtmanae
+	0	r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanothermobacter; s__Methanothermobacter thermautotrophicus
+	0	r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci; o__Methanococcales; f__Methanocaldococcaceae; g__Methanocaldococcus; s__Methanocaldococcus jannaschii
+	8	r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci; o__Methanococcales; f__Methanococcaceae; g__Methanococcus; s__Methanococcus maripaludis
+	1	r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci; o__Methanococcales; f__Methanococcaceae; g__Methanococcus; s__Methanococcus voltae
+	0	r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanocorpusculaceae; g__Methanocorpusculum; s__Methanocorpusculum labreanum
+	0	r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanomicrobiaceae; g__Methanoculleus; s__Methanoculleus marisnigri
+	0	r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanococcoides; s__Methanococcoides burtonii
+	1	r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanosarcina; s__Methanosarcina acetivorans
+	1	r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanosarcina; s__Methanosarcina barkeri
+	1	r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanosarcina; s__Methanosarcina mazei
+	2	r__Root; d__Archaea; p__Euryarchaeota; c__Thermococci; o__Thermococcales; f__Thermococcaceae; g__Pyrococcus; s__Pyrococcus abyssi
+	2	r__Root; d__Archaea; p__Euryarchaeota; c__Thermococci; o__Thermococcales; f__Thermococcaceae; g__Pyrococcus; s__Pyrococcus furiosus
+	1	r__Root; d__Archaea; p__Euryarchaeota; c__Thermococci; o__Thermococcales; f__Thermococcaceae; g__Pyrococcus; s__Pyrococcus horikoshii
+	1	r__Root; d__Archaea; p__Euryarchaeota; c__Thermococci; o__Thermococcales; f__Thermococcaceae; g__Thermococcus; s__Thermococcus gammatolerans
+	1	r__Root; d__Archaea; p__Euryarchaeota; c__Thermococci; o__Thermococcales; f__Thermococcaceae; g__Thermococcus; s__Thermococcus kodakarensis
+	1	r__Root; d__Archaea; p__Euryarchaeota; c__Thermococci; o__Thermococcales; f__Thermococcaceae; g__Thermococcus; s__Thermococcus onnurineus
+	1	r__Root; d__Archaea; p__Euryarchaeota; c__Thermococci; o__Thermococcales; f__Thermococcaceae; g__Thermococcus; s__Thermococcus sibiricus
+20/37 unique species-level taxa have training sequences.
+
+Sequences available for training genus-level placement distances:
+	0	r__Root; d__Archaea; p__Candidatus Thermoplasmatota; c__Thermoplasmata; o__Thermoplasmatales; f__Picrophilaceae; g__Picrophilus
+	0	r__Root; d__Archaea; p__Candidatus Thermoplasmatota; c__Thermoplasmata; o__Thermoplasmatales; f__Thermoplasmataceae; g__Thermoplasma
+	2	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Desulfurococcales; f__Desulfurococcaceae; g__Aeropyrum
+	2	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Desulfurococcales; f__Desulfurococcaceae; g__Desulfurococcus
+	1	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Desulfurococcales; f__Desulfurococcaceae; g__Ignicoccus
+	1	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Sulfolobales; f__Sulfolobaceae; g__Metallosphaera
+	2	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Sulfolobales; f__Sulfolobaceae; g__Sulfolobus
+	1	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Sulfolobales; f__Sulfolobaceae; g__Sulfurisphaera
+	0	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Thermoproteales; f__Thermoproteaceae; g__Pyrobaculum
+	0	r__Root; d__Archaea; p__Euryarchaeota; c__Archaeoglobi; o__Archaeoglobales; f__Archaeoglobaceae; g__Archaeoglobus
+	0	r__Root; d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Halobacteriales; f__Halobacteriaceae; g__Halobacterium
+	1	r__Root; d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Haloferacales; f__Haloferacaceae; g__Haloferax
+	1	r__Root; d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Haloferacales; f__Haloferacaceae; g__Haloquadratum
+	2	r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobrevibacter
+	2	r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanosphaera
+	2	r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanothermobacter
+	0	r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci; o__Methanococcales; f__Methanocaldococcaceae; g__Methanocaldococcus
+	0	r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci; o__Methanococcales; f__Methanococcaceae; g__Methanococcus
+	0	r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanocorpusculaceae; g__Methanocorpusculum
+	0	r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanomicrobiaceae; g__Methanoculleus
+	2	r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanococcoides
+	3	r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanosarcina
+	5	r__Root; d__Archaea; p__Euryarchaeota; c__Thermococci; o__Thermococcales; f__Thermococcaceae; g__Pyrococcus
+	4	r__Root; d__Archaea; p__Euryarchaeota; c__Thermococci; o__Thermococcales; f__Thermococcaceae; g__Thermococcus
+15/24 unique genus-level taxa have training sequences.
+
+Sequences available for training class-level placement distances:
+	0	r__Root; d__Archaea; p__Candidatus Thermoplasmatota; c__Thermoplasmata
+	0	r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei
+	2	r__Root; d__Archaea; p__Euryarchaeota; c__Archaeoglobi
+	4	r__Root; d__Archaea; p__Euryarchaeota; c__Halobacteria
+	6	r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria
+	11	r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci
+	8	r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia
+	9	r__Root; d__Archaea; p__Euryarchaeota; c__Thermococci
+6/8 unique class-level taxa have training sequences.
+
+
+[2021-06-02 10:34:41] INFO: Clustering sequences with MMSeqs' Linclust... 
+[2021-06-02 10:34:42] INFO: done.
+
+[2021-06-02 10:34:42] DEBUG: 4 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:34:42] DEBUG: 	55 sequence clusters
+
+[2021-06-02 10:34:42] INFO: Preparing deduplicated sequence set for training... 
+[2021-06-02 10:34:42] DEBUG: 0 lineages truncated before 'family' were removed during lineage trimming.
+
+[2021-06-02 10:34:42] DEBUG: 0 lineages truncated before 'order' were removed during lineage trimming.
+
+[2021-06-02 10:34:42] DEBUG: 0 lineages truncated before 'phylum' were removed during lineage trimming.
+
+[2021-06-02 10:34:42] DEBUG: 0 lineages truncated before 'species' were removed during lineage trimming.
+
+[2021-06-02 10:34:42] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:34:42] DEBUG: 0 lineages truncated before 'class' were removed during lineage trimming.
+
+[2021-06-02 10:34:42] INFO: done.
+
+[2021-06-02 10:34:42] DEBUG: Calculating the total number of queries to be used for training... 
+[2021-06-02 10:34:42] DEBUG: 17 sequences to train family-level placement distances
+
+[2021-06-02 10:34:42] DEBUG: 24 sequences to train order-level placement distances
+
+[2021-06-02 10:34:42] DEBUG: 17 sequences to train phylum-level placement distances
+
+[2021-06-02 10:34:42] DEBUG: 29 sequences to train species-level placement distances
+
+[2021-06-02 10:34:42] DEBUG: 29 sequences to train genus-level placement distances
+
+[2021-06-02 10:34:42] DEBUG: 38 sequences to train class-level placement distances
+
+[2021-06-02 10:34:42] DEBUG: done.
+
+[2021-06-02 10:34:42] INFO: Estimating branch-length placement distances for taxonomic ranks
+
+[2021-06-02 10:34:42] DEBUG: Testing placements for r__Root; d__Archaea; p__Candidatus Thermoplasmatota; c__Thermoplasmata; o__Thermoplasmatales; f__Thermoplasmataceae; g__Thermoplasma; s__Thermoplasma acidophilum:
+
+[2021-06-02 10:34:42] DEBUG: Reference sequence filtering stats for taxon 's__Thermoplasma acidophilum'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:42] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:42] DEBUG: done.
+
+[2021-06-02 10:34:42] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:34:42] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Thermoplasma_acidophilum/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:42] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:34:42] DEBUG: 28 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:34:42] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:42] DEBUG: done.
+
+[2021-06-02 10:34:42] DEBUG: done.
+
+[2021-06-02 10:34:42] DEBUG: 24 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:34:42] DEBUG: 	52 leaves in pruned tree.
+
+[2021-06-02 10:34:42] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:34:42] DEBUG: done.
+
+[2021-06-02 10:34:42] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Thermoplasma_acidophilum/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:42] DEBUG: 	2 query sequences.
+
+[2021-06-02 10:34:42] DEBUG: 
+
+[2021-06-02 10:34:42] DEBUG: Columns = 234
+
+[2021-06-02 10:34:42] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Thermoplasma_acidophilum/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:34:42] DEBUG: Read 54 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Thermoplasma_acidophilum/queries-BMGE.fasta'.
+
+[2021-06-02 10:34:42] DEBUG: Testing placements for r__Root; d__Archaea; p__Candidatus Thermoplasmatota; c__Thermoplasmata; o__Thermoplasmatales; f__Thermoplasmataceae; g__Thermoplasma; s__Thermoplasma volcanium:
+
+[2021-06-02 10:34:43] DEBUG: Reference sequence filtering stats for taxon 's__Thermoplasma volcanium'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:34:43] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:43] DEBUG: done.
+
+[2021-06-02 10:34:43] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:34:43] DEBUG: Read 51 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Thermoplasma_volcanium/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:43] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:34:43] DEBUG: 27 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:34:43] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:43] DEBUG: done.
+
+[2021-06-02 10:34:43] DEBUG: done.
+
+[2021-06-02 10:34:43] DEBUG: 24 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:34:43] DEBUG: 	51 leaves in pruned tree.
+
+[2021-06-02 10:34:43] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:34:43] DEBUG: done.
+
+[2021-06-02 10:34:43] DEBUG: Read 51 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Thermoplasma_volcanium/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:43] DEBUG: 	2 query sequences.
+
+[2021-06-02 10:34:43] DEBUG: 
+
+[2021-06-02 10:34:43] DEBUG: Columns = 234
+
+[2021-06-02 10:34:43] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Thermoplasma_volcanium/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:34:43] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Thermoplasma_volcanium/queries-BMGE.fasta'.
+
+[2021-06-02 10:34:43] DEBUG: Testing placements for r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Sulfolobales; f__Sulfolobaceae; g__Sulfolobus; s__Sulfolobus acidocaldarius:
+
+[2021-06-02 10:34:43] DEBUG: Reference sequence filtering stats for taxon 's__Sulfolobus acidocaldarius'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:43] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:44] DEBUG: done.
+
+[2021-06-02 10:34:44] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:34:44] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Sulfolobus_acidocaldarius/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:44] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:34:44] DEBUG: 28 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:34:44] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:44] DEBUG: done.
+
+[2021-06-02 10:34:44] DEBUG: done.
+
+[2021-06-02 10:34:44] DEBUG: 24 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:34:44] DEBUG: 	52 leaves in pruned tree.
+
+[2021-06-02 10:34:44] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:34:44] DEBUG: done.
+
+[2021-06-02 10:34:44] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Sulfolobus_acidocaldarius/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:44] DEBUG: 	1 query sequences.
+
+[2021-06-02 10:34:44] DEBUG: 
+
+[2021-06-02 10:34:44] DEBUG: Columns = 234
+
+[2021-06-02 10:34:44] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Sulfolobus_acidocaldarius/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:34:44] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Sulfolobus_acidocaldarius/queries-BMGE.fasta'.
+
+[2021-06-02 10:34:44] DEBUG: Testing placements for r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Sulfolobales; f__Sulfolobaceae; g__Sulfolobus; s__Sulfolobus islandicus:
+
+[2021-06-02 10:34:44] DEBUG: Reference sequence filtering stats for taxon 's__Sulfolobus islandicus'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:44] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:45] DEBUG: done.
+
+[2021-06-02 10:34:45] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:34:45] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Sulfolobus_islandicus/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:45] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:34:45] DEBUG: 28 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:34:45] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:45] DEBUG: done.
+
+[2021-06-02 10:34:45] DEBUG: done.
+
+[2021-06-02 10:34:45] DEBUG: 24 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:34:45] DEBUG: 	52 leaves in pruned tree.
+
+[2021-06-02 10:34:45] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:34:45] DEBUG: done.
+
+[2021-06-02 10:34:45] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Sulfolobus_islandicus/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:45] DEBUG: 	1 query sequences.
+
+[2021-06-02 10:34:45] DEBUG: 
+
+[2021-06-02 10:34:45] DEBUG: Columns = 234
+
+[2021-06-02 10:34:45] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Sulfolobus_islandicus/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:34:45] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Sulfolobus_islandicus/queries-BMGE.fasta'.
+
+[2021-06-02 10:34:45] DEBUG: Testing placements for r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Thermoproteales; f__Thermoproteaceae; g__Pyrobaculum; s__Pyrobaculum aerophilum:
+
+[2021-06-02 10:34:45] DEBUG: Reference sequence filtering stats for taxon 's__Pyrobaculum aerophilum'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:45] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:46] DEBUG: done.
+
+[2021-06-02 10:34:46] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:34:46] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Pyrobaculum_aerophilum/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:46] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:34:46] DEBUG: 28 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:34:46] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:46] DEBUG: done.
+
+[2021-06-02 10:34:46] DEBUG: done.
+
+[2021-06-02 10:34:46] DEBUG: 24 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:34:46] DEBUG: 	52 leaves in pruned tree.
+
+[2021-06-02 10:34:46] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:34:46] DEBUG: done.
+
+[2021-06-02 10:34:46] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Pyrobaculum_aerophilum/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:46] DEBUG: 	1 query sequences.
+
+[2021-06-02 10:34:46] DEBUG: 
+
+[2021-06-02 10:34:46] DEBUG: Columns = 234
+
+[2021-06-02 10:34:46] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Pyrobaculum_aerophilum/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:34:46] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Pyrobaculum_aerophilum/queries-BMGE.fasta'.
+
+[2021-06-02 10:34:46] DEBUG: Testing placements for r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Thermoproteales; f__Thermoproteaceae; g__Pyrobaculum; s__Pyrobaculum arsenaticum:
+
+[2021-06-02 10:34:46] DEBUG: Reference sequence filtering stats for taxon 's__Pyrobaculum arsenaticum'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:46] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:47] DEBUG: done.
+
+[2021-06-02 10:34:47] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:34:47] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Pyrobaculum_arsenaticum/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:47] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:34:47] DEBUG: 28 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:34:47] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:47] DEBUG: done.
+
+[2021-06-02 10:34:47] DEBUG: done.
+
+[2021-06-02 10:34:47] DEBUG: 24 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:34:47] DEBUG: 	52 leaves in pruned tree.
+
+[2021-06-02 10:34:47] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:34:47] DEBUG: done.
+
+[2021-06-02 10:34:47] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Pyrobaculum_arsenaticum/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:47] DEBUG: 	1 query sequences.
+
+[2021-06-02 10:34:47] DEBUG: 
+
+[2021-06-02 10:34:47] DEBUG: Columns = 234
+
+[2021-06-02 10:34:47] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Pyrobaculum_arsenaticum/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:34:47] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Pyrobaculum_arsenaticum/queries-BMGE.fasta'.
+
+[2021-06-02 10:34:47] DEBUG: Testing placements for r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Thermoproteales; f__Thermoproteaceae; g__Pyrobaculum; s__Pyrobaculum calidifontis:
+
+[2021-06-02 10:34:47] DEBUG: Reference sequence filtering stats for taxon 's__Pyrobaculum calidifontis'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:47] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:48] DEBUG: done.
+
+[2021-06-02 10:34:48] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:34:48] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Pyrobaculum_calidifontis/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:48] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:34:48] DEBUG: 28 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:34:48] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:48] DEBUG: done.
+
+[2021-06-02 10:34:48] DEBUG: done.
+
+[2021-06-02 10:34:48] DEBUG: 24 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:34:48] DEBUG: 	52 leaves in pruned tree.
+
+[2021-06-02 10:34:48] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:34:48] DEBUG: done.
+
+[2021-06-02 10:34:48] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Pyrobaculum_calidifontis/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:48] DEBUG: 	1 query sequences.
+
+[2021-06-02 10:34:48] DEBUG: 
+
+[2021-06-02 10:34:48] DEBUG: Columns = 234
+
+[2021-06-02 10:34:48] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Pyrobaculum_calidifontis/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:34:48] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Pyrobaculum_calidifontis/queries-BMGE.fasta'.
+
+[2021-06-02 10:34:48] DEBUG: Testing placements for r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Thermoproteales; f__Thermoproteaceae; g__Pyrobaculum; s__Pyrobaculum neutrophilum:
+
+[2021-06-02 10:34:48] DEBUG: Reference sequence filtering stats for taxon 's__Pyrobaculum neutrophilum'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:48] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:49] DEBUG: done.
+
+[2021-06-02 10:34:49] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:34:49] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Pyrobaculum_neutrophilum/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:49] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:34:49] DEBUG: 28 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:34:49] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:49] DEBUG: done.
+
+[2021-06-02 10:34:49] DEBUG: done.
+
+[2021-06-02 10:34:49] DEBUG: 24 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:34:49] DEBUG: 	52 leaves in pruned tree.
+
+[2021-06-02 10:34:49] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:34:49] DEBUG: done.
+
+[2021-06-02 10:34:49] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Pyrobaculum_neutrophilum/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:49] DEBUG: 	1 query sequences.
+
+[2021-06-02 10:34:49] DEBUG: 
+
+[2021-06-02 10:34:49] DEBUG: Columns = 234
+
+[2021-06-02 10:34:49] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Pyrobaculum_neutrophilum/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:34:49] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Pyrobaculum_neutrophilum/queries-BMGE.fasta'.
+
+[2021-06-02 10:34:49] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci; o__Methanococcales; f__Methanococcaceae; g__Methanococcus; s__Methanococcus maripaludis:
+
+[2021-06-02 10:34:49] DEBUG: Reference sequence filtering stats for taxon 's__Methanococcus maripaludis'
+Match taxon	6
+Unclassified	0
+Too shallow	0
+Remaining	47
+
+[2021-06-02 10:34:49] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:50] DEBUG: done.
+
+[2021-06-02 10:34:50] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:34:50] DEBUG: Read 47 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Methanococcus_maripaludis/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:50] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:34:50] DEBUG: 23 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:34:50] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:50] DEBUG: done.
+
+[2021-06-02 10:34:50] DEBUG: done.
+
+[2021-06-02 10:34:50] DEBUG: 24 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:34:50] DEBUG: 	47 leaves in pruned tree.
+
+[2021-06-02 10:34:50] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:34:50] DEBUG: done.
+
+[2021-06-02 10:34:50] DEBUG: Read 47 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Methanococcus_maripaludis/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:50] DEBUG: 	6 query sequences.
+
+[2021-06-02 10:34:50] DEBUG: 
+
+[2021-06-02 10:34:50] DEBUG: Columns = 234
+
+[2021-06-02 10:34:50] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Methanococcus_maripaludis/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:34:50] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Methanococcus_maripaludis/queries-BMGE.fasta'.
+
+[2021-06-02 10:34:50] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci; o__Methanococcales; f__Methanococcaceae; g__Methanococcus; s__Methanococcus voltae:
+
+[2021-06-02 10:34:50] DEBUG: Reference sequence filtering stats for taxon 's__Methanococcus voltae'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:50] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:50] DEBUG: done.
+
+[2021-06-02 10:34:50] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:34:50] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Methanococcus_voltae/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:50] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:34:50] DEBUG: 28 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:34:50] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:51] DEBUG: done.
+
+[2021-06-02 10:34:51] DEBUG: done.
+
+[2021-06-02 10:34:51] DEBUG: 24 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:34:51] DEBUG: 	52 leaves in pruned tree.
+
+[2021-06-02 10:34:51] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:34:51] DEBUG: done.
+
+[2021-06-02 10:34:51] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Methanococcus_voltae/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:51] DEBUG: 	1 query sequences.
+
+[2021-06-02 10:34:51] DEBUG: 
+
+[2021-06-02 10:34:51] DEBUG: Columns = 234
+
+[2021-06-02 10:34:51] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Methanococcus_voltae/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:34:51] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Methanococcus_voltae/queries-BMGE.fasta'.
+
+[2021-06-02 10:34:51] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanosarcina; s__Methanosarcina acetivorans:
+
+[2021-06-02 10:34:51] DEBUG: Reference sequence filtering stats for taxon 's__Methanosarcina acetivorans'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:51] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:51] DEBUG: done.
+
+[2021-06-02 10:34:51] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:34:51] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Methanosarcina_acetivorans/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:51] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:34:51] DEBUG: 28 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:34:51] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:52] DEBUG: done.
+
+[2021-06-02 10:34:52] DEBUG: done.
+
+[2021-06-02 10:34:52] DEBUG: 24 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:34:52] DEBUG: 	52 leaves in pruned tree.
+
+[2021-06-02 10:34:52] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:34:52] DEBUG: done.
+
+[2021-06-02 10:34:52] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Methanosarcina_acetivorans/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:52] DEBUG: 	1 query sequences.
+
+[2021-06-02 10:34:52] DEBUG: 
+
+[2021-06-02 10:34:52] DEBUG: Columns = 234
+
+[2021-06-02 10:34:52] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Methanosarcina_acetivorans/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:34:52] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Methanosarcina_acetivorans/queries-BMGE.fasta'.
+
+[2021-06-02 10:34:52] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanosarcina; s__Methanosarcina barkeri:
+
+[2021-06-02 10:34:52] DEBUG: Reference sequence filtering stats for taxon 's__Methanosarcina barkeri'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:52] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:52] DEBUG: done.
+
+[2021-06-02 10:34:52] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:34:52] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Methanosarcina_barkeri/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:52] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:34:52] DEBUG: 28 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:34:52] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:53] DEBUG: done.
+
+[2021-06-02 10:34:53] DEBUG: done.
+
+[2021-06-02 10:34:53] DEBUG: 24 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:34:53] DEBUG: 	52 leaves in pruned tree.
+
+[2021-06-02 10:34:53] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:34:53] DEBUG: done.
+
+[2021-06-02 10:34:53] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Methanosarcina_barkeri/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:53] DEBUG: 	1 query sequences.
+
+[2021-06-02 10:34:53] DEBUG: 
+
+[2021-06-02 10:34:53] DEBUG: Columns = 234
+
+[2021-06-02 10:34:53] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Methanosarcina_barkeri/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:34:53] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Methanosarcina_barkeri/queries-BMGE.fasta'.
+
+[2021-06-02 10:34:53] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanosarcina; s__Methanosarcina mazei:
+
+[2021-06-02 10:34:53] DEBUG: Reference sequence filtering stats for taxon 's__Methanosarcina mazei'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:53] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:53] DEBUG: done.
+
+[2021-06-02 10:34:53] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:34:53] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Methanosarcina_mazei/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:53] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:34:53] DEBUG: 28 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:34:53] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:54] DEBUG: done.
+
+[2021-06-02 10:34:54] DEBUG: done.
+
+[2021-06-02 10:34:54] DEBUG: 24 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:34:54] DEBUG: 	52 leaves in pruned tree.
+
+[2021-06-02 10:34:54] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:34:54] DEBUG: done.
+
+[2021-06-02 10:34:54] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Methanosarcina_mazei/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:54] DEBUG: 	1 query sequences.
+
+[2021-06-02 10:34:54] DEBUG: 
+
+[2021-06-02 10:34:54] DEBUG: Columns = 234
+
+[2021-06-02 10:34:54] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Methanosarcina_mazei/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:34:54] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Methanosarcina_mazei/queries-BMGE.fasta'.
+
+[2021-06-02 10:34:54] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Thermococci; o__Thermococcales; f__Thermococcaceae; g__Pyrococcus; s__Pyrococcus abyssi:
+
+[2021-06-02 10:34:54] DEBUG: Reference sequence filtering stats for taxon 's__Pyrococcus abyssi'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:34:54] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:54] DEBUG: done.
+
+[2021-06-02 10:34:54] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:34:54] DEBUG: Read 51 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Pyrococcus_abyssi/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:54] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:34:54] DEBUG: 27 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:34:54] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:55] DEBUG: done.
+
+[2021-06-02 10:34:55] DEBUG: done.
+
+[2021-06-02 10:34:55] DEBUG: 24 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:34:55] DEBUG: 	51 leaves in pruned tree.
+
+[2021-06-02 10:34:55] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:34:55] DEBUG: done.
+
+[2021-06-02 10:34:55] DEBUG: Read 51 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Pyrococcus_abyssi/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:55] DEBUG: 	2 query sequences.
+
+[2021-06-02 10:34:55] DEBUG: 
+
+[2021-06-02 10:34:55] DEBUG: Columns = 234
+
+[2021-06-02 10:34:55] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Pyrococcus_abyssi/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:34:55] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Pyrococcus_abyssi/queries-BMGE.fasta'.
+
+[2021-06-02 10:34:55] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Thermococci; o__Thermococcales; f__Thermococcaceae; g__Pyrococcus; s__Pyrococcus furiosus:
+
+[2021-06-02 10:34:55] DEBUG: Reference sequence filtering stats for taxon 's__Pyrococcus furiosus'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:34:55] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:55] DEBUG: done.
+
+[2021-06-02 10:34:55] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:34:55] DEBUG: Read 51 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Pyrococcus_furiosus/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:55] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:34:55] DEBUG: 27 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:34:55] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:55] DEBUG: done.
+
+[2021-06-02 10:34:55] DEBUG: done.
+
+[2021-06-02 10:34:55] DEBUG: 24 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:34:55] DEBUG: 	51 leaves in pruned tree.
+
+[2021-06-02 10:34:55] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:34:56] DEBUG: done.
+
+[2021-06-02 10:34:56] DEBUG: Read 51 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Pyrococcus_furiosus/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:56] DEBUG: 	2 query sequences.
+
+[2021-06-02 10:34:56] DEBUG: 
+
+[2021-06-02 10:34:56] DEBUG: Columns = 234
+
+[2021-06-02 10:34:56] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Pyrococcus_furiosus/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:34:56] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Pyrococcus_furiosus/queries-BMGE.fasta'.
+
+[2021-06-02 10:34:56] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Thermococci; o__Thermococcales; f__Thermococcaceae; g__Pyrococcus; s__Pyrococcus horikoshii:
+
+[2021-06-02 10:34:56] DEBUG: Reference sequence filtering stats for taxon 's__Pyrococcus horikoshii'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:56] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:56] DEBUG: done.
+
+[2021-06-02 10:34:56] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:34:56] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Pyrococcus_horikoshii/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:56] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:34:56] DEBUG: 28 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:34:56] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:56] DEBUG: done.
+
+[2021-06-02 10:34:56] DEBUG: done.
+
+[2021-06-02 10:34:56] DEBUG: 24 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:34:56] DEBUG: 	52 leaves in pruned tree.
+
+[2021-06-02 10:34:56] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:34:57] DEBUG: done.
+
+[2021-06-02 10:34:57] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Pyrococcus_horikoshii/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:57] DEBUG: 	1 query sequences.
+
+[2021-06-02 10:34:57] DEBUG: 
+
+[2021-06-02 10:34:57] DEBUG: Columns = 234
+
+[2021-06-02 10:34:57] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Pyrococcus_horikoshii/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:34:57] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Pyrococcus_horikoshii/queries-BMGE.fasta'.
+
+[2021-06-02 10:34:57] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Thermococci; o__Thermococcales; f__Thermococcaceae; g__Thermococcus; s__Thermococcus gammatolerans:
+
+[2021-06-02 10:34:57] DEBUG: Reference sequence filtering stats for taxon 's__Thermococcus gammatolerans'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:57] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:57] DEBUG: done.
+
+[2021-06-02 10:34:57] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:34:57] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Thermococcus_gammatolerans/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:57] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:34:57] DEBUG: 28 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:34:57] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:57] DEBUG: done.
+
+[2021-06-02 10:34:57] DEBUG: done.
+
+[2021-06-02 10:34:57] DEBUG: 24 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:34:57] DEBUG: 	52 leaves in pruned tree.
+
+[2021-06-02 10:34:57] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:34:57] DEBUG: done.
+
+[2021-06-02 10:34:57] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Thermococcus_gammatolerans/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:58] DEBUG: 	1 query sequences.
+
+[2021-06-02 10:34:58] DEBUG: 
+
+[2021-06-02 10:34:58] DEBUG: Columns = 234
+
+[2021-06-02 10:34:58] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Thermococcus_gammatolerans/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:34:58] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Thermococcus_gammatolerans/queries-BMGE.fasta'.
+
+[2021-06-02 10:34:58] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Thermococci; o__Thermococcales; f__Thermococcaceae; g__Thermococcus; s__Thermococcus kodakarensis:
+
+[2021-06-02 10:34:58] DEBUG: Reference sequence filtering stats for taxon 's__Thermococcus kodakarensis'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:58] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:58] DEBUG: done.
+
+[2021-06-02 10:34:58] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:34:58] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Thermococcus_kodakarensis/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:58] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:34:58] DEBUG: 28 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:34:58] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:58] DEBUG: done.
+
+[2021-06-02 10:34:58] DEBUG: done.
+
+[2021-06-02 10:34:58] DEBUG: 24 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:34:58] DEBUG: 	52 leaves in pruned tree.
+
+[2021-06-02 10:34:58] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:34:58] DEBUG: done.
+
+[2021-06-02 10:34:58] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Thermococcus_kodakarensis/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:58] DEBUG: 	1 query sequences.
+
+[2021-06-02 10:34:58] DEBUG: 
+
+[2021-06-02 10:34:59] DEBUG: Columns = 234
+
+[2021-06-02 10:34:59] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Thermococcus_kodakarensis/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:34:59] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Thermococcus_kodakarensis/queries-BMGE.fasta'.
+
+[2021-06-02 10:34:59] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Thermococci; o__Thermococcales; f__Thermococcaceae; g__Thermococcus; s__Thermococcus onnurineus:
+
+[2021-06-02 10:34:59] DEBUG: Reference sequence filtering stats for taxon 's__Thermococcus onnurineus'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:34:59] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:59] DEBUG: done.
+
+[2021-06-02 10:34:59] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:34:59] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Thermococcus_onnurineus/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:59] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:34:59] DEBUG: 28 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:34:59] DEBUG: Building HMM profile... 
+[2021-06-02 10:34:59] DEBUG: done.
+
+[2021-06-02 10:34:59] DEBUG: done.
+
+[2021-06-02 10:34:59] DEBUG: 24 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:34:59] DEBUG: 	52 leaves in pruned tree.
+
+[2021-06-02 10:34:59] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:34:59] DEBUG: done.
+
+[2021-06-02 10:34:59] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Thermococcus_onnurineus/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:34:59] DEBUG: 	1 query sequences.
+
+[2021-06-02 10:34:59] DEBUG: 
+
+[2021-06-02 10:35:00] DEBUG: Columns = 234
+
+[2021-06-02 10:35:00] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Thermococcus_onnurineus/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:00] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Thermococcus_onnurineus/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:00] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Thermococci; o__Thermococcales; f__Thermococcaceae; g__Thermococcus; s__Thermococcus sibiricus:
+
+[2021-06-02 10:35:00] DEBUG: Reference sequence filtering stats for taxon 's__Thermococcus sibiricus'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:35:00] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:00] DEBUG: done.
+
+[2021-06-02 10:35:00] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:00] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Thermococcus_sibiricus/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:00] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:00] DEBUG: 28 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:00] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:00] DEBUG: done.
+
+[2021-06-02 10:35:00] DEBUG: done.
+
+[2021-06-02 10:35:00] DEBUG: 24 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:00] DEBUG: 	52 leaves in pruned tree.
+
+[2021-06-02 10:35:00] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:00] DEBUG: done.
+
+[2021-06-02 10:35:00] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Thermococcus_sibiricus/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:00] DEBUG: 	1 query sequences.
+
+[2021-06-02 10:35:00] DEBUG: 
+
+[2021-06-02 10:35:01] DEBUG: Columns = 234
+
+[2021-06-02 10:35:01] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Thermococcus_sibiricus/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:01] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/s__Thermococcus_sibiricus/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:01] DEBUG: Testing placements for r__Root; d__Archaea; p__Candidatus Thermoplasmatota:
+
+[2021-06-02 10:35:01] DEBUG: Reference sequence filtering stats for taxon 'p__Candidatus Thermoplasmatota'
+Match taxon	4
+Unclassified	0
+Too shallow	0
+Remaining	49
+
+[2021-06-02 10:35:01] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:01] DEBUG: done.
+
+[2021-06-02 10:35:01] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:01] DEBUG: Read 49 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/p__Candidatus_Thermoplasmatota/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:01] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:01] DEBUG: 27 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:01] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:01] DEBUG: done.
+
+[2021-06-02 10:35:01] DEBUG: done.
+
+[2021-06-02 10:35:01] DEBUG: 22 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:01] DEBUG: 	49 leaves in pruned tree.
+
+[2021-06-02 10:35:01] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:01] DEBUG: done.
+
+[2021-06-02 10:35:01] DEBUG: Read 49 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/p__Candidatus_Thermoplasmatota/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:01] DEBUG: 	5 query sequences.
+
+[2021-06-02 10:35:01] DEBUG: 
+
+[2021-06-02 10:35:02] DEBUG: Columns = 232
+
+[2021-06-02 10:35:02] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/p__Candidatus_Thermoplasmatota/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:02] DEBUG: Read 54 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/p__Candidatus_Thermoplasmatota/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:02] DEBUG: Testing placements for r__Root; d__Archaea; p__Crenarchaeota:
+
+[2021-06-02 10:35:02] DEBUG: Reference sequence filtering stats for taxon 'p__Crenarchaeota'
+Match taxon	11
+Unclassified	0
+Too shallow	0
+Remaining	42
+
+[2021-06-02 10:35:02] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:02] DEBUG: done.
+
+[2021-06-02 10:35:02] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:02] DEBUG: Read 42 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/p__Crenarchaeota/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:02] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:02] DEBUG: 25 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:02] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:02] DEBUG: done.
+
+[2021-06-02 10:35:02] DEBUG: done.
+
+[2021-06-02 10:35:02] DEBUG: 17 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:02] DEBUG: 	42 leaves in pruned tree.
+
+[2021-06-02 10:35:02] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:02] DEBUG: done.
+
+[2021-06-02 10:35:02] DEBUG: Read 42 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/p__Crenarchaeota/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:02] DEBUG: 	12 query sequences.
+
+[2021-06-02 10:35:02] DEBUG: 
+
+[2021-06-02 10:35:02] DEBUG: Columns = 230
+
+[2021-06-02 10:35:02] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/p__Crenarchaeota/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:02] DEBUG: Read 54 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/p__Crenarchaeota/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:03] DEBUG: Testing placements for r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Desulfurococcales:
+
+[2021-06-02 10:35:03] DEBUG: Reference sequence filtering stats for taxon 'o__Desulfurococcales'
+Match taxon	3
+Unclassified	0
+Too shallow	0
+Remaining	50
+
+[2021-06-02 10:35:03] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:03] DEBUG: done.
+
+[2021-06-02 10:35:03] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:03] DEBUG: Read 50 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/o__Desulfurococcales/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:03] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:03] DEBUG: 29 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:03] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:03] DEBUG: done.
+
+[2021-06-02 10:35:03] DEBUG: done.
+
+[2021-06-02 10:35:03] DEBUG: 21 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:03] DEBUG: 	50 leaves in pruned tree.
+
+[2021-06-02 10:35:03] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:03] DEBUG: done.
+
+[2021-06-02 10:35:03] DEBUG: Read 50 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/o__Desulfurococcales/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:03] DEBUG: 	3 query sequences.
+
+[2021-06-02 10:35:03] DEBUG: 
+
+[2021-06-02 10:35:03] DEBUG: Columns = 234
+
+[2021-06-02 10:35:03] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/o__Desulfurococcales/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:03] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/o__Desulfurococcales/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:04] DEBUG: Testing placements for r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Sulfolobales:
+
+[2021-06-02 10:35:04] DEBUG: Reference sequence filtering stats for taxon 'o__Sulfolobales'
+Match taxon	4
+Unclassified	0
+Too shallow	0
+Remaining	49
+
+[2021-06-02 10:35:04] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:04] DEBUG: done.
+
+[2021-06-02 10:35:04] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:04] DEBUG: Read 49 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/o__Sulfolobales/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:04] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:04] DEBUG: 28 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:04] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:04] DEBUG: done.
+
+[2021-06-02 10:35:04] DEBUG: done.
+
+[2021-06-02 10:35:04] DEBUG: 21 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:04] DEBUG: 	49 leaves in pruned tree.
+
+[2021-06-02 10:35:04] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:04] DEBUG: done.
+
+[2021-06-02 10:35:04] DEBUG: Read 49 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/o__Sulfolobales/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:04] DEBUG: 	4 query sequences.
+
+[2021-06-02 10:35:04] DEBUG: 
+
+[2021-06-02 10:35:04] DEBUG: Columns = 234
+
+[2021-06-02 10:35:04] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/o__Sulfolobales/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:04] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/o__Sulfolobales/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:04] DEBUG: Testing placements for r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Thermoproteales:
+
+[2021-06-02 10:35:04] DEBUG: Reference sequence filtering stats for taxon 'o__Thermoproteales'
+Match taxon	4
+Unclassified	0
+Too shallow	0
+Remaining	49
+
+[2021-06-02 10:35:04] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:05] DEBUG: done.
+
+[2021-06-02 10:35:05] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:05] DEBUG: Read 49 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/o__Thermoproteales/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:05] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:05] DEBUG: 26 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:05] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:05] DEBUG: done.
+
+[2021-06-02 10:35:05] DEBUG: done.
+
+[2021-06-02 10:35:05] DEBUG: 23 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:05] DEBUG: 	49 leaves in pruned tree.
+
+[2021-06-02 10:35:05] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:05] DEBUG: done.
+
+[2021-06-02 10:35:05] DEBUG: Read 49 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/o__Thermoproteales/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:05] DEBUG: 	5 query sequences.
+
+[2021-06-02 10:35:05] DEBUG: 
+
+[2021-06-02 10:35:05] DEBUG: Columns = 233
+
+[2021-06-02 10:35:05] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/o__Thermoproteales/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:05] DEBUG: Read 54 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/o__Thermoproteales/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:05] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Halobacteriales:
+
+[2021-06-02 10:35:05] DEBUG: Reference sequence filtering stats for taxon 'o__Halobacteriales'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:35:05] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:06] DEBUG: done.
+
+[2021-06-02 10:35:06] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:06] DEBUG: Read 51 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/o__Halobacteriales/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:06] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:06] DEBUG: 28 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:06] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:06] DEBUG: done.
+
+[2021-06-02 10:35:06] DEBUG: done.
+
+[2021-06-02 10:35:06] DEBUG: 23 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:06] DEBUG: 	51 leaves in pruned tree.
+
+[2021-06-02 10:35:06] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:06] DEBUG: done.
+
+[2021-06-02 10:35:06] DEBUG: Read 51 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/o__Halobacteriales/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:06] DEBUG: 	2 query sequences.
+
+[2021-06-02 10:35:06] DEBUG: 
+
+[2021-06-02 10:35:06] DEBUG: Columns = 234
+
+[2021-06-02 10:35:06] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/o__Halobacteriales/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:06] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/o__Halobacteriales/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:06] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Haloferacales:
+
+[2021-06-02 10:35:06] DEBUG: Reference sequence filtering stats for taxon 'o__Haloferacales'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:35:06] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:06] DEBUG: done.
+
+[2021-06-02 10:35:06] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:06] DEBUG: Read 51 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/o__Haloferacales/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:06] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:06] DEBUG: 29 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:06] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:07] DEBUG: done.
+
+[2021-06-02 10:35:07] DEBUG: done.
+
+[2021-06-02 10:35:07] DEBUG: 22 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:07] DEBUG: 	51 leaves in pruned tree.
+
+[2021-06-02 10:35:07] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:07] DEBUG: done.
+
+[2021-06-02 10:35:07] DEBUG: Read 51 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/o__Haloferacales/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:07] DEBUG: 	2 query sequences.
+
+[2021-06-02 10:35:07] DEBUG: 
+
+[2021-06-02 10:35:07] DEBUG: Columns = 234
+
+[2021-06-02 10:35:07] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/o__Haloferacales/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:07] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/o__Haloferacales/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:07] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales:
+
+[2021-06-02 10:35:07] DEBUG: Reference sequence filtering stats for taxon 'o__Methanomicrobiales'
+Match taxon	3
+Unclassified	0
+Too shallow	0
+Remaining	50
+
+[2021-06-02 10:35:07] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:07] DEBUG: done.
+
+[2021-06-02 10:35:07] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:07] DEBUG: Read 50 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/o__Methanomicrobiales/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:07] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:07] DEBUG: 28 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:07] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:08] DEBUG: done.
+
+[2021-06-02 10:35:08] DEBUG: done.
+
+[2021-06-02 10:35:08] DEBUG: 22 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:08] DEBUG: 	50 leaves in pruned tree.
+
+[2021-06-02 10:35:08] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:08] DEBUG: done.
+
+[2021-06-02 10:35:08] DEBUG: Read 50 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/o__Methanomicrobiales/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:08] DEBUG: 	3 query sequences.
+
+[2021-06-02 10:35:08] DEBUG: 
+
+[2021-06-02 10:35:08] DEBUG: Columns = 234
+
+[2021-06-02 10:35:08] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/o__Methanomicrobiales/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:08] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/o__Methanomicrobiales/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:08] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales:
+
+[2021-06-02 10:35:08] DEBUG: Reference sequence filtering stats for taxon 'o__Methanosarcinales'
+Match taxon	5
+Unclassified	0
+Too shallow	0
+Remaining	48
+
+[2021-06-02 10:35:08] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:08] DEBUG: done.
+
+[2021-06-02 10:35:08] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:08] DEBUG: Read 48 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/o__Methanosarcinales/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:08] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:08] DEBUG: 26 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:08] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:09] DEBUG: done.
+
+[2021-06-02 10:35:09] DEBUG: done.
+
+[2021-06-02 10:35:09] DEBUG: 22 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:09] DEBUG: 	48 leaves in pruned tree.
+
+[2021-06-02 10:35:09] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:09] DEBUG: done.
+
+[2021-06-02 10:35:09] DEBUG: Read 48 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/o__Methanosarcinales/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:09] DEBUG: 	5 query sequences.
+
+[2021-06-02 10:35:09] DEBUG: 
+
+[2021-06-02 10:35:09] DEBUG: Columns = 234
+
+[2021-06-02 10:35:09] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/o__Methanosarcinales/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:09] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/o__Methanosarcinales/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:09] DEBUG: Testing placements for r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Desulfurococcales; f__Desulfurococcaceae; g__Aeropyrum:
+
+[2021-06-02 10:35:09] DEBUG: Reference sequence filtering stats for taxon 'g__Aeropyrum'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:35:09] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:09] DEBUG: done.
+
+[2021-06-02 10:35:09] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:09] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Aeropyrum/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:09] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:09] DEBUG: 29 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:09] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:10] DEBUG: done.
+
+[2021-06-02 10:35:10] DEBUG: done.
+
+[2021-06-02 10:35:10] DEBUG: 23 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:10] DEBUG: 	52 leaves in pruned tree.
+
+[2021-06-02 10:35:10] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:10] DEBUG: done.
+
+[2021-06-02 10:35:10] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Aeropyrum/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:10] DEBUG: 	1 query sequences.
+
+[2021-06-02 10:35:10] DEBUG: 
+
+[2021-06-02 10:35:10] DEBUG: Columns = 234
+
+[2021-06-02 10:35:10] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Aeropyrum/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:10] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Aeropyrum/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:10] DEBUG: Testing placements for r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Desulfurococcales; f__Desulfurococcaceae; g__Desulfurococcus:
+
+[2021-06-02 10:35:10] DEBUG: Reference sequence filtering stats for taxon 'g__Desulfurococcus'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:35:10] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:10] DEBUG: done.
+
+[2021-06-02 10:35:10] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:10] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Desulfurococcus/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:10] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:10] DEBUG: 29 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:10] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:11] DEBUG: done.
+
+[2021-06-02 10:35:11] DEBUG: done.
+
+[2021-06-02 10:35:11] DEBUG: 23 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:11] DEBUG: 	52 leaves in pruned tree.
+
+[2021-06-02 10:35:11] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:11] DEBUG: done.
+
+[2021-06-02 10:35:11] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Desulfurococcus/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:11] DEBUG: 	1 query sequences.
+
+[2021-06-02 10:35:11] DEBUG: 
+
+[2021-06-02 10:35:11] DEBUG: Columns = 234
+
+[2021-06-02 10:35:11] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Desulfurococcus/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:11] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Desulfurococcus/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:11] DEBUG: Testing placements for r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Desulfurococcales; f__Desulfurococcaceae; g__Ignicoccus:
+
+[2021-06-02 10:35:11] DEBUG: Reference sequence filtering stats for taxon 'g__Ignicoccus'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:35:11] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:11] DEBUG: done.
+
+[2021-06-02 10:35:11] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:11] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Ignicoccus/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:11] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:11] DEBUG: 29 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:11] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:12] DEBUG: done.
+
+[2021-06-02 10:35:12] DEBUG: done.
+
+[2021-06-02 10:35:12] DEBUG: 23 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:12] DEBUG: 	52 leaves in pruned tree.
+
+[2021-06-02 10:35:12] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:12] DEBUG: done.
+
+[2021-06-02 10:35:12] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Ignicoccus/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:12] DEBUG: 	1 query sequences.
+
+[2021-06-02 10:35:12] DEBUG: 
+
+[2021-06-02 10:35:12] DEBUG: Columns = 234
+
+[2021-06-02 10:35:12] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Ignicoccus/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:12] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Ignicoccus/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:12] DEBUG: Testing placements for r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Sulfolobales; f__Sulfolobaceae; g__Metallosphaera:
+
+[2021-06-02 10:35:12] DEBUG: Reference sequence filtering stats for taxon 'g__Metallosphaera'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:35:12] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:12] DEBUG: done.
+
+[2021-06-02 10:35:12] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:12] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Metallosphaera/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:12] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:12] DEBUG: 29 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:12] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:12] DEBUG: done.
+
+[2021-06-02 10:35:12] DEBUG: done.
+
+[2021-06-02 10:35:12] DEBUG: 23 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:12] DEBUG: 	52 leaves in pruned tree.
+
+[2021-06-02 10:35:12] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:13] DEBUG: done.
+
+[2021-06-02 10:35:13] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Metallosphaera/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:13] DEBUG: 	1 query sequences.
+
+[2021-06-02 10:35:13] DEBUG: 
+
+[2021-06-02 10:35:13] DEBUG: Columns = 234
+
+[2021-06-02 10:35:13] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Metallosphaera/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:13] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Metallosphaera/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:13] DEBUG: Testing placements for r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Sulfolobales; f__Sulfolobaceae; g__Sulfolobus:
+
+[2021-06-02 10:35:13] DEBUG: Reference sequence filtering stats for taxon 'g__Sulfolobus'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:35:13] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:13] DEBUG: done.
+
+[2021-06-02 10:35:13] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:13] DEBUG: Read 51 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Sulfolobus/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:13] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:13] DEBUG: 28 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:13] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:13] DEBUG: done.
+
+[2021-06-02 10:35:13] DEBUG: done.
+
+[2021-06-02 10:35:13] DEBUG: 23 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:13] DEBUG: 	51 leaves in pruned tree.
+
+[2021-06-02 10:35:13] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:14] DEBUG: done.
+
+[2021-06-02 10:35:14] DEBUG: Read 51 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Sulfolobus/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:14] DEBUG: 	2 query sequences.
+
+[2021-06-02 10:35:14] DEBUG: 
+
+[2021-06-02 10:35:14] DEBUG: Columns = 234
+
+[2021-06-02 10:35:14] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Sulfolobus/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:14] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Sulfolobus/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:14] DEBUG: Testing placements for r__Root; d__Archaea; p__Crenarchaeota; c__Thermoprotei; o__Sulfolobales; f__Sulfolobaceae; g__Sulfurisphaera:
+
+[2021-06-02 10:35:14] DEBUG: Reference sequence filtering stats for taxon 'g__Sulfurisphaera'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:35:14] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:14] DEBUG: done.
+
+[2021-06-02 10:35:14] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:14] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Sulfurisphaera/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:14] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:14] DEBUG: 29 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:14] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:14] DEBUG: done.
+
+[2021-06-02 10:35:14] DEBUG: done.
+
+[2021-06-02 10:35:14] DEBUG: 23 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:14] DEBUG: 	52 leaves in pruned tree.
+
+[2021-06-02 10:35:14] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:14] DEBUG: done.
+
+[2021-06-02 10:35:14] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Sulfurisphaera/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:15] DEBUG: 	1 query sequences.
+
+[2021-06-02 10:35:15] DEBUG: 
+
+[2021-06-02 10:35:15] DEBUG: Columns = 234
+
+[2021-06-02 10:35:15] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Sulfurisphaera/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:15] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Sulfurisphaera/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:15] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Haloferacales; f__Haloferacaceae; g__Haloferax:
+
+[2021-06-02 10:35:15] DEBUG: Reference sequence filtering stats for taxon 'g__Haloferax'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:35:15] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:15] DEBUG: done.
+
+[2021-06-02 10:35:15] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:15] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Haloferax/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:15] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:15] DEBUG: 29 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:15] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:15] DEBUG: done.
+
+[2021-06-02 10:35:15] DEBUG: done.
+
+[2021-06-02 10:35:15] DEBUG: 23 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:15] DEBUG: 	52 leaves in pruned tree.
+
+[2021-06-02 10:35:15] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:15] DEBUG: done.
+
+[2021-06-02 10:35:15] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Haloferax/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:15] DEBUG: 	1 query sequences.
+
+[2021-06-02 10:35:15] DEBUG: 
+
+[2021-06-02 10:35:16] DEBUG: Columns = 234
+
+[2021-06-02 10:35:16] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Haloferax/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:16] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Haloferax/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:16] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Halobacteria; o__Haloferacales; f__Haloferacaceae; g__Haloquadratum:
+
+[2021-06-02 10:35:16] DEBUG: Reference sequence filtering stats for taxon 'g__Haloquadratum'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:35:16] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:16] DEBUG: done.
+
+[2021-06-02 10:35:16] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:16] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Haloquadratum/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:16] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:16] DEBUG: 29 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:16] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:16] DEBUG: done.
+
+[2021-06-02 10:35:16] DEBUG: done.
+
+[2021-06-02 10:35:16] DEBUG: 23 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:16] DEBUG: 	52 leaves in pruned tree.
+
+[2021-06-02 10:35:16] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:16] DEBUG: done.
+
+[2021-06-02 10:35:16] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Haloquadratum/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:16] DEBUG: 	1 query sequences.
+
+[2021-06-02 10:35:16] DEBUG: 
+
+[2021-06-02 10:35:17] DEBUG: Columns = 234
+
+[2021-06-02 10:35:17] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Haloquadratum/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:17] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Haloquadratum/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:17] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanobrevibacter:
+
+[2021-06-02 10:35:17] DEBUG: Reference sequence filtering stats for taxon 'g__Methanobrevibacter'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:35:17] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:17] DEBUG: done.
+
+[2021-06-02 10:35:17] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:17] DEBUG: Read 51 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Methanobrevibacter/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:17] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:17] DEBUG: 28 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:17] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:17] DEBUG: done.
+
+[2021-06-02 10:35:17] DEBUG: done.
+
+[2021-06-02 10:35:17] DEBUG: 23 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:17] DEBUG: 	51 leaves in pruned tree.
+
+[2021-06-02 10:35:17] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:17] DEBUG: done.
+
+[2021-06-02 10:35:17] DEBUG: Read 51 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Methanobrevibacter/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:17] DEBUG: 	2 query sequences.
+
+[2021-06-02 10:35:17] DEBUG: 
+
+[2021-06-02 10:35:18] DEBUG: Columns = 234
+
+[2021-06-02 10:35:18] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Methanobrevibacter/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:18] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Methanobrevibacter/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:18] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanosphaera:
+
+[2021-06-02 10:35:18] DEBUG: Reference sequence filtering stats for taxon 'g__Methanosphaera'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:35:18] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:18] DEBUG: done.
+
+[2021-06-02 10:35:18] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:18] DEBUG: Read 51 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Methanosphaera/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:18] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:18] DEBUG: 28 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:18] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:18] DEBUG: done.
+
+[2021-06-02 10:35:18] DEBUG: done.
+
+[2021-06-02 10:35:18] DEBUG: 23 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:18] DEBUG: 	51 leaves in pruned tree.
+
+[2021-06-02 10:35:18] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:18] DEBUG: done.
+
+[2021-06-02 10:35:18] DEBUG: Read 51 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Methanosphaera/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:18] DEBUG: 	2 query sequences.
+
+[2021-06-02 10:35:18] DEBUG: 
+
+[2021-06-02 10:35:19] DEBUG: Columns = 234
+
+[2021-06-02 10:35:19] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Methanosphaera/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:19] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Methanosphaera/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:19] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria; o__Methanobacteriales; f__Methanobacteriaceae; g__Methanothermobacter:
+
+[2021-06-02 10:35:19] DEBUG: Reference sequence filtering stats for taxon 'g__Methanothermobacter'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:35:19] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:19] DEBUG: done.
+
+[2021-06-02 10:35:19] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:19] DEBUG: Read 51 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Methanothermobacter/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:19] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:19] DEBUG: 28 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:19] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:19] DEBUG: done.
+
+[2021-06-02 10:35:19] DEBUG: done.
+
+[2021-06-02 10:35:19] DEBUG: 23 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:19] DEBUG: 	51 leaves in pruned tree.
+
+[2021-06-02 10:35:19] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:19] DEBUG: done.
+
+[2021-06-02 10:35:19] DEBUG: Read 51 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Methanothermobacter/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:19] DEBUG: 	2 query sequences.
+
+[2021-06-02 10:35:19] DEBUG: 
+
+[2021-06-02 10:35:20] DEBUG: Columns = 234
+
+[2021-06-02 10:35:20] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Methanothermobacter/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:20] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Methanothermobacter/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:20] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanococcoides:
+
+[2021-06-02 10:35:20] DEBUG: Reference sequence filtering stats for taxon 'g__Methanococcoides'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:35:20] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:20] DEBUG: done.
+
+[2021-06-02 10:35:20] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:20] DEBUG: Read 51 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Methanococcoides/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:20] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:20] DEBUG: 28 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:20] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:20] DEBUG: done.
+
+[2021-06-02 10:35:20] DEBUG: done.
+
+[2021-06-02 10:35:20] DEBUG: 23 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:20] DEBUG: 	51 leaves in pruned tree.
+
+[2021-06-02 10:35:20] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:20] DEBUG: done.
+
+[2021-06-02 10:35:20] DEBUG: Read 51 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Methanococcoides/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:20] DEBUG: 	2 query sequences.
+
+[2021-06-02 10:35:20] DEBUG: 
+
+[2021-06-02 10:35:20] DEBUG: Columns = 234
+
+[2021-06-02 10:35:20] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Methanococcoides/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:20] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Methanococcoides/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:21] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanosarcinales; f__Methanosarcinaceae; g__Methanosarcina:
+
+[2021-06-02 10:35:21] DEBUG: Reference sequence filtering stats for taxon 'g__Methanosarcina'
+Match taxon	3
+Unclassified	0
+Too shallow	0
+Remaining	50
+
+[2021-06-02 10:35:21] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:21] DEBUG: done.
+
+[2021-06-02 10:35:21] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:21] DEBUG: Read 50 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Methanosarcina/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:21] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:21] DEBUG: 27 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:21] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:21] DEBUG: done.
+
+[2021-06-02 10:35:21] DEBUG: done.
+
+[2021-06-02 10:35:21] DEBUG: 23 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:21] DEBUG: 	50 leaves in pruned tree.
+
+[2021-06-02 10:35:21] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:21] DEBUG: done.
+
+[2021-06-02 10:35:21] DEBUG: Read 50 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Methanosarcina/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:21] DEBUG: 	3 query sequences.
+
+[2021-06-02 10:35:21] DEBUG: 
+
+[2021-06-02 10:35:21] DEBUG: Columns = 233
+
+[2021-06-02 10:35:21] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Methanosarcina/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:21] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Methanosarcina/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:22] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Thermococci; o__Thermococcales; f__Thermococcaceae; g__Pyrococcus:
+
+[2021-06-02 10:35:22] DEBUG: Reference sequence filtering stats for taxon 'g__Pyrococcus'
+Match taxon	5
+Unclassified	0
+Too shallow	0
+Remaining	48
+
+[2021-06-02 10:35:22] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:22] DEBUG: done.
+
+[2021-06-02 10:35:22] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:22] DEBUG: Read 48 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Pyrococcus/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:22] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:22] DEBUG: 25 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:22] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:22] DEBUG: done.
+
+[2021-06-02 10:35:22] DEBUG: done.
+
+[2021-06-02 10:35:22] DEBUG: 23 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:22] DEBUG: 	48 leaves in pruned tree.
+
+[2021-06-02 10:35:22] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:22] DEBUG: done.
+
+[2021-06-02 10:35:22] DEBUG: Read 48 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Pyrococcus/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:22] DEBUG: 	5 query sequences.
+
+[2021-06-02 10:35:22] DEBUG: 
+
+[2021-06-02 10:35:22] DEBUG: Columns = 234
+
+[2021-06-02 10:35:22] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Pyrococcus/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:22] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Pyrococcus/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:22] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Thermococci; o__Thermococcales; f__Thermococcaceae; g__Thermococcus:
+
+[2021-06-02 10:35:22] DEBUG: Reference sequence filtering stats for taxon 'g__Thermococcus'
+Match taxon	4
+Unclassified	0
+Too shallow	0
+Remaining	49
+
+[2021-06-02 10:35:22] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:23] DEBUG: done.
+
+[2021-06-02 10:35:23] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:23] DEBUG: Read 49 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Thermococcus/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:23] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:23] DEBUG: 26 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:23] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:23] DEBUG: done.
+
+[2021-06-02 10:35:23] DEBUG: done.
+
+[2021-06-02 10:35:23] DEBUG: 23 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:23] DEBUG: 	49 leaves in pruned tree.
+
+[2021-06-02 10:35:23] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:23] DEBUG: done.
+
+[2021-06-02 10:35:23] DEBUG: Read 49 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Thermococcus/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:23] DEBUG: 	4 query sequences.
+
+[2021-06-02 10:35:23] DEBUG: 
+
+[2021-06-02 10:35:23] DEBUG: Columns = 234
+
+[2021-06-02 10:35:23] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Thermococcus/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:23] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/g__Thermococcus/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:23] DEBUG: Testing placements for r__Root; d__Archaea; p__Candidatus Thermoplasmatota; c__Thermoplasmata; o__Thermoplasmatales; f__Picrophilaceae:
+
+[2021-06-02 10:35:23] DEBUG: Reference sequence filtering stats for taxon 'f__Picrophilaceae'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:35:23] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:24] DEBUG: done.
+
+[2021-06-02 10:35:24] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:24] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/f__Picrophilaceae/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:24] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:24] DEBUG: 29 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:24] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:24] DEBUG: done.
+
+[2021-06-02 10:35:24] DEBUG: done.
+
+[2021-06-02 10:35:24] DEBUG: 23 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:24] DEBUG: 	52 leaves in pruned tree.
+
+[2021-06-02 10:35:24] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:24] DEBUG: done.
+
+[2021-06-02 10:35:24] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/f__Picrophilaceae/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:24] DEBUG: 	1 query sequences.
+
+[2021-06-02 10:35:24] DEBUG: 
+
+[2021-06-02 10:35:24] DEBUG: Columns = 234
+
+[2021-06-02 10:35:24] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/f__Picrophilaceae/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:24] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/f__Picrophilaceae/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:24] DEBUG: Testing placements for r__Root; d__Archaea; p__Candidatus Thermoplasmatota; c__Thermoplasmata; o__Thermoplasmatales; f__Thermoplasmataceae:
+
+[2021-06-02 10:35:24] DEBUG: Reference sequence filtering stats for taxon 'f__Thermoplasmataceae'
+Match taxon	3
+Unclassified	0
+Too shallow	0
+Remaining	50
+
+[2021-06-02 10:35:24] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:25] DEBUG: done.
+
+[2021-06-02 10:35:25] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:25] DEBUG: Read 50 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/f__Thermoplasmataceae/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:25] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:25] DEBUG: 27 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:25] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:25] DEBUG: done.
+
+[2021-06-02 10:35:25] DEBUG: done.
+
+[2021-06-02 10:35:25] DEBUG: 23 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:25] DEBUG: 	50 leaves in pruned tree.
+
+[2021-06-02 10:35:25] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:25] DEBUG: done.
+
+[2021-06-02 10:35:25] DEBUG: Read 50 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/f__Thermoplasmataceae/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:25] DEBUG: 	4 query sequences.
+
+[2021-06-02 10:35:25] DEBUG: 
+
+[2021-06-02 10:35:25] DEBUG: Columns = 232
+
+[2021-06-02 10:35:25] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/f__Thermoplasmataceae/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:25] DEBUG: Read 54 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/f__Thermoplasmataceae/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:25] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci; o__Methanococcales; f__Methanocaldococcaceae:
+
+[2021-06-02 10:35:25] DEBUG: Reference sequence filtering stats for taxon 'f__Methanocaldococcaceae'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:35:25] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:26] DEBUG: done.
+
+[2021-06-02 10:35:26] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:26] DEBUG: Read 51 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/f__Methanocaldococcaceae/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:26] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:26] DEBUG: 28 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:26] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:26] DEBUG: done.
+
+[2021-06-02 10:35:26] DEBUG: done.
+
+[2021-06-02 10:35:26] DEBUG: 23 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:26] DEBUG: 	51 leaves in pruned tree.
+
+[2021-06-02 10:35:26] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:26] DEBUG: done.
+
+[2021-06-02 10:35:26] DEBUG: Read 51 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/f__Methanocaldococcaceae/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:26] DEBUG: 	2 query sequences.
+
+[2021-06-02 10:35:26] DEBUG: 
+
+[2021-06-02 10:35:26] DEBUG: Columns = 234
+
+[2021-06-02 10:35:26] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/f__Methanocaldococcaceae/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:26] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/f__Methanocaldococcaceae/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:26] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci; o__Methanococcales; f__Methanococcaceae:
+
+[2021-06-02 10:35:26] DEBUG: Reference sequence filtering stats for taxon 'f__Methanococcaceae'
+Match taxon	7
+Unclassified	0
+Too shallow	0
+Remaining	46
+
+[2021-06-02 10:35:26] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:27] DEBUG: done.
+
+[2021-06-02 10:35:27] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:27] DEBUG: Read 46 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/f__Methanococcaceae/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:27] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:27] DEBUG: 23 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:27] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:27] DEBUG: done.
+
+[2021-06-02 10:35:27] DEBUG: done.
+
+[2021-06-02 10:35:27] DEBUG: 23 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:27] DEBUG: 	46 leaves in pruned tree.
+
+[2021-06-02 10:35:27] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:27] DEBUG: done.
+
+[2021-06-02 10:35:27] DEBUG: Read 46 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/f__Methanococcaceae/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:27] DEBUG: 	7 query sequences.
+
+[2021-06-02 10:35:27] DEBUG: 
+
+[2021-06-02 10:35:27] DEBUG: Columns = 234
+
+[2021-06-02 10:35:27] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/f__Methanococcaceae/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:27] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/f__Methanococcaceae/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:27] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanocorpusculaceae:
+
+[2021-06-02 10:35:27] DEBUG: Reference sequence filtering stats for taxon 'f__Methanocorpusculaceae'
+Match taxon	1
+Unclassified	0
+Too shallow	0
+Remaining	52
+
+[2021-06-02 10:35:27] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:27] DEBUG: done.
+
+[2021-06-02 10:35:27] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:27] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/f__Methanocorpusculaceae/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:27] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:27] DEBUG: 29 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:27] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:28] DEBUG: done.
+
+[2021-06-02 10:35:28] DEBUG: done.
+
+[2021-06-02 10:35:28] DEBUG: 23 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:28] DEBUG: 	52 leaves in pruned tree.
+
+[2021-06-02 10:35:28] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:28] DEBUG: done.
+
+[2021-06-02 10:35:28] DEBUG: Read 52 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/f__Methanocorpusculaceae/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:28] DEBUG: 	1 query sequences.
+
+[2021-06-02 10:35:28] DEBUG: 
+
+[2021-06-02 10:35:28] DEBUG: Columns = 234
+
+[2021-06-02 10:35:28] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/f__Methanocorpusculaceae/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:28] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/f__Methanocorpusculaceae/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:28] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia; o__Methanomicrobiales; f__Methanomicrobiaceae:
+
+[2021-06-02 10:35:28] DEBUG: Reference sequence filtering stats for taxon 'f__Methanomicrobiaceae'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:35:28] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:28] DEBUG: done.
+
+[2021-06-02 10:35:28] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:28] DEBUG: Read 51 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/f__Methanomicrobiaceae/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:28] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:28] DEBUG: 28 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:28] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:29] DEBUG: done.
+
+[2021-06-02 10:35:29] DEBUG: done.
+
+[2021-06-02 10:35:29] DEBUG: 23 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:29] DEBUG: 	51 leaves in pruned tree.
+
+[2021-06-02 10:35:29] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:29] DEBUG: done.
+
+[2021-06-02 10:35:29] DEBUG: Read 51 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/f__Methanomicrobiaceae/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:29] DEBUG: 	2 query sequences.
+
+[2021-06-02 10:35:29] DEBUG: 
+
+[2021-06-02 10:35:29] DEBUG: Columns = 234
+
+[2021-06-02 10:35:29] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/f__Methanomicrobiaceae/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:29] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/f__Methanomicrobiaceae/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:29] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Archaeoglobi:
+
+[2021-06-02 10:35:29] DEBUG: Reference sequence filtering stats for taxon 'c__Archaeoglobi'
+Match taxon	2
+Unclassified	0
+Too shallow	0
+Remaining	51
+
+[2021-06-02 10:35:29] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:29] DEBUG: done.
+
+[2021-06-02 10:35:29] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:29] DEBUG: Read 51 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/c__Archaeoglobi/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:29] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:29] DEBUG: 28 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:29] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:30] DEBUG: done.
+
+[2021-06-02 10:35:30] DEBUG: done.
+
+[2021-06-02 10:35:30] DEBUG: 23 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:30] DEBUG: 	51 leaves in pruned tree.
+
+[2021-06-02 10:35:30] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:30] DEBUG: done.
+
+[2021-06-02 10:35:30] DEBUG: Read 51 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/c__Archaeoglobi/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:30] DEBUG: 	2 query sequences.
+
+[2021-06-02 10:35:30] DEBUG: 
+
+[2021-06-02 10:35:30] DEBUG: Columns = 234
+
+[2021-06-02 10:35:30] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/c__Archaeoglobi/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:30] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/c__Archaeoglobi/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:30] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Halobacteria:
+
+[2021-06-02 10:35:30] DEBUG: Reference sequence filtering stats for taxon 'c__Halobacteria'
+Match taxon	4
+Unclassified	0
+Too shallow	0
+Remaining	49
+
+[2021-06-02 10:35:30] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:30] DEBUG: done.
+
+[2021-06-02 10:35:30] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:30] DEBUG: Read 49 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/c__Halobacteria/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:30] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:30] DEBUG: 28 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:30] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:31] DEBUG: done.
+
+[2021-06-02 10:35:31] DEBUG: done.
+
+[2021-06-02 10:35:31] DEBUG: 21 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:31] DEBUG: 	49 leaves in pruned tree.
+
+[2021-06-02 10:35:31] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:31] DEBUG: done.
+
+[2021-06-02 10:35:31] DEBUG: Read 49 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/c__Halobacteria/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:31] DEBUG: 	4 query sequences.
+
+[2021-06-02 10:35:31] DEBUG: 
+
+[2021-06-02 10:35:31] DEBUG: Columns = 234
+
+[2021-06-02 10:35:31] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/c__Halobacteria/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:31] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/c__Halobacteria/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:31] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Methanobacteria:
+
+[2021-06-02 10:35:31] DEBUG: Reference sequence filtering stats for taxon 'c__Methanobacteria'
+Match taxon	6
+Unclassified	0
+Too shallow	0
+Remaining	47
+
+[2021-06-02 10:35:31] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:31] DEBUG: done.
+
+[2021-06-02 10:35:31] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:31] DEBUG: Read 47 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/c__Methanobacteria/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:31] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:31] DEBUG: 26 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:31] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:31] DEBUG: done.
+
+[2021-06-02 10:35:31] DEBUG: done.
+
+[2021-06-02 10:35:31] DEBUG: 21 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:31] DEBUG: 	47 leaves in pruned tree.
+
+[2021-06-02 10:35:31] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:32] DEBUG: done.
+
+[2021-06-02 10:35:32] DEBUG: Read 47 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/c__Methanobacteria/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:32] DEBUG: 	6 query sequences.
+
+[2021-06-02 10:35:32] DEBUG: 
+
+[2021-06-02 10:35:32] DEBUG: Columns = 233
+
+[2021-06-02 10:35:32] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/c__Methanobacteria/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:32] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/c__Methanobacteria/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:32] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Methanococci:
+
+[2021-06-02 10:35:32] DEBUG: Reference sequence filtering stats for taxon 'c__Methanococci'
+Match taxon	9
+Unclassified	0
+Too shallow	0
+Remaining	44
+
+[2021-06-02 10:35:32] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:32] DEBUG: done.
+
+[2021-06-02 10:35:32] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:32] DEBUG: Read 44 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/c__Methanococci/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:32] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:32] DEBUG: 22 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:32] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:32] DEBUG: done.
+
+[2021-06-02 10:35:32] DEBUG: done.
+
+[2021-06-02 10:35:32] DEBUG: 22 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:32] DEBUG: 	44 leaves in pruned tree.
+
+[2021-06-02 10:35:32] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:33] DEBUG: done.
+
+[2021-06-02 10:35:33] DEBUG: Read 44 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/c__Methanococci/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:33] DEBUG: 	9 query sequences.
+
+[2021-06-02 10:35:33] DEBUG: 
+
+[2021-06-02 10:35:33] DEBUG: Columns = 232
+
+[2021-06-02 10:35:33] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/c__Methanococci/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:33] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/c__Methanococci/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:33] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Methanomicrobia:
+
+[2021-06-02 10:35:33] DEBUG: Reference sequence filtering stats for taxon 'c__Methanomicrobia'
+Match taxon	8
+Unclassified	0
+Too shallow	0
+Remaining	45
+
+[2021-06-02 10:35:33] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:33] DEBUG: done.
+
+[2021-06-02 10:35:33] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:33] DEBUG: Read 45 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/c__Methanomicrobia/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:33] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:33] DEBUG: 25 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:33] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:33] DEBUG: done.
+
+[2021-06-02 10:35:33] DEBUG: done.
+
+[2021-06-02 10:35:33] DEBUG: 20 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:33] DEBUG: 	45 leaves in pruned tree.
+
+[2021-06-02 10:35:33] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:33] DEBUG: done.
+
+[2021-06-02 10:35:33] DEBUG: Read 45 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/c__Methanomicrobia/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:33] DEBUG: 	8 query sequences.
+
+[2021-06-02 10:35:33] DEBUG: 
+
+[2021-06-02 10:35:34] DEBUG: Columns = 233
+
+[2021-06-02 10:35:34] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/c__Methanomicrobia/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:34] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/c__Methanomicrobia/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:34] DEBUG: Testing placements for r__Root; d__Archaea; p__Euryarchaeota; c__Thermococci:
+
+[2021-06-02 10:35:34] DEBUG: Reference sequence filtering stats for taxon 'c__Thermococci'
+Match taxon	9
+Unclassified	0
+Too shallow	0
+Remaining	44
+
+[2021-06-02 10:35:34] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:34] DEBUG: done.
+
+[2021-06-02 10:35:34] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2021-06-02 10:35:34] DEBUG: Read 44 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/c__Thermococci/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:34] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2021-06-02 10:35:34] DEBUG: 22 sequences were excluded after synchronizing FASTA.
+
+[2021-06-02 10:35:34] DEBUG: Building HMM profile... 
+[2021-06-02 10:35:34] DEBUG: done.
+
+[2021-06-02 10:35:34] DEBUG: done.
+
+[2021-06-02 10:35:34] DEBUG: 22 genus-dereplicated sequences retained for building HMM profile.
+
+[2021-06-02 10:35:34] DEBUG: 	44 leaves in pruned tree.
+
+[2021-06-02 10:35:34] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2021-06-02 10:35:34] DEBUG: done.
+
+[2021-06-02 10:35:34] DEBUG: Read 44 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/c__Thermococci/0602.1622622832/RadA.fa'.
+
+[2021-06-02 10:35:34] DEBUG: 	9 query sequences.
+
+[2021-06-02 10:35:34] DEBUG: 
+
+[2021-06-02 10:35:35] DEBUG: Columns = 234
+
+[2021-06-02 10:35:35] DEBUG: Number of sequences discarded: 
+		/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/c__Thermococci/queries-BMGE.fasta = 0 (retained)
+
+[2021-06-02 10:35:35] DEBUG: Read 53 headers from FASTA file '/home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/intermediates/placement_trainer/intermediates/place/c__Thermococci/queries-BMGE.fasta'.
+
+[2021-06-02 10:35:35] INFO: Generating placement data without clade exclusion for SVM... 
+[2021-06-02 10:35:35] INFO: done.
+
+[2021-06-02 10:35:35] DEBUG: RANK: class
+	Samples = 38
+	Median = 1.2803
+	Mean = 1.6762
+
+[2021-06-02 10:35:35] DEBUG: RANK: species
+	Samples = 28
+	Median = 0.166
+	Mean = 0.2902
+
+[2021-06-02 10:35:35] INFO: Placement distance model complete.
+
+[2021-06-02 10:35:35] INFO: Extracting features from TreeSAPP classifications... 
+[2021-06-02 10:35:35] INFO: done.
+
+[2021-06-02 10:35:35] DEBUG: Using a 'linear' kernel for the SVM classifier
+
+[2021-06-02 10:35:35] INFO: Training the 'lin' classifier... 
+[2021-06-02 10:35:35] INFO: done.
+
+[2021-06-02 10:35:35] INFO: Evaluating model predictions with test data... 
+[2021-06-02 10:35:35] INFO: done.
+
+[2021-06-02 10:35:35] INFO: F1-score	0.62 (+/- 0.44)
+
+[2021-06-02 10:35:35] INFO: Accuracy	0.5
+
+[2021-06-02 10:35:35] INFO: Precision	1.0
+
+[2021-06-02 10:35:35] INFO: Recall		0.5
+
+[2021-06-02 10:35:36] INFO: 
+To integrate this package for use in TreeSAPP you must copy /home/connor/Bioinformatics/Hallam_projects/RefPkgs/Translation/RadA/seed_refpkg/final_outputs/RadA_build.pkl to a directory containing other reference packages you want to analyse. This may be in /home/connor/Bioinformatics/Hallam_projects/TreeSAPP_manuscript/treesapp_venv/lib/python3.7/site-packages/treesapp//data/ or elsewhere
+
+[2021-06-02 10:35:36] INFO: TreeSAPP has finished successfully.
+
