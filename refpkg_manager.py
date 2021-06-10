@@ -12,8 +12,8 @@ from datetime import datetime as dt
 from time import sleep
 
 from treesapp import refpkg as ts_refpkg
-from treesapp import classy as ts_class
 from treesapp import commands as ts_cmds
+from treesapp import logger as ts_logger
 
 _RefPkgPattern = re.compile(r"(\w{2,10})_build.pkl")  # This needs to match ReferencePackage.refpkg_suffix
 
@@ -231,10 +231,10 @@ def create_command_validator(command_list: list):
     for arg in arguments_to_check:
         try:
             i = command_list.index(arg)
-            arg_file = command_list[i+1]
+            arg_file = command_list[i + 1]
             if not os.path.isfile(arg_file):
                 logging.warning("File '{}' was not found, unable to use argument {}.\n".format(arg_file, arg))
-                command_list.pop(i+1)
+                command_list.pop(i + 1)
                 command_list.pop(i)
         except ValueError:
             continue
@@ -242,7 +242,7 @@ def create_command_validator(command_list: list):
     stage_param = "--stage"
     if stage_param in command_list:
         i = command_list.index(stage_param)
-        stage_name = command_list.pop(i+1)
+        stage_name = command_list.pop(i + 1)
         command_list.pop(i)
         logging.info("Removing '{} {}' from treesapp create command.\n".format(stage_param, stage_name))
 
@@ -266,7 +266,7 @@ def check_create_inputs(create_params: list) -> bool:
     for arg in arguments_to_check:
         try:
             i = create_params.index(arg)
-            arg_file = create_params[i+1]
+            arg_file = create_params[i + 1]
             if not os.path.isfile(arg_file):
                 return False
         except ValueError:
@@ -630,9 +630,9 @@ def manage_refpkgs(sys_args):
     if not os.path.exists(args.output_dir):
         os.mkdir(args.output_dir)
 
-    ts_class.prep_logging(log_file=os.path.join(args.output_dir,
-                                                "log_refpkg_manager_" + dt.now().strftime("%Y-%m-%d") + ".txt"),
-                          verbosity=False)
+    ts_logger.prep_logging(log_file=os.path.join(args.output_dir,
+                                                 "log_refpkg_manager_" + dt.now().strftime("%Y-%m-%d") + ".txt"),
+                           verbosity=False)
 
     refpkg_pickles = gather_refpkg_pickles()
     ref_packages = instantiate_refpkgs(refpkg_pickles)
