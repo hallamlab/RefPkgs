@@ -1,0 +1,77 @@
+# Methanogenic
+g__Methanothrix	Aceticlastic
+f__Methanosaetaceae	Aceticlastic
+f__Methanotrichaceae	Aceticlastic
+f__Methanosarcinaceae	Aceticlastic, CO2-dependent hydrogenotrophy, Methylotrophic
+# Genera in _Methanosarcinaceae_
+# g__Methanosarcina	Aceticlastic, CO2-dependent hydrogenotrophy, Methylotrophic
+# g__Methanolobus	Aceticlastic, CO2-dependent hydrogenotrophy, Methylotrophic
+# g__Methanosalsum	Aceticlastic, CO2-dependent hydrogenotrophy, Methylotrophic
+# g__Methanomethylovorans	Aceticlastic, CO2-dependent hydrogenotrophy, Methylotrophic
+# g__Methanohalophilus	Aceticlastic, CO2-dependent hydrogenotrophy, Methylotrophic
+# g__Methanohalobium	Aceticlastic, CO2-dependent hydrogenotrophy, Methylotrophic
+# g__Methanococcoides	Aceticlastic, CO2-dependent hydrogenotrophy, Methylotrophic
+Methanoflorens stordalenmirensis	CO2-dependent hydrogenotrophy
+o__Methanomicrobiales	CO2-dependent hydrogenotrophy
+c__Methanocellia	CO2-dependent hydrogenotrophy
+c__Bog-38	CO2-dependent hydrogenotrophy
+o__Methanococcales	CO2-dependent hydrogenotrophy
+o__Methanobacteriales	CO2-dependent hydrogenotrophy
+c__Methanopyri	CO2-dependent hydrogenotrophy
+o__Methanofastidiosales	CH3-dependent hydrogenotrophy
+c__Methanonatronarchaeia	CH3-dependent hydrogenotrophy
+o__Methanomassiliicoccales	CH3-dependent hydrogenotrophy
+g__Methanosphaera	CH3-dependent hydrogenotrophy
+g__Methermicoccus	Methoxydotrophic, Methylotrophic
+g__Methanimicrococcus	CH3-dependent hydrogenotrophy
+# Bathyarchaeota (Thermoproteota)-type
+p__Thermoproteota	Unknown
+c__Bathyarchaeia	Unknown
+f__BA1	Unknown
+o__Hadarchaeales	Unknown
+g__Methanomethylicus	CH3-dependent hydrogenotrophy
+g__Methanosuratus	CH3-dependent hydrogenotrophy
+o__Methanoliparales	Methanogenesis-coupled alkane oxidation
+2774017087	CH3-dependent hydrogenotrophy
+2774019680	CH3-dependent hydrogenotrophy
+TDA37970.1	CH3-dependent hydrogenotrophy
+# ANME
+ANME-2a	Methanotrophic
+f__ANME-2c	Methanotrophic
+f__Methanocomedenaceae	Methanotrophic
+o__ANME-1	Methanotrophic
+f__B39-G2	Unknown
+ANME-2b sp. HR1	Methanotrophic
+ANME-2c sp. ERB4	Methanotrophic
+ANME-2c sp. HMMV-459B1	Methanotrophic
+ANME-2c sp. E20	Methanotrophic
+o__Methanophagales	Methanotrophic
+g__Methanogaster	Methanotrophic
+ANME-3 sp. HMMV	Methanotrophic
+ANME-3 sp. HMMV2	Methanotrophic
+g__Methanovorans	Methanotrophic
+f__Candidatus Methanoperedenaceae	Methanotrophic
+g__Methanoperedens	Methanotrophic
+g__Methanoperedens_A	Methanotrophic
+# Short-chain alkane oxidation
+f__Syntropharchaeaceae	Short-chain alkane oxidation
+o__Helarchaeales	Short-chain alkane oxidation
+g__Ethanoperedens	Short-chain alkane oxidation
+f__JdFR-42	Short-chain alkane oxidation
+# Unsorted
+# Unclassified Crenarchaeota JZ-1 bin_66	Unknown
+# Unclassified Crenarchaetoa JZ-2 bin_220	Unknown
+# o__Thermoplasmatales	Unknown
+# NM648286489	Unknown  # NM2
+# 3300021513_14_Ga0190315_1002643_2
+# 3300013103_111_Ga0164318_10010115_3
+# NM17892456 	Unknown  # NM1b
+# MN1LE99113100777	Unknown  #NM1a
+# NM423249334157	CH3-dependent hydrogenotrophy  # NM4
+# NM412872330390	CH3-dependent hydrogenotrophy  # Verst-THS/ANM41
+# NM3LE45496204	CH3-dependent hydrogenotrophy  # NM3
+# AL1256114219	CH3-dependent hydrogenotrophy  # M. natro-ASL
+# NM128664353	Unknown  # NM1b_pc1
+# MN1LE27704677	Unknown  # NM1a_pc1
+# 2617404690	Unknown  # M. Mx2
+# 2617405898	Unknown  # M. Mx3
