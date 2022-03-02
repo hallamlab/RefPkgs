@@ -1,7 +1,18 @@
 d__Archaea	AmoA_AOA
-Methylococcaceae	EmoA
-g__Haliea	EmoA
-f__Nitrosomonadaceae	AmoA_AOB
+p__Verrucomicrobia	PmoA
+p__Actinobacteria	BmoA
 o__Chromatiales	AmoA_AOB
-g__Methylobacter	PmoA
-g__Methylacidiphilum	PmoA
+f__Methylococcaceae	PmoA
+f__Nitrosomonadaceae	AmoA_AOB
+g__Haliea	EmoA
+g__Methylocystis	PmoA
+g__Methylosinus	PmoA
+g__Methylohalobius	PmoA
+g__Methylocapsa	PmoA
+g__Methylothermus	PmoA
+g__Methylomarinovum	PmoA
+s__Crenothrix polyspora	PmoA
+Candidatus Methylomirabilis oxyfera	PmoA
+44	PxmA
+#g__Azoarcus	Unknown
+#s__Hydrogenophaga pseudoflava	Unknown
