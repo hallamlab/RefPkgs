@@ -1,0 +1,12 @@
+Sample	Query	Marker	Start_pos	End_pos	Taxonomy	Abundance	iNode	E-value	LWR	EvoDist	Distances
+TIGRFAM_seed_named_formatted	TIGR01701_SP|P77561|YDEP_ECOLI/11-758	NapA	105	824	r__Root	1.0	115	4.5e-64	1.0	2.1982	0.5689,1.1263,0.503
+TIGRFAM_seed_named_formatted	TIGR01706_OMNI|NTL03EC3103/2-828	NapA	1	930	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacterales; f__Enterobacteriaceae; g__Escherichia; s__Escherichia coli	1.0	1718	0.0	1.0	0.0902	0.0066,0.0836,0.0
+TIGRFAM_seed_named_formatted	TIGR01706_SP|P39185|NAPA_ALCEU/2-831	NapA	1	930	r__Root	1.0	2021	0.0	1.0	0.0757	0.0009,0.0749,0.0
+TIGRFAM_seed_named_formatted	TIGR01701_SP|Q10821|YT00_MYCTU/34-778	NapA	102	824	r__Root	1.0	115	1.3e-68	1.0	1.7834	0.3464,0.934,0.503
+TIGRFAM_seed_named_formatted	TIGR01706_OMNI|VCA0678/2-828	NapA	1	930	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Vibrionales; f__Vibrionaceae; g__Vibrio	1.0	1821	0.0	0.996792722	0.2169	0.0436,0.1733,0.0
+TIGRFAM_seed_named_formatted	TIGR01701_OMNI|NTL02MLB0108/16-791	NapA	104	823	r__Root	1.0	115	3.7e-51	1.0	2.2516	0.4048,1.3438,0.503
+TIGRFAM_seed_named_formatted	TIGR02693_SP|Q8GGJ6|ARSL_CENAS/7-806	NapA	3	840	r__Root; d__Bacteria; p__Proteobacteria; c__Betaproteobacteria; o__Burkholderiales; f__Oxalobacteraceae; g__Herminiimonas	1.0	131	1.8e-86	1.0	0.1327	0.0031,0.1296,0.0
+TIGRFAM_seed_named_formatted	TIGR02693_GB|AAR05656.1|37962697/9-825	NapA	4	839	r__Root; d__Bacteria; p__Proteobacteria; c__Alphaproteobacteria; o__Hyphomicrobiales; f__Rhizobiaceae; g__Agrobacterium	1.0	120	4.1e-102	1.0	0.1884	0.0051,0.1832,0.0
+TIGRFAM_seed_named_formatted	TIGR02693_GB|BAD71923.1|55773483/9-841	NapA	4	858	r__Root	1.0	136	6.9e-104	1.0	2.5784	0.5013,1.1574,0.9197
+TIGRFAM_seed_named_formatted	TIGR01706_OMNI|NTL01CJ00733/2-924	NapA	3	930	r__Root; d__Bacteria; p__Proteobacteria; c__Epsilonproteobacteria; o__Campylobacterales; f__Campylobacteraceae; g__Campylobacter; s__Campylobacter coli	1.0	1362	2.6e-281	1.0	0.071	0.013,0.058,0.0
+TIGRFAM_seed_named_formatted	TIGR01706_SP|Q56350|NAPA_PARDT/2-831	NapA	1	930	r__Root	1.0	1923	8.9e-300	1.0	0.1063	0.0001,0.1063,0.0

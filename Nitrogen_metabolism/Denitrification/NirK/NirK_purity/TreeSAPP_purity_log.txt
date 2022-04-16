@@ -1,0 +1,136 @@
+[2022-04-15 05:37:21] INFO: 
+##			Beginning purity analysis			##
+
+[2022-04-15 05:37:21] INFO: Arguments used:
+-n 4 -r NirK_UniProt_update/final_outputs/NirK_build.pkl --extra_info ../TIGRFAM_info.tsv -i ../TIGRFAM_seed_named.faa --output NirK_UniProt_update/NirK_purity
+
+[2022-04-15 05:37:21] DEBUG: Sequences appear to be 'prot'.
+
+[2022-04-15 05:37:22] DEBUG: Continuing with stage 'clean'
+
+[2022-04-15 05:37:22] DEBUG: Read 61111 headers from FASTA file '../TIGRFAM_seed_named.faa'.
+
+[2022-04-15 05:37:23] INFO: 
+##				Assigning sequences with TreeSAPP				##
+
+
+[2022-04-15 05:37:23] INFO: Arguments used:
+-i /root/data/imman/uniprot_data/NirK_UniProt_update/NirK_purity/intermediates/clean/TIGRFAM_seed_named_formatted.fasta -o /root/data/imman/uniprot_data/NirK_UniProt_update/NirK_purity/intermediates/assign/ -m prot -n 4 -t NirK --refpkg_dir /root/data/imman/uniprot_data/NirK_UniProt_update/final_outputs --overwrite --delete
+
+[2022-04-15 05:37:23] DEBUG: Continuing with stage 'clean'
+
+[2022-04-15 05:37:23] DEBUG: Gathering reference package files... 
+[2022-04-15 05:37:23] DEBUG: done.
+
+[2022-04-15 05:37:23] INFO: Reading and formatting /root/data/imman/uniprot_data/NirK_UniProt_update/NirK_purity/intermediates/clean/TIGRFAM_seed_named_formatted.fasta... 
+[2022-04-15 05:37:23] DEBUG: /root/data/imman/uniprot_data/NirK_UniProt_update/NirK_purity/intermediates/clean/TIGRFAM_seed_named_formatted.fasta read by pyfastx in 0.31 seconds.
+
+[2022-04-15 05:37:23] DEBUG: The following sequences were removed due to bad characters:
+TIGR04483_gi|158319089|ref|YP_001511596./4-241
+TIGR01918_GP|14717791|gb|AAC43574.2/5-435
+TIGR00476_gi|158320767|ref|YP_001513274./1-309
+TIGR04483_gi|153933895|ref|YP_001384638./2-239
+TIGR01917_GP|11065689|emb|CAC14301.1/5-435
+TIGR00476_gi|319956066|ref|YP_004167329./1-307
+TIGR00476_gi|317128844|ref|YP_004095126./1-311
+TIGR00476_gi|342732113|ref|YP_004770952./1-307
+TIGR04481_gi|310659538|ref/3-427
+TIGR01917_GP|14717791|gb|AAC43574.2/5-435
+TIGR01918_GP|11065689|emb|CAC14301.1/5-435
+TIGR04481_SELENO_ntcb02/5-434
+
+[2022-04-15 05:37:24] INFO: done.
+
+[2022-04-15 05:37:24] INFO: 	TreeSAPP will analyze the 61099 sequences found in input.
+
+[2022-04-15 05:37:24] INFO: Searching for marker proteins in ORFs using hmmsearch.
+
+[2022-04-15 05:37:24] INFO: Parsing HMMER domain tables for high-quality matches... 
+[2022-04-15 05:37:24] INFO: done.
+
+[2022-04-15 05:37:24] DEBUG: 	Initial alignments:	102
+	Alignments discarded:	75
+	Fragmented alignments:	70
+	Inversions detected:	8
+	Alignments scaffolded:	2
+	Multi-alignments:	0
+	Sequences identified:	12
+
+	Number of markers identified:
+		NirK	12
+
+[2022-04-15 05:37:24] INFO: Loading homologous sequences identified... 
+[2022-04-15 05:37:24] DEBUG: 61087 sequences were excluded after synchronizing FASTA.
+
+[2022-04-15 05:37:24] INFO: done.
+
+[2022-04-15 05:37:24] DEBUG: Instantiating the PQuery instances... 
+[2022-04-15 05:37:24] DEBUG: done.
+
+[2022-04-15 05:37:24] INFO: Extracting and grouping the quality-controlled sequences... 
+[2022-04-15 05:37:24] INFO: done.
+
+[2022-04-15 05:37:24] DEBUG: Number of query sequences in each marker's group:
+NirK	0	12
+
+
+[2022-04-15 05:37:24] INFO: Writing the grouped sequences to FASTA files... 
+[2022-04-15 05:37:24] INFO: done.
+
+[2022-04-15 05:37:25] DEBUG: 	hmmalign time required: 0.0:0.0:0.36
+
+[2022-04-15 05:37:25] DEBUG: Read 906 headers from FASTA file '/root/data/imman/uniprot_data/NirK_UniProt_update/NirK_purity/intermediates/assign/intermediates/align/NirK_hmm_purified_group0.mfa'.
+
+[2022-04-15 05:37:45] INFO: Parsing the EPA-NG outputs... 
+[2022-04-15 05:37:46] INFO: done.
+
+[2022-04-15 05:37:46] DEBUG: 	JPlace parsing time required: 0.0:0.0:0.91
+
+[2022-04-15 05:37:46] DEBUG: 	1 JPlace files.
+
+[2022-04-15 05:37:46] INFO: Selecting the optimal query placements... 
+[2022-04-15 05:37:48] INFO: done.
+
+[2022-04-15 05:37:48] DEBUG: 	PQuery parsing time required: 0.0:0.0:2.21
+
+[2022-04-15 05:37:48] DEBUG: 	12 sequences placed into trees by EPA-NG.
+
+[2022-04-15 05:37:48] INFO: Filtering low-quality placements... 
+[2022-04-15 05:37:48] DEBUG: Maximum distance threshold for 'NirK' set to 5.595471000000001.
+
+[2022-04-15 05:37:48] INFO: done.
+
+[2022-04-15 05:37:48] DEBUG: NirK	low_lwr	0
+NirK	distant	5
+NirK	big_pendant	0
+NirK	big_branch	0
+NirK	svm	0
+
+[2022-04-15 05:37:48] INFO: Generating inputs for iTOL... 
+[2022-04-15 05:37:48] INFO: done.
+
+[2022-04-15 05:37:48] DEBUG: A colours_style.txt file does not yet exist for markers:
+	NirK
+
+[2022-04-15 05:37:48] DEBUG: A colours_strip.txt file does not yet exist for markers:
+	NirK
+
+[2022-04-15 05:37:48] INFO: 
+Summarizing assignments for reference package NirK
+
+[2022-04-15 05:37:51] INFO: Ortholog	Hits	Leaves	Tree-coverage	Description
+--------------------------------------------------------------------------------
+TIGR02376	7	7	0.8	nitrite reductase, copper-containing
+
+
+[2022-04-15 05:37:51] DEBUG: TIGR02376:
+	Haloarcula hispanica N601 | AHB64591
+	Neisseria meningitidis FAM18 | CAM10744
+	Cereibacter sphaeroides | AAB05767
+	Pseudomonas chlororaphis subsp. aureofaciens | AZE07615
+	Achromobacter cycloclastes | CAA88564
+	Rhizobium sullae | AAB05880
+	Haloferax lucentense | CAE46530
+
+[2022-04-15 05:37:51] INFO: TreeSAPP has finished successfully.
+

@@ -1,0 +1,674 @@
+[2022-04-15 09:14:26] INFO: 
+##			Updating TreeSAPP reference package			##
+
+[2022-04-15 09:14:26] INFO: Arguments used:
+--fast --headless --overwrite --delete --cluster --min_taxonomic_rank o -n 4 --output NarI_UniProt_update/ --skip_assign --treesapp_output UniProt_NarI_assign/ --refpkg_path /root/Refpkgs/Nitrogen_metabolism/Denitrification/pkl_only/NarI_build.pkl --seqs2lineage UniProt_NarI_assign/UniProt_NarI.tsv
+
+[2022-04-15 09:14:26] DEBUG: Continuing with stage 'lineages'
+
+[2022-04-15 09:14:26] DEBUG: Read 5263 headers from FASTA file 'UniProt_NarI_assign/final_outputs/NarI_uniprot_classified.faa'.
+
+[2022-04-15 09:14:28] DEBUG: 0 classified sequences did not meet minimum LWR of 0.1 for updating
+
+[2022-04-15 09:14:28] INFO: 	Number of sequences: 5263
+	Longest sequence length: 310
+	Shortest sequence length: 31
+	Mean sequence length: 230.4
+	Median sequence length: 227
+
+[2022-04-15 09:14:28] DEBUG: New minimum sequence length threshold set to 66.0% of HMM length (240) instead of 30
+
+[2022-04-15 09:14:28] DEBUG: 3939 sequences were found to be shorter than 240 and removed.
+
+[2022-04-15 09:14:28] DEBUG: 3939 sequences were excluded after synchronizing FASTA.
+
+[2022-04-15 09:14:28] INFO: Extracting information from headers... 
+[2022-04-15 09:14:29] INFO: done.
+
+[2022-04-15 09:14:29] DEBUG: 	Number of input sequences = 1324
+
+[2022-04-15 09:14:29] INFO: Mapping sequence names to provided taxonomic lineages in UniProt_NarI_assign/UniProt_NarI.tsv:
+
+[2022-04-15 09:14:38] WARNING: Taxonomic lineage information was not found in UniProt_NarI.tsv for 1 sequence names.
+
+[2022-04-15 09:14:38] DEBUG: Taxonomic lineage information was not found in UniProt_NarI_assign/UniProt_NarI.tsv for the following sequence names:
+tr|A0A2P2CGT9|A0A2P2CGT9_9ZZZZ
+
+[2022-04-15 09:14:38] DEBUG: 	Number of queries =	1
+
+[2022-04-15 09:14:38] DEBUG: Preparing Bio.Entrez for NCBI queries... 
+[2022-04-15 09:14:39] DEBUG: done.
+
+[2022-04-15 09:14:39] INFO: Retrieving Entrez taxonomy records for each accession... 
+[2022-04-15 09:14:39] DEBUG: Entrez query time for accessions (minutes:seconds):
+	0 - 100	0.0:0.77
+
+[2022-04-15 09:14:39] WARNING: Unable to parse XML data from Entrez! Either the XML is corrupted or the query terms cannot be found in the database.
+Offending accessions from this batch:
+	A0A2P2CGT9
+
+[2022-04-15 09:14:39] INFO: done.
+
+[2022-04-15 09:14:39] DEBUG: 1 unique organism queries.
+
+[2022-04-15 09:14:39] INFO: Retrieving NCBI taxonomy IDs for each organism... 
+[2022-04-15 09:14:40] DEBUG: Entrez query time for accessions (minutes:seconds):
+	0 - 1	0.0:0.66
+
+[2022-04-15 09:14:40] INFO: done.
+
+[2022-04-15 09:14:40] DEBUG: Value for 'TranslationStack' not found in Entrez record. It is likely this organism name doesn't exist in Entrez's taxonomy database.
+Unable to link taxonomy ID to organism.
+Record:
+{'Count': '0', 'RetMax': '0', 'RetStart': '0', 'IdList': [], 'TranslationSet': [], 'QueryTranslation': '(metagenome OX=256318[All Names])', 'ErrorList': {'FieldNotFound': [], 'PhraseNotFound': ['metagenome OX=256318[All Names]']}, 'WarningList': {'OutputMessage': ['No items found.'], 'QuotedPhraseNotFound': [], 'PhraseIgnored': []}}
+
+[2022-04-15 09:14:40] DEBUG: Preparing Bio.Entrez for NCBI queries... 
+[2022-04-15 09:14:40] DEBUG: done.
+
+[2022-04-15 09:14:40] DEBUG: Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+Information for EntrezRecord ID '187_NarI':
+accession = A0A2P2CGT9, acc.version = tr|A0A2P2CGT9|A0A2P2CGT9_9ZZZZ
+organism = metagenome OX=256318, rank resolved = 
+NCBI taxid = , bitflag = 1
+lineage = 
+description = tr|A0A2P2CGT9|A0A2P2CGT9_9ZZZZ Respiratory nitrate reductase, gamma subunit OS=metagenome OX=256318 GN=narI PE=4 SV=1, locus = 
+
+
+[2022-04-15 09:14:40] INFO: Retrieving lineage information for each taxonomy ID... 
+[2022-04-15 09:14:40] INFO: done.
+
+[2022-04-15 09:14:40] DEBUG: Resolving conflicting lineages within taxonomic hierarchy... 
+[2022-04-15 09:14:40] DEBUG: Conflicting nodes 'Actinomycetia (high G+C Gram-positive bacteria)' and 'Actinomycetia' both had valid ranks so the more popular one (Actinomycetia (high G+C Gram-positive bacteria) = 883) was selected to represent.
+
+[2022-04-15 09:14:40] DEBUG: Unable to find c__Actinomycetia in hierarchy map.
+
+[2022-04-15 09:14:40] DEBUG: Conflicting nodes 'Actinomycetia (high G+C Gram-positive bacteria)' and 'Actinomycetia (high G+C Gram-positive bacteria)' both had valid ranks so the more popular one (Actinomycetia (high G+C Gram-positive bacteria) = 1337) was selected to represent.
+
+[2022-04-15 09:14:40] DEBUG: Taxonomic hierarchy conflicts were fixed by merging the left into the right:
+	'Actinomycetia' (class) -> 'Actinomycetia (high G+C Gram-positive bacteria)' (class)
+	'Actinomycetia (high G+C Gram-positive bacteria)' (class) -> 'Actinomycetia (high G+C Gram-positive bacteria)' (class)
+
+[2022-04-15 09:14:40] DEBUG: done.
+
+[2022-04-15 09:14:41] DEBUG: Repairing any taxonomic lineages lacking rank prefixes... 
+[2022-04-15 09:14:41] DEBUG: Preparing Bio.Entrez for NCBI queries... 
+[2022-04-15 09:14:41] DEBUG: done.
+
+[2022-04-15 09:14:41] DEBUG: done.
+
+[2022-04-15 09:14:41] DEBUG: Rooting domains in taxonomic hierarchy... 
+[2022-04-15 09:14:41] DEBUG: done.
+
+[2022-04-15 09:14:41] DEBUG: Validating lineages of all entrez records... 
+[2022-04-15 09:14:49] DEBUG: done.
+
+[2022-04-15 09:14:49] DEBUG: Queries mapped ideally = 0
+Queries with organism unmapped = 0
+Queries with NCBI taxonomy ID unmapped = 1
+Queries mapped with alternative accessions = 0
+Queries that outright failed = 0
+
+[2022-04-15 09:14:49] DEBUG: Entrez.efetch query stats:
+	Downloaded	1
+	Provided	1323
+	Total		1324
+
+
+[2022-04-15 09:14:56] DEBUG: No lineages from the accession map were added to the EntrezRecord attributes.
+
+[2022-04-15 09:14:59] DEBUG: Read 1614 headers from FASTA file '/root/data/imman/uniprot_data/NarI_UniProt_update/intermediates/0408.1649433551/NarI.fa'.
+
+[2022-04-15 09:15:00] INFO: 1324 assigned sequence(s) will be used in the update.
+
+[2022-04-15 09:15:00] INFO: 
+##			Creating TreeSAPP reference package			##
+
+[2022-04-15 09:15:00] INFO: Arguments used:
+-i /root/data/imman/uniprot_data/NarI_UniProt_update/intermediates/all_refs.fasta -c NarI -p 0.97 -m prot --guarantee /root/data/imman/uniprot_data/NarI_UniProt_update/intermediates/original_refs.fasta -o /root/data/imman/uniprot_data/NarI_UniProt_update/ --accession2lin /root/data/imman/uniprot_data/NarI_UniProt_update/intermediates/accession_id_lineage_map.tsv --num_procs 4 --bootstraps 0 --stage support --fast --cluster --headless --min_taxonomic_rank o
+
+[2022-04-15 09:15:00] WARNING: Unable to run 'support' as it is ahead of the last completed stage.
+Continuing with stage 'deduplicate'
+
+[2022-04-15 09:15:00] DEBUG: /root/data/imman/uniprot_data/NarI_UniProt_update/intermediates/all_refs.fa read by pyfastx in 0.014917850494384766 seconds.
+
+[2022-04-15 09:15:00] DEBUG: Read 2938 headers from FASTA file '/root/data/imman/uniprot_data/NarI_UniProt_update/intermediates/all_refs.fa'.
+
+[2022-04-15 09:15:00] DEBUG: /root/data/imman/uniprot_data/NarI_UniProt_update/intermediates/all_refs.fa read by pyfastx in 0.014647483825683594 seconds.
+
+[2022-04-15 09:15:00] DEBUG: Read 2938 headers from FASTA file '/root/data/imman/uniprot_data/NarI_UniProt_update/intermediates/all_refs.fa'.
+
+[2022-04-15 09:15:00] DEBUG: Identified and replaced invalid ambiguity characters in 0 sequences.
+
+[2022-04-15 09:15:00] INFO: Sequence summary:
+	Number of sequences: 2938
+	Longest sequence length: 1132
+	Shortest sequence length: 46
+	Mean sequence length: 283.6
+	Median sequence length: 247.5
+
+[2022-04-15 09:15:00] DEBUG: Read 1614 headers from FASTA file '/root/data/imman/uniprot_data/NarI_UniProt_update/intermediates/original_refs.fasta'.
+
+[2022-04-15 09:15:00] INFO: Extracting information from headers... 
+[2022-04-15 09:15:01] INFO: done.
+
+[2022-04-15 09:15:01] DEBUG: 	Number of input sequences = 2938
+
+[2022-04-15 09:15:01] INFO: Reading cached lineages in '/root/data/imman/uniprot_data/NarI_UniProt_update/intermediates/accession_id_lineage_map.tsv'... 
+[2022-04-15 09:15:01] INFO: done.
+
+[2022-04-15 09:15:01] DEBUG: Resolving conflicting lineages within taxonomic hierarchy... 
+[2022-04-15 09:15:01] DEBUG: Conflicting nodes 'Actinomycetia (high G+C Gram-positive bacteria)' and 'Actinomycetia' both had valid ranks so the more popular one (Actinomycetia (high G+C Gram-positive bacteria) = 883) was selected to represent.
+
+[2022-04-15 09:15:01] DEBUG: Unable to find c__Actinomycetia in hierarchy map.
+
+[2022-04-15 09:15:01] DEBUG: Conflicting nodes 'Actinomycetia (high G+C Gram-positive bacteria)' and 'Actinomycetia (high G+C Gram-positive bacteria)' both had valid ranks so the more popular one (Actinomycetia (high G+C Gram-positive bacteria) = 1337) was selected to represent.
+
+[2022-04-15 09:15:01] DEBUG: Taxonomic hierarchy conflicts were fixed by merging the left into the right:
+	'Actinomycetia' (class) -> 'Actinomycetia (high G+C Gram-positive bacteria)' (class)
+	'Actinomycetia (high G+C Gram-positive bacteria)' (class) -> 'Actinomycetia (high G+C Gram-positive bacteria)' (class)
+
+[2022-04-15 09:15:01] DEBUG: done.
+
+[2022-04-15 09:15:01] DEBUG: Repairing any taxonomic lineages lacking rank prefixes... 
+[2022-04-15 09:15:01] DEBUG: Preparing Bio.Entrez for NCBI queries... 
+[2022-04-15 09:15:02] DEBUG: done.
+
+[2022-04-15 09:15:02] DEBUG: done.
+
+[2022-04-15 09:15:02] DEBUG: Rooting domains in taxonomic hierarchy... 
+[2022-04-15 09:15:02] DEBUG: done.
+
+[2022-04-15 09:15:02] DEBUG: Validating lineages of all entrez records... 
+[2022-04-15 09:15:17] DEBUG: done.
+
+[2022-04-15 09:15:17] DEBUG: 	91 sequences removed with truncated taxonomic lineages.
+	2756 sequences retained for building tree.
+
+[2022-04-15 09:15:18] INFO: Clustering sequences with MMSeqs' Linclust... 
+[2022-04-15 09:15:20] INFO: done.
+
+[2022-04-15 09:15:20] DEBUG: 	2400 sequence clusters
+
+[2022-04-15 09:15:20] DEBUG: 28 former representative sequences were succeeded by 'guaranteed-sequences'.
+
+[2022-04-15 09:15:20] DEBUG: Finalizing representative sequence clusters... 
+[2022-04-15 09:15:20] DEBUG: done.
+
+[2022-04-15 09:15:20] DEBUG: 534 sequences were excluded after synchronizing FASTA.
+
+[2022-04-15 09:15:20] DEBUG: Re-enumerating the reference sequences in taxonomic order... 
+[2022-04-15 09:15:20] DEBUG: done.
+
+[2022-04-15 09:15:20] DEBUG: 2938 references before and 2404 remaining after filtering.
+
+[2022-04-15 09:15:20] DEBUG: Removing 534 taxa (333 unique) from taxonomic hierarchy.
+
+[2022-04-15 09:15:20] INFO: Number of unique lineages:
+	root       1
+	domain     2
+	phylum    20
+	class     34
+	order     90
+	family   196
+	genus    547
+	species 1651
+Unclassified and incomplete lineages account for 158/2404 (6.6%) references.
+
+[2022-04-15 09:15:20] INFO: Aligning the sequences using MAFFT... 
+[2022-04-15 09:15:28] INFO: done.
+
+[2022-04-15 09:15:29] DEBUG: Read 2404 headers from FASTA file '/root/data/imman/uniprot_data/NarI_UniProt_update/final_outputs/NarI.fa'.
+
+[2022-04-15 09:15:29] DEBUG: Reference alignment contains 2404 sequences with 3641 character positions.
+
+[2022-04-15 09:15:29] DEBUG: Building HMM profile... 
+[2022-04-15 09:15:29] DEBUG: done.
+
+[2022-04-15 09:15:30] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2022-04-15 09:15:30] DEBUG: Read 2404 headers from FASTA file '/root/data/imman/uniprot_data/NarI_UniProt_update/final_outputs/NarI.fa'.
+
+[2022-04-15 09:15:30] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2022-04-15 09:15:30] DEBUG: 1807 sequences were excluded after synchronizing FASTA.
+
+[2022-04-15 09:15:33] DEBUG: Building HMM profile... 
+[2022-04-15 09:15:33] DEBUG: done.
+
+[2022-04-15 09:15:33] DEBUG: done.
+
+[2022-04-15 09:15:33] DEBUG: 597 genus-dereplicated sequences retained for building HMM profile.
+
+[2022-04-15 09:15:34] INFO: Building phylogenetic tree with FastTree... 
+[2022-04-15 09:31:51] INFO: done.
+
+[2022-04-15 09:31:51] DEBUG: FastTree Version 2.1.11 Double precision (No SSE3)
+Alignment: /root/data/imman/uniprot_data/NarI_UniProt_update/intermediates/NarI.phy
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Le-Gascuel 2008, CAT approximation with 4 rate categories
+      0.61 seconds: Top hits for    173 of   2404 seqs (at seed    100)
+      0.80 seconds: Top hits for    303 of   2404 seqs (at seed    200)
+      0.95 seconds: Top hits for    526 of   2404 seqs (at seed    300)
+      1.24 seconds: Top hits for    957 of   2404 seqs (at seed    500)
+      1.56 seconds: Top hits for   1428 of   2404 seqs (at seed    600)
+      1.72 seconds: Top hits for   1553 of   2404 seqs (at seed    800)
+      1.84 seconds: Top hits for   1613 of   2404 seqs (at seed    900)
+      1.97 seconds: Top hits for   1758 of   2404 seqs (at seed   1000)
+      2.08 seconds: Top hits for   1807 of   2404 seqs (at seed   1200)
+      2.21 seconds: Top hits for   1901 of   2404 seqs (at seed   1400)
+      2.33 seconds: Top hits for   2012 of   2404 seqs (at seed   1600)
+      2.46 seconds: Top hits for   2143 of   2404 seqs (at seed   1800)
+      2.59 seconds: Top hits for   2234 of   2404 seqs (at seed   1900)
+      2.70 seconds: Top hits for   2314 of   2404 seqs (at seed   2100)
+      2.81 seconds: Top hits for   2391 of   2404 seqs (at seed   2300)
+      3.55 seconds: Joined    100 of   2401
+      4.69 seconds: Joined    200 of   2401
+      7.14 seconds: Joined    400 of   2401
+      7.88 seconds: Joined    500 of   2401
+      8.71 seconds: Joined    600 of   2401
+      9.42 seconds: Joined    700 of   2401
+     10.39 seconds: Joined    800 of   2401
+     11.29 seconds: Joined    900 of   2401
+     12.12 seconds: Joined   1000 of   2401
+     13.99 seconds: Joined   1200 of   2401
+     14.81 seconds: Joined   1300 of   2401
+     15.55 seconds: Joined   1400 of   2401
+     16.32 seconds: Joined   1500 of   2401
+     16.99 seconds: Joined   1600 of   2401
+     17.61 seconds: Joined   1700 of   2401
+     18.19 seconds: Joined   1800 of   2401
+     18.81 seconds: Joined   1900 of   2401
+     19.41 seconds: Joined   2000 of   2401
+     20.05 seconds: Joined   2100 of   2401
+     20.68 seconds: Joined   2200 of   2401
+     21.33 seconds: Joined   2300 of   2401
+     21.86 seconds: Joined   2400 of   2401
+Initial topology in 21.87 seconds
+Refining topology: 45 rounds ME-NNIs, 2 rounds ME-SPRs, 22 rounds ML-NNIs
+     21.98 seconds: ME NNI round 1 of 45, 301 of 2402 splits, 42 changes (max delta 0.045)
+     22.10 seconds: ME NNI round 1 of 45, 601 of 2402 splits, 91 changes (max delta 0.058)
+     22.23 seconds: ME NNI round 1 of 45, 901 of 2402 splits, 154 changes (max delta 0.109)
+     22.34 seconds: ME NNI round 1 of 45, 1201 of 2402 splits, 227 changes (max delta 0.109)
+     22.45 seconds: ME NNI round 1 of 45, 1501 of 2402 splits, 288 changes (max delta 0.109)
+     22.57 seconds: ME NNI round 1 of 45, 1801 of 2402 splits, 333 changes (max delta 0.212)
+     22.67 seconds: ME NNI round 1 of 45, 2101 of 2402 splits, 387 changes (max delta 0.212)
+     22.79 seconds: ME NNI round 2 of 45, 101 of 2402 splits, 5 changes (max delta 0.014)
+     22.90 seconds: ME NNI round 2 of 45, 501 of 2402 splits, 28 changes (max delta 0.030)
+     23.03 seconds: ME NNI round 2 of 45, 901 of 2402 splits, 74 changes (max delta 0.030)
+     23.16 seconds: ME NNI round 2 of 45, 1301 of 2402 splits, 117 changes (max delta 0.092)
+     23.29 seconds: ME NNI round 2 of 45, 1701 of 2402 splits, 159 changes (max delta 0.094)
+     23.42 seconds: ME NNI round 2 of 45, 2101 of 2402 splits, 191 changes (max delta 0.094)
+     23.53 seconds: ME NNI round 3 of 45, 101 of 2402 splits, 3 changes (max delta 0.005)
+     23.65 seconds: ME NNI round 3 of 45, 501 of 2402 splits, 21 changes (max delta 0.023)
+     23.77 seconds: ME NNI round 3 of 45, 901 of 2402 splits, 57 changes (max delta 0.057)
+     23.90 seconds: ME NNI round 3 of 45, 1301 of 2402 splits, 78 changes (max delta 0.104)
+     24.01 seconds: ME NNI round 4 of 45, 1 of 2402 splits
+     24.13 seconds: ME NNI round 4 of 45, 401 of 2402 splits, 26 changes (max delta 0.040)
+     24.24 seconds: ME NNI round 4 of 45, 701 of 2402 splits, 39 changes (max delta 0.051)
+     24.36 seconds: ME NNI round 5 of 45, 1 of 2402 splits
+     24.48 seconds: ME NNI round 5 of 45, 401 of 2402 splits, 18 changes (max delta 0.062)
+     24.60 seconds: ME NNI round 6 of 45, 101 of 2402 splits, 3 changes (max delta 0.009)
+     24.71 seconds: ME NNI round 7 of 45, 1 of 2402 splits
+     24.81 seconds: ME NNI round 8 of 45, 101 of 2402 splits, 0 changes
+     25.26 seconds: SPR round   1 of   2, 101 of 4806 nodes
+     25.74 seconds: SPR round   1 of   2, 201 of 4806 nodes
+     26.20 seconds: SPR round   1 of   2, 301 of 4806 nodes
+     26.71 seconds: SPR round   1 of   2, 401 of 4806 nodes
+     27.19 seconds: SPR round   1 of   2, 501 of 4806 nodes
+     27.68 seconds: SPR round   1 of   2, 601 of 4806 nodes
+     28.16 seconds: SPR round   1 of   2, 701 of 4806 nodes
+     28.58 seconds: SPR round   1 of   2, 801 of 4806 nodes
+     29.06 seconds: SPR round   1 of   2, 901 of 4806 nodes
+     29.53 seconds: SPR round   1 of   2, 1001 of 4806 nodes
+     29.98 seconds: SPR round   1 of   2, 1101 of 4806 nodes
+     30.48 seconds: SPR round   1 of   2, 1201 of 4806 nodes
+     30.93 seconds: SPR round   1 of   2, 1301 of 4806 nodes
+     31.44 seconds: SPR round   1 of   2, 1401 of 4806 nodes
+     31.86 seconds: SPR round   1 of   2, 1501 of 4806 nodes
+     32.31 seconds: SPR round   1 of   2, 1601 of 4806 nodes
+     32.77 seconds: SPR round   1 of   2, 1701 of 4806 nodes
+     33.18 seconds: SPR round   1 of   2, 1801 of 4806 nodes
+     33.64 seconds: SPR round   1 of   2, 1901 of 4806 nodes
+     34.11 seconds: SPR round   1 of   2, 2001 of 4806 nodes
+     34.56 seconds: SPR round   1 of   2, 2101 of 4806 nodes
+     35.04 seconds: SPR round   1 of   2, 2201 of 4806 nodes
+     35.43 seconds: SPR round   1 of   2, 2301 of 4806 nodes
+     35.90 seconds: SPR round   1 of   2, 2401 of 4806 nodes
+     36.37 seconds: SPR round   1 of   2, 2501 of 4806 nodes
+     36.82 seconds: SPR round   1 of   2, 2601 of 4806 nodes
+     37.24 seconds: SPR round   1 of   2, 2701 of 4806 nodes
+     37.69 seconds: SPR round   1 of   2, 2801 of 4806 nodes
+     38.13 seconds: SPR round   1 of   2, 2901 of 4806 nodes
+     38.60 seconds: SPR round   1 of   2, 3001 of 4806 nodes
+     39.10 seconds: SPR round   1 of   2, 3101 of 4806 nodes
+     39.72 seconds: SPR round   1 of   2, 3201 of 4806 nodes
+     40.28 seconds: SPR round   1 of   2, 3301 of 4806 nodes
+     40.81 seconds: SPR round   1 of   2, 3401 of 4806 nodes
+     41.43 seconds: SPR round   1 of   2, 3501 of 4806 nodes
+     41.95 seconds: SPR round   1 of   2, 3601 of 4806 nodes
+     42.49 seconds: SPR round   1 of   2, 3701 of 4806 nodes
+     42.96 seconds: SPR round   1 of   2, 3801 of 4806 nodes
+     43.49 seconds: SPR round   1 of   2, 3901 of 4806 nodes
+     44.00 seconds: SPR round   1 of   2, 4001 of 4806 nodes
+     44.52 seconds: SPR round   1 of   2, 4101 of 4806 nodes
+     45.05 seconds: SPR round   1 of   2, 4201 of 4806 nodes
+     45.47 seconds: SPR round   1 of   2, 4301 of 4806 nodes
+     45.95 seconds: SPR round   1 of   2, 4401 of 4806 nodes
+     46.49 seconds: SPR round   1 of   2, 4501 of 4806 nodes
+     47.11 seconds: SPR round   1 of   2, 4601 of 4806 nodes
+     47.54 seconds: SPR round   1 of   2, 4701 of 4806 nodes
+     48.20 seconds: SPR round   1 of   2, 4801 of 4806 nodes
+     48.32 seconds: ME NNI round 16 of 45, 301 of 2402 splits, 0 changes
+     48.43 seconds: ME NNI round 16 of 45, 701 of 2402 splits, 0 changes
+     48.57 seconds: ME NNI round 16 of 45, 1101 of 2402 splits, 0 changes
+     48.67 seconds: ME NNI round 16 of 45, 1401 of 2402 splits, 6 changes (max delta 0.012)
+     48.80 seconds: ME NNI round 16 of 45, 1801 of 2402 splits, 9 changes (max delta 0.012)
+     48.91 seconds: ME NNI round 16 of 45, 2101 of 2402 splits, 11 changes (max delta 0.012)
+     49.02 seconds: ME NNI round 17 of 45, 101 of 2402 splits, 0 changes
+     49.13 seconds: ME NNI round 17 of 45, 501 of 2402 splits, 0 changes
+     49.24 seconds: ME NNI round 17 of 45, 901 of 2402 splits, 0 changes
+     49.35 seconds: ME NNI round 17 of 45, 1201 of 2402 splits, 3 changes (max delta 0.014)
+     49.47 seconds: ME NNI round 17 of 45, 1601 of 2402 splits, 3 changes (max delta 0.014)
+     49.58 seconds: ME NNI round 17 of 45, 1901 of 2402 splits, 3 changes (max delta 0.014)
+     49.70 seconds: ME NNI round 17 of 45, 2301 of 2402 splits, 3 changes (max delta 0.014)
+     50.19 seconds: SPR round   2 of   2, 101 of 4806 nodes
+     50.65 seconds: SPR round   2 of   2, 201 of 4806 nodes
+     51.09 seconds: SPR round   2 of   2, 301 of 4806 nodes
+     51.60 seconds: SPR round   2 of   2, 401 of 4806 nodes
+     52.07 seconds: SPR round   2 of   2, 501 of 4806 nodes
+     52.54 seconds: SPR round   2 of   2, 601 of 4806 nodes
+     53.00 seconds: SPR round   2 of   2, 701 of 4806 nodes
+     53.43 seconds: SPR round   2 of   2, 801 of 4806 nodes
+     53.91 seconds: SPR round   2 of   2, 901 of 4806 nodes
+     54.36 seconds: SPR round   2 of   2, 1001 of 4806 nodes
+     54.81 seconds: SPR round   2 of   2, 1101 of 4806 nodes
+     55.29 seconds: SPR round   2 of   2, 1201 of 4806 nodes
+     55.73 seconds: SPR round   2 of   2, 1301 of 4806 nodes
+     56.21 seconds: SPR round   2 of   2, 1401 of 4806 nodes
+     56.62 seconds: SPR round   2 of   2, 1501 of 4806 nodes
+     57.09 seconds: SPR round   2 of   2, 1601 of 4806 nodes
+     57.51 seconds: SPR round   2 of   2, 1701 of 4806 nodes
+     57.93 seconds: SPR round   2 of   2, 1801 of 4806 nodes
+     58.35 seconds: SPR round   2 of   2, 1901 of 4806 nodes
+     58.75 seconds: SPR round   2 of   2, 2001 of 4806 nodes
+     59.13 seconds: SPR round   2 of   2, 2101 of 4806 nodes
+     59.55 seconds: SPR round   2 of   2, 2201 of 4806 nodes
+     59.98 seconds: SPR round   2 of   2, 2301 of 4806 nodes
+     60.43 seconds: SPR round   2 of   2, 2401 of 4806 nodes
+     60.87 seconds: SPR round   2 of   2, 2501 of 4806 nodes
+     61.32 seconds: SPR round   2 of   2, 2601 of 4806 nodes
+     61.73 seconds: SPR round   2 of   2, 2701 of 4806 nodes
+     62.25 seconds: SPR round   2 of   2, 2801 of 4806 nodes
+     62.64 seconds: SPR round   2 of   2, 2901 of 4806 nodes
+     63.09 seconds: SPR round   2 of   2, 3001 of 4806 nodes
+     63.54 seconds: SPR round   2 of   2, 3101 of 4806 nodes
+     64.02 seconds: SPR round   2 of   2, 3201 of 4806 nodes
+     64.51 seconds: SPR round   2 of   2, 3301 of 4806 nodes
+     64.97 seconds: SPR round   2 of   2, 3401 of 4806 nodes
+     65.55 seconds: SPR round   2 of   2, 3501 of 4806 nodes
+     66.08 seconds: SPR round   2 of   2, 3601 of 4806 nodes
+     66.66 seconds: SPR round   2 of   2, 3701 of 4806 nodes
+     67.30 seconds: SPR round   2 of   2, 3801 of 4806 nodes
+     67.85 seconds: SPR round   2 of   2, 3901 of 4806 nodes
+     68.44 seconds: SPR round   2 of   2, 4001 of 4806 nodes
+     68.90 seconds: SPR round   2 of   2, 4101 of 4806 nodes
+     69.41 seconds: SPR round   2 of   2, 4201 of 4806 nodes
+     69.90 seconds: SPR round   2 of   2, 4301 of 4806 nodes
+     70.40 seconds: SPR round   2 of   2, 4401 of 4806 nodes
+     70.87 seconds: SPR round   2 of   2, 4501 of 4806 nodes
+     71.33 seconds: SPR round   2 of   2, 4601 of 4806 nodes
+     71.88 seconds: SPR round   2 of   2, 4701 of 4806 nodes
+     72.64 seconds: SPR round   2 of   2, 4801 of 4806 nodes
+     72.76 seconds: ME NNI round 31 of 45, 301 of 2402 splits, 0 changes
+     72.87 seconds: ME NNI round 31 of 45, 701 of 2402 splits, 0 changes
+     73.01 seconds: ME NNI round 31 of 45, 1101 of 2402 splits, 0 changes
+     73.11 seconds: ME NNI round 31 of 45, 1401 of 2402 splits, 2 changes (max delta 0.014)
+     73.24 seconds: ME NNI round 31 of 45, 1801 of 2402 splits, 2 changes (max delta 0.014)
+     73.36 seconds: ME NNI round 31 of 45, 2201 of 2402 splits, 2 changes (max delta 0.014)
+     73.48 seconds: ME NNI round 32 of 45, 201 of 2402 splits, 0 changes
+     73.58 seconds: ME NNI round 32 of 45, 601 of 2402 splits, 0 changes
+     73.70 seconds: ME NNI round 32 of 45, 1001 of 2402 splits, 0 changes
+     73.83 seconds: ME NNI round 32 of 45, 1401 of 2402 splits, 0 changes
+     73.96 seconds: ME NNI round 32 of 45, 1801 of 2402 splits, 0 changes
+     74.06 seconds: ME NNI round 32 of 45, 2101 of 2402 splits, 0 changes
+Total branch-length 325.825 after 75.10 sec
+     75.20 seconds: ML Lengths 1 of 2402 splits
+     77.37 seconds: ML Lengths 101 of 2402 splits
+     79.50 seconds: ML Lengths 201 of 2402 splits
+     81.67 seconds: ML Lengths 301 of 2402 splits
+     83.82 seconds: ML Lengths 401 of 2402 splits
+     85.97 seconds: ML Lengths 501 of 2402 splits
+     88.10 seconds: ML Lengths 601 of 2402 splits
+     90.26 seconds: ML Lengths 701 of 2402 splits
+     92.40 seconds: ML Lengths 801 of 2402 splits
+     94.61 seconds: ML Lengths 901 of 2402 splits
+     96.83 seconds: ML Lengths 1001 of 2402 splits
+     98.98 seconds: ML Lengths 1101 of 2402 splits
+    101.16 seconds: ML Lengths 1201 of 2402 splits
+    103.28 seconds: ML Lengths 1301 of 2402 splits
+    105.42 seconds: ML Lengths 1401 of 2402 splits
+    107.56 seconds: ML Lengths 1501 of 2402 splits
+    109.67 seconds: ML Lengths 1601 of 2402 splits
+    111.82 seconds: ML Lengths 1701 of 2402 splits
+    114.15 seconds: ML Lengths 1801 of 2402 splits
+    116.38 seconds: ML Lengths 1901 of 2402 splits
+    118.60 seconds: ML Lengths 2001 of 2402 splits
+    120.79 seconds: ML Lengths 2101 of 2402 splits
+    122.95 seconds: ML Lengths 2201 of 2402 splits
+    125.15 seconds: ML Lengths 2301 of 2402 splits
+    127.31 seconds: ML Lengths 2401 of 2402 splits
+    135.61 seconds: ML NNI round 1 of 22, 101 of 2402 splits, 17 changes (max delta 5.735)
+    143.93 seconds: ML NNI round 1 of 22, 201 of 2402 splits, 37 changes (max delta 5.735)
+    152.25 seconds: ML NNI round 1 of 22, 301 of 2402 splits, 53 changes (max delta 6.683)
+    160.67 seconds: ML NNI round 1 of 22, 401 of 2402 splits, 74 changes (max delta 6.683)
+    168.65 seconds: ML NNI round 1 of 22, 501 of 2402 splits, 86 changes (max delta 7.719)
+    176.64 seconds: ML NNI round 1 of 22, 601 of 2402 splits, 104 changes (max delta 12.225)
+    184.85 seconds: ML NNI round 1 of 22, 701 of 2402 splits, 119 changes (max delta 12.225)
+    193.57 seconds: ML NNI round 1 of 22, 801 of 2402 splits, 136 changes (max delta 12.225)
+    202.00 seconds: ML NNI round 1 of 22, 901 of 2402 splits, 152 changes (max delta 12.225)
+    210.24 seconds: ML NNI round 1 of 22, 1001 of 2402 splits, 170 changes (max delta 12.225)
+    218.45 seconds: ML NNI round 1 of 22, 1101 of 2402 splits, 191 changes (max delta 12.225)
+    226.59 seconds: ML NNI round 1 of 22, 1201 of 2402 splits, 209 changes (max delta 17.237)
+    234.76 seconds: ML NNI round 1 of 22, 1301 of 2402 splits, 226 changes (max delta 17.237)
+    242.82 seconds: ML NNI round 1 of 22, 1401 of 2402 splits, 240 changes (max delta 17.237)
+    250.86 seconds: ML NNI round 1 of 22, 1501 of 2402 splits, 254 changes (max delta 17.237)
+    258.83 seconds: ML NNI round 1 of 22, 1601 of 2402 splits, 268 changes (max delta 17.237)
+    266.93 seconds: ML NNI round 1 of 22, 1701 of 2402 splits, 282 changes (max delta 17.237)
+    274.67 seconds: ML NNI round 1 of 22, 1801 of 2402 splits, 298 changes (max delta 17.237)
+    282.11 seconds: ML NNI round 1 of 22, 1901 of 2402 splits, 305 changes (max delta 17.237)
+    290.05 seconds: ML NNI round 1 of 22, 2001 of 2402 splits, 321 changes (max delta 17.237)
+    297.68 seconds: ML NNI round 1 of 22, 2101 of 2402 splits, 335 changes (max delta 17.237)
+    305.98 seconds: ML NNI round 1 of 22, 2201 of 2402 splits, 349 changes (max delta 17.237)
+    314.29 seconds: ML NNI round 1 of 22, 2301 of 2402 splits, 366 changes (max delta 17.237)
+    322.45 seconds: ML NNI round 1 of 22, 2401 of 2402 splits, 390 changes (max delta 17.237)
+ML-NNI round 1: LogLk = -595540.618 NNIs 390 max delta 17.24 Time 322.73
+    323.62 seconds: Site likelihoods with rate category 1 of 4
+    324.52 seconds: Site likelihoods with rate category 2 of 4
+    325.40 seconds: Site likelihoods with rate category 3 of 4
+    326.29 seconds: Site likelihoods with rate category 4 of 4
+Switched to using 4 rate categories (CAT approximation)
+Rate categories were divided by 0.907 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+    327.90 seconds: ML NNI round 2 of 22, 1 of 2402 splits
+    331.63 seconds: ML NNI round 2 of 22, 101 of 2402 splits, 4 changes (max delta 0.703)
+    335.75 seconds: ML NNI round 2 of 22, 201 of 2402 splits, 6 changes (max delta 5.019)
+    339.96 seconds: ML NNI round 2 of 22, 301 of 2402 splits, 15 changes (max delta 5.019)
+    344.67 seconds: ML NNI round 2 of 22, 401 of 2402 splits, 24 changes (max delta 9.551)
+    349.90 seconds: ML NNI round 2 of 22, 501 of 2402 splits, 31 changes (max delta 9.551)
+    355.49 seconds: ML NNI round 2 of 22, 601 of 2402 splits, 40 changes (max delta 9.551)
+    359.47 seconds: ML NNI round 2 of 22, 701 of 2402 splits, 48 changes (max delta 9.551)
+    364.65 seconds: ML NNI round 2 of 22, 801 of 2402 splits, 58 changes (max delta 9.551)
+    369.38 seconds: ML NNI round 2 of 22, 901 of 2402 splits, 64 changes (max delta 9.551)
+    373.34 seconds: ML NNI round 2 of 22, 1001 of 2402 splits, 70 changes (max delta 9.551)
+    378.58 seconds: ML NNI round 2 of 22, 1101 of 2402 splits, 82 changes (max delta 9.643)
+    382.66 seconds: ML NNI round 2 of 22, 1201 of 2402 splits, 88 changes (max delta 9.643)
+    386.30 seconds: ML NNI round 2 of 22, 1301 of 2402 splits, 94 changes (max delta 9.643)
+    390.47 seconds: ML NNI round 2 of 22, 1401 of 2402 splits, 100 changes (max delta 9.643)
+    395.72 seconds: ML NNI round 2 of 22, 1501 of 2402 splits, 109 changes (max delta 9.643)
+    399.33 seconds: ML NNI round 2 of 22, 1601 of 2402 splits, 118 changes (max delta 9.643)
+    403.42 seconds: ML NNI round 2 of 22, 1701 of 2402 splits, 126 changes (max delta 9.643)
+    407.31 seconds: ML NNI round 2 of 22, 1801 of 2402 splits, 134 changes (max delta 12.132)
+    411.72 seconds: ML NNI round 2 of 22, 1901 of 2402 splits, 139 changes (max delta 12.132)
+    417.52 seconds: ML NNI round 2 of 22, 2001 of 2402 splits, 155 changes (max delta 12.132)
+    423.64 seconds: ML NNI round 2 of 22, 2101 of 2402 splits, 171 changes (max delta 12.132)
+    428.66 seconds: ML NNI round 2 of 22, 2201 of 2402 splits, 177 changes (max delta 12.132)
+    433.93 seconds: ML NNI round 2 of 22, 2301 of 2402 splits, 183 changes (max delta 12.132)
+    439.60 seconds: ML NNI round 2 of 22, 2401 of 2402 splits, 190 changes (max delta 12.132)
+ML-NNI round 2: LogLk = -574069.171 NNIs 190 max delta 12.13 Time 439.85
+    439.84 seconds: ML NNI round 3 of 22, 1 of 2402 splits
+    443.12 seconds: ML NNI round 3 of 22, 101 of 2402 splits, 3 changes (max delta 0.811)
+    447.02 seconds: ML NNI round 3 of 22, 201 of 2402 splits, 8 changes (max delta 2.504)
+    451.47 seconds: ML NNI round 3 of 22, 301 of 2402 splits, 10 changes (max delta 2.504)
+    456.03 seconds: ML NNI round 3 of 22, 401 of 2402 splits, 16 changes (max delta 4.727)
+    460.61 seconds: ML NNI round 3 of 22, 501 of 2402 splits, 19 changes (max delta 4.727)
+    464.53 seconds: ML NNI round 3 of 22, 601 of 2402 splits, 21 changes (max delta 4.727)
+    468.70 seconds: ML NNI round 3 of 22, 701 of 2402 splits, 26 changes (max delta 4.727)
+    472.85 seconds: ML NNI round 3 of 22, 801 of 2402 splits, 29 changes (max delta 4.727)
+    477.07 seconds: ML NNI round 3 of 22, 901 of 2402 splits, 33 changes (max delta 4.727)
+    480.64 seconds: ML NNI round 3 of 22, 1001 of 2402 splits, 35 changes (max delta 4.727)
+    484.19 seconds: ML NNI round 3 of 22, 1101 of 2402 splits, 39 changes (max delta 9.320)
+    488.27 seconds: ML NNI round 3 of 22, 1201 of 2402 splits, 40 changes (max delta 9.320)
+    493.31 seconds: ML NNI round 3 of 22, 1301 of 2402 splits, 44 changes (max delta 9.320)
+    498.32 seconds: ML NNI round 3 of 22, 1401 of 2402 splits, 50 changes (max delta 9.320)
+    502.17 seconds: ML NNI round 3 of 22, 1501 of 2402 splits, 53 changes (max delta 9.320)
+    505.75 seconds: ML NNI round 3 of 22, 1601 of 2402 splits, 56 changes (max delta 9.320)
+ML-NNI round 3: LogLk = -573948.421 NNIs 56 max delta 9.32 Time 507.00
+    507.00 seconds: ML NNI round 4 of 22, 1 of 2402 splits
+    509.53 seconds: ML NNI round 4 of 22, 101 of 2402 splits, 3 changes (max delta 2.246)
+    513.12 seconds: ML NNI round 4 of 22, 201 of 2402 splits, 5 changes (max delta 2.246)
+    516.34 seconds: ML NNI round 4 of 22, 301 of 2402 splits, 9 changes (max delta 6.922)
+    520.24 seconds: ML NNI round 4 of 22, 401 of 2402 splits, 14 changes (max delta 8.232)
+    523.53 seconds: ML NNI round 4 of 22, 501 of 2402 splits, 16 changes (max delta 8.232)
+    527.56 seconds: ML NNI round 4 of 22, 601 of 2402 splits, 22 changes (max delta 8.232)
+    529.76 seconds: ML NNI round 4 of 22, 701 of 2402 splits, 24 changes (max delta 8.232)
+    534.17 seconds: ML NNI round 4 of 22, 801 of 2402 splits, 27 changes (max delta 8.232)
+    538.61 seconds: ML NNI round 4 of 22, 901 of 2402 splits, 30 changes (max delta 8.232)
+ML-NNI round 4: LogLk = -573881.154 NNIs 32 max delta 8.23 Time 541.31
+    541.30 seconds: ML NNI round 5 of 22, 1 of 2402 splits
+    544.98 seconds: ML NNI round 5 of 22, 101 of 2402 splits, 2 changes (max delta 3.633)
+    548.71 seconds: ML NNI round 5 of 22, 201 of 2402 splits, 8 changes (max delta 8.727)
+    552.74 seconds: ML NNI round 5 of 22, 301 of 2402 splits, 15 changes (max delta 8.727)
+    555.86 seconds: ML NNI round 5 of 22, 401 of 2402 splits, 16 changes (max delta 8.727)
+ML-NNI round 5: LogLk = -573850.316 NNIs 16 max delta 8.73 Time 558.38
+    558.38 seconds: ML NNI round 6 of 22, 1 of 2402 splits
+    562.52 seconds: ML NNI round 6 of 22, 101 of 2402 splits, 5 changes (max delta 4.632)
+    566.32 seconds: ML NNI round 6 of 22, 201 of 2402 splits, 8 changes (max delta 4.632)
+ML-NNI round 6: LogLk = -573831.867 NNIs 8 max delta 4.63 Time 568.45
+    568.44 seconds: ML NNI round 7 of 22, 1 of 2402 splits
+    571.98 seconds: ML NNI round 7 of 22, 101 of 2402 splits, 2 changes (max delta 0.010)
+ML-NNI round 7: LogLk = -573830.536 NNIs 3 max delta 0.91 Time 574.46
+    574.45 seconds: ML NNI round 8 of 22, 1 of 2402 splits
+ML-NNI round 8: LogLk = -573830.391 NNIs 0 max delta 0.00 Time 578.17
+Turning off heuristics for final round of ML NNIs (converged)
+    578.17 seconds: ML NNI round 9 of 22, 1 of 2402 splits
+    585.96 seconds: ML NNI round 9 of 22, 101 of 2402 splits, 4 changes (max delta 3.393)
+    593.91 seconds: ML NNI round 9 of 22, 201 of 2402 splits, 7 changes (max delta 3.393)
+    601.71 seconds: ML NNI round 9 of 22, 301 of 2402 splits, 9 changes (max delta 3.393)
+    609.68 seconds: ML NNI round 9 of 22, 401 of 2402 splits, 9 changes (max delta 3.393)
+    617.72 seconds: ML NNI round 9 of 22, 501 of 2402 splits, 9 changes (max delta 3.393)
+    625.78 seconds: ML NNI round 9 of 22, 601 of 2402 splits, 10 changes (max delta 3.393)
+    633.88 seconds: ML NNI round 9 of 22, 701 of 2402 splits, 10 changes (max delta 3.393)
+    641.76 seconds: ML NNI round 9 of 22, 801 of 2402 splits, 12 changes (max delta 3.393)
+    649.80 seconds: ML NNI round 9 of 22, 901 of 2402 splits, 12 changes (max delta 3.393)
+    658.05 seconds: ML NNI round 9 of 22, 1001 of 2402 splits, 14 changes (max delta 3.866)
+    665.79 seconds: ML NNI round 9 of 22, 1101 of 2402 splits, 14 changes (max delta 3.866)
+    673.65 seconds: ML NNI round 9 of 22, 1201 of 2402 splits, 17 changes (max delta 3.866)
+    681.68 seconds: ML NNI round 9 of 22, 1301 of 2402 splits, 17 changes (max delta 3.866)
+    689.01 seconds: ML NNI round 9 of 22, 1401 of 2402 splits, 19 changes (max delta 3.866)
+    696.81 seconds: ML NNI round 9 of 22, 1501 of 2402 splits, 19 changes (max delta 3.866)
+    704.86 seconds: ML NNI round 9 of 22, 1601 of 2402 splits, 21 changes (max delta 3.866)
+    712.48 seconds: ML NNI round 9 of 22, 1701 of 2402 splits, 21 changes (max delta 3.866)
+    720.20 seconds: ML NNI round 9 of 22, 1801 of 2402 splits, 22 changes (max delta 3.866)
+    728.48 seconds: ML NNI round 9 of 22, 1901 of 2402 splits, 23 changes (max delta 4.410)
+    736.46 seconds: ML NNI round 9 of 22, 2001 of 2402 splits, 24 changes (max delta 4.410)
+    744.66 seconds: ML NNI round 9 of 22, 2101 of 2402 splits, 25 changes (max delta 4.410)
+    752.70 seconds: ML NNI round 9 of 22, 2201 of 2402 splits, 26 changes (max delta 4.410)
+    760.59 seconds: ML NNI round 9 of 22, 2301 of 2402 splits, 26 changes (max delta 4.410)
+    768.63 seconds: ML NNI round 9 of 22, 2401 of 2402 splits, 26 changes (max delta 4.410)
+ML-NNI round 9: LogLk = -573542.410 NNIs 26 max delta 4.41 Time 768.91 (final)
+    768.91 seconds: ML Lengths 1 of 2402 splits
+    770.99 seconds: ML Lengths 101 of 2402 splits
+    772.98 seconds: ML Lengths 201 of 2402 splits
+    775.02 seconds: ML Lengths 301 of 2402 splits
+    777.01 seconds: ML Lengths 401 of 2402 splits
+    779.09 seconds: ML Lengths 501 of 2402 splits
+    781.09 seconds: ML Lengths 601 of 2402 splits
+    783.11 seconds: ML Lengths 701 of 2402 splits
+    785.11 seconds: ML Lengths 801 of 2402 splits
+    787.14 seconds: ML Lengths 901 of 2402 splits
+    789.18 seconds: ML Lengths 1001 of 2402 splits
+    791.16 seconds: ML Lengths 1101 of 2402 splits
+    793.15 seconds: ML Lengths 1201 of 2402 splits
+    795.21 seconds: ML Lengths 1301 of 2402 splits
+    797.25 seconds: ML Lengths 1401 of 2402 splits
+    799.34 seconds: ML Lengths 1501 of 2402 splits
+    801.39 seconds: ML Lengths 1601 of 2402 splits
+    803.55 seconds: ML Lengths 1701 of 2402 splits
+    805.62 seconds: ML Lengths 1801 of 2402 splits
+    807.68 seconds: ML Lengths 1901 of 2402 splits
+    809.68 seconds: ML Lengths 2001 of 2402 splits
+    811.70 seconds: ML Lengths 2101 of 2402 splits
+    813.72 seconds: ML Lengths 2201 of 2402 splits
+    815.70 seconds: ML Lengths 2301 of 2402 splits
+    817.72 seconds: ML Lengths 2401 of 2402 splits
+Optimize all lengths: LogLk = -573537.878 Time 817.88
+    824.25 seconds: ML split tests for    100 of   2401 internal splits
+    830.64 seconds: ML split tests for    200 of   2401 internal splits
+    836.92 seconds: ML split tests for    300 of   2401 internal splits
+    843.34 seconds: ML split tests for    400 of   2401 internal splits
+    849.89 seconds: ML split tests for    500 of   2401 internal splits
+    856.70 seconds: ML split tests for    600 of   2401 internal splits
+    863.20 seconds: ML split tests for    700 of   2401 internal splits
+    869.62 seconds: ML split tests for    800 of   2401 internal splits
+    876.09 seconds: ML split tests for    900 of   2401 internal splits
+    882.69 seconds: ML split tests for   1000 of   2401 internal splits
+    888.92 seconds: ML split tests for   1100 of   2401 internal splits
+    895.18 seconds: ML split tests for   1200 of   2401 internal splits
+    901.58 seconds: ML split tests for   1300 of   2401 internal splits
+    907.66 seconds: ML split tests for   1400 of   2401 internal splits
+    914.00 seconds: ML split tests for   1500 of   2401 internal splits
+    920.40 seconds: ML split tests for   1600 of   2401 internal splits
+    926.62 seconds: ML split tests for   1700 of   2401 internal splits
+    932.92 seconds: ML split tests for   1800 of   2401 internal splits
+    939.43 seconds: ML split tests for   1900 of   2401 internal splits
+    945.97 seconds: ML split tests for   2000 of   2401 internal splits
+    952.44 seconds: ML split tests for   2100 of   2401 internal splits
+    958.88 seconds: ML split tests for   2200 of   2401 internal splits
+    965.34 seconds: ML split tests for   2300 of   2401 internal splits
+    971.75 seconds: ML split tests for   2400 of   2401 internal splits
+    973.75 seconds: Site likelihoods with rate category 2 of 4
+    974.64 seconds: Site likelihoods with rate category 3 of 4
+    975.55 seconds: Site likelihoods with rate category 4 of 4
+    976.36 seconds: Optimizing alpha round 1
+Gamma(4) LogLk = -574813.487 alpha = 1.617 rescaling lengths by 1.745
+Total time: 976.39 seconds Unique: 2404/2404 Bad splits: 2/2401 Worst delta-LogLk 1.263
+
+
+[2022-04-15 09:31:51] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2022-04-15 09:33:30] DEBUG: done.
+
+[2022-04-15 09:33:31] INFO: Skipping training:
+$ treesapp train -i /root/data/imman/uniprot_data/NarI_UniProt_update/intermediates/all_refs_filtered.fa -r /root/data/imman/uniprot_data/NarI_UniProt_update/final_outputs/NarI_build.pkl -o /root/data/imman/uniprot_data/NarI_UniProt_update/intermediates/placement_trainer/ -m prot --num_procs 4 --max_examples 1000 --svm_kernel lin -a /root/data/imman/uniprot_data/NarI_UniProt_update/intermediates/accession_id_lineage_map.tsv.
+
+[2022-04-15 09:33:31] INFO: 
+To integrate this package for use in TreeSAPP you must copy /root/data/imman/uniprot_data/NarI_UniProt_update/final_outputs/NarI_build.pkl to a directory containing other reference packages you want to analyse. This may be in /usr/local/lib/python3.8/dist-packages/treesapp//data/ or elsewhere
+
+[2022-04-15 09:33:32] INFO: Summary of the updated reference package:
+ReferencePackage instance of NarI (0408.1649433551):
+	Molecule type:                                      'prot'
+	TreeSAPP version:                                   '0.11.3'
+	Profile HMM length:                                 '404'
+	Substitution model used for phylogenetic inference: 'LG+G4'
+	Number of reference sequences (leaf nodes):          2404
+	Software used to infer phylogeny:                   'FastTree'
+	Date of last update:                                '2022-04-15'
+	Description:                                        ''
+
+
+[2022-04-15 09:33:32] DEBUG: 	New sequences  = 790
+	Old HMM length = 363
+	New HMM length = 404
+
+[2022-04-15 09:33:33] INFO: TreeSAPP has finished successfully.
+

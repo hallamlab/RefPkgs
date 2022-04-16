@@ -1,0 +1,898 @@
+LABELS
+SEPARATOR COMMA
+DATA
+#NODE_ID,LABEL
+1_NirK,uncultured crenarchaeote 57a5 | ACY24533
+2_NirK,uncultured crenarchaeote 76h13 | ACY24563
+3_NirK,uncultured crenarchaeote | CAF28758
+4_NirK,Halobacteriales | tr|A0A2R6DUQ1|A0A2R6DUQ1_9EURY
+5_NirK,Halobacteriales | tr|A0A2R6GC05|A0A2R6GC05_9EURY
+6_NirK,Halobacteriales | tr|A0A2R6JJ52|A0A2R6JJ52_9EURY
+7_NirK,Halobacteriales | tr|A0A365T500|A0A365T500_9EURY
+8_NirK,Halobacteriales | tr|A0A6B9Y4M3|A0A6B9Y4M3_9EURY
+9_NirK,Halapricum salinum | tr|A0A4D6HEA8|A0A4D6HEA8_9EURY
+10_NirK,Halapricum sp. CBA1109 | tr|A0A6A9T6F0|A0A6A9T6F0_9EURY
+11_NirK,Haloarcula hispanica N601 | AHB64591
+12_NirK,Haloarcula marismortui ATCC 43049 | QCP89494
+13_NirK,Haloarcula sp. JP-L23 | tr|A0A6G8T4B2|A0A6G8T4B2_9EURY
+14_NirK,Haloarcula sp. K1 | KZX49421
+15_NirK,Halomicrobium mukohataei DSM 12286 | ACV48080
+16_NirK,Halomicrobium mukohataei | QCD65625
+17_NirK,Halomicrobium mukohataei | tr|A0A847UD64|A0A847UD64_9EURY
+18_NirK,Halorhabdus sp. CBA1104 | tr|A0A650A784|A0A650A784_9EURY
+19_NirK,Halorhabdus utahensis DSM 12940 | ACV10224
+20_NirK,Halosimplex litoreum | tr|A0A7U3WB41|A0A7U3WB41_9EURY
+21_NirK,Natronomonas pharaonis DSM 2160 | CAI48890
+22_NirK,Natronomonas sp. CBA1123 | tr|A0A6A9SJS4|A0A6A9SJS4_9EURY
+23_NirK,Halobacterium salinarum R1 | CAP13839
+24_NirK,Halobacterium sp. CBA1126 | tr|A0A6A9SJ54|A0A6A9SJ54_9EURY
+25_NirK,Halobacterium sp. DL1 | EHB61616
+26_NirK,Halobacterium sp. PCN9 | tr|A0A6B0SHJ6|A0A6B0SHJ6_9EURY
+27_NirK,Halobacterium sp. PCN9 | tr|A0A6B0SKD6|A0A6B0SKD6_9EURY
+28_NirK,Halorussus sp. MSC15.2 | tr|A0A6G3ZGV1|A0A6G3ZGV1_9EURY
+29_NirK,Halobellus limi | tr|A0A1H6BCG2|A0A1H6BCG2_9EURY
+30_NirK,Halobellus ruber | tr|A0A7J9SI93|A0A7J9SI93_9EURY
+31_NirK,Haloferax gibbonsii | tr|A0A871BL36|A0A871BL36_HALGI
+32_NirK,Haloferax lucentense | CAE46530
+33_NirK,Haloferax mediterranei ATCC 33500 | CBG76812
+34_NirK,Haloferax sp. CBA1148 | tr|A0A6G0EBW8|A0A6G0EBW8_9EURY
+35_NirK,Haloferax sp. CBA1149 | tr|A0A643JXZ8|A0A643JXZ8_9EURY
+36_NirK,Haloferax volcanii DS2 | ADE03920
+37_NirK,Halogeometricum borinquense DSM 11551 | ADQ66774
+38_NirK,Halogeometricum borinquense DSM 11551 | ADQ68227
+39_NirK,Halogeometricum borinquense DSM 11551 | ADQ68950
+40_NirK,Halogeometricum borinquense DSM 11551 | ADQ68963
+41_NirK,Halogeometricum sp. CBA1124 | tr|A0A6G2FYF6|A0A6G2FYF6_9EURY
+42_NirK,Halopelagius longus | tr|A0A1H1FJ70|A0A1H1FJ70_9EURY
+43_NirK,Haloplanus aerogenes | tr|A0A3G8QWW5|A0A3G8QWW5_9EURY
+44_NirK,Haloplanus aerogenes | tr|A0A3G8QZK6|A0A3G8QZK6_9EURY
+45_NirK,Haloplanus rallus | tr|A0A6B9FBS4|A0A6B9FBS4_9EURY
+46_NirK,Haloplanus rubicundus | tr|A0A345E5L4|A0A345E5L4_9EURY
+47_NirK,Halobaculum sp. WSA2 | tr|A0A6B0SQ15|A0A6B0SQ15_9EURY
+48_NirK,Halobaculum sp. WSA2 | tr|A0A6B0T155|A0A6B0T155_9EURY
+49_NirK,Halorubrum lacusprofundi ATCC 49239 | ACM57482
+50_NirK,Halorubrum sp. WN019 | tr|A0A2A2F6Q2|A0A2A2F6Q2_9EURY
+51_NirK,Halorubrum sp. WN019 | tr|A0A2A2FE47|A0A2A2FE47_9EURY
+52_NirK,Salinigranum rubrum | tr|A0A2I8VER0|A0A2I8VER0_9EURY
+53_NirK,Salinigranum rubrum | tr|A0A2I8VK53|A0A2I8VK53_9EURY
+54_NirK,Halopiger xanaduensis SH-6 | AEH35751
+55_NirK,Halopiger xanaduensis SH-6 | AEH36112
+56_NirK,Halopiger xanaduensis SH-6 | AEH37135
+57_NirK,Halopiger xanaduensis SH-6 | AEH37894
+58_NirK,Haloterrigena sp. KZCA68 | tr|A0A8A2VSW6|A0A8A2VSW6_9EURY
+59_NirK,Haloterrigena turkmenica DSM 5511 | ADB61952
+60_NirK,Haloterrigena turkmenica DSM 5511 | ADB62455
+61_NirK,Haloterrigena turkmenica DSM 5511 | ADB62587
+62_NirK,Natrarchaeobius chitinivorans | tr|A0A3N6LQT5|A0A3N6LQT5_9EURY
+63_NirK,Natrarchaeobius chitinivorans | tr|A0A3N6MMZ6|A0A3N6MMZ6_9EURY
+64_NirK,Natrarchaeobius chitinivorans | tr|A0A3N6PGF6|A0A3N6PGF6_9EURY
+65_NirK,Natrarchaeobius halalkaliphilus | tr|A0A3N6LPW9|A0A3N6LPW9_9EURY
+66_NirK,Natrinema ejinorense | tr|A0A2A5QTG2|A0A2A5QTG2_9EURY
+67_NirK,Natrinema pellirubrum DSM 15624 | AGB30565
+68_NirK,Natrinema pellirubrum DSM 15624 | AGB31993
+69_NirK,Natrinema versiforme | tr|A0A4V1FYW6|A0A4V1FYW6_9EURY
+70_NirK,Natronorubrum halalkaliphilum | tr|A0A6B0VRQ5|A0A6B0VRQ5_9EURY
+71_NirK,Natronorubrum halalkaliphilum | tr|A0A6B0VTM0|A0A6B0VTM0_9EURY
+72_NirK,Salinadaptatus halalkaliphilus | tr|A0A4S3TLE5|A0A4S3TLE5_9EURY
+73_NirK,Salinadaptatus halalkaliphilus | tr|A0A4S3TQ70|A0A4S3TQ70_9EURY
+74_NirK,Nitrosopumilus maritimus SCM1 | ABX13155
+75_NirK,Nitrosopumilus maritimus SCM1 | ABX13250
+76_NirK,Nitrosopumilus maritimus SCM1 | ABX13563
+77_NirK,uncultured marine crenarchaeote HF4000_ANIW97M7 | ABZ07084
+78_NirK,uncultured marine thaumarchaeote | AFF60920
+79_NirK,uncultured marine thaumarchaeote | AFF60922
+80_NirK,uncultured marine thaumarchaeote | AFF60932
+81_NirK,uncultured marine thaumarchaeote | AFF60944
+82_NirK,Candidatus Caldarchaeum subterraneum | BAJ47002
+83_NirK,Candidatus Nitrosarchaeum limnium SFB1 | EGG41865
+84_NirK,Candidatus Nitrosarchaeum limnium SFB1 | EGG42117
+85_NirK,Candidatus Nitrosarchaeum limnium SFB1 | EGG42151
+86_NirK,Nitrosarchaeum koreense MY1 | EGP94244
+87_NirK,Candidatus Nitrosopumilus salaria BD31 | EIJ65003
+88_NirK,Candidatus Nitrosopumilus salaria BD31 | EIJ66536
+89_NirK,Candidatus Nitrosocosmicus arcticus | tr|A0A557SV68|A0A557SV68_9ARCH
+90_NirK,Candidatus Nitrososphaera gargensis | tr|K0ID13|K0ID13_NITGG
+91_NirK,Candidatus Nitrososphaera gargensis | tr|K0IEZ7|K0IEZ7_NITGG
+92_NirK,Nitrososphaera viennensis | tr|A0A060HKX3|A0A060HKX3_9ARCH
+93_NirK,Terriglobus roseus DSM 18391 | AFL87445
+94_NirK,Acidothermus cellulolyticus 11B | ABK52276
+95_NirK,Actinomyces sp. oral taxon 171 str. F0337 | EFW28277
+96_NirK,Actinomyces sp. oral taxon 180 str. F0310 | EFU60726
+97_NirK,Actinomyces sp. oral taxon 448 str. F0400 | EGQ73134
+98_NirK,Actinomyces urogenitalis DSM 15434 | EEH64934
+99_NirK,Gleimia coleocanis DSM 15436 | EEH64269
+100_NirK,Pauljensenia hongkongensis | AOS47426
+101_NirK,Schaalia odontolytica ATCC 17982 | EDN80136
+102_NirK,Corynebacterium aurimucosum ATCC 700975 | ACP32651
+103_NirK,Corynebacterium diphtheriae | ONF64906
+104_NirK,Corynebacterium efficiens YS-314 | EEW50838
+105_NirK,Corynebacterium pseudogenitalium ATCC 33035 | EFQ80218
+106_NirK,Corynebacterium segmentosum | VEH72687
+107_NirK,Corynebacterium striatum ATCC 6940 | EEI79717
+108_NirK,Nocardia farcinica IFM 10152 | BAD60586
+109_NirK,Rhodococcus erythropolis | ORI19372
+110_NirK,Frankia casuarinae | ABD11878
+111_NirK,Actinoplanes missouriensis 431 | BAL91543
+112_NirK,Micromonospora aurantiaca ATCC 27029 | ADL47480
+113_NirK,Actinosynnema mirum DSM 43827 | ACU38581
+114_NirK,Thermobifida fusca YX | AAZ56827
+115_NirK,Rubrobacter xylanophilus DSM 9941 | ABG03064
+116_NirK,Rhodothermus marinus SG0.5JP17-172 | AEN73523
+117_NirK,Bacteroidales | tr|A0A3C0BBV7|A0A3C0BBV7_9BACT
+118_NirK,Bacteroidales | tr|A0A7Y5A3C9|A0A7Y5A3C9_9BACT
+119_NirK,Lentimicrobiaceae | tr|A0A2E2XXS7|A0A2E2XXS7_9BACT
+120_NirK,Chitinophagaceae | tr|A0A522SD81|A0A522SD81_9BACT
+121_NirK,Chitinophagaceae | tr|A0A522SGL6|A0A522SGL6_9BACT
+122_NirK,Chitinophagaceae | tr|A0A522SY43|A0A522SY43_9BACT
+123_NirK,Chitinophagaceae | tr|A0A5C7MN72|A0A5C7MN72_9BACT
+124_NirK,Chitinophagaceae | tr|A0A7V8W3I5|A0A7V8W3I5_9BACT
+125_NirK,Chitinophagaceae | tr|A0A7V9JZB1|A0A7V9JZB1_9BACT
+126_NirK,Chitinophaga flava | tr|A0A365Y0B8|A0A365Y0B8_9BACT
+127_NirK,Chitinophaga silvisoli | tr|A0A3E1NW11|A0A3E1NW11_9BACT
+128_NirK,Chitinophaga tropicalis | tr|A0A7K1U363|A0A7K1U363_9BACT
+129_NirK,Ferruginibacter sp. | tr|A0A7Y5D916|A0A7Y5D916_9BACT
+130_NirK,Ferruginibacter sp. BO-59 | tr|A0A3M9NP28|A0A3M9NP28_9BACT
+131_NirK,Ginsengibacter hankyongi | tr|A0A5J5IIC4|A0A5J5IIC4_9BACT
+132_NirK,Niabella sp. | tr|A0A5C7W0Z4|A0A5C7W0Z4_9BACT
+133_NirK,Thermoflavifilum sp. | tr|A0A7M1T7W5|A0A7M1T7W5_9BACT
+134_NirK,Cytophagales | tr|A0A3D5KQ03|A0A3D5KQ03_9BACT
+135_NirK,Algoriphagus aquimarinus | tr|A0A5C7AHW8|A0A5C7AHW8_9BACT
+136_NirK,Belliella baltica DSM 15883 | AFL84581
+137_NirK,Hymenobacter sp. CCM 8763 | tr|A0A372DW73|A0A372DW73_9BACT
+138_NirK,Pontibacter fetidus | tr|A0A6B2H016|A0A6B2H016_9BACT
+139_NirK,Pontibacter sp. GY10130 | tr|A0A5C8K6Q7|A0A5C8K6Q7_9BACT
+140_NirK,Pontibacter sp. HB172049 | tr|A0A501W7Z1|A0A501W7Z1_9BACT
+141_NirK,Marivirga tractuosa DSM 4126 | ADR22678
+142_NirK,Flavobacteriales | tr|A0A2A5B4R9|A0A2A5B4R9_9FLAO
+143_NirK,Flavobacteriales | tr|A0A2A5HN00|A0A2A5HN00_9FLAO
+144_NirK,Flavobacteriales | tr|A0A2D5KAY1|A0A2D5KAY1_9FLAO
+145_NirK,Brumimicrobium glaciale | tr|A0A4Q4KRG3|A0A4Q4KRG3_9FLAO
+146_NirK,Brumimicrobium salinarum | tr|A0A2I0R554|A0A2I0R554_9FLAO
+147_NirK,Brumimicrobium sp. C305 | tr|A0A2U2X5B0|A0A2U2X5B0_9FLAO
+148_NirK,Putridiphycobacter roseus | tr|A0A2W1N4S9|A0A2W1N4S9_9FLAO
+149_NirK,Cryomorpha ignava | tr|A0A7K3WY44|A0A7K3WY44_9FLAO
+150_NirK,Flavobacteriaceae bacterium 3519-10 | ACU06855
+151_NirK,Flavobacteriaceae | tr|A0A1J0LMY3|A0A1J0LMY3_9FLAO
+152_NirK,Flavobacteriaceae | tr|A0A2A4TNB7|A0A2A4TNB7_9FLAO
+153_NirK,Flavobacteriaceae | tr|A0A2A5GSL4|A0A2A5GSL4_9FLAO
+154_NirK,Flavobacteriaceae | tr|A0A2M7DPZ4|A0A2M7DPZ4_9FLAO
+155_NirK,Flavobacteriaceae | tr|A0A2M7NPM1|A0A2M7NPM1_9FLAO
+156_NirK,Flavobacteriaceae | tr|A0A4V1VE26|A0A4V1VE26_9FLAO
+157_NirK,Flavobacteriaceae | tr|A0A507ZCF0|A0A507ZCF0_9FLAO
+158_NirK,Flavobacteriaceae | tr|A0A7C7ZQI9|A0A7C7ZQI9_9FLAO
+159_NirK,Aequorivita lipolytica | tr|A0A5C6YQ26|A0A5C6YQ26_9FLAO
+160_NirK,Aequorivita lutea | tr|A0A7K0EZ16|A0A7K0EZ16_9FLAO
+161_NirK,Aequorivita sp. | tr|A0A2D9QA63|A0A2D9QA63_9FLAO
+162_NirK,Aequorivita sp. 609 | tr|A0A841TPV6|A0A841TPV6_9FLAO
+163_NirK,Aequorivita sp. H23M31 | tr|A0A410G1T4|A0A410G1T4_9FLAO
+164_NirK,Aequorivita sublithincola DSM 14238 | AFL79638
+165_NirK,Antarcticibacterium arcticum | tr|A0A5B8YQC4|A0A5B8YQC4_9FLAO
+166_NirK,Antarcticibacterium flavum | tr|A0A5B7X3X2|A0A5B7X3X2_9FLAO
+167_NirK,Arenibacter sp. P308M17 | tr|A0A372H0T9|A0A372H0T9_9FLAO
+168_NirK,Bizionia algoritergicola | tr|A0A5D0QS56|A0A5D0QS56_9FLAO
+169_NirK,Bizionia argentinensis JUB59 | EGV44369
+170_NirK,Bizionia myxarmorum | tr|A0A5D0R8A9|A0A5D0R8A9_9FLAO
+171_NirK,Capnocytophaga gingivalis ATCC 33624 | EEK14494
+172_NirK,Capnocytophaga sp. oral taxon 329 str. F0087 | KHE69291
+173_NirK,Capnocytophaga sp. oral taxon 338 str. F0234 | EGD33903
+174_NirK,Capnocytophaga sputigena | ATA83057
+175_NirK,Confluentibacter flavum | tr|A0A2N3HIB4|A0A2N3HIB4_9FLAO
+176_NirK,Flavivirga rizhaonensis | tr|A0A4S1DXR0|A0A4S1DXR0_9FLAO
+177_NirK,Flavobacterium alvei | tr|A0A2S5A6N4|A0A2S5A6N4_9FLAO
+178_NirK,Flavobacterium columnare | APT22933
+179_NirK,Flavobacterium crocinum | tr|A0A2S1YM14|A0A2S1YM14_9FLAO
+180_NirK,Flavobacterium johnsoniae | SHL56746
+181_NirK,Flavobacterium laiguense | tr|A0A2U1JTL6|A0A2U1JTL6_9FLAO
+182_NirK,Flavobacterium psychrotolerans | tr|A0A2U1JI35|A0A2U1JI35_9FLAO
+183_NirK,Flavobacterium sp. | tr|A0A519KHL7|A0A519KHL7_FLASP
+184_NirK,Flavobacterium sp. 140616W15 | tr|A0A3G2GEK8|A0A3G2GEK8_9FLAO
+185_NirK,Flavobacterium sp. CC-CTC003 | tr|A0A4S3ZPK3|A0A4S3ZPK3_9FLAO
+186_NirK,Flavobacterium sp. GA093 | tr|A0A6I4NP92|A0A6I4NP92_9FLAO
+187_NirK,Flavobacterium sp. GT3P67 | tr|A0A4R5FIC0|A0A4R5FIC0_9FLAO
+188_NirK,Flavobacterium sp. HTF | tr|A0A2U1QYT1|A0A2U1QYT1_9FLAO
+189_NirK,Flavobacterium sp. IMCC34852 | tr|A0A7Y3VYL3|A0A7Y3VYL3_9FLAO
+190_NirK,Flavobacterium sp. IR1 | tr|A0A7L4TQ43|A0A7L4TQ43_9FLAO
+191_NirK,Flavobacterium sp. M31R6 | tr|A0A6M8SG22|A0A6M8SG22_9FLAO
+192_NirK,Flavobacterium sp. MC2016-06 | tr|A0A6I3MJN0|A0A6I3MJN0_9FLAO
+193_NirK,Flavobacterium sp. MDT1-60 | tr|A0A7L8UAA8|A0A7L8UAA8_9FLAO
+194_NirK,Flavobacterium sp. XN-5 | tr|A0A6M2C432|A0A6M2C432_9FLAO
+195_NirK,Flavobacterium sp. ZT3R18 | tr|A0A553E1L4|A0A553E1L4_9FLAO
+196_NirK,Formosa maritima | tr|A0A5D0G4Q6|A0A5D0G4Q6_9FLAO
+197_NirK,Gelidibacter maritimus | tr|A0A7W2M1X8|A0A7W2M1X8_9FLAO
+198_NirK,Gelidibacter salicanalis | tr|A0A5C7AVQ0|A0A5C7AVQ0_9FLAO
+199_NirK,Gramella fulva | tr|A0A2R3Z330|A0A2R3Z330_9FLAO
+200_NirK,Gramella fulva | tr|A0A2R3ZA91|A0A2R3ZA91_9FLAO
+201_NirK,Hanstruepera neustonica | tr|A0A2K1DWS9|A0A2K1DWS9_9FLAO
+202_NirK,Imtechella halotolerans K1 | EID73898
+203_NirK,Lacinutrix sp. Bg11-31 | tr|A0A2K8XDZ9|A0A2K8XDZ9_9FLAO
+204_NirK,Leptobacterium flavescens | tr|A0A6P0URT6|A0A6P0URT6_9FLAO
+205_NirK,Lutibacter sp. | tr|A0A2G1XWI7|A0A2G1XWI7_9FLAO
+206_NirK,Lutibacter sp. | tr|A0A2G2HFF2|A0A2G2HFF2_9FLAO
+207_NirK,Lutibacter sp. | tr|A0A3D1KRN0|A0A3D1KRN0_9FLAO
+208_NirK,Maribacter sp. ACAM166 | tr|A0A5R9AQS0|A0A5R9AQS0_9FLAO
+209_NirK,Maribacter sp. HTCC2170 | EAR01831
+210_NirK,Marixanthomonas sp. HN-E44 | tr|A0A2U0I3Y0|A0A2U0I3Y0_9FLAO
+211_NirK,Muricauda ruestringensis DSM 13258 | AEM71702
+212_NirK,Myroides odoratimimus | QBK75184
+213_NirK,Myroides pelagicus | tr|A0A7K1GPP2|A0A7K1GPP2_9FLAO
+214_NirK,Myroides sp. NP-2 | tr|A0A7W3VL89|A0A7W3VL89_9FLAO
+215_NirK,Oceanihabitans sediminis | tr|A0A368P718|A0A368P718_9FLAO
+216_NirK,Polaribacter aquimarinus | tr|A0A2U2JAY5|A0A2U2JAY5_9FLAO
+217_NirK,Polaribacter sp. ALD11 | tr|A0A2K8XM86|A0A2K8XM86_9FLAO
+218_NirK,Polaribacter sp. IC073 | tr|A0A5C6XQ54|A0A5C6XQ54_9FLAO
+219_NirK,Polaribacter sp. L12M9 | tr|A0A7G9LCV1|A0A7G9LCV1_9FLAO
+220_NirK,Subsaximicrobium wynnwilliamsii | tr|A0A5C6ZJI3|A0A5C6ZJI3_9FLAO
+221_NirK,Tenacibaculum singaporense | tr|A0A3S8R829|A0A3S8R829_9FLAO
+222_NirK,Tenacibaculum sp. Bg11-29 | tr|A0A2N1F9H0|A0A2N1F9H0_9FLAO
+223_NirK,Winogradskyella ouciana | tr|A0A7K1GDQ2|A0A7K1GDQ2_9FLAO
+224_NirK,Xanthomarina gelatinilytica | tr|A0A3D6BND3|A0A3D6BND3_9FLAO
+225_NirK,Apibacter muscae | tr|A0A563DL87|A0A563DL87_9FLAO
+226_NirK,Bergeyella cardium | tr|A0A6P1QSR5|A0A6P1QSR5_9FLAO
+227_NirK,Chryseobacterium gleum | VEE05677
+228_NirK,Chryseobacterium lacus | tr|A0A368N3E8|A0A368N3E8_9FLAO
+229_NirK,Chryseobacterium manosquense | tr|A0A7H1DWK1|A0A7H1DWK1_9FLAO
+230_NirK,Chryseobacterium sediminis | tr|A0A5B2U2G7|A0A5B2U2G7_9FLAO
+231_NirK,Chryseobacterium sp. | tr|A0A3N7IUE0|A0A3N7IUE0_9FLAO
+232_NirK,Chryseobacterium sp. | tr|A0A5C8APR8|A0A5C8APR8_9FLAO
+233_NirK,Chryseobacterium sp. 6424 | tr|A0A3G2TE36|A0A3G2TE36_9FLAO
+234_NirK,Chryseobacterium sp. NEB161 | tr|A0A6H1M803|A0A6H1M803_9FLAO
+235_NirK,Chryseobacterium sp. POL2 | tr|A0A6G6YED1|A0A6G6YED1_9FLAO
+236_NirK,Chryseobacterium sp. VAUSW3 | tr|A0A219AEC0|A0A219AEC0_9FLAO
+237_NirK,Cruoricaptor ignavus | tr|A0A7M1T3K0|A0A7M1T3K0_9FLAO
+238_NirK,Elizabethkingia bruuniana | tr|A0A7T7V078|A0A7T7V078_9FLAO
+239_NirK,Elizabethkingia sp. JS20170427COW | tr|A0A5B7UBE0|A0A5B7UBE0_9FLAO
+240_NirK,Kaistella carnis | tr|A0A3G8XMZ5|A0A3G8XMZ5_9FLAO
+241_NirK,Kaistella daneshvariae | tr|A0A3N0WT62|A0A3N0WT62_9FLAO
+242_NirK,Kaistella flava (ex Peng et al. 2021) | tr|A0A7M2YDI8|A0A7M2YDI8_9FLAO
+243_NirK,Sphingobacteriales | tr|A0A7T9DX21|A0A7T9DX21_9SPHI
+244_NirK,Arcticibacter tournemirensis | tr|A0A4V1KIE9|A0A4V1KIE9_9SPHI
+245_NirK,Pedobacter changchengzhani | tr|A0A4R5MKR8|A0A4R5MKR8_9SPHI
+246_NirK,Solitalea canadensis DSM 3403 | EHP05801
+247_NirK,Sphingobacterium humi | tr|A0A6N8L713|A0A6N8L713_9SPHI
+248_NirK,Balneolaceae | tr|A0A6M1SSP1|A0A6M1SSP1_9BACT
+249_NirK,Aliifodinibius halophilus | tr|A0A6M1SY10|A0A6M1SY10_9BACT
+250_NirK,Aliifodinibius halophilus | tr|A0A6M1T3Z7|A0A6M1T3Z7_9BACT
+251_NirK,Candidatus Acetothermum autotrophicum | BAL59143
+252_NirK,Candidatus Acetothermum autotrophicum | BAL59424
+253_NirK,Simkania negevensis Z | CCB87810
+254_NirK,Thermobaculum terrenum ATCC BAA-798 | ACZ43050
+255_NirK,Anaerolineales | tr|A0A7Y4RG64|A0A7Y4RG64_9CHLR
+256_NirK,Chloroflexus aggregans DSM 9485 | ACL24695
+257_NirK,Chloroflexus aurantiacus J-10-fl | ABY34789
+258_NirK,Herpetosiphon aurantiacus DSM 785 | ABX03943
+259_NirK,Sphaerobacteraceae | tr|A0A8B5XDN3|A0A8B5XDN3_9CHLR
+260_NirK,Sphaerobacter thermophilus DSM 20745 | ACZ37592
+261_NirK,Thermomicrobium roseum | tr|A0A7C2BGV3|A0A7C2BGV3_THERO
+262_NirK,Deinococcales | tr|A0A847HRF2|A0A847HRF2_9DEIN
+263_NirK,Deinococcus geothermalis DSM 11300 | ABF43992
+264_NirK,Deinococcus maricopensis DSM 21211 | ADV66099
+265_NirK,Marinithermus hydrothermalis DSM 14884 | AEB11294
+266_NirK,Meiothermus sp. Pnk-1 | tr|A0A323U2A1|A0A323U2A1_9DEIN
+267_NirK,Thermus scotoductus | KPD32437
+268_NirK,Alicyclobacillus acidocaldarius subsp. acidocaldarius DSM 446 | ACV58146
+269_NirK,Alkalihalobacillus okuhidensis | KOO39038
+270_NirK,Anoxybacillus flavithermus | KYD12878
+271_NirK,Bacillus cereus | AJK37346
+272_NirK,Bacillus cereus 172560W | EEK62666
+273_NirK,Bacillus cereus Rock1-3 | EEL23477
+274_NirK,Bacillus cereus Rock3-44 | EEL51147
+275_NirK,Bacillus cereus AH1271 | EEL82593
+276_NirK,Bacillus methanolicus PB1 | EIJ78367
+277_NirK,Bacillus pseudomycoides | EEM02875
+278_NirK,Bacillus pseudomycoides DSM 12442 | EEM16322
+279_NirK,Bacillus smithii 7_3_47FAA | EHL79373
+280_NirK,Bacillus sp. 1NLA3E | EHP28298
+281_NirK,Bacillus sp. 2_A_57_CT2 | EFV74643
+282_NirK,Bacillus sp. 2_A_57_CT2 | EFV76012
+283_NirK,Bacillus thuringiensis serovar pakistani str. T13001 | EEM48374
+284_NirK,Bacillus thuringiensis serovar huazhongensis BGSC 4BD1 | EEM80203
+285_NirK,Bacillus wiedmannii | EEK68269
+286_NirK,Bacillus wiedmannii | EEK68339
+287_NirK,Caldalkalibacillus thermarum TA2.A1 | EGL83302
+288_NirK,Caldalkalibacillus thermarum TA2.A1 | EGL83989
+289_NirK,Caldalkalibacillus thermarum TA2.A1 | EGL84019
+290_NirK,Fictibacillus macauensis ZFHKF-1 | EIT84304
+291_NirK,Fictibacillus macauensis ZFHKF-1 | EIT84313
+292_NirK,Geobacillus kaustophilus HTA426 | BAD75052
+293_NirK,Geobacillus sp. C56-T3 | ADI27604
+294_NirK,Geobacillus thermoleovorans | QDY72612
+295_NirK,Lysinibacillus sphaericus | ANA46649
+296_NirK,Parageobacillus thermoglucosidasius C56-YS93 | AEH48959
+297_NirK,Schinkia azotoformans (Bacillus azotoformans) | tr|K6D7T4|K6D7T4_SCHAZ
+298_NirK,Brevibacillus brevis NBRC 100599 | BAH43644
+299_NirK,Brevibacillus laterosporus LMG 15441 | EGP32908
+300_NirK,Paenibacillus polymyxa E681 | ADM69930
+301_NirK,Desmospora sp. 8437 | EGK10284
+302_NirK,Clostridium beijerinckii | OOM58242
+303_NirK,Clostridium sporogenes ATCC 15579 | EDU38903
+304_NirK,Sulfobacillus acidophilus TPY | AEJ41804
+305_NirK,Thermaerobacter marianensis DSM 12885 | ADU51617
+306_NirK,Thermaerobacter subterraneus DSM 13965 | EFR62310
+307_NirK,Desulfosporosinus acidiphilus SJ4 | EIB95115
+308_NirK,Symbiobacterium thermophilum IAM 14863 | BAD39726
+309_NirK,Gemmatimonadaceae | tr|A0A2E8H921|A0A2E8H921_9BACT
+310_NirK,Gemmatimonadaceae | tr|A0A7Y5QYN2|A0A7Y5QYN2_9BACT
+311_NirK,Gemmatimonas aurantiaca T-27 | BAH38365
+312_NirK,Gemmatimonas aurantiaca T-27 | BAH39808
+313_NirK,Gemmatimonas sp. | tr|A0A843T3U2|A0A843T3U2_9BACT
+314_NirK,Ignavibacteriales | tr|A0A3A4RIT5|A0A3A4RIT5_9BACT
+315_NirK,Ignavibacteriales | tr|A0A3N5R4I3|A0A3N5R4I3_9BACT
+316_NirK,Nitrospinaceae | tr|A0A7C7S2T8|A0A7C7S2T8_9BACT
+317_NirK,Candidatus Nitrohelix vancouverensis | tr|A0A7T0C0P8|A0A7T0C0P8_9BACT
+318_NirK,Candidatus Nitrohelix vancouverensis | tr|A0A7T0C1Y8|A0A7T0C1Y8_9BACT
+319_NirK,Candidatus Nitronauta litoralis | tr|A0A7T0BV59|A0A7T0BV59_9BACT
+320_NirK,Candidatus Nitronauta litoralis | tr|A0A7T0FYX8|A0A7T0FYX8_9BACT
+321_NirK,Nitrospina gracilis | tr|M1YG66|M1YG66_NITG3
+322_NirK,Nitrospina gracilis | tr|M1Z892|M1Z892_NITG3
+323_NirK,Nitrospina sp. | tr|A0A2E6XQB5|A0A2E6XQB5_9BACT
+324_NirK,Nitrospina sp. | tr|A0A350UTU5|A0A350UTU5_9BACT
+325_NirK,Nitrospina sp. | tr|A0A3C0S9E5|A0A3C0S9E5_9BACT
+326_NirK,Nitrospina sp. | tr|A0A3D1XMB2|A0A3D1XMB2_9BACT
+327_NirK,Nitrospina sp. | tr|A0A3D2UWJ3|A0A3D2UWJ3_9BACT
+328_NirK,Nitrospina sp. | tr|A0A523MU89|A0A523MU89_9BACT
+329_NirK,Nitrospina sp. | tr|A0A523N2W4|A0A523N2W4_9BACT
+330_NirK,Nitrospina sp. | tr|A0A7C7IS43|A0A7C7IS43_9BACT
+331_NirK,Nitrospirales | tr|A0A524IJV5|A0A524IJV5_9BACT
+332_NirK,Nitrospirales | tr|A0A7W1UCT1|A0A7W1UCT1_9BACT
+333_NirK,Nitrospiraceae | tr|A0A2E8G8M9|A0A2E8G8M9_9BACT
+334_NirK,Nitrospiraceae | tr|A0A7Y4SGL1|A0A7Y4SGL1_9BACT
+335_NirK,Candidatus Manganitrophus noduliformans | tr|A0A7X6DP55|A0A7X6DP55_9BACT
+336_NirK,Candidatus Nitrospira inopinata | tr|A0A0S4KZR4|A0A0S4KZR4_9BACT
+337_NirK,Nitrospira defluvii | CBK42243
+338_NirK,Nitrospira defluvii | CBK43917
+339_NirK,Nitrospira lenta | tr|A0A330L7S3|A0A330L7S3_9BACT
+340_NirK,Nitrospira moscoviensis | tr|A0A0K2GKC8|A0A0K2GKC8_NITMO
+341_NirK,Nitrospira sp. | tr|A0A7C7S8G0|A0A7C7S8G0_9BACT
+342_NirK,Nitrospira sp. CG24E | tr|A0A525WA35|A0A525WA35_9BACT
+343_NirK,Nitrospira sp. SB0666_bin_27 | tr|A0A7X3UU58|A0A7X3UU58_9BACT
+344_NirK,Candidatus Brocadia fulgida | tr|A0A0M2URZ2|A0A0M2URZ2_9BACT
+345_NirK,Candidatus Jettenia caeni | GAB62123
+346_NirK,Candidatus Jettenia caeni | GAB64238
+347_NirK,Candidatus Kuenenia stuttgartiensis | SOH02832
+348_NirK,Candidatus Scalindua rubra | tr|A0A1E3XBW7|A0A1E3XBW7_9BACT
+349_NirK,Blastopirellula marina DSM 3645 | EAQ81771
+350_NirK,Brevundimonas mediterranea | tr|A0A6G7EKX2|A0A6G7EKX2_9CAUL
+351_NirK,Brevundimonas sp. | tr|A0A521NI90|A0A521NI90_9CAUL
+352_NirK,Caulobacter segnis | AVQ03139
+353_NirK,Phenylobacterium zucineum HLK1 | ACG77028
+354_NirK,Hyphomicrobiales | tr|A0A2A4NI83|A0A2A4NI83_9HYPH
+355_NirK,Hyphomicrobiales | tr|A0A2A4P9K9|A0A2A4P9K9_9HYPH
+356_NirK,Hyphomicrobiales | tr|A0A2A4Y219|A0A2A4Y219_9HYPH
+357_NirK,Hyphomicrobiales | tr|A0A2A5FUS2|A0A2A5FUS2_9HYPH
+358_NirK,Hyphomicrobiales | tr|A0A2E2M759|A0A2E2M759_9HYPH
+359_NirK,Hyphomicrobiales | tr|A0A2W6A9P5|A0A2W6A9P5_9HYPH
+360_NirK,Hyphomicrobiales | tr|A0A4Q3DVS7|A0A4Q3DVS7_9HYPH
+361_NirK,Hyphomicrobiales | tr|A0A4Q3GG91|A0A4Q3GG91_9HYPH
+362_NirK,Hyphomicrobiales | tr|A0A4Q3JGV7|A0A4Q3JGV7_9HYPH
+363_NirK,Hyphomicrobiales | tr|A0A7Y2BQ59|A0A7Y2BQ59_9HYPH
+364_NirK,Aestuariivirga litoralis | tr|A0A2W2BHQ7|A0A2W2BHQ7_9HYPH
+365_NirK,Ahrensia sp. | tr|A0A2E2RTY3|A0A2E2RTY3_9HYPH
+366_NirK,Alsobacter soli | tr|A0A2T1HLM4|A0A2T1HLM4_9HYPH
+367_NirK,Siculibacillus lacustris | tr|A0A4Q9VHP2|A0A4Q9VHP2_9HYPH
+368_NirK,Aurantimonas manganoxydans SI85-9A1 | EAS49965
+369_NirK,Fulvimarina pelagi | BAT31446
+370_NirK,Beijerinckia indica subsp. indica ATCC 9039 | ACB93969
+371_NirK,Methylocella silvestris BL2 | ACK50469
+372_NirK,Bosea sp. | tr|A0A521L7K7|A0A521L7K7_9HYPH
+373_NirK,Bosea sp. LC85 | tr|A0A085FMZ3|A0A085FMZ3_9HYPH
+374_NirK,Afipia carboxidovorans OM5 | ACI92600
+375_NirK,Afipia carboxidovorans OM5 | ACI94730
+376_NirK,Afipia carboxidovorans OM5 | AEI07212
+377_NirK,Afipia sp. 1NLS2 | EFI52045
+378_NirK,Afipia sp. 1NLS2 | EFI52480
+379_NirK,Bradyrhizobium diazoefficiens | QBP25836
+380_NirK,Bradyrhizobium diazoefficiens | tr|A0A7T8BNL2|A0A7T8BNL2_9BRAD
+381_NirK,Bradyrhizobium japonicum USDA 6 | BAL07605
+382_NirK,Bradyrhizobium sp. BTAi1 | ABQ38428
+383_NirK,Bradyrhizobium sp. BTAi1 | ABQ39793
+384_NirK,Bradyrhizobium sp. C9 | tr|A0A2A6NLY4|A0A2A6NLY4_9BRAD
+385_NirK,Bradyrhizobium sp. Leo121 | tr|A0A4Q7G9S8|A0A4Q7G9S8_9BRAD
+386_NirK,Bradyrhizobium sp. STM 3843 | CCE04729
+387_NirK,Nitrobacter hamburgensis X14 | ABE64015
+388_NirK,Nitrobacter hamburgensis X14 | ABE65193
+389_NirK,Nitrobacter winogradskyi Nb-255 | ABA05901
+390_NirK,Nitrobacter winogradskyi Nb-255 | ABA05904
+391_NirK,Rhodopseudomonas palustris BisB5 | ABE41485
+392_NirK,Rhodopseudomonas palustris BisA53 | ABJ07997
+393_NirK,Rhodopseudomonas palustris TIE-1 | ACE99638
+394_NirK,Rhodopseudomonas palustris TIE-1 | ACF02227
+395_NirK,Rhodopseudomonas palustris | OPF92455
+396_NirK,Brucella abortus str. 2308 A | EEP62384
+397_NirK,Ochrobactrum anthropi ATCC 49188 | ABS13828
+398_NirK,Brucella thiophenivorans | tr|A0A256FKV3|A0A256FKV3_9HYPH
+399_NirK,Cohaesibacter sp. CAU 1516 | tr|A0A5R8YFW8|A0A5R8YFW8_9HYPH
+400_NirK,Devosia ginsengisoli | tr|A0A5B8LX61|A0A5B8LX61_9HYPH
+401_NirK,Devosia sp. G19 | tr|A0A7T8XS39|A0A7T8XS39_9HYPH
+402_NirK,Devosia sp. I507 | tr|A0A2L1S1N5|A0A2L1S1N5_9HYPH
+403_NirK,Devosia sp. M6-77 | tr|A0A447I8D8|A0A447I8D8_9HYPH
+404_NirK,Hyphomicrobium denitrificans ATCC 51888 | ADJ22412
+405_NirK,Hyphomicrobium denitrificans 1NES1 | EHB70168
+406_NirK,Hyphomicrobium denitrificans 1NES1 | EHB77638
+407_NirK,Hyphomicrobium sp. | tr|A0A6I0EJ73|A0A6I0EJ73_HYPSQ
+408_NirK,Hyphomicrobium sp. | tr|A0A6I0EK63|A0A6I0EK63_HYPSQ
+409_NirK,Pedomicrobium sp. ACM 3067 | CAJ19378
+410_NirK,Rhodoplanes elegans | tr|A0A327JSK7|A0A327JSK7_9HYPH
+411_NirK,Rhodoplanes piscinae | tr|A0A3S4AZA1|A0A3S4AZA1_9HYPH
+412_NirK,Bauldia sp. | tr|A0A833G6P0|A0A833G6P0_9HYPH
+413_NirK,Bauldia sp. | tr|A0A833LEM6|A0A833LEM6_9HYPH
+414_NirK,Bauldia sp. | tr|A0A833LFS2|A0A833LFS2_9HYPH
+415_NirK,Methylobacterium sp. GXF4 | EIZ84359
+416_NirK,Methylorubrum extorquens AM1 | CAX22973
+417_NirK,Microvirga brassicacearum | tr|A0A5N3PAP9|A0A5N3PAP9_9HYPH
+418_NirK,Microvirga sp. 17 mud 1-3 | tr|A0A2Z3I3Z8|A0A2Z3I3Z8_9HYPH
+419_NirK,Microvirga sp. KLBC 81 | tr|A0A2T7TQC1|A0A2T7TQC1_9HYPH
+420_NirK,Microvirga thermotolerans | tr|A0A5P9JTN9|A0A5P9JTN9_9HYPH
+421_NirK,Methylocystis sp. ATCC 49242 | EFX97847
+422_NirK,Notoacmeibacter ruber | tr|A0A3L7JBW7|A0A3L7JBW7_9HYPH
+423_NirK,Parvibaculum lavamentivorans DS-1 | ABS62632
+424_NirK,Parvibaculum sp. | tr|A0A2E1EIX8|A0A2E1EIX8_9HYPH
+425_NirK,Phyllobacteriaceae | tr|A0A847JGU6|A0A847JGU6_9HYPH
+426_NirK,Phyllobacteriaceae | tr|A0A847ZQB3|A0A847ZQB3_9HYPH
+427_NirK,Aminobacter sp. MSH1 | tr|A0A2S0XJI3|A0A2S0XJI3_9HYPH
+428_NirK,Chelativorans sp. BNC1 | ABG61243
+429_NirK,Chelativorans sp. BNC1 | ABG61388
+430_NirK,Chelativorans sp. BNC1 | ABG63634
+431_NirK,Mesorhizobium alhagi CCNWXJ12-2 | EHK53213
+432_NirK,Mesorhizobium alhagi CCNWXJ12-2 | EHK55601
+433_NirK,Mesorhizobium amorphae CCNWGS0123 | ANT53857
+434_NirK,Mesorhizobium amorphae CCNWGS0123 | EHH02540
+435_NirK,Mesorhizobium carbonis | tr|A0A429YTK6|A0A429YTK6_9HYPH
+436_NirK,Mesorhizobium composti | tr|A0A4S4A9I3|A0A4S4A9I3_9HYPH
+437_NirK,Mesorhizobium denitrificans | tr|A0A371XJJ5|A0A371XJJ5_9HYPH
+438_NirK,Mesorhizobium microcysteis | tr|A0A5D4H4E6|A0A5D4H4E6_9HYPH
+439_NirK,Mesorhizobium opportunistum WSM2075 | AEH90440
+440_NirK,Mesorhizobium sp. | tr|A0A440KX28|A0A440KX28_9HYPH
+441_NirK,Mesorhizobium sp. INR15 | tr|A0A7S8EY23|A0A7S8EY23_9HYPH
+442_NirK,Mesorhizobium sp. M5C.F.Cr.IN.023.01.1.1 | tr|A0A3S1JVX7|A0A3S1JVX7_9HYPH
+443_NirK,Mesorhizobium sp. NBSH29 | tr|A0A7S8IHP6|A0A7S8IHP6_9HYPH
+444_NirK,Nitratireductor aquibiodomus RA22 | EIM72710
+445_NirK,Nitratireductor sp. SY7 | tr|A0A5B8KWH9|A0A5B8KWH9_9HYPH
+446_NirK,Nitratireductor sp. StC3 | tr|A0A2P8NAX9|A0A2P8NAX9_9HYPH
+447_NirK,Oricola cellulosilytica | tr|A0A4R0PE06|A0A4R0PE06_9HYPH
+448_NirK,Oricola sp. | tr|A0A7H4KCU4|A0A7H4KCU4_9HYPH
+449_NirK,Oricola thermophila | tr|A0A6N1VCN8|A0A6N1VCN8_9HYPH
+450_NirK,Phyllobacterium brassicacearum | tr|A0A2P7B6D2|A0A2P7B6D2_9HYPH
+451_NirK,Pseudaminobacter arsenicus | tr|A0A432V1N1|A0A432V1N1_9HYPH
+452_NirK,Pseudomonas sp. G-179 | AAC79439
+453_NirK,Rhizobiaceae | tr|A0A522R6J2|A0A522R6J2_9HYPH
+454_NirK,Rhizobiaceae | tr|A0A838M9R5|A0A838M9R5_9HYPH
+455_NirK,Rhizobiaceae | tr|A0A838MEG0|A0A838MEG0_9HYPH
+456_NirK,Agrobacterium sp. RAC06 | tr|A0A1B3NS99|A0A1B3NS99_9HYPH
+457_NirK,Agrobacterium tumefaciens | KEY53070
+458_NirK,Agrobacterium vitis (Rhizobium vitis) | tr|A0A7K1QJC1|A0A7K1QJC1_AGRVI
+459_NirK,Ciceribacter sp. F8825 | tr|A0A4Q2TC72|A0A4Q2TC72_9HYPH
+460_NirK,Ciceribacter sp. F8825 | tr|A0A4Q2TDA6|A0A4Q2TDA6_9HYPH
+461_NirK,Ensifer adhaerens (Sinorhizobium morelense) | tr|W8I8G6|W8I8G6_ENSAD
+462_NirK,Ensifer mexicanus | tr|A0A859R0Q1|A0A859R0Q1_9HYPH
+463_NirK,Ensifer sp. MPMI2T | tr|A0A4S5JF39|A0A4S5JF39_9HYPH
+464_NirK,Rhizobium galegae | tr|A0A068SU01|A0A068SU01_RHIGA
+465_NirK,Rhizobium galegae | tr|A0A068TB86|A0A068TB86_RHIGA
+466_NirK,Pseudorhizobium banfieldiae | tr|L0NJX1|L0NJX1_9HYPH
+467_NirK,Rhizobium album | tr|A0A2U2DN53|A0A2U2DN53_9HYPH
+468_NirK,Rhizobium etli CFN 42 | ABC94414
+469_NirK,Rhizobium grahamii | tr|A0A5Q0CBB4|A0A5Q0CBB4_9HYPH
+470_NirK,Rhizobium ipomoeae | tr|A0A4S8NS59|A0A4S8NS59_9HYPH
+471_NirK,Rhizobium leguminosarum bv. trifolii WSM2304 | ACI59035
+472_NirK,Rhizobium leguminosarum | tr|A0A8A3MHT4|A0A8A3MHT4_RHILE
+473_NirK,Rhizobium rhizophilum | tr|A0A4S8N9V3|A0A4S8N9V3_9HYPH
+474_NirK,Rhizobium sp. | tr|A0A3D3BA00|A0A3D3BA00_RHISP
+475_NirK,Rhizobium sp. G21 | tr|A0A7W3ZKS5|A0A7W3ZKS5_9HYPH
+476_NirK,Rhizobium sp. SEMIA 4085 | tr|A0A7Y2MCE3|A0A7Y2MCE3_9HYPH
+477_NirK,Rhizobium sullae | AAB05880
+478_NirK,Shinella kummerowiae | tr|A0A6N8SJ61|A0A6N8SJ61_9HYPH
+479_NirK,Shinella sp. | tr|A0A2W6TBI2|A0A2W6TBI2_9HYPH
+480_NirK,Shinella sp. DD12 | tr|A0A021X0B0|A0A021X0B0_9HYPH
+481_NirK,Sinorhizobium fredii CCBAU 25509 | AWM24425
+482_NirK,Sinorhizobium meliloti 2011 | AGG70367
+483_NirK,Sinorhizobium sp. RAC02 | tr|A0A1B3MI94|A0A1B3MI94_9HYPH
+484_NirK,Labrenzia sp. 011 | tr|A0A2T7HCY4|A0A2T7HCY4_9HYPH
+485_NirK,Pannonibacter phragmitetus | tr|A0A378ZYS9|A0A378ZYS9_9HYPH
+486_NirK,Pseudovibrio sp. WM33 | tr|A0A166BR48|A0A166BR48_9HYPH
+487_NirK,Roseibium sp. RKSG952 | tr|A0A6N8A9U2|A0A6N8A9U2_9HYPH
+488_NirK,Stappia albiluteola | tr|A0A839A9G6|A0A839A9G6_9HYPH
+489_NirK,Stappia indica | tr|A0A857C3E0|A0A857C3E0_9HYPH
+490_NirK,Stappia sp. | tr|A0A2E6Y436|A0A2E6Y436_9HYPH
+491_NirK,Ancylobacter aquaticus | tr|A0A431PX20|A0A431PX20_ANCAQ
+492_NirK,Starkeya novella DSM 506 | ADH88466
+493_NirK,Maricaulis maris MCS10 | ABI66574
+494_NirK,Marinicauda algicola | tr|A0A4S2H3G0|A0A4S2H3G0_9PROT
+495_NirK,Marinicauda salina | tr|A0A2U2BVP4|A0A2U2BVP4_9PROT
+496_NirK,Minwuia thermotolerans | tr|A0A2M9FVE0|A0A2M9FVE0_9PROT
+497_NirK,Rhodobacterales | tr|A0A2G6CET8|A0A2G6CET8_9RHOB
+498_NirK,Rhodobacterales | tr|A0A2G6I793|A0A2G6I793_9RHOB
+499_NirK,Rhodobacterales | tr|A0A2G6IVT1|A0A2G6IVT1_9RHOB
+500_NirK,Rhodobacteraceae | tr|A0A356V282|A0A356V282_9RHOB
+501_NirK,Rhodobacteraceae | tr|A0A7C2E3V4|A0A7C2E3V4_9RHOB
+502_NirK,Rhodobacteraceae | tr|A0A7Y7CYJ3|A0A7Y7CYJ3_9RHOB
+503_NirK,Antarcticimicrobium luteum | tr|A0A4R5UTB8|A0A4R5UTB8_9RHOB
+504_NirK,Antarcticimicrobium sediminis | tr|A0A4R5EH00|A0A4R5EH00_9RHOB
+505_NirK,Boseongicola aestuarii | tr|A0A238J5Z3|A0A238J5Z3_9RHOB
+506_NirK,Boseongicola sp. SB0673_bin_14 | tr|A0A6L8GEM0|A0A6L8GEM0_9RHOB
+507_NirK,Cereibacter sphaeroides | AAB05767
+508_NirK,Flavimaricola marinus | tr|A0A238L9S6|A0A238L9S6_9RHOB
+509_NirK,Histidinibacterium sp. 176SS1-4 | tr|A0A5J5GPU8|A0A5J5GPU8_9RHOB
+510_NirK,Jannaschia aquimarina | tr|A0A0D1D720|A0A0D1D720_9RHOB
+511_NirK,Jannaschia rubra | tr|A0A0M6XRE8|A0A0M6XRE8_9RHOB
+512_NirK,Mameliella alba | tr|A0A6F8Q9D8|A0A6F8Q9D8_9RHOB
+513_NirK,Mameliella sp. | tr|A0A2E9HWA8|A0A2E9HWA8_9RHOB
+514_NirK,Marinovum sp. | tr|A0A2D4ZPM8|A0A2D4ZPM8_9RHOB
+515_NirK,Maritimibacter alkaliphilus HTCC2654 | EAQ13954
+516_NirK,Maritimibacter harenae | tr|A0A845LUX9|A0A845LUX9_9RHOB
+517_NirK,Mesobaculum littorinae | tr|A0A438ADG4|A0A438ADG4_9RHOB
+518_NirK,Oceaniovalibus sp. ACAM 378 | tr|A0A5D0S9M8|A0A5D0S9M8_9RHOB
+519_NirK,Oceanomicrobium pacificus | tr|A0A6B0U793|A0A6B0U793_9RHOB
+520_NirK,Octadecabacter sp. | tr|A0A3D3ZWU3|A0A3D3ZWU3_9RHOB
+521_NirK,Pacificibacter marinus | tr|A0A1Y5T5B8|A0A1Y5T5B8_9RHOB
+522_NirK,Paracoccus lichenicola | tr|A0A6L6HRU5|A0A6L6HRU5_9RHOB
+523_NirK,Paracoccus sp. | tr|A0A2D8X0J8|A0A2D8X0J8_9RHOB
+524_NirK,Paracoccus sp. DMF | tr|A0A4Y8MYT8|A0A4Y8MYT8_9RHOB
+525_NirK,Pararhodobacter aggregans | tr|A0A2T7USM4|A0A2T7USM4_9RHOB
+526_NirK,Parasedimentitalea marina | tr|A0A3T0N3I6|A0A3T0N3I6_9RHOB
+527_NirK,Pelagivirga sediminicola | tr|A0A2T7G3I1|A0A2T7G3I1_9RHOB
+528_NirK,Pelagivirga sediminicola | tr|A0A2T7G8E6|A0A2T7G8E6_9RHOB
+529_NirK,Phaeobacter inhibens | AXT24902
+530_NirK,Primorskyibacter sp. SS33 | tr|A0A4R6AAR7|A0A4R6AAR7_9RHOB
+531_NirK,Pseudoruegeria aquimaris | tr|A0A1Y5RP01|A0A1Y5RP01_9RHOB
+532_NirK,Rhodobacter sp. AKP1 | EKX56953
+533_NirK,Roseobacter ponti | tr|A0A858SQM6|A0A858SQM6_9RHOB
+534_NirK,Roseobacter sp. | tr|A0A2E9YSS5|A0A2E9YSS5_9RHOB
+535_NirK,Roseobacter sp. SK209-2-6 | EBA14735
+536_NirK,Roseovarius albus | tr|A0A1X6ZZ57|A0A1X6ZZ57_9RHOB
+537_NirK,Roseovarius halotolerans | tr|A0A1X6Y6A0|A0A1X6Y6A0_9RHOB
+538_NirK,Roseovarius indicus | tr|A0A0T5P9Q0|A0A0T5P9Q0_9RHOB
+539_NirK,Roseovarius sp. 217 | EAQ23437
+540_NirK,Roseovarius spongiae | tr|A0A3A8AWW6|A0A3A8AWW6_9RHOB
+541_NirK,Rubellimicrobium roseum | tr|A0A5C4NET9|A0A5C4NET9_9RHOB
+542_NirK,Ruegeria litorea | tr|A0A1Y5TBA6|A0A1Y5TBA6_9RHOB
+543_NirK,Sagittula sp. P11 | tr|A0A2K8WIS2|A0A2K8WIS2_9RHOB
+544_NirK,Sediminimonas qiaohouensis | tr|A0A7C9LC94|A0A7C9LC94_9RHOB
+545_NirK,Sinirhodobacter hankyongi | tr|A0A421BJI5|A0A421BJI5_9RHOB
+546_NirK,Sulfitobacter sabulilitoris | tr|A0A5S3QC55|A0A5S3QC55_9RHOB
+547_NirK,Sulfitobacter sp. | tr|A0A7Y2CVR0|A0A7Y2CVR0_9RHOB
+548_NirK,Sulfitobacter sp. SK011 | tr|A0A345QD45|A0A345QD45_9RHOB
+549_NirK,Sulfitobacter sp. SK012 | tr|A0A345QJU0|A0A345QJU0_9RHOB
+550_NirK,Sulfitobacter sp. SK012 | tr|A0A345QS93|A0A345QS93_9RHOB
+551_NirK,Tabrizicola sp. WMC-M-20 | tr|A0A4Z0LLJ8|A0A4Z0LLJ8_9RHOB
+552_NirK,Thalassorhabdomicrobium marinisediminis | tr|A0A2T7FWT6|A0A2T7FWT6_9RHOB
+553_NirK,Thioclava electrotropha | tr|A0A1W9XPM9|A0A1W9XPM9_9RHOB
+554_NirK,Rhodospirillales | tr|A0A2M7GHM1|A0A2M7GHM1_9PROT
+555_NirK,Rhodospirillales | tr|A0A6L7XL51|A0A6L7XL51_9PROT
+556_NirK,Azospirillum baldaniorum | ABY68277
+557_NirK,Azospirillum doebereinerae | tr|A0A3S0V3H2|A0A3S0V3H2_9PROT
+558_NirK,Azospirillum sp. B510 | BAI75496
+559_NirK,Azospirillum thermophilum | tr|A0A2S2CLP6|A0A2S2CLP6_9PROT
+560_NirK,Kiloniellaceae | tr|A0A843RIB1|A0A843RIB1_9PROT
+561_NirK,Rhodospirillaceae (purple nonsulfur bacteria) | tr|A0A2G2R306|A0A2G2R306_9PROT
+562_NirK,Rhodospirillaceae (purple nonsulfur bacteria) | tr|A0A2G2R660|A0A2G2R660_9PROT
+563_NirK,Rhodospirillaceae (purple nonsulfur bacteria) | tr|A0A3D4QIZ1|A0A3D4QIZ1_9PROT
+564_NirK,Rhodospirillaceae (purple nonsulfur bacteria) | tr|A0A7V7FN16|A0A7V7FN16_9PROT
+565_NirK,Ferrovibrio sp. | tr|A0A2M8U4A7|A0A2M8U4A7_9PROT
+566_NirK,Ferruginivarius sediminum | tr|A0A369T806|A0A369T806_9PROT
+567_NirK,Thalassospira marina | tr|A0A2N3KQY1|A0A2N3KQY1_9PROT
+568_NirK,Sphingomonas horti | tr|A0A6I4J0Q5|A0A6I4J0Q5_9SPHN
+569_NirK,Sphingomonas rhizophila | tr|A0A7G9S9X8|A0A7G9S9X8_9SPHN
+570_NirK,Sphingomonas sp. | tr|A0A7C2Y5R7|A0A7C2Y5R7_SPHSX
+571_NirK,Sphingomonas sp. Cra20 | tr|A0A2K8MI68|A0A2K8MI68_9SPHN
+572_NirK,Sphingomonas wittichii RW1 | ABQ68152
+573_NirK,Sphingomonas wittichii RW1 | ABQ68154
+574_NirK,Sphingosinicella humi | tr|A0A2U2J091|A0A2U2J091_9SPHN
+575_NirK,Thiomonas arsenitoxydans | CQR30568
+576_NirK,Burkholderiales | tr|A0A257CNS3|A0A257CNS3_9BURK
+577_NirK,Burkholderiales | tr|A0A2W5DGJ5|A0A2W5DGJ5_9BURK
+578_NirK,Burkholderiales | tr|A0A519I8A2|A0A519I8A2_9BURK
+579_NirK,Burkholderiales | tr|A0A519YYD0|A0A519YYD0_9BURK
+580_NirK,Alcaligenaceae | tr|A0A516WEE5|A0A516WEE5_9BURK
+581_NirK,Alcaligenaceae | tr|A0A7X6X015|A0A7X6X015_9BURK
+582_NirK,Alcaligenaceae | tr|A0A7Z0M8N3|A0A7Z0M8N3_9BURK
+583_NirK,Alcaligenaceae | tr|A0A7Z0NH79|A0A7Z0NH79_9BURK
+584_NirK,Alcaligenaceae | tr|A0A7Z0SJF7|A0A7Z0SJF7_9BURK
+585_NirK,Alcaligenaceae | tr|A0A847MKF0|A0A847MKF0_9BURK
+586_NirK,Alcaligenaceae | tr|A0A853G6T0|A0A853G6T0_9BURK
+587_NirK,Alcaligenaceae | tr|A0A853GX36|A0A853GX36_9BURK
+588_NirK,Achromobacter cycloclastes | CAA88564
+589_NirK,Achromobacter mucicolens | tr|A0A811H231|A0A811H231_9BURK
+590_NirK,Achromobacter xylosoxidans NBRC 15126 = ATCC 27061 | AHC46649
+591_NirK,Alcaligenes xylosoxydans xylosoxydans (Achromobacter xylosoxidans) | sp|P81445|NIR_ALCXX
+592_NirK,Alcaligenes faecalis | QBH19039
+593_NirK,Candidimonas sp. | tr|A0A522PE83|A0A522PE83_9BURK
+594_NirK,Candidimonas sp. SYP-B2681 | tr|A0A3S0QSJ8|A0A3S0QSJ8_9BURK
+595_NirK,Castellaniella sp. | tr|A0A522TTT1|A0A522TTT1_9BURK
+596_NirK,Pelistega europaea | tr|A0A7Y4LAT3|A0A7Y4LAT3_9BURK
+597_NirK,Pelistega ratti | tr|A0A6L9Y6H8|A0A6L9Y6H8_9BURK
+598_NirK,Pelistega suis | tr|A0A849P2L7|A0A849P2L7_9BURK
+599_NirK,Pusillimonas harenae | tr|A0A853H288|A0A853H288_9BURK
+600_NirK,Pusillimonas sp. JR1/69-3-13 | tr|A0A2N4U2P9|A0A2N4U2P9_9BURK
+601_NirK,Pusillimonas sp. T7-7 | AEC20039
+602_NirK,Pusillimonas sp. T7-7 | AEC21822
+603_NirK,Pusillimonas sp. TS35 | tr|A0A845H8K8|A0A845H8K8_9BURK
+604_NirK,Taylorella asinigenitalis MCE3 | AEP37243
+605_NirK,Taylorella equigenitalis ATCC 35865 | VEG32735
+606_NirK,Burkholderia mallei | ATD96177
+607_NirK,Burkholderia pseudomallei 1258b | EIF57660
+608_NirK,Burkholderia sp. CCGE1003 | ADN59354
+609_NirK,Burkholderia thailandensis 2002721643 | AJY01560
+610_NirK,Burkholderia thailandensis | AWY64093
+611_NirK,Cupriavidus basilensis OR16 | EHP44774
+612_NirK,Lautropia mirabilis | VEH01335
+613_NirK,Paraburkholderia acidiphila | tr|A0A7Z2G8E2|A0A7Z2G8E2_9BURK
+614_NirK,Paraburkholderia dinghuensis | tr|A0A3N6MID2|A0A3N6MID2_9BURK
+615_NirK,Paraburkholderia sp. | tr|A0A522I841|A0A522I841_9BURK
+616_NirK,Paraburkholderia sp. | tr|A0A522IXA6|A0A522IXA6_9BURK
+617_NirK,Ralstonia pickettii | KFL22443
+618_NirK,Ralstonia pickettii | OCS44034
+619_NirK,Ralstonia solanacearum GMI1000 | CAD18654
+620_NirK,Ralstonia solanacearum PSI07 | CBJ52550
+621_NirK,Comamonadaceae | tr|A0A3M6Q851|A0A3M6Q851_9BURK
+622_NirK,Comamonadaceae | tr|A0A3P1XEB5|A0A3P1XEB5_9BURK
+623_NirK,Comamonadaceae | tr|A0A4Q5WGF4|A0A4Q5WGF4_9BURK
+624_NirK,Acidovorax delafieldii 2AN | EER57831
+625_NirK,Acidovorax ebreus TPSY | ACM32675
+626_NirK,Caenimonas koreensis | tr|A0A844BBM0|A0A844BBM0_9BURK
+627_NirK,Comamonas thiooxydans | ACY32308
+628_NirK,Corticibacter populi | tr|A0A3M6QTN9|A0A3M6QTN9_9BURK
+629_NirK,Ottowia sp. | tr|A0A5C7VNT2|A0A5C7VNT2_9BURK
+630_NirK,Polaromonas naphthalenivorans CJ2 | ABM36641
+631_NirK,Ramlibacter sp. G-1-2-2 | tr|A0A848HGZ6|A0A848HGZ6_9BURK
+632_NirK,Oxalobacteraceae bacterium IMCC9480 | EGF32416
+633_NirK,Oxalobacteraceae | tr|A0A3D3PQD9|A0A3D3PQD9_9BURK
+634_NirK,Collimonas fungivorans Ter331 | AEK62791
+635_NirK,Duganella aquatilis | tr|A0A6L5QL28|A0A6L5QL28_9BURK
+636_NirK,Duganella fentianensis | tr|A0A845I0Q3|A0A845I0Q3_9BURK
+637_NirK,Duganella radicis | tr|A0A6L6PFE7|A0A6L6PFE7_9BURK
+638_NirK,Duganella sp. BJB480 | tr|A0A3E1SEL8|A0A3E1SEL8_9BURK
+639_NirK,Duganella sp. CY15W | tr|A0A6L8KL99|A0A6L8KL99_9BURK
+640_NirK,Duganella sp. FT134W | tr|A0A7X4KHB5|A0A7X4KHB5_9BURK
+641_NirK,Duganella sp. FT3S | tr|A0A7W2EE14|A0A7W2EE14_9BURK
+642_NirK,Duganella sp. FT50W | tr|A0A6L8MRB6|A0A6L8MRB6_9BURK
+643_NirK,Duganella sp. FT80W | tr|A0A6I2L5S8|A0A6I2L5S8_9BURK
+644_NirK,Duganella sp. LX47W | tr|A0A7W2F952|A0A7W2F952_9BURK
+645_NirK,Herbaspirillum sp. GW103 | EIJ46803
+646_NirK,Herminiimonas arsenicoxydans | CAL61744
+647_NirK,Herminiimonas arsenicoxydans | CAL63352
+648_NirK,Herminiimonas arsenicoxydans | CAL63355
+649_NirK,Janthinobacterium sp. | tr|A0A349L3B6|A0A349L3B6_9BURK
+650_NirK,Janthinobacterium sp. BJB412 | tr|A0A7Z1KT37|A0A7Z1KT37_9BURK
+651_NirK,Massilia armeniaca | tr|A0A2R4CIG2|A0A2R4CIG2_9BURK
+652_NirK,Massilia atriviolacea | tr|A0A430HT62|A0A430HT62_9BURK
+653_NirK,Massilia flava | tr|A0A562PBM9|A0A562PBM9_9BURK
+654_NirK,Massilia sp. BJB1822 | tr|A0A7Y6QPL2|A0A7Y6QPL2_9BURK
+655_NirK,Massilia sp. CCM 8941 | tr|A0A7S9UGU8|A0A7S9UGU8_9BURK
+656_NirK,Massilia violaceinigra | tr|A0A2D2DPS3|A0A2D2DPS3_9BURK
+657_NirK,Noviherbaspirillum sp. UKPF54 | tr|A0A5B8N6F4|A0A5B8N6F4_9BURK
+658_NirK,Pseudoduganella sp. CY13W | tr|A0A6L8LCN0|A0A6L8LCN0_9BURK
+659_NirK,Rugamonas rivuli | tr|A0A843SBZ8|A0A843SBZ8_9BURK
+660_NirK,Rugamonas sp. FT81W | tr|A0A845GV73|A0A845GV73_9BURK
+661_NirK,Rugamonas sp. FT82W | tr|A0A845G5U7|A0A845G5U7_9BURK
+662_NirK,Undibacterium oligocarboniphilum | tr|A0A850QL26|A0A850QL26_9BURK
+663_NirK,Chitinibacter fontanus | tr|A0A7D5VAN3|A0A7D5VAN3_9NEIS
+664_NirK,Chromobacterium paludis | tr|A0A5C1DF42|A0A5C1DF42_9NEIS
+665_NirK,Chromobacterium sp. MWU14-2602 | tr|A0A2S5DA76|A0A2S5DA76_9NEIS
+666_NirK,Chromobacterium violaceum ATCC 12472 | AAQ59679
+667_NirK,Iodobacter sp. BJB302 | tr|A0A2G3J8A2|A0A2G3J8A2_9NEIS
+668_NirK,Kingella denitrificans ATCC 33394 | EGC17925
+669_NirK,Kingella kingae | SQH25356
+670_NirK,Kingella oralis ATCC 51147 | EEP66738
+671_NirK,Neisseria animalis | tr|A0A5P3MPE3|A0A5P3MPE3_NEIAN
+672_NirK,Neisseria bacilliformis ATCC BAA-1200 | EGF08904
+673_NirK,Neisseria brasiliensis | tr|A0A5Q3S063|A0A5Q3S063_9NEIS
+674_NirK,Neisseria chenwenguii | tr|A0A220S358|A0A220S358_9NEIS
+675_NirK,Neisseria cinerea ATCC 14685 | EEZ70840
+676_NirK,Neisseria elongata subsp. glycolytica | SQH49795
+677_NirK,Neisseria flavescens | QCL68245
+678_NirK,Neisseria gonorrhoeae | SNU91441
+679_NirK,Neisseria iguanae | tr|A0A2P7TZ09|A0A2P7TZ09_9NEIS
+680_NirK,Neisseria macacae ATCC 33926 | EGQ77692
+681_NirK,Neisseria meningitidis FAM18 | CAM10744
+682_NirK,Neisseria meningitidis N1568 | EGC51538
+683_NirK,Neisseria mucosa ATCC 25996 | EFC87241
+684_NirK,Neisseria musculi | tr|A0A7H1MC24|A0A7H1MC24_9NEIS
+685_NirK,Neisseria sp. oral taxon 014 | tr|D7N1J2|D7N1J2_9NEIS
+686_NirK,Neisseria weaveri | VEJ50234
+687_NirK,Neisseria zalophi | tr|A0A5J6PY67|A0A5J6PY67_9NEIS
+688_NirK,Candidatus Nitrotoga sp. AM1P | tr|A0A455X321|A0A455X321_9PROT
+689_NirK,Gallionella sp. | tr|A0A522XA09|A0A522XA09_9PROT
+690_NirK,Gallionella sp. | tr|A0A7Y3NIU4|A0A7Y3NIU4_9PROT
+691_NirK,Methylobacillus flagellatus KT | ABE49348
+692_NirK,Methylotenera mobilis JLW8 | ACT47970
+693_NirK,Methylotenera sp. | tr|A0A2S5M422|A0A2S5M422_9PROT
+694_NirK,Methylotenera sp. | tr|A0A7Y5A0J0|A0A7Y5A0J0_9PROT
+695_NirK,Methylotenera versatilis 301 | ADI29983
+696_NirK,Methylovorus sp. MP688 | ADQ83600
+697_NirK,Novimethylophilus kurashikiensis | tr|A0A2R5F9P2|A0A2R5F9P2_9PROT
+698_NirK,Nitrosomonadaceae | tr|A0A2E6UTZ7|A0A2E6UTZ7_9PROT
+699_NirK,Nitrosomonadaceae | tr|A0A4P5UGS0|A0A4P5UGS0_9PROT
+700_NirK,Nitrosomonas europaea ATCC 19718 | CAD84838
+701_NirK,Nitrosomonas europaea | SJZ33478
+702_NirK,Nitrosomonas eutropha C91 | ABI59651
+703_NirK,Nitrosomonas nitrosa | tr|A0A1I4L3J7|A0A1I4L3J7_9PROT
+704_NirK,Nitrosomonas oligotropha | tr|A0A5C7VYN2|A0A5C7VYN2_9PROT
+705_NirK,Nitrosomonas sp. | tr|A0A358JMP9|A0A358JMP9_9PROT
+706_NirK,Nitrosomonas sp. | tr|A0A5C7VP96|A0A5C7VP96_9PROT
+707_NirK,Nitrosomonas sp. AL212 | ADZ27212
+708_NirK,Nitrosomonas sp. APG5 | tr|A0A2P7NVK5|A0A2P7NVK5_9PROT
+709_NirK,Nitrosomonas sp. Is79A3 | AEJ02107
+710_NirK,Nitrosospira multiformis ATCC 25196 | ABB75293
+711_NirK,Candidatus Dactylopiibacterium carminicum | tr|A0A272EY55|A0A272EY55_9RHOO
+712_NirK,Azoarcus sp. KH32C | BAL27513
+713_NirK,Bradymonadales | tr|A0A5B8XNK9|A0A5B8XNK9_9DELT
+714_NirK,Desulfobacter sp. | tr|A0A2D6EUB1|A0A2D6EUB1_9DELT
+715_NirK,Desulfovibrio magneticus RS-1 | BAH77298
+716_NirK,Myxococcales | tr|A0A7C8DHZ2|A0A7C8DHZ2_9DELT
+717_NirK,Stigmatella aurantiaca DW4/3-1 | EAU66216
+718_NirK,Kofleriaceae | tr|A0A7Y6PSE0|A0A7Y6PSE0_9DELT
+719_NirK,Myxococcaceae | tr|A0A521TZT5|A0A521TZT5_9DELT
+720_NirK,Aggregicoccus sp. 17bor-14 | tr|A0A6I2HG40|A0A6I2HG40_9DELT
+721_NirK,Corallococcus coralloides DSM 2259 | AFE08400
+722_NirK,Myxococcus xanthus DK 1622 | ABF86571
+723_NirK,Myxococcus xanthus DK 1622 | ABF89931
+724_NirK,Sorangium cellulosum So ce56 | CAN90660
+725_NirK,Syntrophobacteraceae | tr|A0A352PV08|A0A352PV08_9DELT
+726_NirK,Sulfuricurvum kujiense DSM 16994 | ADR34701
+727_NirK,Acidiferrobacter sp. SPIII_3 | tr|A0A2Z3R4S4|A0A2Z3R4S4_9GAMM
+728_NirK,Aeromonadales | tr|A0A7X8HXL2|A0A7X8HXL2_9GAMM
+729_NirK,Oceanimonas sp. GK1 | AEY02287
+730_NirK,Marinobacter sp. ELB17 | EBA00982
+731_NirK,Colwellia sp. Arc7-635 | tr|A0A3S9Q4D0|A0A3S9Q4D0_9GAMM
+732_NirK,Colwellia sp. BRX10-3 | tr|A0A7W2Y4S5|A0A7W2Y4S5_9GAMM
+733_NirK,Colwellia sp. MB3u-43 | tr|A0A7W2MMP7|A0A7W2MMP7_9GAMM
+734_NirK,Idiomarina loihiensis GSL 199 | AGM35631
+735_NirK,Pseudoalteromonas sp. JB197 | SJN25874
+736_NirK,Psychromonas sp. MB-3u-54 | tr|A0A2N1DR54|A0A2N1DR54_9GAMM
+737_NirK,Parashewanella spongiae | tr|A0A3A6UAE6|A0A3A6UAE6_9GAMM
+738_NirK,Shewanella amazonensis SB2B | ABM00884
+739_NirK,Shewanella denitrificans OS217 | ABE56757
+740_NirK,Shewanella loihica PV-4 | ABO25201
+741_NirK,Shewanella sp. KX20019 | tr|A0A7U0SE85|A0A7U0SE85_9GAMM
+742_NirK,Shewanella woodyi ATCC 51908 | ACA85706
+743_NirK,Shewanella woodyi ATCC 51908 | ACA85709
+744_NirK,Cardiobacterium hominis | VEG76565
+745_NirK,Cardiobacterium valvarum F0432 | EHM52825
+746_NirK,Suttonella indologenes | tr|A0A380MYL6|A0A380MYL6_9GAMM
+747_NirK,Suttonella ornithocola | tr|A0A380MLF2|A0A380MLF2_9GAMM
+748_NirK,Cellvibrio japonicus Ueda107 | ACE83384
+749_NirK,Spongiibacteraceae | tr|A0A2E7IQJ1|A0A2E7IQJ1_9GAMM
+750_NirK,Nitrosococcus halophilus Nc 4 | ADE14251
+751_NirK,Nitrosococcus halophilus Nc 4 | ADE14254
+752_NirK,Nitrosococcus oceani C-27 | KFI20870
+753_NirK,Nitrococcus mobilis Nb-231 | EAR20165
+754_NirK,Thioalkalivibrio sp. K90mix | ADC72147
+755_NirK,Thioalkalivibrio sulfidiphilus HL-EbGr7 | ACL72290
+756_NirK,Wenzhouxiangella sp. W260 | tr|A0A5N0TD60|A0A5N0TD60_9GAMM
+757_NirK,Woeseiaceae | tr|A0A7D9D1X9|A0A7D9D1X9_9GAMM
+758_NirK,Crenotrichaceae | tr|A0A832E181|A0A832E181_9GAMM
+759_NirK,Methylococcaceae | tr|A0A6I7WDU7|A0A6I7WDU7_9GAMM
+760_NirK,Methylobacter sp. | tr|A0A521X0M4|A0A521X0M4_9GAMM
+761_NirK,Methylomonas sp. 16a | ADB12477
+762_NirK,Methylothermaceae | tr|A0A831RCS1|A0A831RCS1_9GAMM
+763_NirK,Sinimarinibacterium sp. CAU 1509 | tr|A0A4U0GK41|A0A4U0GK41_9GAMM
+764_NirK,Alcanivorax sp. | tr|A0A7G3F6S3|A0A7G3F6S3_9GAMM
+765_NirK,Kangiella koreensis DSM 16069 | ACV27434
+766_NirK,Actinobacillus minor NM305 | EER46470
+767_NirK,Actinobacillus pleuropneumoniae serovar 6 str. Femo | EFM92981
+768_NirK,Actinobacillus succinogenes 130Z | ABR74346
+769_NirK,Avibacterium endocarditidis | tr|A0A2S5AJQ9|A0A2S5AJQ9_9PAST
+770_NirK,Gallibacterium anatis UMN179 | AEC17780
+771_NirK,Haemophilus parainfluenzae T3T1 | CBW15949
+772_NirK,Haemophilus paraphrohaemolyticus | OOR95290
+773_NirK,Haemophilus pittmaniae | SNV89017
+774_NirK,Pasteurella bettyae CCUG 2042 | EIJ70175
+775_NirK,Rodentibacter heylii | tr|A0A858BHP4|A0A858BHP4_9PAST
+776_NirK,Moraxella catarrhalis ATCC 43617 | ACA52191
+777_NirK,Psychrobacter frigidicola | tr|A0A5C7AAZ9|A0A5C7AAZ9_9GAMM
+778_NirK,Psychrobacter sp. | tr|A0A353XV84|A0A353XV84_9GAMM
+779_NirK,Psychrobacter sp. | tr|A0A3D4KJC4|A0A3D4KJC4_9GAMM
+780_NirK,Psychrobacter sp. FDAARGOS_221 | tr|A0A2J9DX45|A0A2J9DX45_9GAMM
+781_NirK,Pseudomonas aeruginosa | ACX47984
+782_NirK,Pseudomonas carbonaria | tr|A0A7U7I8E6|A0A7U7I8E6_9PSED
+783_NirK,Pseudomonas chlororaphis subsp. aureofaciens | AZE07615
+784_NirK,Pseudomonas citronellolis | tr|A0A4Z0INF9|A0A4Z0INF9_9PSED
+785_NirK,Pseudomonas entomophila L48 | CAK17851
+786_NirK,Pseudomonas entomophila | tr|A0A3S8UDW5|A0A3S8UDW5_9PSED
+787_NirK,Pseudomonas mendocina | VEE13588
+788_NirK,Pseudomonas nitroreducens | tr|A0A246F6I0|A0A246F6I0_9PSED
+789_NirK,Pseudomonas pharmacofabricae | tr|A0A2I0CLE1|A0A2I0CLE1_9PSED
+790_NirK,Pseudomonas protegens | QEZ67374
+791_NirK,Pseudomonas sp. 57B-090624 | tr|A0A2W1MDT2|A0A2W1MDT2_9PSED
+792_NirK,Pseudomonas sp. BICA1-14 | KJS72046
+793_NirK,Pseudomonas sp. DMKU_BBB3-04 | tr|A0A553GZU7|A0A553GZU7_9PSED
+794_NirK,Pseudomonas sp. PGPPP3 | tr|A0A257D8V7|A0A257D8V7_9PSED
+795_NirK,Pseudomonas sp. RIT623 | tr|A0A4Y8SDV6|A0A4Y8SDV6_9PSED
+796_NirK,Pseudomonas sp. s199 | tr|A0A3R9B6Z0|A0A3R9B6Z0_9PSED
+797_NirK,Salinisphaera shabanensis E1L3A | EGM25430
+798_NirK,Piscirickettsiaceae | tr|A0A2A4WFY1|A0A2A4WFY1_9GAMM
+799_NirK,Cycloclasticus sp. | tr|A0A2G2QE74|A0A2G2QE74_9GAMM
+800_NirK,Methylophaga nitratireducenticrescens | tr|A0A7U5TX43|A0A7U5TX43_METNJ
+801_NirK,Methylophaga sp. | tr|A0A2E2IGS2|A0A2E2IGS2_9GAMM
+802_NirK,Methylophaga sp. | tr|A0A2G2I5R1|A0A2G2I5R1_9GAMM
+803_NirK,Methylophaga sp. | tr|A0A2G2M3X4|A0A2G2M3X4_9GAMM
+804_NirK,Methylophaga sp. | tr|A0A2G2QCN9|A0A2G2QCN9_9GAMM
+805_NirK,Xanthomonadales | tr|A0A524QCJ9|A0A524QCJ9_9GAMM
+806_NirK,Dokdonella sp. | tr|A0A833GJP2|A0A833GJP2_9GAMM
+807_NirK,Dyella soli | tr|A0A4R0YWH8|A0A4R0YWH8_9GAMM
+808_NirK,Dyella soli | tr|A0A4R0YXA2|A0A4R0YXA2_9GAMM
+809_NirK,Dyella solisilvae | tr|A0A370K925|A0A370K925_9GAMM
+810_NirK,Dyella solisilvae | tr|A0A370KCY2|A0A370KCY2_9GAMM
+811_NirK,Rhodanobacter denitrificans | ADE28552
+812_NirK,Rhodanobacter denitrificans | AGG89997
+813_NirK,Rhodanobacter denitrificans | tr|A0A368KAG4|A0A368KAG4_9GAMM
+814_NirK,Rhodanobacter fulvus Jip2 | EIL87964
+815_NirK,Rhodanobacter fulvus Jip2 | EIL87967
+816_NirK,Rhodanobacter fulvus Jip2 | EIL91558
+817_NirK,Rhodanobacter sp. | tr|A0A522H220|A0A522H220_9GAMM
+818_NirK,Rhodanobacter sp. | tr|A0A522I3J0|A0A522I3J0_9GAMM
+819_NirK,Rhodanobacter sp. | tr|A0A522L371|A0A522L371_9GAMM
+820_NirK,Rhodanobacter sp. | tr|A0A522MY22|A0A522MY22_9GAMM
+821_NirK,Rhodanobacter sp. 115 | EIL86839
+822_NirK,Rhodanobacter sp. 115 | EIL87082
+823_NirK,Rhodanobacter spathiphylli B39 | EIL92380
+824_NirK,Xanthomonadaceae | tr|A0A2W4TSE8|A0A2W4TSE8_9GAMM
+825_NirK,Xanthomonadaceae | tr|A0A4Q2WZB1|A0A4Q2WZB1_9GAMM
+826_NirK,Xanthomonadaceae | tr|A0A4Q6FNZ6|A0A4Q6FNZ6_9GAMM
+827_NirK,Xanthomonadaceae | tr|A0A4V2B2S2|A0A4V2B2S2_9GAMM
+828_NirK,Xanthomonadaceae | tr|A0A521V705|A0A521V705_9GAMM
+829_NirK,Xanthomonadaceae | tr|A0A7X7PTQ0|A0A7X7PTQ0_9GAMM
+830_NirK,Arenimonas fontis | tr|A0A5B2Z7W6|A0A5B2Z7W6_9GAMM
+831_NirK,Arenimonas sp. | tr|A0A2D8B9Q8|A0A2D8B9Q8_9GAMM
+832_NirK,Arenimonas sp. | tr|A0A352QV23|A0A352QV23_9GAMM
+833_NirK,Arenimonas terrae | tr|A0A5C4RRP9|A0A5C4RRP9_9GAMM
+834_NirK,Luteimonas marina | tr|A0A5C5UCF7|A0A5C5UCF7_9GAMM
+835_NirK,Luteimonas sp. MC1825 | tr|A0A7X0QNH3|A0A7X0QNH3_9GAMM
+836_NirK,Luteimonas sp. MC1825 | tr|A0A7X0QQ00|A0A7X0QQ00_9GAMM
+837_NirK,Luteimonas wenzhouensis | tr|A0A5C5U857|A0A5C5U857_9GAMM
+838_NirK,Lysobacter alkalisoli | tr|A0A514BQP7|A0A514BQP7_9GAMM
+839_NirK,Lysobacter gilvus | tr|A0A7C9HVS6|A0A7C9HVS6_9GAMM
+840_NirK,Lysobacter lacus | tr|A0A5D8Z793|A0A5D8Z793_9GAMM
+841_NirK,Lysobacter maris | tr|A0A507ZR76|A0A507ZR76_9GAMM
+842_NirK,Lysobacter oculi | tr|A0A344J7F1|A0A344J7F1_9GAMM
+843_NirK,Lysobacter pythonis | tr|A0A3M2HMI8|A0A3M2HMI8_9GAMM
+844_NirK,Lysobacter soli | tr|A0A6I6GG45|A0A6I6GG45_9GAMM
+845_NirK,Lysobacter solisilvae (ex Kim et al. 2021) | tr|A0A7H0G1R0|A0A7H0G1R0_9GAMM
+846_NirK,Lysobacter sp. CW239 | tr|A0A7L8CXC4|A0A7L8CXC4_9GAMM
+847_NirK,Lysobacter sp. H21R20 | tr|A0A7S6UF99|A0A7S6UF99_9GAMM
+848_NirK,Lysobacter sp. HDW10 | tr|A0A6G7YZ65|A0A6G7YZ65_9GAMM
+849_NirK,Lysobacter sp. WF-2 | tr|A0A372DNI0|A0A372DNI0_9GAMM
+850_NirK,Lysobacter spongiae | tr|A0A7W3Y6B3|A0A7W3Y6B3_9GAMM
+851_NirK,Pseudoxanthomonas broegbernensis | tr|A0A7V8GK86|A0A7V8GK86_9GAMM
+852_NirK,Pseudoxanthomonas mexicana | tr|A0A7G9TDI7|A0A7G9TDI7_PSEMX
+853_NirK,Pseudoxanthomonas suwonensis 11-1 | ADV26214
+854_NirK,Pseudoxanthomonas suwonensis | tr|A0A2W4ZUT4|A0A2W4ZUT4_9GAMM
+855_NirK,Stenotrophomonas sp. MYb238 | tr|A0A6N7JTH5|A0A6N7JTH5_9GAMM
+856_NirK,Thermomonas carbonis | tr|A0A7G9SQG5|A0A7G9SQG5_9GAMM
+857_NirK,Thermomonas fusca | tr|A0A5R9PH14|A0A5R9PH14_9GAMM
+858_NirK,Thermomonas sp. | tr|A0A5C7R2M8|A0A5C7R2M8_9GAMM
+859_NirK,Thermomonas sp. HDW16 | tr|A0A6G7ZU09|A0A6G7ZU09_9GAMM
+860_NirK,Halobacteriovoraceae | tr|A0A2E2EFA5|A0A2E2EFA5_9PROT
+861_NirK,Bdellovibrionaceae | tr|A0A2E1Q611|A0A2E1Q611_9PROT
+862_NirK,Bdellovibrionaceae | tr|A0A849WV38|A0A849WV38_9PROT
+863_NirK,Bdellovibrio bacteriovorus | AKN83498
+864_NirK,Mariprofundus sp. EBB-1 | tr|A0A498DPL9|A0A498DPL9_9PROT
+865_NirK,Leptospiraceae | tr|A0A2E5S450|A0A2E5S450_9LEPT
+866_NirK,Leptospiraceae | tr|A0A7Y5BLD0|A0A7Y5BLD0_9LEPT
+867_NirK,Leptospira fainei | tr|S3V0Y4|S3V0Y4_9LEPT
+868_NirK,Leptospira fletcheri | tr|A0A4R9GFI8|A0A4R9GFI8_9LEPT
+869_NirK,Leptospira wolbachii | tr|R9AAU5|R9AAU5_9LEPT
+870_NirK,Leptospira yanagawae | tr|A0A5E8HGG6|A0A5E8HGG6_9LEPT
+871_NirK,Turneriella parva DSM 21527 | AFM12745
+872_NirK,Turneriella parva DSM 21527 | AFM12948
+873_NirK,Spirochaetaceae | tr|A0A2E9QFP3|A0A2E9QFP3_9SPIO
+874_NirK,Methylacidiphilum fumariolicum SolV | CCG91707
+875_NirK,Methylacidiphilum fumariolicum SolV | CCG91710
+876_NirK,Methylacidiphilum fumariolicum SolV | CCG91973
+877_NirK,Methylacidiphilum infernorum V4 | ACD82984
+878_NirK,Methylacidiphilum infernorum V4 | ACD82987
+879_NirK,Opitutaceae | tr|A0A2T6DU40|A0A2T6DU40_9BACT
+880_NirK,Oleiharenicola lentus | tr|A0A4Q1C8J9|A0A4Q1C8J9_9BACT
+881_NirK,Chthoniobacter flavus Ellin428 | EDY19063
+882_NirK,Chthoniobacter flavus Ellin428 | EDY20765
+883_NirK,Verrucomicrobiales | tr|A0A350EQC2|A0A350EQC2_9BACT
+884_NirK,Verrucomicrobiales | tr|A0A354TD06|A0A354TD06_9BACT
+885_NirK,Verrucomicrobiales | tr|A0A3B8QBV4|A0A3B8QBV4_9BACT
+886_NirK,Verrucomicrobiales | tr|A0A3C1HBR0|A0A3C1HBR0_9BACT
+887_NirK,Akkermansiaceae | tr|A0A8A7W6S7|A0A8A7W6S7_9BACT
+888_NirK,Verrucomicrobia subdivision 3 | tr|A0A3C1V8D2|A0A3C1V8D2_9BACT
+889_NirK,Verrucomicrobia subdivision 3 | tr|A0A7C4A9E7|A0A7C4A9E7_9BACT
+890_NirK,Pedosphaera parvula Ellin514 | EEF57822
+891_NirK,Verrucomicrobiaceae | tr|A0A4Q2XL87|A0A4Q2XL87_9BACT
+892_NirK,Verrucomicrobiaceae | tr|A0A4Q3AE80|A0A4Q3AE80_9BACT
+893_NirK,Luteolibacter luteus | tr|A0A858REX5|A0A858REX5_9BACT
+894_NirK,Aspergillus oryzae (Yellow koji mold) | tr|D1MGN0|D1MGN0_ASPOZ

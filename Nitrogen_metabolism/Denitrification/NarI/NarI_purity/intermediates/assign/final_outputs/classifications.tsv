@@ -1,0 +1,4 @@
+Sample	Query	Marker	Start_pos	End_pos	Taxonomy	Abundance	iNode	E-value	LWR	EvoDist	Distances
+TIGRFAM_seed_named_formatted	TIGR00351_SP|P19316|NARV_ECOLI/1-226	NarI	1	228	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacterales; f__Enterobacteriaceae; g__Escherichia	1.0	1753	1e-84	1.0	0.0107	0.0001,0.0106,0.0
+TIGRFAM_seed_named_formatted	TIGR00351_SP|P42177|NARI_BACSU/1-223	NarI	4	228	r__Root; d__Bacteria; p__Firmicutes; c__Bacilli; o__Bacillales; f__Bacillaceae; g__Bacillus	1.0	1409	1.3e-88	1.0	0.0112	0.0001,0.0111,0.0
+TIGRFAM_seed_named_formatted	TIGR00351_SP|P11350|NARI_ECOLI/1-225	NarI	2	228	r__Root; d__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacterales; f__Enterobacteriaceae; g__Shigella	1.0	1697	5e-84	1.0	0.0433	0.0102,0.0331,0.0

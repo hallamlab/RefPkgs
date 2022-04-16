@@ -1,0 +1,158 @@
+[2022-04-15 05:38:22] INFO: 
+##			Beginning purity analysis			##
+
+[2022-04-15 05:38:22] INFO: Arguments used:
+-n 4 -r NosZ_UniProt_update/final_outputs/NosZ_build.pkl --extra_info ../TIGRFAM_info.tsv -i ../TIGRFAM_seed_named.faa --output NosZ_UniProt_update/NosZ_purity
+
+[2022-04-15 05:38:22] DEBUG: Sequences appear to be 'prot'.
+
+[2022-04-15 05:38:22] DEBUG: Continuing with stage 'clean'
+
+[2022-04-15 05:38:22] DEBUG: Read 61111 headers from FASTA file '../TIGRFAM_seed_named.faa'.
+
+[2022-04-15 05:38:23] INFO: 
+##				Assigning sequences with TreeSAPP				##
+
+
+[2022-04-15 05:38:23] INFO: Arguments used:
+-i /root/data/imman/uniprot_data/NosZ_UniProt_update/NosZ_purity/intermediates/clean/TIGRFAM_seed_named_formatted.fasta -o /root/data/imman/uniprot_data/NosZ_UniProt_update/NosZ_purity/intermediates/assign/ -m prot -n 4 -t NosZ --refpkg_dir /root/data/imman/uniprot_data/NosZ_UniProt_update/final_outputs --overwrite --delete
+
+[2022-04-15 05:38:23] DEBUG: Continuing with stage 'clean'
+
+[2022-04-15 05:38:23] DEBUG: Gathering reference package files... 
+[2022-04-15 05:38:24] DEBUG: done.
+
+[2022-04-15 05:38:24] INFO: Reading and formatting /root/data/imman/uniprot_data/NosZ_UniProt_update/NosZ_purity/intermediates/clean/TIGRFAM_seed_named_formatted.fasta... 
+[2022-04-15 05:38:24] DEBUG: /root/data/imman/uniprot_data/NosZ_UniProt_update/NosZ_purity/intermediates/clean/TIGRFAM_seed_named_formatted.fasta read by pyfastx in 0.32 seconds.
+
+[2022-04-15 05:38:24] DEBUG: The following sequences were removed due to bad characters:
+TIGR00476_gi|342732113|ref|YP_004770952./1-307
+TIGR04483_gi|153933895|ref|YP_001384638./2-239
+TIGR00476_gi|317128844|ref|YP_004095126./1-311
+TIGR04481_SELENO_ntcb02/5-434
+TIGR00476_gi|319956066|ref|YP_004167329./1-307
+TIGR00476_gi|158320767|ref|YP_001513274./1-309
+TIGR04483_gi|158319089|ref|YP_001511596./4-241
+TIGR04481_gi|310659538|ref/3-427
+TIGR01917_GP|11065689|emb|CAC14301.1/5-435
+TIGR01918_GP|11065689|emb|CAC14301.1/5-435
+TIGR01918_GP|14717791|gb|AAC43574.2/5-435
+TIGR01917_GP|14717791|gb|AAC43574.2/5-435
+
+[2022-04-15 05:38:25] INFO: done.
+
+[2022-04-15 05:38:25] INFO: 	TreeSAPP will analyze the 61099 sequences found in input.
+
+[2022-04-15 05:38:25] INFO: Searching for marker proteins in ORFs using hmmsearch.
+
+[2022-04-15 05:38:25] INFO: Parsing HMMER domain tables for high-quality matches... 
+[2022-04-15 05:38:25] INFO: done.
+
+[2022-04-15 05:38:25] DEBUG: 	Initial alignments:	64
+	Alignments discarded:	14
+	Fragmented alignments:	27
+	Inversions detected:	3
+	Alignments scaffolded:	13
+	Multi-alignments:	0
+	Sequences identified:	30
+
+	Number of markers identified:
+		NosZ	30
+
+[2022-04-15 05:38:25] INFO: Loading homologous sequences identified... 
+[2022-04-15 05:38:25] DEBUG: 61069 sequences were excluded after synchronizing FASTA.
+
+[2022-04-15 05:38:25] INFO: done.
+
+[2022-04-15 05:38:25] DEBUG: Instantiating the PQuery instances... 
+[2022-04-15 05:38:25] DEBUG: done.
+
+[2022-04-15 05:38:25] INFO: Extracting and grouping the quality-controlled sequences... 
+[2022-04-15 05:38:25] INFO: done.
+
+[2022-04-15 05:38:25] DEBUG: Number of query sequences in each marker's group:
+NosZ	0	30
+
+
+[2022-04-15 05:38:25] INFO: Writing the grouped sequences to FASTA files... 
+[2022-04-15 05:38:25] INFO: done.
+
+[2022-04-15 05:38:26] DEBUG: 	hmmalign time required: 0.0:0.0:0.75
+
+[2022-04-15 05:38:26] DEBUG: Read 1302 headers from FASTA file '/root/data/imman/uniprot_data/NosZ_UniProt_update/NosZ_purity/intermediates/assign/intermediates/align/NosZ_hmm_purified_group0.mfa'.
+
+[2022-04-15 05:38:36] INFO: Parsing the EPA-NG outputs... 
+[2022-04-15 05:38:36] INFO: done.
+
+[2022-04-15 05:38:36] DEBUG: 	JPlace parsing time required: 0.0:0.0:0.12
+
+[2022-04-15 05:38:36] DEBUG: 	1 JPlace files.
+
+[2022-04-15 05:38:36] INFO: Selecting the optimal query placements... 
+[2022-04-15 05:38:41] INFO: done.
+
+[2022-04-15 05:38:41] DEBUG: 	PQuery parsing time required: 0.0:0.0:4.43
+
+[2022-04-15 05:38:41] DEBUG: 	30 sequences placed into trees by EPA-NG.
+
+[2022-04-15 05:38:41] INFO: Filtering low-quality placements... 
+[2022-04-15 05:38:41] DEBUG: Maximum distance threshold for 'NosZ' set to 3.190931000000001.
+
+[2022-04-15 05:38:41] INFO: done.
+
+[2022-04-15 05:38:41] DEBUG: NosZ	low_lwr	0
+NosZ	distant	3
+NosZ	big_pendant	0
+NosZ	big_branch	0
+NosZ	svm	0
+
+[2022-04-15 05:38:41] INFO: Generating inputs for iTOL... 
+[2022-04-15 05:38:41] INFO: done.
+
+[2022-04-15 05:38:41] DEBUG: A colours_style.txt file does not yet exist for markers:
+	NosZ
+
+[2022-04-15 05:38:41] DEBUG: A colours_strip.txt file does not yet exist for markers:
+	NosZ
+
+[2022-04-15 05:38:41] INFO: 
+Summarizing assignments for reference package NosZ
+
+[2022-04-15 05:38:45] INFO: Ortholog	Hits	Leaves	Tree-coverage	Description
+--------------------------------------------------------------------------------
+TIGR04246	12	12	0.9	nitrous-oxide reductase, Sec-dependent
+TIGR04244	15	15	1.2	nitrous-oxide reductase, TAT-dependent
+
+
+[2022-04-15 05:38:45] DEBUG: TIGR04246:
+	Thermomicrobium roseum | YP_002523476
+	Dyadobacter fermentans | YP_003085120
+	Geobacillus thermodenitrificans | YP_001125843
+	Leptospira meyeri | tr|A0A5F2D418|A0A5F2D418_LEPME
+	Anaeromyxobacter sp. K | YP_002133821
+	Sulfurimonas denitrificans | YP_393811.1
+	Hydrogenobacter thermophilus | YP_003431831
+	Gemmatimonas aurantiaca | YP_002760897
+	Dechloromonas aromatica | YP_284790.1
+	Sphaerobacter thermophilus | YP_003318994
+	Gramella forsetii | YP_861452.1
+	Desulfitobacterium hafniense | YP_516494.1
+TIGR04244:
+	Thauera sp. MZ1T | YP_002354332
+	Marinobacter sp. ELB17 | ZP_01736808
+	Dinoroseobacter shibae | YP_001534528
+	Cardiobacterium hominis | ZP_05706322
+	Rhodopseudomonas palustris | YP_001991341
+	Burkholderia pseudomallei | YP_001066380
+	Ruegeria pomeroyi | YP_164881.1
+	Pseudogulbenkiania ferrooxidans | ZP_03696836
+	Reinekea blandensis | ZP_01115989.1
+	Maritimibacter alkaliphilus | ZP_01012413.1
+	Rhodospirillum centenum | YP_002300066
+	Acidovorax sp. JS42 | YP_985448.1
+	Aromatoleum aromaticum | YP_160614.1
+	Rhodobacter capsulatus | YP_003579738
+	Bordetella petrii | YP_001632957
+
+[2022-04-15 05:38:45] INFO: TreeSAPP has finished successfully.
+

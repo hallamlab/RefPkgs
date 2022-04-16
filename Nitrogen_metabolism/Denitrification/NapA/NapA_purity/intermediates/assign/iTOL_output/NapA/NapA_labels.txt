@@ -1,0 +1,1121 @@
+LABELS
+SEPARATOR COMMA
+DATA
+#NODE_ID,LABEL
+1_NapA,Root | SP|P39185|NAPA_ALCEU/2-831
+2_NapA,Root | SP|Q56350|NAPA_PARDT/2-831
+3_NapA,Methanosarcinales | tr|A0A662RB39|A0A662RB39_9EURY
+4_NapA,Gordonia sp. YY1 | tr|A0A7J5WZX3|A0A7J5WZX3_9ACTN
+5_NapA,Mycobacterium heckeshornense | tr|A0A7R7TZ66|A0A7R7TZ66_9MYCO
+6_NapA,Mycobacterium sp. THAF192 | tr|A0A5P8ZPY8|A0A5P8ZPY8_9MYCO
+7_NapA,Mycobacterium talmoniae | tr|A0A2S8BGI3|A0A2S8BGI3_9MYCO
+8_NapA,Nocardioides aquaticus | tr|A0A8E6YGF8|A0A8E6YGF8_9ACTN
+9_NapA,Persephonella marina | tr|C0QPT0|C0QPT0_PERMH
+10_NapA,Persephonella marina | tr|C0QTS6|C0QTS6_PERMH
+11_NapA,Sulfurihydrogenibium sp. (strain YO3AOP1) | tr|B2V808|B2V808_SULSY
+12_NapA,Cytophaga hutchinsonii | tr|A0A6N4SQJ1|A0A6N4SQJ1_CYTH3
+13_NapA,Flavobacterium bizetiae | tr|A0A6J4GMW6|A0A6J4GMW6_9FLAO
+14_NapA,Maribacter sp. (strain HTCC2170 / KCCM 42371) | tr|A4AMZ6|A4AMZ6_MARSH
+15_NapA,Gracilimonas mengyeensis | tr|A0A521BLV5|A0A521BLV5_9BACT
+16_NapA,Calditerrivibrio nitroreducens | tr|E4TGR3|E4TGR3_CALNY
+17_NapA,Denitrovibrio acetiphilus | tr|D4H1E4|D4H1E4_DENA2
+18_NapA,Flexistipes sinusarabici | tr|F8E848|F8E848_FLESM
+19_NapA,Marinithermus hydrothermalis | tr|F2NPN8|F2NPN8_MARHT
+20_NapA,Bacillus sp. | tr|A0A3C2CR25|A0A3C2CR25_BACSP
+21_NapA,Calderihabitans maritimus | tr|A0A1Z5HWZ3|A0A1Z5HWZ3_9THEO
+22_NapA,Selenomonas ruminantium | tr|I0GVN9|I0GVN9_SELRL
+23_NapA,Nitrospiraceae | tr|A0A349EJS4|A0A349EJS4_9BACT
+24_NapA,Nitrospiraceae | tr|A0A3C0TPY0|A0A3C0TPY0_9BACT
+25_NapA,Candidatus Nitrospira inopinata | tr|A0A0S4KZV2|A0A0S4KZV2_9BACT
+26_NapA,Acidithiobacillus ferrivorans SS3 | 743299.Acife_2078
+27_NapA,Thermithiobacillus tepidarius DSM 3134 | 1123368.AUIS01000005_gene431
+28_NapA,Thermithiobacillus tepidarius DSM 3134 | 1123368.AUIS01000021_gene1009
+29_NapA,alpha proteobacterium Mf 1.05b.01 | 1282876.BAOK01000001_gene3547
+30_NapA,Asticcacaulis biprosthecum C19 | 715226.ABI_16090
+31_NapA,Asticcacaulis excentricus CB 48 | 573065.Astex_2601
+32_NapA,Brevundimonas sp. BAL3 | 391600.ABRU01000043_gene2677
+33_NapA,Caulobacter segnis ATCC 21756 | 509190.Cseg_2056
+34_NapA,Caulobacter segnis ATCC 21756 | 509190.Cseg_2507
+35_NapA,Caulobacter sp. K31 | 366602.Caul_2947
+36_NapA,Caulobacter sp. UNC358MFTsu5.1 | 1449049.JONW01000009_gene4450
+37_NapA,Caulobacter vibrioides CB15 | 190650.CC_0617
+38_NapA,Phenylobacterium zucineum HLK1 | 450851.PHZ_c0971
+39_NapA,Hyphomicrobiales | tr|A0A192IPF6|A0A192IPF6_9HYPH
+40_NapA,Hyphomicrobiales | tr|A0A2N6AYE2|A0A2N6AYE2_9HYPH
+41_NapA,Hyphomicrobiales | tr|A0A2N6BM61|A0A2N6BM61_9HYPH
+42_NapA,Hyphomicrobiales | tr|A0A6G6WXN3|A0A6G6WXN3_9HYPH
+43_NapA,Hyphomicrobiales | tr|A0A7V0WLV6|A0A7V0WLV6_9HYPH
+44_NapA,Hyphomicrobiales | tr|A0A848Y9I3|A0A848Y9I3_9HYPH
+45_NapA,Siculibacillus lacustris | tr|A0A4Q9VVJ9|A0A4Q9VVJ9_9HYPH
+46_NapA,Aureimonas ureilytica DSM 18598 = NBRC 106430 | 1121028.ARQE01000001_gene3681
+47_NapA,Fulvimarina pelagi HTCC2506 | 314231.FP2506_14454
+48_NapA,Fulvimarina pelagi HTCC2506 | 314231.FP2506_17949
+49_NapA,Martelella mediterranea DSM 17316 | 1122214.AQWH01000007_gene1797
+50_NapA,Beijerinckia indica subsp. indica ATCC 9039 | 395963.Bind_1969
+51_NapA,Beijerinckia mobilis | 231434.JQJH01000001_gene1754
+52_NapA,Methylocapsa aurea | 663610.JQKO01000011_gene3306
+53_NapA,Methylocella silvestris BL2 | 395965.Msil_3772
+54_NapA,Methyloferula stellata AR4 | 876269.ARWA01000001_gene1098
+55_NapA,Methyloferula stellata AR4 | 876269.ARWA01000001_gene2071
+56_NapA,Rhodoblastus sp. | tr|A0A7L5XW25|A0A7L5XW25_9HYPH
+57_NapA,Bradyrhizobiaceae | tr|A0A363TXP9|A0A363TXP9_9BRAD
+58_NapA,Afipia broomeae ATCC 49717 | 883078.HMPREF9695_01872
+59_NapA,Afipia sp. 1NLS2 | 666684.AfiDRAFT_0376
+60_NapA,Afipia sp. 1NLS2 | 666684.AfiDRAFT_2235
+61_NapA,Afipia sp. P52-10 | 1429916.X566_20720
+62_NapA,Bosea sp. 117 | 1125973.JNLC01000012_gene1051
+63_NapA,Bosea sp. LC85 | 1502851.FG93_05546
+64_NapA,Bosea sp. LC85 | 1502851.FG93_05987
+65_NapA,Bosea sp. UNC402CLCol | 1510531.JQJJ01000009_gene1054
+66_NapA,Bradyrhizobium elkanii WSM2783 | 1038860.AXAP01000008_gene5874
+67_NapA,Bradyrhizobium elkanii USDA 76 | 398525.KB900701_gene5692
+68_NapA,Bradyrhizobium japonicum USDA 124 | 1038862.KB893895_gene7231
+69_NapA,Bradyrhizobium japonicum 22 | 1304877.KI519400_gene1090
+70_NapA,Bradyrhizobium murdochi | 1038859.AXAU01000003_gene5932
+71_NapA,Bradyrhizobium murdochi | 1038859.AXAU01000013_gene6523
+72_NapA,Bradyrhizobium sp. ARR65 | 1040989.AWZU01000034_gene2252
+73_NapA,Bradyrhizobium sp. ARR65 | 1040989.AWZU01000037_gene7289
+74_NapA,Bradyrhizobium sp. Ec3.3 | 189753.AXAS01000035_gene1325
+75_NapA,Bradyrhizobium sp. ORS 278 | 114615.BRADO2476
+76_NapA,Bradyrhizobium sp. Tv2a-2 | 113395.AXAI01000001_gene3150
+77_NapA,Bradyrhizobium sp. URHA0002 | 1298867.AUES01000013_gene5380
+78_NapA,Bradyrhizobium sp. URHD0069 | 1380355.JNIJ01000021_gene3732
+79_NapA,Rhodopseudomonas palustris BisA53 | 316055.RPE_1258
+80_NapA,Rhodopseudomonas palustris HaA2 | 316058.RPB_1752
+81_NapA,Falsochrobactrum shanghaiense | tr|A0A316J4J9|A0A316J4J9_9HYPH
+82_NapA,Chelatococcus sp. CO-6 | tr|A0A0K2DJ89|A0A0K2DJ89_9HYPH
+83_NapA,Chelatococcus sp. GW1 | 1211115.ALIQ01000105_gene964
+84_NapA,Chelatococcus sp. GW1 | 1211115.ALIQ01000219_gene1389
+85_NapA,Cohaesibacter gelatinilyticus | tr|A0A285NDS0|A0A285NDS0_9HYPH
+86_NapA,Hyphomicrobiaceae | tr|A0A3N5N3V6|A0A3N5N3V6_9HYPH
+87_NapA,Devosia sp. LC5 | 1502724.FF80_01995
+88_NapA,Hyphomicrobium denitrificans ATCC 51888 | 582899.Hden_2953
+89_NapA,Hyphomicrobium denitrificans 1NES1 | 670307.HYPDE_25588
+90_NapA,Hyphomicrobium sp. MC1 | 717785.HYPMC_3970
+91_NapA,Hyphomicrobium zavarzinii ATCC 27496 | 1267005.KB911257_gene973
+92_NapA,Hyphomicrobium zavarzinii ATCC 27496 | 1267005.KB911259_gene3796
+93_NapA,Pelagibacterium halotolerans B2 | 1082931.KKY_2327
+94_NapA,Methylobacterium nodulans ORS 2060 | 460265.Mnod_2865
+95_NapA,Methylobacterium oryzae CBMB20 | 693986.MOC_2719
+96_NapA,Methylobacterium sp. | tr|A0A389MNF7|A0A389MNF7_9HYPH
+97_NapA,Methylobacterium sp. 10 | 1101191.KI912577_gene2842
+98_NapA,Methylobacterium sp. 4-46 | 426117.M446_1019
+99_NapA,Methylobacterium sp. 4-46 | 426117.M446_6438
+100_NapA,Methylobacterium sp. GXF4 | 1096546.WYO_0073
+101_NapA,Methylorubrum populi BJ001 | 441620.Mpop_3417
+102_NapA,Microvirga aerilata | 670292.JH26_12850
+103_NapA,Microvirga flocculans | tr|A0A7W6IHV9|A0A7W6IHV9_9HYPH
+104_NapA,Microvirga lotononidis | 864069.MicloDRAFT_00032580
+105_NapA,Microvirga ossetica | tr|A0A1B2ERU2|A0A1B2ERU2_9HYPH
+106_NapA,Methylocystis parvus OBBP | 1134912.AJTV01000009_gene1906
+107_NapA,Methylocystis parvus OBBP | 1134912.AJTV01000015_gene366
+108_NapA,Methylocystis sp. ATCC 49242 | 622637.KE124770_gene181
+109_NapA,Methylocystis sp. SB2 | 743836.AYNA01000089_gene3256
+110_NapA,Methylopila sp. 73B | 1120792.JAFV01000001_gene1394
+111_NapA,Methylopila sp. M107 | 1101190.ARWB01000001_gene2806
+112_NapA,Methylosinus sp. PW1 | 107636.JQNK01000009_gene3534
+113_NapA,Methylosinus trichosporium OB3b | 595536.ADVE02000001_gene965
+114_NapA,Pleomorphomonas oryzae DSM 16300 | 1122963.AUHB01000013_gene4628
+115_NapA,Tepidicaulis marinus | 1333998.M2A_2301
+116_NapA,Tepidicaulis marinus | 1333998.M2A_2388
+117_NapA,Aminobacter ciceronei | tr|A0A7W3Q892|A0A7W3Q892_9HYPH
+118_NapA,Chelativorans sp. BNC1 | 266779.Meso_1453
+119_NapA,Hoeflea sp. BAL378 | 1547437.LL06_02705
+120_NapA,Mesorhizobium amorphae CCNWGS0123 | 1082933.MEA186_30722
+121_NapA,Mesorhizobium australicum WSM2073 | 754035.Mesau_02057
+122_NapA,Mesorhizobium ciceri biovar biserrulae WSM1271 | 765698.Mesci_2644
+123_NapA,Mesorhizobium erdmanii USDA 3471 | 1040983.AXAE01000009_gene5506
+124_NapA,Mesorhizobium japonicum MAFF 303099 | 266835.14023282
+125_NapA,Mesorhizobium loti CJ3sym | 1040982.AXAL01000012_gene898
+126_NapA,Mesorhizobium metallidurans STM 2683 | 1297569.MESS2_1080004
+127_NapA,Mesorhizobium sp. L2C084A000 | 1287116.X734_05070
+128_NapA,Mesorhizobium sp. STM 4661 | 1297570.MESS4_110104
+129_NapA,Mesorhizobium sp. URHC0008 | 1380350.JIAP01000017_gene4127
+130_NapA,Mesorhizobium sp. WSM3626 | 1040987.AZUY01000021_gene1578
+131_NapA,Nitratireductor basaltis | 472175.EL18_01910
+132_NapA,Nitratireductor indicus C115 | 1231190.NA8A_07699
+133_NapA,Phyllobacterium sp. YR531 | 1144343.PMI41_03305
+134_NapA,Agrobacterium albertimagni AOL15 | 1156935.QWE_02985
+135_NapA,Agrobacterium albertimagni AOL15 | 1156935.QWE_06713
+136_NapA,Agrobacterium rhizogenes | 359.CN09_32575
+137_NapA,Agrobacterium tumefaciens CCNWGS0286 | 1082932.ATCR1_12753
+138_NapA,Agrobacterium tumefaciens str. Cherry 2E-2-2 | 1281779.H009_01779
+139_NapA,Agrobacterium vitis S4 | 311402.Avi_5892
+140_NapA,Ensifer adhaerens (Sinorhizobium morelense) | tr|A0A0L8BQN3|A0A0L8BQN3_ENSAD
+141_NapA,Ensifer sojae CCBAU 05684 | 716928.AJQT01000039_gene1473
+142_NapA,Ensifer sp. BR816 | 1057002.KB905370_gene3322
+143_NapA,Neorhizobium galegae bv. officinalis bv. officinalis str. HAMBI 1141 | 1028801.RG1141_CH33430
+144_NapA,Neorhizobium sp. S3-V5DH | tr|A0A4R3XHQ0|A0A4R3XHQ0_9HYPH
+145_NapA,Neorhizobium vignae | 690585.JNNU01000002_gene5353
+146_NapA,Rhizobium acidisoli | tr|A0A0N1MEY7|A0A0N1MEY7_9HYPH
+147_NapA,Rhizobium alamii | 492774.JQMB01000003_gene2842
+148_NapA,Rhizobium giardinii bv. giardinii H152 | 1041139.KB902685_gene1347
+149_NapA,Rhizobium leucaenae USDA 9039 | 1041147.AUFB01000006_gene2245
+150_NapA,Rhizobium selenitireducens ATCC BAA-1503 | 1336235.JAEG01000009_gene2912
+151_NapA,Rhizobium sp. 2MFCol3.1 | 1246459.KB898355_gene4523
+152_NapA,Rhizobium sp. CCGE 510 | 1132836.RCCGE510_06767
+153_NapA,Rhizobium sp. CF097 | 1500301.JQMF01000034_gene4398
+154_NapA,Rhizobium sp. IBUN | 1042326.AZNV01000001_gene5425
+155_NapA,Rhizobium sp. OK494 | 1500306.JQLA01000003_gene4455
+156_NapA,Rhizobium sp. Root1220 | tr|A0A0Q6W5P4|A0A0Q6W5P4_9HYPH
+157_NapA,Rhizobium subbaraonis | tr|A0A285V3W5|A0A285V3W5_9HYPH
+158_NapA,Rhizobium undicola ORS 992 = ATCC 700741 | 1370122.JHXQ01000005_gene3456
+159_NapA,Shinella sp. DD12 | 1410620.SHLA_113c000090
+160_NapA,Shinella sp. DD12 | tr|A0A021XBM1|A0A021XBM1_9HYPH
+161_NapA,Sinorhizobium americanum CCGM7 | 1408224.SAMCCGM7_c3965
+162_NapA,Sinorhizobium arboris LMG 14919 | 935557.ATYB01000008_gene4740
+163_NapA,Sinorhizobium medicae WSM419 | 366394.Smed_5491
+164_NapA,Labrenzia aggregata IAM 12614 | 384765.SIAM614_16387
+165_NapA,Labrenzia aggregata IAM 12614 | 384765.SIAM614_31581
+166_NapA,Pannonibacter phragmitetus DSM 14782 | 1122929.KB908237_gene2980
+167_NapA,Pseudovibrio sp. FO-BEG1 | 911045.PSE_2102
+168_NapA,Pseudovibrio sp. FO-BEG1 | 911045.PSE_4543
+169_NapA,Roseibium album | tr|A0A0M6YRW8|A0A0M6YRW8_9HYPH
+170_NapA,Roseibium sp. RKSG952 | tr|A0A6N8ABH8|A0A6N8ABH8_9HYPH
+171_NapA,Roseibium sp. TrichSKD4 | 744980.TRICHSKD4_3402
+172_NapA,Stappia sp. GBMRC 2046 | tr|A0A7X3LRU1|A0A7X3LRU1_9HYPH
+173_NapA,Azorhizobium caulinodans ORS 571 | 438753.AZC_0679
+174_NapA,Azorhizobium doebereinerae UFLA1-100 | 1038858.AXBA01000027_gene1379
+175_NapA,Starkeya novella DSM 506 | 639283.Snov_0406
+176_NapA,Xanthobacter autotrophicus Py2 | 78245.Xaut_1078
+177_NapA,Xanthobacter autotrophicus Py2 | 78245.Xaut_2497
+178_NapA,Xanthobacter sp. 126 | 1131814.JAFO01000001_gene510
+179_NapA,Hirschia baltica ATCC 49814 | 582402.Hbal_2779
+180_NapA,Hirschia baltica ATCC 49814 | 582402.Hbal_2846
+181_NapA,Hirschia maritima DSM 19733 | 551275.KB899545_gene2982
+182_NapA,Hyphomonas sp. CY54-11-8 | 1280944.HY17_07930
+183_NapA,Ponticaulis koreensis DSM 19734 | 551789.ATVJ01000001_gene2543
+184_NapA,Magnetococcus marinus MC-1 | 156889.Mmc1_1591
+185_NapA,Magnetofaba australis | tr|A0A1Y2K9Z3|A0A1Y2K9Z3_9PROT
+186_NapA,Parvularcula bermudensis HTCC2503 | 314260.PB2503_13589
+187_NapA,Rhodobacterales | tr|A0A1Y5HL18|A0A1Y5HL18_9RHOB
+188_NapA,Rhodobacteraceae | tr|A0A2E8PIC1|A0A2E8PIC1_9RHOB
+189_NapA,Rhodobacteraceae | tr|A0A3N9QE81|A0A3N9QE81_9RHOB
+190_NapA,Actibacterium atlanticum | 1461693.ATO10_04622
+191_NapA,Amaricoccus macauensis | tr|A0A840SF37|A0A840SF37_9RHOB
+192_NapA,Boseongicola sp. | tr|A0A7D7ZIM0|A0A7D7ZIM0_9RHOB
+193_NapA,Celeribacter baekdonensis B30 | 1208323.B30_11100
+194_NapA,Cereibacter azotoformans | tr|A0A2T5KA66|A0A2T5KA66_9RHOB
+195_NapA,Cereibacter ovatus | tr|A0A285CP78|A0A285CP78_9RHOB
+196_NapA,Cereibacter sphaeroides (Rhodobacter sphaeroides) | tr|A0A239MAH8|A0A239MAH8_CERSP
+197_NapA,Cereibacter sphaeroides (Rhodobacter sphaeroides) | tr|A4WXJ2|A4WXJ2_CERS5
+198_NapA,Citreicella sp. 357 | 766499.C357_02731
+199_NapA,Citreicella sp. SE45 | 501479.ACNW01000089_gene2377
+200_NapA,Dinoroseobacter shibae DFL 12 = DSM 16493 | 398580.Dshi_1669
+201_NapA,Dinoroseobacter shibae DFL 12 = DSM 16493 | 398580.Dshi_3165
+202_NapA,Haematobacter massiliensis | 195105.CN97_18695
+203_NapA,Histidinibacterium sp. 176SS1-4 | tr|A0A5J5GLL2|A0A5J5GLL2_9RHOB
+204_NapA,Jannaschia sp. CCS1 | 290400.Jann_3045
+205_NapA,Leisingera daeponensis DSM 23529 | 999547.KI421500_gene3240
+206_NapA,Leisingera sp. ANG1 | 1002340.AFCF01000024_gene1216
+207_NapA,Limimaricola cinnabarinus LL-001 | 1337093.MBE-LCI_3126
+208_NapA,Maritimibacter alkaliphilus HTCC2654 | 314271.RB2654_12459
+209_NapA,Maritimibacter sp. | tr|A0A2D8PD46|A0A2D8PD46_9RHOB
+210_NapA,Oceanicola sp. MCTG156(1a) | 1415756.JQMY01000001_gene3623
+211_NapA,Oceanicola sp. MCTG156(1a) | 1415756.JQMY01000001_gene435
+212_NapA,Paenirhodobacter enshiensis | 1105367.CG50_11340
+213_NapA,Palleronia rufa | 1530186.JQEY01000001_gene654
+214_NapA,Paracoccus denitrificans PD1222 | 318586.Pden_4449
+215_NapA,Paracoccus halophilus | 376733.IT41_19005
+216_NapA,Paracoccus sp. J39 | 935848.JAEN01000013_gene4088
+217_NapA,Paracoccus sp. N5 | 1101189.AQUO01000003_gene3606
+218_NapA,Paracoccus sp. PAMC 22219 | 1569209.BBPH01000008_gene3138
+219_NapA,Paracoccus yeei ATCC BAA-599 | 1446473.JHWH01000023_gene2920
+220_NapA,Paracoccus zeaxanthinifaciens ATCC 21588 | 1266998.ATUJ01000002_gene1848
+221_NapA,Parasedimentitalea marina | tr|A0A3T0N0F7|A0A3T0N0F7_9RHOB
+222_NapA,Pseudooceanicola atlanticus | 1461694.ATO9_17210
+223_NapA,Pseudooceanicola nanhaiensis DSM 18065 | 1122614.JHZF01000011_gene699
+224_NapA,Pseudophaeobacter arcticus DSM 23566 | 999550.KI421507_gene3566
+225_NapA,Qingshengfaniella alkalisoli | tr|A0A5B8I5L2|A0A5B8I5L2_9RHOB
+226_NapA,Rhodobacter capsulatus (Rhodopseudomonas capsulata) | tr|A0A4U1JQZ3|A0A4U1JQZ3_RHOCA
+227_NapA,Rhodobacter maris | tr|A0A285T6E8|A0A285T6E8_9RHOB
+228_NapA,Rhodovulum sp. NI22 | 1469613.JT55_01495
+229_NapA,Rhodovulum sp. PH10 | 1187851.A33M_3249
+230_NapA,Roseobacter litoralis Och 149 | 391595.RLO149_c039830
+231_NapA,Roseobacter sp. GAI101 | 391589.RGAI101_937
+232_NapA,Roseobacter sp. MED193 | 314262.MED193_11324
+233_NapA,Roseobacter sp. SK209-2-6 | 388739.RSK20926_01712
+234_NapA,Roseovarius albus | tr|A0A1X6Y7F3|A0A1X6Y7F3_9RHOB
+235_NapA,Roseovarius sp. 217 | 314264.ROS217_14811
+236_NapA,Roseovarius sp. MCTG156(2b) | 1354722.JQLS01000008_gene1914
+237_NapA,Roseovarius sp. TM1035 | 391613.RTM1035_16012
+238_NapA,Ruegeria arenilitoris | tr|A0A238KWA2|A0A238KWA2_9RHOB
+239_NapA,Ruegeria lacuscaerulensis ITI-1157 | 644107.SL1157_1185
+240_NapA,Ruegeria marina | tr|A0A1G6VSD5|A0A1G6VSD5_9RHOB
+241_NapA,Ruegeria marisrubri | tr|A0A117KGY4|A0A117KGY4_9RHOB
+242_NapA,Ruegeria mediterranea | tr|A0A2R8CA85|A0A2R8CA85_9RHOB
+243_NapA,Ruegeria sp. ANG-R | tr|A0A0C1J4T4|A0A0C1J4T4_9RHOB
+244_NapA,Ruegeria sp. THAF57 | tr|A0A6V6ZQQ8|A0A6V6ZQQ8_9RHOB
+245_NapA,Sagittula stellata E-37 | 388399.SSE37_24264
+246_NapA,Salipiger bermudensis HTCC2601 | 314265.R2601_08196
+247_NapA,Salipiger mucosus DSM 16094 | 1123237.Salmuc_00879
+248_NapA,Shimia gijangensis | tr|A0A1M6JUN3|A0A1M6JUN3_9RHOB
+249_NapA,Shimia haliotis | tr|A0A1I3ZYX0|A0A1I3ZYX0_9RHOB
+250_NapA,Sulfitobacter donghicola DSW-25 = KCTC 12864 = JCM 14565 | 1300350.DSW25_13645
+251_NapA,Sulfitobacter geojensis | 1342299.Z947_2763
+252_NapA,Sulfitobacter noctilucicola | 1342301.JASD01000008_gene700
+253_NapA,Sulfitobacter sp. 20_GPM-1509m | 1380367.JIBC01000004_gene2454
+254_NapA,Sulfitobacter sp. EE-36 | 52598.EE36_08003
+255_NapA,Thalassobacter stenotrophicus | 266809.PM03_07970
+256_NapA,Thioclava pacifica DSM 10166 | 1353537.TP2_11525
+257_NapA,Tropicimonas isoalkanivorans | tr|A0A1I1DJY6|A0A1I1DJY6_9RHOB
+258_NapA,Vannielia litorea | tr|A0A1N6IDX1|A0A1N6IDX1_9RHOB
+259_NapA,Yoonia vestfoldensis SKA53 | 314232.SKA53_09109
+260_NapA,Enhydrobacter aerosaccus SK60 | 553217.ENHAE0001_1415
+261_NapA,Rhodospirillales | tr|A0A1Q3VCB0|A0A1Q3VCB0_9PROT
+262_NapA,Acetobacter malorum | 178901.AmDm5_0323
+263_NapA,Acetobacter nitrogenifigens DSM 23921 = LMG 23498 | 1120919.AUBI01000006_gene599
+264_NapA,Acetobacter pasteurianus 3P3 | 940282.CADQ01000023_gene2266
+265_NapA,Acidiphilium angustum ATCC 35903 | 1408418.JNJH01000045_gene2623
+266_NapA,Acidiphilium cryptum JF-5 | 349163.Acry_0345
+267_NapA,Acidocella facilis ATCC 35904 | 1408419.JHYG01000006_gene2702
+268_NapA,Asaia platycodi SF2.1 | 1382230.ASAP_1656
+269_NapA,Belnapia moabensis DSM 16746 | 1121106.JQKB01000014_gene5721
+270_NapA,Gluconobacter oxydans H24 | 1224746.B932_2991
+271_NapA,Granulibacter bethesdensis CGDNIH1 | 391165.GbCGDNIH1_1725
+272_NapA,Komagataeibacter rhaeticus AF1 | 1432055.GLUCORHAEAF1_02905
+273_NapA,Roseomonas aerilata DSM 19363 | 1123060.JONP01000011_gene3033
+274_NapA,Roseomonas gilardii subsp. rosea ATCC BAA-691 | 1336208.JADY01000001_gene1217
+275_NapA,Roseomonas pecuniae | tr|A0A840Y8A0|A0A840Y8A0_9PROT
+276_NapA,Azospirillaceae | tr|A0A0F2RME6|A0A0F2RME6_9PROT
+277_NapA,Azospirillaceae | tr|A0A2A4U6Z3|A0A2A4U6Z3_9PROT
+278_NapA,Azospirillaceae | tr|A0A2D6JYF9|A0A2D6JYF9_9PROT
+279_NapA,Azospirillum brasilense | tr|A0A235H978|A0A235H978_AZOBR
+280_NapA,Azospirillum griseum | tr|A0A431VDX1|A0A431VDX1_9PROT
+281_NapA,Azospirillum halopraeferens DSM 3675 | 1121033.AUCF01000005_gene5302
+282_NapA,Azospirillum halopraeferens DSM 3675 | 1121033.AUCF01000011_gene1773
+283_NapA,Azospirillum ramasamyi | tr|A0A2U9SDC9|A0A2U9SDC9_9PROT
+284_NapA,Azospirillum sp. K2W22B-5 | tr|A0A418VXM1|A0A418VXM1_9PROT
+285_NapA,Azospirillum sp. TSH20 | tr|A0A2U1X6P8|A0A2U1X6P8_9PROT
+286_NapA,Azospirillum sp. TSO22-1 | tr|A0A2U1VZZ3|A0A2U1VZZ3_9PROT
+287_NapA,Azospirillum sp. TSO22-1 | tr|A0A2U1W233|A0A2U1W233_9PROT
+288_NapA,Azospirillum thermophilum | tr|A0A2S2CYE7|A0A2S2CYE7_9PROT
+289_NapA,Caenispirillum bisanense | tr|A0A286H1J8|A0A286H1J8_9PROT
+290_NapA,Caenispirillum salinarum AK4 | 1238182.C882_0293
+291_NapA,Caenispirillum salinarum AK4 | 1238182.C882_0733
+292_NapA,Caenispirillum salinarum AK4 | 1238182.C882_3698
+293_NapA,Dongia mobilis | tr|A0A4R6WRU6|A0A4R6WRU6_9PROT
+294_NapA,Ferrovibrio sp. | tr|A0A2M8U5F5|A0A2M8U5F5_9PROT
+295_NapA,Magnetospira sp. (strain QH-2) (Marine magnetic spirillum (strain QH-2)) | tr|W6K8P4|W6K8P4_MAGSQ
+296_NapA,Magnetospirillum aberrantis | tr|A0A7C9UY43|A0A7C9UY43_9PROT
+297_NapA,Magnetospirillum caucaseum | 1244869.H261_03508
+298_NapA,Magnetospirillum caucaseum | 1244869.H261_07488
+299_NapA,Magnetospirillum gryphiswaldense MSR-1 v2 | 1430440.MGMSRv2_0179
+300_NapA,Magnetospirillum gryphiswaldense MSR-1 v2 | 1430440.MGMSRv2_2004
+301_NapA,Magnetospirillum sp. 64-120 | tr|A0A1M3LZF3|A0A1M3LZF3_9PROT
+302_NapA,Magnetospirillum sp. UT-4 | tr|A0A6J4FY31|A0A6J4FY31_9PROT
+303_NapA,Magnetovibrio sp. | tr|A0A2D5XHK5|A0A2D5XHK5_9PROT
+304_NapA,Magnetovibrio sp. | tr|A0A2E3P296|A0A2E3P296_9PROT
+305_NapA,Novispirillum itersonii subsp. itersonii ATCC 12639 | 1279038.KB907342_gene2558
+306_NapA,Rhodospirillum centenum SW | 414684.RC1_0457
+307_NapA,Rhodovibrio salinarum DSM 9154 | 1089552.KI911559_gene897
+308_NapA,Telmatospirillum siberiense | tr|A0A2N3PWW1|A0A2N3PWW1_9PROT
+309_NapA,Telmatospirillum sp. | tr|A0A6A8QMT4|A0A6A8QMT4_9PROT
+310_NapA,Thalassospira profundimaris WP0211 | 1177928.TH2_06078
+311_NapA,Thalassospira xiamenensis M-5 = DSM 17429 | 1123366.TH3_09220
+312_NapA,Thalassospira xiamenensis M-5 = DSM 17429 | 1123366.TH3_15759
+313_NapA,Tistrella mobilis KA081020-065 | 1110502.TMO_2150
+314_NapA,Varunaivibrio sulfuroxidans | tr|A0A4R3JA42|A0A4R3JA42_9PROT
+315_NapA,Geminicoccus roseus DSM 18922 | 1089551.KE386572_gene1134
+316_NapA,Aestuariispira insulae | tr|A0A3D9HRK1|A0A3D9HRK1_9PROT
+317_NapA,Kiloniella laminariae DSM 19542 | 1122135.KB893167_gene2375
+318_NapA,Kiloniella spongiae | tr|A0A0H2MF24|A0A0H2MF24_9PROT
+319_NapA,Terasakiella pusilla DSM 6293 | 1123355.JHYO01000029_gene3742
+320_NapA,Thalassobaculum litoreum | tr|A0A8G2BFP9|A0A8G2BFP9_9PROT
+321_NapA,Oceanibacterium hippocampi | tr|A0A1Y5TFQ9|A0A1Y5TFQ9_9PROT
+322_NapA,Erythrobacter cryptus DSM 12079 | 1122970.AUHC01000011_gene2703
+323_NapA,Erythrobacter litoralis HTCC2594 | 314225.ELI_05855
+324_NapA,Erythrobacter longus | 1044.EH31_02945
+325_NapA,Erythrobacter sp. JL475 | 383381.EH30_15615
+326_NapA,Blastomonas sp. AAP53 | 1248760.ANFZ01000009_gene1369
+327_NapA,Blastomonas sp. AAP53 | 1248760.ANFZ01000014_gene2105
+328_NapA,Novosphingobium aromaticivorans DSM 12444 | 279238.Saro_2776
+329_NapA,Novosphingobium aromaticivorans DSM 12444 | 279238.Saro_2966
+330_NapA,Novosphingobium lindaniclasticum LE124 | 1096930.L284_11745
+331_NapA,Novosphingobium nitrogenifigens DSM 19370 | 983920.Y88_3469
+332_NapA,Novosphingobium pentaromativorans US6-1 | 1088721.NSU_3468
+333_NapA,Novosphingobium pentaromativorans US6-1 | 1088721.NSU_3501
+334_NapA,Novosphingobium pentaromativorans US6-1 | 1088721.NSU_3568
+335_NapA,Novosphingobium sp. AP12 | 1144305.PMI02_00423
+336_NapA,Novosphingobium sp. AP12 | 1144305.PMI02_01755
+337_NapA,Novosphingobium sp. PP1Y | 702113.PP1Y_AT9994
+338_NapA,Novosphingopyxis baekryungensis DSM 16222 | 1123270.ATUR01000002_gene2524
+339_NapA,Sphingobium chlorophenolicum | 46429.BV95_01192
+340_NapA,Sphingobium chlorophenolicum | 46429.BV95_04120
+341_NapA,Sphingobium herbicidovorans NBRC 16415 | 1219045.BV98_003034
+342_NapA,Sphingobium japonicum UT26S | 452662.SJA_C1-28530
+343_NapA,Sphingobium lactosutens DS20 | 1331060.RLDS_16930
+344_NapA,Sphingobium sp. C100 | 1207055.C100_18080
+345_NapA,Sphingobium sp. SYK-6 | 627192.SLG_27700
+346_NapA,Sphingobium sp. ba1 | 1522072.IL54_1104
+347_NapA,Sphingobium yanoikuyae | 13690.CP98_01366
+348_NapA,Sphingomonas elodea ATCC 31461 | 1081640.AGFU01000034_gene2866
+349_NapA,Sphingomonas melonis DAPP-PG 224 | 1090320.KB900606_gene72
+350_NapA,Sphingomonas parapaucimobilis NBRC 15100 | 1219049.SP5_054_00120
+351_NapA,Sphingomonas phyllosphaerae 5.2 | 1090318.ATTI01000001_gene413
+352_NapA,Sphingomonas sanxanigenens DSM 19645 = NX02 | 1123269.NX02_24630
+353_NapA,Sphingomonas sp. 35-24ZXX | 1545915.JROG01000001_gene201
+354_NapA,Sphingomonas sp. FUKUSWIS1 | 1379701.JPJC01000235_gene3257
+355_NapA,Sphingomonas sp. KC8 | 1030157.AFMP01000008_gene3269
+356_NapA,Sphingomonas sp. PR090111-T3T-6A | 685778.AORL01000019_gene1803
+357_NapA,Sphingomonas taxi | 1549858.MC45_04495
+358_NapA,Sphingomonas wittichii RW1 | 392499.Swit_1709
+359_NapA,Sphingomonas wittichii RW1 | 392499.Swit_4198
+360_NapA,Sphingopyxis sp. LC81 | 1502850.FG91_03114
+361_NapA,Sphingopyxis sp. MWB1 | 1537715.JQFJ01000002_gene1595
+362_NapA,Sandarakinorhabdus limnophila DSM 17366 | 1123240.ATVO01000003_gene116
+363_NapA,Candidatus Accumulibacter sp. BA-93 | 1454004.AW11_03983
+364_NapA,Candidatus Accumulibacter phosphatis clade IIA str. UW-1 | 522306.CAP2UW1_2772
+365_NapA,Thiomonas sp. FB-Cd | 1158292.JPOE01000005_gene222
+366_NapA,Sphaerotilus natans subsp. natans DSM 6575 | 1286631.X805_40060
+367_NapA,Leptothrix cholodnii SP-6 | 395495.Lcho_1343
+368_NapA,Leptothrix cholodnii SP-6 | 395495.Lcho_2680
+369_NapA,Methylibium petroleiphilum PM1 | 420662.Mpe_A2319
+370_NapA,Thiomonas arsenitoxydans | 426114.THI_3596
+371_NapA,Burkholderiales bacterium 1_1_47 | 469610.HMPREF0189_00303
+372_NapA,Burkholderiales bacterium JOSHI_001 | 864051.BurJ1DRAFT_3675
+373_NapA,Burkholderiales | sp|B1Y6A6|NAPA_LEPCP
+374_NapA,Burkholderiales | tr|A0A0G3BG84|A0A0G3BG84_9BURK
+375_NapA,Burkholderiales | tr|A0A0U2W1S2|A0A0U2W1S2_9BURK
+376_NapA,Burkholderiales | tr|A0A1I6J1D7|A0A1I6J1D7_9BURK
+377_NapA,Burkholderiales | tr|A0A1W6LA00|A0A1W6LA00_9BURK
+378_NapA,Burkholderiales | tr|A0A433SAQ2|A0A433SAQ2_9BURK
+379_NapA,Burkholderiales | tr|A0A4Q7VD93|A0A4Q7VD93_9BURK
+380_NapA,Burkholderiales | tr|A0A4R2M8U6|A0A4R2M8U6_RUBGE
+381_NapA,Burkholderiales | tr|A0A4V2EWP7|A0A4V2EWP7_9BURK
+382_NapA,Burkholderiales | tr|A0A519IAR1|A0A519IAR1_9BURK
+383_NapA,Burkholderiales | tr|A0A8A7VEY2|A0A8A7VEY2_9BURK
+384_NapA,Achromobacter arsenitoxydans SY8 | 477184.KYC_13517
+385_NapA,Achromobacter insuavis AXX-A | 1003200.AXXA_05313
+386_NapA,Achromobacter pestifer | tr|A0A6S7AML6|A0A6S7AML6_9BURK
+387_NapA,Achromobacter piechaudii HLE | 1156919.QWC_04018
+388_NapA,Achromobacter spanius | tr|A0A2S0I653|A0A2S0I653_9BURK
+389_NapA,Achromobacter xylosoxidans A8 | 762376.AXYL_05131
+390_NapA,Advenella kashmirensis W13003 | 1424334.W822_17025
+391_NapA,Advenella mimigardefordensis DPN7 | 1247726.MIM_c09450
+392_NapA,Bordetella petrii | 94624.Bpet3638
+393_NapA,Bordetella petrii | 94624.Bpet4079
+394_NapA,Paracandidimonas soli | tr|A0A4R3UMS3|A0A4R3UMS3_9BURK
+395_NapA,Pusillimonas sp. T7-7 | 1007105.PT7_2971
+396_NapA,Burkholderiaceae bacterium PBA | 795666.MW7_1646
+397_NapA,Burkholderiaceae | tr|A0A5C7QK64|A0A5C7QK64_9BURK
+398_NapA,Burkholderiaceae | tr|A0A5C7QRF4|A0A5C7QRF4_9BURK
+399_NapA,Burkholderia gladioli BSR3 | 999541.bgla_2g16770
+400_NapA,Burkholderia multivorans ATCC 17616 | 395019.Bmul_4149
+401_NapA,Burkholderia oklahomensis | 342113.DM82_5413
+402_NapA,Burkholderia pseudomallei K96243 | 272560.BPSL0510
+403_NapA,Burkholderia pseudomallei K96243 | 272560.BPSL2207
+404_NapA,Burkholderia sp. CCGE1001 | 640510.BC1001_2109
+405_NapA,Burkholderia sp. CCGE1003 | 640512.BC1003_1357
+406_NapA,Burkholderia sp. K24 | 1472716.KBK24_0122585
+407_NapA,Burkholderia sp. K24 | 1472716.KBK24_0137190
+408_NapA,Burkholderia sp. YI23 | 1097668.BYI23_B007910
+409_NapA,Caballeronia insecticola | tr|R4X184|R4X184_9BURK
+410_NapA,Caballeronia pedi | tr|A0A158C7Z8|A0A158C7Z8_9BURK
+411_NapA,Caballeronia sordidicola | 196367.JNFG01000013_gene5225
+412_NapA,Caballeronia sordidicola | tr|A0A4R1PA43|A0A4R1PA43_9BURK
+413_NapA,Caballeronia telluris | tr|A0A158K2W6|A0A158K2W6_9BURK
+414_NapA,Cupriavidus metallidurans CH34 | 266264.Rmet_4063
+415_NapA,Cupriavidus metallidurans CH34 | 266264.Rmet_4821
+416_NapA,Cupriavidus necator H16 | 381666.H16_B0776
+417_NapA,Cupriavidus pinatubonensis JMP134 | 264198.Reut_B4763
+418_NapA,Cupriavidus pinatubonensis JMP134 | 264198.Reut_B4863
+419_NapA,Limnobacter sp. | tr|A0A847DXI8|A0A847DXI8_9BURK
+420_NapA,Pandoraea sp. SD6-2 | 1286093.C266_16045
+421_NapA,Paraburkholderia acidipaludis NBRC 101816 | 1218074.BAXZ01000004_gene1231
+422_NapA,Paraburkholderia bannensis NBRC 103871 | 1218075.BAYA01000028_gene5686
+423_NapA,Paraburkholderia bryophila 376MFSha3.1 | 1169143.KB911034_gene1306
+424_NapA,Paraburkholderia ferrariae NBRC 106233 | 1218076.BAYB01000022_gene3884
+425_NapA,Paraburkholderia mimosarum LMG 23256 = NBRC 106338 | 1038869.AXAN01000003_gene2546
+426_NapA,Paraburkholderia sacchari | 159450.NH14_17235
+427_NapA,Polynucleobacter asymbioticus QLW-P1DMWA-1 | 312153.Pnuc_1002
+428_NapA,Ralstonia pickettii 12J | 402626.Rpic_2844
+429_NapA,Ralstonia pickettii 12J | 402626.Rpic_4167
+430_NapA,Ralstonia pickettii (Burkholderia pickettii) | tr|A0A7T6X840|A0A7T6X840_RALPI
+431_NapA,Comamonadaceae | tr|A0A3P1XLP7|A0A3P1XLP7_9BURK
+432_NapA,Acidovorax citrulli AAC00-1 | 397945.Aave_2105
+433_NapA,Acidovorax ebreus TPSY | 535289.Dtpsy_2330
+434_NapA,Acidovorax sp. KKS102 | 358220.C380_17500
+435_NapA,Acidovorax sp. MR-S7 | 1268622.AVS7_03478
+436_NapA,Alicycliphilus denitrificans BC | 596153.Alide_2393
+437_NapA,Caldimonas manganoxidans ATCC BAA-369 | 1265502.KB905931_gene1690
+438_NapA,Comamonas aquatica NBRC 14918 | 1219031.BBJR01000047_gene1692
+439_NapA,Comamonas testosteroni KF-1 | 399795.CtesDRAFT_PD4473
+440_NapA,Comamonas testosteroni CNB-2 | 688245.CtCNB1_2018
+441_NapA,Delftia acidovorans SPH-1 | 398578.Daci_2370
+442_NapA,Diaphorobacter ruginosibacter | tr|A0A7G9RJ77|A0A7G9RJ77_9BURK
+443_NapA,Hylemonella gracilis str. Niagara R | 1458275.AZ34_13090
+444_NapA,Hylemonella gracilis ATCC 19624 | 887062.HGR_05591
+445_NapA,Limnohabitans sp. Rim47 | 1100721.ALKO01000003_gene1950
+446_NapA,Polaromonas naphthalenivorans CJ2 | 365044.Pnap_1404
+447_NapA,Polaromonas sp. JS666 | 296591.Bpro_3279
+448_NapA,Ramlibacter lithotrophicus | tr|A0A7X6DCX2|A0A7X6DCX2_9BURK
+449_NapA,Ramlibacter tataouinensis TTB310 | 365046.Rta_26630
+450_NapA,Ramlibacter tataouinensis | tr|A0A127K1K2|A0A127K1K2_9BURK
+451_NapA,Rhodoferax ferrireducens T118 | 338969.Rfer_2559
+452_NapA,Rhodoferax ferrireducens T118 | 338969.Rfer_3084
+453_NapA,Rhodoferax ferrireducens T118 | 338969.Rfer_3848
+454_NapA,Rhodoferax saidenbachensis ED16 | 614083.AWQR01000009_gene544
+455_NapA,Rhodoferax saidenbachensis ED16 | 614083.AWQR01000030_gene2700
+456_NapA,Simplicispira psychrophila DSM 11588 | 1123255.JHYS01000021_gene1824
+457_NapA,Variovorax paradoxus EPS | 595537.Varpa_4045
+458_NapA,Variovorax sp. | tr|A0A520GD94|A0A520GD94_9BURK
+459_NapA,Verminephrobacter eiseniae EF01-2 | 391735.Veis_2595
+460_NapA,Xenophilus azovorans DSM 13620 | 1123504.JQKD01000026_gene4256
+461_NapA,Oxalobacteraceae | tr|A0A3D6AFL5|A0A3D6AFL5_9BURK
+462_NapA,Collimonas fungivorans Ter331 | 1005048.CFU_0170
+463_NapA,Duganella sp. Root1480D1 | tr|A0A0Q7X3R5|A0A0Q7X3R5_9BURK
+464_NapA,Herbaspirillum frisingense GSF30 | 864073.HFRIS_008935
+465_NapA,Herbaspirillum sp. CF444 | 1144319.PMI16_04602
+466_NapA,Herbaspirillum sp. YR522 | 1144342.PMI40_04636
+467_NapA,Herminiimonas arsenicoxydans | 204773.HEAR0433
+468_NapA,Herminiimonas arsenicoxydans | 204773.HEAR0478
+469_NapA,Janthinobacterium agaricidamnosum NBRC 102515 = DSM 9628 | 1349767.GJA_2968
+470_NapA,Janthinobacterium lividum | 29581.BW37_03843
+471_NapA,Janthinobacterium sp. HH01 | 1198452.Jab_2c31470
+472_NapA,Massilia flava | tr|A0A562PPK7|A0A562PPK7_9BURK
+473_NapA,Massilia sp. 9096 | 1500894.JQNN01000001_gene4538
+474_NapA,Massilia sp. LC238 | 1502852.FG94_02509
+475_NapA,Massilia timonae CCUG 45783 | 883126.HMPREF9710_03434
+476_NapA,Noviherbaspirillum denitrificans | tr|A0A254TDB9|A0A254TDB9_9BURK
+477_NapA,Noviherbaspirillum massiliense JC206 | 1095769.CAHF01000023_gene471
+478_NapA,Sutterella megalosphaeroides | tr|A0A2Z6I7U5|A0A2Z6I7U5_9BURK
+479_NapA,Sutterella parvirubra | tr|H3KE43|H3KE43_9BURK
+480_NapA,Sutterella sp. | tr|A0A3B9Q7B4|A0A3B9Q7B4_9BURK
+481_NapA,Sutterella sp. | tr|A0A3D0HDG1|A0A3D0HDG1_9BURK
+482_NapA,Sutterella sp. AM11-39 | tr|A0A415CHB1|A0A415CHB1_9BURK
+483_NapA,Sutterella sp. CAG:351 | tr|R7I7L4|R7I7L4_9BURK
+484_NapA,Sutterella wadsworthensis HGA0223 | 1203554.HMPREF1476_02391
+485_NapA,Sutterella wadsworthensis 2_1_59BFAA | 742823.HMPREF9465_01977
+486_NapA,Andreprevotia chitinilytica DSM 18519 | 1120999.JONM01000014_gene2808
+487_NapA,Chromobacterium violaceum ATCC 12472 | 243365.CV_2229
+488_NapA,Deefgea sp. D17 | tr|A0A6M8SLN6|A0A6M8SLN6_9NEIS
+489_NapA,Laribacter hongkongensis HLHK9 | 557598.LHK_02081
+490_NapA,Pseudogulbenkiania ferrooxidans 2002 | 279714.FuraDRAFT_1670
+491_NapA,Gallionellaceae | tr|A0A521Q2H2|A0A521Q2H2_9PROT
+492_NapA,Ferriphaselus sp. R-1 | 1485544.JQKP01000004_gene468
+493_NapA,Sideroxydans lithotrophicus ES-1 | 580332.Slit_0160
+494_NapA,Methylophilus methylotrophus DSM 46235 = ATCC 53528 | 1122236.KB905142_gene403
+495_NapA,Methylophilus sp. 5 | 1112274.KI911560_gene281
+496_NapA,Methylotenera sp. 73s | 1165096.ARWF01000001_gene1197
+497_NapA,Methylovorus glucosetrophus SIP3-4 | 582744.Msip34_0344
+498_NapA,Methyloversatilis universalis FAM5 | 1000565.METUNv1_00867
+499_NapA,Sulfuricella denitrificans skB26 | 1163617.SCD_n00379
+500_NapA,Sulfurimicrobium lacus | tr|A0A6F8VDB9|A0A6F8VDB9_9PROT
+501_NapA,Parasulfuritortus cantonensis | tr|A0A4R1BGZ6|A0A4R1BGZ6_9PROT
+502_NapA,Sulfuritortus calidifontis | tr|A0A4R3JQN3|A0A4R3JQN3_9PROT
+503_NapA,Thiobacillus denitrificans DSM 12475 | 1123392.AQWL01000005_gene3030
+504_NapA,Thiobacillus denitrificans ATCC 25259 | 292415.Tbd_2310
+505_NapA,Thiobacillus sp. 65-29 | tr|A0A1Q4GMT6|A0A1Q4GMT6_9PROT
+506_NapA,Usitatibacter palustris | tr|A0A6M4H3X2|A0A6M4H3X2_9PROT
+507_NapA,Usitatibacter rugosus | tr|A0A6M4GR99|A0A6M4GR99_9PROT
+508_NapA,Usitatibacter rugosus | tr|A0A6M4GYV0|A0A6M4GYV0_9PROT
+509_NapA,Rhodocyclales | tr|A0A363SL40|A0A363SL40_9RHOO
+510_NapA,Rhodocyclales | tr|A0A3L6LUI7|A0A3L6LUI7_9RHOO
+511_NapA,Azonexus hydrophilus | tr|A0A1R1I8R2|A0A1R1I8R2_9RHOO
+512_NapA,Dechloromonas agitata is5 | 1304883.KI912532_gene1555
+513_NapA,Dechloromonas agitata is5 | 1304883.KI912532_gene1725
+514_NapA,Dechloromonas aromatica RCB | 159087.Daro_0814
+515_NapA,Dechloromonas sp. | tr|A0A6N1XCZ5|A0A6N1XCZ5_9RHOO
+516_NapA,Dechloromonas sp. | tr|A0A7L6AB69|A0A7L6AB69_9RHOO
+517_NapA,Rhodocyclaceae | tr|A0A3D3U1Z0|A0A3D3U1Z0_9RHOO
+518_NapA,Rhodocyclaceae | tr|A0A3D5SVS7|A0A3D5SVS7_9RHOO
+519_NapA,Rhodocyclaceae | tr|A0A524B6U3|A0A524B6U3_9RHOO
+520_NapA,Rhodocyclaceae | tr|A0A5C7K2C2|A0A5C7K2C2_9RHOO
+521_NapA,Rhodocyclaceae | tr|A0A6L4YN06|A0A6L4YN06_9RHOO
+522_NapA,Rhodocyclaceae | tr|A0A838LT15|A0A838LT15_9RHOO
+523_NapA,Rhodocyclaceae | tr|A0A838LT31|A0A838LT31_9RHOO
+524_NapA,Aromatoleum aromaticum EbN1 | 76114.ebA1211
+525_NapA,Azospira oryzae PS | 640081.Dsui_0508
+526_NapA,Azospira oryzae PS | 640081.Dsui_1817
+527_NapA,Azovibrio restrictus DSM 23866 | 1121035.AUCH01000001_gene1823
+528_NapA,Denitromonas halophilus | tr|A0A557R0N9|A0A557R0N9_9RHOO
+529_NapA,Niveibacterium umoris | tr|A0A840BNI2|A0A840BNI2_9RHOO
+530_NapA,Oryzomicrobium terrae | tr|A0A5C1E455|A0A5C1E455_9RHOO
+531_NapA,Zoogloeaceae | tr|A0A2S0QZ73|A0A2S0QZ73_9RHOO
+532_NapA,Azoarcus indigens | tr|A0A4R6E6F6|A0A4R6E6F6_9RHOO
+533_NapA,Azoarcus nasutitermitis | tr|A0A4S4ANC4|A0A4S4ANC4_9RHOO
+534_NapA,Azoarcus sp. KH32C | 748247.AZKH_0839
+535_NapA,Azoarcus sp. M9-3-2 | tr|A0A6C1BAN4|A0A6C1BAN4_9RHOO
+536_NapA,Azoarcus sp. PA01 | tr|A0A0M0FW02|A0A0M0FW02_9RHOO
+537_NapA,Thauera linaloolentis 47Lol = DSM 12138 | 1123367.C666_16380
+538_NapA,Thauera sp. 27 | 305700.B447_16632
+539_NapA,Thauera sp. 63 | 497321.C664_08618
+540_NapA,Thauera sp. 63 | 497321.C664_10508
+541_NapA,Thauera sp. MZ1T | 85643.Tmz1t_1147
+542_NapA,Uliginosibacterium gangwonense DSM 18521 | 1123487.KB892863_gene1962
+543_NapA,Zoogloea sp. G-4-1-14 | tr|A0A848G5C7|A0A848G5C7_9RHOO
+544_NapA,Deferrisoma camini S3R1 | 1125863.JAFN01000001_gene2792
+545_NapA,Bradymonadales | tr|A0A5B8XTA5|A0A5B8XTA5_9DELT
+546_NapA,Bradymonadaceae | tr|A0A838IFS8|A0A838IFS8_9DELT
+547_NapA,Bradymonas sediminis | tr|A0A2Z4FLY6|A0A2Z4FLY6_9DELT
+548_NapA,Desulfobacterales | tr|A0A1E7JCK9|A0A1E7JCK9_9DELT
+549_NapA,Desulfobacterales | tr|A0A1F9NZM3|A0A1F9NZM3_9DELT
+550_NapA,Desulfobacteraceae | tr|A0A3A4RNY4|A0A3A4RNY4_9DELT
+551_NapA,Desulfobacteraceae | tr|A0A7V5WJJ6|A0A7V5WJJ6_9DELT
+552_NapA,Desulfobacteraceae | tr|A0A848Z274|A0A848Z274_9DELT
+553_NapA,Desulfobacter sp. | tr|A0A2D6ET60|A0A2D6ET60_9DELT
+554_NapA,Desulfobulbaceae | tr|A0A2N6BZX8|A0A2N6BZX8_9DELT
+555_NapA,Desulfobulbaceae | tr|A0A7V5R4M3|A0A7V5R4M3_9DELT
+556_NapA,Candidatus Electronema sp. GS | tr|A0A521G3J9|A0A521G3J9_9DELT
+557_NapA,Desulfobulbus japonicus DSM 18378 | 1121403.AUCV01000003_gene1683
+558_NapA,Desulfobulbus propionicus | tr|A0A7U4DP04|A0A7U4DP04_DESPD
+559_NapA,Desulfobulbus sp. | tr|A0A3A6MVA9|A0A3A6MVA9_9DELT
+560_NapA,Desulfocapsa sulfexigens DSM 10523 | 1167006.UWK_02296
+561_NapA,Desulfocapsa sulfexigens DSM 10523 | 1167006.UWK_03288
+562_NapA,Desulfopila aestuarii | tr|A0A1M7YCY3|A0A1M7YCY3_9DELT
+563_NapA,Desulfurivibrio alkaliphilus AHT 2 | 589865.DaAHT2_1907
+564_NapA,Bilophila wadsworthia 3_1_6 | 563192.HMPREF0179_03039
+565_NapA,Desulfovibrio sp. | tr|A0A3D4GR36|A0A3D4GR36_9DELT
+566_NapA,Desulfovibrio sp. 3_1_syn3 | 457398.HMPREF0326_01706
+567_NapA,Desulfovibrio sp. A2 | tr|G2HAE3|G2HAE3_9DELT
+568_NapA,Pseudodesulfovibrio profundus | tr|A0A2C8F9U8|A0A2C8F9U8_9DELT
+569_NapA,Pseudodesulfovibrio sp. JC047 | tr|A0A6L9LTE6|A0A6L9LTE6_9DELT
+570_NapA,Desulfuromonas soudanensis | tr|A0A0M4D1W1|A0A0M4D1W1_9DELT
+571_NapA,Geobacteraceae | tr|A0A1G0LHV8|A0A1G0LHV8_9DELT
+572_NapA,Geoalkalibacter subterraneus | tr|A0A0B5FE51|A0A0B5FE51_9DELT
+573_NapA,Geobacter pickeringii | tr|A0A0B5B6W4|A0A0B5B6W4_9DELT
+574_NapA,Geobacter sp. FeAm09 | tr|A0A5C1M8V3|A0A5C1M8V3_9DELT
+575_NapA,Geobacter sp. M18 | 443143.GM18_0066
+576_NapA,Geobacter sp. SVR | tr|A0A6F9WS61|A0A6F9WS61_9DELT
+577_NapA,Geomonas silvestris | tr|A0A6V8MKM4|A0A6V8MKM4_9DELT
+578_NapA,Geothermobacter hydrogeniphilus | tr|A0A2K2HAK4|A0A2K2HAK4_9DELT
+579_NapA,Myxococcales (fruiting gliding bacteria) | tr|A0A356TK42|A0A356TK42_9DELT
+580_NapA,Myxococcales (fruiting gliding bacteria) | tr|A0A3A4JZW3|A0A3A4JZW3_9DELT
+581_NapA,Myxococcales (fruiting gliding bacteria) | tr|A0A7X7GQI3|A0A7X7GQI3_9DELT
+582_NapA,Myxococcales (fruiting gliding bacteria) | tr|A0A7Y5LNV3|A0A7Y5LNV3_9DELT
+583_NapA,Anaeromyxobacter dehalogenans 2CP-C | 290397.Adeh_0908
+584_NapA,Archangium violaceum | tr|A0A084SVE7|A0A084SVE7_9DELT
+585_NapA,Cystobacter fuscus DSM 2262 | 1242864.D187_005727
+586_NapA,Stigmatella aurantiaca DW4/3-1 | 378806.STAUR_4719
+587_NapA,Myxococcaceae | tr|A0A521TTW4|A0A521TTW4_9DELT
+588_NapA,Corallococcus coralloides DSM 2259 | 1144275.COCOR_03558
+589_NapA,Sorangium cellulosum So0157-2 | 1254432.SCE1572_21180
+590_NapA,Sorangium cellulosum So0157-2 | 1254432.SCE1572_23375
+591_NapA,Sorangium cellulosum So0157-2 | 1254432.SCE1572_51875
+592_NapA,Sorangium cellulosum So ce56 | 448385.sce4702
+593_NapA,Sorangium cellulosum So ce56 | 448385.sce8491
+594_NapA,Sorangium cellulosum So ce56 | 448385.sce9118
+595_NapA,Desulfomonile tiedjei DSM 6799 | 706587.Desti_4128
+596_NapA,Campylobacterales | tr|A0A7V4QBT9|A0A7V4QBT9_9PROT
+597_NapA,Campylobacterales | tr|A0A7Y8L9D0|A0A7Y8L9D0_9PROT
+598_NapA,Arcobacter sp. L | 944547.ABLL_1404
+599_NapA,Campylobacteraceae | tr|A0A1Y1R921|A0A1Y1R921_9PROT
+600_NapA,Campylobacteraceae | tr|A0A366MPX7|A0A366MPX7_9PROT
+601_NapA,Campylobacteraceae | tr|A0A366N1U4|A0A366N1U4_9PROT
+602_NapA,Aliarcobacter butzleri | tr|E6L1Y0|E6L1Y0_9PROT
+603_NapA,Arcobacter cibarius LMG 21996 | 1442598.JABW01000005_gene587
+604_NapA,Arcobacter cibarius LMG 21996 | 1442598.JABW01000014_gene2122
+605_NapA,Aliarcobacter vitoriensis | tr|A0A366MS78|A0A366MS78_9PROT
+606_NapA,[Arcobacter] porcinus | tr|A0A1C0AYY8|A0A1C0AYY8_9PROT
+607_NapA,Arcobacter anaerophilus | tr|A0A4Q0Y626|A0A4Q0Y626_9PROT
+608_NapA,Arcobacter aquimarinus | tr|A0A4Q0UTK6|A0A4Q0UTK6_9PROT
+609_NapA,Arcobacter defluvii | tr|A0A4Q0UQK0|A0A4Q0UQK0_9PROT
+610_NapA,Arcobacter nitrofigilis DSM 7299 | 572480.Arnit_0403
+611_NapA,Arcobacter nitrofigilis DSM 7299 | 572480.Arnit_0588
+612_NapA,Arcobacter nitrofigilis DSM 7299 | 572480.Arnit_0972
+613_NapA,Arcobacter sp. | tr|A0A2G2H8U7|A0A2G2H8U7_9PROT
+614_NapA,Arcobacter sp. FWKO B | tr|A0A7L8V4I5|A0A7L8V4I5_9PROT
+615_NapA,Campylobacter coli | tr|A0A5T1KEY4|A0A5T1KEY4_CAMCO
+616_NapA,Campylobacter concisus 13826 | 360104.CCC13826_0868
+617_NapA,Campylobacter corcagiensis | 1448857.JFAP01000001_gene1025
+618_NapA,Campylobacter corcagiensis | 1448857.JFAP01000001_gene968
+619_NapA,Campylobacter corcagiensis | 1448857.JFAP01000007_gene263
+620_NapA,Campylobacter fetus subsp. fetus 82-40 | 360106.CFF8240_1161
+621_NapA,Campylobacter fetus subsp. venerealis NCTC 10354 | 983328.AFGH01000034_gene890
+622_NapA,Campylobacter geochelonis | tr|A0A128EHN2|A0A128EHN2_9PROT
+623_NapA,Campylobacter gracilis RM3268 | 553220.CAMGR0001_0420
+624_NapA,Campylobacter gracilis RM3268 | 553220.CAMGR0001_2424
+625_NapA,Campylobacter hominis ATCC BAA-381 | 360107.CHAB381_1716
+626_NapA,Campylobacter lanienae | tr|A0A562Y6J0|A0A562Y6J0_9PROT
+627_NapA,Campylobacter lari RM2100 | 306263.Cla_1018
+628_NapA,Campylobacter mucosalis | tr|A0A6G5QGG4|A0A6G5QGG4_9PROT
+629_NapA,Campylobacter showae CSUNSWCD | 1244083.CSUNSWCD_418
+630_NapA,Campylobacter showae CSUNSWCD | 1244083.CSUNSWCD_953
+631_NapA,Campylobacter sp. MIT 97-5078 | 1548153.LR59_04135
+632_NapA,Campylobacter sputorum biovar sputorum | 32024.JMTI01000018_gene528
+633_NapA,Campylobacter sputorum biovar sputorum | 32024.JMTI01000035_gene879
+634_NapA,Campylobacter sputorum biovar sputorum | 32024.JMTI01000051_gene291
+635_NapA,Campylobacter ureolyticus | 827.JFJK01000001_gene755
+636_NapA,Candidatus Campylobacter infans | tr|A0A7H9CG75|A0A7H9CG75_9PROT
+637_NapA,Malaciobacter halophilus | tr|A0A8B3RDG1|A0A8B3RDG1_9PROT
+638_NapA,Sulfurospirillum barnesii SES-3 | 760154.Sulba_2216
+639_NapA,Sulfurospirillum deleyianum DSM 6946 | 525898.Sdel_0806
+640_NapA,Sulfurospirillum multivorans DSM 12446 | 1150621.SMUL_0934
+641_NapA,Sulfurospirillum multivorans DSM 12446 | 1150621.SMUL_3120
+642_NapA,Sulfurospirillum sp. MES | 1565314.OA34_07060
+643_NapA,Sulfurospirillum sp. SCADC | 1537915.JU57_04670
+644_NapA,Sulfurospirillum sp. UBA12182 | tr|A0A2D3VYW3|A0A2D3VYW3_9PROT
+645_NapA,Helicobacteraceae | tr|A0A1J5FIK9|A0A1J5FIK9_9HELI
+646_NapA,Helicobacter anseris | tr|A0A3D8J622|A0A3D8J622_9HELI
+647_NapA,Helicobacter canadensis MIT 98-5491 | 537970.HCAN_1096
+648_NapA,Helicobacter cetorum MIT 00-7128 | 182217.HCW_05885
+649_NapA,Helicobacter cinaedi CCUG 18818 = ATCC BAA-847 | 537971.HCCG_00966
+650_NapA,Helicobacter cinaedi CCUG 18818 = ATCC BAA-847 | 537971.HCCG_01596
+651_NapA,Helicobacter felis ATCC 49179 | 936155.HFELIS_03130
+652_NapA,Helicobacter mustelae 12198 | 679897.HMU11090
+653_NapA,Helicobacter pametensis ATCC 51478 | 1408442.JADE01000008_gene3
+654_NapA,Helicobacter pametensis ATCC 51478 | 1408442.JADE01000011_gene992
+655_NapA,Helicobacter sp. 11S02629-2 | tr|A0A268TKP6|A0A268TKP6_9HELI
+656_NapA,Helicobacter sp. 12S02232-10 | tr|A0A268TU18|A0A268TU18_9HELI
+657_NapA,Helicobacter sp. 12S02634-8 | tr|A0A268TN94|A0A268TN94_9HELI
+658_NapA,Helicobacter sp. 15-1451 | tr|A0A329ZWI9|A0A329ZWI9_9HELI
+659_NapA,Helicobacter sp. 16-1353 | tr|A0A329ZEK6|A0A329ZEK6_9HELI
+660_NapA,Helicobacter winghamensis ATCC BAA-430 | 556267.HWAG_01495
+661_NapA,Hydrogenimonas sp. | tr|A0A3G9HI41|A0A3G9HI41_9PROT
+662_NapA,Sulfurovum sp. | tr|A0A2G2MHP3|A0A2G2MHP3_9PROT
+663_NapA,Sulfurovum sp. | tr|A0A2G2N6D0|A0A2G2N6D0_9PROT
+664_NapA,Sulfurovum sp. | tr|A0A432T2W0|A0A432T2W0_9PROT
+665_NapA,Sulfurovum sp. | tr|A0A523Y7A4|A0A523Y7A4_9PROT
+666_NapA,Sulfurovum sp. AR | 1165841.SULAR_05223
+667_NapA,Sulfurovum sp. AR | 1165841.SULAR_09304
+668_NapA,Sulfurovum sp. AS07-7 | tr|A0A0C2VH22|A0A0C2VH22_9PROT
+669_NapA,Sulfurovum sp. FS06-10 | tr|A0A0C2V167|A0A0C2V167_9PROT
+670_NapA,Sulfurovum sp. NBC37-1 | 387093.SUN_0299
+671_NapA,Sulfurovum sp. UBA12169 | tr|A0A2D3WKS8|A0A2D3WKS8_9PROT
+672_NapA,Candidatus Sulfuricurvum sp. RIFRC-1 | 1249480.B649_06175
+673_NapA,Candidatus Sulfuricurvum sp. RIFRC-1 | 1249480.B649_07125
+674_NapA,Sulfuricurvum kujiense DSM 16994 | 709032.Sulku_0691
+675_NapA,Sulfuricurvum kujiense DSM 16994 | 709032.Sulku_1385
+676_NapA,Sulfurimonas autotrophica DSM 16294 | 563040.Saut_0734
+677_NapA,Sulfurimonas autotrophica DSM 16294 | 563040.Saut_1251
+678_NapA,Sulfurimonas denitrificans DSM 1251 | 326298.Suden_1514
+679_NapA,Sulfurimonas denitrificans | tr|Q30QE0|Q30QE0_SULDN
+680_NapA,Sulfurimonas gotlandica GD1 | 929558.SMGD1_0403
+681_NapA,Sulfurimonas gotlandica GD1 | 929558.SMGD1_0589
+682_NapA,Sulfurimonas hongkongensis | 1172190.M947_04925
+683_NapA,Sulfurimonas sediminis | tr|A0A7M1B1W5|A0A7M1B1W5_9PROT
+684_NapA,Sulfurimonas sp. | tr|A0A2G1Y0N8|A0A2G1Y0N8_9PROT
+685_NapA,Sulfurimonas sp. | tr|A0A2G2P8B6|A0A2G2P8B6_9PROT
+686_NapA,Lebetimonas sp. JS170 | 990073.ATHU01000001_gene504
+687_NapA,Lebetimonas sp. JS170 | 990073.ATHU01000001_gene538
+688_NapA,Nautilia profundicola AmH | 598659.NAMH_0556
+689_NapA,Nitratiruptor sp. SB155-2 | 387092.NIS_1808
+690_NapA,endosymbiont of Tevnia jerichonana (vent Tica) | 1049564.TevJSym_aa00490
+691_NapA,endosymbiont of Tevnia jerichonana (vent Tica) | 1049564.TevJSym_al00650
+692_NapA,Solemya velum gill symbiont | 2340.JV46_19610
+693_NapA,gamma proteobacterium HTCC5015 | 391615.ABSJ01000059_gene2151
+694_NapA,gamma proteobacterium HdN1 | 83406.HDN1F_25250
+695_NapA,Acidiferrobacteraceae | tr|A0A2D6CME3|A0A2D6CME3_9GAMM
+696_NapA,Aeromonadales | tr|A0A7V2S7G9|A0A7V2S7G9_9GAMM
+697_NapA,Aeromonas dhakensis | tr|K1JGU5|K1JGU5_9GAMM
+698_NapA,Aeromonas diversa CDC 2478-85 | 1268237.G114_18636
+699_NapA,Aeromonas enteropelogenes (Aeromonas trota) | tr|A0A175VK42|A0A175VK42_AEREN
+700_NapA,Aeromonas hydrophila YL17 | 1448139.AI20_11235
+701_NapA,Aeromonas hydrophila subsp. hydrophila ATCC 7966 | 380703.AHA_3414
+702_NapA,Aeromonas lacus | 558884.JRGM01000140_gene701
+703_NapA,Oceanimonas doudoroffii | tr|A0A233RHD8|A0A233RHD8_9GAMM
+704_NapA,Oceanimonas smirnovii ATCC BAA-899 | 1279015.KB908468_gene383
+705_NapA,Oceanimonas sp. GK1 | 511062.GU3_11060
+706_NapA,Tolumonas auensis DSM 9187 | 595494.Tola_1775
+707_NapA,Alteromonadales | tr|A0A418YG19|A0A418YG19_9GAMM
+708_NapA,Alteromonadaceae | tr|A0A2A5HL68|A0A2A5HL68_9ALTE
+709_NapA,Agarivorans sp. B2Z047 | tr|A0A7C9KFS4|A0A7C9KFS4_9ALTE
+710_NapA,Alginatibacterium sediminis | tr|A0A420EHJ2|A0A420EHJ2_9ALTE
+711_NapA,Aliagarivorans taiwanensis DSM 22990 | 1120970.AUBZ01000020_gene1390
+712_NapA,Aliagarivorans taiwanensis DSM 22990 | 1120970.AUBZ01000022_gene1276
+713_NapA,Aliiglaciecola lipolytica E3 | 1127673.GLIP_2402
+714_NapA,Alteromonas aestuariivivens | tr|A0A3D8M433|A0A3D8M433_9ALTE
+715_NapA,Alteromonas australica | 589873.EP13_03270
+716_NapA,Alteromonas mediterranea | 314275.MADE_1003705
+717_NapA,Alteromonas naphthalenivorans | 715451.ambt_15170
+718_NapA,Alteromonas sp. ALT199 | 1298865.H978DRAFT_2833
+719_NapA,Catenovulum agarivorans DS-2 | 1328313.DS2_02233
+720_NapA,Catenovulum agarivorans DS-2 | 1328313.DS2_02318
+721_NapA,Catenovulum maritimum | tr|A0A0J8GS51|A0A0J8GS51_9ALTE
+722_NapA,Gayadomonas joobiniege G7 | 1046714.AMRX01000006_gene3230
+723_NapA,Glaciecola sp. 4H-3-7+YE-5 | 983545.Glaag_1918
+724_NapA,Marinobacter algicola DG893 | 443152.MDG893_17362
+725_NapA,Marinobacter daepoensis DSM 16072 | 1122197.ATWI01000010_gene1076
+726_NapA,Marinobacter lipolyticus SM19 | 1318628.MARLIPOL_11346
+727_NapA,Marinobacter nanhaiticus D15-8W | 626887.J057_06781
+728_NapA,Marinobacter santoriniensis NKSG1 | 1288826.MSNKSG1_15731
+729_NapA,Marinobacter shengliensis | tr|A0A2T1KYN6|A0A2T1KYN6_9GAMM
+730_NapA,Marinobacter sp. ES-1 | 1396858.Q666_03555
+731_NapA,Marinobacter sp. HL-58 | 1479237.JMLY01000001_gene1579
+732_NapA,Marinobacter sp. HL-58 | 1479237.JMLY01000001_gene255
+733_NapA,Marinobacter sp. HL-58 | 1479237.JMLY01000001_gene681
+734_NapA,Paraglaciecola psychrophila 170 | 1129794.C427_2631
+735_NapA,Colwellia piezophila ATCC BAA-637 | 1265503.KB905168_gene1379
+736_NapA,Colwellia psychrerythraea | 28229.ND2E_0526
+737_NapA,Colwellia sp. Bg11-12 | tr|A0A7W2MHH2|A0A7W2MHH2_9GAMM
+738_NapA,Colwellia sp. Bg11-28 | tr|A0A2N1HNV2|A0A2N1HNV2_9GAMM
+739_NapA,Litorilituus sediminis | tr|A0A4P6P642|A0A4P6P642_9GAMM
+740_NapA,Thalassomonas sp. M1454 | tr|A0A553FBF3|A0A553FBF3_9GAMM
+741_NapA,Thalassotalea agarivorans (Thalassomonas agarivorans) | tr|A0A1H9ZCD9|A0A1H9ZCD9_THASX
+742_NapA,Thalassotalea mangrovi | tr|A0A4U1B9G5|A0A4U1B9G5_9GAMM
+743_NapA,Thalassotalea sp. HSM 43 | tr|A0A4P7JJ05|A0A4P7JJ05_9GAMM
+744_NapA,Thalassotalea sp. ND16A | 1535422.ND16A_0370
+745_NapA,Ferrimonas balearica DSM 9799 | 550540.Fbal_3625
+746_NapA,Ferrimonas balearica DSM 9799 | 550540.Fbal_3632
+747_NapA,Ferrimonas futtsuensis DSM 18154 | 1121878.AUGL01000002_gene2137
+748_NapA,Ferrimonas futtsuensis DSM 18154 | 1121878.AUGL01000008_gene1372
+749_NapA,Ferrimonas lipolytica | tr|A0A6H1UCA8|A0A6H1UCA8_9GAMM
+750_NapA,Ferrimonas lipolytica | tr|A0A6H1UEG0|A0A6H1UEG0_9GAMM
+751_NapA,Ferrimonas marina | tr|A0A1M5NMJ6|A0A1M5NMJ6_9GAMM
+752_NapA,Ferrimonas sp. IMCC35002 | tr|A0A4U1BJK5|A0A4U1BJK5_9GAMM
+753_NapA,Moritella dasanensis ArB 0140 | 1201293.AKXQ01000006_gene283
+754_NapA,Moritella yayanosii | tr|A0A330LLB7|A0A330LLB7_9GAMM
+755_NapA,Pseudoalteromonas atlantica T6c | 342610.Patl_2236
+756_NapA,Pseudoalteromonas atlantica T6c | 342610.Patl_2844
+757_NapA,Pseudoalteromonas denitrificans | tr|A0A1I1E2A8|A0A1I1E2A8_9GAMM
+758_NapA,Pseudoalteromonas haloplanktis ATCC 14393 | 1117315.AHCA01000002_gene3285
+759_NapA,Pseudoalteromonas sp. Bsw20308 | 283699.D172_0103
+760_NapA,Pseudoalteromonas sp. NBT06-2 | tr|A0A269PL07|A0A269PL07_9GAMM
+761_NapA,Corallincola holothuriorum | tr|A0A368NN01|A0A368NN01_9GAMM
+762_NapA,Psychromonas ingrahamii 37 | 357804.Ping_1026
+763_NapA,Psychromonas ingrahamii 37 | 357804.Ping_2174
+764_NapA,Psychromonas ossibalaenae ATCC BAA-1528 | 1278307.KB906967_gene2418
+765_NapA,Psychromonas sp. CNPT3 | 314282.PCNPT3_06490
+766_NapA,Parashewanella spongiae | tr|A0A3A6U4W2|A0A3A6U4W2_9GAMM
+767_NapA,Shewanella amazonensis SB2B | 326297.Sama_1622
+768_NapA,Shewanella denitrificans OS217 | 318161.Sden_1497
+769_NapA,Shewanella denitrificans OS217 | 318161.Sden_3718
+770_NapA,Shewanella frigidimarina NCIMB 400 | 318167.Sfri_0553
+771_NapA,Shewanella frigidimarina NCIMB 400 | 318167.Sfri_1505
+772_NapA,Shewanella mangrovi | 1515746.HR45_10475
+773_NapA,Shewanella marina JCM 15074 | 1236542.BALM01000002_gene924
+774_NapA,Shewanella piezotolerans WP3 | 225849.swp_2922
+775_NapA,Shewanella sp. 10N.286.48.B5 | tr|A0A2N7DK74|A0A2N7DK74_9GAMM
+776_NapA,Shewanella sp. ECSMB14101 | 1565129.JSFF01000004_gene3110
+777_NapA,Shewanella sp. ECSMB14101 | 1565129.JSFF01000031_gene2981
+778_NapA,Shewanella sp. OPT22 | tr|A0A4Q5MBZ9|A0A4Q5MBZ9_9GAMM
+779_NapA,Shewanella sp. XMDDZSB0408 | tr|A0A6L5NTL2|A0A6L5NTL2_9GAMM
+780_NapA,Shewanella violacea DSS12 | 637905.SVI_2424
+781_NapA,Shewanella waksmanii ATCC BAA-643 | 1336233.JAEH01000046_gene3772
+782_NapA,Shewanella woodyi ATCC 51908 | 392500.Swoo_1860
+783_NapA,Cellvibrionaceae | tr|A0A2E2XH67|A0A2E2XH67_9GAMM
+784_NapA,Cellvibrio sp. BR | 1134474.O59_002812
+785_NapA,Cellvibrio sp. BR | 1134474.O59_003356
+786_NapA,Exilibacterium tricleocarpae | tr|A0A545TAL1|A0A545TAL1_9GAMM
+787_NapA,Gilvimarinus chinensis DSM 19667 | 1121921.KB898710_gene619
+788_NapA,Marinimicrobium agarilyticum DSM 16975 | 1122194.AUHU01000003_gene2130
+789_NapA,Marinimicrobium agarilyticum DSM 16975 | 1122194.AUHU01000009_gene3216
+790_NapA,Marinimicrobium koreense | tr|A0A3N1NPJ7|A0A3N1NPJ7_9GAMM
+791_NapA,Saccharophagus degradans 2-40 | 203122.Sde_0084
+792_NapA,Saccharophagus degradans 2-40 | 203122.Sde_0764
+793_NapA,Simiduia agarivorans SA1 = DSM 21679 | 1117647.M5M_05635
+794_NapA,Simiduia agarivorans SA1 = DSM 21679 | 1117647.M5M_06275
+795_NapA,Teredinibacter turnerae T7902 | 1056820.KB900700_gene1093
+796_NapA,marine gamma proteobacterium HTCC2148 | 247634.GPB2148_3000
+797_NapA,marine gamma proteobacterium HTCC2148 | 247634.GPB2148_3017
+798_NapA,marine gamma proteobacterium HTCC2148 | 247634.GPB2148_969
+799_NapA,Parahaliea aestuarii | tr|A0A5C9A325|A0A5C9A325_9GAMM
+800_NapA,Microbulbifer agarilyticus S89 | 1042377.AFPJ01000022_gene1300
+801_NapA,Microbulbifer sp. SH-1 | tr|A0A6G8DF49|A0A6G8DF49_9GAMM
+802_NapA,Microbulbifer variabilis ATCC 700307 | 1279017.AQYJ01000028_gene2537
+803_NapA,gamma proteobacterium HTCC2207 | 314287.GB2207_09081
+804_NapA,Porticoccus hydrocarbonoclasticus MCTG13d | 1415778.JQMM01000001_gene1638
+805_NapA,gamma proteobacterium BDW918 | 1168065.DOK_15159
+806_NapA,marine gamma proteobacterium HTCC2143 | 247633.GP2143_09952
+807_NapA,Sinobacterium caligoides | tr|A0A3N2DP21|A0A3N2DP21_9GAMM
+808_NapA,Spongiibacter tropicus DSM 19543 | 1123279.ATUS01000005_gene3120
+809_NapA,Chromatiales | tr|A0A2D6IUQ9|A0A2D6IUQ9_9GAMM
+810_NapA,Chromatiaceae | tr|A0A6I7PZ45|A0A6I7PZ45_9GAMM
+811_NapA,Chromatiaceae | tr|A0A800CBL1|A0A800CBL1_9GAMM
+812_NapA,Candidatus Tenderia electrophaga | tr|A0A832N2S5|A0A832N2S5_9GAMM
+813_NapA,Marichromatium purpuratum 984 | 765910.MARPU_14500
+814_NapA,Thiocapsa marina 5811 | 768671.ThimaDRAFT_4410
+815_NapA,Thiocapsa marina 5811 | 768671.ThimaDRAFT_4419
+816_NapA,Thiocystis violascens DSM 198 | 765911.Thivi_4245
+817_NapA,Thioflavicoccus mobilis 8321 | 765912.Thimo_2260
+818_NapA,Thiorhodovibrio sp. 970 | 631362.Thi970DRAFT_03665
+819_NapA,Alkalilimnicola ehrlichii MLHE-1 | 187272.Mlg_1702
+820_NapA,Inmirania thermothiophila | tr|A0A3N1Y0J4|A0A3N1Y0J4_9GAMM
+821_NapA,Thioalbus denitrificans | tr|A0A369CG66|A0A369CG66_9GAMM
+822_NapA,Thioalkalivibrio nitratireducens DSM 14787 | 1255043.TVNIR_2418
+823_NapA,Thioalkalivibrio sp. ALD1 | 1158150.KB906245_gene2122
+824_NapA,Thioalkalivibrio thiocyanoxidans ARh 4 | 713587.THITH_07515
+825_NapA,Thiohalomonas denitrificans | tr|A0A1G5PT58|A0A1G5PT58_9GAMM
+826_NapA,Halothiobacillus neapolitanus c2 | 555778.Hneap_1112
+827_NapA,Wenzhouxiangella sp. W260 | tr|A0A5N0TAA4|A0A5N0TAA4_9GAMM
+828_NapA,Pragia fontium | tr|A0A0G3CSH9|A0A0G3CSH9_9GAMM
+829_NapA,Enterobacteriaceae bacterium LSJC7 | 1224136.AMFN01000002_gene756
+830_NapA,Enterobacteriaceae bacterium strain FGI 57 | 693444.D782_1901
+831_NapA,Atlantibacter hermannii NBRC 105704 | 1115512.EH105704_11_00610
+832_NapA,Buttiauxella agrestis ATCC 33320 | 1006004.GBAG_1675
+833_NapA,Buttiauxella izardii | tr|A0A3A5JU86|A0A3A5JU86_9ENTR
+834_NapA,Cedecea lapagei | tr|A0A447UZF2|A0A447UZF2_9ENTR
+835_NapA,Cedecea neteri | tr|A0A291DVB2|A0A291DVB2_9ENTR
+836_NapA,Cedecea sp. NFIX57 | tr|A0A1X7M1C1|A0A1X7M1C1_9ENTR
+837_NapA,Citrobacter sedlakii NBRC 105722 | 1218086.BBNB01000001_gene3658
+838_NapA,Citrobacter sp. CRE-46 | tr|A0A2Z3X469|A0A2Z3X469_9ENTR
+839_NapA,Cronobacter condimenti 1330 | 1073999.BN137_3624
+840_NapA,Enterobacter cloacae EcWSU1 | 1045856.EcWSU1_02618
+841_NapA,Enterobacter sp. 638 | 399742.Ent638_2321
+842_NapA,Enterobacter sp. R4-368 | 1166130.H650_09945
+843_NapA,Escherichia coli | tr|A0A376HZQ1|A0A376HZQ1_ECOLX
+844_NapA,Escherichia coli | tr|A0A376SHW7|A0A376SHW7_ECOLX
+845_NapA,Klebsiella aerogenes KCTC 2190 | 1028307.EAE_16805
+846_NapA,Klebsiella michiganensis | tr|A0A0D5WWN9|A0A0D5WWN9_9ENTR
+847_NapA,Klebsiella oxytoca | 571.MC52_25290
+848_NapA,Kluyvera ascorbata ATCC 33433 | 1006000.GKAS_03198
+849_NapA,Leclercia adecarboxylata ATCC 23216 = NBRC 102595 | 911008.GLAD_00327
+850_NapA,Mangrovibacter sp. MFB070 | 1224318.DT73_19865
+851_NapA,Pluralibacter gergoviae | 61647.LG71_20435
+852_NapA,Trabulsiella guamensis | tr|A0A085A9I1|A0A085A9I1_9ENTR
+853_NapA,Erwinia tasmaniensis Et1/99 | 465817.ETA_17180
+854_NapA,Pantoea ananatis LMG 20103 | 706191.PANA_1663
+855_NapA,Pantoea rwandensis | 1076550.LH22_08210
+856_NapA,Pantoea rwandensis | 1076550.LH22_11080
+857_NapA,Pantoea sp. A4 | 1225184.ALXE01000016_gene3634
+858_NapA,Pantoea sp. At-9b | 592316.Pat9b_2863
+859_NapA,Pantoea sp. IMH | 1267600.JFGT01000006_gene1324
+860_NapA,Pantoea sp. PSNIH2 | 1484157.PSNIH2_09075
+861_NapA,Pantoea sp. Sc1 | 593105.S7A_11005
+862_NapA,Tatumella morbirosei | 642227.HA49_02075
+863_NapA,Tatumella ptyseos ATCC 33301 | 1005995.GTPT_0545
+864_NapA,Edwardsiella tarda ATCC 15947 = NBRC 105688 | 667121.ET1_19_00290
+865_NapA,Enterobacillus tribolii | tr|A0A370QRU3|A0A370QRU3_9GAMM
+866_NapA,Hafnia paralvei | tr|A0A4Q9EKI9|A0A4Q9EKI9_9GAMM
+867_NapA,Dickeya chrysanthemi Ech1591 | 561229.Dd1591_1442
+868_NapA,Dickeya paradisiaca Ech703 | 579405.Dd703_2493
+869_NapA,Dickeya zeae Ech586 | 590409.Dd586_0250
+870_NapA,Pectobacterium atrosepticum SCRI1043 | 218491.ECA2990
+871_NapA,Pectobacterium carotovorum subsp. carotovorum PC1 | 561230.PC1_0546
+872_NapA,Pectobacterium versatile | tr|A0A855MJY2|A0A855MJY2_9GAMM
+873_NapA,Rahnella aquatilis CIP 78.65 = ATCC 33071 | 745277.GRAQ_01271
+874_NapA,Serratia marcescens FGI94 | 1249634.D781_2691
+875_NapA,Serratia plymuthica | 82996.sch_15630
+876_NapA,Serratia rhizosphaerae | tr|A0A857EGU9|A0A857EGU9_9GAMM
+877_NapA,Serratia sp. ATCC 39006 | 104623.Ser39006_01635
+878_NapA,Yersinia kristensenii | 28152.DJ57_2170
+879_NapA,Yersinia kristensenii | tr|A0A0T9LGR7|A0A0T9LGR7_YERKR
+880_NapA,Yersinia massiliensis CCUG 53443 | 1205683.CAKR01000027_gene4316
+881_NapA,Methylobacter tundripaludum SV96 | 697282.Mettu_1179
+882_NapA,Methylococcus capsulatus str. Bath | 243233.MCA0590
+883_NapA,Methyloglobulus morosus KoM1 | 1116472.MGMO_128c00120
+884_NapA,Methylomonas denitrificans | tr|A0A126T1W4|A0A126T1W4_9GAMM
+885_NapA,Methylomonas methanica MC09 | 857087.Metme_3417
+886_NapA,Methylohalobius crimeensis 10Ki | 1283300.ATXB01000002_gene2677
+887_NapA,Algiphilus aromaticivorans DG1253 | 1415780.JPOG01000001_gene921
+888_NapA,Nevskia ramosa DSM 11499 | 1122603.ATVI01000008_gene2422
+889_NapA,Nevskia soli DSM 19509 | 1122604.JONR01000005_gene947
+890_NapA,Polycyclovorans algicola TG408 | 1415779.JOMH01000001_gene3038
+891_NapA,Solimonas soli DSM 21787 | 1123261.AXDW01000001_gene1276
+892_NapA,Steroidobacter agaridevorans | tr|A0A829YPB8|A0A829YPB8_9GAMM
+893_NapA,Oceanospirillales | tr|A0A2V1GZZ2|A0A2V1GZZ2_9GAMM
+894_NapA,Alcanivorax borkumensis SK2 | 393595.ABO_1089
+895_NapA,Alcanivorax hongdengensis A-11-3 | 1177179.A11A3_04370
+896_NapA,Alcanivorax sp. 43B_GOM-46m | 1380387.JADM01000002_gene2199
+897_NapA,Endozoicomonadaceae | tr|A0A444H2C4|A0A444H2C4_9GAMM
+898_NapA,Endozoicomonas elysicola | 305900.GV64_17665
+899_NapA,Endozoicomonas elysicola | tr|A0A081KBE4|A0A081KBE4_9GAMM
+900_NapA,Endozoicomonas montiporae | 1027273.GZ77_05775
+901_NapA,Endozoicomonas montiporae | 1027273.GZ77_08250
+902_NapA,Endozoicomonas numazuensis | 1137799.GZ78_15215
+903_NapA,Endozoicomonas numazuensis | 1137799.GZ78_23440
+904_NapA,Endozoicomonas numazuensis | tr|A0A081NFX4|A0A081NFX4_9GAMM
+905_NapA,Endozoicomonas sp. (ex Bugula neritina AB1) | tr|A0A1D2XD68|A0A1D2XD68_9GAMM
+906_NapA,Parendozoicomonas haliclonae | tr|A0A1X7AFH4|A0A1X7AFH4_9GAMM
+907_NapA,Hahella chejuensis KCTC 2396 | 349521.HCH_03364
+908_NapA,Hahella chejuensis KCTC 2396 | 349521.HCH_05823
+909_NapA,Hahella ganghwensis DSM 17046 | 1121935.AQXX01000133_gene3532
+910_NapA,Chromohalobacter salexigens DSM 3043 | 290398.Csal_1119
+911_NapA,Cobetia crustatorum | 553385.JEMF01000020_gene3008
+912_NapA,Halomonas alkaliantarctica | 232346.JHQL01000001_gene2552
+913_NapA,Halomonas anticariensis FP35 = DSM 16096 | 1121939.L861_14980
+914_NapA,Halomonas elongata DSM 2581 | 768066.HELO_3231
+915_NapA,Halomonas gudaonensis | tr|A0A1G8Q7T2|A0A1G8Q7T2_9GAMM
+916_NapA,Halomonas huangheensis | 1178482.BJB45_13100
+917_NapA,Halomonas lutea DSM 23508 | 1121943.KB899990_gene3874
+918_NapA,Halomonas lutea DSM 23508 | 1121943.KB900022_gene3981
+919_NapA,Halomonas sp. 22501_18_FS | tr|A0A7X4GCA0|A0A7X4GCA0_9GAMM
+920_NapA,Halomonas sp. 23_GOM-1509m | 1380358.JADJ01000003_gene4688
+921_NapA,Halomonas sp. 54_146 | tr|A0A117KIS3|A0A117KIS3_9GAMM
+922_NapA,Halomonas sp. BC-M4-5 | tr|A0A6I6SLN2|A0A6I6SLN2_9GAMM
+923_NapA,Halomonas sp. DQ26W | tr|A0A369KSJ5|A0A369KSJ5_9GAMM
+924_NapA,Halomonas sp. GFAJ-1 | 1118153.MOY_07407
+925_NapA,Halomonas sp. KO116 | 1504981.KO116_1617
+926_NapA,Halomonas sp. PBN3 | 1397528.Q671_06275
+927_NapA,Halomonas sp. TG39a | 1415755.JQLV01000001_gene1421
+928_NapA,Halomonas xinjiangensis | 1166948.JPZL01000003_gene779
+929_NapA,Halomonas zhanjiangensis DSM 21076 | 574966.KB898651_gene1913
+930_NapA,Kushneria aurantia DSM 21353 | 1122139.KB907866_gene1574
+931_NapA,Oceanospirillaceae | tr|S6GH86|S6GH86_9GAMM
+932_NapA,Amphritea japonica ATCC BAA-1530 | 1278309.KB907099_gene2851
+933_NapA,Marinobacterium litorale DSM 23545 | 1122201.AUAZ01000039_gene3279
+934_NapA,Marinobacterium sp. AK27 | 1232683.ADIMK_0987
+935_NapA,Marinobacterium stanieri S30 | 1042375.AFPL01000038_gene1537
+936_NapA,Marinomonas mediterranea MMB-1 | 717774.Marme_3861
+937_NapA,Marinomonas posidonica IVIA-Po-181 | 491952.Mar181_1255
+938_NapA,Marinomonas sp. MWYL1 | 400668.Mmwyl1_2813
+939_NapA,Marinomonas sp. S3726 | tr|A0A0F4QT55|A0A0F4QT55_9GAMM
+940_NapA,Motiliproteus coralliicola | tr|A0A369WSB8|A0A369WSB8_9GAMM
+941_NapA,Motiliproteus sp. MSK22-1 | tr|A0A1R1LGD1|A0A1R1LGD1_9GAMM
+942_NapA,Neptuniibacter caesariensis | 207954.MED92_02938
+943_NapA,Neptunomonas japonica DSM 18939 | 1122599.AUGR01000030_gene476
+944_NapA,Oleispira antarctica | tr|R4YLB2|R4YLB2_OLEAN
+945_NapA,Thalassolituus oleivorans MIL-1 | 1298593.TOL_1446
+946_NapA,Oleiphilus messinensis | tr|A0A1Y0I331|A0A1Y0I331_9GAMM
+947_NapA,Oleiphilus sp. HI0079 | tr|A0A657B9L9|A0A657B9L9_9GAMM
+948_NapA,Aliikangiella coralliicola | tr|A0A545U911|A0A545U911_9GAMM
+949_NapA,Gynuella sunshinyii | tr|A0A0C5VH67|A0A0C5VH67_9GAMM
+950_NapA,Reinekea blandensis | tr|A4BGQ9|A4BGQ9_9GAMM
+951_NapA,Saccharospirillum impatiens DSM 12546 | 1123228.AUIH01000029_gene3367
+952_NapA,Pasteurellaceae | tr|A0A1T0B003|A0A1T0B003_9PAST
+953_NapA,Actinobacillus suis H91-0380 | 696748.ASU2_10280
+954_NapA,Aggregatibacter actinomycetemcomitans (Actinobacillus actinomycetemcomitans) (Haemophilus actinomycetemcomitans) | tr|A0A806G5W9|A0A806G5W9_AGGAC
+955_NapA,Avibacterium paragallinarum (Haemophilus gallinarum) | tr|A0A3G8WAI9|A0A3G8WAI9_AVIPA
+956_NapA,Cricetibacter osteomyelitidis | tr|A0A4R2SWK7|A0A4R2SWK7_9PAST
+957_NapA,Gallibacterium anatis UMN179 | 1005058.UMN179_01245
+958_NapA,Haemophilus haemolyticus M21621 | 1028805.GGC_0254
+959_NapA,Haemophilus haemolyticus | tr|A0A502JK43|A0A502JK43_HAEHA
+960_NapA,Haemophilus massiliensis | 1461579.CCNK01000020_gene506
+961_NapA,Haemophilus parahaemolyticus | tr|I3DA89|I3DA89_HAEPH
+962_NapA,Histophilus somni 129PT | 205914.HS_1508
+963_NapA,Mannheimia varigena | tr|W0Q8A8|W0Q8A8_9PAST
+964_NapA,Pasteurella bettyae CCUG 2042 | 1095749.HMPREF1052_0415
+965_NapA,Pasteurella multocida | 747.DR93_443
+966_NapA,Phocoenobacter uteri | tr|A0A379CAX6|A0A379CAX6_9PAST
+967_NapA,Rodentibacter heylii | tr|A0A1V3K9I3|A0A1V3K9I3_9PAST
+968_NapA,Pseudomonadales | tr|A0A2D9TY90|A0A2D9TY90_9GAMM
+969_NapA,Pseudomonadales | tr|A0A2E3CVU6|A0A2E3CVU6_9GAMM
+970_NapA,Acinetobacter baylyi ADP1 | 62977.ACIAD1908
+971_NapA,Acinetobacter bereziniae | 106648.BBLJ01000001_gene2144
+972_NapA,Acinetobacter bouvetii DSM 14964 = CIP 107468 | 1120925.F941_01606
+973_NapA,Acinetobacter brisouii ANC 4119 | 1217652.F954_00264
+974_NapA,Acinetobacter guillouiae NIPH 991 | 1217656.F964_02127
+975_NapA,Acinetobacter indicus CIP 110367 | 1341679.P253_00862
+976_NapA,Acinetobacter johnsonii SH046 | 575586.HMPREF0016_01500
+977_NapA,Acinetobacter lwoffii SH145 | 575588.ACPN01000088_gene939
+978_NapA,Acinetobacter nectaris CIP 110549 | 1392540.P256_00268
+979_NapA,Acinetobacter pittii PHEA-2 | 871585.BDGL_001491
+980_NapA,Acinetobacter radioresistens SH164 | 575589.HMPREF0018_00044
+981_NapA,Acinetobacter soli | 487316.BBNM01000004_gene482
+982_NapA,Acinetobacter sp. CIP 56.2 | 1144672.F966_03513
+983_NapA,Acinetobacter sp. HR7 | 1509403.GW12_19700
+984_NapA,Acinetobacter sp. P8-3-8 | 1029823.AFIE01000005_gene1251
+985_NapA,Acinetobacter tandoii | 202954.BBNK01000005_gene1770
+986_NapA,Alkanindiges illinoisensis DSM 15370 | 1120977.JHUX01000003_gene1518
+987_NapA,Perlucidibaca piscinae DSM 21586 | 1122951.ATUE01000005_gene1574
+988_NapA,Psychrobacter aquaticus CMS 56 | 1354303.M917_1880
+989_NapA,Psychrobacter cryohalolentis K5 | 335284.Pcryo_1323
+990_NapA,Psychrobacter lutiphocae DSM 21542 | 1123033.ARNF01000061_gene308
+991_NapA,Psychrobacter sp. 1501(2011) | 1002339.HMPREF9373_1799
+992_NapA,Psychrobacter sp. PAMC 21119 | 1112209.AHVZ01000031_gene1872
+993_NapA,Psychrobacter sp. PRwf-1 | 349106.PsycPRwf_1548
+994_NapA,Psychrobacter sp. TB67 | 1055815.AYYA01000064_gene493
+995_NapA,Pseudomonadaceae | tr|A0A6I7NCZ5|A0A6I7NCZ5_9GAMM
+996_NapA,Azotobacter vinelandii DJ | 322710.Avin_23350
+997_NapA,Permianibacter aggregans | tr|A0A4R6UEK8|A0A4R6UEK8_9GAMM
+998_NapA,Pseudomonas aeruginosa | 287.DR97_107
+999_NapA,Pseudomonas chlororaphis | 587753.EY04_09005
+1000_NapA,Pseudomonas donghuensis | 1163398.AJJP01000124_gene4705
+1001_NapA,Pseudomonas entomophila L48 | 384676.PSEEN1417
+1002_NapA,Pseudomonas fluorescens HK44 | 1042209.HK44_022735
+1003_NapA,Pseudomonas fluorescens SBW25 | 216595.PFLU_3426
+1004_NapA,Pseudomonas fulva 12-X | 743720.Psefu_3354
+1005_NapA,Pseudomonas furukawaii | 1149133.ppKF707_3159
+1006_NapA,Pseudomonas hussainii | tr|A0A1H7MDN3|A0A1H7MDN3_9PSED
+1007_NapA,Pseudomonas knackmussii B13 | 1301098.PKB_1961
+1008_NapA,Pseudomonas lutea | 243924.LT42_14265
+1009_NapA,Pseudomonas mendocina ymp | 399739.Pmen_2094
+1010_NapA,Pseudomonas mosselii SJ10 | 1388763.O165_000570
+1011_NapA,Pseudomonas nitroreducens TX1 | 1226994.AMZB01000072_gene2314
+1012_NapA,Pseudomonas oleovorans | 301.JNHE01000002_gene2149
+1013_NapA,Pseudomonas pelagia CL-AP6 | 1323663.AROI01000014_gene155
+1014_NapA,Pseudomonas psychrotolerans L19 | 1112217.PPL19_05930
+1015_NapA,Pseudomonas putida CSV86 | 1005395.CSV86_27429
+1016_NapA,Pseudomonas putida KT2440 | 160488.PP_1703
+1017_NapA,Pseudomonas resinovorans NBRC 106553 | 1245471.PCA10_40900
+1018_NapA,Pseudomonas rhizosphaerae | 216142.LT40_05730
+1019_NapA,Pseudomonas sp. ML96 | 1523503.JPMY01000016_gene785
+1020_NapA,Pseudomonas sp. RL | 1452718.JBOY01000003_gene1430
+1021_NapA,Pseudomonas sp. RL | 1452718.JBOY01000028_gene188
+1022_NapA,Pseudomonas sp. S9 | 686578.AFFX01000001_gene1554
+1023_NapA,Pseudomonas stutzeri SDM-LAC | 1109445.AGSX01000195_gene513
+1024_NapA,Pseudomonas stutzeri NF13 | 1212548.B381_16138
+1025_NapA,Pseudomonas stutzeri KOS6 | 1218352.B597_015560
+1026_NapA,Pseudomonas stutzeri MF28 | 1333856.L686_12700
+1027_NapA,Pseudomonas stutzeri TS44 | 477228.YO5_14640
+1028_NapA,Pseudomonas syringae pv. tomato str. DC3000 | 223283.PSPTO_2301
+1029_NapA,Pseudomonas taeanensis MS-3 | 1395571.TMS3_0113500
+1030_NapA,Salinisphaera hydrothermalis C41B8 | 1304275.C41B8_04241
+1031_NapA,Salinisphaera shabanensis E1L3A | 1033802.SSPSH_000230
+1032_NapA,Thiotrichales | tr|A0A7C5GLW5|A0A7C5GLW5_9GAMM
+1033_NapA,Thiotrichales | tr|A0A836W962|A0A836W962_9GAMM
+1034_NapA,Cycloclasticus zancles 78-ME | 1198232.CYCME_1769
+1035_NapA,Hydrogenovibrio crunogenus XCL-2 | 317025.Tcr_1159
+1036_NapA,Hydrogenovibrio kuenenii DSM 12350 | 1168067.JAGP01000001_gene1365
+1037_NapA,Methylophaga aminisulfidivorans MP | 1026882.MAMP_00158
+1038_NapA,Methylophaga frappieri | 754477.Q7C_1065
+1039_NapA,Methylophaga lonarensis MPL | 1286106.MPL1_10507
+1040_NapA,Methylophaga nitratireducenticrescens | 754476.Q7A_2619
+1041_NapA,Thiomicrorhabdus arctica DSM 13458 | 1123514.KB905900_gene2130
+1042_NapA,Thiomicrorhabdus sp. Kp2 | 1123518.ARWI01000001_gene2331
+1043_NapA,Thiomicrospira aerophila AL3 | 717772.THIAE_05055
+1044_NapA,Thiomicrospira cyclica ALM1 | 717773.Thicy_0784
+1045_NapA,Thiofilum flexile DSM 14609 | 1123400.KB904769_gene2749
+1046_NapA,Thiotrichaceae | tr|A0A836WII4|A0A836WII4_9GAMM
+1047_NapA,Beggiatoa alba B18LD | 395493.BegalDRAFT_1381
+1048_NapA,Beggiatoa alba B18LD | 395493.BegalDRAFT_2365
+1049_NapA,Beggiatoa sp. PS | tr|A7BUA3|A7BUA3_9GAMM
+1050_NapA,Leucothrix mucor DSM 2157 | 998674.ATTE01000001_gene3728
+1051_NapA,Candidatus Thiomargarita nelsonii | tr|A0A0A6NZT6|A0A0A6NZT6_9GAMM
+1052_NapA,Thiothrix lacustris DSM 21227 | 1123401.JHYQ01000035_gene3489
+1053_NapA,Thiothrix nivea DSM 5205 | 870187.Thini_1248
+1054_NapA,Thiothrix nivea DSM 5205 | 870187.Thini_2589
+1055_NapA,Enterovibrio calviensis 1F-211 | 1190606.AJYG01000077_gene4129
+1056_NapA,Enterovibrio norvegicus FF-33 | 1190603.AJYD01000037_gene1383
+1057_NapA,Grimontia hollisae CIP 101886 | 675812.VHA_002884
+1058_NapA,Grimontia indica | 1056512.D515_02643
+1059_NapA,Photobacterium angustum S14 | 314292.VAS14_10319
+1060_NapA,Photobacterium aphoticum | 754436.JCM19237_6666
+1061_NapA,Photobacterium aquae | tr|A0A0J1H639|A0A0J1H639_9GAMM
+1062_NapA,Photobacterium gaetbulicola | tr|A0A0C5W4T1|A0A0C5W4T1_9GAMM
+1063_NapA,Photobacterium leiognathi subsp. mandapamensis svers.1.1. | 1001530.BACE01000027_gene599
+1064_NapA,Photobacterium phosphoreum ANT-2200 | 1454202.PPBDW_131106___1
+1065_NapA,Photobacterium profundum SS9 | 298386.PBPRA2030
+1066_NapA,Photobacterium profundum SS9 | 298386.PBPRA2525
+1067_NapA,Photobacterium profundum SS9 | 298386.PBPRB0650
+1068_NapA,Vibrio atlanticus LGP32 | 575788.VS_II1026
+1069_NapA,Vibrio brasiliensis LMG 20546 | 945543.VIBR0546_13605
+1070_NapA,Vibrio breoganii 1C10 | 1205908.AKXW01000121_gene231
+1071_NapA,Vibrio coralliilyticus ATCC BAA-450 | 675814.VIC_002900
+1072_NapA,Vibrio cyclitrophicus FF75 | 1136163.M565_ctg5P0407
+1073_NapA,Vibrio diazotrophicus NBRC 103148 | 1348635.BBJY01000004_gene2970
+1074_NapA,Vibrio ezurae NBRC 102218 | 1219080.VEZ01S_26_00210
+1075_NapA,Vibrio halioticoli NBRC 102217 | 1219072.VHA01S_037_00170
+1076_NapA,Vibrio navarrensis | 29495.EA26_07430
+1077_NapA,Vibrio nigripulchritudo SOn1 | 1238450.VIBNISOn1_1340004
+1078_NapA,Vibrio orientalis CIP 102891 = ATCC 33934 | 675816.VIA_000987
+1079_NapA,Vibrio parahaemolyticus RIMD 2210633 | 223926.28809366
+1080_NapA,Vibrio proteolyticus NBRC 13287 | 1219065.VPR01S_07_00290
+1081_NapA,Vibrio rumoiensis 1S-45 | 1188252.AJYK01000106_gene2053
+1082_NapA,Vibrio scophthalmi LMG 19158 | 870967.VIS19158_10754
+1083_NapA,Vibrio sinaloensis DSM 21326 | 945550.VISI1226_01220
+1084_NapA,Vibrio sp. E4404 | tr|A0A2U3B8Z2|A0A2U3B8Z2_9VIBR
+1085_NapA,Vibrio sp. EJY3 | 1116375.VEJY3_18691
+1086_NapA,Vibrio sp. ER1A | 1517681.HW45_21935
+1087_NapA,Vibrio sp. JCM 18905 | tr|A0A829TJ52|A0A829TJ52_9VIBR
+1088_NapA,Vibrio sp. qd031 | tr|A0A1X1MYP8|A0A1X1MYP8_9VIBR
+1089_NapA,Vibrio vulnificus | 672.VV93_v1c38950
+1090_NapA,Xanthomonadales | tr|A0A2H0HTL7|A0A2H0HTL7_9GAMM
+1091_NapA,Xanthomonadales | tr|A0A2M7D1G8|A0A2M7D1G8_9GAMM
+1092_NapA,Dyella sp. AtDHG13 | tr|A0A318DWT7|A0A318DWT7_9GAMM
+1093_NapA,Rhodanobacter fulvus Jip2 | 1163408.UU9_06309
+1094_NapA,Rudaea cellulosilytica DSM 22992 | 1123073.KB899241_gene2668
+1095_NapA,Xanthomonadaceae | tr|A0A7X7PUN4|A0A7X7PUN4_9GAMM
+1096_NapA,Luteimonas sp. J29 | 935863.AWZR01000004_gene587
+1097_NapA,Luteimonas sp. JM171 | tr|A0A1B3W609|A0A1B3W609_9GAMM
+1098_NapA,Lysobacter antibioticus | 84531.JMTZ01000037_gene3561
+1099_NapA,Lysobacter sp. Alg18-2.2 | tr|A0A5C8KUY3|A0A5C8KUY3_9GAMM
+1100_NapA,Pseudoxanthomonas suwonensis 11-1 | 743721.Psesu_0374
+1101_NapA,Pseudoxanthomonas suwonensis 11-1 | 743721.Psesu_0379
+1102_NapA,Pseudoxanthomonas suwonensis J43 | 935567.JAES01000002_gene703
+1103_NapA,Rehaibacterium terrae | tr|A0A7W8DDA9|A0A7W8DDA9_9GAMM
+1104_NapA,Xanthomonas cassavae CFBP 4642 | 1219375.CM002139_gene2066
+1105_NapA,Xanthomonas translucens DAR61454 | 1205753.A989_11004
+1106_NapA,Hydrogenophilales | tr|A0A2M7MU82|A0A2M7MU82_9PROT
+1107_NapA,Hydrogenophilaceae | tr|A0A1J4Z0H6|A0A1J4Z0H6_9PROT
+1108_NapA,Halobacteriovorax sp. | tr|A0A2E6H697|A0A2E6H697_9PROT
+1109_NapA,Ghiorsea bivora | 1485545.JQLW01000005_gene897
+1110_NapA,Thermodesulfatator indicus | tr|F8AE26|F8AE26_THEID
+1111_NapA,Coraliomargarita akajimensis | tr|D5EKZ1|D5EKZ1_CORAD
+1112_NapA,Aspergillus flavus | tr|B8N2S2|B8N2S2_ASPFN
+1113_NapA,Aspergillus homomorphus | tr|A0A395HPR1|A0A395HPR1_ASPHC
+1114_NapA,Emericella nidulans (Aspergillus nidulans) | tr|Q5ARP3|Q5ARP3_EMENI
+1115_NapA,Neosartorya fumigata (Aspergillus fumigatus) | tr|Q4WZ36|Q4WZ36_ASPFU
+1116_NapA,Byssochlamys spectabilis (Paecilomyces variotii) | tr|A0A443I3H2|A0A443I3H2_BYSSP
+1117_NapA,Fusarium oxysporum (Fusarium vascular wilt) | tr|A0A420NC20|A0A420NC20_FUSOX

@@ -1,0 +1,163 @@
+[2022-04-15 22:07:00] INFO: 
+##			Beginning purity analysis			##
+
+[2022-04-15 22:07:00] INFO: Arguments used:
+-n 4 -r NapA_UniProt_update/final_outputs/NapA_build.pkl --extra_info ../TIGRFAM_info.tsv -i ../TIGRFAM_seed_named.faa --output NapA_UniProt_update/NapA_purity
+
+[2022-04-15 22:07:00] DEBUG: Sequences appear to be 'prot'.
+
+[2022-04-15 22:07:01] DEBUG: Continuing with stage 'clean'
+
+[2022-04-15 22:07:01] DEBUG: Read 61111 headers from FASTA file '../TIGRFAM_seed_named.faa'.
+
+[2022-04-15 22:07:02] INFO: 
+##				Assigning sequences with TreeSAPP				##
+
+
+[2022-04-15 22:07:02] INFO: Arguments used:
+-i /root/data/imman/uniprot_data/NapA_UniProt_update/NapA_purity/intermediates/clean/TIGRFAM_seed_named_formatted.fasta -o /root/data/imman/uniprot_data/NapA_UniProt_update/NapA_purity/intermediates/assign/ -m prot -n 4 -t NapA --refpkg_dir /root/data/imman/uniprot_data/NapA_UniProt_update/final_outputs --overwrite --delete
+
+[2022-04-15 22:07:02] DEBUG: Continuing with stage 'clean'
+
+[2022-04-15 22:07:02] DEBUG: Gathering reference package files... 
+[2022-04-15 22:07:02] DEBUG: done.
+
+[2022-04-15 22:07:03] INFO: Reading and formatting /root/data/imman/uniprot_data/NapA_UniProt_update/NapA_purity/intermediates/clean/TIGRFAM_seed_named_formatted.fasta... 
+[2022-04-15 22:07:03] DEBUG: /root/data/imman/uniprot_data/NapA_UniProt_update/NapA_purity/intermediates/clean/TIGRFAM_seed_named_formatted.fasta read by pyfastx in 0.3 seconds.
+
+[2022-04-15 22:07:03] DEBUG: The following sequences were removed due to bad characters:
+TIGR01917_GP|14717791|gb|AAC43574.2/5-435
+TIGR00476_gi|158320767|ref|YP_001513274./1-309
+TIGR01918_GP|14717791|gb|AAC43574.2/5-435
+TIGR04483_gi|158319089|ref|YP_001511596./4-241
+TIGR04481_gi|310659538|ref/3-427
+TIGR00476_gi|342732113|ref|YP_004770952./1-307
+TIGR00476_gi|319956066|ref|YP_004167329./1-307
+TIGR04481_SELENO_ntcb02/5-434
+TIGR01917_GP|11065689|emb|CAC14301.1/5-435
+TIGR04483_gi|153933895|ref|YP_001384638./2-239
+TIGR01918_GP|11065689|emb|CAC14301.1/5-435
+TIGR00476_gi|317128844|ref|YP_004095126./1-311
+
+[2022-04-15 22:07:03] INFO: done.
+
+[2022-04-15 22:07:03] INFO: 	TreeSAPP will analyze the 61099 sequences found in input.
+
+[2022-04-15 22:07:03] INFO: Searching for marker proteins in ORFs using hmmsearch.
+
+[2022-04-15 22:07:04] INFO: Parsing HMMER domain tables for high-quality matches... 
+[2022-04-15 22:07:04] INFO: done.
+
+[2022-04-15 22:07:04] DEBUG: 	Initial alignments:	162
+	Alignments discarded:	23
+	Fragmented alignments:	144
+	Inversions detected:	0
+	Alignments scaffolded:	81
+	Multi-alignments:	0
+	Sequences identified:	58
+
+	Number of markers identified:
+		NapA	58
+
+[2022-04-15 22:07:04] INFO: Loading homologous sequences identified... 
+[2022-04-15 22:07:04] DEBUG: 61041 sequences were excluded after synchronizing FASTA.
+
+[2022-04-15 22:07:04] INFO: done.
+
+[2022-04-15 22:07:04] DEBUG: Instantiating the PQuery instances... 
+[2022-04-15 22:07:04] DEBUG: done.
+
+[2022-04-15 22:07:04] INFO: Extracting and grouping the quality-controlled sequences... 
+[2022-04-15 22:07:04] INFO: done.
+
+[2022-04-15 22:07:04] DEBUG: Number of query sequences in each marker's group:
+NapA	0	58
+
+
+[2022-04-15 22:07:04] INFO: Writing the grouped sequences to FASTA files... 
+[2022-04-15 22:07:04] INFO: done.
+
+[2022-04-15 22:07:06] DEBUG: 	hmmalign time required: 0.0:0.0:2.3
+
+[2022-04-15 22:07:06] DEBUG: Read 1175 headers from FASTA file '/root/data/imman/uniprot_data/NapA_UniProt_update/NapA_purity/intermediates/assign/intermediates/align/NapA_hmm_purified_group0.mfa'.
+
+[2022-04-15 22:07:36] INFO: Parsing the EPA-NG outputs... 
+[2022-04-15 22:07:37] INFO: done.
+
+[2022-04-15 22:07:37] DEBUG: 	JPlace parsing time required: 0.0:0.0:0.13
+
+[2022-04-15 22:07:37] DEBUG: 	1 JPlace files.
+
+[2022-04-15 22:07:37] INFO: Selecting the optimal query placements... 
+[2022-04-15 22:07:40] INFO: done.
+
+[2022-04-15 22:07:40] DEBUG: 	PQuery parsing time required: 0.0:0.0:3.54
+
+[2022-04-15 22:07:40] DEBUG: 	58 sequences placed into trees by EPA-NG.
+
+[2022-04-15 22:07:40] INFO: Filtering low-quality placements... 
+[2022-04-15 22:07:40] DEBUG: Maximum distance threshold for 'NapA' set to 6.428614.
+
+[2022-04-15 22:07:40] INFO: done.
+
+[2022-04-15 22:07:40] DEBUG: NapA	low_lwr	0
+NapA	distant	47
+NapA	big_pendant	0
+NapA	big_branch	0
+NapA	svm	0
+
+[2022-04-15 22:07:40] INFO: Generating inputs for iTOL... 
+[2022-04-15 22:07:40] INFO: done.
+
+[2022-04-15 22:07:40] DEBUG: A colours_style.txt file does not yet exist for markers:
+	NapA
+
+[2022-04-15 22:07:40] DEBUG: A colours_strip.txt file does not yet exist for markers:
+	NapA
+
+[2022-04-15 22:07:40] INFO: 
+Summarizing assignments for reference package NapA
+
+[2022-04-15 22:07:44] INFO: Ortholog	Hits	Leaves	Tree-coverage	Description
+--------------------------------------------------------------------------------
+TIGR01706	5	5	0.4	periplasmic nitrate reductase, large subunit
+TIGR01701	3	4	0.4	oxidoreductase alpha (molybdopterin) subunit
+TIGR02693	3	11	1.0	arsenite oxidase, large subunit
+
+
+[2022-04-15 22:07:44] DEBUG: TIGR01706:
+	Escherichia coli | tr|A0A376SHW7|A0A376SHW7_ECOLX
+	Root | SP|P39185|NAPA_ALCEU/2-831
+	Vibrio sp. JCM 18905 | tr|A0A829TJ52|A0A829TJ52_9VIBR
+	Campylobacter coli | tr|A0A5T1KEY4|A0A5T1KEY4_CAMCO
+	Root | SP|Q56350|NAPA_PARDT/2-831
+TIGR01701:
+	Corallococcus coralloides DSM 2259 | 1144275.COCOR_03558
+	Stigmatella aurantiaca DW4/3-1 | 378806.STAUR_4719
+	Sorangium cellulosum So0157-2 | 1254432.SCE1572_51875
+	Pseudoalteromonas atlantica T6c | 342610.Patl_2844
+	Corallococcus coralloides DSM 2259 | 1144275.COCOR_03558
+	Stigmatella aurantiaca DW4/3-1 | 378806.STAUR_4719
+	Sorangium cellulosum So0157-2 | 1254432.SCE1572_51875
+	Pseudoalteromonas atlantica T6c | 342610.Patl_2844
+	Corallococcus coralloides DSM 2259 | 1144275.COCOR_03558
+	Stigmatella aurantiaca DW4/3-1 | 378806.STAUR_4719
+	Sorangium cellulosum So0157-2 | 1254432.SCE1572_51875
+	Pseudoalteromonas atlantica T6c | 342610.Patl_2844
+TIGR02693:
+	Herminiimonas arsenicoxydans | 204773.HEAR0478
+	Agrobacterium albertimagni AOL15 | 1156935.QWE_02985
+	Herminiimonas arsenicoxydans | 204773.HEAR0478
+	Thiomonas sp. FB-Cd | 1158292.JPOE01000005_gene222
+	Rhodoferax ferrireducens T118 | 338969.Rfer_3084
+	Marinobacter sp. HL-58 | 1479237.JMLY01000001_gene255
+	Pseudomonas stutzeri TS44 | 477228.YO5_14640
+	Sinorhizobium americanum CCGM7 | 1408224.SAMCCGM7_c3965
+	Agrobacterium albertimagni AOL15 | 1156935.QWE_02985
+	Methylobacterium sp. GXF4 | 1096546.WYO_0073
+	Chelatococcus sp. GW1 | 1211115.ALIQ01000219_gene1389
+	Caulobacter segnis ATCC 21756 | 509190.Cseg_2507
+	Sulfurospirillum multivorans DSM 12446 | 1150621.SMUL_3120
+
+[2022-04-15 22:07:44] INFO: TreeSAPP has finished successfully.
+
