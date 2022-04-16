@@ -1,0 +1,773 @@
+LABELS
+SEPARATOR COMMA
+DATA
+#NODE_ID,LABEL
+1_NorB,Haloarcula hispanica | tr|G0HRI4|G0HRI4_HALHT
+2_NorB,Halomicrobium sp. LC1Hm | tr|A0A5Q0UKW4|A0A5Q0UKW4_9EURY
+3_NorB,Haloferax mediterranei (Halobacterium mediterranei) | tr|I3R6L7|I3R6L7_HALMT
+4_NorB,Halococcus | EMA53543
+5_NorB,Haloferax | ELZ80576
+6_NorB,Candidatus Methanoperedens | KPQ44260
+7_NorB,Acidobacterium ailaaui | 1382359.JIAL01000001_gene232
+8_NorB,Candidatus Koribacter versatilis Ellin345 | 204669.Acid345_0364
+9_NorB,Candidatus Solibacter usitatus Ellin6076 | 234267.Acid_2936
+10_NorB,Geothrix fermentans DSM 14018 | 1121920.AUAU01000002_gene2086
+11_NorB,Geothrix fermentans DSM 14018 | 1121920.AUAU01000004_gene868
+12_NorB,Thermotomaculum hydrothermale | tr|A0A7R6SYD0|A0A7R6SYD0_9BACT
+13_NorB,Actinomyces naeslundii str. Howell 279 | 1115803.HMPREF1129_0047
+14_NorB,Actinomyces sp. oral taxon 448 str. F0400 | 888056.HMPREF9062_1327
+15_NorB,Actinomyces timonensis DSM 23838 | 521393.JH806632_gene105
+16_NorB,Corynebacterium accolens ATCC 49725 | 525260.HMPREF0276_1372
+17_NorB,Corynebacterium diphtheriae PW8 | 698964.CDPW8_2214
+18_NorB,Corynebacterium doosanense CAU 212 = DSM 45436 | 558173.CDOO_03340
+19_NorB,Corynebacterium propinquum DSM 44285 | 1121367.AQXC01000012_gene1067
+20_NorB,Corynebacterium pseudotuberculosis | 1719.CPTC_00540
+21_NorB,Mycobacterium avium subsp. avium | 44454.NF84_18325
+22_NorB,Mycobacterium intracellulare ATCC 13950 | 487521.OCU_19850
+23_NorB,Mycobacterium sp. 141 | 1120797.KB908258_gene1363
+24_NorB,Mycobacterium sp. JLS | 164757.Mjls_1539
+25_NorB,Mycobacterium sp. UM_WGJ | 1370120.AUWR01000071_gene802
+26_NorB,Mycobacterium talmoniae | tr|A0A1S1NNX3|A0A1S1NNX3_9MYCO
+27_NorB,Mycolicibacterium rhodesiae NBB3 | 710685.MycrhN_0866
+28_NorB,Nocardia niigatensis NBRC 100131 | 1206733.BAGC01000035_gene3673
+29_NorB,Rhodococcus hoagii 103S | 685727.REQ_03280
+30_NorB,Brachybacterium faecium DSM 4810 | 446465.Bfae_28590
+31_NorB,Austwickia chelonae NBRC 105200 | 1184607.AUCHE_05_03640
+32_NorB,Kineosphaera limosa NBRC 100340 | 1184609.KILIM_051_00380
+33_NorB,Mobilicoccus pelagius NBRC 104925 | 1089455.MOPEL_041_00110
+34_NorB,Arsenicicoccus bolidensis DSM 15745 | 1121017.AUFG01000015_gene2612
+35_NorB,Intrasporangium calvum DSM 43043 | 710696.Intca_0298
+36_NorB,Rothia dentocariosa ATCC 17931 | 762948.HMPREF0733_11863
+37_NorB,Rothia mucilaginosa DY-18 | 680646.RMDY18_11300
+38_NorB,Ornithinimicrobium pekingense DSM 21552 | 1122622.ATWJ01000010_gene1287
+39_NorB,Acidipropionibacterium acidipropionici ATCC 4875 | 1171373.PACID_31710
+40_NorB,Acidipropionibacterium jensenii DSM 20535 | 1122997.AUDD01000018_gene2320
+41_NorB,[Propionibacterium] humerusii HL037PA2 | 765123.HMPREF9621_01713
+42_NorB,Granulicoccus phenolivorans DSM 17626 = NBRC 107789 = JCM 15570 | 1121933.AUHH01000040_gene3146
+43_NorB,Microlunatus phosphovorus NM-1 | 1032480.MLP_45230
+44_NorB,Propionibacterium acidifaciens DSM 21887 | 1122994.AUFR01000001_gene1412
+45_NorB,Propionibacterium freudenreichii subsp. shermanii CIRM-BIA1 | 754252.PFREUD_00980
+46_NorB,Pseudonocardia acaciae DSM 45401 | 1123023.JIAI01000032_gene4145
+47_NorB,Streptomyces fradiae | 1906.SFRA_31350
+48_NorB,Spirillospora albida | 58123.JOFJ01000034_gene39
+49_NorB,Hydrogenobacter thermophilus TK-6 | 608538.HTH_0283
+50_NorB,Hydrogenobaculum sp. Y04AAS1 | 380749.HY04AAS1_0351
+51_NorB,Persephonella marina EX-H1 | 123214.PERMA_0314
+52_NorB,Persephonella sp. IF05-L8 | 1158338.JNLJ01000001_gene1071
+53_NorB,Sulfurihydrogenibium azorense Az-Fu1 | 204536.SULAZ_1453
+54_NorB,Parcubacteria group bacterium GW2011_GWA1_47_8 | KKU80976
+55_NorB,Parcubacteria group bacterium GW2011_GWC1_42_11 | KKS27263
+56_NorB,Bacteroidetes | KXK21991
+57_NorB,Bacteroides neonati | 1347393.HG726026_gene2639
+58_NorB,Proteiniphilum acetatigenes DSM 18083 | 1123008.KB905692_gene245
+59_NorB,Porphyromonas sp. KLE 1280 | 997829.HMPREF1121_00752
+60_NorB,Prevotella sp. oral taxon 317 str. F0108 | 575615.HMPREF0670_01137
+61_NorB,Saccharicrinis fermentans DSM 9555 = JCM 21142 | 869213.JCM21142_104169
+62_NorB,Thermophagus xiamenensis | 385682.AFSL01000014_gene2772
+63_NorB,Asinibacterium sp. OR53 | 925409.KI911562_gene2464
+64_NorB,Chitinophaga pinensis DSM 2588 | 485918.Cpin_5786
+65_NorB,Niabella soli DSM 19437 | 929713.NIASO_09340
+66_NorB,Cesiribacter andamanensis AMV16 | 1279009.ADICEAN_01486
+67_NorB,Algoriphagus mannitolivorans DSM 15301 | 1120965.AUBV01000006_gene2375
+68_NorB,Belliella baltica DSM 15883 | 866536.Belba_2010
+69_NorB,Indibacter alkaliphilus LW1 | 1189612.A33Q_2133
+70_NorB,Mariniradius saccharolyticus AK6 | 1239962.C943_03890
+71_NorB,Rudanella lutea DSM 19387 | 1089547.KB913013_gene4648
+72_NorB,Fulvivirga imtechensis AK7 | 1237149.C900_01467
+73_NorB,Aquimarina macrocephali JAMB N27 | 1443665.JACA01000047_gene5274
+74_NorB,Aquimarina megaterium XH134 | 1296416.JACB01000003_gene677
+75_NorB,Aquimarina megaterium XH134 | 1296416.JACB01000039_gene1326
+76_NorB,Aquimarina muelleri DSM 19832 | 1121007.AUML01000032_gene2774
+77_NorB,Arenibacter algicola | 616991.JPOO01000003_gene1682
+78_NorB,Bizionia argentinensis JUB59 | 1046627.BZARG_176
+79_NorB,Capnocytophaga granulosa ATCC 51502 | 641143.HMPREF9331_01640
+80_NorB,Capnocytophaga sp. oral taxon 326 str. F0382 | 1035193.HMPREF9073_01856
+81_NorB,Cellulophaga algicola DSM 14237 | 688270.Celal_3930
+82_NorB,Flaviramulus ichthyoenteri Th78 | 1380600.AUYN01000007_gene3368
+83_NorB,Flavobacterium antarcticum DSM 19726 | 1111730.ATTM01000002_gene1185
+84_NorB,Flavobacterium aquatile LMG 4008 = ATCC 11947 | 1453498.LG45_05230
+85_NorB,Flavobacterium columnare ATCC 49512 | 1041826.FCOL_01560
+86_NorB,Flavobacterium daejeonense DSM 17708 | 1121887.AUDK01000002_gene2126
+87_NorB,Flavobacterium saliperosum S13 | 1341155.FSS13T_01770
+88_NorB,Flavobacterium sp. CF136 | 1144313.PMI10_02384
+89_NorB,Flavobacterium sp. WG21 | 1229487.AMYW01000020_gene2584
+90_NorB,Formosa agariphila KMM 3901 | 1347342.BN863_22390
+91_NorB,Galbibacter marinus | 555500.I215_06007
+92_NorB,Gillisia sp. CAL575 | 985255.APHJ01000018_gene3000
+93_NorB,Imtechella halotolerans K1 | 946077.W5A_10010
+94_NorB,Mangrovimonas yunxiaonensis | 1197477.IA57_03965
+95_NorB,Maribacter sp. HTCC2170 | 313603.FB2170_14928
+96_NorB,Muricauda ruestringensis DSM 13258 | 886377.Murru_2903
+97_NorB,Myroides injenensis M09-0166 | 1008457.BAEX01000015_gene1734
+98_NorB,Myroides odoratimimus H1bi | 1416760.AYMS01000014_gene452
+99_NorB,Psychroserpens jangbogonensis | 1484460.JSWG01000015_gene927
+100_NorB,Salinimicrobium terrae DSM 17865 | 1123234.AUKI01000022_gene2211
+101_NorB,Tenacibaculum maritimum NCIMB 2154 | 1349785.BAUG01000047_gene2320
+102_NorB,Zhouia amylolytica AD3 | 1286632.P278_05060
+103_NorB,Chryseobacterium gleum ATCC 35910 | 525257.HMPREF0204_13224
+104_NorB,Elizabethkingia miricola | 172045.KS04_02285
+105_NorB,Riemerella columbina DSM 16469 | 1123058.KB894263_gene1367
+106_NorB,Haliscomenobacter hydrossis DSM 1100 | 760192.Halhy_2238
+107_NorB,Solitalea canadensis DSM 3403 | 929556.Solca_2916
+108_NorB,Caldithrix abyssi DSM 13497 | 880073.Calab_2506
+109_NorB,Candidatus Omnitrophica | KXK33524
+110_NorB,Candidatus Omnitrophica | KXK39892
+111_NorB,Parachlamydia acanthamoebae UV-7 | 765952.PUV_24980
+112_NorB,Waddlia chondrophila WSU 86-1044 | 716544.wcw_0480
+113_NorB,Chlorobi | KXK57127
+114_NorB,Synechocystis sp. PCC 6803 | 1148.1653885
+115_NorB,cyanobacterium PCC 7702 | 1173021.ALWA01000023_gene2491
+116_NorB,Geitlerinema sp. PCC 7407 | 1173025.GEI7407_0530
+117_NorB,Gloeocapsa sp. PCC 7428 | 1173026.Glo7428_4622
+118_NorB,Pleurocapsa sp. PCC 7327 | 118163.Ple7327_1966
+119_NorB,[Leptolyngbya] sp. JSC-1 | 1487953.JMKF01000045_gene2931
+120_NorB,Oscillatoria nigro-viridis PCC 7112 | 179408.Osc7112_0369
+121_NorB,Chroococcidiopsis thermalis PCC 7203 | 251229.Chro_3365
+122_NorB,Acaryochloris marina MBIC11017 | 329726.AM1_0481
+123_NorB,Arthrospira platensis C1 | 459495.SPLC1_S101990
+124_NorB,Oscillatoria acuminata PCC 6304 | 56110.Oscil6304_4731
+125_NorB,Cyanobacterium aponinum PCC 10605 | 755178.Cyan10605_3228
+126_NorB,Oceanithermus profundus DSM 14977 | 670487.Ocepr_2137
+127_NorB,Thermus amyloliquefaciens | 1449080.JQMV01000003_gene1454
+128_NorB,Dysgonomonadaceae | CEA16478
+129_NorB,Dysgonomonadaceae | SCM58329
+130_NorB,Muribaculaceae | ASB36842
+131_NorB,Paludibacteraceae | GAT61620
+132_NorB,Porphyromonadaceae | EWC92799
+133_NorB,Tannerellaceae | ETK01178
+134_NorB,Marinifilaceae | BAX79897
+135_NorB,Marinifilaceae | BAX81148
+136_NorB,Prolixibacteraceae | KJF43657
+137_NorB,Prolixibacteraceae | KOH45077
+138_NorB,Chitinophagaceae | QEC69224
+139_NorB,Hymenobacteraceae | AKQ46155
+140_NorB,Hymenobacteraceae | ARS35185
+141_NorB,Flavobacteriaceae | ANW96454
+142_NorB,Flavobacteriaceae | APD05775
+143_NorB,Flavobacteriaceae | ARV15937
+144_NorB,Flavobacteriaceae | AUC76584
+145_NorB,Flavobacteriaceae | AVM50083
+146_NorB,Flavobacteriaceae | AVR46429
+147_NorB,Flavobacteriaceae | AVR47165
+148_NorB,Flavobacteriaceae | AXP82321
+149_NorB,Flavobacteriaceae | AYN03181
+150_NorB,Flavobacteriaceae | AZJ31227
+151_NorB,Flavobacteriaceae | CAZ98446
+152_NorB,Flavobacteriaceae | KIX22417
+153_NorB,Flavobacteriaceae | KVV15212
+154_NorB,Flavobacteriaceae | KZS42890
+155_NorB,Flavobacteriaceae | OAD40800
+156_NorB,Flavobacteriaceae | QDW22458
+157_NorB,Flavobacteriaceae | SNV06005
+158_NorB,Weeksellaceae | AYY87229
+159_NorB,Weeksellaceae | AZB21797
+160_NorB,Weeksellaceae | OCK49658
+161_NorB,Weeksellaceae | QAR29965
+162_NorB,Weeksellaceae | QCX52376
+163_NorB,Sphingobacteriaceae | QEC62356
+164_NorB,Sphingobacteriaceae | SNV55667
+165_NorB,Alicyclobacillus herbarius DSM 13609 | 1120972.AUMH01000019_gene2327
+166_NorB,Kyrpidia tusciae DSM 2912 | 562970.Btus_2112
+167_NorB,Bacillus andreraoultii | 1499685.CCFJ01000041_gene806
+168_NorB,Bacillus dielmoensis | 1347369.CCAD010000049_gene371
+169_NorB,Bacillus licheniformis DSM 13 = ATCC 14580 | 279010.BL01473
+170_NorB,Bacillus rubiinfantis | 1499680.CCFE01000021_gene1854
+171_NorB,Bacillus rubiinfantis | 1499680.CCFE01000030_gene3465
+172_NorB,Bacillus sonorensis L12 | 1274524.BSONL12_05263
+173_NorB,Bacillus sp. 1NLA3E | 666686.B1NLA3E_10805
+174_NorB,Bacillus sp. 1NLA3E | 666686.B1NLA3E_14525
+175_NorB,Bacillus sp. J33 | 935836.JAEL01000006_gene2816
+176_NorB,Bacillus sp. UNC438CL73TsuS30 | 1340434.AXVA01000013_gene273
+177_NorB,Geobacillus icigianus | 1430331.EP10_06465
+178_NorB,Bacillus boroniphilus JCM 21738 | 1294265.JCM21738_194
+179_NorB,Neobacillus jeddahensis | 1461580.CCAS010000026_gene2576
+180_NorB,Thermicanus aegyptius DSM 12793 | 1089548.KI783301_gene1810
+181_NorB,Paenibacillus fonticola DSM 21315 | 1122918.KB907245_gene5116
+182_NorB,Paenibacillus sp. J14 | 935845.JADQ01000032_gene1319
+183_NorB,Paenibacillus wynnii | 268407.PWYN_08440
+184_NorB,Tuberibacillus calidus DSM 17572 | 1123405.AUMM01000010_gene1229
+185_NorB,Staphylococcus agnetis | 985762.SAGN_09197
+186_NorB,Staphylococcus aureus | 1280.SAXN108_0244
+187_NorB,Staphylococcus simulans UMC-CNS-990 | 1405498.SSIM_05715
+188_NorB,Thermoactinomyces daqus | 1329516.JPST01000008_gene2044
+189_NorB,Carnobacterium mobile DSM 4848 | 1449342.JQMR01000001_gene1054
+190_NorB,Agrilactobacillus composti DSM 18527 = JCM 14202 | 1423734.JCM14202_2970
+191_NorB,Lactobacillus farciminis KCTC 3681 = DSM 20184 | 936140.AEOT01000017_gene1994
+192_NorB,Lactobacillus nodensis DSM 19682 = JCM 14932 = NBRC 107160 | 1423775.BAMN01000039_gene2198
+193_NorB,Lactobacillus versmoldensis DSM 14857 = KCTC 3814 | 1423815.BACR01000037_gene1707
+194_NorB,Lentilactobacillus curieae | 1138822.PL11_00275
+195_NorB,Lactobacillus fermentum IFO 3956 | 334390.LAF_1643
+196_NorB,Lactobacillus coryniformis subsp. coryniformis KCTC 3167 = DSM 20001 | 913848.AELK01000238_gene1643
+197_NorB,Desulfitobacterium dehalogenans ATCC 51507 | 756499.Desde_1787
+198_NorB,Desulfitobacterium dichloroeliminans LMG P-21439 | 871963.Desdi_1536
+199_NorB,Desulfitobacterium hafniense Y51 | 138119.DSY1165
+200_NorB,Desulfitobacterium metallireducens DSM 15288 | 871968.DESME_08750
+201_NorB,Desulfosporosinus acidiphilus SJ4 | 646529.Desaci_0949
+202_NorB,Desulfosporosinus meridiei DSM 13257 | 768704.Desmer_4397
+203_NorB,Desulfosporosinus sp. OT | 913865.DOT_5168
+204_NorB,Desulfosporosinus youngiae DSM 17734 | 768710.DesyoDRAFT_5114
+205_NorB,Dethiobacter alkaliphilus AHT 1 | 555088.DealDRAFT_2097
+206_NorB,Acetonema longum DSM 6540 | 1009370.ALO_04533
+207_NorB,Pelosinus fermentans DSM 17108 | 1122947.FR7_0683
+208_NorB,Veillonella sp. AS16 | 936589.HMPREF1521_1715
+209_NorB,Estrella | CRX37469
+210_NorB,Poriferisphaera | QDU33414
+211_NorB,Aquisphaera | QEH34254
+212_NorB,Paludisphaera | APW59926
+213_NorB,Tautonia | QDV37632
+214_NorB,Bythopirellula | QEG35187
+215_NorB,Lacipirellula | QDT71782
+216_NorB,Pirellulimonas | QDU89750
+217_NorB,Anatilimnocola | QDU25836
+218_NorB,Rhodopirellula | EMB15770
+219_NorB,Stieleria | QDV47064
+220_NorB,Thermogutta | ASV76246
+221_NorB,Fuerstia | APZ91073
+222_NorB,Gimesia | QDT27684
+223_NorB,Gimesia | QDT92642
+224_NorB,Gimesia | QDV52281
+225_NorB,Planctomyces | AMV40548
+226_NorB,Planctopirus | QDV30306
+227_NorB,Thalassoglobus | QDT32488
+228_NorB,Gemmata massiliana | 1210884.HG799463_gene9843
+229_NorB,Novipirellula aureliae | tr|A0A5C6EF16|A0A5C6EF16_9BACT
+230_NorB,Stieleria maiorica | QEF97787
+231_NorB,Crateriforma conspicua | tr|A0A5C6FLK9|A0A5C6FLK9_9PLAN
+232_NorB,Thermithiobacillus tepidarius DSM 3134 | 1123368.AUIS01000008_gene2151
+233_NorB,alpha proteobacterium Mf 1.05b.01 | 1282876.BAOK01000001_gene1690
+234_NorB,unclassified Brevundimonas | KQY87033
+235_NorB,Caulobacter segnis ATCC 21756 | 509190.Cseg_3031
+236_NorB,unclassified Caulobacter | KQZ34018
+237_NorB,Phenylobacterium zucineum HLK1 | 450851.PHZ_c0619
+238_NorB,Hyphomicrobiales | ANK82038
+239_NorB,Methylocella silvestris BL2 | 395965.Msil_1516
+240_NorB,Afipia sp. 1NLS2 | 666684.AfiDRAFT_0462
+241_NorB,Bradyrhizobium japonicum USDA 6 | 1037409.BJ6T_02810
+242_NorB,Bradyrhizobium sp. ARR65 | 1040989.AWZU01000014_gene4599
+243_NorB,Bradyrhizobium sp. Cp5.3 | 443598.AUFA01000029_gene7085
+244_NorB,Rhodopseudomonas palustris CGA009 | 258594.RPA1456
+245_NorB,Brucella melitensis bv. 1 str. 16M | 224914.BMEII0998
+246_NorB,Chelatococcus sp. GW1 | 1211115.ALIQ01000184_gene4185
+247_NorB,Hyphomicrobium zavarzinii ATCC 27496 | 1267005.KB911257_gene788
+248_NorB,Microvirga aerilata | 670292.JH26_12810
+249_NorB,Methylocystis parvus OBBP | 1134912.AJTV01000065_gene3910
+250_NorB,unclassified Methylocystis | CCD31960
+251_NorB,Methylosinus trichosporium | ATQ70900
+252_NorB,Parvibaculum lavamentivorans DS-1 | 402881.Plav_1004
+253_NorB,Tepidicaulis marinus | 1333998.M2A_0268
+254_NorB,Aquamicrobium defluvii | 69279.BG36_04200
+255_NorB,Agrobacterium fabrum str. C58 | 176299.Atu4388
+256_NorB,Rhizobium sp. CF097 | 1500301.JQMF01000008_gene858
+257_NorB,Shinella sp. DD12 | 1410620.SHLA_5c000320
+258_NorB,Sinorhizobium fredii NGR234 | 394.NGR_c09860
+259_NorB,Afifella pfennigii DSM 17143 | 1120956.JHZK01000001_gene3313
+260_NorB,Labrenzia aggregata IAM 12614 | 384765.SIAM614_31521
+261_NorB,Pannonibacter phragmitetus DSM 14782 | 1122929.KB908229_gene3375
+262_NorB,Pseudovibrio sp. FO-BEG1 | 911045.PSE_4552
+263_NorB,Pseudovibrio sp. FO-BEG1 | 911045.PSE_p0187
+264_NorB,Starkeya novella DSM 506 | 639283.Snov_1155
+265_NorB,Xanthobacter autotrophicus Py2 | 78245.Xaut_3044
+266_NorB,Hyphomonas johnsonii MHS-2 | 1280950.HJO_03570
+267_NorB,Kiloniella laminariae DSM 19542 | 1122135.KB893166_gene3047
+268_NorB,Magnetococcus marinus MC-1 | 156889.Mmc1_0120
+269_NorB,Rhodobacter sphaeroides 2.4.1 | 272943.RSP_0323
+270_NorB,Rhodobacter sphaeroides ATCC 17025 | 349102.Rsph17025_0971
+271_NorB,Dinoroseobacter shibae DFL 12 = DSM 16493 | 398580.Dshi_3184
+272_NorB,Maritimibacter alkaliphilus HTCC2654 | 314271.RB2654_12784
+273_NorB,Oceaniovalibus guishaninsula JLT2003 | 1231392.OCGS_1072
+274_NorB,Paracoccus denitrificans PD1222 | 318586.Pden_2483
+275_NorB,Paracoccus yeei ATCC BAA-599 | 1446473.JHWH01000008_gene90
+276_NorB,Polymorphum gilvum SL003B-26A1 | 991905.SL003B_0580
+277_NorB,Pseudooceanicola atlanticus | 1461694.ATO9_09340
+278_NorB,Pseudophaeobacter arcticus DSM 23566 | 999550.KI421507_gene600
+279_NorB,Rhodobacter sp. SW2 | 371731.Rsw2DRAFT_0158
+280_NorB,Roseobacter denitrificans OCh 114 | 375451.RD1_1561
+281_NorB,Roseobacter sp. SK209-2-6 | 388739.RSK20926_03699
+282_NorB,Roseovarius mucosus DSM 17069 | 1288298.rosmuc_02715
+283_NorB,Ruegeria halocynthiae | 985054.JQEZ01000002_gene3778
+284_NorB,Ruegeria pomeroyi DSS-3 | 246200.SPOA0216
+285_NorB,Sedimentitalea nanhaiensis DSM 24252 | 571166.KI421509_gene3326
+286_NorB,Sediminimonas qiaohouensis DSM 21189 | 1123247.AUIJ01000024_gene695
+287_NorB,Thioclava indica | 1353528.DT23_14440
+288_NorB,Acetobacter aceti 1023 | 1457393.AZ09_00300
+289_NorB,Acidomonas methanolica | GAJ30419
+290_NorB,unclassified Commensalibacter | AYN86163
+291_NorB,unclassified Swingsia | QDH14432
+292_NorB,Acetobacteraceae bacterium | QCE33762
+293_NorB,Acetobacteraceae bacterium | QCE35788
+294_NorB,Azospirillum halopraeferens DSM 3675 | 1121033.AUCF01000035_gene4044
+295_NorB,Caenispirillum salinarum AK4 | 1238182.C882_1446
+296_NorB,Fodinicurvata sediminis DSM 21159 | 570952.ATVH01000016_gene2366
+297_NorB,Hypericibacter adhaerens | QEX24836
+298_NorB,Hypericibacter terrae | QEX15420
+299_NorB,Magnetospirillum caucaseum | 1244869.H261_05012
+300_NorB,Magnetospirillum gryphiswaldense MSR-1 v2 | 1430440.MGMSRv2_1716
+301_NorB,Novispirillum itersonii subsp. itersonii ATCC 12639 | 1279038.KB907348_gene3107
+302_NorB,Rhodospirillum centenum SW | 414684.RC1_3976
+303_NorB,Thalassospira xiamenensis M-5 = DSM 17429 | 1123366.TH3_07962
+304_NorB,Terasakiella pusilla DSM 6293 | 1123355.JHYO01000002_gene1336
+305_NorB,Novosphingobium pentaromativorans US6-1 | 1088721.NSU_4542
+306_NorB,Sphingobium baderi LL03 | 1114964.L485_16230
+307_NorB,Sphingobium herbicidovorans NBRC 16415 | 1219045.BV98_000644
+308_NorB,Sphingobium sp. C100 | 1207055.C100_01710
+309_NorB,Sphingobium xenophagum QYY | 1192759.AKIB01000051_gene951
+310_NorB,Sphingobium xenophagum QYY | 1192759.AKIB01000055_gene1402
+311_NorB,Sphingobium yanoikuyae | AYO75495
+312_NorB,unclassified Sphingobium | AMK22944
+313_NorB,Sphingomonas sp. PR090111-T3T-6A | 685778.AORL01000019_gene1856
+314_NorB,Sphingomonas sp. UNC305MFCol5.2 | 1449076.JOOE01000001_gene2169
+315_NorB,Sphingomonas wittichii RW1 | 392499.Swit_4614
+316_NorB,unclassified Sphingomonas | AJW29235
+317_NorB,unclassified Sphingomonas | ATY33545
+318_NorB,unclassified Sphingomonas | AYJ84644
+319_NorB,Sphingopyxis sp. MC1 | 1174684.EBMC1_01245
+320_NorB,unclassified Sphingopyxis | ALC12871
+321_NorB,Candidatus Accumulibacter sp. BA-93 | 1454004.AW11_01319
+322_NorB,Candidatus Accumulibacter phosphatis clade IIA str. UW-1 | 522306.CAP2UW1_2326
+323_NorB,Betaproteobacteria | APV52042
+324_NorB,Candidatus Accumulibacter sp. BA-92 | EXI80261
+325_NorB,Thiomonas sp. FB-Cd | 1158292.JPOE01000002_gene3799
+326_NorB,Aquabacterium sp. NJ1 | 1538295.JY96_19505
+327_NorB,Leptothrix cholodnii SP-6 | 395495.Lcho_1468
+328_NorB,Burkholderiales bacterium JOSHI_001 | 864051.BurJ1DRAFT_0675
+329_NorB,Rubrivivax gelatinosus IL144 | 983917.RGE_07190
+330_NorB,Burkholderiales | tr|A0A0G3BN59|A0A0G3BN59_9BURK
+331_NorB,Achromobacter xylosoxidans A8 | 762376.AXYL_02387
+332_NorB,Alcaligenes faecalis | 511.JT27_08295
+333_NorB,Basilea psittacipulmonis DSM 24701 | 1072685.IX83_07770
+334_NorB,Bordetella petrii | 94624.Bpet3560
+335_NorB,Bordetella petrii | 94624.Bpet4049
+336_NorB,Castellaniella caeni | AYA57964
+337_NorB,Castellaniella defragrans 65Phen | 1437824.BN940_10491
+338_NorB,Castellaniella defragrans 65Phen | 1437824.BN940_12031
+339_NorB,Oligella ureolytica DSM 18253 | 1122619.KB892368_gene2433
+340_NorB,Oligella urethralis | AVL71003
+341_NorB,Orrella dioscoreae | SOE47789
+342_NorB,Pelistega indica | ETD73111
+343_NorB,Pigmentiphaga humi | tr|A0A3P4B4T1|A0A3P4B4T1_9BURK
+344_NorB,Pusillimonas sp. T7-7 | 1007105.PT7_0538
+345_NorB,Pusillimonas sp. T7-7 | 1007105.PT7_2183
+346_NorB,Alcaligenaceae bacterium SJ-26 | QDQ87108
+347_NorB,Burkholderiaceae bacterium PBA | 795666.MW7_1769
+348_NorB,Burkholderia mallei ATCC 23344 | 243160.BMAA0799
+349_NorB,Burkholderia oklahomensis | 342113.DM82_1966
+350_NorB,unclassified Burkholderia | EEA03904
+351_NorB,Cupriavidus metallidurans CH34 | 266264.Rmet_3167
+352_NorB,Cupriavidus necator H16 | 381666.PHG244
+353_NorB,Cupriavidus pauculus | AZG13308
+354_NorB,Cupriavidus sp. BIS7 | 1217718.ALOU01000028_gene3592
+355_NorB,Cupriavidus taiwanensis LMG 19424 | 977880.RALTA_B2087
+356_NorB,unclassified Cupriavidus | KDP88313
+357_NorB,Lautropia mirabilis ATCC 51599 | 887898.HMPREF0551_1739
+358_NorB,Pandoraea thiooxydans | APR94074
+359_NorB,Paraburkholderia nodosa DSM 21604 | 1121127.JAFA01000033_gene4559
+360_NorB,Ralstonia pickettii 12J | 402626.Rpic_4013
+361_NorB,Ralstonia solanacearum PSI07 | 859657.RPSI07_3196
+362_NorB,unclassified Rhizobacter | KQW14569
+363_NorB,unclassified Rhizobacter | KRB14680
+364_NorB,Acidovorax delafieldii | EER59746
+365_NorB,Acidovorax ebreus TPSY | 535289.Dtpsy_0109
+366_NorB,Acidovorax sp. JHL-9 | 1276756.AUEX01000022_gene2607
+367_NorB,Acidovorax sp. KKS102 | 358220.C380_00925
+368_NorB,Acidovorax sp. MR-S7 | 1268622.AVS7_03873
+369_NorB,unclassified Acidovorax | EHL23016
+370_NorB,unclassified Acidovorax | KRA18456
+371_NorB,Comamonas aquatica NBRC 14918 | 1219031.BBJR01000038_gene3133
+372_NorB,Comamonas granuli NBRC 101663 | 1223521.BBJX01000002_gene2722
+373_NorB,Comamonas terrae | AYA57962
+374_NorB,Comamonas terrigena | BBL22625
+375_NorB,unclassified Hydrogenophaga | AOS80769
+376_NorB,unclassified Hydrogenophaga | KRC04530
+377_NorB,unclassified Melaminivora | AVO49295
+378_NorB,Ottowia oryzae | AVO34055
+379_NorB,unclassified Pelomonas | KQV61221
+380_NorB,unclassified Pelomonas | KQV92748
+381_NorB,unclassified Pelomonas | KQY81753
+382_NorB,Polaromonas naphthalenivorans CJ2 | 365044.Pnap_1328
+383_NorB,Pulveribacter suum | AVP56605
+384_NorB,Ramlibacter tataouinensis | AMO24031
+385_NorB,Rhodoferax ferrireducens | ABD69612
+386_NorB,Rhodoferax sediminis | QDL35874
+387_NorB,Rhodoferax sediminis | QDL36755
+388_NorB,Variovorax sp. PBL-E5 | tr|A0A6P2EC50|A0A6P2EC50_9BURK
+389_NorB,unclassified Variovorax | SCK21302
+390_NorB,Xenophilus azovorans DSM 13620 | 1123504.JQKD01000008_gene5360
+391_NorB,unclassified Duganella | KRB87183
+392_NorB,Herbaspirillum frisingense GSF30 | 864073.HFRIS_006533
+393_NorB,Herminiimonas arsenicoxydans | 204773.HEAR0048
+394_NorB,Herminiimonas arsenicoxydans | 204773.HEAR1667
+395_NorB,Janthinobacterium lividum | 29581.BW37_00467
+396_NorB,Janthinobacterium sp. HH01 | 1198452.Jab_2c10870
+397_NorB,unclassified Janthinobacterium | AMC33517
+398_NorB,unclassified Janthinobacterium | QAU35357
+399_NorB,Massilia sp. LC238 | 1502852.FG94_00874
+400_NorB,Massilia violaceinigra | ATQ76992
+401_NorB,unclassified Massilia | AKU20532
+402_NorB,unclassified Massilia | AXA90674
+403_NorB,unclassified Massilia | KQW94126
+404_NorB,unclassified Massilia | KQY16227
+405_NorB,unclassified Noviherbaspirillum | KRB67855
+406_NorB,Undibacterium parvum | AZP12414
+407_NorB,Chromobacterium violaceum ATCC 12472 | 243365.CV_3494
+408_NorB,Pseudogulbenkiania sp. NH8B | 748280.NH8B_1416
+409_NorB,unclassified Vogesella | SCK14592
+410_NorB,Alysiella crassa DSM 2578 | 1120980.JQKH01000009_gene1402
+411_NorB,Eikenella corrodens ATCC 23834 | 546274.EIKCOROL_00933
+412_NorB,Kingella denitrificans | EGC17927
+413_NorB,Kingella kingae ATCC 23330 | 887327.HMPREF0476_1034
+414_NorB,Kingella negevensis | tr|A0A238HJ02|A0A238HJ02_9NEIS
+415_NorB,Kingella oralis | EEP66740
+416_NorB,Neisseria arctica | KLT72577
+417_NorB,Neisseria bacilliformis | EGF08905
+418_NorB,Neisseria canis | VEF03090
+419_NorB,Neisseria cinerea ATCC 14685 | 546262.NEICINOT_05025
+420_NorB,Neisseria meningitidis | CCA44203
+421_NorB,Neisseria weaveri LMG 5135 | 1051985.l11_03480
+422_NorB,Neisseria zalophi | QEY26072
+423_NorB,unclassified Neisseria | KPN73283
+424_NorB,Simonsiella muelleri ATCC 29453 | 641147.HMPREF9021_01036
+425_NorB,Stenoxybacter acetivorans DSM 19021 | 1123296.JQKE01000088_gene2183
+426_NorB,Candidatus Gallionella acididurans | KXS31283
+427_NorB,Gallionella capsiferriformans ES-2 | 395494.Galf_0769
+428_NorB,Gallionella capsiferriformans ES-2 | 395494.Galf_2472
+429_NorB,Sideroxydans lithotrophicus ES-1 | 580332.Slit_1122
+430_NorB,Methylobacillus glycogenes JCM 2850 | 1236959.BAMT01000004_gene875
+431_NorB,unclassified Methylophilus | KQT33282
+432_NorB,Methylotenera mobilis JLW8 | 583345.Mmol_1051
+433_NorB,Nitrosomonas cryotolerans ATCC 49181 | 1131553.JIBI01000054_gene7
+434_NorB,Nitrosomonas europaea ATCC 19718 | 228410.NE2004
+435_NorB,Nitrosomonas sp. AL212 | 153948.NAL212_0539
+436_NorB,Nitrosospira multiformis ATCC 25196 | 323848.Nmul_A1255
+437_NorB,unclassified Denitratisoma | QDX81056
+438_NorB,unclassified Methyloversatilis | AOF81243
+439_NorB,Sulfuricella denitrificans skB26 | 1163617.SCD_n00457
+440_NorB,Thiobacillus denitrificans ATCC 25259 | 292415.Tbd_0561
+441_NorB,Thiobacillus denitrificans ATCC 25259 | 292415.Tbd_0823
+442_NorB,Thiobacillus thioparus DSM 505 | 1123393.KB891316_gene1316
+443_NorB,Dechloromonas agitata is5 | 1304883.KI912532_gene3173
+444_NorB,Dechloromonas aromatica RCB | 159087.Daro_3191
+445_NorB,Azospira oryzae PS | 640081.Dsui_3110
+446_NorB,Azovibrio restrictus DSM 23866 | 1121035.AUCH01000016_gene2129
+447_NorB,Rugosibacter aromaticivorans | AJP49583
+448_NorB,Azoarcus sp. KH32C | 748247.AZKH_1713
+449_NorB,Thauera sp. 27 | 305700.B447_00620
+450_NorB,Uliginosibacterium gangwonense DSM 18521 | 1123487.KB892835_gene3693
+451_NorB,Uliginosibacterium gangwonense DSM 18521 | 1123487.KB892857_gene2320
+452_NorB,Desulfococcus multivorans DSM 2059 | 1121405.dsmv_2519
+453_NorB,Desulfosarcina ovata | tr|A0A5K8A2L8|A0A5K8A2L8_9DELT
+454_NorB,Desulfosarcina widdelii | tr|A0A5K7YV86|A0A5K7YV86_9DELT
+455_NorB,Desulfovibrio alcoholivorans DSM 5433 | 1121438.JNJA01000017_gene1410
+456_NorB,Desulfovibrio cf. magneticus IFRC170 | 1304872.JAGC01000003_gene3048
+457_NorB,Desulfovibrio sp. FSS-1 | tr|A0A6V8LX08|A0A6V8LX08_9DELT
+458_NorB,Desulfovibrio sp. U5L | 596152.DesU5LDRAFT_0749
+459_NorB,Desulfovibrio sp. X2 | 941449.dsx2_1441
+460_NorB,Halodesulfovibrio sp. MK-HDV | tr|A0A7C8LYJ7|A0A7C8LYJ7_9DELT
+461_NorB,Geobacter bemidjiensis Bem | 404380.Gbem_1248
+462_NorB,Geobacter bemidjiensis Bem | 404380.Gbem_3901
+463_NorB,Geobacter daltonii FRC-32 | 316067.Geob_0018
+464_NorB,Geobacter metallireducens GS-15 | 269799.Gmet_3493
+465_NorB,Enhygromyxa salina | 215803.DB30_4199
+466_NorB,Myxococcales | tr|A0A2S9XE03|A0A2S9XE03_9DELT
+467_NorB,Myxococcales | tr|A0A2S9YF27|A0A2S9YF27_9DELT
+468_NorB,Anaeromyxobacter dehalogenans 2CP-C | 290397.Adeh_1403
+469_NorB,Anaeromyxobacter dehalogenans 2CP-C | 290397.Adeh_3178
+470_NorB,Anaeromyxobacter dehalogenans 2CP-C | 290397.Adeh_3720
+471_NorB,Anaeromyxobacter sp. Fw109-5 | 404589.Anae109_2427
+472_NorB,Anaeromyxobacter sp. Fw109-5 | 404589.Anae109_2758
+473_NorB,Anaeromyxobacter sp. Fw109-5 | 404589.Anae109_3848
+474_NorB,Cystobacter fuscus DSM 2262 | 1242864.D187_004323
+475_NorB,Sorangium cellulosum So0157-2 | 1254432.SCE1572_08535
+476_NorB,Sorangium cellulosum So ce56 | 448385.sce3281
+477_NorB,Sorangium cellulosum So ce56 | 448385.sce8584
+478_NorB,Desulfomonile tiedjei DSM 6799 | 706587.Desti_2522
+479_NorB,Syntrophobacter fumaroxidans MPOB | 335543.Sfum_2932
+480_NorB,Syntrophorhabdus sp. PtaU1.Bin050 | tr|A0A1V5CSY9|A0A1V5CSY9_9DELT
+481_NorB,Arcobacter sp. AF1028 | 1355368.JART01000020_gene1173
+482_NorB,Arcobacter butzleri ED-1 | 944546.ABED_1263
+483_NorB,Campylobacter concisus 13826 | 360104.CCC13826_1535
+484_NorB,Campylobacter gracilis RM3268 | 553220.CAMGR0001_1170
+485_NorB,Campylobacter showae CSUNSWCD | 1244083.CSUNSWCD_577
+486_NorB,Helicobacter pametensis ATCC 51478 | 1408442.JADE01000003_gene634
+487_NorB,Nitratifractor salsuginis DSM 16511 | 749222.Nitsa_1562
+488_NorB,Sulfurovum sp. NBC37-1 | 387093.SUN_0244
+489_NorB,Sulfuricurvum kujiense DSM 16994 | 709032.Sulku_2593
+490_NorB,Sulfurimonas autotrophica DSM 16294 | 563040.Saut_0415
+491_NorB,Sulfurimonas autotrophica DSM 16294 | 563040.Saut_0841
+492_NorB,Sulfurimonas denitrificans DSM 1251 | 326298.Suden_1984
+493_NorB,Sulfurimonas gotlandica GD1 | 929558.SMGD1_1414
+494_NorB,Nitratiruptor sp. SB155-2 | 387092.NIS_1795
+495_NorB,endosymbiont of Tevnia jerichonana (vent Tica) | 1049564.TevJSym_cv00020
+496_NorB,Solemya velum gill symbiont | 2340.JV46_05520
+497_NorB,gamma proteobacterium HdN1 | 83406.HDN1F_02620
+498_NorB,gamma proteobacterium HdN1 | 83406.HDN1F_20450
+499_NorB,gamma proteobacterium HdN1 | 83406.HDN1F_37100
+500_NorB,Gammaproteobacteria | CEO93746
+501_NorB,Gammaproteobacteria | KPJ79428
+502_NorB,unclassified Acidiferrobacter | AWP24500
+503_NorB,Oceanimonas sp. GK1 | 511062.GU3_00450
+504_NorB,Oceanisphaera profunda | ART82783
+505_NorB,unclassified Alishewanella | KRS21470
+506_NorB,Catenovulum agarivorans DS-2 | 1328313.DS2_17863
+507_NorB,Hydrocarboniclastica marina | QCF27579
+508_NorB,Lacimicrobium alkaliphilum | ALS98048
+509_NorB,Marinobacter hydrocarbonoclasticus VT8 | 351348.Maqu_3115
+510_NorB,Marinobacter nanhaiticus D15-8W | 626887.J057_13441
+511_NorB,Marinobacter santoriniensis NKSG1 | 1288826.MSNKSG1_10893
+512_NorB,Marinobacter sp. ELB17 | 270374.MELB17_04512
+513_NorB,Marinobacter sp. HL-58 | 1479237.JMLY01000001_gene3434
+514_NorB,unclassified Marinobacter | AZT84984
+515_NorB,Paraglaciecola arctica BSs20135 | 493475.GARC_0348
+516_NorB,Paraglaciecola polaris | GAC31028
+517_NorB,Colwellia psychrerythraea | 28229.ND2E_0126
+518_NorB,Thalassomonas actiniarum | KJE41428
+519_NorB,Ferrimonas futtsuensis DSM 18154 | 1121878.AUGL01000037_gene6
+520_NorB,Idiomarina loihiensis L2TR | 283942.IL0186
+521_NorB,unclassified Idiomarina | AVJ54925
+522_NorB,Pseudidiomarina atlantica | 1517416.IDAT_03085
+523_NorB,Pseudidiomarina piscicola | tr|A0A776AJC9|A0A776AJC9_9GAMM
+524_NorB,Pseudidiomarina salinarum | 435908.IDSA_04095
+525_NorB,Pseudidiomarina woesei | CUA86208
+526_NorB,Moritella viscosa | SHN96870
+527_NorB,Pseudoalteromonas donghaensis | AXV64005
+528_NorB,Pseudoalteromonas translucida TAC125 | 326442.PSHAa2417
+529_NorB,Psychromonas ossibalaenae ATCC BAA-1528 | 1278307.KB906970_gene1078
+530_NorB,Shewanella algae | AXQ14810
+531_NorB,Shewanella amazonensis SB2B | 326297.Sama_0728
+532_NorB,Shewanella denitrificans OS217 | 318161.Sden_1980
+533_NorB,Shewanella frigidimarina NCIMB 400 | 318167.Sfri_3253
+534_NorB,Shewanella halifaxensis HAW-EB4 | 458817.Shal_3554
+535_NorB,Shewanella loihica PV-4 | 323850.Shew_0657
+536_NorB,Shewanella morhuae | tr|A0A379ZUG9|A0A379ZUG9_9GAMM
+537_NorB,Shewanella putrefaciens CN-32 | 319224.Sputcn32_3072
+538_NorB,Shewanella sediminis HAW-EB3 | 425104.Ssed_3822
+539_NorB,Shewanella woodyi ATCC 51908 | 392500.Swoo_0761
+540_NorB,Cardiobacterium hominis | VEG77437
+541_NorB,Cardiobacterium valvarum | EHM56084
+542_NorB,Suttonella indologenes | tr|A0A380N0S2|A0A380N0S2_9GAMM
+543_NorB,Suttonella ornithocola | tr|A0A380MP55|A0A380MP55_9GAMM
+544_NorB,Cellvibrio japonicus Ueda107 | 498211.CJA_1546
+545_NorB,Cellvibrio sp. BR | 1134474.O59_004021
+546_NorB,unclassified Cellvibrio | ARU26135
+547_NorB,Marinimicrobium agarilyticum DSM 16975 | 1122194.AUHU01000006_gene612
+548_NorB,Haliea salexigens DSM 19537 | 1121937.AUHJ01000009_gene1560
+549_NorB,Porticoccus hydrocarbonoclasticus MCTG13d | 1415778.JQMM01000001_gene1092
+550_NorB,Dasania marina DSM 21967 | 1121374.KB891585_gene2002
+551_NorB,Allochromatium vinosum DSM 180 | 572477.Alvin_0931
+552_NorB,Candidatus Nitrosacidococcus tergens | tr|A0A7G1QC90|A0A7G1QC90_9GAMM
+553_NorB,Candidatus Nitrosoglobus terrae | BAW79484
+554_NorB,Nitrosococcus halophilus Nc 4 | 472759.Nhal_1556
+555_NorB,Nitrosococcus watsonii C-113 | 105559.Nwat_0420
+556_NorB,Nitrosococcus watsonii C-113 | 105559.Nwat_1266
+557_NorB,Thiocapsa marina 5811 | 768671.ThimaDRAFT_0800
+558_NorB,Thiocystis violascens DSM 198 | 765911.Thivi_3685
+559_NorB,Acidihalobacter prosperus | AOU98761
+560_NorB,Alkalilimnicola ehrlichii MLHE-1 | 187272.Mlg_2118
+561_NorB,Thioalkalivibrio nitratireducens DSM 14787 | 1255043.TVNIR_1656
+562_NorB,Thioalkalivibrio thiocyanodenitrificans ARhD 1 | 713586.KB900536_gene2904
+563_NorB,Wenzhouxiangella marina | AKS42932
+564_NorB,Woeseia oceani | ANO52552
+565_NorB,Woeseia oceani | ANO52746
+566_NorB,Citrobacter freundii complex | QCA17739
+567_NorB,Shimwellia blattae DSM 4481 = NBRC 105725 | 630626.EBL_c06360
+568_NorB,Aquicella lusitana | VVC74605
+569_NorB,Aquicella siphonis | VVC76980
+570_NorB,Legionella anisa str. Linanisette | 1230343.CANP01000051_gene3840
+571_NorB,Legionella birminghamensis | KTC67763
+572_NorB,Legionella cincinnatiensis | KTC83314
+573_NorB,Legionella drancourtii LLAP12 | 658187.LDG_7541
+574_NorB,Legionella erythra | KTC94532
+575_NorB,Legionella feeleii | KTC96762
+576_NorB,Legionella gratiana | KTD11905
+577_NorB,Legionella israelensis | QBS10499
+578_NorB,Legionella jordanis | KTD16241
+579_NorB,Legionella lansingensis DSM 19556 = ATCC 49751 | 1122164.JHWF01000031_gene2289
+580_NorB,Legionella massiliensis | 1034943.BN1094_03759
+581_NorB,Legionella moravica DSM 19234 | 1122165.AUHS01000018_gene1948
+582_NorB,Legionella nautarum | KTD36360
+583_NorB,Legionella pneumophila str. Paris | 297246.lpp2189
+584_NorB,Legionella quinlivanii | KTD51647
+585_NorB,Legionella sainthelensi ATCC 35248 = DSM 19231 | 1408445.JHXP01000029_gene1848
+586_NorB,Legionella spiritensis | KTD61817
+587_NorB,Legionella spiritensis | SNV29204
+588_NorB,Legionella wadsworthii | tr|A0A378LRI4|A0A378LRI4_9GAMM
+589_NorB,Legionella maceachernii | SKA28839
+590_NorB,Tatlockia micdadei | KTD27605
+591_NorB,Methylocaldum marinum | BBA35709
+592_NorB,Methylococcus capsulatus str. Bath | 243233.MCA2400
+593_NorB,Methylomicrobium album BG8 | 686340.Metal_0798
+594_NorB,Methylomicrobium album BG8 | 686340.Metal_2760
+595_NorB,Methylomonas koyamae | ATG91014
+596_NorB,Methylomonas lenta | OAI19446
+597_NorB,Methylomonas methanica MC09 | 857087.Metme_2511
+598_NorB,Methylotuvimicrobium buryatense | QCW81807
+599_NorB,Methylovulum psychrotolerans | tr|A0A2S5CIE7|A0A2S5CIE7_9GAMM
+600_NorB,Methylohalobius crimeensis 10Ki | 1283300.ATXB01000002_gene2687
+601_NorB,Solimonas variicoloris DSM 15731 | 1123256.KB907931_gene2748
+602_NorB,Alcanivorax dieselolei B5 | 930169.B5T_03073
+603_NorB,Alcanivorax pacificus | EKE34968
+604_NorB,Endozoicomonas elysicola | 305900.GV64_22140
+605_NorB,Hahella chejuensis KCTC 2396 | 349521.HCH_00713
+606_NorB,Hahella ganghwensis DSM 17046 | 1121935.AQXX01000124_gene60
+607_NorB,Hahella ganghwensis DSM 17046 | 1121935.AQXX01000144_gene4385
+608_NorB,Halomonas jeotgali Hwa | 1238190.AMQY01000023_gene470
+609_NorB,Halomonas lutea DSM 23508 | 1121943.KB900002_gene3075
+610_NorB,Halomonas sp. PBN3 | 1397528.Q671_11575
+611_NorB,Halomonas xinjiangensis | 1166948.JPZL01000003_gene755
+612_NorB,Kangiella koreensis DSM 16069 | 523791.Kkor_2038
+613_NorB,Kangiella sediminilitoris | AOE49250
+614_NorB,Amphritea japonica ATCC BAA-1530 | 1278309.KB907109_gene3271
+615_NorB,Marinospirillum minutulum DSM 6287 | 1122212.AULO01000007_gene2194
+616_NorB,Neptunomonas japonica DSM 18939 | 1122599.AUGR01000017_gene2979
+617_NorB,Osedax symbiont Rs1 | EPJ43350
+618_NorB,Gynuella sunshinyii | AJQ94349
+619_NorB,Actinobacillus delphinicola | VEJ09445
+620_NorB,Actinobacillus succinogenes 130Z | 339671.Asuc_1602
+621_NorB,Aggregatibacter aphrophilus NJ8700 | 634176.NT05HA_1475
+622_NorB,Avibacterium volantium | VEB23988
+623_NorB,Gallibacterium anatis UMN179 | 1005058.UMN179_01663
+624_NorB,Haemophilus massiliensis | 1461579.CCNK01000031_gene1025
+625_NorB,[Pasteurella] aerogenes-[Pasteurella] mairii-[Actinobacillus] rossii complex | VEG69922
+626_NorB,Moraxella catarrhalis O35E | 857571.EA1_00670
+627_NorB,Moraxella caviae | tr|A0A1T0A7T0|A0A1T0A7T0_9GAMM
+628_NorB,Moraxella nonliquefaciens | OBX49075
+629_NorB,Moraxella osloensis | QCR84490
+630_NorB,Psychrobacter sp. 1501(2011) | 1002339.HMPREF9373_1777
+631_NorB,Psychrobacter sp. TB67 | 1055815.AYYA01000004_gene1826
+632_NorB,Pseudomonas aeruginosa | 287.DR97_3492
+633_NorB,Pseudomonas alcaligenes NBRC 14159 | 1215092.PA6_013_00260
+634_NorB,Pseudomonas caeni DSM 24390 | 521719.ATXQ01000007_gene1118
+635_NorB,Pseudomonas chlororaphis | 587753.EY04_17760
+636_NorB,Pseudomonas fluorescens group | AHZ67228
+637_NorB,Pseudomonas mandelii PD30 | 1419583.V466_04125
+638_NorB,Pseudomonas mandelii PD30 | 1419583.V466_31330
+639_NorB,Pseudomonas mendocina NK-01 | 1001585.MDS_0132
+640_NorB,Pseudomonas pelagia CL-AP6 | 1323663.AROI01000022_gene844
+641_NorB,Pseudomonas reinekei | SDO27969
+642_NorB,Pseudomonas saudiphocaensis | 1499686.BN1079_01801
+643_NorB,Pseudomonas sp. ATCC 13867 | 1294143.H681_24750
+644_NorB,Pseudomonas sp. Chol1 | 440512.C211_03710
+645_NorB,Pseudomonas sp. M1 | 95619.PM1_0229805
+646_NorB,Pseudomonas sp. RL | 1452718.JBOY01000045_gene1014
+647_NorB,Pseudomonas stutzeri ATCC 14405 = CCUG 16156 | 32042.PstZobell_08250
+648_NorB,unclassified Pseudomonas | EPJ75913
+649_NorB,Salinisphaera shabanensis E1L3A | 1033802.SSPSH_002848
+650_NorB,unclassified Salinisphaera | AWN17139
+651_NorB,Methylophaga aminisulfidivorans MP | 1026882.MAMP_02723
+652_NorB,Methylophaga nitratireducenticrescens | 754476.Q7A_433
+653_NorB,Methylophaga nitratireducenticrescens | 754476.Q7A_487
+654_NorB,unclassified Beggiatoa | EDN69502
+655_NorB,Photobacterium damselae subsp. damselae CIP 102761 | 675817.VDA_001352
+656_NorB,Photobacterium jeanii | OAN13018
+657_NorB,Photobacterium piscicola | tr|A0A1T5HXM5|A0A1T5HXM5_9GAMM
+658_NorB,Photobacterium profundum SS9 | 298386.PBPRB1054
+659_NorB,unclassified Vibrio | OBT14007
+660_NorB,Ahniella affigens | AVP97464
+661_NorB,Dyella ginsengisoli LA-4 | 1234364.AMSF01000050_gene2017
+662_NorB,Dyella jiangningensis | AHX15533
+663_NorB,unclassified Frateuria | KRE89068
+664_NorB,Rhodanobacter denitrificans | 666685.R2APBS1_2875
+665_NorB,Rhodanobacter fulvus Jip2 | 1163408.UU9_03952
+666_NorB,Rhodanobacter fulvus Jip2 | 1163408.UU9_06139
+667_NorB,Rhodanobacter fulvus Jip2 | 1163408.UU9_09517
+668_NorB,Rhodanobacter glycinis | QEE25792
+669_NorB,Rhodanobacter spathiphylli B39 | 1163407.UU7_08950
+670_NorB,Rhodanobacter spathiphylli B39 | 1163407.UU7_09730
+671_NorB,Rhodanobacter thiooxydans LCS2 | 1163409.UUA_04773
+672_NorB,unclassified Rhodanobacter | EIL86843
+673_NorB,unclassified Rhodanobacter | KQX96617
+674_NorB,unclassified Rhodanobacter | KZC15375
+675_NorB,Arenimonas composti TR7-09 = DSM 18010 | 1121013.P873_04475
+676_NorB,Arenimonas donghaensis | KFL36655
+677_NorB,Arenimonas metalli CF5-1 | 1384056.N787_07190
+678_NorB,Arenimonas oryziterrae DSM 21050 = YC6267 | 1121015.N789_02985
+679_NorB,Luteimonas granuli | QDW65603
+680_NorB,Luteimonas huabeiensis HB2 | 1442599.JAAN01000005_gene930
+681_NorB,unclassified Luteimonas | AOH35199
+682_NorB,Lysobacter arseniciresistens ZS79 | 913325.N799_13180
+683_NorB,Lysobacter concretionis Ko07 = DSM 16239 | 1122185.N792_12675
+684_NorB,Lysobacter daejeonensis GH1-9 | 1385517.N800_12735
+685_NorB,Lysobacter defluvii IMMIB APB-9 = DSM 18482 | 1385515.N791_00470
+686_NorB,Lysobacter defluvii IMMIB APB-9 = DSM 18482 | 1385515.N791_02850
+687_NorB,Lysobacter dokdonensis DS-58 | 1300345.LF41_333
+688_NorB,Lysobacter lycopersici | QDQ73325
+689_NorB,Lysobacter maris | AWV06382
+690_NorB,Lysobacter oculi | AXA84951
+691_NorB,unclassified Lysobacter | KRA72083
+692_NorB,Pseudoxanthomonas suwonensis J43 | 935567.JAES01000002_gene719
+693_NorB,unclassified Pseudoxanthomonas | KRA45391
+694_NorB,Stenotrophomonas daejeonensis | KRG82909
+695_NorB,Stenotrophomonas nitritireducens | KRG56973
+696_NorB,Thermomonas fusca DSM 15424 | 1123377.AUIV01000035_gene586
+697_NorB,unclassified Thermomonas | QDA58197
+698_NorB,Xanthomonas citri group | ASR42325
+699_NorB,Tepidiphilus margaritifer DSM 15129 | 1123354.AUDR01000013_gene524
+700_NorB,Bacteriovorax sp. BAL6_X | 1201290.M902_2484
+701_NorB,Bdellovibrio bacteriovorus HD100 | 264462.Bd2599
+702_NorB,Bdellovibrio bacteriovorus | ASD63009
+703_NorB,Bdellovibrio bacteriovorus | KYG62321
+704_NorB,unclassified Bdellovibrio | QDK44833
+705_NorB,Silvanigrellales | BBH52270
+706_NorB,Ghiorsea bivora | 1485545.JQLW01000007_gene711
+707_NorB,Geobacter | SNB47261
+708_NorB,Archangiaceae | AKJ00991
+709_NorB,Archangiaceae | AKJ01501
+710_NorB,Archangiaceae | ATB43141
+711_NorB,Enhygromyxa | KIG14148
+712_NorB,Polyangiaceae | AUX21516
+713_NorB,Polyangiaceae | AUX22549
+714_NorB,Campylobacter | EJP75600
+715_NorB,Actinomyces | AMD87677
+716_NorB,Corynebacterium | APT91104
+717_NorB,Corynebacterium | QAU53347
+718_NorB,Mycobacterium | AMW17811
+719_NorB,Mycobacterium | KMV15091
+720_NorB,Mycobacterium | OBI46534
+721_NorB,Mycobacterium | OBJ71355
+722_NorB,Mycobacterium | QEN14327
+723_NorB,Mycolicibacterium | VEG49012
+724_NorB,Georgenia | QDC26847
+725_NorB,Brachybacterium | GAP80186
+726_NorB,Arsenicicoccus | AKT50410
+727_NorB,Intrasporangium | EWT06483
+728_NorB,Tetrasphaera | CCH74215
+729_NorB,Tetrasphaera | CCH80437
+730_NorB,Kocuria | QCY32952
+731_NorB,Ornithinimicrobium | AXH95188
+732_NorB,Ornithinimicrobium | QDO88915
+733_NorB,Actinoplanes | KUL41691
+734_NorB,Micromonospora | AYF30067
+735_NorB,Micromonospora | SCG70346
+736_NorB,Tessaracoccus | AQP44128
+737_NorB,Streptomyces | AZM62591
+738_NorB,Streptomyces | GAT80013
+739_NorB,Streptomyces | QEV42878
+740_NorB,Calothrix | BAZ10011
+741_NorB,Fischerella | BAZ65448
+742_NorB,Scytonema | KYC36711
+743_NorB,Nostocales cyanobacterium HT-58-2 | ARV57972
+744_NorB,Oscillatoriaceae | OAB56909
+745_NorB,Halomicronema | ASC72422
+746_NorB,Thermosynechococcus | QEQ01644
+747_NorB,Anoxybacillus | ANB61703
+748_NorB,Bacillus | ALC90163
+749_NorB,Calidifontibacillus | EKN67270
+750_NorB,Calidifontibacillus | KEF39073
+751_NorB,Cytobacillus | KQL18366
+752_NorB,Paenibacillus | AOZ94694
+753_NorB,Paenibacillus | KQO17292
+754_NorB,Staphylococcus | BAS45047
+755_NorB,Thermoactinomyces | QCV55426
+756_NorB,Levilactobacillus | AYM03706
+757_NorB,Paucilactobacillus | BAP86400
+758_NorB,Secundilactobacillus | KRK47391
+759_NorB,Lactococcus | AYG01777
+760_NorB,Clostridiales bacterium PH28_bin88 | KKM12079
+761_NorB,Limnochorda | BAS28583
+762_NorB,Propionispora | CUH95646
+763_NorB,Verrucomicrobia bacterium LP2A | 478741.JAFS01000001_gene1673
+764_NorB,Verrucomicrobia | QBG48205
+765_NorB,Methylacidiphilum fumariolicum SolV | 1156937.MFUM_970100
+766_NorB,Methylacidiphilum infernorum V4 | 481448.Minf_0042
+767_NorB,Candidatus Methylomirabilis oxyfera | 671143.DAMO_1889
+768_NorB,Candidatus Methylomirabilis oxyfera | 671143.DAMO_2434
+769_NorB,Candidatus Methylomirabilis oxyfera | 671143.DAMO_2437

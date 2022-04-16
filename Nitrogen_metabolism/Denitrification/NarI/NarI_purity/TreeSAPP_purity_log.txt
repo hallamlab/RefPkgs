@@ -1,0 +1,132 @@
+[2022-04-15 09:38:44] INFO: 
+##			Beginning purity analysis			##
+
+[2022-04-15 09:38:44] INFO: Arguments used:
+-n 4 -r NarI_UniProt_update/final_outputs/NarI_build.pkl --extra_info ../TIGRFAM_info.tsv -i ../TIGRFAM_seed_named.faa --output NarI_UniProt_update/NarI_purity
+
+[2022-04-15 09:38:44] DEBUG: Sequences appear to be 'prot'.
+
+[2022-04-15 09:38:45] DEBUG: Continuing with stage 'clean'
+
+[2022-04-15 09:38:45] DEBUG: Read 61111 headers from FASTA file '../TIGRFAM_seed_named.faa'.
+
+[2022-04-15 09:38:46] INFO: 
+##				Assigning sequences with TreeSAPP				##
+
+
+[2022-04-15 09:38:46] INFO: Arguments used:
+-i /root/data/imman/uniprot_data/NarI_UniProt_update/NarI_purity/intermediates/clean/TIGRFAM_seed_named_formatted.fasta -o /root/data/imman/uniprot_data/NarI_UniProt_update/NarI_purity/intermediates/assign/ -m prot -n 4 -t NarI --refpkg_dir /root/data/imman/uniprot_data/NarI_UniProt_update/final_outputs --overwrite --delete
+
+[2022-04-15 09:38:46] DEBUG: Continuing with stage 'clean'
+
+[2022-04-15 09:38:46] DEBUG: Gathering reference package files... 
+[2022-04-15 09:38:47] DEBUG: done.
+
+[2022-04-15 09:38:48] INFO: Reading and formatting /root/data/imman/uniprot_data/NarI_UniProt_update/NarI_purity/intermediates/clean/TIGRFAM_seed_named_formatted.fasta... 
+[2022-04-15 09:38:48] DEBUG: /root/data/imman/uniprot_data/NarI_UniProt_update/NarI_purity/intermediates/clean/TIGRFAM_seed_named_formatted.fasta read by pyfastx in 0.31 seconds.
+
+[2022-04-15 09:38:48] DEBUG: The following sequences were removed due to bad characters:
+TIGR04481_SELENO_ntcb02/5-434
+TIGR01917_GP|14717791|gb|AAC43574.2/5-435
+TIGR00476_gi|342732113|ref|YP_004770952./1-307
+TIGR01918_GP|11065689|emb|CAC14301.1/5-435
+TIGR04481_gi|310659538|ref/3-427
+TIGR00476_gi|158320767|ref|YP_001513274./1-309
+TIGR00476_gi|317128844|ref|YP_004095126./1-311
+TIGR01918_GP|14717791|gb|AAC43574.2/5-435
+TIGR04483_gi|153933895|ref|YP_001384638./2-239
+TIGR01917_GP|11065689|emb|CAC14301.1/5-435
+TIGR04483_gi|158319089|ref|YP_001511596./4-241
+TIGR00476_gi|319956066|ref|YP_004167329./1-307
+
+[2022-04-15 09:38:48] INFO: done.
+
+[2022-04-15 09:38:48] INFO: 	TreeSAPP will analyze the 61099 sequences found in input.
+
+[2022-04-15 09:38:48] INFO: Searching for marker proteins in ORFs using hmmsearch.
+
+[2022-04-15 09:38:49] INFO: Parsing HMMER domain tables for high-quality matches... 
+[2022-04-15 09:38:49] INFO: done.
+
+[2022-04-15 09:38:49] DEBUG: 	Initial alignments:	6
+	Alignments discarded:	3
+	Fragmented alignments:	2
+	Inversions detected:	0
+	Alignments scaffolded:	0
+	Multi-alignments:	0
+	Sequences identified:	3
+
+	Number of markers identified:
+		NarI	3
+
+[2022-04-15 09:38:49] INFO: Loading homologous sequences identified... 
+[2022-04-15 09:38:49] DEBUG: 61096 sequences were excluded after synchronizing FASTA.
+
+[2022-04-15 09:38:49] INFO: done.
+
+[2022-04-15 09:38:49] DEBUG: Instantiating the PQuery instances... 
+[2022-04-15 09:38:49] DEBUG: done.
+
+[2022-04-15 09:38:49] INFO: Extracting and grouping the quality-controlled sequences... 
+[2022-04-15 09:38:49] INFO: done.
+
+[2022-04-15 09:38:49] DEBUG: Number of query sequences in each marker's group:
+NarI	0	3
+
+
+[2022-04-15 09:38:49] INFO: Writing the grouped sequences to FASTA files... 
+[2022-04-15 09:38:49] INFO: done.
+
+[2022-04-15 09:38:50] DEBUG: 	hmmalign time required: 0.0:0.0:0.91
+
+[2022-04-15 09:38:50] DEBUG: Read 2407 headers from FASTA file '/root/data/imman/uniprot_data/NarI_UniProt_update/NarI_purity/intermediates/assign/intermediates/align/NarI_hmm_purified_group0.mfa'.
+
+[2022-04-15 09:44:48] INFO: Parsing the EPA-NG outputs... 
+[2022-04-15 09:44:48] INFO: done.
+
+[2022-04-15 09:44:48] DEBUG: 	JPlace parsing time required: 0.0:0.0:0.21
+
+[2022-04-15 09:44:48] DEBUG: 	1 JPlace files.
+
+[2022-04-15 09:44:48] INFO: Selecting the optimal query placements... 
+[2022-04-15 09:45:03] INFO: done.
+
+[2022-04-15 09:45:03] DEBUG: 	PQuery parsing time required: 0.0:0.0:14.44
+
+[2022-04-15 09:45:03] DEBUG: 	3 sequences placed into trees by EPA-NG.
+
+[2022-04-15 09:45:03] INFO: Filtering low-quality placements... 
+[2022-04-15 09:45:03] DEBUG: Maximum distance threshold for 'NarI' set to 9.029483000000006.
+
+[2022-04-15 09:45:03] INFO: done.
+
+[2022-04-15 09:45:03] DEBUG: NarI	low_lwr	0
+NarI	distant	0
+NarI	big_pendant	0
+NarI	big_branch	0
+NarI	svm	0
+
+[2022-04-15 09:45:03] INFO: Generating inputs for iTOL... 
+[2022-04-15 09:45:03] INFO: done.
+
+[2022-04-15 09:45:03] DEBUG: A colours_style.txt file does not yet exist for markers:
+	NarI
+
+[2022-04-15 09:45:03] DEBUG: A colours_strip.txt file does not yet exist for markers:
+	NarI
+
+[2022-04-15 09:45:03] INFO: 
+Summarizing assignments for reference package NarI
+
+[2022-04-15 09:45:17] INFO: Ortholog	Hits	Leaves	Tree-coverage	Description
+--------------------------------------------------------------------------------
+TIGR00351	3	3	0.1	respiratory nitrate reductase, gamma subunit
+
+
+[2022-04-15 09:45:17] DEBUG: TIGR00351:
+	Escherichia coli str. K-12 substr. W3110 | 316407.1742384
+	Bacillus subtilis subsp. subtilis str. 168 | 224308.BSU37250
+	Shigella flexneri 2a str. 301 | 198214.SF1230
+
+[2022-04-15 09:45:17] INFO: TreeSAPP has finished successfully.
+

@@ -1,0 +1,2408 @@
+LABELS
+SEPARATOR COMMA
+DATA
+#NODE_ID,LABEL
+1_NarI,Root | 1046724.KB889897_gene3336
+2_NarI,Root | 1232666.JANE01000081_gene386
+3_NarI,Root | 1344012.ATMI01000001_gene1205
+4_NarI,Root | 1345697.M493_03980
+5_NarI,Root | 1345697.M493_09435
+6_NarI,Root | 1345697.M493_17770
+7_NarI,Root | 1434929.X946_2683
+8_NarI,Root | 1449126.JQKL01000020_gene3325
+9_NarI,Root | 1449126.JQKL01000042_gene1027
+10_NarI,Root | 265729.GS18_0216615
+11_NarI,Root | 469595.CSAG_01366
+12_NarI,Root | 644968.DFW101_0370
+13_NarI,Root | 644968.DFW101_2043
+14_NarI,Root | 644968.DFW101_2186
+15_NarI,Thermoplasmatales | tr|T0LVM9|T0LVM9_9ARCH
+16_NarI,bacterium JKG1 | 1128421.JAGA01000003_gene3578
+17_NarI,Geothrix fermentans DSM 14018 | 1121920.AUAU01000008_gene1616
+18_NarI,Acidimicrobium ferrooxidans DSM 10331 | 525909.Afer_0971
+19_NarI,Ilumatobacter coccineus YM16-304 | 1313172.YM304_39270
+20_NarI,Candidatus Microthrix parvicella RN1 | 1229780.BN381_60088
+21_NarI,Acidothermus cellulolyticus 11B | 351607.Acel_0506
+22_NarI,Actinomycetales | tr|A0A2N1JI46|A0A2N1JI46_9ACTO
+23_NarI,Actinomycetales | tr|A0A4Q4D1T0|A0A4Q4D1T0_9ACTO
+24_NarI,Actinomycetales | tr|A0A7X7HW73|A0A7X7HW73_9ACTO
+25_NarI,Actinomycetales | tr|A0A7X7JCB5|A0A7X7JCB5_9ACTO
+26_NarI,Actinomycetales | tr|A0A7X7NLL7|A0A7X7NLL7_9ACTO
+27_NarI,Actinomycetales | tr|A0A7X9CA62|A0A7X9CA62_9ACTO
+28_NarI,Actinomycetales | tr|A0A847KL59|A0A847KL59_9ACTO
+29_NarI,Actinobaculum sp. 352 | tr|A0A3S0AAR8|A0A3S0AAR8_9ACTO
+30_NarI,Actinobaculum sp. oral taxon 183 str. F0552 | 1227261.HMPREF0043_01369
+31_NarI,Actinomyces bowdenii | tr|A0A3P1V805|A0A3P1V805_9ACTO
+32_NarI,Actinomyces bowdenii | tr|A0A853EKA6|A0A853EKA6_9ACTO
+33_NarI,Actinomyces dentalis DSM 19115 | 1120941.AUBL01000035_gene2204
+34_NarI,Actinomyces graevenitzii | tr|A0A2N6V4S6|A0A2N6V4S6_9ACTO
+35_NarI,Actinomyces israelii DSM 43320 | 1120944.JONS01000014_gene1084
+36_NarI,Actinomyces marmotae | tr|A0A6M8B7Q4|A0A6M8B7Q4_9ACTO
+37_NarI,Actinomyces massiliensis F0489 | 1125718.HMPREF1318_1519
+38_NarI,Actinomyces respiraculi | tr|A0A7T0PWW6|A0A7T0PWW6_9ACTO
+39_NarI,Actinomyces sp. 2119 | tr|A0A418UUA6|A0A418UUA6_9ACTO
+40_NarI,Actinomyces sp. 432 | tr|A0A7L5AMQ4|A0A7L5AMQ4_9ACTO
+41_NarI,Actinomyces sp. HMT897 | tr|A0A7T8E264|A0A7T8E264_9ACTO
+42_NarI,Actinomyces sp. HPA0247 | 1203556.HMPREF1478_00891
+43_NarI,Actinomyces sp. ICM39 | 1105029.HMPREF1137_0973
+44_NarI,Actinomyces sp. ICM47 | 936548.HMPREF1136_0356
+45_NarI,Actinomyces sp. ICM54 | tr|Z4XI25|Z4XI25_9ACTO
+46_NarI,Actinomyces sp. ICM58 | tr|J2ZEP2|J2ZEP2_9ACTO
+47_NarI,Actinomyces sp. S4-C9 | 1219581.HMPREF1628_00750
+48_NarI,Actinomyces sp. S6-Spd3 | 1284680.HMPREF1627_02945
+49_NarI,Actinomyces sp. oral taxon 170 str. F0386 | 762963.HMPREF9056_00989
+50_NarI,Actinomyces sp. oral taxon 171 str. F0337 | 706439.HMPREF9057_00758
+51_NarI,Actinomyces sp. oral taxon 172 str. F0311 | 1321775.HMPREF1980_01672
+52_NarI,Actinomyces sp. oral taxon 175 str. F0384 | 944560.HMPREF9058_0941
+53_NarI,Actinomyces sp. oral taxon 180 str. F0310 | 888052.HMPREF9006_1163
+54_NarI,Actinomyces sp. oral taxon 448 str. F0400 | 888056.HMPREF9062_2249
+55_NarI,Actinomyces sp. oral taxon 848 str. F0332 | 649743.HMPREF0972_01555
+56_NarI,Actinomyces sp. oral taxon 849 str. F0330 | 653386.HMPREF0975_02110
+57_NarI,Actinomyces timonensis DSM 23838 | 521393.JH806634_gene2205
+58_NarI,Actinomyces urogenitalis DSM 15434 | 525246.HMPREF0058_2196
+59_NarI,Actinomyces viscosus | tr|A0A3S4Z1V3|A0A3S4Z1V3_ACTVI
+60_NarI,Ancrocorticia populi | tr|A0A2V1K852|A0A2V1K852_9ACTO
+61_NarI,Flaviflexus salsibiostraticola | tr|A0A3Q8WU55|A0A3Q8WU55_9ACTO
+62_NarI,Flaviflexus sp. H23T48 | tr|A0A3Q9G7F3|A0A3Q9G7F3_9ACTO
+63_NarI,Gleimia europaea ACS-120-V-Col10b | 883069.HMPREF9238_00635
+64_NarI,Gleimia hominis | tr|A0A2N6UR58|A0A2N6UR58_9ACTO
+65_NarI,Mobiluncus curtisii ATCC 43063 | 548479.HMPREF0573_11449
+66_NarI,Mobiluncus curtisii | tr|A0A7Y0UHN0|A0A7Y0UHN0_9ACTO
+67_NarI,Mobiluncus holmesii | tr|E6M3V4|E6M3V4_9ACTO
+68_NarI,Schaalia cardiffensis F0333 | 888050.HMPREF9004_1060
+69_NarI,Schaalia georgiae DSM 6843 | 1120942.AUBM01000001_gene1304
+70_NarI,Schaalia odontolytica ATCC 17982 | 411466.ACTODO_00946
+71_NarI,Scrofimicrobium canadense | tr|A0A6N7W6V1|A0A6N7W6V1_9ACTO
+72_NarI,Varibaculum cambriense DSM 15806 | 1123488.ATUF01000002_gene759
+73_NarI,Varibaculum cambriense DORA_20 | 1403948.Q618_VCMC00003G0286
+74_NarI,Varibaculum cambriense | tr|A0A2I1YA19|A0A2I1YA19_9ACTO
+75_NarI,Winkia neuii subsp. neuii DSM 8576 | 1120945.ATUW01000007_gene798
+76_NarI,Winkia neuii BV029A5 | 888439.HMPREF9240_01126
+77_NarI,Winkia sp. C62 | tr|A0A8I0KR37|A0A8I0KR37_9ACTO
+78_NarI,Catenulispora acidiphila DSM 44928 | 479433.Caci_4475
+79_NarI,Catenulispora acidiphila DSM 44928 | 479433.Caci_5803
+80_NarI,Tomitella biformata AHU 1821 | 1448389.BAVQ01000072_gene2680
+81_NarI,Tomitella biformata AHU 1821 | 1448389.BAVQ01000088_gene1144
+82_NarI,Corynebacteriales | tr|A0A516X0H4|A0A516X0H4_9ACTN
+83_NarI,Corynebacterium accolens ATCC 49725 | 525260.HMPREF0276_0285
+84_NarI,Corynebacterium ammoniagenes DSM 20306 | 649754.HMPREF0281_02027
+85_NarI,Corynebacterium amycolatum | tr|A0A7U0DG82|A0A7U0DG82_CORAY
+86_NarI,Corynebacterium atypicum | 191610.CATYP_06580
+87_NarI,Corynebacterium camporealensis | tr|A0A0F6TB86|A0A0F6TB86_9CORY
+88_NarI,Corynebacterium casei LMG S-19264 | 1285583.CCASEI_08715
+89_NarI,Corynebacterium diphtheriae PW8 | 698964.CDPW8_0484
+90_NarI,Corynebacterium doosanense CAU 212 = DSM 45436 | 558173.CDOO_05885
+91_NarI,Corynebacterium durum F0235 | 1035195.HMPREF9997_00381
+92_NarI,Corynebacterium efficiens YS-314 | 196164.23493132
+93_NarI,Corynebacterium freiburgense DSM 45254 | 1121360.AUAQ01000015_gene1918
+94_NarI,Corynebacterium freneyi | tr|A0A8F3P1W8|A0A8F3P1W8_9CORY
+95_NarI,Corynebacterium glucuronolyticum | tr|A0A7T4EGN6|A0A7T4EGN6_9CORY
+96_NarI,Corynebacterium glutamicum ATCC 13032 | 196627.cg1341
+97_NarI,Corynebacterium halotolerans YIM 70093 = DSM 44683 | 1121362.A605_06040
+98_NarI,Corynebacterium imitans | 156978.CIMIT_04945
+99_NarI,Corynebacterium lizhenjunii | tr|A0A7T0PBB3|A0A7T0PBB3_9CORY
+100_NarI,Corynebacterium lubricantis DSM 45231 | 1121363.KB902182_gene1610
+101_NarI,Corynebacterium marinum | tr|A0A847H9Y2|A0A847H9Y2_9CORY
+102_NarI,Corynebacterium maris DSM 45190 | 1224163.B841_05650
+103_NarI,Corynebacterium matruchotii ATCC 14266 | 553207.HMPREF0299_5391
+104_NarI,Corynebacterium phoceense | tr|A0A540R7L4|A0A540R7L4_9CORY
+105_NarI,Corynebacterium pilosum DSM 20521 | 1121366.KB892439_gene446
+106_NarI,Corynebacterium pollutisoli | tr|A0A1X7JLF6|A0A1X7JLF6_9CORY
+107_NarI,Corynebacterium pseudotuberculosis | tr|A0A806R1X3|A0A806R1X3_CORPS
+108_NarI,Corynebacterium pyruviciproducens ATCC BAA-1742 | 1125779.HMPREF1219_00309
+109_NarI,Corynebacterium pyruviciproducens | tr|A0A2I1VUL3|A0A2I1VUL3_9CORY
+110_NarI,Corynebacterium sp. J010B-136 | tr|A0A2S8CJW5|A0A2S8CJW5_9CORY
+111_NarI,Corynebacterium sp. KPL1989 | 1203622.HMPREF1290_00628
+112_NarI,Corynebacterium sp. YIM 101343 | tr|A0A3S0A1L3|A0A3S0A1L3_9CORY
+113_NarI,Corynebacterium striatum ATCC 6940 | 525268.HMPREF0308_0116
+114_NarI,Corynebacterium tapiri | tr|A0A5C4U5F5|A0A5C4U5F5_9CORY
+115_NarI,Corynebacterium vitaeruminis DSM 20294 | 1224164.B843_02315
+116_NarI,Corynebacterium xerosis | tr|A0A0M2XLC8|A0A0M2XLC8_9CORY
+117_NarI,Dietzia alimentaria 72 | 1077144.AGFF01000005_gene2151
+118_NarI,Dietzia maris | tr|A0A166PHU0|A0A166PHU0_9ACTN
+119_NarI,Dietzia sp. | tr|A0A352QYG9|A0A352QYG9_9ACTN
+120_NarI,Dietzia sp. ANT_WB102 | tr|A0A5A9ZLW2|A0A5A9ZLW2_9ACTN
+121_NarI,Gordonia aichiensis NBRC 108223 | 1220583.GOACH_03_03210
+122_NarI,Gordonia amarae NBRC 15530 | 1075090.GOAMR_28_00280
+123_NarI,Gordonia amicalis CCMA-559 | 1386969.AWTB01000007_gene2734
+124_NarI,Gordonia bronchialis DSM 43247 | 526226.Gbro_3702
+125_NarI,Gordonia desulfuricans | tr|A0A7K3LKP7|A0A7K3LKP7_9ACTN
+126_NarI,Gordonia hirsuta DSM 44140 = NBRC 16056 | 1121927.GOHSU_06_00330
+127_NarI,Gordonia iterans | tr|A0A2S0KIM9|A0A2S0KIM9_9ACTN
+128_NarI,Gordonia jinghuaiqii | tr|A0A7D7LQC6|A0A7D7LQC6_9ACTN
+129_NarI,Gordonia malaquae NBRC 108250 | 1223542.GM1_002_01140
+130_NarI,Gordonia neofelifaecis NRRL B-59395 | 644548.SCNU_09724
+131_NarI,Gordonia pseudoamarae | tr|A0A857LDB2|A0A857LDB2_9ACTN
+132_NarI,Gordonia rhizosphera NBRC 16068 | 1108045.GORHZ_051_00050
+133_NarI,Gordonia rubripertincta (Rhodococcus corallinus) | tr|A0A7D7V0X1|A0A7D7V0X1_GORRU
+134_NarI,Gordonia sihwensis NBRC 108236 | 1223544.GSI01S_08_01110
+135_NarI,Gordonia sp. | tr|A0A2E1GE36|A0A2E1GE36_9ACTN
+136_NarI,Gordonia sp. | tr|A0A433CKI4|A0A433CKI4_9ACTN
+137_NarI,Gordonia sp. | tr|A0A847ICY1|A0A847ICY1_9ACTN
+138_NarI,Gordonia sp. SID5947 | tr|A0A7K2HY24|A0A7K2HY24_9ACTN
+139_NarI,Gordonia sputi NBRC 100414 | 1089453.GOSPT_122_00230
+140_NarI,Gordonia terrae | 2055.JNXA01000013_gene2735
+141_NarI,Gordonia terrae | tr|A0A6G7W486|A0A6G7W486_9ACTN
+142_NarI,Skermania sp. ID1734 | tr|A0A554UWZ6|A0A554UWZ6_9ACTN
+143_NarI,Hoyosella subflava DQS3-9A1 | 443218.AS9A_2095
+144_NarI,Mycobacterium asiaticum DSM 44297 | 1265310.CCBD010000039_gene2257
+145_NarI,Mycobacterium avium subsp. paratuberculosis K-10 | 262316.MAP_2617c
+146_NarI,Mycobacterium celatum | tr|A0A1X1RHL8|A0A1X1RHL8_MYCCE
+147_NarI,Mycobacterium celatum | tr|A0A1X1RUG0|A0A1X1RUG0_MYCCE
+148_NarI,Mycobacterium colombiense CECT 3035 | 1041522.MCOL_V216928
+149_NarI,Mycobacterium colombiense | tr|A0A329KDX2|A0A329KDX2_9MYCO
+150_NarI,Mycobacterium diernhoferi | tr|A0A1Q4HFP8|A0A1Q4HFP8_9MYCO
+151_NarI,Mycobacterium frederiksbergense | tr|A0A6H0RYJ4|A0A6H0RYJ4_9MYCO
+152_NarI,Mycobacterium genavense ATCC 51234 | 1408452.JAGZ01000001_gene3719
+153_NarI,Mycobacterium genavense ATCC 51234 | 1408452.JAGZ01000001_gene3720
+154_NarI,Mycobacterium genavense ATCC 51234 | 1408452.JAGZ01000003_gene4932
+155_NarI,Mycobacterium goodii (Mycolicibacterium goodii) | tr|A0A2M9F5D3|A0A2M9F5D3_MYCGD
+156_NarI,Mycobacterium heckeshornense | tr|A0A2G8B2S4|A0A2G8B2S4_9MYCO
+157_NarI,Mycobacterium heckeshornense | tr|A0A2G8B5P0|A0A2G8B5P0_9MYCO
+158_NarI,Mycobacterium helveticum | tr|A0A557XRX3|A0A557XRX3_9MYCO
+159_NarI,Mycobacterium intracellulare ATCC 13950 | 487521.OCU_12130
+160_NarI,Mycobacterium kansasii 732 | 1299327.I546_0617
+161_NarI,Mycobacterium kansasii 732 | 1299327.I546_1623
+162_NarI,Mycobacterium kansasii ATCC 12478 | 557599.MKAN_07305
+163_NarI,Mycobacterium kansasii ATCC 12478 | 557599.MKAN_19250
+164_NarI,Mycobacterium kubicae | tr|A0A8E4KXC6|A0A8E4KXC6_9MYCO
+165_NarI,Mycobacterium malmoense | tr|A0A8G1F0H4|A0A8G1F0H4_MYCMA
+166_NarI,Mycobacterium pallens | tr|A0A8F9SDR0|A0A8F9SDR0_9MYCO
+167_NarI,Mycobacterium paragordonae | tr|A0A386U9N9|A0A386U9N9_9MYCO
+168_NarI,Mycobacterium parascrofulaceum ATCC BAA-614 | 525368.HMPREF0591_5099
+169_NarI,Mycobacterium rufum | 318424.EU78_08355
+170_NarI,Mycobacterium sp. | tr|A0A3S0T1A6|A0A3S0T1A6_9MYCO
+171_NarI,Mycobacterium sp. | tr|A0A522P1Y0|A0A522P1Y0_9MYCO
+172_NarI,Mycobacterium sp. | tr|A0A5C7MY79|A0A5C7MY79_9MYCO
+173_NarI,Mycobacterium sp. 360MFTsu5.1 | 1172186.KB911463_gene3390
+174_NarI,Mycobacterium sp. JLS | 164757.Mjls_1286
+175_NarI,Mycobacterium sp. KBS0706 | tr|A0A554U1B2|A0A554U1B2_9MYCO
+176_NarI,Mycobacterium sp. UM_WGJ | 1370120.AUWR01000012_gene1253
+177_NarI,Mycobacterium sp. UNC280MFTsu5.1 | 1449048.JQKU01000011_gene3095
+178_NarI,Mycobacterium sp. URHD0025 | 1298864.AUEQ01000008_gene2445
+179_NarI,Mycobacterium sp. URHD0025 | 1298864.AUEQ01000009_gene2661
+180_NarI,Mycobacterium triplex | 47839.CCAU010000015_gene4217
+181_NarI,Mycobacterium tuberculosis H37Ra | 419947.MRA_1175
+182_NarI,Mycobacterium tuberculosis H37Ra | 419947.MRA_1747
+183_NarI,Mycobacterium vicinigordonae | tr|A0A7D6HWP9|A0A7D6HWP9_9MYCO
+184_NarI,Mycobacterium virginiense | tr|A0A2S8C4I9|A0A2S8C4I9_9MYCO
+185_NarI,Mycobacterium xenopi | tr|X8C4Z3|X8C4Z3_MYCXE
+186_NarI,Mycolicibacter kumamotonensis | tr|A0A1X0E9S5|A0A1X0E9S5_9MYCO
+187_NarI,Mycolicibacter sinensis | 875328.JDM601_1152
+188_NarI,Mycolicibacterium agri (Mycobacterium agri) | tr|A0A2A7MUL3|A0A2A7MUL3_MYCAG
+189_NarI,Mycolicibacterium brumae | tr|A0A2G5PCK2|A0A2G5PCK2_9MYCO
+190_NarI,Mycolicibacterium celeriflavum | tr|A0A1X0BR62|A0A1X0BR62_9MYCO
+191_NarI,Mycolicibacterium chubuense NBB4 | 710421.Mycch_3945
+192_NarI,Mycolicibacterium conceptionense | tr|A0A0U1DVX5|A0A0U1DVX5_9MYCO
+193_NarI,Mycolicibacterium fortuitum (Mycobacterium fortuitum) | tr|A0A0N9YEX9|A0A0N9YEX9_MYCFO
+194_NarI,Mycolicibacterium fortuitum (Mycobacterium fortuitum) | tr|A0A7Y4PVJ3|A0A7Y4PVJ3_MYCFO
+195_NarI,Mycolicibacterium gilvum PYR-GCK | 350054.Mflv_2159
+196_NarI,Mycolicibacterium mageritense DSM 44476 = CIP 104973 | 1209984.BN978_05422
+197_NarI,Mycolicibacterium mucogenicum | tr|A0A4R5WKJ0|A0A4R5WKJ0_9MYCO
+198_NarI,Mycolicibacterium neoaurum (Mycobacterium neoaurum) | tr|A0A8E5RG36|A0A8E5RG36_MYCNE
+199_NarI,Mycolicibacterium peregrinum (Mycobacterium peregrinum) | tr|A0A4Z0HG03|A0A4Z0HG03_MYCPR
+200_NarI,Mycolicibacterium peregrinum (Mycobacterium peregrinum) | tr|A0A4Z0HMX6|A0A4Z0HMX6_MYCPR
+201_NarI,Mycolicibacterium phlei RIVM601174 | 1150599.MPHLEI_24424
+202_NarI,Mycolicibacterium rhodesiae NBB3 | 710685.MycrhN_6023
+203_NarI,Mycolicibacterium septicum DSM 44393 | 1341646.CBMO010000108_gene4304
+204_NarI,Mycolicibacterium septicum DSM 44393 | 1341646.CBMO010000128_gene3306
+205_NarI,Mycolicibacterium septicum | tr|A0A895CP44|A0A895CP44_9MYCO
+206_NarI,Mycolicibacterium smegmatis MC2 155 | 246196.MSMEI_5005
+207_NarI,Mycolicibacterium sp. | tr|A0A433BJN1|A0A433BJN1_9MYCO
+208_NarI,Mycolicibacterium sp. | tr|A0A433C0G9|A0A433C0G9_9MYCO
+209_NarI,Mycolicibacterium sp. CBMA 247 | tr|A0A7K1KBM8|A0A7K1KBM8_9MYCO
+210_NarI,Mycolicibacterium sp. CBMA 247 | tr|A0A7K1KFD5|A0A7K1KFD5_9MYCO
+211_NarI,Mycolicibacterium sp. GF69 | tr|A0A329M266|A0A329M266_9MYCO
+212_NarI,Mycolicibacterium sp. P1-5 | tr|A0A5A7Z3L1|A0A5A7Z3L1_9MYCO
+213_NarI,Mycolicibacterium sp. P9-64 | tr|A0A5A7WGH7|A0A5A7WGH7_9MYCO
+214_NarI,Mycolicibacterium thermoresistibile ATCC 19527 | 1078020.KEK_13333
+215_NarI,Mycolicibacterium tusciae JS617 | 710687.KI912270_gene2068
+216_NarI,Mycolicibacterium vaccae ATCC 25954 | 1194972.MVAC_27509
+217_NarI,Mycolicibacterium vanbaalenii PYR-1 | 350058.Mvan_4543
+218_NarI,Antrihabitans stalactiti | tr|A0A848KCH7|A0A848KCH7_9NOCA
+219_NarI,Nocardia aobensis NBRC 100429 | 1206720.BAFQ01000094_gene2331
+220_NarI,Nocardia aobensis NBRC 100429 | 1206720.BAFQ01000148_gene3805
+221_NarI,Nocardia asteroides NBRC 15531 | 1110697.NCAST_20_01560
+222_NarI,Nocardia asteroides NBRC 15531 | 1110697.NCAST_33_01740
+223_NarI,Nocardia brasiliensis ATCC 700358 | 1133849.O3I_008240
+224_NarI,Nocardia brasiliensis ATCC 700358 | 1133849.O3I_022165
+225_NarI,Nocardia brasiliensis ATCC 700358 | 1133849.O3I_034755
+226_NarI,Nocardia brasiliensis ATCC 700358 | 1133849.O3I_041175
+227_NarI,Nocardia brasiliensis | tr|A0A6G9XTF8|A0A6G9XTF8_9NOCA
+228_NarI,Nocardia brasiliensis | tr|A0A6G9XY13|A0A6G9XY13_9NOCA
+229_NarI,Nocardia carnea NBRC 14403 | 1206726.BAFV01000013_gene627
+230_NarI,Nocardia carnea NBRC 14403 | 1206726.BAFV01000055_gene3946
+231_NarI,Nocardia concava NBRC 100430 | 1206741.BAFX01000010_gene6790
+232_NarI,Nocardia concava NBRC 100430 | 1206741.BAFX01000010_gene6797
+233_NarI,Nocardia concava NBRC 100430 | 1206741.BAFX01000109_gene7466
+234_NarI,Nocardia concava NBRC 100430 | 1206741.BAFX01000205_gene280
+235_NarI,Nocardia coubleae | tr|A0A846W6L4|A0A846W6L4_9NOCA
+236_NarI,Nocardia cyriacigeorgica GUH-2 | 1127134.NOCYR_2525
+237_NarI,Nocardia cyriacigeorgica GUH-2 | 1127134.NOCYR_2939
+238_NarI,Nocardia cyriacigeorgica GUH-2 | 1127134.NOCYR_4276
+239_NarI,Nocardia cyriacigeorgica | tr|A0A2L2JRU6|A0A2L2JRU6_9NOCA
+240_NarI,Nocardia cyriacigeorgica | tr|A0A6M0KMD7|A0A6M0KMD7_9NOCA
+241_NarI,Nocardia cyriacigeorgica | tr|A0A6P1CNB8|A0A6P1CNB8_9NOCA
+242_NarI,Nocardia cyriacigeorgica | tr|A0A6P1D449|A0A6P1D449_9NOCA
+243_NarI,Nocardia exalbida NBRC 100660 | 1206729.BAFZ01000089_gene2524
+244_NarI,Nocardia farcinica IFM 10152 | 247156.NFA_45520
+245_NarI,Nocardia flavorosea | tr|A0A846Y8Y6|A0A846Y8Y6_9NOCA
+246_NarI,Nocardia flavorosea | tr|A0A846YRC8|A0A846YRC8_9NOCA
+247_NarI,Nocardia gamkensis | tr|A0A7X6L4C3|A0A7X6L4C3_9NOCA
+248_NarI,Nocardia higoensis NBRC 100133 | 1206730.BAGA01000114_gene5280
+249_NarI,Nocardia iowensis | tr|A0A8F5NN54|A0A8F5NN54_NOCIO
+250_NarI,Nocardia jiangxiensis NBRC 101359 | 1206731.BAGB01000012_gene2691
+251_NarI,Nocardia jiangxiensis NBRC 101359 | 1206731.BAGB01000028_gene683
+252_NarI,Nocardia jiangxiensis NBRC 101359 | 1206731.BAGB01000076_gene6739
+253_NarI,Nocardia niigatensis NBRC 100131 | 1206733.BAGC01000044_gene1101
+254_NarI,Nocardia niigatensis NBRC 100131 | 1206733.BAGC01000053_gene3090
+255_NarI,Nocardia niigatensis NBRC 100131 | 1206733.BAGC01000113_gene7449
+256_NarI,Nocardia nova SH22a | 1415166.NONO_c14450
+257_NarI,Nocardia nova SH22a | 1415166.NONO_c40110
+258_NarI,Nocardia nova | tr|A0A2S6ADP6|A0A2S6ADP6_9NOCA
+259_NarI,Nocardia otitidiscaviarum NBRC 14405 | 1206732.BAGD01000100_gene4446
+260_NarI,Nocardia otitidiscaviarum NBRC 14405 | 1206732.BAGD01000273_gene6092
+261_NarI,Nocardia otitidiscaviarum NBRC 14405 | 1206732.BAGD01000278_gene6379
+262_NarI,Nocardia pneumoniae NBRC 100136 | 1206737.BAGF01000060_gene3996
+263_NarI,Nocardia pneumoniae NBRC 100136 | 1206737.BAGF01000150_gene6150
+264_NarI,Nocardia rhamnosiphila | 426716.JOAJ01000005_gene2580
+265_NarI,Nocardia rhamnosiphila | 426716.JOAJ01000007_gene4393
+266_NarI,Nocardia seriolae | tr|A0A0B8NBG9|A0A0B8NBG9_9NOCA
+267_NarI,Nocardia seriolae | tr|A0A0B8NHJ8|A0A0B8NHJ8_9NOCA
+268_NarI,Nocardia sp. BMG111209 | 1160137.KB907307_gene4264
+269_NarI,Nocardia sp. BMG111209 | 1160137.KB907308_gene7684
+270_NarI,Nocardia sp. BMG51109 | 1056816.JAFQ01000004_gene240
+271_NarI,Nocardia sp. BMG51109 | 1056816.JAFQ01000004_gene509
+272_NarI,Nocardia sp. BMG51109 | 1056816.JAFQ01000004_gene5694
+273_NarI,Nocardia sp. CNY236 | 1169152.AXVD01000026_gene2674
+274_NarI,Nocardia sp. CS682 | tr|A0A4P7GXI5|A0A4P7GXI5_9NOCA
+275_NarI,Nocardia sp. CT2-14 | tr|A0A6I3KUG3|A0A6I3KUG3_9NOCA
+276_NarI,Nocardia sp. MDA0666 | tr|A0A2T2ZGR5|A0A2T2ZGR5_9NOCA
+277_NarI,Nocardia sp. SYP-A9097 | tr|A0A6I2FRL7|A0A6I2FRL7_9NOCA
+278_NarI,Nocardia sp. WCH-YHL-001 | tr|A0A7D6YZJ0|A0A7D6YZJ0_9NOCA
+279_NarI,Nocardia sp. WCH-YHL-001 | tr|A0A7D6ZK07|A0A7D6ZK07_9NOCA
+280_NarI,Nocardia speluncae | tr|A0A846XPS9|A0A846XPS9_9NOCA
+281_NarI,Nocardia stercoris | tr|A0A3M2LCP9|A0A3M2LCP9_9NOCA
+282_NarI,Nocardia takedensis NBRC 100417 | 1206735.BAGG01000047_gene2027
+283_NarI,Nocardia takedensis NBRC 100417 | 1206735.BAGG01000095_gene4165
+284_NarI,Nocardia tengchongensis | tr|A0A8E5R9U4|A0A8E5R9U4_9NOCA
+285_NarI,Nocardia terpenica | tr|A0A6G9Z3Z3|A0A6G9Z3Z3_9NOCA
+286_NarI,Nocardia terrae | tr|A0A7K1UW46|A0A7K1UW46_9NOCA
+287_NarI,Nocardia terrae | tr|A0A7K1V3E4|A0A7K1V3E4_9NOCA
+288_NarI,Nocardia terrae | tr|A0A7K1V761|A0A7K1V761_9NOCA
+289_NarI,Nocardia testacea NBRC 100365 | 1206739.BAGJ01000135_gene743
+290_NarI,Nocardia testacea NBRC 100365 | 1206739.BAGJ01000136_gene6371
+291_NarI,Nocardia transvalensis NBRC 15921 | 1206744.BAGL01000050_gene917
+292_NarI,Nocardia transvalensis NBRC 15921 | 1206744.BAGL01000066_gene4855
+293_NarI,Nocardia transvalensis NBRC 15921 | 1206744.BAGL01000070_gene5163
+294_NarI,Nocardia uniformis | tr|A0A849C3T0|A0A849C3T0_9NOCA
+295_NarI,Nocardia vermiculata | tr|A0A846XYR3|A0A846XYR3_9NOCA
+296_NarI,Nocardia vermiculata | tr|A0A846Y266|A0A846Y266_9NOCA
+297_NarI,Nocardia veterana NBRC 100344 | 1206743.BAGM01000101_gene2519
+298_NarI,Nocardia yunnanensis | tr|A0A386Z7G6|A0A386Z7G6_9NOCA
+299_NarI,Nocardia yunnanensis | tr|A0A386ZLN8|A0A386ZLN8_9NOCA
+300_NarI,Rhodococcus defluvii | 1323361.JPOC01000040_gene4231
+301_NarI,Rhodococcus defluvii | 1323361.JPOC01000040_gene4235
+302_NarI,Rhodococcus hoagii 103S | 685727.REQ_04200
+303_NarI,Rhodococcus hoagii 103S | 685727.REQ_04240
+304_NarI,Rhodococcus globerulus | tr|A0A8F7L665|A0A8F7L665_RHOGO
+305_NarI,Rhodococcus koreensis | tr|A0A897D564|A0A897D564_9NOCA
+306_NarI,Rhodococcus oryzae | tr|A0A4U0QQD2|A0A4U0QQD2_9NOCA
+307_NarI,Rhodococcus pyridinivorans SB3094 | 1435356.Y013_01375
+308_NarI,Rhodococcus qingshengii | tr|A0A069J647|A0A069J647_9NOCA
+309_NarI,Rhodococcus rhodnii LMG 5362 | 1273125.Rrhod_1908
+310_NarI,Rhodococcus rhodochrous ATCC 21198 | 1429046.RR21198_1930
+311_NarI,Rhodococcus ruber Chol-4 | 1240349.ANGC01000012_gene428
+312_NarI,Rhodococcus sp. | tr|A0A520FI29|A0A520FI29_RHOSO
+313_NarI,Rhodococcus sp. | tr|A0A7X7GHA9|A0A7X7GHA9_RHOSO
+314_NarI,Rhodococcus sp. 14-2483-1-2 | tr|A0A260VSJ7|A0A260VSJ7_9NOCA
+315_NarI,Rhodococcus sp. 15-2388-1-1a | tr|A0A260SHV9|A0A260SHV9_9NOCA
+316_NarI,Rhodococcus sp. ACPA4 | tr|A0A2A3FCB5|A0A2A3FCB5_9NOCA
+317_NarI,Rhodococcus sp. BL-253-APC-6A1W | tr|A0A7X9R2X8|A0A7X9R2X8_9NOCA
+318_NarI,Rhodococcus sp. KBW08 | tr|A0A3N7DWR5|A0A3N7DWR5_9NOCA
+319_NarI,Rhodococcus sp. PAMC28705 | tr|A0A4P7RFX6|A0A4P7RFX6_9NOCA
+320_NarI,Rhodococcus sp. R79 | tr|A0A897DDK3|A0A897DDK3_9NOCA
+321_NarI,Rhodococcus sp. R79 | tr|A0A897DEE6|A0A897DEE6_9NOCA
+322_NarI,Rhodococcus sp. UNC363MFTsu5.1 | 1449069.JMLO01000001_gene1926
+323_NarI,Rhodococcus sp. UNC363MFTsu5.1 | 1449069.JMLO01000001_gene1983
+324_NarI,Rhodococcus sp. UNC363MFTsu5.1 | 1449069.JMLO01000019_gene2778
+325_NarI,Rhodococcus spelaei | tr|A0A541B3U9|A0A541B3U9_9NOCA
+326_NarI,Rhodococcus spelaei | tr|A0A541B7V5|A0A541B7V5_9NOCA
+327_NarI,Rhodococcus triatomae BKS 15-14 | 1278078.G419_01840
+328_NarI,Rhodococcus triatomae BKS 15-14 | 1278078.G419_06882
+329_NarI,Rhodococcus triatomae BKS 15-14 | 1278078.G419_13236
+330_NarI,Smaragdicoccus niigatensis DSM 44881 = NBRC 103563 | 1123258.AQXZ01000019_gene3226
+331_NarI,Frankia sp. BMG5.11 | tr|A0A4R1D7H5|A0A4R1D7H5_9ACTN
+332_NarI,Blastococcus saxobsidens DD2 | 1146883.BLASA_4870
+333_NarI,Blastococcus sp. AZ43 | tr|A0A4Y9NGI5|A0A4Y9NGI5_9ACTN
+334_NarI,Blastococcus sp. TF02-9 | tr|A0A366ZM84|A0A366ZM84_9ACTN
+335_NarI,Blastococcus sp. TF02A-26 | tr|A0A366ZR73|A0A366ZR73_9ACTN
+336_NarI,Blastococcus sp. TF02A-30 | tr|A0A367A9X9|A0A367A9X9_9ACTN
+337_NarI,Blastococcus sp. TF02A_35 | tr|A0A4Y9M9K2|A0A4Y9M9K2_9ACTN
+338_NarI,Candidatus Blastococcus massiliensis AP3 | 1211815.CBYP010000018_gene2843
+339_NarI,Geodermatophilus sp. DF01_2 | tr|A0A4Y9N8C8|A0A4Y9N8C8_9ACTN
+340_NarI,Geodermatophilus sp. TF02-6 | tr|A0A366ZEH4|A0A366ZEH4_9ACTN
+341_NarI,Glycomyces albidus | tr|A0A6L5G3W7|A0A6L5G3W7_9ACTN
+342_NarI,Glycomyces arizonensis DSM 44726 | 1121926.AXWO01000002_gene1360
+343_NarI,Glycomyces artemisiae | tr|A0A850CC17|A0A850CC17_9ACTN
+344_NarI,Glycomyces paridis | tr|A0A4S8PFF2|A0A4S8PFF2_9ACTN
+345_NarI,Stackebrandtia nassauensis DSM 44728 | 446470.Snas_5210
+346_NarI,Jatrophihabitans sp. | tr|A0A522QD76|A0A522QD76_9ACTN
+347_NarI,Jiangella aurantiaca | tr|A0A4R5AIK0|A0A4R5AIK0_9ACTN
+348_NarI,Phytoactinopolyspora halotolerans | tr|A0A6L9S6I3|A0A6L9S6I3_9ACTN
+349_NarI,Timonella senegalensis JC301 | 1095772.CAHH01000041_gene1264
+350_NarI,Beutenbergia cavernae DSM 12333 | 471853.Bcav_2806
+351_NarI,Georgenia sp. Z294 | tr|A0A5B8AQL3|A0A5B8AQL3_9MICO
+352_NarI,Georgenia sp. Z443 | tr|A0A5B8BYT6|A0A5B8BYT6_9MICO
+353_NarI,Georgenia sp. Z446 | tr|A0A552WWT6|A0A552WWT6_9MICO
+354_NarI,Georgenia subflava | tr|A0A6N7ED55|A0A6N7ED55_9MICO
+355_NarI,Georgenia thermotolerans | tr|A0A7J5UKD0|A0A7J5UKD0_9MICO
+356_NarI,Brevibacterium aurantiacum | tr|A0A3Q9NTU8|A0A3Q9NTU8_9MICO
+357_NarI,Brevibacterium sp. VCM10 | 1381751.JAJB01000031_gene845
+358_NarI,Cellulomonas denverensis | tr|A0A7X6KSX4|A0A7X6KSX4_9CELL
+359_NarI,Cellulomonas fimi ATCC 484 | 590998.Celf_1331
+360_NarI,Cellulomonas fimi ATCC 484 | 590998.Celf_3099
+361_NarI,Cellulomonas fimi | tr|A0A7Y0QHH7|A0A7Y0QHH7_CELFI
+362_NarI,Cellulomonas flavigena DSM 20109 | 446466.Cfla_1760
+363_NarI,Cellulomonas gilvus ATCC 13127 | 593907.Celgi_3021
+364_NarI,Cellulomonas sp. H30R-01 | tr|A0A6C0FIP3|A0A6C0FIP3_9CELL
+365_NarI,Cellulomonas sp. H30R-01 | tr|A0A6C0FRN3|A0A6C0FRN3_9CELL
+366_NarI,Cellulomonas sp. HLT2-17 | tr|A0A4V1ZHS0|A0A4V1ZHS0_9CELL
+367_NarI,Cellulomonas sp. HZM | 1454010.JEOE01000002_gene462
+368_NarI,Cellulomonas sp. JZ18 | tr|A0A6I6A781|A0A6I6A781_9CELL
+369_NarI,Cellulomonas sp. KRMCY2 | 1304865.JAGF01000001_gene2535
+370_NarI,Cellulomonas sp. URHE0023 | 1380354.JIAN01000009_gene3658
+371_NarI,Cellulomonas sp. WB94 | tr|A0A2T9XQ06|A0A2T9XQ06_9CELL
+372_NarI,Cellulomonas sp. zg-ZUI157 | tr|A0A8E8EUB7|A0A8E8EUB7_9CELL
+373_NarI,Cellulomonas sp. zg-ZUI188 | tr|A0A8E5SJ32|A0A8E5SJ32_9CELL
+374_NarI,Oerskovia turbata | 1713.JOFV01000003_gene1463
+375_NarI,Oerskovia turbata | 1713.JOFV01000013_gene975
+376_NarI,Paraoerskovia marina DSM 21750 | 1122933.JNIY01000004_gene2059
+377_NarI,Brachybacterium avium | tr|A0A220U9J7|A0A220U9J7_9MICO
+378_NarI,Brachybacterium faecium DSM 4810 | 446465.Bfae_18690
+379_NarI,Brachybacterium paraconglomeratum LC44 | 1064537.AGSO01000013_gene926
+380_NarI,Brachybacterium saurashtrense | tr|A0A345YN48|A0A345YN48_9MICO
+381_NarI,Brachybacterium sp. Z12 | tr|A0A7G9TNP7|A0A7G9TNP7_9MICO
+382_NarI,Brachybacterium squillarum M-6-3 | 1074488.AGBX01000007_gene1825
+383_NarI,Brachybacterium vulturis | tr|A0A291GN44|A0A291GN44_9MICO
+384_NarI,Brachybacterium vulturis | tr|A0A291GPJ2|A0A291GPJ2_9MICO
+385_NarI,Flexivirga caeni | tr|A0A3M9MGY0|A0A3M9MGY0_9MICO
+386_NarI,Leekyejoonella antrihumi | tr|A0A563DZW1|A0A563DZW1_9MICO
+387_NarI,Yimella sp. RIT 621 | tr|A0A4Q3XHR2|A0A4Q3XHR2_9MICO
+388_NarI,Yimella sp. cx-51 | tr|A0A8A5YUM0|A0A8A5YUM0_9MICO
+389_NarI,Dermatophilaceae | tr|A0A7Y5JTD7|A0A7Y5JTD7_9MICO
+390_NarI,Austwickia chelonae NBRC 105200 | 1184607.AUCHE_16_01400
+391_NarI,Austwickia sp. | tr|A0A7T9E387|A0A7T9E387_9MICO
+392_NarI,Kineosphaera limosa NBRC 100340 | 1184609.KILIM_079_00180
+393_NarI,Mobilicoccus pelagius NBRC 104925 | 1089455.MOPEL_135_01270
+394_NarI,Intrasporangiaceae bacterium URHB0013 | 1380370.JIBA01000013_gene1248
+395_NarI,Intrasporangiaceae | tr|A0A7C6LRI1|A0A7C6LRI1_9MICO
+396_NarI,Intrasporangiaceae | tr|A0A847MUP0|A0A847MUP0_9MICO
+397_NarI,Arsenicicoccus bolidensis DSM 15745 | 1121017.AUFG01000024_gene2097
+398_NarI,Arsenicicoccus sp. MKL-02 | tr|A0A6I3ICG4|A0A6I3ICG4_9MICO
+399_NarI,Intrasporangium calvum DSM 43043 | 710696.Intca_0383
+400_NarI,Intrasporangium oryzae NRRL B-24470 | 1386089.N865_21270
+401_NarI,Janibacter limosus | tr|A0A4P6MN26|A0A4P6MN26_9MICO
+402_NarI,Janibacter melonis | tr|A0A5P8FL73|A0A5P8FL73_9MICO
+403_NarI,Janibacter sp. HTCC2649 | 313589.JNB_13983
+404_NarI,Janibacter terrae | tr|A0A3D1LAB0|A0A3D1LAB0_9MICO
+405_NarI,Knoellia aerolata DSM 18566 | 1385519.N801_06940
+406_NarI,Knoellia flava TL1 | 1385518.N798_01230
+407_NarI,Knoellia sinensis KCTC 19936 | 1385520.N802_12585
+408_NarI,Knoellia subterranea KCTC 19937 | 1385521.N803_12155
+409_NarI,Phycicoccus elongatus Lp2 | 1193181.BN10_750007
+410_NarI,Phycicoccus jejuensis | 367299.JOEE01000003_gene2822
+411_NarI,Phycicoccus sp. | tr|A0A7Y0CSQ7|A0A7Y0CSQ7_9MICO
+412_NarI,Phycicoccus sp. | tr|A0A7Y0H7Y6|A0A7Y0H7Y6_9MICO
+413_NarI,Phycicoccus sp. HDW14 | tr|A0A6G8FZK8|A0A6G8FZK8_9MICO
+414_NarI,Terracoccus sp. 273MFTsu3.1 | 1172188.KB911827_gene4266
+415_NarI,Tetrasphaera sp. F2B08 | tr|A0A6I1G5G3|A0A6I1G5G3_9MICO
+416_NarI,Jonesia denitrificans DSM 20603 | 471856.Jden_1238
+417_NarI,Jonesia quinghaiensis DSM 15701 | 1122130.AUHN01000008_gene1478
+418_NarI,Microbacteriaceae | tr|A0A522NR86|A0A522NR86_9MICO
+419_NarI,Agromyces atrinae | tr|A0A4Q2M6A2|A0A4Q2M6A2_9MICO
+420_NarI,Agromyces intestinalis | tr|A0A5C1YFY1|A0A5C1YFY1_9MICO
+421_NarI,Agromyces italicus DSM 16388 | 1120959.ATXF01000009_gene666
+422_NarI,Agromyces sp. CFH 90414 | tr|A0A6I2F999|A0A6I2F999_9MICO
+423_NarI,Agromyces sp. G127AT | tr|A0A8B0S3L0|A0A8B0S3L0_9MICO
+424_NarI,Agromyces sp. MMS17-SY077 | tr|A0A6I4NU47|A0A6I4NU47_9MICO
+425_NarI,Agromyces sp. NEAU-184 | tr|A0A5S4V576|A0A5S4V576_9MICO
+426_NarI,Cryobacterium flavum | tr|A0A4R8VEQ7|A0A4R8VEQ7_9MICO
+427_NarI,Cryobacterium levicorallinum | tr|A0A4R8VSA2|A0A4R8VSA2_9MICO
+428_NarI,Cryobacterium luteum | tr|A0A1H8DGL2|A0A1H8DGL2_9MICO
+429_NarI,Cryobacterium mesophilum | tr|A0A4V3I9P0|A0A4V3I9P0_9MICO
+430_NarI,Cryobacterium roopkundense | 1001240.GY21_07790
+431_NarI,Cryobacterium sp. Hb1 | tr|A0A4Y8KB92|A0A4Y8KB92_9MICO
+432_NarI,Cryobacterium sp. Hh14 | tr|A0A4R8ZUW9|A0A4R8ZUW9_9MICO
+433_NarI,Cryobacterium sp. Hh14 | tr|A0A4R9A1G9|A0A4R9A1G9_9MICO
+434_NarI,Cryobacterium sp. Hh38 | tr|A0A5F0GUP6|A0A5F0GUP6_9MICO
+435_NarI,Cryobacterium sp. Hh4 | tr|A0A4V3IUP4|A0A4V3IUP4_9MICO
+436_NarI,Cryobacterium sp. Hz9 | tr|A0A4R8UTM8|A0A4R8UTM8_9MICO
+437_NarI,Cryobacterium sp. MDB1-18-1 | tr|A0A6D1VC85|A0A6D1VC85_9MICO
+438_NarI,Cryobacterium sp. MDB2-B | tr|A0A4R8VU95|A0A4R8VU95_9MICO
+439_NarI,Cryobacterium sp. MDT1-3 | tr|A0A4R8WHE4|A0A4R8WHE4_9MICO
+440_NarI,Cryobacterium sp. RHLS22-1 | tr|A0A4R8W067|A0A4R8W067_9MICO
+441_NarI,Cryobacterium sp. RHLT2-21 | tr|A0A4R8W3L1|A0A4R8W3L1_9MICO
+442_NarI,Cryobacterium sp. Sr39 | tr|A0A4R9ACM3|A0A4R9ACM3_9MICO
+443_NarI,Cryobacterium sp. Sr39 | tr|A0A4R9AH19|A0A4R9AH19_9MICO
+444_NarI,Cryobacterium sp. Sr47 | tr|A0A4V6QG14|A0A4V6QG14_9MICO
+445_NarI,Cryobacterium sp. Sr54 | tr|A0A4R9BMY0|A0A4R9BMY0_9MICO
+446_NarI,Cryobacterium sp. Sr8 | tr|A0A4R9BG85|A0A4R9BG85_9MICO
+447_NarI,Cryobacterium sp. TMS1-13-1 | tr|A0A4R8Z6F4|A0A4R8Z6F4_9MICO
+448_NarI,Cryobacterium sp. TMT1-51 | tr|A0A4Y8JZJ4|A0A4Y8JZJ4_9MICO
+449_NarI,Cryobacterium sp. TMT2-10 | tr|A0A6H3KBL4|A0A6H3KBL4_9MICO
+450_NarI,Cryobacterium sp. TMT2-16 | tr|A0A5F0G2Q1|A0A5F0G2Q1_9MICO
+451_NarI,Cryobacterium sp. TMT2-17-1 | tr|A0A5F0FPG9|A0A5F0FPG9_9MICO
+452_NarI,Cryobacterium sp. TMT2-18-2 | tr|A0A8G8QC04|A0A8G8QC04_9MICO
+453_NarI,Cryobacterium sp. TMT4-31 | tr|A0A7I0EBR1|A0A7I0EBR1_9MICO
+454_NarI,Cryobacterium sp. TMT4-31 | tr|A0A7I0EI78|A0A7I0EI78_9MICO
+455_NarI,Cryobacterium sp. TmT2-48-2 | tr|A0A4R8XT79|A0A4R8XT79_9MICO
+456_NarI,Cryobacterium sp. TmT3-12 | tr|A0A7I0EHF5|A0A7I0EHF5_9MICO
+457_NarI,Curtobacterium sp. S6 | 1479623.JHEL01000015_gene1098
+458_NarI,Gulosibacter molinativorax DSM 13485 | 1121934.AUDX01000005_gene83
+459_NarI,Humibacter albus DSM 18994 | 1121952.ATXT01000015_gene356
+460_NarI,Humibacter sp. WJ7-1 | tr|A0A5B8M1L9|A0A5B8M1L9_9MICO
+461_NarI,Lacisediminihabitans profunda | tr|A0A5C8UQ75|A0A5C8UQ75_9MICO
+462_NarI,Leifsonia rubra CMS 76R | 1348338.ADILRU_0998
+463_NarI,Leucobacter denitrificans | tr|A0A7G9S424|A0A7G9S424_9MICO
+464_NarI,Leucobacter viscericola | tr|A0A6G7XDF5|A0A6G7XDF5_9MICO
+465_NarI,Microbacterium caowuchunii | tr|A0A5N0TF56|A0A5N0TF56_9MICO
+466_NarI,Microbacterium chengjingii | tr|A0A879SJ68|A0A879SJ68_9MICO
+467_NarI,Microbacterium esteraromaticum | tr|A0A2V4PRQ6|A0A2V4PRQ6_9MICO
+468_NarI,Microbacterium hominis | tr|A0A7D4UIS1|A0A7D4UIS1_9MICO
+469_NarI,Microbacterium luticocti DSM 19459 | 1122239.AULS01000008_gene2330
+470_NarI,Microbacterium protaetiae | tr|A0A4P6EE35|A0A4P6EE35_9MICO
+471_NarI,Microbacterium radiodurans | tr|A0A5J5IR79|A0A5J5IR79_9MICO
+472_NarI,Microbacterium sp. | tr|A0A519GNH8|A0A519GNH8_9MICO
+473_NarI,Microbacterium sp. | tr|A0A8I1Q4P8|A0A8I1Q4P8_9MICO
+474_NarI,Microbacterium sp. Cr-K20 | 1452536.JARE01000064_gene345
+475_NarI,Microbacterium sp. KROCY2 | 1305732.JAGG01000001_gene292
+476_NarI,Microbacterium sp. NEAU-LLE | tr|A0A371NYE8|A0A371NYE8_9MICO
+477_NarI,Microbacterium wangchenii | tr|A0A6D1IBU1|A0A6D1IBU1_9MICO
+478_NarI,Mycetocola tolaasinivorans | tr|A0A3L7A5D1|A0A3L7A5D1_9MICO
+479_NarI,Planctomonas sp. JC2975 | tr|A0A848RLB2|A0A848RLB2_9MICO
+480_NarI,Arthrobacter castelli DSM 16402 | 1121019.AUMN01000005_gene2789
+481_NarI,Arthrobacter crystallopoietes | tr|A0A8A5UXU8|A0A8A5UXU8_9MICC
+482_NarI,Arthrobacter echini | tr|A0A4S5EAG8|A0A4S5EAG8_9MICC
+483_NarI,Arthrobacter glacialis | tr|A0A2S4A166|A0A2S4A166_ARTGL
+484_NarI,Arthrobacter livingstonensis | tr|A0A2V5L2U4|A0A2V5L2U4_9MICC
+485_NarI,Arthrobacter psychrochitiniphilus | tr|A0A2V3DUN1|A0A2V3DUN1_9MICC
+486_NarI,Arthrobacter silviterrae | tr|A0A6M1QTW6|A0A6M1QTW6_9MICC
+487_NarI,Arthrobacter sp. | tr|A0A3B9VX25|A0A3B9VX25_ARTSP
+488_NarI,Arthrobacter sp. 162MFSha1.1 | 1151119.KB895490_gene2075
+489_NarI,Arthrobacter sp. 24S4-2 | tr|A0A4P8GNK2|A0A4P8GNK2_9MICC
+490_NarI,Arthrobacter sp. AETb3-4 | tr|A0A7Y7IEW5|A0A7Y7IEW5_9MICC
+491_NarI,Arthrobacter sp. AFG7.2 | tr|A0A2J8IF76|A0A2J8IF76_9MICC
+492_NarI,Arthrobacter sp. AQ5-05 | tr|A0A329Z5D0|A0A329Z5D0_9MICC
+493_NarI,Arthrobacter sp. BL-252-APC-1A | tr|A0A6N7UUU8|A0A6N7UUU8_9MICC
+494_NarI,Arthrobacter sp. C9C5 | tr|A0A7Y6E8G9|A0A7Y6E8G9_9MICC
+495_NarI,Arthrobacter sp. CAU 1506 | tr|A0A4U0HHB6|A0A4U0HHB6_9MICC
+496_NarI,Arthrobacter sp. FB24 | 290399.Arth_0317
+497_NarI,Arthrobacter sp. H-02-3 | tr|A0A315TY47|A0A315TY47_9MICC
+498_NarI,Arthrobacter sp. HMWF013 | tr|A0A2R7RHA2|A0A2R7RHA2_9MICC
+499_NarI,Arthrobacter sp. MYb227 | tr|A0A2S8WVL0|A0A2S8WVL0_9MICC
+500_NarI,Arthrobacter sp. PAMC25564 | tr|A0A4P7SPI2|A0A4P7SPI2_9MICC
+501_NarI,Arthrobacter sp. SDTb3-6 | tr|A0A7Y7IQM5|A0A7Y7IQM5_9MICC
+502_NarI,Arthrobacter sp. UKPF54-2 | tr|A0A5B8JEI4|A0A5B8JEI4_9MICC
+503_NarI,Arthrobacter sp. UNC362MFTsu5.1 | 1449044.JMLE01000008_gene2205
+504_NarI,Arthrobacter sp. zg-ZUI122 | tr|A0A8F1MET5|A0A8F1MET5_9MICC
+505_NarI,Arthrobacter sp. zg-ZUI227 | tr|A0A8E8BPJ7|A0A8E8BPJ7_9MICC
+506_NarI,Arthrobacter yangruifuii | tr|A0A5N6MTD1|A0A5N6MTD1_9MICC
+507_NarI,Citricoccus sp. CH26A | 1045009.AFXQ01000022_gene1150
+508_NarI,Citricoccus sp. SGAir0253 | tr|A0A4P9JB28|A0A4P9JB28_9MICC
+509_NarI,Glutamicibacter arilaitensis Re117 | 861360.AARI_04740
+510_NarI,Glutamicibacter soli | tr|A0A365YBX6|A0A365YBX6_9MICC
+511_NarI,Glutamicibacter sp. BW78 | tr|A0A2A3XKS3|A0A2A3XKS3_9MICC
+512_NarI,Glutamicibacter sp. V16R2B1 | tr|A0A5R8V2K8|A0A5R8V2K8_9MICC
+513_NarI,Glutamicibacter sp. ZJUTW | tr|A0A5C2FHL8|A0A5C2FHL8_9MICC
+514_NarI,Kocuria coralli | tr|A0A5J5KZR7|A0A5J5KZR7_9MICC
+515_NarI,Kocuria marina | 223184.AS25_10210
+516_NarI,Kocuria polaris | 136273.GY22_07905
+517_NarI,Kocuria rosea (Deinococcus erythromyxa) (Micrococcus rubens) | tr|A0A2V1M043|A0A2V1M043_KOCRO
+518_NarI,Kocuria soli | tr|A0A3N4A341|A0A3N4A341_9MICC
+519_NarI,Kocuria sp. HSID17590 | tr|A0A3S0SQ33|A0A3S0SQ33_9MICC
+520_NarI,Kocuria sp. WRN011 | tr|A0A2A3AFJ5|A0A2A3AFJ5_9MICC
+521_NarI,Kocuria subflava | tr|A0A846TU88|A0A846TU88_9MICC
+522_NarI,Paenarthrobacter sp. YJN-5 | tr|A0A7M2BW16|A0A7M2BW16_9MICC
+523_NarI,Paeniglutamicibacter gangotriensis Lz1y | 1276920.ADIAG_01148
+524_NarI,Pseudarthrobacter phenanthrenivorans Sphe3 | 930171.Asphe3_35210
+525_NarI,Pseudarthrobacter phenanthrenivorans (Arthrobacter phenanthrenivorans) | tr|A0A3B0FFM7|A0A3B0FFM7_PSEPS
+526_NarI,Pseudarthrobacter psychrotolerans | tr|A0A6P1NII8|A0A6P1NII8_9MICC
+527_NarI,Pseudarthrobacter sp. BIM B-2242 | tr|A0A7L7VV71|A0A7L7VV71_9MICC
+528_NarI,Pseudarthrobacter sp. GA104 | tr|A0A7K1NN70|A0A7K1NN70_9MICC
+529_NarI,Pseudarthrobacter sp. NIBRBAC000502771 | tr|A0A4Y6QQY0|A0A4Y6QQY0_9MICC
+530_NarI,Pseudarthrobacter sp. NIBRBAC000502772 | tr|A0A4Y6R3U2|A0A4Y6R3U2_9MICC
+531_NarI,Rothia aeria | tr|I0UUI7|I0UUI7_9MICC
+532_NarI,Rothia amarae | tr|A0A7H2BL62|A0A7H2BL62_9MICC
+533_NarI,Rothia dentocariosa ATCC 17931 | 762948.HMPREF0733_10321
+534_NarI,Rothia mucilaginosa DY-18 | 680646.RMDY18_04550
+535_NarI,Rothia mucilaginosa | tr|A0A2I1Z6I9|A0A2I1Z6I9_9MICC
+536_NarI,Rothia nasimurium | tr|A0A4Y9F4F5|A0A4Y9F4F5_9MICC
+537_NarI,Rothia sp. | tr|A0A3D3LVY6|A0A3D3LVY6_9MICC
+538_NarI,Rothia sp. ZJ932 | tr|A0A895L1J3|A0A895L1J3_9MICC
+539_NarI,Rothia terrae | tr|A0A7H2BF41|A0A7H2BF41_9MICC
+540_NarI,Sinomonas sp. R1AF57 | tr|A0A221R7S7|A0A221R7S7_9MICC
+541_NarI,Ornithinimicrobium pekingense DSM 21552 | 1122622.ATWJ01000013_gene168
+542_NarI,Ornithinimicrobium pratense | tr|A0A5J6V9K7|A0A5J6V9K7_9MICO
+543_NarI,Ornithinimicrobium sp. AMA3305 | tr|A0A345NNB7|A0A345NNB7_9MICO
+544_NarI,Ornithinimicrobium sp. H23M54 | tr|A0A516GB06|A0A516GB06_9MICO
+545_NarI,Serinicoccus profundi MCCC 1A05965 | 1043205.AFYF01000021_gene826
+546_NarI,Cellulosimicrobium cellulans J36 | 935839.JAGJ01000010_gene401
+547_NarI,Cellulosimicrobium cellulans J36 | 935839.JAGJ01000031_gene74
+548_NarI,Cellulosimicrobium cellulans (Arthrobacter luteus) | tr|A0A8B2DJK1|A0A8B2DJK1_CELCE
+549_NarI,Cellulosimicrobium sp. BI34T | tr|A0A6M5UFB6|A0A6M5UFB6_9MICO
+550_NarI,Cellulosimicrobium sp. BI34T | tr|A0A6M5UL65|A0A6M5UL65_9MICO
+551_NarI,Promicromonospora kroppenstedtii DSM 19349 | 926564.KI911572_gene1354
+552_NarI,Xylanimonas cellulosilytica DSM 15894 | 446471.Xcel_1827
+553_NarI,Ruania albidiflava DSM 18029 | 1123065.ATWL01000010_gene3134
+554_NarI,Sanguibacter inulinus | tr|A0A853EVY5|A0A853EVY5_9MICO
+555_NarI,Sanguibacter sp. HDW7 | tr|A0A6G7Z6S8|A0A6G7Z6S8_9MICO
+556_NarI,Actinocatenispora sera | 390989.JOEG01000011_gene283
+557_NarI,Actinocatenispora sera | 390989.JOEG01000011_gene287
+558_NarI,Actinoplanes missouriensis 431 | 512565.AMIS_40140
+559_NarI,Actinoplanes sp. ATCC 53533 | tr|A0A428YKA7|A0A428YKA7_9ACTN
+560_NarI,Actinoplanes utahensis | 1869.MB27_11080
+561_NarI,Actinoplanes utahensis | 1869.MB27_11710
+562_NarI,Catelliglobosispora koreensis DSM 44566 | 1121272.KB903276_gene6988
+563_NarI,Catelliglobosispora koreensis DSM 44566 | 1121272.KB903289_gene4269
+564_NarI,Dactylosporangium aurantiacum | 35754.JNYJ01000069_gene4205
+565_NarI,Micromonospora aurantiaca ATCC 27029 | 644283.Micau_3965
+566_NarI,Micromonospora globispora | tr|A0A3N9W240|A0A3N9W240_9ACTN
+567_NarI,Micromonospora inaquosa | tr|A0A3N9WN70|A0A3N9WN70_9ACTN
+568_NarI,Micromonospora orduensis | tr|A0A5C4QUK2|A0A5C4QUK2_9ACTN
+569_NarI,Micromonospora sp. AP08 | tr|A0A5D0MTQ6|A0A5D0MTQ6_9ACTN
+570_NarI,Micromonospora sp. CP22 | tr|A0A7K1H795|A0A7K1H795_9ACTN
+571_NarI,Micromonospora sp. PPF5-17B | tr|A0A7K3X3U1|A0A7K3X3U1_9ACTN
+572_NarI,Micromonospora sp. PPF5-17B | tr|A0A7K3X6Q5|A0A7K3X6Q5_9ACTN
+573_NarI,Micromonospora sp. S4605 | tr|A0A317KP89|A0A317KP89_9ACTN
+574_NarI,Salinispora arenicola CNS-205 | 391037.Sare_0195
+575_NarI,Salinispora arenicola CNS-205 | 391037.Sare_3141
+576_NarI,Salinispora pacifica CNT003 | 1136417.AZWE01000013_gene2385
+577_NarI,Salinispora pacifica CNT003 | 1136417.AZWE01000041_gene172
+578_NarI,Salinispora sp. H7-4 | tr|A0A7Z0SXJ1|A0A7Z0SXJ1_9ACTN
+579_NarI,Salinispora tropica CNB-440 | 369723.Strop_0180
+580_NarI,Nakamurella multipartita DSM 44233 | 479431.Namu_0903
+581_NarI,Nakamurella sp. s14-144 | tr|A0A3G9A030|A0A3G9A030_9ACTN
+582_NarI,Kribbella flavida DSM 17836 | 479435.Kfla_4153
+583_NarI,Kribbella qitaiheensis | tr|A0A7G6WSL5|A0A7G6WSL5_9ACTN
+584_NarI,Kribbella sindirgiensis | tr|A0A4R0I3M8|A0A4R0I3M8_9ACTN
+585_NarI,Kribbella sp. YM55 | tr|A0A4R0IHL0|A0A4R0IHL0_9ACTN
+586_NarI,Nocardioidaceae | tr|A0A7L5Z1W7|A0A7L5Z1W7_9ACTN
+587_NarI,Nocardioidaceae | tr|A0A7Y5T921|A0A7Y5T921_9ACTN
+588_NarI,Aeromicrobium chenweiae | tr|A0A2S0WP51|A0A2S0WP51_9ACTN
+589_NarI,Aeromicrobium massiliense JC14 | 1033730.CAHG01000014_gene1839
+590_NarI,Aeromicrobium phoceense | tr|A0A838XN99|A0A838XN99_9ACTN
+591_NarI,Aeromicrobium sp. A1-2 | tr|A0A3B7D4F9|A0A3B7D4F9_9ACTN
+592_NarI,Aeromicrobium sp. IC_218 | tr|A0A4R1AGG2|A0A4R1AGG2_9ACTN
+593_NarI,Aeromicrobium sp. zg-636 | tr|A0A8I0K2G3|A0A8I0K2G3_9ACTN
+594_NarI,Aeromicrobium tamlense | tr|A0A8I0FVX0|A0A8I0FVX0_9ACTN
+595_NarI,Aeromicrobium terrae | tr|A0A5C8ND18|A0A5C8ND18_9ACTN
+596_NarI,Marmoricola aequoreus | 397278.JOJN01000014_gene3546
+597_NarI,Marmoricola pocheonensis | tr|A0A3N0GN74|A0A3N0GN74_9ACTN
+598_NarI,Micropruina sp. | tr|A0A7L5ZEK7|A0A7L5ZEK7_9ACTN
+599_NarI,Mumia sp. Z350 | tr|A0A5Q6S2P7|A0A5Q6S2P7_9ACTN
+600_NarI,Mumia sp. Z527 | tr|A0A5C4MQG0|A0A5C4MQG0_9ACTN
+601_NarI,Mumia sp. ZJ1417 | tr|A0A7G5LW03|A0A7G5LW03_9ACTN
+602_NarI,Mumia sp. ZJ1417 | tr|A0A7G5M065|A0A7G5M065_9ACTN
+603_NarI,Nocardioides currus | tr|A0A2R7YSK2|A0A2R7YSK2_9ACTN
+604_NarI,Nocardioides daphniae | tr|A0A4P7UFG4|A0A4P7UFG4_9ACTN
+605_NarI,Nocardioides ganghwensis | tr|A0A4V1RN14|A0A4V1RN14_9ACTN
+606_NarI,Nocardioides glacieisoli | tr|A0A4Q2RJP4|A0A4Q2RJP4_9ACTN
+607_NarI,Nocardioides guangzhouensis | tr|A0A4Q4Z3P7|A0A4Q4Z3P7_9ACTN
+608_NarI,Nocardioides halotolerans DSM 19273 | 1122609.AUGT01000005_gene1705
+609_NarI,Nocardioides iriomotensis | tr|A0A4Q5IX11|A0A4Q5IX11_9ACTN
+610_NarI,Nocardioides piscis | tr|A0A6G7YCW9|A0A6G7YCW9_9ACTN
+611_NarI,Nocardioides seonyuensis | tr|A0A4P7ICE5|A0A4P7ICE5_9ACTN
+612_NarI,Nocardioides silvaticus | tr|A0A316TJC7|A0A316TJC7_9ACTN
+613_NarI,Nocardioides sp. | tr|A0A3D0S8G0|A0A3D0S8G0_9ACTN
+614_NarI,Nocardioides sp. BN130099 | tr|A0A5B1LAN7|A0A5B1LAN7_9ACTN
+615_NarI,Nocardioides sp. CF8 | 110319.CF8_1170
+616_NarI,Nocardioides sp. G188 | tr|A0A8F3J6J7|A0A8F3J6J7_9ACTN
+617_NarI,Nocardioides sp. GY 10113 | tr|A0A4T0UUJ1|A0A4T0UUJ1_9ACTN
+618_NarI,Nocardioides sp. GY 10127 | tr|A0A4T0V1Z1|A0A4T0V1Z1_9ACTN
+619_NarI,Nocardioides sp. HLT2-9 | tr|A0A4Q2T9S5|A0A4Q2T9S5_9ACTN
+620_NarI,Nocardioides sp. J54 | 935866.JAER01000038_gene4166
+621_NarI,Nocardioides sp. JQ2195 | tr|A0A6H1A124|A0A6H1A124_9ACTN
+622_NarI,Nocardioides sp. JS614 | 196162.Noca_1349
+623_NarI,Nocardioides sp. LMS-CY | tr|A0A8E8UQT5|A0A8E8UQT5_9ACTN
+624_NarI,Nocardioides sp. MAH-18 | tr|A0A6L6XTC5|A0A6L6XTC5_9ACTN
+625_NarI,Nocardioides sp. S5 | tr|A0A8A1BIJ8|A0A8A1BIJ8_9ACTN
+626_NarI,Nocardioides sp. dk3543 | tr|A0A4U2YT49|A0A4U2YT49_9ACTN
+627_NarI,Nocardioides sp. zg-1228 | tr|A0A897J610|A0A897J610_9ACTN
+628_NarI,Nocardioides sp. zg-536 | tr|A0A8E5WBN8|A0A8E5WBN8_9ACTN
+629_NarI,Propionibacteriaceae | tr|A0A255GCR9|A0A255GCR9_9ACTN
+630_NarI,Acidipropionibacterium acidipropionici ATCC 4875 | 1171373.PACID_02730
+631_NarI,Aestuariimicrobium kwangyangense DSM 21549 | 1120954.ATXE01000001_gene1853
+632_NarI,Arachnia propionica F0230a | 767029.HMPREF9154_0790
+633_NarI,Arachnia propionica | tr|A0A3P1T285|A0A3P1T285_9ACTN
+634_NarI,Arachnia propionica | tr|A0A3P1WXJ0|A0A3P1WXJ0_9ACTN
+635_NarI,Arachnia rubra | tr|A0A8B2EB73|A0A8B2EB73_9ACTN
+636_NarI,Brevilactibacter coleopterorum | tr|A0A6G7Y881|A0A6G7Y881_9ACTN
+637_NarI,Brevilactibacter flavus | tr|A0A4Q2ELE6|A0A4Q2ELE6_9ACTN
+638_NarI,Brevilactibacter sinopodophylli | tr|A0A4Q9KHJ4|A0A4Q9KHJ4_9ACTN
+639_NarI,Cutibacterium acnes KPA171202 | 267747.PPA0507
+640_NarI,Cutibacterium modestum HL037PA2 | 765123.HMPREF9621_02172
+641_NarI,[Propionibacterium] namnetense SK182B-JCVI | 1051006.HMPREF1162_0739
+642_NarI,Microlunatus phosphovorus NM-1 | 1032480.MLP_46670
+643_NarI,Microlunatus sp. Gsoil 973 | tr|A0A6I5VKE3|A0A6I5VKE3_9ACTN
+644_NarI,Microlunatus sp. KUDC0627 | tr|A0A516Q099|A0A516Q099_9ACTN
+645_NarI,Microlunatus sp. KUDC0627 | tr|A0A516Q4B4|A0A516Q4B4_9ACTN
+646_NarI,Propionibacterium acidifaciens DSM 21887 | 1122994.AUFR01000011_gene1985
+647_NarI,Propionibacterium australiense | tr|A0A383S7I4|A0A383S7I4_9ACTN
+648_NarI,Propionibacterium freudenreichii | tr|A0A068VXR1|A0A068VXR1_PROFF
+649_NarI,Propionibacterium sp. | tr|A0A7C6ME83|A0A7C6ME83_9ACTN
+650_NarI,Propionibacterium sp. | tr|A0A7X7JXS7|A0A7X7JXS7_9ACTN
+651_NarI,Propionibacterium sp. | tr|A0A7X7XMD2|A0A7X7XMD2_9ACTN
+652_NarI,Propionibacterium sp. | tr|A0A7X9LAP3|A0A7X9LAP3_9ACTN
+653_NarI,Propionibacterium sp. oral taxon 192 str. F0372 | 1203605.HMPREF1531_02294
+654_NarI,Propioniciclava sp. MC1595 | tr|A0A839IXP5|A0A839IXP5_9ACTN
+655_NarI,Propioniciclava tarda | tr|A0A4Q9KI47|A0A4Q9KI47_PROTD
+656_NarI,Propionimicrobium sp. BV2F7 | 1111131.HMPREF1255_1635
+657_NarI,Raineyella sp. CBA3103 | tr|A0A5Q2FDG1|A0A5Q2FDG1_9ACTN
+658_NarI,Tessaracoccus antarcticus | tr|A0A3M0GF23|A0A3M0GF23_9ACTN
+659_NarI,Tessaracoccus defluvii | tr|A0A7H0H6D4|A0A7H0H6D4_9ACTN
+660_NarI,Tessaracoccus rhinocerotis | tr|A0A553JWS6|A0A553JWS6_9ACTN
+661_NarI,Tessaracoccus sp. J1M15 | tr|A0A8F6UE65|A0A8F6UE65_9ACTN
+662_NarI,Tessaracoccus sp. MC1679 | tr|A0A7W4H0A9|A0A7W4H0A9_9ACTN
+663_NarI,Tessaracoccus sp. MC1865 | tr|A0A839IFH4|A0A839IFH4_9ACTN
+664_NarI,Tessaracoccus sp. OH4464_COT-324 | tr|A0A3P1WLF7|A0A3P1WLF7_9ACTN
+665_NarI,Pseudonocardiales | tr|A0A2W6CZG0|A0A2W6CZG0_9PSEU
+666_NarI,Pseudonocardiales | tr|A0A7V8YKU6|A0A7V8YKU6_9PSEU
+667_NarI,Pseudonocardiales | tr|A0A7V9FRK5|A0A7V9FRK5_9PSEU
+668_NarI,Pseudonocardiaceae | tr|A0A431NKI2|A0A431NKI2_9PSEU
+669_NarI,Pseudonocardiaceae | tr|A0A7J9XQD5|A0A7J9XQD5_9PSEU
+670_NarI,Actinokineospora enzanensis DSM 44649 | 1120934.KB894403_gene150
+671_NarI,Actinokineospora enzanensis DSM 44649 | 1120934.KB894405_gene5590
+672_NarI,Actinophytocola sp. | tr|A0A6N7H8Q6|A0A6N7H8Q6_9PSEU
+673_NarI,Actinophytocola sp. | tr|A0A6N7HQF9|A0A6N7HQF9_9PSEU
+674_NarI,Actinophytocola sp. | tr|A0A6N7HQG5|A0A6N7HQG5_9PSEU
+675_NarI,Actinosynnema mirum DSM 43827 | 446462.Amir_2037
+676_NarI,Amycolatopsis alba | tr|A0A229S2T3|A0A229S2T3_9PSEU
+677_NarI,Amycolatopsis alkalitolerans | tr|A0A5C4LQ81|A0A5C4LQ81_9PSEU
+678_NarI,Amycolatopsis alkalitolerans | tr|A0A5C4LWI6|A0A5C4LWI6_9PSEU
+679_NarI,Amycolatopsis benzoatilytica AK 16/65 | 1089544.KB912942_gene1531
+680_NarI,Amycolatopsis dendrobii | tr|A0A7W3ZFZ5|A0A7W3ZFZ5_9PSEU
+681_NarI,Amycolatopsis nigrescens CSC17Ta-90 | 1068980.ARVW01000001_gene1701
+682_NarI,Amycolatopsis orientalis DSM 40040 = KCTC 9412 | 1125971.ASJB01000057_gene5307
+683_NarI,Amycolatopsis orientalis DSM 40040 = KCTC 9412 | 1125971.ASJB01000074_gene38
+684_NarI,Amycolatopsis pithecellobii | tr|A0A6N7YNP9|A0A6N7YNP9_9PSEU
+685_NarI,Amycolatopsis rhizosphaerae | tr|A0A558CRX9|A0A558CRX9_9PSEU
+686_NarI,Amycolatopsis sp. FDAARGOS 1241 | tr|A0A892NH34|A0A892NH34_9PSEU
+687_NarI,Amycolatopsis thailandensis | tr|A0A229RLG4|A0A229RLG4_9PSEU
+688_NarI,Kibdelosporangium aridum | tr|A0A428ZAR7|A0A428ZAR7_KIBAR
+689_NarI,Kibdelosporangium aridum | tr|A0A428ZKC7|A0A428ZKC7_KIBAR
+690_NarI,Kutzneria sp. 744 | 345341.KUTG_09489
+691_NarI,Lentzea aerocolonigenes | 68170.KL590521_gene9191
+692_NarI,Lentzea aerocolonigenes | 68170.KL590521_gene9197
+693_NarI,Lentzea alba | tr|A0A7C9RUE9|A0A7C9RUE9_9PSEU
+694_NarI,Pseudonocardia acaciae DSM 45401 | 1123023.JIAI01000003_gene3084
+695_NarI,Pseudonocardia asaccharolytica DSM 44247 = NBRC 16224 | 1123024.AUII01000016_gene1247
+696_NarI,Pseudonocardia asaccharolytica DSM 44247 = NBRC 16224 | 1123024.AUII01000046_gene3925
+697_NarI,Pseudonocardia autotrophica | 2074.JNYD01000002_gene5539
+698_NarI,Pseudonocardia bannensis | tr|A0A848DEW8|A0A848DEW8_9PSEU
+699_NarI,Pseudonocardia dioxanivorans CB1190 | 675635.Psed_4303
+700_NarI,Pseudonocardia sp. | tr|A0A8I1PFE1|A0A8I1PFE1_9PSEU
+701_NarI,Saccharomonospora azurea SZMC 14600 | 1114959.SZMC14600_06515
+702_NarI,Saccharomonospora marina XMU15 | 882083.SacmaDRAFT_2602
+703_NarI,Saccharomonospora xinjiangensis XJ-54 | 882086.SacxiDRAFT_3555
+704_NarI,Saccharopolyspora elongata | tr|A0A4R4YGL3|A0A4R4YGL3_9PSEU
+705_NarI,Saccharopolyspora elongata | tr|A0A4R4Z8W5|A0A4R4Z8W5_9PSEU
+706_NarI,Saccharopolyspora erythraea NRRL 2338 | 405948.SACE_4067
+707_NarI,Saccharopolyspora hirsuta | tr|A0A5M7CFE8|A0A5M7CFE8_SACHI
+708_NarI,Saccharopolyspora sp. ASAGF58 | tr|A0A6H1REE7|A0A6H1REE7_9PSEU
+709_NarI,Saccharopolyspora spinosa NRRL 18395 | 994479.GL877878_gene1920
+710_NarI,Saccharopolyspora spinosa NRRL 18395 | 994479.GL877879_gene4888
+711_NarI,Saccharopolyspora spinosa NRRL 18395 | 994479.GL877879_gene4889
+712_NarI,Saccharothrix algeriensis | tr|A0A8A9B7K1|A0A8A9B7K1_9PSEU
+713_NarI,Saccharothrix sp. NRRL B-16314 | 1463825.JNXC01000008_gene1266
+714_NarI,Saccharothrix sp. NRRL B-16314 | 1463825.JNXC01000008_gene1273
+715_NarI,Saccharothrix syringae | 103733.JNYO01000008_gene5523
+716_NarI,Sciscionella sp. SE31 | 1445613.JALM01000004_gene4611
+717_NarI,Sporichthya polymorpha DSM 43042 | 1048339.KB913029_gene2537
+718_NarI,Streptomyces sp. CNH099 | 1137269.AZWL01000001_gene5961
+719_NarI,Streptomyces sp. CNH099 | 1137269.AZWL01000020_gene2547
+720_NarI,Streptomycetaceae | tr|A0A7Y5UE86|A0A7Y5UE86_9ACTN
+721_NarI,Streptomycetaceae | tr|A0A7Y6E0H1|A0A7Y6E0H1_9ACTN
+722_NarI,Embleya scabrispora DSM 41855 | 1123320.KB889561_gene4574
+723_NarI,Embleya scabrispora DSM 41855 | 1123320.KB889666_gene3159
+724_NarI,Kitasatospora arboriphila | 258052.JNYV01000003_gene4739
+725_NarI,Streptacidiphilus jiangxiensis | 235985.BBPN01000013_gene6665
+726_NarI,Streptacidiphilus oryzae TH49 | 1449353.JQMQ01000005_gene928
+727_NarI,Streptacidiphilus pinicola | tr|A0A2X0J7A5|A0A2X0J7A5_9ACTN
+728_NarI,Streptacidiphilus rugosus AM-16 | 981369.JQMJ01000004_gene6412
+729_NarI,Streptacidiphilus rugosus AM-16 | 981369.JQMJ01000004_gene6416
+730_NarI,Streptomyces acidiscabies 84-104 | 1116232.AHBF01000163_gene5897
+731_NarI,Streptomyces adustus | tr|A0A5N8V8I3|A0A5N8V8I3_9ACTN
+732_NarI,Streptomyces adustus | tr|A0A5N8VBL4|A0A5N8VBL4_9ACTN
+733_NarI,Streptomyces alboflavus | 67267.JNXT01000040_gene4668
+734_NarI,Streptomyces alboflavus | 67267.JNXT01000058_gene7645
+735_NarI,Streptomyces alboflavus | 67267.JNXT01000058_gene7649
+736_NarI,Streptomyces albulus | 68570.DC74_7955
+737_NarI,Streptomyces albus J1074 | 457425.XNR_0415
+738_NarI,Streptomyces albus J1074 | 457425.XNR_4341
+739_NarI,Streptomyces albus subsp. albus | 67257.JODR01000002_gene1204
+740_NarI,Streptomyces albus subsp. albus | 67257.JODR01000002_gene1208
+741_NarI,Streptomyces albus subsp. albus | 67257.JODR01000018_gene4225
+742_NarI,Streptomyces aureocirculatus | 67275.JOAP01000011_gene5243
+743_NarI,Streptomyces aureocirculatus | 67275.JOAP01000011_gene5247
+744_NarI,Streptomyces aureocirculatus | 67275.JOAP01000051_gene969
+745_NarI,Streptomyces avermitilis MA-4680 = NBRC 14893 | 227882.SAV_3465
+746_NarI,Streptomyces bicolor | 66874.JOFS01000001_gene792
+747_NarI,Streptomyces bicolor | 66874.JOFS01000023_gene1555
+748_NarI,Streptomyces bingchenggensis BCW-1 | 749414.SBI_07964
+749_NarI,Streptomyces buecherae | tr|A0A7G8KH94|A0A7G8KH94_9ACTN
+750_NarI,Streptomyces buecherae | tr|A0A7H8N2M3|A0A7H8N2M3_9ACTN
+751_NarI,Streptomyces buecherae | tr|A0A7H8N6B5|A0A7H8N6B5_9ACTN
+752_NarI,Streptomyces carminius | tr|A0A2M8LTN3|A0A2M8LTN3_9ACTN
+753_NarI,Streptomyces catenulae | 66875.JODY01000009_gene2082
+754_NarI,Streptomyces cattleya NRRL 8057 = DSM 46488 | 1003195.SCAT_5577
+755_NarI,Streptomyces celluloflavus | 58344.JOEL01000012_gene2648
+756_NarI,Streptomyces celluloflavus | 58344.JOEL01000023_gene1120
+757_NarI,Streptomyces chartreusis NRRL 12338 | 1079986.JH164842_gene6004
+758_NarI,Streptomyces chartreusis | tr|A0A8E3TH26|A0A8E3TH26_STRCX
+759_NarI,Streptomyces coelicolor A3(2) | 100226.SCO0219
+760_NarI,Streptomyces coelicolor A3(2) | 100226.SCO0518
+761_NarI,Streptomyces coelicolor A3(2) | 100226.SCO4795
+762_NarI,Streptomyces coelicolor A3(2) | 100226.SCO4950
+763_NarI,Streptomyces coelicolor A3(2) | 100226.SCO6532
+764_NarI,Streptomyces cyaneochromogenes | tr|A0A3Q9ET84|A0A3Q9ET84_9ACTN
+765_NarI,Streptomyces davaonensis JCM 4913 | 1214101.BN159_1903
+766_NarI,Streptomyces davaonensis JCM 4913 | 1214101.BN159_3620
+767_NarI,Streptomyces diacarni | tr|A0A367EUK4|A0A367EUK4_9ACTN
+768_NarI,Streptomyces durhamensis | 68194.JNXR01000015_gene7994
+769_NarI,Streptomyces durhamensis | 68194.JNXR01000027_gene1513
+770_NarI,Streptomyces ferrugineus | tr|A0A7M2SCJ8|A0A7M2SCJ8_9ACTN
+771_NarI,Streptomyces finlayi | tr|A0A7G7BG42|A0A7G7BG42_9ACTN
+772_NarI,Streptomyces finlayi | tr|A0A7G7BG49|A0A7G7BG49_9ACTN
+773_NarI,Streptomyces flavochromogenes | 68199.JNZO01000013_gene4105
+774_NarI,Streptomyces flavovariabilis | 284031.JNXD01000002_gene6179
+775_NarI,Streptomyces fradiae | 1906.SFRA_23600
+776_NarI,Streptomyces fradiae | 1906.SFRA_23670
+777_NarI,Streptomyces fulvoviolaceus | 285535.JOEY01000005_gene7873
+778_NarI,Streptomyces fulvoviolaceus | 285535.JOEY01000026_gene9116
+779_NarI,Streptomyces griseoaurantiacus M045 | 996637.SGM_3083
+780_NarI,Streptomyces griseoaurantiacus M045 | 996637.SGM_6459
+781_NarI,Streptomyces griseoaurantiacus M045 | 996637.SGM_6474
+782_NarI,Streptomyces griseoflavus Tu4000 | 467200.ACFA01000024_gene5589
+783_NarI,Streptomyces griseoflavus Tu4000 | 467200.ACFA01000080_gene6307
+784_NarI,Streptomyces griseofuscus | 146922.JOFU01000016_gene3187
+785_NarI,Streptomyces griseofuscus | 146922.JOFU01000048_gene4967
+786_NarI,Streptomyces halstedii | tr|A0A6N9U2N9|A0A6N9U2N9_STRHA
+787_NarI,Streptomyces hokutonensis | 1306990.BARG01000014_gene1279
+788_NarI,Streptomyces hoynatensis | tr|A0A3A9Z7P5|A0A3A9Z7P5_9ACTN
+789_NarI,Streptomyces iakyrus | 68219.JNXI01000016_gene6932
+790_NarI,Streptomyces ipomoeae | tr|L1KU71|L1KU71_9ACTN
+791_NarI,Streptomyces kanamyceticus | tr|Q1EQU1|Q1EQU1_STRKN
+792_NarI,Streptomyces katrae | 68223.JNZY01000005_gene3869
+793_NarI,Streptomyces katrae | 68223.JNZY01000068_gene5826
+794_NarI,Streptomyces lavenduligriseus | 67315.JOBD01000027_gene2532
+795_NarI,Streptomyces lunaelactis | tr|A0A2R4SX40|A0A2R4SX40_9ACTN
+796_NarI,Streptomyces malaysiensis | tr|A0A291T4I4|A0A291T4I4_STRMQ
+797_NarI,Streptomyces mesophilus | tr|A0A6G4XPM8|A0A6G4XPM8_9ACTN
+798_NarI,Streptomyces mesophilus | tr|A0A6G4XRH9|A0A6G4XRH9_9ACTN
+799_NarI,Streptomyces mexicanus | tr|A0A7X1HZM4|A0A7X1HZM4_9ACTN
+800_NarI,Streptomyces morookaense (Streptoverticillium morookaense) | tr|A0A7Y7B4C8|A0A7Y7B4C8_STRMO
+801_NarI,Streptomyces mutabilis | 67332.FM21_17715
+802_NarI,Streptomyces niger | 66373.JOFQ01000001_gene1663
+803_NarI,Streptomyces niger | 66373.JOFQ01000003_gene5950
+804_NarI,Streptomyces nitrosporeus | tr|A0A5J6FHL5|A0A5J6FHL5_9ACTN
+805_NarI,Streptomyces nodosus | tr|A0A0B5DCD2|A0A0B5DCD2_9ACTN
+806_NarI,Streptomyces olindensis | 358823.DF19_34655
+807_NarI,Streptomyces olivaceus | 47716.JOFH01000023_gene3638
+808_NarI,Streptomyces palmae | tr|A0A4Z0FUN7|A0A4Z0FUN7_9ACTN
+809_NarI,Streptomyces phyllanthi | tr|A0A5N8W908|A0A5N8W908_9ACTN
+810_NarI,Streptomyces populi | tr|A0A2I0SBG2|A0A2I0SBG2_9ACTN
+811_NarI,Streptomyces prasinus | tr|A0A5J6HC28|A0A5J6HC28_9ACTN
+812_NarI,Streptomyces prasinus | tr|A0A5J6HCY7|A0A5J6HCY7_9ACTN
+813_NarI,Streptomyces purpureus KA281 | 1054860.KB913030_gene5705
+814_NarI,Streptomyces reniochalinae | tr|A0A367F833|A0A367F833_9ACTN
+815_NarI,Streptomyces rimosus | tr|A0A6I6KJU6|A0A6I6KJU6_STRRM
+816_NarI,Streptomyces rimosus | tr|A0A8A7JGE2|A0A8A7JGE2_STRRM
+817_NarI,Streptomyces rubrogriseus | tr|A0A6G3TM14|A0A6G3TM14_9ACTN
+818_NarI,Streptomyces scabiei 87.22 | 680198.SCAB_10781
+819_NarI,Streptomyces sclerotialus | 1957.JODX01000018_gene1570
+820_NarI,Streptomyces seoulensis | 73044.JNXP01000008_gene3424
+821_NarI,Streptomyces shenzhenensis | tr|A0A3M0I6G7|A0A3M0I6G7_9ACTN
+822_NarI,Streptomyces sp. 142MFCol3.1 | 1172179.AUKV01000007_gene2964
+823_NarI,Streptomyces sp. 142MFCol3.1 | 1172179.AUKV01000007_gene2973
+824_NarI,Streptomyces sp. 142MFCol3.1 | 1172179.AUKV01000050_gene6938
+825_NarI,Streptomyces sp. 303MFCol5.2 | 1172181.KB911732_gene3950
+826_NarI,Streptomyces sp. 351MFTsu5.1 | 1172180.KB911779_gene5394
+827_NarI,Streptomyces sp. A1499 | tr|A0A4V3UD38|A0A4V3UD38_9ACTN
+828_NarI,Streptomyces sp. Act143 | tr|A0A2U2ZQ08|A0A2U2ZQ08_9ACTN
+829_NarI,Streptomyces sp. Act143 | tr|A0A2U3A0C5|A0A2U3A0C5_9ACTN
+830_NarI,Streptomyces sp. AgN23 | tr|A0A8A6KKW7|A0A8A6KKW7_9ACTN
+831_NarI,Streptomyces sp. Akac8 | tr|A0A4S3GSF1|A0A4S3GSF1_9ACTN
+832_NarI,Streptomyces sp. Amel2xE9 | 1157634.KB912951_gene3439
+833_NarI,Streptomyces sp. Amel2xE9 | 1157634.KB912966_gene2192
+834_NarI,Streptomyces sp. BR123 | tr|A0A7Y8WUE0|A0A7Y8WUE0_9ACTN
+835_NarI,Streptomyces sp. C | 253839.SSNG_04715
+836_NarI,Streptomyces sp. CB01201 | tr|A0A2M9J8X1|A0A2M9J8X1_9ACTN
+837_NarI,Streptomyces sp. CWH03 | tr|A0A6A0AYL5|A0A6A0AYL5_9ACTN
+838_NarI,Streptomyces sp. F001 | tr|A0A4Q6IQC2|A0A4Q6IQC2_9ACTN
+839_NarI,Streptomyces sp. GS7 | tr|A0A6I6S6D4|A0A6I6S6D4_9ACTN
+840_NarI,Streptomyces sp. GXT6 | 711393.AYRX01000008_gene4372
+841_NarI,Streptomyces sp. GXT6 | 711393.AYRX01000012_gene3225
+842_NarI,Streptomyces sp. GXT6 | 711393.AYRX01000083_gene4716
+843_NarI,Streptomyces sp. HIT-DPA4 | tr|A0A6H9UTZ1|A0A6H9UTZ1_9ACTN
+844_NarI,Streptomyces sp. HIT-DPA4 | tr|A0A6H9UUH7|A0A6H9UUH7_9ACTN
+845_NarI,Streptomyces sp. HIT-DPA4 | tr|A0A6H9V6N5|A0A6H9V6N5_9ACTN
+846_NarI,Streptomyces sp. HUCO-GS316 | tr|A0A6G2IMD5|A0A6G2IMD5_9ACTN
+847_NarI,Streptomyces sp. HmicA12 | 1156844.KB891842_gene7061
+848_NarI,Streptomyces sp. I6 | tr|A0A3N0DDD6|A0A3N0DDD6_9ACTN
+849_NarI,Streptomyces sp. IB201691-2A2 | tr|A0A550HEN8|A0A550HEN8_9ACTN
+850_NarI,Streptomyces sp. ICC1 | tr|A0A2Z4V0P9|A0A2Z4V0P9_9ACTN
+851_NarI,Streptomyces sp. JCM17656 | tr|A0A8E7W6N6|A0A8E7W6N6_9ACTN
+852_NarI,Streptomyces sp. KPB2 | tr|A0A3Q8VQ22|A0A3Q8VQ22_9ACTN
+853_NarI,Streptomyces sp. LaPpAH-108 | 1155714.KB891987_gene2516
+854_NarI,Streptomyces sp. MZ04 | tr|A0A4R9EKL6|A0A4R9EKL6_9ACTN
+855_NarI,Streptomyces sp. Mg1 | 465541.ATCJ01000005_gene6778
+856_NarI,Streptomyces sp. NRRL B-3428 | 1463820.JOGW01000003_gene7115
+857_NarI,Streptomyces sp. NRRL B-3428 | 1463820.JOGW01000008_gene1551
+858_NarI,Streptomyces sp. NRRL B-3428 | 1463820.JOGW01000012_gene3911
+859_NarI,Streptomyces sp. NRRL F-2580 | 1463841.JOIR01000015_gene6506
+860_NarI,Streptomyces sp. NRRL F-5008 | 1463853.JOHW01000009_gene445
+861_NarI,Streptomyces sp. NRRL F-5008 | 1463853.JOHW01000017_gene5289
+862_NarI,Streptomyces sp. NRRL F-5008 | 1463853.JOHW01000046_gene5499
+863_NarI,Streptomyces sp. NRRL F-5053 | 1463854.JOHT01000005_gene430
+864_NarI,Streptomyces sp. NRRL F-5065 | 1463855.JOHV01000007_gene5157
+865_NarI,Streptomyces sp. NRRL F-5065 | 1463855.JOHV01000022_gene3161
+866_NarI,Streptomyces sp. NRRL F-5123 | 1463856.JOHY01000005_gene2173
+867_NarI,Streptomyces sp. NRRL F-5123 | 1463856.JOHY01000005_gene2177
+868_NarI,Streptomyces sp. NRRL F-5126 | 1463857.JOFZ01000003_gene4692
+869_NarI,Streptomyces sp. NRRL F-5126 | 1463857.JOFZ01000003_gene4709
+870_NarI,Streptomyces sp. NRRL F-5126 | 1463857.JOFZ01000016_gene989
+871_NarI,Streptomyces sp. NRRL F-525 | 1463861.JNXE01000005_gene2314
+872_NarI,Streptomyces sp. NRRL F-6677 | 1463879.JOHP01000008_gene363
+873_NarI,Streptomyces sp. NRRL F-6677 | 1463879.JOHP01000008_gene378
+874_NarI,Streptomyces sp. NRRL F-6677 | 1463879.JOHP01000012_gene1029
+875_NarI,Streptomyces sp. NRRL F-6677 | 1463879.JOHP01000027_gene4779
+876_NarI,Streptomyces sp. NRRL S-149 | 1463885.KL578431_gene6849
+877_NarI,Streptomyces sp. NRRL S-149 | 1463885.KL578431_gene6850
+878_NarI,Streptomyces sp. NRRL S-237 | 1463895.JODA01000008_gene3701
+879_NarI,Streptomyces sp. NRRL S-340 | 1463901.JOIY01000013_gene6074
+880_NarI,Streptomyces sp. NRRL S-340 | 1463901.JOIY01000037_gene7037
+881_NarI,Streptomyces sp. NRRL S-340 | 1463901.JOIY01000050_gene2507
+882_NarI,Streptomyces sp. NRRL S-37 | 1463903.JOIZ01000009_gene4145
+883_NarI,Streptomyces sp. NRRL S-474 | 1463909.KL585947_gene5342
+884_NarI,Streptomyces sp. NRRL S-646 | 1463917.JODC01000003_gene5781
+885_NarI,Streptomyces sp. NRRL S-646 | 1463917.JODC01000007_gene7833
+886_NarI,Streptomyces sp. NRRL S-87 | 1463920.JOGB01000016_gene5476
+887_NarI,Streptomyces sp. NRRL S-920 | 1463921.JODF01000060_gene1871
+888_NarI,Streptomyces sp. NRRL WC-3626 | 1463926.JOCA01000010_gene2248
+889_NarI,Streptomyces sp. NRRL WC-3626 | 1463926.JOCA01000025_gene6917
+890_NarI,Streptomyces sp. NRRL WC-3626 | 1463926.JOCA01000025_gene6932
+891_NarI,Streptomyces sp. NRRL WC-3773 | 1463936.JOJI01000005_gene4150
+892_NarI,Streptomyces sp. NRRL WC-3773 | 1463936.JOJI01000024_gene1273
+893_NarI,Streptomyces sp. NRRL WC-3773 | 1463936.JOJI01000026_gene3323
+894_NarI,Streptomyces sp. NRRL WC-3773 | 1463936.JOJI01000026_gene3327
+895_NarI,Streptomyces sp. NTH33 | tr|A0A2W2L2P4|A0A2W2L2P4_9ACTN
+896_NarI,Streptomyces sp. P3 | tr|A0A2R4JU29|A0A2R4JU29_9ACTN
+897_NarI,Streptomyces sp. P3 | tr|A0A2R4JWF0|A0A2R4JWF0_9ACTN
+898_NarI,Streptomyces sp. P3 | tr|A0A2R4JWG9|A0A2R4JWG9_9ACTN
+899_NarI,Streptomyces sp. PSKA01 | tr|A0A7X1JBX7|A0A7X1JBX7_9ACTN
+900_NarI,Streptomyces sp. PsTaAH-124 | 1157638.KB892158_gene5360
+901_NarI,Streptomyces sp. PsTaAH-124 | 1157638.KB892180_gene3988
+902_NarI,Streptomyces sp. PsTaAH-124 | 1157638.KB892191_gene5086
+903_NarI,Streptomyces sp. RP5T | tr|A0A3R8RTF2|A0A3R8RTF2_9ACTN
+904_NarI,Streptomyces sp. RP5T | tr|A0A426UMU8|A0A426UMU8_9ACTN
+905_NarI,Streptomyces sp. Ru73 | tr|A0A2S4XL71|A0A2S4XL71_9ACTN
+906_NarI,Streptomyces sp. SCUT-3 | tr|A0A7L7MH03|A0A7L7MH03_9ACTN
+907_NarI,Streptomyces sp. SDr-06 | tr|A0A367HLJ4|A0A367HLJ4_9ACTN
+908_NarI,Streptomyces sp. SID10815 | tr|A0A6B2VD38|A0A6B2VD38_9ACTN
+909_NarI,Streptomyces sp. SID12501 | tr|A0A6B3BGM5|A0A6B3BGM5_9ACTN
+910_NarI,Streptomyces sp. SID2888 | tr|A0A7K2WB70|A0A7K2WB70_9ACTN
+911_NarI,Streptomyces sp. SID3343 | tr|A0A7K2YRU4|A0A7K2YRU4_9ACTN
+912_NarI,Streptomyces sp. SID3343 | tr|A0A7K2YZR3|A0A7K2YZR3_9ACTN
+913_NarI,Streptomyces sp. SID5471 | tr|A0A7K2R5G9|A0A7K2R5G9_9ACTN
+914_NarI,Streptomyces sp. SID5475 | tr|A0A7K3H8I8|A0A7K3H8I8_9ACTN
+915_NarI,Streptomyces sp. SID9913 | tr|A0A6B3DJH0|A0A6B3DJH0_9ACTN
+916_NarI,Streptomyces sp. SYP-A7193 | tr|A0A5P9WDP4|A0A5P9WDP4_9ACTN
+917_NarI,Streptomyces sp. TAA040 | 1288083.AUKR01000003_gene3672
+918_NarI,Streptomyces sp. URHA0041 | 1380346.JNIH01000024_gene4489
+919_NarI,Streptomyces sp. WAC 01325 | tr|A0A429BFW7|A0A429BFW7_9ACTN
+920_NarI,Streptomyces sp. WAC 01420 | tr|A0A428ZGY9|A0A428ZGY9_9ACTN
+921_NarI,Streptomyces sp. WAC 01420 | tr|A0A428ZJM8|A0A428ZJM8_9ACTN
+922_NarI,Streptomyces sp. WAC 06725 | tr|A0A429JNP0|A0A429JNP0_9ACTN
+923_NarI,Streptomyces sp. WAC 06783 | tr|A0A429ICL7|A0A429ICL7_9ACTN
+924_NarI,Streptomyces sp. WAC05292 | tr|A0A429SQR3|A0A429SQR3_9ACTN
+925_NarI,Streptomyces sp. WAC05858 | tr|A0A429PX14|A0A429PX14_9ACTN
+926_NarI,Streptomyces sp. WAC07061 | tr|A0A429QNW3|A0A429QNW3_9ACTN
+927_NarI,Streptomyces sp. WAC07149 | tr|A0A429T2D5|A0A429T2D5_9ACTN
+928_NarI,Streptomyces spectabilis | tr|A0A516RJH1|A0A516RJH1_STRST
+929_NarI,Streptomyces spectabilis | tr|A0A5P2XBH7|A0A5P2XBH7_STRST
+930_NarI,Streptomyces spectabilis | tr|A0A5P2XKM7|A0A5P2XKM7_STRST
+931_NarI,Streptomyces spongiicola | tr|A0A388T1H6|A0A388T1H6_9ACTN
+932_NarI,Streptomyces sporangiiformans | tr|A0A505D7L0|A0A505D7L0_9ACTN
+933_NarI,Streptomyces sulphureus DSM 40104 | 1123321.KB905813_gene836
+934_NarI,Streptomyces sulphureus DSM 40104 | 1123321.KB905818_gene4973
+935_NarI,Streptomyces sulphureus DSM 40104 | 1123321.KB905821_gene4057
+936_NarI,Streptomyces sviceus ATCC 29083 | 463191.SSEG_07929
+937_NarI,Streptomyces tendae | tr|A0A6B3QIR4|A0A6B3QIR4_STRTE
+938_NarI,Streptomyces toyocaensis | 55952.BU52_21765
+939_NarI,Streptomyces toyocaensis | 55952.BU52_21840
+940_NarI,Streptomyces triticagri | tr|A0A372M596|A0A372M596_9ACTN
+941_NarI,Streptomyces triticiradicis | tr|A0A7J5DB66|A0A7J5DB66_9ACTN
+942_NarI,Streptomyces triticiradicis | tr|A0A7J5DK46|A0A7J5DK46_9ACTN
+943_NarI,Streptomyces typhae | tr|A0A6L6XA56|A0A6L6XA56_9ACTN
+944_NarI,Streptomyces varsoviensis | 67373.JOBF01000020_gene5666
+945_NarI,Streptomyces venezuelae ATCC 10712 | 953739.SVEN_7235
+946_NarI,Streptomyces virginiae | 1961.JOAK01000006_gene4802
+947_NarI,Streptomyces viridochromogenes DSM 40736 | 591159.ACEZ01000156_gene4043
+948_NarI,Streptomyces viridosporus ATCC 14672 | 566461.SSFG_02825
+949_NarI,Streptomyces vitaminophilus DSM 41686 | 1123322.KB904658_gene1379
+950_NarI,Streptomyces xylophagus | 285514.JNWO01000013_gene5937
+951_NarI,Streptosporangiales | tr|A0A7J9Z6U0|A0A7J9Z6U0_9ACTN
+952_NarI,Nocardiopsis alba ATCC BAA-2165 | 1205910.B005_2417
+953_NarI,Nocardiopsis baichengensis YIM 90130 | 1236902.ANAS01000033_gene876
+954_NarI,Nocardiopsis dassonvillei subsp. dassonvillei DSM 43111 | 446468.Ndas_4426
+955_NarI,Nocardiopsis ganjiahuensis DSM 45031 | 1237500.ANBA01000011_gene3299
+956_NarI,Nocardiopsis kunsanensis DSM 44524 | 1246445.ANAY01000016_gene2142
+957_NarI,Nocardiopsis potens DSM 45234 | 570268.ANBB01000003_gene543
+958_NarI,Nocardiopsis potens DSM 45234 | 570268.ANBB01000064_gene1014
+959_NarI,Nocardiopsis prasina DSM 43845 | 1245475.ANAE01000078_gene5088
+960_NarI,Nocardiopsis sp. BM-2018 | tr|A0A892AB48|A0A892AB48_9ACTN
+961_NarI,Nocardiopsis sp. BM-2018 | tr|A0A892AB51|A0A892AB51_9ACTN
+962_NarI,Nocardiopsis sp. CNT312 | 1137268.AZXF01000005_gene3271
+963_NarI,Nocardiopsis sp. HDS5 | tr|A0A8E5UKR9|A0A8E5UKR9_9ACTN
+964_NarI,Nocardiopsis sp. MT53 | tr|A0A8G0WBX0|A0A8G0WBX0_9ACTN
+965_NarI,Nocardiopsis valliformis DSM 45023 | 1246448.ANAZ01000002_gene3928
+966_NarI,Nocardiopsis xinjiangensis YIM 90004 | 1246474.ANBE01000016_gene2964
+967_NarI,Streptomonospora sp. PA3 | tr|A0A6N8G994|A0A6N8G994_9ACTN
+968_NarI,Bailinhaonella thermotolerans | tr|A0A3A4AK72|A0A3A4AK72_9ACTN
+969_NarI,Microbispora catharanthi | tr|A0A5N6BIR6|A0A5N6BIR6_9ACTN
+970_NarI,Microbispora catharanthi | tr|A0A5N6BKN1|A0A5N6BKN1_9ACTN
+971_NarI,Microbispora cellulosiformans | tr|A0A5J5JYF2|A0A5J5JYF2_9ACTN
+972_NarI,Microbispora hainanensis | tr|A0A544Y5A2|A0A544Y5A2_9ACTN
+973_NarI,Nonomuraea coxensis DSM 45129 | 1122611.KB903949_gene6623
+974_NarI,Nonomuraea coxensis DSM 45129 | 1122611.KB903967_gene5176
+975_NarI,Nonomuraea coxensis DSM 45129 | 1122611.KB903974_gene2947
+976_NarI,Nonomuraea coxensis DSM 45129 | 1122611.KB904029_gene5283
+977_NarI,Nonomuraea nitratireducens | tr|A0A5P9YUE5|A0A5P9YUE5_9ACTN
+978_NarI,Nonomuraea sp. C10 | tr|A0A5C8JA34|A0A5C8JA34_9ACTN
+979_NarI,Nonomuraea sp. KC333 | tr|A0A2W2DYV5|A0A2W2DYV5_9ACTN
+980_NarI,Nonomuraea sp. PA05 | tr|A0A5D0PJ04|A0A5D0PJ04_9ACTN
+981_NarI,Nonomuraea terrae | tr|A0A4V2YLN7|A0A4V2YLN7_9ACTN
+982_NarI,Spongiactinospora rosea | tr|A0A366LPI2|A0A366LPI2_9ACTN
+983_NarI,Streptosporangium amethystogenes | 2002.JOEQ01000031_gene1643
+984_NarI,Streptosporangium amethystogenes | 2002.JOEQ01000037_gene4301
+985_NarI,Streptosporangium roseum DSM 43021 | 479432.Sros_1921
+986_NarI,Streptosporangium roseum DSM 43021 | 479432.Sros_5444
+987_NarI,Actinomadura atramentaria DSM 43919 | 1120936.KB907208_gene1246
+988_NarI,Actinomadura atramentaria DSM 43919 | 1120936.KB907217_gene3556
+989_NarI,Actinomadura atramentaria DSM 43919 | 1120936.KB907217_gene3557
+990_NarI,Actinomadura bangladeshensis | tr|A0A6L9QHW5|A0A6L9QHW5_9ACTN
+991_NarI,Actinomadura bangladeshensis | tr|A0A6L9QX28|A0A6L9QX28_9ACTN
+992_NarI,Actinomadura darangshiensis | tr|A0A4R5A193|A0A4R5A193_9ACTN
+993_NarI,Actinomadura flavalba DSM 45200 | 561175.KB894096_gene483
+994_NarI,Actinomadura flavalba DSM 45200 | 561175.KB894096_gene484
+995_NarI,Actinomadura geliboluensis | tr|A0A5S4H0C2|A0A5S4H0C2_9ACTN
+996_NarI,Actinomadura latina | tr|A0A846Z253|A0A846Z253_9ACTN
+997_NarI,Actinomadura logoneensis | tr|A0A372JCC1|A0A372JCC1_9ACTN
+998_NarI,Actinomadura madurae LIID-AJ290 | 1394178.AWOO02000040_gene8528
+999_NarI,Actinomadura montaniterrae | tr|A0A6L3W0U3|A0A6L3W0U3_9ACTN
+1000_NarI,Actinomadura rubrisoli | tr|A0A4R5CGK4|A0A4R5CGK4_9ACTN
+1001_NarI,Actinomadura sp. 32-07 | tr|A0A8F5GQ03|A0A8F5GQ03_9ACTN
+1002_NarI,Actinomadura sp. 6K520 | tr|A0A4R5E428|A0A4R5E428_9ACTN
+1003_NarI,Actinomadura sp. BRA 177 | tr|A0A850JN54|A0A850JN54_9ACTN
+1004_NarI,Actinomadura sp. GC306 | tr|A0A4V2Y1F2|A0A4V2Y1F2_9ACTN
+1005_NarI,Actinomadura sp. J1-007 | tr|A0A6I4Q1M1|A0A6I4Q1M1_9ACTN
+1006_NarI,Actinomadura sp. KC216 | tr|A0A4R4LPY1|A0A4R4LPY1_9ACTN
+1007_NarI,Actinomadura sp. KC345 | tr|A0A4R4RI78|A0A4R4RI78_9ACTN
+1008_NarI,Actinomadura sp. WAC 06369 | tr|A0A429GAZ4|A0A429GAZ4_9ACTN
+1009_NarI,Spirillospora albida | 58123.JOFJ01000012_gene5280
+1010_NarI,Spirillospora albida | 58123.JOFJ01000026_gene2769
+1011_NarI,Adlercreutzia equolifaciens DSM 19450 | 1384484.AEQU_0940
+1012_NarI,Adlercreutzia mucosicola DSM 19490 | 1121866.AUGK01000004_gene260
+1013_NarI,Eggerthella lenta DSM 2243 | 479437.Elen_1856
+1014_NarI,Rubrobacter radiotolerans | 42256.RradSPS_0576
+1015_NarI,Rubrobacter sp. SCSIO 52909 | tr|A0A6G8Q994|A0A6G8Q994_9ACTN
+1016_NarI,Rubrobacter sp. SCSIO 52909 | tr|A0A6G8QDI0|A0A6G8QDI0_9ACTN
+1017_NarI,Rubrobacter taiwanensis | tr|A0A4V2NWD9|A0A4V2NWD9_9ACTN
+1018_NarI,Rubrobacter xylanophilus DSM 9941 | 266117.Rxyl_1208
+1019_NarI,Solirubrobacterales | tr|A0A8I1NFX9|A0A8I1NFX9_9ACTN
+1020_NarI,Conexibacter woesei DSM 14684 | 469383.Cwoe_1488
+1021_NarI,Aquifex aeolicus VF5 | 224324.aq_963
+1022_NarI,Hydrogenobacter thermophilus TK-6 | 608538.HTH_0093
+1023_NarI,Thermocrinis albus DSM 14484 | 638303.Thal_1418
+1024_NarI,Chthonomonas calidirosea T49 | 1303518.CCALI_00581
+1025_NarI,Prolixibacteraceae | tr|A0A3C2D8P7|A0A3C2D8P7_9BACT
+1026_NarI,Prolixibacteraceae | tr|A0A3D5YV47|A0A3D5YV47_9BACT
+1027_NarI,Prolixibacteraceae | tr|A0A3D5Z1Q8|A0A3D5Z1Q8_9BACT
+1028_NarI,Chitinophagaceae | tr|A0A7T9K2P3|A0A7T9K2P3_9BACT
+1029_NarI,Cyclobacteriaceae | tr|A0A7D5RQ20|A0A7D5RQ20_9BACT
+1030_NarI,Flavobacteriales | tr|A0A2A5B8V2|A0A2A5B8V2_9FLAO
+1031_NarI,Flavobacteriales | tr|A0A2A5HP09|A0A2A5HP09_9FLAO
+1032_NarI,Flavobacteriales | tr|A0A2H0GA29|A0A2H0GA29_9FLAO
+1033_NarI,Flavobacteriales | tr|A0A2M7VV15|A0A2M7VV15_9FLAO
+1034_NarI,Flavobacteriales | tr|A0A7J5EEA0|A0A7J5EEA0_9FLAO
+1035_NarI,Crocinitomicaceae | tr|A0A2E4ELK8|A0A2E4ELK8_9FLAO
+1036_NarI,Arenibacter algicola | 616991.JPOO01000003_gene1698
+1037_NarI,Saprospiraceae | tr|A0A521V361|A0A521V361_9BACT
+1038_NarI,Saprospiraceae | tr|A0A7Y1YTJ0|A0A7Y1YTJ0_9BACT
+1039_NarI,Saprospiraceae | tr|A0A7Y5VD46|A0A7Y5VD46_9BACT
+1040_NarI,Calditrichaceae | tr|A0A850AEG5|A0A850AEG5_9BACT
+1041_NarI,Aminicenantes bacterium SCGC AAA252-A02 | 1047013.AQSP01000093_gene13
+1042_NarI,Chlorobaculum parvum NCIB 8327 | 517417.Cpar_0033
+1043_NarI,Chlorobaculum tepidum TLS | 194439.CT0868
+1044_NarI,Chlorobaculum tepidum TLS | 194439.CT2244
+1045_NarI,Chlorobium chlorochromatii CaD3 | 340177.Cag_1582
+1046_NarI,Chlorobium chlorochromatii CaD3 | 340177.Cag_1948
+1047_NarI,Chlorobium limicola DSM 245 | 290315.Clim_0703
+1048_NarI,Chlorobium phaeobacteroides DSM 266 | 290317.Cpha266_0136
+1049_NarI,Chlorobium phaeobacteroides BS1 | 331678.Cphamn1_1834
+1050_NarI,Chlorobium phaeobacteroides BS1 | 331678.Cphamn1_1849
+1051_NarI,Chlorobium phaeovibrioides DSM 265 | 290318.Cvib_0047
+1052_NarI,Pelodictyon luteolum DSM 273 | 319225.Plut_0044
+1053_NarI,Pelodictyon phaeoclathratiforme BU-1 | 324925.Ppha_0035
+1054_NarI,Pelodictyon phaeoclathratiforme BU-1 | 324925.Ppha_2313
+1055_NarI,Prosthecochloris aestuarii DSM 271 | 290512.Paes_0037
+1056_NarI,Caldilinea aerophila DSM 14535 = NBRC 104270 | 926550.CLDAP_03390
+1057_NarI,Chloroflexus aggregans DSM 9485 | 326427.Cagg_2621
+1058_NarI,Chloroflexus aurantiacus J-10-fl | 324602.Caur_1809
+1059_NarI,Chloroflexus sp. MS-G | 1521187.JPIM01000090_gene1833
+1060_NarI,Oscillochloris trichoides DG-6 | 765420.OSCT_0957
+1061_NarI,Roseiflexus castenholzii DSM 13941 | 383372.Rcas_0809
+1062_NarI,Roseiflexus sp. RS-1 | 357808.RoseRS_4457
+1063_NarI,Herpetosiphon aurantiacus DSM 785 | 316274.Haur_4458
+1064_NarI,Sphaerobacter thermophilus DSM 20745 | 479434.Sthe_2901
+1065_NarI,Chrysiogenes arsenatis DSM 11915 | 118005.AWNK01000001_gene2108
+1066_NarI,Desulfurispirillum indicum S5 | 653733.Selin_1395
+1067_NarI,Desulfurispirillum indicum S5 | 653733.Selin_2440
+1068_NarI,Arthrospira platensis C1 | 459495.SPLC1_S101920
+1069_NarI,Deferribacter desulfuricans SSM1 | 639282.DEFDS_2086
+1070_NarI,Denitrovibrio acetiphilus DSM 12809 | 522772.Dacet_0125
+1071_NarI,Denitrovibrio acetiphilus DSM 12809 | 522772.Dacet_2067
+1072_NarI,Flexistipes sinusarabici DSM 4947 | 717231.Flexsi_0405
+1073_NarI,Deinococcus radiodurans R1 | 243230.DR_2565
+1074_NarI,Deinococcus wulumuqiensis R12 | 1288484.APCS01000081_gene2138
+1075_NarI,Calidithermus chliarophilus DSM 9957 | 926560.KE387023_gene2300
+1076_NarI,Calidithermus timidus DSM 17022 | 1122223.KB890701_gene2305
+1077_NarI,Marinithermus hydrothermalis DSM 14884 | 869210.Marky_1845
+1078_NarI,Meiothermus ruber | tr|A0A7C3DVW8|A0A7C3DVW8_MEIRU
+1079_NarI,Meiothermus silvanus DSM 9946 | 526227.Mesil_0247
+1080_NarI,Oceanithermus profundus DSM 14977 | 670487.Ocepr_1424
+1081_NarI,Thermus amyloliquefaciens | 1449080.JQMV01000003_gene1439
+1082_NarI,Thermus antranikianii DSM 12462 | 1123386.AUIW01000006_gene1636
+1083_NarI,Thermus igniterrae ATCC 700962 | 1123388.AQWU01000070_gene103
+1084_NarI,Thermus oshimai JL-2 | 751945.Theos_1038
+1085_NarI,Thermus scotoductus SA-01 | 743525.TSC_c17480
+1086_NarI,Thermus tengchongensis YIM 77401 | 1449357.JQLK01000001_gene1289
+1087_NarI,Exiguobacterium chiriqhucha RW-2 | 1345023.M467_09555
+1088_NarI,Exiguobacterium undae DSM 14481 | 1397693.KK211187_gene2852
+1089_NarI,Exiguobacterium oxidotolerans JCM 12280 | 1397699.JNIS01000001_gene1817
+1090_NarI,Exiguobacterium sp. MH3 | 1399115.U719_01390
+1091_NarI,Geomicrobium sp. JCM 19037 | 1460634.JCM19037_1833
+1092_NarI,Geomicrobium sp. JCM 19038 | 1460635.JCM19038_717
+1093_NarI,Exiguobacterium sp. AB2 | 1484479.DI14_08140
+1094_NarI,Exiguobacterium sp. AT1b | 360911.EAT1b_1361
+1095_NarI,Exiguobacterium sp. AT1b | 360911.EAT1b_1901
+1096_NarI,Alicyclobacillaceae | tr|A0A418M6Z5|A0A418M6Z5_9BACL
+1097_NarI,Alicyclobacillus herbarius DSM 13609 | 1120972.AUMH01000014_gene2580
+1098_NarI,Kyrpidia tusciae DSM 2912 | 562970.Btus_1652
+1099_NarI,Kyrpidia tusciae DSM 2912 | 562970.Btus_2491
+1100_NarI,Kyrpidia tusciae DSM 2912 | 562970.Btus_3278
+1101_NarI,Alkalicoccus chagannorensis DSM 18086 | 1121087.AUCK01000002_gene2591
+1102_NarI,Alkalihalobacillus akibai JCM 9157 | 1236973.JCM9157_2287
+1103_NarI,Alkalihalobacillus akibai JCM 9157 | 1236973.JCM9157_613
+1104_NarI,Alkalihalobacillus alcalophilus ATCC 27647 = CGMCC 1.3604 | 1218173.BALCAV_0215365
+1105_NarI,Alkalihalobacillus bogoriensis ATCC BAA-922 | 1408424.JHYI01000015_gene4684
+1106_NarI,Alkalihalobacillus bogoriensis ATCC BAA-922 | 1408424.JHYI01000016_gene2616
+1107_NarI,Alkalihalobacillus clausii KSM-K16 | 66692.ABC0718
+1108_NarI,Alkalihalobacillus clausii KSM-K16 | 66692.ABC3892
+1109_NarI,Alkalihalobacillus halodurans C-125 | 272558.10176427
+1110_NarI,Alkalihalobacillus lehensis G1 | 1246626.BleG1_3751
+1111_NarI,Alkalihalobacillus ligniniphilus | 1134413.ANNK01000007_gene1814
+1112_NarI,Alkalihalobacillus ligniniphilus | 1134413.ANNK01000008_gene1749
+1113_NarI,Alkalihalobacillus okhensis | 333138.LQ50_19175
+1114_NarI,Alkalihalobacillus okhensis | 333138.LQ50_22800
+1115_NarI,Alkalihalophilus pseudofirmus OF4 | 398511.BpOF4_07065
+1116_NarI,Anoxybacillus flavithermus TNO-09.006 | 1267580.AF6_1004
+1117_NarI,Anoxybacillus flavithermus TNO-09.006 | 1267580.AF6_2653
+1118_NarI,Anoxybacillus gonensis | 198467.NP92_10565
+1119_NarI,Anoxybacillus tepidamans PS2 | 1382358.JHVN01000001_gene1176
+1120_NarI,Bacillus andreraoultii | 1499685.CCFJ01000024_gene2272
+1121_NarI,Bacillus andreraoultii | 1499685.CCFJ01000041_gene952
+1122_NarI,Bacillus andreraoultii | 1499685.CCFJ01000057_gene480
+1123_NarI,Bacillus anthracis str. Sterne | 260799.BAS1980
+1124_NarI,Bacillus anthracis str. Sterne | 260799.BAS5194
+1125_NarI,Bacillus atrophaeus 1942 | 720555.BATR1942_16550
+1126_NarI,Bacillus atrophaeus 1942 | 720555.BATR1942_16585
+1127_NarI,Bacillus coahuilensis m4-4 | 441769.ABFU01000065_gene1858
+1128_NarI,Bacillus cytotoxicus NVH 391-98 | 315749.Bcer98_3402
+1129_NarI,Bacillus cytotoxicus NVH 391-98 | 315749.Bcer98_3866
+1130_NarI,Bacillus dielmonensis | 1347369.CCAD010000028_gene1335
+1131_NarI,Bacillus dielmonensis | 1347369.CCAD010000086_gene1784
+1132_NarI,Bacillus dielmonensis | 1347369.CCAD010000090_gene1999
+1133_NarI,Bacillus gaemokensis | 574375.BAGA_12995
+1134_NarI,Bacillus licheniformis DSM 13 = ATCC 14580 | 279010.BL01175
+1135_NarI,Bacillus licheniformis DSM 13 = ATCC 14580 | 279010.BL03924
+1136_NarI,Bacillus manliponensis | 574376.BAMA_01545
+1137_NarI,Bacillus massilioanorexius AP8 | 1211814.CAPG01000019_gene563
+1138_NarI,Bacillus massilioanorexius AP8 | 1211814.CAPG01000064_gene3034
+1139_NarI,Bacillus massiliogorillae | 1243664.CAVL020000027_gene747
+1140_NarI,Bacillus massiliogorillae | 1243664.CAVL020000042_gene3860
+1141_NarI,Bacillus methanolicus MGA3 | 796606.BMMGA3_16185
+1142_NarI,Bacillus methanolicus PB1 | 997296.PB1_07927
+1143_NarI,Bacillus mojavensis RO-H-1 = KCTC 3706 | 1051501.AYTL01000028_gene2040
+1144_NarI,Bacillus mojavensis RO-H-1 = KCTC 3706 | 1051501.AYTL01000028_gene2048
+1145_NarI,Bacillus mycoides | 1405.DJ92_1823
+1146_NarI,Bacillus mycoides KBAB4 | 315730.BcerKBAB4_1974
+1147_NarI,Bacillus pumilus SAFR-032 | 315750.BPUM_3374
+1148_NarI,Bacillus rubiinfantis | 1499680.CCFE01000013_gene904
+1149_NarI,Bacillus rubiinfantis | 1499680.CCFE01000021_gene1984
+1150_NarI,Bacillus smithii 7_3_47FAA | 665952.HMPREF1015_02572
+1151_NarI,Bacillus sonorensis L12 | 1274524.BSONL12_05198
+1152_NarI,Bacillus sonorensis L12 | 1274524.BSONL12_05413
+1153_NarI,Bacillus sonorensis L12 | 1274524.BSONL12_17499
+1154_NarI,Bacillus sp. 123MFChir2 | 1169144.KB910926_gene1208
+1155_NarI,Bacillus sp. 123MFChir2 | 1169144.KB910930_gene1673
+1156_NarI,Bacillus sp. 1NLA3E | 666686.B1NLA3E_03565
+1157_NarI,Bacillus sp. 1NLA3E | 666686.B1NLA3E_21670
+1158_NarI,Bacillus sp. 37MA | 1132442.KB889752_gene3186
+1159_NarI,Bacillus sp. EB01 | 1347086.CCBA010000004_gene4346
+1160_NarI,Bacillus sp. EB01 | 1347086.CCBA010000011_gene1524
+1161_NarI,Bacillus sp. J33 | 935836.JAEL01000007_gene2944
+1162_NarI,Bacillus sp. J33 | 935836.JAEL01000071_gene4036
+1163_NarI,Bacillus sp. J33 | 935836.JAEL01000094_gene3355
+1164_NarI,Bacillus sp. J37 | 935837.JAEK01000003_gene4039
+1165_NarI,Bacillus sp. JCM 19046 | 1460640.JCM19046_1301
+1166_NarI,Bacillus sp. NSP22.2 | 1071073.KI530538_gene293
+1167_NarI,Bacillus sp. S3 | tr|A0A513RIP1|A0A513RIP1_9BACI
+1168_NarI,Bacillus sp. SJS | 1423321.AS29_09830
+1169_NarI,Bacillus sp. TS-2 | 1450694.BTS2_1245
+1170_NarI,Bacillus sp. UNC438CL73TsuS30 | 1340434.AXVA01000003_gene2455
+1171_NarI,Bacillus sp. UNC438CL73TsuS30 | 1340434.AXVA01000010_gene5298
+1172_NarI,Bacillus sp. UNC438CL73TsuS30 | 1340434.AXVA01000012_gene3047
+1173_NarI,Bacillus sp. m3-13 | 406124.ACPC01000022_gene4086
+1174_NarI,Bacillus subtilis subsp. subtilis str. 168 | 224308.BSU37180
+1175_NarI,Bacillus subtilis subsp. subtilis str. 168 | 224308.BSU37250
+1176_NarI,Bacillus swezeyi | tr|A0A5M8RYQ5|A0A5M8RYQ5_9BACI
+1177_NarI,Bacillus timonensis | 1033734.CAET01000048_gene1631
+1178_NarI,Bacillus timonensis | 1033734.CAET01000062_gene1967
+1179_NarI,Bacillus timonensis | 1033734.CAET01000063_gene1988
+1180_NarI,Bacillus velezensis FZB42 | 326423.RBAM_034330
+1181_NarI,Bacillus velezensis FZB42 | 326423.RBAM_034400
+1182_NarI,Bacillus xiamenensis | 1178537.BA1_01640
+1183_NarI,Caldalkalibacillus thermarum TA2.A1 | 986075.CathTA2_1593
+1184_NarI,Caldibacillus thermoamylovorans | 35841.BT1A1_0355
+1185_NarI,Caldibacillus thermoamylovorans | 35841.BT1A1_1311
+1186_NarI,Caldibacillus thermoamylovorans | 35841.BT1A1_3363
+1187_NarI,Cytobacillus oceanisediminis 2691 | 1196031.ALEG01000028_gene4136
+1188_NarI,Cytobacillus oceanisediminis 2691 | 1196031.ALEG01000033_gene2989
+1189_NarI,Evansella cellulosilytica DSM 2522 | 649639.Bcell_2935
+1190_NarI,Evansella cellulosilytica DSM 2522 | 649639.Bcell_4118
+1191_NarI,Fictibacillus gelatini DSM 15865 | 1121091.AUMP01000005_gene1607
+1192_NarI,Fictibacillus macauensis ZFHKF-1 | 1196324.A374_00055
+1193_NarI,Geobacillus icigianus | 1430331.EP10_11020
+1194_NarI,Geobacillus kaustophilus HTA426 | 235909.GK1828
+1195_NarI,Geobacillus kaustophilus HTA426 | 235909.GK3398
+1196_NarI,Geobacillus sp. WCH70 | 471223.GWCH70_1528
+1197_NarI,Geobacillus sp. WCH70 | 471223.GWCH70_3345
+1198_NarI,Geobacillus thermodenitrificans NG80-2 | 420246.GTNG_0656
+1199_NarI,Geobacillus thermodenitrificans NG80-2 | 420246.GTNG_1715
+1200_NarI,Geobacillus thermodenitrificans NG80-2 | 420246.GTNG_3343
+1201_NarI,Geobacillus vulcani PSS1 | 1382315.JPOI01000001_gene953
+1202_NarI,Gracilibacillus lacisalsi DSM 19029 | 1121929.KB898670_gene2954
+1203_NarI,Halalkalibacillus halophilus DSM 18494 | 1121936.AUHI01000002_gene2498
+1204_NarI,Halobacillus dabanensis | 240302.BN982_01076
+1205_NarI,Halobacillus halophilus DSM 2266 | 866895.HBHAL_4643
+1206_NarI,Halobacillus kuroshimensis DSM 18393 | 1121938.AUDY01000009_gene2088
+1207_NarI,Halobacillus sp. BAB-2008 | 1246484.D479_00235
+1208_NarI,Lentibacillus jeotgali | 558169.AGAV01000005_gene2562
+1209_NarI,Lentibacillus jeotgali | 558169.AGAV01000013_gene870
+1210_NarI,Lysinibacillus fusiformis ZC1 | 714961.BFZC1_18105
+1211_NarI,Lysinibacillus sp. BF-4 | 1473546.CH76_08505
+1212_NarI,Lysinibacillus sphaericus OT4b.31 | 1285586.H131_04939
+1213_NarI,Lysinibacillus varians | 1145276.T479_02635
+1214_NarI,Mesobacillus boroniphilus JCM 21738 | 1294265.JCM21738_1741
+1215_NarI,Mesobacillus boroniphilus JCM 21738 | 1294265.JCM21738_1871
+1216_NarI,Neobacillus bataviensis LMG 21833 | 1117379.BABA_16887
+1217_NarI,Neobacillus bataviensis LMG 21833 | 1117379.BABA_18582
+1218_NarI,Neobacillus bataviensis LMG 21833 | 1117379.BABA_22333
+1219_NarI,Neobacillus jeddahensis | 1461580.CCAS010000003_gene471
+1220_NarI,Neobacillus jeddahensis | 1461580.CCAS010000008_gene1191
+1221_NarI,Neobacillus jeddahensis | 1461580.CCAS010000072_gene4113
+1222_NarI,Neobacillus vireti LMG 21834 | 1131730.BAVI_01410
+1223_NarI,Neobacillus vireti LMG 21834 | 1131730.BAVI_05379
+1224_NarI,Neobacillus vireti LMG 21834 | 1131730.BAVI_09351
+1225_NarI,Oceanobacillus jeddahense | 1462527.CCDM010000001_gene2364
+1226_NarI,Oceanobacillus kimchii X50 | 1238184.CM001792_gene3174
+1227_NarI,Oceanobacillus manasiensis | 586413.CCDL010000001_gene916
+1228_NarI,Oceanobacillus massiliensis str. N'diop | 946235.CAER01000016_gene1173
+1229_NarI,Oceanobacillus picturae | 171693.BN988_03674
+1230_NarI,Ornithinibacillus scapharcae TW25 | 981383.AEWH01000071_gene1125
+1231_NarI,Parageobacillus caldoxylosilyticus CIC9 | 1234664.AMRO01000003_gene698
+1232_NarI,Parageobacillus caldoxylosilyticus CIC9 | 1234664.AMRO01000050_gene497
+1233_NarI,Parageobacillus caldoxylosilyticus CIC9 | 1234664.AMRO01000071_gene3050
+1234_NarI,Parageobacillus genomosp. 1 | 1295642.H839_07199
+1235_NarI,Parageobacillus genomosp. 1 | 1295642.H839_17638
+1236_NarI,Parageobacillus thermoglucosidasius C56-YS93 | 634956.Geoth_2200
+1237_NarI,Parageobacillus thermoglucosidasius C56-YS93 | 634956.Geoth_3845
+1238_NarI,Paucisalibacillus sp. EB02 | 1347087.CBYO010000007_gene1212
+1239_NarI,Peribacillus psychrosaccharolyticus ATCC 23296 | 1174504.AJTN02000185_gene104
+1240_NarI,Peribacillus psychrosaccharolyticus ATCC 23296 | 1174504.AJTN02000194_gene4196
+1241_NarI,Peribacillus simplex BA2H3 | 1403313.AXBR01000017_gene3903
+1242_NarI,Peribacillus simplex BA2H3 | 1403313.AXBR01000027_gene5253
+1243_NarI,Pontibacillus chungwhensis BH030062 | 1385513.N780_13895
+1244_NarI,Pontibacillus halophilus JSM 076056 = DSM 19796 | 1385510.N781_01275
+1245_NarI,Pontibacillus litoralis JSM 072002 | 1385512.N784_04815
+1246_NarI,Pontibacillus marinus BH030004 = DSM 16465 | 1385511.N783_12105
+1247_NarI,Pontibacillus marinus BH030004 = DSM 16465 | 1385511.N783_12255
+1248_NarI,Pontibacillus yanchengensis Y32 | 1385514.N782_02015
+1249_NarI,Pontibacillus yanchengensis Y32 | 1385514.N782_08930
+1250_NarI,Priestia endophytica 2102 | 1196029.ALIM01000035_gene2214
+1251_NarI,Priestia flexa T6186-2 | 1444310.JANV01000077_gene242
+1252_NarI,Priestia megaterium MSP20.1 | 1348908.KI518593_gene1905
+1253_NarI,Priestia megaterium MSP20.1 | 1348908.KI518630_gene145
+1254_NarI,Priestia megaterium QM B1551 | 545693.BMQ_5186
+1255_NarI,Robertmurraya massiliosenegalensis JC6 | 1034347.CAHJ01000030_gene3822
+1256_NarI,Robertmurraya massiliosenegalensis JC6 | 1034347.CAHJ01000056_gene1123
+1257_NarI,Rossellomorea vietnamensis | 218284.CCDN010000007_gene3954
+1258_NarI,Salibacterium aidingense DSM 18341 | 1121085.AUCI01000006_gene1561
+1259_NarI,Salibacterium aidingense DSM 18341 | 1121085.AUCI01000052_gene2153
+1260_NarI,Salimicrobium jeotgali | 1230341.MJ3_08716
+1261_NarI,[Bacillus] selenitireducens MLS10 | 439292.Bsel_1295
+1262_NarI,[Bacillus] selenitireducens MLS10 | 439292.Bsel_3192
+1263_NarI,Salsuginibacillus kocurii DSM 18087 | 1123239.KB898626_gene792
+1264_NarI,Siminovitchia fordii DSM 16014 = CIP 108821 | 1121090.KB894703_gene1174
+1265_NarI,Virgibacillus alimentarius | 698769.JFBD01000037_gene3126
+1266_NarI,Virgibacillus alimentarius | 698769.JFBD01000064_gene1593
+1267_NarI,Virgibacillus halodenitrificans 1806 | 1196028.ALEF01000051_gene3803
+1268_NarI,Virgibacillus halodenitrificans 1806 | 1196028.ALEF01000053_gene3662
+1269_NarI,Virgibacillus halodenitrificans 1806 | 1196028.ALEF01000061_gene1087
+1270_NarI,Virgibacillus indicus | tr|A0A265NED7|A0A265NED7_9BACI
+1271_NarI,Virgibacillus massiliensis | 1462526.BN990_00538
+1272_NarI,Virgibacillus profundi | tr|A0A2A2IEC0|A0A2A2IEC0_9BACI
+1273_NarI,Weizmannia coagulans 36D1 | 345219.Bcoa_1419
+1274_NarI,Weizmannia coagulans 36D1 | 345219.Bcoa_1848
+1275_NarI,Listeria booriae | 1552123.EP57_10940
+1276_NarI,Listeria weihenstephanensis FSL R9-0317 | 1265845.PWEIH_01570
+1277_NarI,Aneurinibacillus aneurinilyticus ATCC 12856 | 649747.HMPREF0083_02099
+1278_NarI,Aneurinibacillus aneurinilyticus ATCC 12856 | 649747.HMPREF0083_05529
+1279_NarI,Brevibacillus borstelensis 3096-7 | 1444309.JAQG01000010_gene2788
+1280_NarI,Brevibacillus brevis X23 | 1200792.AKYF01000010_gene2293
+1281_NarI,Brevibacillus brevis X23 | 1200792.AKYF01000020_gene4952
+1282_NarI,Brevibacillus laterosporus LMG 15441 | 1042163.BRLA_c027120
+1283_NarI,Brevibacillus laterosporus DSM 25 | 1121121.KB894289_gene2587
+1284_NarI,Gorillibacterium massiliense | 1280390.CBQR020000026_gene616
+1285_NarI,Paenibacillus alvei TS-15 | 1117108.PAALTS15_13207
+1286_NarI,Paenibacillus antibioticophila | 1274374.CBLK010000039_gene1597
+1287_NarI,Paenibacillus curdlanolyticus YK9 | 717606.PaecuDRAFT_0873
+1288_NarI,Paenibacillus curdlanolyticus YK9 | 717606.PaecuDRAFT_2769
+1289_NarI,Paenibacillus fonticola DSM 21315 | 1122918.KB907247_gene4901
+1290_NarI,Paenibacillus ginsengihumi DSM 21568 | 1122919.KB905555_gene999
+1291_NarI,Paenibacillus ginsengihumi DSM 21568 | 1122919.KB905617_gene176
+1292_NarI,Paenibacillus graminis | 189425.PGRAT_16420
+1293_NarI,Paenibacillus lactis 154 | 743719.PaelaDRAFT_3160
+1294_NarI,Paenibacillus larvae subsp. larvae DSM 25430 | 697284.ERIC2_c12930
+1295_NarI,Paenibacillus larvae subsp. larvae DSM 25430 | 697284.ERIC2_c15380
+1296_NarI,Paenibacillus larvae subsp. larvae DSM 25430 | 697284.ERIC2_c40560
+1297_NarI,Paenibacillus massiliensis 2301065 = DSM 16942 | 1122921.KB898193_gene2332
+1298_NarI,Paenibacillus odorifer | 189426.PODO_21425
+1299_NarI,Paenibacillus peoriae KCTC 3763 | 1087481.AGFX01000011_gene3547
+1300_NarI,Paenibacillus peoriae KCTC 3763 | 1087481.AGFX01000041_gene682
+1301_NarI,Paenibacillus polymyxa M1 | 1052684.PPM_3621
+1302_NarI,Paenibacillus polymyxa E681 | 349520.PPE_03385
+1303_NarI,Paenibacillus sp. 7523-1 | tr|A0A268AW69|A0A268AW69_9BACL
+1304_NarI,Paenibacillus sp. A9 | 1284352.AOIG01000008_gene2292
+1305_NarI,Paenibacillus sp. FSL H7-0357 | 1536774.H70357_17745
+1306_NarI,Paenibacillus sp. FSL P4-0081 | 1536769.P40081_08780
+1307_NarI,Paenibacillus sp. FSL R7-0273 | 1536772.R70723_16055
+1308_NarI,Paenibacillus sp. JDR-2 | 324057.Pjdr2_0488
+1309_NarI,Paenibacillus sp. JNUCC-31 | tr|A0A7M2A9T4|A0A7M2A9T4_9BACL
+1310_NarI,Paenibacillus sp. MYb63 | tr|A0A2S8X4V3|A0A2S8X4V3_9BACL
+1311_NarI,Paenibacillus sp. OSY-SE | 1196323.ALKF01000180_gene1730
+1312_NarI,Paenibacillus sp. UASWS1643 | tr|A0A5M9U0I6|A0A5M9U0I6_9BACL
+1313_NarI,Paenibacillus sp. oral taxon 786 str. D14 | 621372.ACIH01000026_gene4135
+1314_NarI,Paenibacillus terrae HPL-003 | 985665.HPL003_26590
+1315_NarI,Paenibacillus terrigena DSM 21567 | 1122927.KB895419_gene2560
+1316_NarI,Paenibacillus tyrfis | 1501230.ET33_13070
+1317_NarI,Paenibacillus wynnii | 268407.PWYN_21895
+1318_NarI,Paenibacillus xylanilyticus | tr|A0A7Y6C0E9|A0A7Y6C0E9_9BACL
+1319_NarI,Bhargavaea cecembensis DSE10 | 1235279.C772_00187
+1320_NarI,Bhargavaea cecembensis DSE10 | 1235279.C772_02758
+1321_NarI,Kurthia huakuii LAM0618 | 1334046.AYTB01000002_gene1978
+1322_NarI,Kurthia massiliensis | 1033739.CAEU01000009_gene2076
+1323_NarI,Kurthia senegalensis | 1033740.CAEW01000011_gene2222
+1324_NarI,Kurthia sp. Dielmo | 1033738.CAEP01000003_gene2166
+1325_NarI,Paenisporosarcina sp. HGH0030 | 1078085.HMPREF1210_01784
+1326_NarI,Paenisporosarcina sp. TG-14 | 1231057.AMGD01000056_gene153
+1327_NarI,Paenisporosarcina sp. TG-14 | 1231057.AMGD01000108_gene343
+1328_NarI,Planococcus antarcticus DSM 14505 | 1185653.A1A1_09111
+1329_NarI,Planococcus donghaensis MPA1U2 | 933115.GPDM_15874
+1330_NarI,Planococcus glaciei CHR43 | 1273538.G159_14005
+1331_NarI,Planococcus glaciei CHR43 | 1273538.G159_15735
+1332_NarI,Planococcus sp. PAMC 21323 | 1526927.Plano_2428
+1333_NarI,Sporosarcina newyorkensis 2681 | 1027292.HMPREF9372_1374
+1334_NarI,Sporosarcina newyorkensis 2681 | 1027292.HMPREF9372_1466
+1335_NarI,Sporosarcina sp. D27 | 1382305.AZUC01000013_gene2787
+1336_NarI,Sporosarcina sp. D27 | 1382305.AZUC01000056_gene2092
+1337_NarI,Sporosarcina sp. EUR3 2.2.2 | 1305836.AXVE01000011_gene666
+1338_NarI,Sporosarcina ureae DSM 2281 | 1123290.AUDQ01000005_gene151
+1339_NarI,Sporosarcina ureae DSM 2281 | 1123290.AUDQ01000005_gene61
+1340_NarI,Ureibacillus manganicus DSM 26584 | 1384049.CD29_02205
+1341_NarI,Ureibacillus massiliensis 4400831 = CIP 108448 = CCUG 49529 | 1211035.CD30_01195
+1342_NarI,Ureibacillus thermosphaericus str. Thermo-BF | 1160707.AJIK01000003_gene673
+1343_NarI,Viridibacillus arenosi FSL R5-213 | 1227360.C176_03743
+1344_NarI,Sporolactobacillus vineae DSM 21990 = SL153 | 1123284.KB899048_gene1586
+1345_NarI,Tuberibacillus calidus DSM 17572 | 1123405.AUMM01000004_gene699
+1346_NarI,Tuberibacillus calidus DSM 17572 | 1123405.AUMM01000023_gene1959
+1347_NarI,Tuberibacillus calidus DSM 17572 | 1123405.AUMM01000023_gene1976
+1348_NarI,Macrococcus caseolyticus JCSC5402 | 458233.MCCL_0139
+1349_NarI,Mammaliicoccus lentus F1142 | 1179226.AJXO01000051_gene2756
+1350_NarI,Mammaliicoccus vitulinus F1028 | 1167632.AJTR01000017_gene1469
+1351_NarI,Staphylococcus agnetis | 985762.SAGN_07108
+1352_NarI,Staphylococcus aureus | 1280.SAXN108_2649
+1353_NarI,Staphylococcus capitis C87 | 435838.HMPREF0786_01164
+1354_NarI,Staphylococcus caprae M23864:W1 | 525378.HMPREF0793_0496
+1355_NarI,Staphylococcus carnosus subsp. carnosus TM300 | 396513.SCA_1891
+1356_NarI,Staphylococcus epidermidis RP62A | 176279.SERP1984
+1357_NarI,Staphylococcus equorum subsp. equorum Mu2 | 1159488.SEQMU2_09615
+1358_NarI,Staphylococcus haemolyticus JCSC1435 | 279808.SH0657
+1359_NarI,Staphylococcus hominis SK119 | 629742.STAHO0001_1150
+1360_NarI,Staphylococcus hominis | tr|A0A533IZA9|A0A533IZA9_STAHO
+1361_NarI,Staphylococcus intermedius NCTC 11048 | 1141106.CAIB01000106_gene819
+1362_NarI,Staphylococcus lugdunensis N920143 | 1034809.SLUG_06000
+1363_NarI,Staphylococcus massiliensis S46 | 1229783.C273_08781
+1364_NarI,Staphylococcus pettenkoferi VCU012 | 904314.SEVCU012_1934
+1365_NarI,Staphylococcus simulans UMC-CNS-990 | 1405498.SSIM_02780
+1366_NarI,Staphylococcus sp. E463 | 1234593.ANBY01000059_gene2433
+1367_NarI,Staphylococcus sp. HGB0015 | 1078083.HMPREF1208_01981
+1368_NarI,Staphylococcus warneri SG1 | 1194526.A284_02470
+1369_NarI,Staphylococcus warneri L37603 | 596319.STAWA0001_1728
+1370_NarI,Staphylococcus xylosus | 1288.SXYLSMQ121_0537
+1371_NarI,Desmospora sp. 8437 | 997346.HMPREF9374_2437
+1372_NarI,Laceyella sacchari 1-1 | 1341151.ASZU01000008_gene1406
+1373_NarI,Shimazuella kribbensis DSM 45090 | 1123252.ATZF01000015_gene1802
+1374_NarI,Thermoactinomyces daqus | 1329516.JPST01000014_gene569
+1375_NarI,Agrilactobacillus composti DSM 18527 = JCM 14202 | 1423734.JCM14202_389
+1376_NarI,Companilactobacillus nodensis DSM 19682 = JCM 14932 = NBRC 107160 | 1423775.BAMN01000006_gene1037
+1377_NarI,Companilactobacillus nodensis DSM 19682 = JCM 14932 = NBRC 107160 | 1423775.BAMN01000006_gene1038
+1378_NarI,Companilactobacillus versmoldensis DSM 14857 = KCTC 3814 | 1423815.BACR01000043_gene2107
+1379_NarI,Lactiplantibacillus pentosus KCA1 | 1136177.KCA1_1277
+1380_NarI,Lactiplantibacillus plantarum WCFS1 | 220668.lp_1500
+1381_NarI,Lentilactobacillus farraginis DSM 18382 = JCM 14108 | 1423743.JCM14108_360
+1382_NarI,Lentilactobacillus parafarraginis F0439 | 797515.HMPREF9103_03128
+1383_NarI,Limosilactobacillus antri DSM 16041 | 525309.HMPREF0494_1231
+1384_NarI,Limosilactobacillus fermentum IFO 3956 | 334390.LAF_1059
+1385_NarI,Limosilactobacillus reuteri subsp. rodentium | 349123.Lreu23DRAFT_3822
+1386_NarI,Loigolactobacillus coryniformis subsp. coryniformis KCTC 3167 = DSM 20001 | 913848.AELK01000192_gene511
+1387_NarI,Sulfobacillus acidophilus TPY | 1051632.TPY_3518
+1388_NarI,Sulfobacillus acidophilus TPY | 1051632.TPY_3590
+1389_NarI,Sulfobacillus acidophilus TPY | 1051632.TPY_3660
+1390_NarI,Desulfoscipio gibsoniae DSM 7213 | 767817.Desgi_1922
+1391_NarI,Desulfoscipio gibsoniae DSM 7213 | 767817.Desgi_4650
+1392_NarI,Desulfotruncus alcoholivorax DSM 16058 | 1121422.AUMW01000012_gene2982
+1393_NarI,Heliomicrobium modesticaldum Ice1 | 498761.HM1_0890
+1394_NarI,Candidatus Desulforudis audaxviator MP104C | 477974.Daud_2192
+1395_NarI,Dehalobacter sp. FTH1 | 1035308.AQYY01000001_gene1423
+1396_NarI,Desulfitobacterium dehalogenans ATCC 51507 | 756499.Desde_0262
+1397_NarI,Desulfitobacterium dehalogenans ATCC 51507 | 756499.Desde_0270
+1398_NarI,Desulfitobacterium dehalogenans ATCC 51507 | 756499.Desde_2311
+1399_NarI,Desulfitobacterium dehalogenans ATCC 51507 | 756499.Desde_3887
+1400_NarI,Desulfitobacterium dichloroeliminans LMG P-21439 | 871963.Desdi_0238
+1401_NarI,Desulfitobacterium dichloroeliminans LMG P-21439 | 871963.Desdi_0246
+1402_NarI,Desulfitobacterium dichloroeliminans LMG P-21439 | 871963.Desdi_3260
+1403_NarI,Desulfitobacterium hafniense Y51 | 138119.DSY0305
+1404_NarI,Desulfitobacterium hafniense Y51 | 138119.DSY0312
+1405_NarI,Desulfitobacterium hafniense Y51 | 138119.DSY0337
+1406_NarI,Desulfitobacterium hafniense Y51 | 138119.DSY1713
+1407_NarI,Desulfitobacterium hafniense Y51 | 138119.DSY2486
+1408_NarI,Desulfitobacterium hafniense Y51 | 138119.DSY3365
+1409_NarI,Desulfitobacterium hafniense Y51 | 138119.DSY4518
+1410_NarI,Desulfitobacterium metallireducens DSM 15288 | 871968.DESME_07005
+1411_NarI,Desulfofalx alkaliphila DSM 12257 | 1121423.JONT01000003_gene1101
+1412_NarI,Desulfofalx alkaliphila DSM 12257 | 1121423.JONT01000008_gene761
+1413_NarI,Desulfofarcimen acetoxidans DSM 771 | 485916.Dtox_0075
+1414_NarI,Desulfofundulus kuznetsovii DSM 6115 | 760568.Desku_0184
+1415_NarI,Desulfofundulus kuznetsovii DSM 6115 | 760568.Desku_3487
+1416_NarI,Desulfofundulus thermocisternus DSM 10259 | 1121430.JMLG01000002_gene1278
+1417_NarI,Desulfofundulus thermocisternus DSM 10259 | 1121430.JMLG01000004_gene895
+1418_NarI,Desulforamulus hydrothermalis Lam5 = DSM 18033 | 1121428.DESHY_110280___1
+1419_NarI,Desulforamulus hydrothermalis Lam5 = DSM 18033 | 1121428.DESHY_30073___1
+1420_NarI,Desulforamulus reducens MI-1 | 349161.Dred_1445
+1421_NarI,Desulforamulus reducens MI-1 | 349161.Dred_3199
+1422_NarI,Desulforamulus ruminis DSM 2154 | 696281.Desru_2597
+1423_NarI,Desulforamulus ruminis DSM 2154 | 696281.Desru_3514
+1424_NarI,Desulforamulus ruminis DSM 2154 | 696281.Desru_3736
+1425_NarI,Desulfosporosinus acidiphilus SJ4 | 646529.Desaci_1652
+1426_NarI,Desulfosporosinus acidiphilus SJ4 | 646529.Desaci_1854
+1427_NarI,Desulfosporosinus acidiphilus SJ4 | 646529.Desaci_2281
+1428_NarI,Desulfosporosinus acidiphilus SJ4 | 646529.Desaci_2311
+1429_NarI,Desulfosporosinus acidiphilus SJ4 | 646529.Desaci_3008
+1430_NarI,Desulfosporosinus meridiei DSM 13257 | 768704.Desmer_1641
+1431_NarI,Desulfosporosinus meridiei DSM 13257 | 768704.Desmer_1885
+1432_NarI,Desulfosporosinus meridiei DSM 13257 | 768704.Desmer_2485
+1433_NarI,Desulfosporosinus meridiei DSM 13257 | 768704.Desmer_2571
+1434_NarI,Desulfosporosinus orientis DSM 765 | 768706.Desor_1290
+1435_NarI,Desulfosporosinus orientis DSM 765 | 768706.Desor_1698
+1436_NarI,Desulfosporosinus orientis DSM 765 | 768706.Desor_2403
+1437_NarI,Desulfosporosinus orientis DSM 765 | 768706.Desor_3219
+1438_NarI,Desulfosporosinus orientis DSM 765 | 768706.Desor_3307
+1439_NarI,Desulfosporosinus sp. HMP52 | 1487923.DP73_20905
+1440_NarI,Desulfosporosinus sp. OT | 913865.DOT_2386
+1441_NarI,Desulfosporosinus sp. OT | 913865.DOT_3417
+1442_NarI,Desulfosporosinus sp. OT | 913865.DOT_3963
+1443_NarI,Desulfosporosinus sp. OT | 913865.DOT_4935
+1444_NarI,Desulfosporosinus youngiae DSM 17734 | 768710.DesyoDRAFT_1500
+1445_NarI,Desulfosporosinus youngiae DSM 17734 | 768710.DesyoDRAFT_1676
+1446_NarI,Desulfosporosinus youngiae DSM 17734 | 768710.DesyoDRAFT_2901
+1447_NarI,Desulfosporosinus youngiae DSM 17734 | 768710.DesyoDRAFT_3014
+1448_NarI,Desulfotomaculum nigrificans DSM 574 | 696369.KI912183_gene1006
+1449_NarI,Desulfotomaculum nigrificans CO-1-SRB | 868595.Desca_2679
+1450_NarI,Desulfurispora thermophila DSM 16022 | 1121472.AQWN01000008_gene1958
+1451_NarI,Pelotomaculum thermopropionicum SI | 370438.PTH_0192
+1452_NarI,Pelotomaculum thermopropionicum SI | 370438.PTH_0690
+1453_NarI,Pelotomaculum thermopropionicum SI | 370438.PTH_1554
+1454_NarI,Symbiobacterium thermophilum IAM 14863 | 292459.STH623
+1455_NarI,Syntrophomonas wolfei subsp. wolfei str. Goettingen G311 | 335541.Swol_0698
+1456_NarI,Syntrophothermus lipocalidus DSM 12680 | 643648.Slip_1416
+1457_NarI,Ammonifex degensii KC4 | 429009.Adeg_0033
+1458_NarI,Carboxydothermus hydrogenoformans Z-2901 | 246194.CHY_1327
+1459_NarI,Carboxydothermus hydrogenoformans Z-2901 | 246194.CHY_2401
+1460_NarI,Carboxydothermus hydrogenoformans Z-2901 | 246194.CHY_2404
+1461_NarI,Desulfovirgula thermocuniculi DSM 16036 | 1121468.AUBR01000022_gene2806
+1462_NarI,Desulfovirgula thermocuniculi DSM 16036 | 1121468.AUBR01000069_gene1117
+1463_NarI,Moorella thermoacetica ATCC 39073 | 264732.Moth_1602
+1464_NarI,Moorella thermoacetica ATCC 39073 | 264732.Moth_1634
+1465_NarI,Thermodesulfobium narugense DSM 14796 | 747365.Thena_0097
+1466_NarI,Thermodesulfobium narugense DSM 14796 | 747365.Thena_1325
+1467_NarI,Thermodesulfobium narugense DSM 14796 | 747365.Thena_1370
+1468_NarI,Centipeda periodontii DSM 2778 | 888060.HMPREF9081_0697
+1469_NarI,Mitsuokella jalaludinii DSM 13811 | 1410665.JNKR01000001_gene577
+1470_NarI,Mitsuokella multacida DSM 20544 | 500635.MITSMUL_04575
+1471_NarI,Mitsuokella sp. oral taxon 131 str. W9106 | 1321781.HMPREF1985_01112
+1472_NarI,Selenomonas infelix ATCC 43532 | 679201.HMPREF9334_01060
+1473_NarI,Selenomonas noxia ATCC 43541 | 585503.HMPREF7545_0583
+1474_NarI,Selenomonas ruminantium subsp. lactilytica TAM6421 | 927704.SELR_28010
+1475_NarI,Selenomonas sp. ND2010 | 1410618.JNKI01000013_gene827
+1476_NarI,Selenomonas sp. oral taxon 137 str. F0430 | 879310.HMPREF9162_1526
+1477_NarI,Selenomonas sp. oral taxon 149 str. 67H29BP | 864563.HMPREF9166_1410
+1478_NarI,Selenomonas sputigena ATCC 35185 | 546271.Selsp_0713
+1479_NarI,Acetonema longum DSM 6540 | 1009370.ALO_03886
+1480_NarI,Acetonema longum DSM 6540 | 1009370.ALO_03921
+1481_NarI,Pelosinus fermentans DSM 17108 | 1122947.FR7_3927
+1482_NarI,Pelosinus sp. UFO1 | 484770.UFO1_1544
+1483_NarI,Thermosinus carboxydivorans Nor1 | 401526.TcarDRAFT_1147
+1484_NarI,Thermosinus carboxydivorans Nor1 | 401526.TcarDRAFT_1541
+1485_NarI,Veillonella atypica KON | 1128111.HMPREF0870_01440
+1486_NarI,Veillonella magna DSM 19857 | 1123489.AUAN01000024_gene523
+1487_NarI,Veillonella montpellierensis DNF00314 | 1401067.HMPREF0872_06985
+1488_NarI,Veillonella parvula DSM 2008 | 479436.Vpar_0225
+1489_NarI,Veillonella seminalis ACS-216-V-Col6b | 883156.HMPREF9282_01027
+1490_NarI,Veillonella sp. AS16 | 936589.HMPREF1521_1323
+1491_NarI,Veillonella sp. oral taxon 158 str. F0412 | 879309.HMPREF9199_0256
+1492_NarI,Veillonella sp. oral taxon 780 str. F0422 | 944564.HMPREF9200_0801
+1493_NarI,Ignavibacteriales | tr|A0A2M7I3M9|A0A2M7I3M9_9BACT
+1494_NarI,Ignavibacteriales | tr|A0A2M7ZKB0|A0A2M7ZKB0_9BACT
+1495_NarI,Ignavibacteriales | tr|A0A3B8RR59|A0A3B8RR59_9BACT
+1496_NarI,Ignavibacteriaceae | tr|A0A7Y5FG34|A0A7Y5FG34_9BACT
+1497_NarI,Ignavibacterium sp. | tr|A0A6L3ZKA1|A0A6L3ZKA1_9BACT
+1498_NarI,Thermodesulfovibrio thiophilus DSM 17215 | 1123376.AUIU01000011_gene913
+1499_NarI,Thermodesulfovibrio thiophilus DSM 17215 | 1123376.AUIU01000013_gene1898
+1500_NarI,Thermodesulfovibrio thiophilus DSM 17215 | 1123376.AUIU01000015_gene470
+1501_NarI,Thermodesulfovibrio yellowstonii DSM 11347 | 289376.THEYE_A0005
+1502_NarI,Thermodesulfovibrio yellowstonii DSM 11347 | 289376.THEYE_A1285
+1503_NarI,Thermodesulfovibrio yellowstonii DSM 11347 | 289376.THEYE_A1777
+1504_NarI,Thermodesulfovibrio yellowstonii DSM 11347 | 289376.THEYE_A1829
+1505_NarI,Acidithiobacillus caldus ATCC 51756 | 637389.Acaty_c1761
+1506_NarI,Acidithiobacillus ferrivorans SS3 | 743299.Acife_1457
+1507_NarI,Acidithiobacillus ferrooxidans ATCC 53993 | 380394.Lferr_2882
+1508_NarI,Thermithiobacillus tepidarius DSM 3134 | 1123368.AUIS01000008_gene2172
+1509_NarI,Thermithiobacillus tepidarius DSM 3134 | 1123368.AUIS01000008_gene2183
+1510_NarI,Candidatus Puniceispirillum marinum IMCC1322 | 488538.SAR116_0321
+1511_NarI,Candidatus Puniceispirillum marinum IMCC1322 | 488538.SAR116_1745
+1512_NarI,Asticcacaulis sp. AC460 | 1282360.ABAC460_18025
+1513_NarI,Brevundimonas aveniformis DSM 17977 | 1121123.AUAO01000001_gene762
+1514_NarI,Brevundimonas diminuta (Pseudomonas diminuta) | tr|A0A1Z3LTR3|A0A1Z3LTR3_BREDI
+1515_NarI,Brevundimonas sp. BAL3 | 391600.ABRU01000043_gene2670
+1516_NarI,Caulobacter sp. B11 | tr|A0A2G4JST6|A0A2G4JST6_9CAUL
+1517_NarI,Caulobacter sp. FWC26 | tr|A0A3Q9IEV2|A0A3Q9IEV2_9CAUL
+1518_NarI,Caulobacter sp. K31 | 366602.Caul_3867
+1519_NarI,Phenylobacterium kunshanense | tr|A0A328BJV0|A0A328BJV0_9CAUL
+1520_NarI,Phenylobacterium soli | tr|A0A328AK04|A0A328AK04_9CAUL
+1521_NarI,Phenylobacterium sp. | tr|A0A2D7ZGY3|A0A2D7ZGY3_9CAUL
+1522_NarI,Phenylobacterium sp. | tr|A0A521PIV8|A0A521PIV8_9CAUL
+1523_NarI,Phenylobacterium sp. | tr|A0A8H9XKZ4|A0A8H9XKZ4_9CAUL
+1524_NarI,Phenylobacterium zucineum HLK1 | 450851.PHZ_c0688
+1525_NarI,Phenylobacterium zucineum | tr|A0A2W5N5B9|A0A2W5N5B9_9CAUL
+1526_NarI,Rhizobiales bacterium YIM 77505 | 1411123.JQNH01000001_gene566
+1527_NarI,Hyphomicrobiales | tr|A0A2W4SU84|A0A2W4SU84_9HYPH
+1528_NarI,Hyphomicrobiales | tr|A0A3S0E7H8|A0A3S0E7H8_9HYPH
+1529_NarI,Hyphomicrobiales | tr|A0A6G6WNB2|A0A6G6WNB2_9HYPH
+1530_NarI,Hyphomicrobiales | tr|A0A7C2M0E3|A0A7C2M0E3_9HYPH
+1531_NarI,Hyphomicrobiales | tr|A0A7C4TNY8|A0A7C4TNY8_9HYPH
+1532_NarI,Hyphomicrobiales | tr|A0A7V6ZHH3|A0A7V6ZHH3_9HYPH
+1533_NarI,Hyphomicrobiales | tr|A0A7W2BT96|A0A7W2BT96_9HYPH
+1534_NarI,Hyphomicrobiales | tr|A0A833GHU1|A0A833GHU1_9HYPH
+1535_NarI,Hyphomicrobiales | tr|A0A8I1P6H6|A0A8I1P6H6_9HYPH
+1536_NarI,Hyphomicrobiales | tr|A0A8I1PAH7|A0A8I1PAH7_9HYPH
+1537_NarI,Alsobacter soli | tr|A0A2T1HWW2|A0A2T1HWW2_9HYPH
+1538_NarI,Martelella mediterranea DSM 17316 | 1122214.AQWH01000007_gene1789
+1539_NarI,Methylocella silvestris BL2 | 395965.Msil_1507
+1540_NarI,Methylovirgula sp. 4M-Z18 | tr|A0A371WS55|A0A371WS55_9HYPH
+1541_NarI,Methylovirgula sp. HY1 | tr|A0A8F8EVX6|A0A8F8EVX6_9HYPH
+1542_NarI,Afipia birgiae 34632 | 1197906.CAJQ02000024_gene1377
+1543_NarI,Afipia carboxidovorans OM5 | 504832.OCAR_5046
+1544_NarI,Afipia felis ATCC 53690 | 883080.HMPREF9697_03522
+1545_NarI,Afipia sp. 1NLS2 | 666684.AfiDRAFT_0427
+1546_NarI,Bradyrhizobium elkanii USDA 76 | 398525.KB900701_gene7811
+1547_NarI,Bradyrhizobium japonicum in8p8 | 1304878.AUGD01000033_gene3251
+1548_NarI,Bradyrhizobium murdochi | 1038859.AXAU01000001_gene2656
+1549_NarI,Bradyrhizobium sp. C9 | tr|A0A2A6NLX3|A0A2A6NLX3_9BRAD
+1550_NarI,Nitrobacter hamburgensis X14 | 323097.Nham_3445
+1551_NarI,Nitrobacter winogradskyi Nb-255 | 323098.Nwi_0778
+1552_NarI,Brucella anthropi ATCC 49188 | 439375.Oant_2894
+1553_NarI,Brucella intermedia | tr|C4WLQ7|C4WLQ7_9HYPH
+1554_NarI,Brucella melitensis bv. 1 str. 16M | 224914.BMEII0953
+1555_NarI,Ochrobactrum rhizosphaerae SJY1 | 1437448.AZRT01000001_gene1104
+1556_NarI,Brucella thiophenivorans | tr|A0A256FK01|A0A256FK01_9HYPH
+1557_NarI,Hyphomicrobiaceae | tr|A0A6N6STR1|A0A6N6STR1_9HYPH
+1558_NarI,Aquabacter sp. L1I39 | tr|A0A8A7CUF9|A0A8A7CUF9_9HYPH
+1559_NarI,Hyphomicrobium denitrificans ATCC 51888 | 582899.Hden_0929
+1560_NarI,Hyphomicrobium denitrificans 1NES1 | 670307.HYPDE_33173
+1561_NarI,Hyphomicrobium sp. | tr|A0A2S5P474|A0A2S5P474_HYPSQ
+1562_NarI,Hyphomicrobium sp. | tr|A0A6I0EL30|A0A6I0EL30_HYPSQ
+1563_NarI,Hyphomicrobium sp. MC1 | 717785.HYPMC_3249
+1564_NarI,Hyphomicrobium zavarzinii ATCC 27496 | 1267005.KB911262_gene3232
+1565_NarI,Hyphomicrobium zavarzinii ATCC 27496 | 1267005.KB911266_gene1224
+1566_NarI,Rhodomicrobium vannielii ATCC 17100 | 648757.Rvan_0594
+1567_NarI,Bauldia sp. | tr|A0A833G643|A0A833G643_9HYPH
+1568_NarI,Methylobacterium nodulans ORS 2060 | 460265.Mnod_2125
+1569_NarI,Methylobacterium oryzae CBMB20 | 693986.MOC_3000
+1570_NarI,Methylobacterium sp. 4-46 | 426117.M446_5681
+1571_NarI,Methylobacterium sp. DM1 | tr|A0A2U8HW86|A0A2U8HW86_9HYPH
+1572_NarI,Methylobacterium sp. P1-11 | tr|A0A5A8A5U7|A0A5A8A5U7_9HYPH
+1573_NarI,Phreatobacter sp. NMCR1094 | tr|A0A4D7QIK5|A0A4D7QIK5_9HYPH
+1574_NarI,Phyllobacteriaceae | tr|A0A847JK30|A0A847JK30_9HYPH
+1575_NarI,Aquamicrobium defluvii | 69279.BG36_12935
+1576_NarI,Aquamicrobium defluvii | 69279.BG36_14020
+1577_NarI,Hoeflea sp. BAL378 | 1547437.LL06_19330
+1578_NarI,Mesorhizobium composti | tr|A0A4S4A9A8|A0A4S4A9A8_9HYPH
+1579_NarI,Mesorhizobium denitrificans | tr|A0A371XEB6|A0A371XEB6_9HYPH
+1580_NarI,Mesorhizobium hawassense | tr|A0A330HZ30|A0A330HZ30_9HYPH
+1581_NarI,Mesorhizobium sp. | tr|A0A3S3DZV8|A0A3S3DZV8_9HYPH
+1582_NarI,Mesorhizobium sp. | tr|A0A440N5U0|A0A440N5U0_9HYPH
+1583_NarI,Mesorhizobium sp. | tr|A0A442GE33|A0A442GE33_9HYPH
+1584_NarI,Mesorhizobium sp. | tr|A0A442I3M9|A0A442I3M9_9HYPH
+1585_NarI,Mesorhizobium sp. | tr|A0A528E248|A0A528E248_9HYPH
+1586_NarI,Mesorhizobium sp. B2-1-8 | tr|A0A504A7D0|A0A504A7D0_9HYPH
+1587_NarI,Mesorhizobium sp. B2-4-19 | tr|A0A503HFQ2|A0A503HFQ2_9HYPH
+1588_NarI,Mesorhizobium sp. B2-6-2 | tr|A0A503B4I5|A0A503B4I5_9HYPH
+1589_NarI,Mesorhizobium sp. M1A.F.Ca.IN.022.07.1.1 | tr|A0A5Q8CCV2|A0A5Q8CCV2_9HYPH
+1590_NarI,Mesorhizobium sp. M1E.F.Ca.ET.045.02.1.1 | tr|A0A3Q8YJF4|A0A3Q8YJF4_9HYPH
+1591_NarI,Mesorhizobium sp. M2C.T.Ca.TU.009.01.2.1 | tr|A0A3S1F8L0|A0A3S1F8L0_9HYPH
+1592_NarI,Mesorhizobium sp. M2E.F.Ca.ET.166.01.1.1 | tr|A0A4S0W242|A0A4S0W242_9HYPH
+1593_NarI,Phyllobacterium phragmitis | tr|A0A2S9IMW8|A0A2S9IMW8_9HYPH
+1594_NarI,Pseudaminobacter salicylatoxidans KCT001 | 1192868.CAIU01000009_gene1210
+1595_NarI,Pleomorphomonas koreensis DSM 23070 | 1122962.AULH01000012_gene684
+1596_NarI,Pleomorphomonas oryzae DSM 16300 | 1122963.AUHB01000021_gene2233
+1597_NarI,Reyranella massiliensis 521 | 1205680.CAKO01000002_gene2732
+1598_NarI,Rhizobiaceae | tr|A0A522SKW1|A0A522SKW1_9HYPH
+1599_NarI,Ciceribacter selenitireducens ATCC BAA-1503 | 1336235.JAEG01000028_gene2635
+1600_NarI,Rhizobium jaguaris | tr|A0A387G5S4|A0A387G5S4_9HYPH
+1601_NarI,Rhizobium sp. OK494 | 1500306.JQLA01000003_gene4309
+1602_NarI,Fodinicurvata fenggangensis DSM 21160 | 570967.JMLV01000004_gene568
+1603_NarI,Fodinicurvata sediminis DSM 21159 | 570952.ATVH01000015_gene1243
+1604_NarI,Rhodovibrio salinarum DSM 9154 | 1089552.KI911559_gene3044
+1605_NarI,Salinarimonas rosea DSM 21201 | 1123229.AUBC01000028_gene2265
+1606_NarI,Labrenzia sp. 011 | tr|A0A2T7HFI5|A0A2T7HFI5_9HYPH
+1607_NarI,Pannonibacter phragmitetus DSM 14782 | 1122929.KB908229_gene3364
+1608_NarI,Pseudovibrio sp. FO-BEG1 | 911045.PSE_0760
+1609_NarI,Roseibium sp. TrichSKD4 | 744980.TRICHSKD4_2589
+1610_NarI,Lutibaculum baratangense AMV1 | 631454.N177_1593
+1611_NarI,Azorhizobium caulinodans ORS 571 | 438753.AZC_1428
+1612_NarI,Azorhizobium doebereinerae UFLA1-100 | 1038858.AXBA01000001_gene3528
+1613_NarI,Labrys sp. KNU-23 | tr|A0A5C1W4Y1|A0A5C1W4Y1_9HYPH
+1614_NarI,Pseudolabrys taiwanensis | tr|A0A346A0G7|A0A346A0G7_9HYPH
+1615_NarI,Xanthobacter autotrophicus | tr|A0A6C1KEY9|A0A6C1KEY9_XANAU
+1616_NarI,Xanthobacter sp. 126 | 1131814.JAFO01000001_gene1033
+1617_NarI,Xanthobacter sp. YN2 | tr|A0A7U3E3S1|A0A7U3E3S1_9HYPH
+1618_NarI,Hyphomonadaceae | tr|A0A352CBR9|A0A352CBR9_9PROT
+1619_NarI,Hyphomonadaceae | tr|A0A3D2W1I6|A0A3D2W1I6_9PROT
+1620_NarI,Hyphomonas jannaschiana VP2 | 1280952.HJA_03921
+1621_NarI,Hyphomonas neptunium ATCC 15444 | 228405.HNE_1564
+1622_NarI,Hyphomonas oceanitis SCH89 | 1280953.HOC_17791
+1623_NarI,Hyphomonas sp. CY54-11-8 | 1280944.HY17_08040
+1624_NarI,Magnetococcus marinus MC-1 | 156889.Mmc1_0049
+1625_NarI,Maricaulis maris MCS10 | 394221.Mmar10_2703
+1626_NarI,Robiginitomaculum antarcticum DSM 21748 | 1123059.KB823014_gene134
+1627_NarI,Rhodobacterales | tr|A0A2G6IVA3|A0A2G6IVA3_9RHOB
+1628_NarI,Rhodobacteraceae | tr|A0A257F1Z0|A0A257F1Z0_9RHOB
+1629_NarI,Rhodobacteraceae | tr|A0A2D5IU04|A0A2D5IU04_9RHOB
+1630_NarI,Rhodobacteraceae | tr|A0A2E3PX38|A0A2E3PX38_9RHOB
+1631_NarI,Rhodobacteraceae | tr|A0A2M7EPV5|A0A2M7EPV5_9RHOB
+1632_NarI,Rhodobacteraceae | tr|A0A2S8ETV7|A0A2S8ETV7_9RHOB
+1633_NarI,Rhodobacteraceae | tr|A0A356V789|A0A356V789_9RHOB
+1634_NarI,Rhodobacteraceae | tr|A0A357MNN1|A0A357MNN1_9RHOB
+1635_NarI,Rhodobacteraceae | tr|A0A372IDM8|A0A372IDM8_9RHOB
+1636_NarI,Rhodobacteraceae | tr|A0A3S2WQH1|A0A3S2WQH1_9RHOB
+1637_NarI,Rhodobacteraceae | tr|A0A6L5YWM1|A0A6L5YWM1_9RHOB
+1638_NarI,Rhodobacteraceae | tr|A0A7Z0I060|A0A7Z0I060_9RHOB
+1639_NarI,Rhodobacteraceae | tr|A0A848XH59|A0A848XH59_9RHOB
+1640_NarI,Bieblia veldkampii | tr|A0A2T4J7A3|A0A2T4J7A3_9RHOB
+1641_NarI,Boseongicola sp. | tr|A0A7Y2JNK8|A0A7Y2JNK8_9RHOB
+1642_NarI,Boseongicola sp. SB0662_bin_57 | tr|A0A6L7S9H5|A0A6L7S9H5_9RHOB
+1643_NarI,Boseongicola sp. SB0675_bin_26 | tr|A0A7X4DSW7|A0A7X4DSW7_9RHOB
+1644_NarI,Boseongicola sp. SB0676_bin_33 | tr|A0A7X3Z6K7|A0A7X3Z6K7_9RHOB
+1645_NarI,Boseongicola sp. SB0677_bin_26 | tr|A0A7X4CXX6|A0A7X4CXX6_9RHOB
+1646_NarI,Defluviimonas sp. | tr|A0A6N6SHV5|A0A6N6SHV5_9RHOB
+1647_NarI,Defluviimonas sp. 20V17 | 1417296.U879_13885
+1648_NarI,Defluviimonas sp. 20V17 | 1417296.U879_20705
+1649_NarI,Fluviibacterium aquatile | tr|A0A4R6ALB5|A0A4R6ALB5_9RHOB
+1650_NarI,Halovulum dunhuangense | tr|A0A849L6G5|A0A849L6G5_9RHOB
+1651_NarI,Kangsaoukella pontilimi | tr|A0A7C9ITN9|A0A7C9ITN9_9RHOB
+1652_NarI,Maliponia aquimaris | tr|A0A238L6Q3|A0A238L6Q3_9RHOB
+1653_NarI,Monaibacterium sp. ALG8 | tr|A0A6G7VRM4|A0A6G7VRM4_9RHOB
+1654_NarI,Paracoccus denitrificans PD1222 | 318586.Pden_4233
+1655_NarI,Paracoccus limosus | tr|A0A844H2C0|A0A844H2C0_9RHOB
+1656_NarI,Paracoccus marcusii | tr|A0A843YB48|A0A843YB48_9RHOB
+1657_NarI,Paracoccus mutanolyticus | tr|A0A2Z4PF72|A0A2Z4PF72_9RHOB
+1658_NarI,Paracoccus pantotrophus J46 | 935565.JAEM01000002_gene3616
+1659_NarI,Paracoccus sp. J39 | 935848.JAEN01000022_gene2644
+1660_NarI,Paracoccus sp. N5 | 1101189.AQUO01000002_gene271
+1661_NarI,Paracoccus sp. SMMA_5_50 | tr|A0A7X2P043|A0A7X2P043_9RHOB
+1662_NarI,Paracoccus sp. TRP | 412597.AEPN01000024_gene669
+1663_NarI,Paracoccus yeei ATCC BAA-599 | 1446473.JHWH01000008_gene109
+1664_NarI,Paracoccus zhejiangensis | tr|A0A2H5F5H2|A0A2H5F5H2_9RHOB
+1665_NarI,Pseudohalocynthiibacter aestuariivivens | tr|A0A6G6FLJ4|A0A6G6FLJ4_9RHOB
+1666_NarI,Pseudophaeobacter arcticus DSM 23566 | 999550.KI421507_gene759
+1667_NarI,Rhodobaca barguzinensis | tr|A0A2K8K4U9|A0A2K8K4U9_9RHOB
+1668_NarI,Rhodobacter sp. HX-7-19 | tr|A0A6M1TXS5|A0A6M1TXS5_9RHOB
+1669_NarI,Rhodobacter sp. SW2 | 371731.Rsw2DRAFT_1841
+1670_NarI,Rhodophyticola porphyridii | tr|A0A3L9Y1G7|A0A3L9Y1G7_9RHOB
+1671_NarI,Rhodovulum robiginosum | tr|A0A428JQI9|A0A428JQI9_9RHOB
+1672_NarI,Thalassobium sp. | tr|A0A2G2A4Z4|A0A2G2A4Z4_9RHOB
+1673_NarI,Thioclava atlantica | 1317124.DW2_04144
+1674_NarI,Thioclava electrotropha | tr|A0A1W9XN23|A0A1W9XN23_9RHOB
+1675_NarI,Thioclava indica | 1353528.DT23_17500
+1676_NarI,Thioclava pacifica DSM 10166 | 1353537.TP2_13455
+1677_NarI,Yoonia vestfoldensis | tr|A0A1Y0EAQ5|A0A1Y0EAQ5_9RHOB
+1678_NarI,Actibacterium lipolyticum | tr|A0A238L7D2|A0A238L7D2_9RHOB
+1679_NarI,Citreicella sp. 357 | 766499.C357_14349
+1680_NarI,Jannaschia rubra | tr|A0A0M6XUA5|A0A0M6XUA5_9RHOB
+1681_NarI,Phaeobacter sp. CECT 5382 | tr|A0A0N7M3P2|A0A0N7M3P2_9RHOB
+1682_NarI,Roseibacterium sp. KMU-115 | tr|A0A7X6H1V1|A0A7X6H1V1_9RHOB
+1683_NarI,Roseobacter denitrificans OCh 114 | 375451.RD1_2445
+1684_NarI,Roseobacter sp. MED193 | 314262.MED193_07773
+1685_NarI,Roseobacter sp. SK209-2-6 | 388739.RSK20926_15211
+1686_NarI,Roseovarius aestuarii | tr|A0A1X7BV01|A0A1X7BV01_9RHOB
+1687_NarI,Roseovarius bejariae | tr|A0A844CU01|A0A844CU01_9RHOB
+1688_NarI,Roseovarius sp. A-2 | tr|A0A1V1ULI9|A0A1V1ULI9_9RHOB
+1689_NarI,Roseovarius sp. A46 | tr|A0A4Q2A7D0|A0A4Q2A7D0_9RHOB
+1690_NarI,Roseovarius sp. SCSIO 43702 | tr|A0A8G0T2G5|A0A8G0T2G5_9RHOB
+1691_NarI,Roseovarius sp. TE539 | tr|A0A365U2V9|A0A365U2V9_9RHOB
+1692_NarI,Salipiger sp. | tr|A0A7G2TGD6|A0A7G2TGD6_9RHOB
+1693_NarI,Sediminimonas qiaohouensis DSM 21189 | 1123247.AUIJ01000001_gene1588
+1694_NarI,Sulfitobacter mediterraneus | 83219.PM02_15045
+1695_NarI,Acidiphilium cryptum JF-5 | 349163.Acry_1584
+1696_NarI,Commensalibacter intestini A911 | 1088868.CIN_16700
+1697_NarI,Commensalibacter sp. MX01 | 1208583.COMX_07445
+1698_NarI,Komagataeibacter rhaeticus AF1 | 1432055.GLUCORHAEAF1_13650
+1699_NarI,Roseomonas aestuarii | tr|A0A2U1V4C8|A0A2U1V4C8_9PROT
+1700_NarI,Roseomonas bella | tr|A0A317FBK6|A0A317FBK6_9PROT
+1701_NarI,Roseomonas sp. JC162 | tr|A0A848EC55|A0A848EC55_9PROT
+1702_NarI,Azospirillum halopraeferens DSM 3675 | 1121033.AUCF01000010_gene4532
+1703_NarI,Elioraea sp. Yellowstone | tr|A0A541CMD0|A0A541CMD0_9PROT
+1704_NarI,Elioraea tepidiphila DSM 17972 | 1121861.KB899913_gene2280
+1705_NarI,Geminicoccus roseus DSM 18922 | 1089551.KE386572_gene146
+1706_NarI,Rhodospirillaceae (purple nonsulfur bacteria) | tr|A0A2E6QKG4|A0A2E6QKG4_9PROT
+1707_NarI,Denitrobaculum tricleocarpae | tr|A0A545TN24|A0A545TN24_9PROT
+1708_NarI,Tistrella sp. | tr|A0A2D8QF16|A0A2D8QF16_9PROT
+1709_NarI,Tistrella sp. | tr|A0A2E3EUS6|A0A2E3EUS6_9PROT
+1710_NarI,Magnetospirillum caucaseum | 1244869.H261_12614
+1711_NarI,Magnetospirillum gryphiswaldense MSR-1 v2 | 1430440.MGMSRv2_3906
+1712_NarI,Oceanibaculum indicum P24 | 1207063.P24_01445
+1713_NarI,Erythrobacter longus | 1044.EH31_11005
+1714_NarI,Tsuneonella aeria | tr|A0A6I4TED8|A0A6I4TED8_9SPHN
+1715_NarI,Sphingomonas daechungensis | tr|A0A7H0G3M7|A0A7H0G3M7_9SPHN
+1716_NarI,Sphingomonas horti | tr|A0A6I4IZW3|A0A6I4IZW3_9SPHN
+1717_NarI,Sphingomonas lutea | tr|A0A7G9SGB1|A0A7G9SGB1_9SPHN
+1718_NarI,Sphingomonas parapaucimobilis NBRC 15100 | 1219049.SP5_069_00860
+1719_NarI,Sphingomonas sediminicola | tr|A0A7H0GC42|A0A7H0GC42_9SPHN
+1720_NarI,Sphingomonas sp. ABOLG | tr|A0A430DMC1|A0A430DMC1_9SPHN
+1721_NarI,Sphingomonas sp. HDW15A | tr|A0A6G7ZFP8|A0A6G7ZFP8_9SPHN
+1722_NarI,Sphingomonas sp. UNC305MFCol5.2 | 1449076.JOOE01000001_gene2174
+1723_NarI,Sphingosinicella humi | tr|A0A2U2J0C3|A0A2U2J0C3_9SPHN
+1724_NarI,beta proteobacterium CB | 543913.D521_0428
+1725_NarI,Thiomonas sp. FB-Cd | 1158292.JPOE01000002_gene2100
+1726_NarI,Aquabacterium sp. NJ1 | 1538295.JY96_19475
+1727_NarI,Methylibium petroleiphilum PM1 | 420662.Mpe_A1705
+1728_NarI,Thiomonas arsenitoxydans | 426114.THI_3513
+1729_NarI,Thiomonas intermedia K12 | 75379.Tint_2480
+1730_NarI,Burkholderiales bacterium JOSHI_001 | 864051.BurJ1DRAFT_3316
+1731_NarI,Burkholderiales bacterium JOSHI_001 | 864051.BurJ1DRAFT_3330
+1732_NarI,Burkholderiales | tr|A0A257H776|A0A257H776_9BURK
+1733_NarI,Burkholderiales | tr|A0A3A0ELE3|A0A3A0ELE3_9BURK
+1734_NarI,Burkholderiales | tr|A0A3N7BM38|A0A3N7BM38_9BURK
+1735_NarI,Burkholderiales | tr|A0A839LLG2|A0A839LLG2_9BURK
+1736_NarI,Burkholderiales | tr|A0A8I1R8A1|A0A8I1R8A1_9BURK
+1737_NarI,Achromobacter arsenitoxydans SY8 | 477184.KYC_21386
+1738_NarI,Achromobacter insuavis AXX-A | 1003200.AXXA_26340
+1739_NarI,Achromobacter piechaudii HLE | 1156919.QWC_06474
+1740_NarI,Achromobacter piechaudii ATCC 43553 | 742159.HMPREF0004_3224
+1741_NarI,Achromobacter sp. RTa | 1532557.JL37_27705
+1742_NarI,Achromobacter xylosoxidans NBRC 15126 = ATCC 27061 | 1216976.AX27061_3079
+1743_NarI,Advenella kashmirensis W13003 | 1424334.W822_11160
+1744_NarI,Advenella kashmirensis W13003 | 1424334.W822_20515
+1745_NarI,Advenella mimigardefordensis DPN7 | 1247726.MIM_c11760
+1746_NarI,Algicoccus marinus | tr|A0A2R4XN41|A0A2R4XN41_9BURK
+1747_NarI,Azohydromonas caseinilytica | tr|A0A848F5D9|A0A848F5D9_9BURK
+1748_NarI,Basilea psittacipulmonis DSM 24701 | 1072685.IX83_05395
+1749_NarI,Bordetella petrii | 94624.Bpet3824
+1750_NarI,Bordetella petrii | 94624.Bpet4992
+1751_NarI,Bordetella sp. FB-8 | 1159870.KB907784_gene3575
+1752_NarI,Bordetella trematum | 123899.JPQP01000021_gene3670
+1753_NarI,Castellaniella defragrans 65Phen | 1437824.BN940_15746
+1754_NarI,Oligella ureolytica DSM 18253 | 1122619.KB892368_gene2452
+1755_NarI,Pusillimonas sp. TS35 | tr|A0A845H7U1|A0A845H7U1_9BURK
+1756_NarI,Taylorella asinigenitalis MCE3 | 1008459.TASI_1404
+1757_NarI,Taylorella equigenitalis MCE9 | 937774.TEQUI_0439
+1758_NarI,Burkholderiaceae | tr|A0A522MQM9|A0A522MQM9_9BURK
+1759_NarI,Burkholderiaceae | tr|A0A522SCT2|A0A522SCT2_9BURK
+1760_NarI,Burkholderiaceae | tr|A0A7L5Y6I2|A0A7L5Y6I2_9BURK
+1761_NarI,Burkholderiaceae | tr|A0A7V7XAJ4|A0A7V7XAJ4_9BURK
+1762_NarI,Burkholderia ambifaria AMMD | 339670.Bamb_5708
+1763_NarI,Burkholderia cepacia | 292.DM42_7203
+1764_NarI,Burkholderia gladioli BSR3 | 999541.bgla_2g22730
+1765_NarI,Burkholderia glumae BGR1 | 626418.bglu_2g17420
+1766_NarI,Burkholderia mallei ATCC 23344 | 243160.BMA1734
+1767_NarI,Burkholderia multivorans ATCC 17616 | 395019.Bmul_5386
+1768_NarI,Burkholderia oklahomensis | 342113.DM82_1916
+1769_NarI,Burkholderia pseudomallei K96243 | 272560.BPSS1156
+1770_NarI,Burkholderia sp. CCGE1003 | 640512.BC1003_4843
+1771_NarI,Burkholderia sp. K24 | 1472716.KBK24_0114350
+1772_NarI,Burkholderia sp. lig30 | 1192124.LIG30_1369
+1773_NarI,Burkholderia vietnamiensis G4 | 269482.Bcep1808_5659
+1774_NarI,Caballeronia grimmiae | 1071679.BG57_18515
+1775_NarI,Caballeronia jiangsuensis | 1458357.BG58_09195
+1776_NarI,Caballeronia sordidicola | 196367.JNFG01000038_gene7634
+1777_NarI,Caballeronia sordidicola | 196367.JNFG01000199_gene3341
+1778_NarI,Cupriavidus metallidurans CH34 | 266264.Rmet_2077
+1779_NarI,Cupriavidus necator H16 | 381666.H16_B2268
+1780_NarI,Cupriavidus pinatubonensis JMP134 | 264198.Reut_B5005
+1781_NarI,Cupriavidus sp. BIS7 | 1217718.ALOU01000019_gene2694
+1782_NarI,Cupriavidus taiwanensis LMG 19424 | 977880.RALTA_B2045
+1783_NarI,Lautropia mirabilis ATCC 51599 | 887898.HMPREF0551_1778
+1784_NarI,Limnobacter sp. | tr|A0A847DTD6|A0A847DTD6_9BURK
+1785_NarI,Mycetohabitans rhizoxinica HKI 454 | 882378.RBRH_03507
+1786_NarI,Pandoraea pnomenusa | 93220.LV28_02505
+1787_NarI,Paraburkholderia acidipaludis NBRC 101816 | 1218074.BAXZ01000004_gene1209
+1788_NarI,Paraburkholderia dilworthii | 948106.AWZT01000016_gene204
+1789_NarI,Paraburkholderia ferrariae NBRC 106233 | 1218076.BAYB01000054_gene6093
+1790_NarI,Paraburkholderia lacunae | tr|A0A370N282|A0A370N282_9BURK
+1791_NarI,Paraburkholderia mimosarum LMG 23256 = NBRC 106338 | 1038869.AXAN01000002_gene222
+1792_NarI,Paraburkholderia nodosa DSM 21604 | 1121127.JAFA01000001_gene837
+1793_NarI,Paraburkholderia nodosa DSM 21604 | 1121127.JAFA01000003_gene2025
+1794_NarI,Paraburkholderia sacchari | 159450.NH14_06655
+1795_NarI,Paraburkholderia sp. DHOC27 | tr|A0A372JVP7|A0A372JVP7_9BURK
+1796_NarI,Ralstonia pickettii DTP0602 | 1366050.N234_32805
+1797_NarI,Ralstonia pickettii 12J | 402626.Rpic_2517
+1798_NarI,Ralstonia pickettii 12J | 402626.Rpic_4672
+1799_NarI,Ralstonia solanacearum GMI1000 | 267608.RSp0977
+1800_NarI,Ralstonia solanacearum PSI07 | 859657.RPSI07_mp1505
+1801_NarI,Trinickia dabaoshanensis | tr|A0A2N7W2L0|A0A2N7W2L0_9BURK
+1802_NarI,Trinickia soli | tr|A0A2N7WER1|A0A2N7WER1_9BURK
+1803_NarI,Comamonadaceae | tr|A0A2H0IZN3|A0A2H0IZN3_9BURK
+1804_NarI,Comamonadaceae | tr|A0A2M7FMU2|A0A2M7FMU2_9BURK
+1805_NarI,Comamonadaceae | tr|A0A2M8EFY1|A0A2M8EFY1_9BURK
+1806_NarI,Comamonadaceae | tr|A0A3A4RGN6|A0A3A4RGN6_9BURK
+1807_NarI,Comamonadaceae | tr|A0A3C0KIG9|A0A3C0KIG9_9BURK
+1808_NarI,Comamonadaceae | tr|A0A3D3D482|A0A3D3D482_9BURK
+1809_NarI,Comamonadaceae | tr|A0A4Q3NDK8|A0A4Q3NDK8_9BURK
+1810_NarI,Acidovorax citrulli AAC00-1 | 397945.Aave_0664
+1811_NarI,Acidovorax monticola | tr|A0A7H0HC74|A0A7H0HC74_9BURK
+1812_NarI,Acidovorax sp. | tr|A0A3D1MTW1|A0A3D1MTW1_9BURK
+1813_NarI,Acidovorax sp. BoFeN1 | tr|A0A369VMN6|A0A369VMN6_9BURK
+1814_NarI,Acidovorax sp. FJL06 | tr|A0A3N7F4Y2|A0A3N7F4Y2_9BURK
+1815_NarI,Acidovorax sp. HDW3 | tr|A0A6G8ADA6|A0A6G8ADA6_9BURK
+1816_NarI,Acidovorax sp. HMWF018 | tr|A0A2R7P6U4|A0A2R7P6U4_9BURK
+1817_NarI,Acidovorax sp. JHL-9 | 1276756.AUEX01000012_gene3598
+1818_NarI,Acidovorax sp. JS42 | 232721.Ajs_0439
+1819_NarI,Acidovorax sp. KKS102 | 358220.C380_02355
+1820_NarI,Acidovorax sp. MR-S7 | 1268622.AVS7_02767
+1821_NarI,Acidovorax sp. NB1 | tr|A0A4D4JQR6|A0A4D4JQR6_9BURK
+1822_NarI,Acidovorax sp. RAC01 | tr|A0A1B3PHY9|A0A1B3PHY9_9BURK
+1823_NarI,Albitalea terrae | tr|A0A3N7IV24|A0A3N7IV24_9BURK
+1824_NarI,Alicycliphilus denitrificans BC | 596153.Alide_0511
+1825_NarI,Alicycliphilus sp. | tr|A0A5C8CSP5|A0A5C8CSP5_9BURK
+1826_NarI,Brachymonas chironomi DSM 19884 | 1121116.KB894766_gene235
+1827_NarI,Caenimonas sp. HX-9-20 | tr|A0A562ZWN4|A0A562ZWN4_9BURK
+1828_NarI,Caldimonas manganoxidans ATCC BAA-369 | 1265502.KB905946_gene1120
+1829_NarI,Comamonas granuli NBRC 101663 | 1223521.BBJX01000007_gene1580
+1830_NarI,Curvibacter sp. PD_MW3 | tr|A0A2D0IGD7|A0A2D0IGD7_9BURK
+1831_NarI,Delftia acidovorans SPH-1 | 398578.Daci_1112
+1832_NarI,Diaphorobacter sp. HDW4A | tr|A0A6G8CT60|A0A6G8CT60_9BURK
+1833_NarI,Diaphorobacter sp. HDW4B | tr|A0A6G8BV48|A0A6G8BV48_9BURK
+1834_NarI,Hydrogenophaga sp. BPS33 | tr|A0A6P1J2Z0|A0A6P1J2Z0_9BURK
+1835_NarI,Hydrogenophaga sp. PAMC20947 | tr|A0A4P7RDU6|A0A4P7RDU6_9BURK
+1836_NarI,Hydrogenophaga sp. PBL-H3 | tr|A0A6P1IAK4|A0A6P1IAK4_9BURK
+1837_NarI,Hydrogenophaga sp. RAC07 | tr|A0A1B3LU11|A0A1B3LU11_9BURK
+1838_NarI,Melaminivora sp. SC2-9 | tr|A0A2R3QB40|A0A2R3QB40_9BURK
+1839_NarI,Ottowia oryzae | tr|A0A2S0MAI5|A0A2S0MAI5_9BURK
+1840_NarI,Ottowia sp. | tr|A0A5C7USG7|A0A5C7USG7_9BURK
+1841_NarI,Polaromonas naphthalenivorans CJ2 | 365044.Pnap_3758
+1842_NarI,Polaromonas sp. | tr|A0A6N9RDR0|A0A6N9RDR0_9BURK
+1843_NarI,Polaromonas sp. JS666 | 296591.Bpro_1187
+1844_NarI,Polaromonas sp. JS666 | 296591.Bpro_4592
+1845_NarI,Pulveribacter suum | tr|A0A2P1NGU5|A0A2P1NGU5_9BURK
+1846_NarI,Ramlibacter lithotrophicus | tr|A0A7X6I5X6|A0A7X6I5X6_9BURK
+1847_NarI,Ramlibacter sp. WS9 | tr|A0A4Y7BDE8|A0A4Y7BDE8_9BURK
+1848_NarI,Rhodoferax ferrireducens T118 | 338969.Rfer_2795
+1849_NarI,Rhodoferax sediminis | tr|A0A515DFW3|A0A515DFW3_9BURK
+1850_NarI,Rhodoferax sp. | tr|A0A3D5VNJ5|A0A3D5VNJ5_9BURK
+1851_NarI,Rhodoferax sp. | tr|A0A6L9KEX9|A0A6L9KEX9_9BURK
+1852_NarI,Rhodoferax sp. | tr|A0A7Y0CNL9|A0A7Y0CNL9_9BURK
+1853_NarI,Rhodoferax sp. AJA081-3 | tr|A0A8A7VYH8|A0A8A7VYH8_9BURK
+1854_NarI,Rhodoferax sp. BAB1 | tr|A0A6N0BQU6|A0A6N0BQU6_9BURK
+1855_NarI,Rhodoferax sp. IMCC26218 | tr|A0A3E1RE31|A0A3E1RE31_9BURK
+1856_NarI,Serpentinimonas barnesii | 1458427.BAWN01000001_gene38
+1857_NarI,Simplicispira hankyongi | tr|A0A398CEX1|A0A398CEX1_9BURK
+1858_NarI,Simplicispira psychrophila DSM 11588 | 1123255.JHYS01000001_gene2021
+1859_NarI,Variovorax paradoxus | tr|T1XKD0|T1XKD0_VARPD
+1860_NarI,Variovorax sp. WS11 | tr|A0A2P8KQ72|A0A2P8KQ72_9BURK
+1861_NarI,Zhizhongheella caldifontis | tr|A0A2S5SRC4|A0A2S5SRC4_9BURK
+1862_NarI,Herbaspirillum frisingense GSF30 | 864073.HFRIS_015281
+1863_NarI,Herbaspirillum seropedicae SmR1 | 757424.Hsero_3643
+1864_NarI,Herminiimonas arsenicoxydans | 204773.HEAR1659
+1865_NarI,Janthinobacterium lividum | 29581.BW37_02001
+1866_NarI,Janthinobacterium sp. HH01 | 1198452.Jab_2c10720
+1867_NarI,Massilia consociata | 760117.JN27_00015
+1868_NarI,Massilia sp. LC238 | 1502852.FG94_00856
+1869_NarI,Parasutterella excrementihominis YIT 11859 | 762966.HMPREF9439_01101
+1870_NarI,Andreprevotia chitinilytica DSM 18519 | 1120999.JONM01000002_gene574
+1871_NarI,Chromobacterium violaceum ATCC 12472 | 243365.CV_2540
+1872_NarI,Pseudogulbenkiania ferrooxidans 2002 | 279714.FuraDRAFT_1517
+1873_NarI,Pseudogulbenkiania sp. NH8B | 748280.NH8B_1438
+1874_NarI,Alysiella crassa DSM 2578 | 1120980.JQKH01000003_gene315
+1875_NarI,Conchiformibius steedae DSM 2580 | 1121352.JHZP01000004_gene1479
+1876_NarI,Crenobacter intestini | tr|A0A4T0UJ19|A0A4T0UJ19_9NEIS
+1877_NarI,Crenobacter sedimenti | tr|A0A6B2KV70|A0A6B2KV70_9NEIS
+1878_NarI,Eikenella corrodens ATCC 23834 | 546274.EIKCOROL_01796
+1879_NarI,Neisseria mucosa ATCC 25996 | 546266.NEIMUCOT_06608
+1880_NarI,Neisseria sp. oral taxon 014 str. F0314 | 641149.HMPREF9016_01374
+1881_NarI,Simonsiella muelleri ATCC 29453 | 641147.HMPREF9021_01461
+1882_NarI,Snodgrassella alvi | 1196083.SALWKB12_1812
+1883_NarI,Stenoxybacter acetivorans DSM 19021 | 1123296.JQKE01000042_gene51
+1884_NarI,Ferriphaselus sp. R-1 | 1485544.JQKP01000005_gene318
+1885_NarI,Sideroxydans lithotrophicus ES-1 | 580332.Slit_1620
+1886_NarI,Sideroxydans lithotrophicus ES-1 | 580332.Slit_1680
+1887_NarI,Methylotenera mobilis 13 | 1132855.KB913035_gene1558
+1888_NarI,Methyloversatilis sp. RAC08 | tr|A0A1B3LJI2|A0A1B3LJI2_9PROT
+1889_NarI,Methyloversatilis universalis FAM5 | 1000565.METUNv1_02353
+1890_NarI,Sulfuricella denitrificans skB26 | 1163617.SCD_n02712
+1891_NarI,Thiobacillus denitrificans DSM 12475 | 1123392.AQWL01000003_gene142
+1892_NarI,Thiobacillus denitrificans DSM 12475 | 1123392.AQWL01000003_gene169
+1893_NarI,Thiobacillus denitrificans DSM 12475 | 1123392.AQWL01000005_gene3223
+1894_NarI,Thiobacillus denitrificans ATCC 25259 | 292415.Tbd_1377
+1895_NarI,Thiobacillus denitrificans ATCC 25259 | 292415.Tbd_1406
+1896_NarI,Thiobacillus denitrificans ATCC 25259 | 292415.Tbd_2479
+1897_NarI,Thiobacillus thioparus DSM 505 | 1123393.KB891316_gene1845
+1898_NarI,Thiobacillus thioparus DSM 505 | 1123393.KB891326_gene106
+1899_NarI,Thiobacillus thioparus DSM 505 | 1123393.KB891326_gene134
+1900_NarI,Dechloromonas agitata is5 | 1304883.KI912532_gene1041
+1901_NarI,Aromatoleum aromaticum EbN1 | 76114.ebA6282
+1902_NarI,Thauera sp. | tr|A0A2W6VSY7|A0A2W6VSY7_9RHOO
+1903_NarI,Thauera sp. MZ1T | 85643.Tmz1t_2632
+1904_NarI,Thauera terpenica 58Eu | 1348657.M622_14240
+1905_NarI,Uliginosibacterium gangwonense DSM 18521 | 1123487.KB892863_gene1972
+1906_NarI,Desulfarculus baarsii DSM 2075 | 644282.Deba_0564
+1907_NarI,Desulfarculus baarsii DSM 2075 | 644282.Deba_0780
+1908_NarI,Desulfarculus baarsii DSM 2075 | 644282.Deba_2115
+1909_NarI,Desulfarculus baarsii DSM 2075 | 644282.Deba_2983
+1910_NarI,Desulfatibacillum alkenivorans AK-01 | 439235.Dalk_0605
+1911_NarI,Desulfatibacillum alkenivorans AK-01 | 439235.Dalk_1566
+1912_NarI,Desulfatibacillum alkenivorans AK-01 | 439235.Dalk_4840
+1913_NarI,Desulfatibacillum alkenivorans AK-01 | 439235.Dalk_5066
+1914_NarI,Desulfobacter curvatus DSM 3379 | 1121396.KB893012_gene4028
+1915_NarI,Desulfobacter curvatus DSM 3379 | 1121396.KB893035_gene3580
+1916_NarI,Desulfobacter curvatus DSM 3379 | 1121396.KB893059_gene2795
+1917_NarI,Desulfobacter curvatus DSM 3379 | 1121396.KB893123_gene1121
+1918_NarI,Desulfobacter postgatei 2ac9 | 879212.DespoDRAFT_00213
+1919_NarI,Desulfobacter postgatei 2ac9 | 879212.DespoDRAFT_02310
+1920_NarI,Desulfobacter postgatei 2ac9 | 879212.DespoDRAFT_03019
+1921_NarI,Desulfobacula sp. TS | 1232437.KL661960_gene3074
+1922_NarI,Desulfobacula sp. TS | 1232437.KL661965_gene3248
+1923_NarI,Desulfobacula sp. TS | 1232437.KL662000_gene4727
+1924_NarI,Desulfobacula sp. TS | 1232437.KL662011_gene1478
+1925_NarI,Desulfobacula sp. TS | 1232437.KL662050_gene5372
+1926_NarI,Desulfococcus multivorans DSM 2059 | 1121405.dsmv_0142
+1927_NarI,Desulfococcus multivorans DSM 2059 | 1121405.dsmv_0155
+1928_NarI,Desulfococcus multivorans DSM 2059 | 1121405.dsmv_1934
+1929_NarI,Desulfococcus multivorans DSM 2059 | 1121405.dsmv_2242
+1930_NarI,Desulfococcus multivorans DSM 2059 | 1121405.dsmv_3496
+1931_NarI,Desulforapulum autotrophicum HRM2 | 177437.HRM2_00630
+1932_NarI,Desulforapulum autotrophicum HRM2 | 177437.HRM2_25790
+1933_NarI,Desulforapulum autotrophicum HRM2 | 177437.HRM2_31640
+1934_NarI,Desulforapulum autotrophicum HRM2 | 177437.HRM2_45000
+1935_NarI,Desulforegula conservatrix Mb1Pa | 1304885.AUEY01000001_gene3187
+1936_NarI,Desulforegula conservatrix Mb1Pa | 1304885.AUEY01000002_gene401
+1937_NarI,Desulfosarcina sp. BuS5 | 933262.AXAM01000094_gene2193
+1938_NarI,Desulfospira joergensenii DSM 10085 | 1265505.ATUG01000001_gene3361
+1939_NarI,Desulfospira joergensenii DSM 10085 | 1265505.ATUG01000001_gene4565
+1940_NarI,Desulfospira joergensenii DSM 10085 | 1265505.ATUG01000002_gene1135
+1941_NarI,Desulfospira joergensenii DSM 10085 | 1265505.ATUG01000002_gene2533
+1942_NarI,Desulfogranum japonicum DSM 18378 | 1121403.AUCV01000004_gene2021
+1943_NarI,Desulfogranum japonicum DSM 18378 | 1121403.AUCV01000025_gene2232
+1944_NarI,Desulfurivibrio alkaliphilus AHT 2 | 589865.DaAHT2_1468
+1945_NarI,Desulfurivibrio alkaliphilus AHT 2 | 589865.DaAHT2_2298
+1946_NarI,Desulfocapsa sulfexigens DSM 10523 | 1167006.UWK_00242
+1947_NarI,Desulfocapsa sulfexigens DSM 10523 | 1167006.UWK_02027
+1948_NarI,Desulfotalea psychrophila LSv54 | 177439.DP1108
+1949_NarI,Desulfotalea psychrophila LSv54 | 177439.DP3075
+1950_NarI,Desulfococcus oleovorans Hxd3 | 96561.Dole_0303
+1951_NarI,Desulfococcus oleovorans Hxd3 | 96561.Dole_0450
+1952_NarI,Desulfococcus oleovorans Hxd3 | 96561.Dole_0460
+1953_NarI,Desulfococcus oleovorans Hxd3 | 96561.Dole_2254
+1954_NarI,Desulfohalobium retbaense DSM 5692 | 485915.Dret_0235
+1955_NarI,Desulfohalobium retbaense DSM 5692 | 485915.Dret_0873
+1956_NarI,Desulfohalobium retbaense DSM 5692 | 485915.Dret_1029
+1957_NarI,Desulfohalobium retbaense DSM 5692 | 485915.Dret_1963
+1958_NarI,Desulfonatronospira thiodismutans ASO3-1 | 555779.Dthio_PD1010
+1959_NarI,Desulfonatronospira thiodismutans ASO3-1 | 555779.Dthio_PD1030
+1960_NarI,Desulfonatronospira thiodismutans ASO3-1 | 555779.Dthio_PD2748
+1961_NarI,Desulfonatronovibrio hydrogenovorans DSM 9292 | 1121413.JMKT01000009_gene1913
+1962_NarI,Desulfonatronovibrio hydrogenovorans DSM 9292 | 1121413.JMKT01000011_gene2385
+1963_NarI,Desulfonauticus sp. A7A | 1379281.AVAG01000009_gene630
+1964_NarI,Desulfonauticus sp. A7A | 1379281.AVAG01000076_gene1583
+1965_NarI,Desulfomicrobium baculatum DSM 4028 | 525897.Dbac_0270
+1966_NarI,Desulfomicrobium baculatum DSM 4028 | 525897.Dbac_0565
+1967_NarI,Desulfomicrobium baculatum DSM 4028 | 525897.Dbac_0572
+1968_NarI,Desulfomicrobium baculatum DSM 4028 | 525897.Dbac_1436
+1969_NarI,Desulfomicrobium baculatum DSM 4028 | 525897.Dbac_3201
+1970_NarI,Bilophila wadsworthia ATCC 49260 | 1408428.JNJP01000001_gene3242
+1971_NarI,Bilophila wadsworthia ATCC 49260 | 1408428.JNJP01000003_gene3406
+1972_NarI,Bilophila wadsworthia 3_1_6 | 563192.HMPREF0179_00243
+1973_NarI,Bilophila wadsworthia 3_1_6 | 563192.HMPREF0179_02354
+1974_NarI,Desulfocurvibacter africanus subsp. africanus str. Walvis Bay | 690850.Desaf_0335
+1975_NarI,Desulfocurvibacter africanus subsp. africanus str. Walvis Bay | 690850.Desaf_0452
+1976_NarI,Desulfocurvibacter africanus subsp. africanus str. Walvis Bay | 690850.Desaf_1465
+1977_NarI,Desulfocurvus vexinensis DSM 17965 | 1121406.JAEX01000002_gene834
+1978_NarI,Desulfocurvus vexinensis DSM 17965 | 1121406.JAEX01000003_gene1530
+1979_NarI,Desulfocurvus vexinensis DSM 17965 | 1121406.JAEX01000005_gene2864
+1980_NarI,Desulfocurvus vexinensis DSM 17965 | 1121406.JAEX01000021_gene1451
+1981_NarI,Desulfohalovibrio alkalitolerans DSM 16529 | 1121439.dsat_0319
+1982_NarI,Desulfohalovibrio alkalitolerans DSM 16529 | 1121439.dsat_0364
+1983_NarI,Desulfohalovibrio alkalitolerans DSM 16529 | 1121439.dsat_0749
+1984_NarI,Desulfohalovibrio alkalitolerans DSM 16529 | 1121439.dsat_1160
+1985_NarI,Desulfohalovibrio alkalitolerans DSM 16529 | 1121439.dsat_1468
+1986_NarI,Desulfohalovibrio alkalitolerans DSM 16529 | 1121439.dsat_2182
+1987_NarI,Desulfohalovibrio reitneri | 1307759.JOMJ01000003_gene1411
+1988_NarI,Desulfohalovibrio reitneri | 1307759.JOMJ01000003_gene172
+1989_NarI,Desulfohalovibrio reitneri | 1307759.JOMJ01000004_gene2690
+1990_NarI,Desulfovibrio aminophilus DSM 12254 | 1121440.AUMA01000009_gene755
+1991_NarI,Desulfovibrio aminophilus DSM 12254 | 1121440.AUMA01000010_gene319
+1992_NarI,Desulfovibrio aminophilus DSM 12254 | 1121440.AUMA01000015_gene1795
+1993_NarI,Desulfovibrio desulfuricans DSM 642 | 1121445.ATUZ01000011_gene892
+1994_NarI,Desulfovibrio desulfuricans DSM 642 | 1121445.ATUZ01000011_gene896
+1995_NarI,Desulfovibrio desulfuricans DSM 642 | 1121445.ATUZ01000013_gene1082
+1996_NarI,Desulfovibrio desulfuricans DSM 642 | 1121445.ATUZ01000017_gene2040
+1997_NarI,Desulfovibrio desulfuricans ATCC 27774 | 525146.Ddes_0451
+1998_NarI,Desulfovibrio desulfuricans ATCC 27774 | 525146.Ddes_0840
+1999_NarI,Desulfovibrio desulfuricans ATCC 27774 | 525146.Ddes_0846
+2000_NarI,Desulfovibrio oxyclinae DSM 11498 | 1121459.AQXE01000008_gene792
+2001_NarI,Desulfovibrio oxyclinae DSM 11498 | 1121459.AQXE01000017_gene2140
+2002_NarI,Desulfovibrio piger ATCC 29098 | 411464.DESPIG_00088
+2003_NarI,Desulfovibrio piger ATCC 29098 | 411464.DESPIG_02237
+2004_NarI,Desulfovibrio sp. 6_1_46AFAA | 665942.HMPREF1022_00663
+2005_NarI,Desulfovibrio sp. 6_1_46AFAA | 665942.HMPREF1022_00667
+2006_NarI,Desulfovibrio sp. 6_1_46AFAA | 665942.HMPREF1022_01686
+2007_NarI,Desulfovibrio sp. 6_1_46AFAA | 665942.HMPREF1022_02006
+2008_NarI,Desulfovibrio sp. U5L | 596152.DesU5LDRAFT_0689
+2009_NarI,Desulfovibrio sp. U5L | 596152.DesU5LDRAFT_4099
+2010_NarI,Desulfovibrio sp. X2 | 941449.dsx2_0450
+2011_NarI,Desulfovibrio sp. X2 | 941449.dsx2_1785
+2012_NarI,Desulfovibrio sp. X2 | 941449.dsx2_2355
+2013_NarI,Desulfovibrio sp. X2 | 941449.dsx2_2969
+2014_NarI,Desulfovibrio sp. X2 | 941449.dsx2_3371
+2015_NarI,Desulfovibrio vulgaris str. Hildenborough | 882.DVU_0265
+2016_NarI,Desulfovibrio vulgaris str. Hildenborough | 882.DVU_0532
+2017_NarI,Desulfovibrio vulgaris str. Hildenborough | 882.DVU_0850
+2018_NarI,Desulfovibrio vulgaris str. Hildenborough | 882.DVU_1290
+2019_NarI,Desulfovibrio vulgaris str. 'Miyazaki F' | 883.DvMF_0070
+2020_NarI,Desulfovibrio vulgaris str. 'Miyazaki F' | 883.DvMF_2556
+2021_NarI,Desulfovibrio vulgaris str. 'Miyazaki F' | 883.DvMF_2594
+2022_NarI,Desulfovibrio vulgaris str. 'Miyazaki F' | 883.DvMF_2896
+2023_NarI,Halodesulfovibrio aestuarii DSM 10141 | 1121434.AULY01000006_gene734
+2024_NarI,Halodesulfovibrio aestuarii DSM 10141 | 1121434.AULY01000007_gene1334
+2025_NarI,Halodesulfovibrio aestuarii DSM 10141 | 1121434.AULY01000009_gene2230
+2026_NarI,Halodesulfovibrio aestuarii DSM 10141 | 1121434.AULY01000010_gene2577
+2027_NarI,Maridesulfovibrio bastinii DSM 16055 | 1121441.AUCX01000009_gene2434
+2028_NarI,Maridesulfovibrio bastinii DSM 16055 | 1121441.AUCX01000010_gene220
+2029_NarI,Maridesulfovibrio bastinii DSM 16055 | 1121441.AUCX01000010_gene266
+2030_NarI,Maridesulfovibrio bastinii DSM 16055 | 1121441.AUCX01000028_gene347
+2031_NarI,Maridesulfovibrio frigidus DSM 17176 | 1121447.JONL01000002_gene2069
+2032_NarI,Maridesulfovibrio frigidus DSM 17176 | 1121447.JONL01000002_gene2115
+2033_NarI,Maridesulfovibrio frigidus DSM 17176 | 1121447.JONL01000005_gene1444
+2034_NarI,Maridesulfovibrio frigidus DSM 17176 | 1121447.JONL01000005_gene1507
+2035_NarI,Maridesulfovibrio hydrothermalis AM13 = DSM 14728 | 1121451.DESAM_20517
+2036_NarI,Maridesulfovibrio hydrothermalis AM13 = DSM 14728 | 1121451.DESAM_21293
+2037_NarI,Maridesulfovibrio hydrothermalis AM13 = DSM 14728 | 1121451.DESAM_21434
+2038_NarI,Maridesulfovibrio salexigens DSM 2638 | 526222.Desal_0186
+2039_NarI,Maridesulfovibrio salexigens DSM 2638 | 526222.Desal_0233
+2040_NarI,Maridesulfovibrio salexigens DSM 2638 | 526222.Desal_1374
+2041_NarI,Maridesulfovibrio salexigens DSM 2638 | 526222.Desal_3042
+2042_NarI,Megalodesulfovibrio gigas DSM 1382 = ATCC 19364 | 1121448.DGI_0719
+2043_NarI,Megalodesulfovibrio gigas DSM 1382 = ATCC 19364 | 1121448.DGI_1700
+2044_NarI,Megalodesulfovibrio gigas DSM 1382 = ATCC 19364 | 1121448.DGI_2334
+2045_NarI,Oleidesulfovibrio alaskensis G20 | 207559.Dde_0649
+2046_NarI,Oleidesulfovibrio alaskensis G20 | 207559.Dde_1113
+2047_NarI,Oleidesulfovibrio alaskensis G20 | 207559.Dde_2271
+2048_NarI,Oleidesulfovibrio alaskensis G20 | 207559.Dde_3708
+2049_NarI,Paucidesulfovibrio longus DSM 6739 | 1121456.ATVA01000011_gene1351
+2050_NarI,Paucidesulfovibrio longus DSM 6739 | 1121456.ATVA01000011_gene1367
+2051_NarI,Paucidesulfovibrio longus DSM 6739 | 1121456.ATVA01000014_gene746
+2052_NarI,Pseudodesulfovibrio aespoeensis Aspo-2 | 643562.Daes_0371
+2053_NarI,Pseudodesulfovibrio aespoeensis Aspo-2 | 643562.Daes_0867
+2054_NarI,Pseudodesulfovibrio aespoeensis Aspo-2 | 643562.Daes_2643
+2055_NarI,Pseudodesulfovibrio mercurii | 641491.DND132_1545
+2056_NarI,Pseudodesulfovibrio mercurii | 641491.DND132_1831
+2057_NarI,Pseudodesulfovibrio mercurii | 641491.DND132_3033
+2058_NarI,Pseudodesulfovibrio piezophilus C1TLV30 | 1322246.BN4_10654
+2059_NarI,Pseudodesulfovibrio piezophilus C1TLV30 | 1322246.BN4_10947
+2060_NarI,Pseudodesulfovibrio piezophilus C1TLV30 | 1322246.BN4_11090
+2061_NarI,Pseudodesulfovibrio piezophilus C1TLV30 | 1322246.BN4_12503
+2062_NarI,Solidesulfovibrio alcoholivorans DSM 5433 | 1121438.JNJA01000001_gene2251
+2063_NarI,Solidesulfovibrio alcoholivorans DSM 5433 | 1121438.JNJA01000005_gene1152
+2064_NarI,Solidesulfovibrio alcoholivorans DSM 5433 | 1121438.JNJA01000009_gene4112
+2065_NarI,Solidesulfovibrio alcoholivorans DSM 5433 | 1121438.JNJA01000009_gene4145
+2066_NarI,Solidesulfovibrio fructosivorans JJ] | 596151.DesfrDRAFT_0703
+2067_NarI,Solidesulfovibrio fructosivorans JJ] | 596151.DesfrDRAFT_1085
+2068_NarI,Solidesulfovibrio fructosivorans JJ] | 596151.DesfrDRAFT_3674
+2069_NarI,Solidesulfovibrio cf. magneticus IFRC170 | 1304872.JAGC01000003_gene2988
+2070_NarI,Solidesulfovibrio cf. magneticus IFRC170 | 1304872.JAGC01000003_gene3668
+2071_NarI,Solidesulfovibrio cf. magneticus IFRC170 | 1304872.JAGC01000009_gene275
+2072_NarI,Solidesulfovibrio magneticus RS-1 | 573370.DMR_03720
+2073_NarI,Solidesulfovibrio magneticus RS-1 | 573370.DMR_12870
+2074_NarI,Solidesulfovibrio magneticus RS-1 | 573370.DMR_42510
+2075_NarI,Desulfurella acetivorans A63 | 694431.DESACE_06555
+2076_NarI,Desulfurella acetivorans A63 | 694431.DESACE_07185
+2077_NarI,Desulfuromonas sp. TF | 1232410.KI421415_gene2944
+2078_NarI,Pelobacter propionicus DSM 2379 | 338966.Ppro_1535
+2079_NarI,Geobacter metallireducens GS-15 | 269799.Gmet_0332
+2080_NarI,Geobacter metallireducens GS-15 | 269799.Gmet_1022
+2081_NarI,Geobacter metallireducens GS-15 | 269799.Gmet_1714
+2082_NarI,Geobacter metallireducens GS-15 | 269799.Gmet_2070
+2083_NarI,Geobacter metallireducens GS-15 | 269799.Gmet_2264
+2084_NarI,Geobacter sp. M18 | 443143.GM18_2460
+2085_NarI,Geopsychrobacter electrodiphilus DSM 16401 | 1121918.ARWE01000001_gene3008
+2086_NarI,Geopsychrobacter electrodiphilus DSM 16401 | 1121918.ARWE01000001_gene3363
+2087_NarI,Trichlorobacter lovleyi SZ | 398767.Glov_0206
+2088_NarI,Trichlorobacter lovleyi SZ | 398767.Glov_2655
+2089_NarI,Anaeromyxobacter dehalogenans 2CP-C | 290397.Adeh_2173
+2090_NarI,Anaeromyxobacter sp. Fw109-5 | 404589.Anae109_3598
+2091_NarI,Myxococcus fulvus HW-1 | 483219.LILAB_35275
+2092_NarI,Myxococcus hansupus | 1297742.A176_05072
+2093_NarI,Myxococcus stipitatus DSM 14675 | 1278073.MYSTI_06134
+2094_NarI,Myxococcus xanthus DK 1622 | 246197.MXAN_5559
+2095_NarI,Desulfobacca acetoxidans DSM 11109 | 880072.Desac_2730
+2096_NarI,Desulfomonile tiedjei DSM 6799 | 706587.Desti_0285
+2097_NarI,Desulfomonile tiedjei DSM 6799 | 706587.Desti_0337
+2098_NarI,Desulfomonile tiedjei DSM 6799 | 706587.Desti_0747
+2099_NarI,Desulfomonile tiedjei DSM 6799 | 706587.Desti_0967
+2100_NarI,Desulfomonile tiedjei DSM 6799 | 706587.Desti_1446
+2101_NarI,Desulfomonile tiedjei DSM 6799 | 706587.Desti_2673
+2102_NarI,Desulfomonile tiedjei DSM 6799 | 706587.Desti_4206
+2103_NarI,Desulfomonile tiedjei DSM 6799 | 706587.Desti_5333
+2104_NarI,Desulfomonile tiedjei DSM 6799 | 706587.Desti_5349
+2105_NarI,Syntrophus aciditrophicus SB | 56780.SYN_02638
+2106_NarI,Syntrophobacter fumaroxidans MPOB | 335543.Sfum_1146
+2107_NarI,Syntrophorhabdus aromaticivorans UI | 909663.KI867150_gene1348
+2108_NarI,Syntrophorhabdus aromaticivorans UI | 909663.KI867150_gene2184
+2109_NarI,endosymbiont of Tevnia jerichonana (vent Tica) | 1049564.TevJSym_ag00770
+2110_NarI,endosymbiont of Tevnia jerichonana (vent Tica) | 1049564.TevJSym_aw00140
+2111_NarI,endosymbiont of Tevnia jerichonana (vent Tica) | 1049564.TevJSym_bc00370
+2112_NarI,Ignatzschineria larvae DSM 13226 | 1111732.AZOD01000001_gene1577
+2113_NarI,gamma proteobacterium WG36 | 1229485.AMYV01000007_gene1022
+2114_NarI,Solemya velum gill symbiont | 2340.JV46_15460
+2115_NarI,Solemya velum gill symbiont | 2340.JV46_19110
+2116_NarI,Solemya velum gill symbiont | 2340.JV46_26690
+2117_NarI,Candidatus Vesicomyosocius okutanii | 412965.COSY_0646
+2118_NarI,Candidatus Vesicomyosocius okutanii | 412965.COSY_0789
+2119_NarI,Candidatus Ruthia magnifica str. Cm (Calyptogena magnifica) | 413404.Rmag_0864
+2120_NarI,gamma proteobacterium HdN1 | 83406.HDN1F_13270
+2121_NarI,Acidiferrobacteraceae | tr|A0A7C1ULI2|A0A7C1ULI2_9GAMM
+2122_NarI,Acidiferrobacteraceae | tr|A0A7C1YX18|A0A7C1YX18_9GAMM
+2123_NarI,Aestuariibacter salexigens DSM 15300 | 1120953.AUBH01000004_gene2925
+2124_NarI,Alishewanella agri BL06 | 1195246.AGRI_12841
+2125_NarI,Alishewanella jeotgali KCTC 22429 | 1129374.AJE_11079
+2126_NarI,Paraglaciecola mesophila KMM 241 | 1128912.GMES_2095
+2127_NarI,Pseudidiomarina atlantica | 1517416.IDAT_03050
+2128_NarI,Pseudidiomarina salinarum | 435908.IDSA_09450
+2129_NarI,Shewanella halifaxensis HAW-EB4 | 458817.Shal_0180
+2130_NarI,Shewanella halifaxensis HAW-EB4 | 458817.Shal_3443
+2131_NarI,Shewanella marina JCM 15074 | 1236542.BALM01000002_gene915
+2132_NarI,Shewanella sediminis HAW-EB3 | 425104.Ssed_1957
+2133_NarI,Shewanella woodyi ATCC 51908 | 392500.Swoo_2631
+2134_NarI,Cardiobacterium sp. | tr|A0A660MKB8|A0A660MKB8_9GAMM
+2135_NarI,Cellvibrio sp. BR | 1134474.O59_004032
+2136_NarI,Marinimicrobium agarilyticum DSM 16975 | 1122194.AUHU01000006_gene562
+2137_NarI,Simiduia agarivorans SA1 = DSM 21679 | 1117647.M5M_15795
+2138_NarI,Microbulbifer agarilyticus S89 | 1042377.AFPJ01000027_gene2662
+2139_NarI,Microbulbifer variabilis ATCC 700307 | 1279017.AQYJ01000027_gene1680
+2140_NarI,Gammaproteobacteria bacterium MOLA455 | 1411685.U062_00060
+2141_NarI,gamma proteobacterium HTCC2207 | 314287.GB2207_00875
+2142_NarI,Chromatiales | tr|A0A2E9D3Z3|A0A2E9D3Z3_9GAMM
+2143_NarI,Chromatiales | tr|A0A2E9JV48|A0A2E9JV48_9GAMM
+2144_NarI,Allochromatium vinosum DSM 180 | 572477.Alvin_1257
+2145_NarI,Allochromatium vinosum DSM 180 | 572477.Alvin_2038
+2146_NarI,Imhoffiella purpurea | 1249627.D779_0561
+2147_NarI,Imhoffiella purpurea | 1249627.D779_1105
+2148_NarI,Imhoffiella purpurea | 1249627.D779_2149
+2149_NarI,Marichromatium purpuratum 984 | 765910.MARPU_06480
+2150_NarI,Marichromatium purpuratum 984 | 765910.MARPU_10885
+2151_NarI,Rheinheimera perlucida DSM 18276 | 1123054.KB907702_gene1469
+2152_NarI,Thiocapsa marina 5811 | 768671.ThimaDRAFT_0145
+2153_NarI,Thiocapsa marina 5811 | 768671.ThimaDRAFT_2909
+2154_NarI,Thiocystis violascens DSM 198 | 765911.Thivi_0550
+2155_NarI,Thiocystis violascens DSM 198 | 765911.Thivi_1305
+2156_NarI,Thiocystis violascens DSM 198 | 765911.Thivi_2699
+2157_NarI,Thioflavicoccus mobilis 8321 | 765912.Thimo_0149
+2158_NarI,Thioflavicoccus mobilis 8321 | 765912.Thimo_0775
+2159_NarI,Thioflavicoccus mobilis 8321 | 765912.Thimo_3342
+2160_NarI,Thiorhodococcus drewsii AZ1 | 765913.ThidrDRAFT_0313
+2161_NarI,Thiorhodococcus drewsii AZ1 | 765913.ThidrDRAFT_0346
+2162_NarI,Thiorhodococcus drewsii AZ1 | 765913.ThidrDRAFT_2030
+2163_NarI,Thiorhodovibrio sp. 970 | 631362.Thi970DRAFT_00628
+2164_NarI,Thiorhodovibrio sp. 970 | 631362.Thi970DRAFT_01383
+2165_NarI,Ectothiorhodospiraceae (purple sulfur bacteria) | tr|A0A2E0UIL6|A0A2E0UIL6_9GAMM
+2166_NarI,Alkalilimnicola ehrlichii MLHE-1 | 187272.Mlg_1000
+2167_NarI,Alkalilimnicola ehrlichii MLHE-1 | 187272.Mlg_1659
+2168_NarI,Halorhodospira halophila SL1 | 349124.Hhal_1957
+2169_NarI,Nitrococcus mobilis Nb-231 | 314278.NB231_16098
+2170_NarI,Thioalkalivibrio nitratireducens DSM 14787 | 1255043.TVNIR_0854
+2171_NarI,Thioalkalivibrio nitratireducens DSM 14787 | 1255043.TVNIR_2055
+2172_NarI,Thioalkalivibrio sp. AKL11 | 545264.KB898750_gene285
+2173_NarI,Thioalkalivibrio sp. AKL19 | 1266914.ATUK01000012_gene211
+2174_NarI,Thioalkalivibrio sp. ALE19 | 1266909.AUAG01000010_gene2614
+2175_NarI,Thioalkalivibrio sp. ALJT | 1158146.KB907134_gene1478
+2176_NarI,Thioalkalivibrio sp. HK1 | 1469245.JFBG01000013_gene1921
+2177_NarI,Thioalkalivibrio sulfidiphilus HL-EbGr7 | 396588.Tgr7_1268
+2178_NarI,Thioalkalivibrio sulfidiphilus HL-EbGr7 | 396588.Tgr7_2191
+2179_NarI,Thioalkalivibrio thiocyanodenitrificans ARhD 1 | 713586.KB900536_gene1017
+2180_NarI,Thioalkalivibrio thiocyanoxidans ARh 4 | 713587.THITH_06760
+2181_NarI,Thioalkalivibrio thiocyanoxidans ARh 4 | 713587.THITH_08210
+2182_NarI,Thioalkalivibrio thiocyanoxidans ARh 4 | 713587.THITH_12010
+2183_NarI,Thiorhodospira sibirica ATCC 700588 | 765914.ThisiDRAFT_0089
+2184_NarI,Granulosicoccus sp. | tr|A0A848UC68|A0A848UC68_9GAMM
+2185_NarI,Enterobacteriaceae bacterium LSJC7 | 1224136.AMFN01000002_gene1030
+2186_NarI,Enterobacteriaceae bacterium LSJC7 | 1224136.AMFN01000002_gene790
+2187_NarI,Enterobacteriaceae bacterium strain FGI 57 | 693444.D782_1909
+2188_NarI,Enterobacteriaceae bacterium strain FGI 57 | 693444.D782_2121
+2189_NarI,Atlantibacter hermannii NBRC 105704 | 1115512.EH105704_05_00590
+2190_NarI,Atlantibacter hermannii NBRC 105704 | 1115512.EH105704_11_00700
+2191_NarI,Buttiauxella agrestis ATCC 33320 | 1006004.GBAG_1686
+2192_NarI,Citrobacter amalonaticus | 35703.DQ02_15595
+2193_NarI,Citrobacter farmeri GTC 1319 | 1114922.CIFAM_04_03790
+2194_NarI,Citrobacter farmeri GTC 1319 | 1114922.CIFAM_05_01700
+2195_NarI,Citrobacter sedlakii NBRC 105722 | 1218086.BBNB01000001_gene3650
+2196_NarI,Citrobacter youngae ATCC 29220 | 500640.CIT292_06855
+2197_NarI,Citrobacter youngae ATCC 29220 | 500640.CIT292_07105
+2198_NarI,Cronobacter condimenti 1330 | 1073999.BN137_3632
+2199_NarI,Enterobacter asburiae LF7a | 640513.Entas_2241
+2200_NarI,Enterobacter asburiae LF7a | 640513.Entas_2419
+2201_NarI,Enterobacter cloacae EcWSU1 | 1045856.EcWSU1_02364
+2202_NarI,Enterobacter cloacae JD6301 | 1399774.JDWH01000002_gene3112
+2203_NarI,Enterobacter cloacae subsp. cloacae ATCC 13047 | 716541.ECL_01890
+2204_NarI,Enterobacter sp. 638 | 399742.Ent638_2065
+2205_NarI,Enterobacter sp. 638 | 399742.Ent638_2312
+2206_NarI,Enterobacter sp. R4-368 | 1166130.H650_01670
+2207_NarI,Escherichia albertii KF1 | 1440052.EAKF1_ch0212c
+2208_NarI,Escherichia albertii TW07627 | 502347.ESCAB7627_2669
+2209_NarI,Escherichia coli CFT073 | 199310.c1897
+2210_NarI,Escherichia coli str. K-12 substr. W3110 | 316407.1742384
+2211_NarI,Klebsiella aerogenes KCTC 2190 | 1028307.EAE_16845
+2212_NarI,Klebsiella aerogenes KCTC 2190 | 1028307.EAE_19950
+2213_NarI,Klebsiella oxytoca | 571.MC52_22070
+2214_NarI,Klebsiella pneumoniae | 573.JG24_15025
+2215_NarI,Kluyvera ascorbata ATCC 33433 | 1006000.GKAS_03190
+2216_NarI,Kluyvera ascorbata ATCC 33433 | 1006000.GKAS_04341
+2217_NarI,Leclercia adecarboxylata ATCC 23216 = NBRC 102595 | 911008.GLAD_00319
+2218_NarI,Leclercia adecarboxylata ATCC 23216 = NBRC 102595 | 911008.GLAD_04658
+2219_NarI,Pluralibacter gergoviae | 61647.LG71_15070
+2220_NarI,Pluralibacter gergoviae | 61647.LG71_17255
+2221_NarI,[Enterobacter] lignolyticus SCF1 | 701347.Entcl_2062
+2222_NarI,[Enterobacter] lignolyticus SCF1 | 701347.Entcl_2358
+2223_NarI,Pseudescherichia vulneris NBRC 102420 | 1115515.EV102420_41_00040
+2224_NarI,Raoultella ornithinolytica B6 | 1286170.RORB6_03900
+2225_NarI,Raoultella ornithinolytica B6 | 1286170.RORB6_06825
+2226_NarI,Salmonella bongori N268-08 | 1197719.A464_1606
+2227_NarI,Salmonella bongori NCTC 12419 | 218493.SBG_1619
+2228_NarI,Salmonella enterica subsp. enterica serovar Typhi str. CT18 | 220341.16502419
+2229_NarI,Salmonella enterica subsp. enterica serovar Typhi str. CT18 | 220341.16502594
+2230_NarI,Salmonella enterica subsp. enterica serovar Typhimurium | 90371.CY43_08995
+2231_NarI,Shigella flexneri 2a str. 301 | 198214.SF1230
+2232_NarI,Shimwellia blattae DSM 4481 = NBRC 105725 | 630626.EBL_c18890
+2233_NarI,Shimwellia blattae DSM 4481 = NBRC 105725 | 630626.EBL_c19960
+2234_NarI,Trabulsiella guamensis ATCC 49490 | 1005994.GTGU_00383
+2235_NarI,Erwinia billingiae Eb661 | 634500.EbC_35020
+2236_NarI,Erwinia typographi | 371042.NG99_11985
+2237_NarI,Pantoea agglomerans | 549.BW31_02178
+2238_NarI,Pantoea ananatis LMG 20103 | 706191.PANA_2255
+2239_NarI,Pantoea ananatis AJ13355 | 932677.PAJ_1567
+2240_NarI,Pantoea sp. IMH | 1267600.JFGT01000002_gene625
+2241_NarI,Pantoea sp. PSNIH2 | 1484157.PSNIH2_03535
+2242_NarI,Pantoea sp. PSNIH2 | 1484157.PSNIH2_08265
+2243_NarI,Pantoea sp. Sc1 | 593105.S7A_00330
+2244_NarI,Tatumella morbirosei | 642227.HA49_06290
+2245_NarI,Tatumella ptyseos ATCC 33301 | 1005995.GTPT_3297
+2246_NarI,Edwardsiella hoshinae NBRC 105699 = ATCC 33379 | 1216966.BAUC01000050_gene77
+2247_NarI,Edwardsiella tarda ATCC 15947 = NBRC 105688 | 667121.ET1_23_00080
+2248_NarI,Hafnia alvei FB1 | 1453496.AT03_16180
+2249_NarI,Morganella morganii subsp. morganii KT | 1124991.MU9_70
+2250_NarI,Proteus mirabilis HI4320 | 529507.PMI3574
+2251_NarI,Proteus penneri ATCC 35198 | 471881.PROPEN_03346
+2252_NarI,Providencia burhodogranariea DSM 19968 | 1141662.OOA_16199
+2253_NarI,Providencia rettgeri Dmel1 | 1141663.OOC_04292
+2254_NarI,Providencia stuartii ATCC 25827 | 471874.PROSTU_04497
+2255_NarI,Dickeya chrysanthemi Ech1591 | 561229.Dd1591_1856
+2256_NarI,Dickeya dadantii 3937 | 198628.Dda3937_03794
+2257_NarI,Dickeya parazeae Ech586 | 590409.Dd586_1821
+2258_NarI,Dickeya poaceiphila | 568768.CM001975_gene1934
+2259_NarI,Dickeya sp. DW 0440 | 1225785.CM001983_gene1530
+2260_NarI,Dickeya undicola | 1577887.JSYG01000011_gene70
+2261_NarI,Musicola paradisiaca Ech703 | 579405.Dd703_1774
+2262_NarI,Pectobacterium betavasculorum | 55207.KP22_05870
+2263_NarI,Pectobacterium carotovorum subsp. carotovorum PC1 | 561230.PC1_2256
+2264_NarI,Pectobacterium odoriferum | 78398.KS43_02010
+2265_NarI,Pectobacterium parmentieri WPP163 | 561231.Pecwa_2561
+2266_NarI,Ewingella americana ATCC 33852 | 910964.GEAM_1557
+2267_NarI,Rahnella aquatilis CIP 78.65 = ATCC 33071 | 745277.GRAQ_01547
+2268_NarI,Serratia marcescens FGI94 | 1249634.D781_2670
+2269_NarI,Serratia marcescens FGI94 | 1249634.D781_4067
+2270_NarI,Serratia marcescens subsp. marcescens Db11 | 273526.SMDB11_2139
+2271_NarI,Serratia plymuthica | 82996.sch_15505
+2272_NarI,Serratia proteamaculans 568 | 399741.Spro_2880
+2273_NarI,Serratia sp. ATCC 39006 | 104623.Ser39006_02945
+2274_NarI,Serratia sp. H1n | 1397284.AYMN01000044_gene3726
+2275_NarI,Yersinia intermedia ATCC 29909 | 349965.yinte0001_19660
+2276_NarI,Kangiella koreensis DSM 16069 | 523791.Kkor_1340
+2277_NarI,Methylobacter tundripaludum SV96 | 697282.Mettu_3973
+2278_NarI,Acinetobacter junii | tr|D0SR53|D0SR53_ACIJU
+2279_NarI,Moraxella boevrei DSM 14165 | 1122243.KB903777_gene979
+2280_NarI,Moraxella bovoculi 237 | 743974.MBO_04714
+2281_NarI,Moraxella caprae DSM 19149 | 1122244.AUGF01000014_gene2021
+2282_NarI,Moraxella catarrhalis O35E | 857571.EA1_03683
+2283_NarI,Moraxella macacae 0408225 | 1230338.MOMA_01365
+2284_NarI,Moraxella osloensis | tr|A0A2K8K3I5|A0A2K8K3I5_MOROS
+2285_NarI,Moraxella sp. | tr|A0A496NC61|A0A496NC61_MORSP
+2286_NarI,Psychrobacter aquaticus CMS 56 | 1354303.M917_1962
+2287_NarI,Psychrobacter arcticus 273-4 | 259536.Psyc_0608
+2288_NarI,Psychrobacter lutiphocae DSM 21542 | 1123033.ARNF01000064_gene357
+2289_NarI,Psychrobacter pasteurii | tr|A0A1R4ED26|A0A1R4ED26_9GAMM
+2290_NarI,Psychrobacter sp. | tr|A0A350DLS1|A0A350DLS1_9GAMM
+2291_NarI,Psychrobacter sp. | tr|A0A353XSY9|A0A353XSY9_9GAMM
+2292_NarI,Psychrobacter sp. | tr|A0A3D3KDQ3|A0A3D3KDQ3_9GAMM
+2293_NarI,Psychrobacter sp. ANT_WB68 | tr|A0A5A9ZEE1|A0A5A9ZEE1_9GAMM
+2294_NarI,Psychrobacter sp. FDAARGOS_221 | tr|A0A2J9DX30|A0A2J9DX30_9GAMM
+2295_NarI,Psychrobacter sp. PRwf-1 | 349106.PsycPRwf_0669
+2296_NarI,Psychrobacter sp. YGAH215 | tr|A0A553Y2P4|A0A553Y2P4_9GAMM
+2297_NarI,Algiphilus aromaticivorans DG1253 | 1415780.JPOG01000001_gene994
+2298_NarI,Alcanivorax borkumensis SK2 | 393595.ABO_0543
+2299_NarI,Alcanivorax sp. 43B_GOM-46m | 1380387.JADM01000013_gene1379
+2300_NarI,Hahella chejuensis KCTC 2396 | 349521.HCH_04008
+2301_NarI,Hahella ganghwensis DSM 17046 | 1121935.AQXX01000115_gene5014
+2302_NarI,Chromohalobacter salexigens DSM 3043 | 290398.Csal_1333
+2303_NarI,Halomonas alkaliantarctica | 232346.JHQL01000006_gene3086
+2304_NarI,Halomonas anticariensis FP35 = DSM 16096 | 1121939.L861_14600
+2305_NarI,Halomonas elongata DSM 2581 | 768066.HELO_2851
+2306_NarI,Halomonas huangheensis | 1178482.BJB45_06995
+2307_NarI,Halomonas huangheensis | 1178482.BJB45_08740
+2308_NarI,Halomonas jeotgali Hwa | 1238190.AMQY01000014_gene890
+2309_NarI,Halomonas lutea DSM 23508 | 1121943.KB900002_gene3092
+2310_NarI,Halomonas sp. 23_GOM-1509m | 1380358.JADJ01000001_gene1098
+2311_NarI,Halomonas sp. PBN3 | 1397528.Q671_11500
+2312_NarI,Halomonas sp. TD01 | 999141.GME_17202
+2313_NarI,Halomonas sp. TG39a | 1415755.JQLV01000001_gene2426
+2314_NarI,Halomonas xinjiangensis | 1166948.JPZL01000003_gene801
+2315_NarI,Amphritea japonica ATCC BAA-1530 | 1278309.KB907099_gene2616
+2316_NarI,Marinospirillum insulare DSM 21763 | 1122211.JMLW01000011_gene192
+2317_NarI,Marinospirillum minutulum DSM 6287 | 1122212.AULO01000015_gene2067
+2318_NarI,Neptunomonas japonica DSM 18939 | 1122599.AUGR01000005_gene1849
+2319_NarI,Candidatus Schmidhempelia bombi str. Bimp | 1387197.AWGA01000014_gene467
+2320_NarI,Haemophilus massiliensis | 1461579.CCNK01000031_gene1068
+2321_NarI,Marinobacter daepoensis DSM 16072 | 1122197.ATWI01000008_gene2618
+2322_NarI,Marinobacter nanhaiticus D15-8W | 626887.J057_13486
+2323_NarI,Marinobacter nauticus VT8 | 351348.Maqu_3083
+2324_NarI,Marinobacter santoriniensis NKSG1 | 1288826.MSNKSG1_10958
+2325_NarI,Marinobacter sp. HL-58 | 1479237.JMLY01000001_gene3445
+2326_NarI,Halopseudomonas pelagia CL-AP6 | 1323663.AROI01000022_gene852
+2327_NarI,Pseudomonas aeruginosa | 287.DR97_3997
+2328_NarI,Pseudomonas alcaligenes NBRC 14159 | 1215092.PA6_030_00240
+2329_NarI,Pseudomonas alkylphenolica | 237609.PSAKL28_21510
+2330_NarI,Pseudomonas balearica | tr|A0A8I0KWY8|A0A8I0KWY8_9PSED
+2331_NarI,Pseudomonas brassicacearum | 930166.CD58_13185
+2332_NarI,Pseudomonas chlororaphis | 587753.EY04_17645
+2333_NarI,Pseudomonas corrugata CFBP 5454 | 1316927.ATKI01000018_gene1603
+2334_NarI,Pseudomonas donghuensis | 1163398.AJJP01000049_gene2158
+2335_NarI,Pseudomonas fluorescens Q2-87 | 1038922.PflQ2_3067
+2336_NarI,Pseudomonas fluorescens HK44 | 1042209.HK44_004195
+2337_NarI,Pseudomonas knackmussii B13 | 1301098.PKB_0983
+2338_NarI,Pseudomonas knackmussii B13 | 1301098.PKB_4365
+2339_NarI,Pseudomonas mandelii PD30 | 1419583.V466_19245
+2340_NarI,Pseudomonas nitroreducens TX1 | 1226994.AMZB01000112_gene2027
+2341_NarI,Pseudomonas nosocomialis | tr|A0A5R9QAQ7|A0A5R9QAQ7_9PSED
+2342_NarI,Pseudomonas ogarae | 1114970.PSF113_3782
+2343_NarI,Pseudomonas simiae | 321846.PS417_15705
+2344_NarI,Pseudomonas sp. | tr|A0A2E2GDX9|A0A2E2GDX9_PSESP
+2345_NarI,Pseudomonas sp. | tr|A0A352E833|A0A352E833_PSESP
+2346_NarI,Pseudomonas sp. | tr|A0A358RPP1|A0A358RPP1_PSESP
+2347_NarI,Pseudomonas sp. | tr|A0A3D1BA93|A0A3D1BA93_PSESP
+2348_NarI,Pseudomonas sp. | tr|A0A3D1W321|A0A3D1W321_PSESP
+2349_NarI,Pseudomonas sp. ATCC 13867 | 1294143.H681_14300
+2350_NarI,Pseudomonas sp. ATCC 13867 | 1294143.H681_19305
+2351_NarI,Pseudomonas sp. BAY1663 | 1439940.BAY1663_04165
+2352_NarI,Pseudomonas sp. Chol1 | 440512.C211_16925
+2353_NarI,Pseudomonas sp. Choline-3u-10 | tr|A0A2N1CWM1|A0A2N1CWM1_9PSED
+2354_NarI,Pseudomonas sp. M1 | 95619.PM1_0215695
+2355_NarI,Pseudomonas sp. M1 | 95619.PM1_0219855
+2356_NarI,Pseudomonas sp. RL | 1452718.JBOY01000093_gene2758
+2357_NarI,Pseudomonas sp. RL | 1452718.JBOY01000165_gene1532
+2358_NarI,Pseudomonas sp. TKP | 1415630.U771_13925
+2359_NarI,Pseudomonas sp. s199 | tr|A0A427F267|A0A427F267_9PSED
+2360_NarI,Pseudomonas stutzeri DSM 10701 | 1123519.PSJM300_10305
+2361_NarI,Pseudomonas stutzeri NF13 | 1212548.B381_15228
+2362_NarI,Pseudomonas stutzeri KOS6 | 1218352.B597_013975
+2363_NarI,Pseudomonas stutzeri A1501 | 379731.PST_0899
+2364_NarI,Salinisphaera hydrothermalis C41B8 | 1304275.C41B8_14230
+2365_NarI,Methylophaga nitratireducenticrescens | 754476.Q7A_449
+2366_NarI,Methylophaga nitratireducenticrescens | 754476.Q7A_481
+2367_NarI,Thiofilum flexile DSM 14609 | 1123400.KB904753_gene1040
+2368_NarI,Thiofilum flexile DSM 14609 | 1123400.KB904780_gene1913
+2369_NarI,Thiolinea disciformis DSM 14473 | 1123399.AQVE01000035_gene3177
+2370_NarI,Beggiatoa alba B18LD | 395493.BegalDRAFT_1067
+2371_NarI,Beggiatoa alba B18LD | 395493.BegalDRAFT_1366
+2372_NarI,Leucothrix mucor DSM 2157 | 998674.ATTE01000001_gene2177
+2373_NarI,Thiothrix lacustris DSM 21227 | 1123401.JHYQ01000005_gene246
+2374_NarI,Thiothrix lacustris DSM 21227 | 1123401.JHYQ01000005_gene278
+2375_NarI,Thiothrix lacustris DSM 21227 | 1123401.JHYQ01000017_gene2555
+2376_NarI,Thiothrix nivea DSM 5205 | 870187.Thini_0277
+2377_NarI,Thiothrix nivea DSM 5205 | 870187.Thini_3772
+2378_NarI,Vibrio sp. EJY3 | 1116375.VEJY3_20991
+2379_NarI,Rhodanobacteraceae | tr|A0A522S2A0|A0A522S2A0_9GAMM
+2380_NarI,Rhodanobacter denitrificans | 666685.R2APBS1_2895
+2381_NarI,Rhodanobacter thiooxydans LCS2 | 1163409.UUA_00420
+2382_NarI,Lysobacter concretionis Ko07 = DSM 16239 | 1122185.N792_04040
+2383_NarI,Lysobacter daejeonensis GH1-9 | 1385517.N800_03290
+2384_NarI,Lysobacter pythonis | tr|A0A3M2I053|A0A3M2I053_9GAMM
+2385_NarI,Lysobacter sp. N42 | tr|A0A4R4EIH0|A0A4R4EIH0_9GAMM
+2386_NarI,Stenotrophomonas maltophilia 5BA-I-2 | 1429851.X548_09910
+2387_NarI,Thermomonas fusca DSM 15424 | 1123377.AUIV01000022_gene2001
+2388_NarI,Tepidiphilus margaritifer DSM 15129 | 1123354.AUDR01000012_gene1675
+2389_NarI,Thermodesulfatator atlanticus DSM 21156 | 1123371.ATXH01000014_gene1592
+2390_NarI,Thermodesulfatator indicus DSM 15286 | 667014.Thein_1549
+2391_NarI,Thermodesulfobacterium commune DSM 2178 | 289377.HL41_01625
+2392_NarI,Thermodesulfobacterium commune DSM 2178 | 289377.HL41_07385
+2393_NarI,Thermodesulfobacterium commune DSM 2178 | 289377.HL41_08620
+2394_NarI,Thermodesulfobacterium geofontis OPF15 | 795359.TOPB45_1200
+2395_NarI,Thermodesulfobacterium geofontis OPF15 | 795359.TOPB45_1494
+2396_NarI,Thermodesulfobacterium hveragerdense DSM 12571 | 1123372.AUIT01000005_gene1255
+2397_NarI,Thermodesulfobacterium hveragerdense DSM 12571 | 1123372.AUIT01000009_gene313
+2398_NarI,Thermodesulfobacterium hveragerdense DSM 12571 | 1123372.AUIT01000015_gene1168
+2399_NarI,Thermodesulfobacterium hydrogeniphilum | 161156.JQKW01000001_gene1414
+2400_NarI,Thermodesulfobacterium hydrogeniphilum | 161156.JQKW01000009_gene1506
+2401_NarI,Thermodesulfobacterium hydrogeniphilum | 161156.JQKW01000014_gene212
+2402_NarI,Thermodesulfobacterium thermophilum DSM 1276 | 1123373.ATXI01000012_gene963
+2403_NarI,Thermodesulfobacterium thermophilum DSM 1276 | 1123373.ATXI01000028_gene1143
+2404_NarI,Candidatus Methylomirabilis oxyfera | 671143.DAMO_0774

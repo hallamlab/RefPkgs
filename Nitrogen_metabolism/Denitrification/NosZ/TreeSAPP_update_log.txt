@@ -1,0 +1,626 @@
+[2022-04-14 08:00:53] INFO: 
+##			Updating TreeSAPP reference package			##
+
+[2022-04-14 08:00:53] INFO: Arguments used:
+--fast --headless --overwrite --delete --cluster --trim_align --min_taxonomic_rank o -n 4 --output NosZ_UniProt_update/ --skip_assign --treesapp_output UniProt_NosZ_assign/ --refpkg_path /root/Refpkgs/Nitrogen_metabolism/Denitrification/pkl_only/NosZ_build.pkl --seqs2lineage UniProt_NosZ_assign/UniProt_NosZ.tsv
+
+[2022-04-14 08:00:53] DEBUG: Continuing with stage 'lineages'
+
+[2022-04-14 08:00:53] DEBUG: Read 5673 headers from FASTA file 'UniProt_NosZ_assign/final_outputs/NosZ_uniprot_classified.faa'.
+
+[2022-04-14 08:00:55] DEBUG: 0 classified sequences did not meet minimum LWR of 0.1 for updating
+
+[2022-04-14 08:00:55] INFO: 	Number of sequences: 5673
+	Longest sequence length: 620
+	Shortest sequence length: 35
+	Mean sequence length: 341.7
+	Median sequence length: 235
+
+[2022-04-14 08:00:55] DEBUG: New minimum sequence length threshold set to 66.0% of HMM length (383) instead of 30
+
+[2022-04-14 08:00:55] DEBUG: 3298 sequences were found to be shorter than 383 and removed.
+
+[2022-04-14 08:00:55] DEBUG: 3298 sequences were excluded after synchronizing FASTA.
+
+[2022-04-14 08:00:55] INFO: Extracting information from headers... 
+[2022-04-14 08:00:55] INFO: done.
+
+[2022-04-14 08:00:55] DEBUG: 	Number of input sequences = 2375
+
+[2022-04-14 08:00:55] INFO: Mapping sequence names to provided taxonomic lineages in UniProt_NosZ_assign/UniProt_NosZ.tsv:
+
+[2022-04-14 08:01:11] WARNING: Taxonomic lineage information was not found in UniProt_NosZ.tsv for 8 sequence names.
+
+[2022-04-14 08:01:11] DEBUG: Taxonomic lineage information was not found in UniProt_NosZ_assign/UniProt_NosZ.tsv for the following sequence names:
+tr|A0A1J5QBN3|A0A1J5QBN3_9ZZZZ
+tr|A0A1J5R8B5|A0A1J5R8B5_9ZZZZ
+tr|A0A1J5RQP2|A0A1J5RQP2_9ZZZZ
+tr|A0A1J5SI40|A0A1J5SI40_9ZZZZ
+tr|A0A5B8RAS3|A0A5B8RAS3_9ZZZZ
+tr|A0A644SLZ0|A0A644SLZ0_9ZZZZ
+tr|A0A644UTB7|A0A644UTB7_9ZZZZ
+tr|A0A6A7SAF4|A0A6A7SAF4_9ZZZZ
+
+[2022-04-14 08:01:11] DEBUG: 	Number of queries =	8
+
+[2022-04-14 08:01:11] DEBUG: Preparing Bio.Entrez for NCBI queries... 
+[2022-04-14 08:01:12] DEBUG: done.
+
+[2022-04-14 08:01:12] INFO: Retrieving Entrez taxonomy records for each accession... 
+[2022-04-14 08:01:16] DEBUG: Entrez query time for accessions (minutes:seconds):
+	0 - 100	0.0:3.74
+
+[2022-04-14 08:01:16] WARNING: Unable to parse XML data from Entrez! Either the XML is corrupted or the query terms cannot be found in the database.
+Offending accessions from this batch:
+	A0A1J5QBN3
+	A0A1J5R8B5
+	A0A1J5RQP2
+	A0A1J5SI40
+	A0A5B8RAS3
+	A0A644SLZ0
+	A0A644UTB7
+	A0A6A7SAF4
+
+[2022-04-14 08:01:16] INFO: done.
+
+[2022-04-14 08:01:16] DEBUG: 4 unique organism queries.
+
+[2022-04-14 08:01:16] INFO: Retrieving NCBI taxonomy IDs for each organism... 
+[2022-04-14 08:01:18] DEBUG: Entrez query time for accessions (minutes:seconds):
+	0 - 1	0.0:0.66
+	1 - 2	0.0:0.66
+	2 - 3	0.0:0.66
+	3 - 4	0.0:0.66
+
+[2022-04-14 08:01:18] INFO: done.
+
+[2022-04-14 08:01:18] DEBUG: Value for 'TranslationStack' not found in Entrez record. It is likely this organism name doesn't exist in Entrez's taxonomy database.
+Unable to link taxonomy ID to organism.
+Record:
+{'Count': '0', 'RetMax': '0', 'RetStart': '0', 'IdList': [], 'TranslationSet': [], 'QueryTranslation': '(mine drainage metagenome OX=410659[All Names])', 'ErrorList': {'PhraseNotFound': ['mine drainage metagenome OX=410659[All Names]'], 'FieldNotFound': []}, 'WarningList': {'OutputMessage': ['No items found.'], 'QuotedPhraseNotFound': [], 'PhraseIgnored': []}}
+
+[2022-04-14 08:01:18] DEBUG: Value for 'TranslationStack' not found in Entrez record. It is likely this organism name doesn't exist in Entrez's taxonomy database.
+Unable to link taxonomy ID to organism.
+Record:
+{'Count': '0', 'RetMax': '0', 'RetStart': '0', 'IdList': [], 'TranslationSet': [], 'QueryTranslation': '(uncultured organism OX=155900[All Names])', 'ErrorList': {'PhraseNotFound': ['uncultured organism OX=155900[All Names]'], 'FieldNotFound': []}, 'WarningList': {'OutputMessage': ['No items found.'], 'QuotedPhraseNotFound': [], 'PhraseIgnored': []}}
+
+[2022-04-14 08:01:18] DEBUG: Value for 'TranslationStack' not found in Entrez record. It is likely this organism name doesn't exist in Entrez's taxonomy database.
+Unable to link taxonomy ID to organism.
+Record:
+{'Count': '0', 'RetMax': '0', 'RetStart': '0', 'IdList': [], 'TranslationSet': [], 'QueryTranslation': '(bioreactor metagenome OX=1076179[All Names])', 'ErrorList': {'PhraseNotFound': ['bioreactor metagenome OX=1076179[All Names]'], 'FieldNotFound': []}, 'WarningList': {'OutputMessage': ['No items found.'], 'QuotedPhraseNotFound': [], 'PhraseIgnored': []}}
+
+[2022-04-14 08:01:18] DEBUG: Value for 'TranslationStack' not found in Entrez record. It is likely this organism name doesn't exist in Entrez's taxonomy database.
+Unable to link taxonomy ID to organism.
+Record:
+{'Count': '0', 'RetMax': '0', 'RetStart': '0', 'IdList': [], 'TranslationSet': [], 'QueryTranslation': '(wastewater metagenome OX=527639[All Names])', 'ErrorList': {'PhraseNotFound': ['wastewater metagenome OX=527639[All Names]'], 'FieldNotFound': []}, 'WarningList': {'OutputMessage': ['No items found.'], 'QuotedPhraseNotFound': [], 'PhraseIgnored': []}}
+
+[2022-04-14 08:01:18] DEBUG: Preparing Bio.Entrez for NCBI queries... 
+[2022-04-14 08:01:19] DEBUG: done.
+
+[2022-04-14 08:01:19] DEBUG: Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+Information for EntrezRecord ID '344_NosZ':
+accession = A0A1J5QBN3, acc.version = tr|A0A1J5QBN3|A0A1J5QBN3_9ZZZZ
+organism = mine drainage metagenome OX=410659, rank resolved = 
+NCBI taxid = , bitflag = 1
+lineage = 
+description = tr|A0A1J5QBN3|A0A1J5QBN3_9ZZZZ N(2)OR OS=mine drainage metagenome OX=410659 GN=nosZ_4 PE=3 SV=1, locus = 
+
+
+[2022-04-14 08:01:19] DEBUG: Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+Information for EntrezRecord ID '345_NosZ':
+accession = A0A1J5R8B5, acc.version = tr|A0A1J5R8B5|A0A1J5R8B5_9ZZZZ
+organism = mine drainage metagenome OX=410659, rank resolved = 
+NCBI taxid = , bitflag = 1
+lineage = 
+description = tr|A0A1J5R8B5|A0A1J5R8B5_9ZZZZ N(2)OR OS=mine drainage metagenome OX=410659 GN=nosZ_3 PE=3 SV=1, locus = 
+
+
+[2022-04-14 08:01:19] DEBUG: Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+Information for EntrezRecord ID '346_NosZ':
+accession = A0A1J5RQP2, acc.version = tr|A0A1J5RQP2|A0A1J5RQP2_9ZZZZ
+organism = mine drainage metagenome OX=410659, rank resolved = 
+NCBI taxid = , bitflag = 1
+lineage = 
+description = tr|A0A1J5RQP2|A0A1J5RQP2_9ZZZZ N(2)OR OS=mine drainage metagenome OX=410659 GN=nosZ_2 PE=3 SV=1, locus = 
+
+
+[2022-04-14 08:01:19] DEBUG: Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+Information for EntrezRecord ID '347_NosZ':
+accession = A0A1J5SI40, acc.version = tr|A0A1J5SI40|A0A1J5SI40_9ZZZZ
+organism = mine drainage metagenome OX=410659, rank resolved = 
+NCBI taxid = , bitflag = 1
+lineage = 
+description = tr|A0A1J5SI40|A0A1J5SI40_9ZZZZ Nitrous-oxide reductase OS=mine drainage metagenome OX=410659 GN=nosZ_1 PE=4 SV=1, locus = 
+
+
+[2022-04-14 08:01:19] DEBUG: Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+Information for EntrezRecord ID '1332_NosZ':
+accession = A0A5B8RAS3, acc.version = tr|A0A5B8RAS3|A0A5B8RAS3_9ZZZZ
+organism = uncultured organism OX=155900, rank resolved = 
+NCBI taxid = , bitflag = 1
+lineage = 
+description = tr|A0A5B8RAS3|A0A5B8RAS3_9ZZZZ N(2)OR OS=uncultured organism OX=155900 GN=nosZ PE=3 SV=1, locus = 
+
+
+[2022-04-14 08:01:19] DEBUG: Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+Information for EntrezRecord ID '1473_NosZ':
+accession = A0A644SLZ0, acc.version = tr|A0A644SLZ0|A0A644SLZ0_9ZZZZ
+organism = bioreactor metagenome OX=1076179, rank resolved = 
+NCBI taxid = , bitflag = 1
+lineage = 
+description = tr|A0A644SLZ0|A0A644SLZ0_9ZZZZ Nitrous-oxide reductase OS=bioreactor metagenome OX=1076179 GN=nosZ_1 PE=4 SV=1, locus = 
+
+
+[2022-04-14 08:01:19] DEBUG: Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+Information for EntrezRecord ID '1474_NosZ':
+accession = A0A644UTB7, acc.version = tr|A0A644UTB7|A0A644UTB7_9ZZZZ
+organism = bioreactor metagenome OX=1076179, rank resolved = 
+NCBI taxid = , bitflag = 1
+lineage = 
+description = tr|A0A644UTB7|A0A644UTB7_9ZZZZ Nitrous-oxide reductase OS=bioreactor metagenome OX=1076179 GN=nosZ_2 PE=4 SV=1, locus = 
+
+
+[2022-04-14 08:01:19] DEBUG: Empty NCBI taxonomy ID for incomplete EntrezRecord query:
+Information for EntrezRecord ID '1506_NosZ':
+accession = A0A6A7SAF4, acc.version = tr|A0A6A7SAF4|A0A6A7SAF4_9ZZZZ
+organism = wastewater metagenome OX=527639, rank resolved = 
+NCBI taxid = , bitflag = 1
+lineage = 
+description = tr|A0A6A7SAF4|A0A6A7SAF4_9ZZZZ N(2)OR OS=wastewater metagenome OX=527639 GN=nosZ PE=3 SV=1, locus = 
+
+
+[2022-04-14 08:01:19] INFO: Retrieving lineage information for each taxonomy ID... 
+[2022-04-14 08:01:19] INFO: done.
+
+[2022-04-14 08:01:19] DEBUG: Resolving conflicting lineages within taxonomic hierarchy... 
+[2022-04-14 08:01:19] DEBUG: Conflicting nodes 'Myxococcales (fruiting gliding bacteria)' and 'Myxococcales' both had valid ranks so the more popular one (Myxococcales (fruiting gliding bacteria) = 11) was selected to represent.
+
+[2022-04-14 08:01:19] DEBUG: Conflicting nodes 'Rhodospirillales' and 'Kiloniellales' both had valid ranks so the more popular one (Rhodospirillales = 94) was selected to represent.
+
+[2022-04-14 08:01:19] DEBUG: Unable to find o__Myxococcales in hierarchy map.
+
+[2022-04-14 08:01:19] DEBUG: Conflicting nodes 'Myxococcales (fruiting gliding bacteria)' and 'Myxococcales (fruiting gliding bacteria)' both had valid ranks so the more popular one (Myxococcales (fruiting gliding bacteria) = 13) was selected to represent.
+
+[2022-04-14 08:01:19] DEBUG: Conflicting nodes 'Ectothiorhodospiraceae' and 'Ectothiorhodospiraceae (purple sulfur bacteria)' both had valid ranks so the more popular one (Ectothiorhodospiraceae = 6) was selected to represent.
+
+[2022-04-14 08:01:19] DEBUG: Conflicting nodes 'Thalassospiraceae' and 'Rhodospirillaceae' both had valid ranks so the more popular one (Thalassospiraceae = 22) was selected to represent.
+
+[2022-04-14 08:01:19] DEBUG: Unable to find f__Rhodospirillaceae in hierarchy map.
+
+[2022-04-14 08:01:19] DEBUG: Conflicting nodes 'Thalassospiraceae' and 'Rhodospirillaceae (purple nonsulfur bacteria)' both had valid ranks so the more popular one (Thalassospiraceae = 27) was selected to represent.
+
+[2022-04-14 08:01:19] DEBUG: Unable to find f__Rhodospirillaceae in hierarchy map.
+
+[2022-04-14 08:01:19] DEBUG: Conflicting nodes 'Thalassospiraceae' and 'Thalassospiraceae' both had valid ranks so the more popular one (Thalassospiraceae = 39) was selected to represent.
+
+[2022-04-14 08:01:19] DEBUG: Conflicting nodes 'Marinobacteraceae' and 'Alteromonadaceae' both had valid ranks so the more popular one (Marinobacteraceae = 74) was selected to represent.
+
+[2022-04-14 08:01:19] DEBUG: Conflicting nodes 'Rhodobacteraceae' and 'Roseobacteraceae' both had valid ranks so the more popular one (Rhodobacteraceae = 150) was selected to represent.
+
+[2022-04-14 08:01:19] DEBUG: Conflicting nodes 'Methylocystaceae' and 'Pleomorphomonadaceae' both had valid ranks so the more popular one (Methylocystaceae = 3) was selected to represent.
+
+[2022-04-14 08:01:19] DEBUG: Unable to find f__Alteromonadaceae in hierarchy map.
+
+[2022-04-14 08:01:19] DEBUG: Conflicting nodes 'Marinobacteraceae' and 'Marinobacteraceae' both had valid ranks so the more popular one (Marinobacteraceae = 81) was selected to represent.
+
+[2022-04-14 08:01:19] DEBUG: Unable to find f__Pleomorphomonadaceae in hierarchy map.
+
+[2022-04-14 08:01:19] DEBUG: Conflicting nodes 'Methylocystaceae' and 'Methylocystaceae' both had valid ranks so the more popular one (Methylocystaceae = 6) was selected to represent.
+
+[2022-04-14 08:01:19] DEBUG: Unable to find f__Rhodospirillaceae in hierarchy map.
+
+[2022-04-14 08:01:19] DEBUG: Conflicting nodes 'Thalassospiraceae' and 'Rhodospirillaceae (purple nonsulfur bacteria)' both had valid ranks so the more popular one (Thalassospiraceae = 39) was selected to represent.
+
+[2022-04-14 08:01:19] DEBUG: Taxonomic hierarchy conflicts were fixed by merging the left into the right:
+	'Myxococcales' (order) -> 'Myxococcales (fruiting gliding bacteria)' (order)
+	'Kiloniellales' (order) -> 'Rhodospirillales' (order)
+	'Myxococcales (fruiting gliding bacteria)' (order) -> 'Myxococcales (fruiting gliding bacteria)' (order)
+	'Ectothiorhodospiraceae (purple sulfur bacteria)' (family) -> 'Ectothiorhodospiraceae' (family)
+	'Rhodospirillaceae' (family) -> 'Thalassospiraceae' (family)
+	'Rhodospirillaceae (purple nonsulfur bacteria)' (family) -> 'Thalassospiraceae' (family)
+	'Thalassospiraceae' (family) -> 'Thalassospiraceae' (family)
+	'Alteromonadaceae' (family) -> 'Marinobacteraceae' (family)
+	'Roseobacteraceae' (family) -> 'Rhodobacteraceae' (family)
+	'Pleomorphomonadaceae' (family) -> 'Methylocystaceae' (family)
+	'Marinobacteraceae' (family) -> 'Marinobacteraceae' (family)
+	'Methylocystaceae' (family) -> 'Methylocystaceae' (family)
+	'Rhodospirillaceae (purple nonsulfur bacteria)' (family) -> 'Thalassospiraceae' (family)
+
+[2022-04-14 08:01:19] DEBUG: done.
+
+[2022-04-14 08:01:19] DEBUG: Repairing any taxonomic lineages lacking rank prefixes... 
+[2022-04-14 08:01:19] DEBUG: Preparing Bio.Entrez for NCBI queries... 
+[2022-04-14 08:01:20] DEBUG: done.
+
+[2022-04-14 08:01:20] DEBUG: done.
+
+[2022-04-14 08:01:20] DEBUG: Rooting domains in taxonomic hierarchy... 
+[2022-04-14 08:01:20] DEBUG: done.
+
+[2022-04-14 08:01:20] DEBUG: Validating lineages of all entrez records... 
+[2022-04-14 08:01:32] DEBUG: done.
+
+[2022-04-14 08:01:32] DEBUG: Queries mapped ideally = 0
+Queries with organism unmapped = 0
+Queries with NCBI taxonomy ID unmapped = 8
+Queries mapped with alternative accessions = 0
+Queries that outright failed = 0
+
+[2022-04-14 08:01:32] DEBUG: Entrez.efetch query stats:
+	Downloaded	8
+	Provided	2367
+	Total		2375
+
+
+[2022-04-14 08:01:44] DEBUG: No lineages from the accession map were added to the EntrezRecord attributes.
+
+[2022-04-14 08:01:46] DEBUG: Read 326 headers from FASTA file '/root/data/imman/uniprot_data/NosZ_UniProt_update/intermediates/D0601/NosZ.fa'.
+
+[2022-04-14 08:01:46] INFO: 2375 assigned sequence(s) will be used in the update.
+
+[2022-04-14 08:01:46] INFO: 
+##			Creating TreeSAPP reference package			##
+
+[2022-04-14 08:01:46] INFO: Arguments used:
+-i /root/data/imman/uniprot_data/NosZ_UniProt_update/intermediates/all_refs.fasta -c NosZ -p 0.97 -m prot --guarantee /root/data/imman/uniprot_data/NosZ_UniProt_update/intermediates/original_refs.fasta -o /root/data/imman/uniprot_data/NosZ_UniProt_update/ --accession2lin /root/data/imman/uniprot_data/NosZ_UniProt_update/intermediates/accession_id_lineage_map.tsv --num_procs 4 --bootstraps 0 --stage support --trim_align --fast --cluster --headless --min_taxonomic_rank o
+
+[2022-04-14 08:01:46] WARNING: Unable to run 'support' as it is ahead of the last completed stage.
+Continuing with stage 'deduplicate'
+
+[2022-04-14 08:01:46] DEBUG: /root/data/imman/uniprot_data/NosZ_UniProt_update/intermediates/all_refs.fa read by pyfastx in 0.020357847213745117 seconds.
+
+[2022-04-14 08:01:46] DEBUG: Read 2701 headers from FASTA file '/root/data/imman/uniprot_data/NosZ_UniProt_update/intermediates/all_refs.fa'.
+
+[2022-04-14 08:01:46] DEBUG: /root/data/imman/uniprot_data/NosZ_UniProt_update/intermediates/all_refs.fa read by pyfastx in 0.021636486053466797 seconds.
+
+[2022-04-14 08:01:46] DEBUG: Read 2701 headers from FASTA file '/root/data/imman/uniprot_data/NosZ_UniProt_update/intermediates/all_refs.fa'.
+
+[2022-04-14 08:01:47] DEBUG: Identified and replaced invalid ambiguity characters in 0 sequences.
+
+[2022-04-14 08:01:47] INFO: Sequence summary:
+	Number of sequences: 2701
+	Longest sequence length: 639
+	Shortest sequence length: 387
+	Mean sequence length: 584.6
+	Median sequence length: 586
+
+[2022-04-14 08:01:47] DEBUG: Read 326 headers from FASTA file '/root/data/imman/uniprot_data/NosZ_UniProt_update/intermediates/original_refs.fasta'.
+
+[2022-04-14 08:01:47] INFO: Extracting information from headers... 
+[2022-04-14 08:01:48] INFO: done.
+
+[2022-04-14 08:01:48] DEBUG: 	Number of input sequences = 2701
+
+[2022-04-14 08:01:48] INFO: Reading cached lineages in '/root/data/imman/uniprot_data/NosZ_UniProt_update/intermediates/accession_id_lineage_map.tsv'... 
+[2022-04-14 08:01:48] INFO: done.
+
+[2022-04-14 08:01:48] DEBUG: Resolving conflicting lineages within taxonomic hierarchy... 
+[2022-04-14 08:01:48] DEBUG: Conflicting nodes 'Rhodospirillales' and 'Kiloniellales' both had valid ranks so the more popular one (Rhodospirillales = 94) was selected to represent.
+
+[2022-04-14 08:01:48] DEBUG: Conflicting nodes 'Myxococcales (fruiting gliding bacteria)' and 'Myxococcales' both had valid ranks so the more popular one (Myxococcales (fruiting gliding bacteria) = 11) was selected to represent.
+
+[2022-04-14 08:01:48] DEBUG: Unable to find o__Myxococcales in hierarchy map.
+
+[2022-04-14 08:01:48] DEBUG: Conflicting nodes 'Myxococcales (fruiting gliding bacteria)' and 'Myxococcales (fruiting gliding bacteria)' both had valid ranks so the more popular one (Myxococcales (fruiting gliding bacteria) = 13) was selected to represent.
+
+[2022-04-14 08:01:48] DEBUG: Conflicting nodes 'Marinobacteraceae' and 'Alteromonadaceae' both had valid ranks so the more popular one (Marinobacteraceae = 76) was selected to represent.
+
+[2022-04-14 08:01:48] DEBUG: Conflicting nodes 'Thalassospiraceae' and 'Rhodospirillaceae' both had valid ranks so the more popular one (Thalassospiraceae = 34) was selected to represent.
+
+[2022-04-14 08:01:48] DEBUG: Unable to find f__Rhodospirillaceae in hierarchy map.
+
+[2022-04-14 08:01:48] DEBUG: Conflicting nodes 'Thalassospiraceae' and 'Thalassospiraceae' both had valid ranks so the more popular one (Thalassospiraceae = 39) was selected to represent.
+
+[2022-04-14 08:01:48] DEBUG: Unable to find f__Alteromonadaceae in hierarchy map.
+
+[2022-04-14 08:01:48] DEBUG: Conflicting nodes 'Marinobacteraceae' and 'Marinobacteraceae' both had valid ranks so the more popular one (Marinobacteraceae = 81) was selected to represent.
+
+[2022-04-14 08:01:48] DEBUG: Taxonomic hierarchy conflicts were fixed by merging the left into the right:
+	'Kiloniellales' (order) -> 'Rhodospirillales' (order)
+	'Myxococcales' (order) -> 'Myxococcales (fruiting gliding bacteria)' (order)
+	'Myxococcales (fruiting gliding bacteria)' (order) -> 'Myxococcales (fruiting gliding bacteria)' (order)
+	'Alteromonadaceae' (family) -> 'Marinobacteraceae' (family)
+	'Rhodospirillaceae' (family) -> 'Thalassospiraceae' (family)
+	'Thalassospiraceae' (family) -> 'Thalassospiraceae' (family)
+	'Marinobacteraceae' (family) -> 'Marinobacteraceae' (family)
+
+[2022-04-14 08:01:48] DEBUG: done.
+
+[2022-04-14 08:01:48] DEBUG: Repairing any taxonomic lineages lacking rank prefixes... 
+[2022-04-14 08:01:48] DEBUG: Preparing Bio.Entrez for NCBI queries... 
+[2022-04-14 08:01:48] DEBUG: done.
+
+[2022-04-14 08:01:48] DEBUG: done.
+
+[2022-04-14 08:01:48] DEBUG: Rooting domains in taxonomic hierarchy... 
+[2022-04-14 08:01:48] DEBUG: done.
+
+[2022-04-14 08:01:48] DEBUG: Validating lineages of all entrez records... 
+[2022-04-14 08:01:59] DEBUG: done.
+
+[2022-04-14 08:02:00] DEBUG: 	320 sequences removed with truncated taxonomic lineages.
+	2061 sequences retained for building tree.
+
+[2022-04-14 08:02:00] INFO: Clustering sequences with MMSeqs' Linclust... 
+[2022-04-14 08:02:02] INFO: done.
+
+[2022-04-14 08:02:02] DEBUG: 	1268 sequence clusters
+
+[2022-04-14 08:02:02] DEBUG: 93 former representative sequences were succeeded by 'guaranteed-sequences'.
+
+[2022-04-14 08:02:02] DEBUG: Finalizing representative sequence clusters... 
+[2022-04-14 08:02:02] DEBUG: done.
+
+[2022-04-14 08:02:02] DEBUG: 1429 sequences were excluded after synchronizing FASTA.
+
+[2022-04-14 08:02:02] DEBUG: Re-enumerating the reference sequences in taxonomic order... 
+[2022-04-14 08:02:02] DEBUG: done.
+
+[2022-04-14 08:02:02] DEBUG: 2701 references before and 1272 remaining after filtering.
+
+[2022-04-14 08:02:02] DEBUG: Removing 1429 taxa (772 unique) from taxonomic hierarchy.
+
+[2022-04-14 08:02:02] INFO: Number of unique lineages:
+	root       1
+	domain     2
+	phylum    17
+	class     35
+	order     65
+	family   136
+	genus    420
+	species  956
+Unclassified and incomplete lineages account for 236/1272 (18.6%) references.
+
+[2022-04-14 08:02:02] INFO: Aligning the sequences using MAFFT... 
+[2022-04-14 08:02:06] INFO: done.
+
+[2022-04-14 08:02:06] DEBUG: Read 1272 headers from FASTA file '/root/data/imman/uniprot_data/NosZ_UniProt_update/final_outputs/NosZ.fa'.
+
+[2022-04-14 08:02:06] DEBUG: Reference alignment contains 1272 sequences with 893 character positions.
+
+[2022-04-14 08:02:06] DEBUG: Building HMM profile... 
+[2022-04-14 08:02:07] DEBUG: done.
+
+[2022-04-14 08:02:07] DEBUG: Creating taxonomically-dereplicated HMM... 
+[2022-04-14 08:02:07] DEBUG: Read 1272 headers from FASTA file '/root/data/imman/uniprot_data/NosZ_UniProt_update/final_outputs/NosZ.fa'.
+
+[2022-04-14 08:02:07] DEBUG: 0 lineages truncated before 'genus' were removed during lineage trimming.
+
+[2022-04-14 08:02:07] DEBUG: 781 sequences were excluded after synchronizing FASTA.
+
+[2022-04-14 08:02:33] DEBUG: Building HMM profile... 
+[2022-04-14 08:02:34] DEBUG: done.
+
+[2022-04-14 08:02:34] DEBUG: done.
+
+[2022-04-14 08:02:34] DEBUG: 491 genus-dereplicated sequences retained for building HMM profile.
+
+[2022-04-14 08:02:35] DEBUG: 	BMGE time required: 0.0:0.0:0.85
+
+[2022-04-14 08:02:35] DEBUG: Number of sequences discarded: 
+		/root/data/imman/uniprot_data/NosZ_UniProt_update/final_outputs/NosZ-BMGE.fasta = 0 (retained)
+
+[2022-04-14 08:02:35] INFO: Building phylogenetic tree with FastTree... 
+[2022-04-14 08:04:05] INFO: done.
+
+[2022-04-14 08:04:05] DEBUG: FastTree Version 2.1.11 Double precision (No SSE3)
+Alignment: /root/data/imman/uniprot_data/NosZ_UniProt_update/intermediates/NosZ.phy
+Amino acid distances: BLOSUM45 Joins: balanced Support: SH-like 1000
+Search: Normal +NNI +SPR (2 rounds range 10) +ML-NNI opt-each=1
+TopHits: 1.00*sqrtN close=default refresh=0.80
+ML Model: Le-Gascuel 2008, CAT approximation with 4 rate categories
+      0.11 seconds: Top hits for    590 of   1269 seqs (at seed    400)
+      0.21 seconds: Top hits for   1184 of   1269 seqs (at seed   1100)
+      0.43 seconds: Joined    100 of   1266
+      0.57 seconds: Joined    200 of   1266
+      0.74 seconds: Joined    300 of   1266
+      0.95 seconds: Joined    400 of   1266
+      1.24 seconds: Joined    500 of   1266
+      1.46 seconds: Joined    600 of   1266
+      1.60 seconds: Joined    700 of   1266
+      1.74 seconds: Joined    800 of   1266
+      1.92 seconds: Joined    900 of   1266
+      2.04 seconds: Joined   1000 of   1266
+      2.21 seconds: Joined   1100 of   1266
+      2.34 seconds: Joined   1200 of   1266
+Initial topology in 2.41 seconds
+Refining topology: 41 rounds ME-NNIs, 2 rounds ME-SPRs, 21 rounds ML-NNIs
+      2.45 seconds: ME NNI round 1 of 41, 401 of 1267 splits, 92 changes (max delta 0.033)
+      2.56 seconds: ME NNI round 2 of 41, 201 of 1267 splits, 26 changes (max delta 0.036)
+      2.66 seconds: ME NNI round 2 of 41, 1201 of 1267 splits, 141 changes (max delta 0.036)
+      2.76 seconds: ME NNI round 4 of 41, 1 of 1267 splits
+      2.87 seconds: ME NNI round 5 of 41, 401 of 1267 splits, 20 changes (max delta 0.022)
+      2.98 seconds: ME NNI round 12 of 41, 1 of 1267 splits
+      3.13 seconds: SPR round   1 of   2, 101 of 2536 nodes
+      3.30 seconds: SPR round   1 of   2, 201 of 2536 nodes
+      3.48 seconds: SPR round   1 of   2, 301 of 2536 nodes
+      3.63 seconds: SPR round   1 of   2, 401 of 2536 nodes
+      3.81 seconds: SPR round   1 of   2, 501 of 2536 nodes
+      3.99 seconds: SPR round   1 of   2, 601 of 2536 nodes
+      4.17 seconds: SPR round   1 of   2, 701 of 2536 nodes
+      4.34 seconds: SPR round   1 of   2, 801 of 2536 nodes
+      4.48 seconds: SPR round   1 of   2, 901 of 2536 nodes
+      4.65 seconds: SPR round   1 of   2, 1001 of 2536 nodes
+      4.80 seconds: SPR round   1 of   2, 1101 of 2536 nodes
+      4.97 seconds: SPR round   1 of   2, 1201 of 2536 nodes
+      5.18 seconds: SPR round   1 of   2, 1301 of 2536 nodes
+      5.35 seconds: SPR round   1 of   2, 1401 of 2536 nodes
+      5.54 seconds: SPR round   1 of   2, 1501 of 2536 nodes
+      5.68 seconds: SPR round   1 of   2, 1601 of 2536 nodes
+      5.80 seconds: SPR round   1 of   2, 1701 of 2536 nodes
+      5.97 seconds: SPR round   1 of   2, 1801 of 2536 nodes
+      6.14 seconds: SPR round   1 of   2, 1901 of 2536 nodes
+      6.30 seconds: SPR round   1 of   2, 2001 of 2536 nodes
+      6.44 seconds: SPR round   1 of   2, 2101 of 2536 nodes
+      6.61 seconds: SPR round   1 of   2, 2201 of 2536 nodes
+      6.79 seconds: SPR round   1 of   2, 2301 of 2536 nodes
+      6.95 seconds: SPR round   1 of   2, 2401 of 2536 nodes
+      7.12 seconds: SPR round   1 of   2, 2501 of 2536 nodes
+      7.22 seconds: ME NNI round 14 of 41, 501 of 1267 splits, 5 changes (max delta 0.009)
+      7.32 seconds: ME NNI round 15 of 41, 201 of 1267 splits, 2 changes (max delta 0.001)
+      7.42 seconds: ME NNI round 16 of 41, 1 of 1267 splits
+      7.58 seconds: SPR round   2 of   2, 101 of 2536 nodes
+      7.75 seconds: SPR round   2 of   2, 201 of 2536 nodes
+      7.90 seconds: SPR round   2 of   2, 301 of 2536 nodes
+      8.06 seconds: SPR round   2 of   2, 401 of 2536 nodes
+      8.21 seconds: SPR round   2 of   2, 501 of 2536 nodes
+      8.40 seconds: SPR round   2 of   2, 601 of 2536 nodes
+      8.54 seconds: SPR round   2 of   2, 701 of 2536 nodes
+      8.72 seconds: SPR round   2 of   2, 801 of 2536 nodes
+      8.87 seconds: SPR round   2 of   2, 901 of 2536 nodes
+      9.06 seconds: SPR round   2 of   2, 1001 of 2536 nodes
+      9.22 seconds: SPR round   2 of   2, 1101 of 2536 nodes
+      9.38 seconds: SPR round   2 of   2, 1201 of 2536 nodes
+      9.52 seconds: SPR round   2 of   2, 1301 of 2536 nodes
+      9.69 seconds: SPR round   2 of   2, 1401 of 2536 nodes
+      9.84 seconds: SPR round   2 of   2, 1501 of 2536 nodes
+     10.01 seconds: SPR round   2 of   2, 1601 of 2536 nodes
+     10.21 seconds: SPR round   2 of   2, 1701 of 2536 nodes
+     10.40 seconds: SPR round   2 of   2, 1801 of 2536 nodes
+     10.59 seconds: SPR round   2 of   2, 1901 of 2536 nodes
+     10.74 seconds: SPR round   2 of   2, 2001 of 2536 nodes
+     10.87 seconds: SPR round   2 of   2, 2101 of 2536 nodes
+     11.02 seconds: SPR round   2 of   2, 2201 of 2536 nodes
+     11.18 seconds: SPR round   2 of   2, 2301 of 2536 nodes
+     11.34 seconds: SPR round   2 of   2, 2401 of 2536 nodes
+     11.50 seconds: SPR round   2 of   2, 2501 of 2536 nodes
+     11.61 seconds: ME NNI round 27 of 41, 501 of 1267 splits, 0 changes
+     11.72 seconds: ME NNI round 28 of 41, 301 of 1267 splits, 0 changes
+Total branch-length 71.531 after 11.99 sec
+     12.01 seconds: ML Lengths 1 of 1267 splits
+     12.41 seconds: ML Lengths 101 of 1267 splits
+     12.80 seconds: ML Lengths 201 of 1267 splits
+     13.18 seconds: ML Lengths 301 of 1267 splits
+     13.57 seconds: ML Lengths 401 of 1267 splits
+     13.96 seconds: ML Lengths 501 of 1267 splits
+     14.34 seconds: ML Lengths 601 of 1267 splits
+     14.73 seconds: ML Lengths 701 of 1267 splits
+     15.11 seconds: ML Lengths 801 of 1267 splits
+     15.51 seconds: ML Lengths 901 of 1267 splits
+     15.90 seconds: ML Lengths 1001 of 1267 splits
+     16.28 seconds: ML Lengths 1101 of 1267 splits
+     16.66 seconds: ML Lengths 1201 of 1267 splits
+     16.92 seconds: ML NNI round 1 of 21, 1 of 1267 splits
+     18.24 seconds: ML NNI round 1 of 21, 101 of 1267 splits, 9 changes (max delta 9.655)
+     19.53 seconds: ML NNI round 1 of 21, 201 of 1267 splits, 21 changes (max delta 12.015)
+     20.86 seconds: ML NNI round 1 of 21, 301 of 1267 splits, 34 changes (max delta 12.015)
+     22.16 seconds: ML NNI round 1 of 21, 401 of 1267 splits, 47 changes (max delta 12.015)
+     23.56 seconds: ML NNI round 1 of 21, 501 of 1267 splits, 66 changes (max delta 12.015)
+     24.92 seconds: ML NNI round 1 of 21, 601 of 1267 splits, 79 changes (max delta 13.074)
+     26.18 seconds: ML NNI round 1 of 21, 701 of 1267 splits, 86 changes (max delta 18.257)
+     27.52 seconds: ML NNI round 1 of 21, 801 of 1267 splits, 101 changes (max delta 18.257)
+     28.98 seconds: ML NNI round 1 of 21, 901 of 1267 splits, 116 changes (max delta 18.257)
+     30.26 seconds: ML NNI round 1 of 21, 1001 of 1267 splits, 135 changes (max delta 18.257)
+     31.60 seconds: ML NNI round 1 of 21, 1101 of 1267 splits, 147 changes (max delta 19.361)
+     32.95 seconds: ML NNI round 1 of 21, 1201 of 1267 splits, 159 changes (max delta 19.361)
+ML-NNI round 1: LogLk = -255096.406 NNIs 175 max delta 19.36 Time 33.92
+     34.43 seconds: Site likelihoods with rate category 1 of 4
+     34.93 seconds: Site likelihoods with rate category 2 of 4
+     35.44 seconds: Site likelihoods with rate category 3 of 4
+     35.95 seconds: Site likelihoods with rate category 4 of 4
+Switched to using 4 rate categories (CAT approximation)
+Rate categories were divided by 1.043 so that average rate = 1.0
+CAT-based log-likelihoods may not be comparable across runs
+     36.91 seconds: ML NNI round 2 of 21, 1 of 1267 splits
+     37.65 seconds: ML NNI round 2 of 21, 101 of 1267 splits, 5 changes (max delta 3.150)
+     38.29 seconds: ML NNI round 2 of 21, 201 of 1267 splits, 9 changes (max delta 6.160)
+     38.87 seconds: ML NNI round 2 of 21, 301 of 1267 splits, 13 changes (max delta 6.160)
+     39.56 seconds: ML NNI round 2 of 21, 401 of 1267 splits, 18 changes (max delta 6.160)
+     40.30 seconds: ML NNI round 2 of 21, 501 of 1267 splits, 28 changes (max delta 6.160)
+     40.88 seconds: ML NNI round 2 of 21, 601 of 1267 splits, 32 changes (max delta 7.320)
+     41.49 seconds: ML NNI round 2 of 21, 701 of 1267 splits, 36 changes (max delta 7.320)
+     42.11 seconds: ML NNI round 2 of 21, 801 of 1267 splits, 42 changes (max delta 7.320)
+     42.87 seconds: ML NNI round 2 of 21, 901 of 1267 splits, 49 changes (max delta 7.320)
+     43.62 seconds: ML NNI round 2 of 21, 1001 of 1267 splits, 56 changes (max delta 9.573)
+     44.21 seconds: ML NNI round 2 of 21, 1101 of 1267 splits, 58 changes (max delta 9.573)
+     45.00 seconds: ML NNI round 2 of 21, 1201 of 1267 splits, 62 changes (max delta 9.573)
+ML-NNI round 2: LogLk = -241437.721 NNIs 66 max delta 9.57 Time 45.67
+     45.67 seconds: ML NNI round 3 of 21, 1 of 1267 splits
+     46.16 seconds: ML NNI round 3 of 21, 101 of 1267 splits, 2 changes (max delta 0.229)
+     46.75 seconds: ML NNI round 3 of 21, 201 of 1267 splits, 5 changes (max delta 3.042)
+     47.42 seconds: ML NNI round 3 of 21, 301 of 1267 splits, 6 changes (max delta 3.042)
+     48.05 seconds: ML NNI round 3 of 21, 401 of 1267 splits, 8 changes (max delta 3.705)
+     48.69 seconds: ML NNI round 3 of 21, 501 of 1267 splits, 9 changes (max delta 3.705)
+     49.25 seconds: ML NNI round 3 of 21, 601 of 1267 splits, 12 changes (max delta 5.887)
+     49.79 seconds: ML NNI round 3 of 21, 701 of 1267 splits, 16 changes (max delta 5.887)
+ML-NNI round 3: LogLk = -241401.817 NNIs 16 max delta 5.89 Time 50.11
+     50.11 seconds: ML NNI round 4 of 21, 1 of 1267 splits
+     50.67 seconds: ML NNI round 4 of 21, 101 of 1267 splits, 1 changes (max delta 0.000)
+     51.18 seconds: ML NNI round 4 of 21, 201 of 1267 splits, 2 changes (max delta 6.711)
+     51.61 seconds: ML NNI round 4 of 21, 301 of 1267 splits, 2 changes (max delta 6.711)
+     52.08 seconds: ML NNI round 4 of 21, 401 of 1267 splits, 2 changes (max delta 6.711)
+ML-NNI round 4: LogLk = -241393.795 NNIs 2 max delta 6.71 Time 52.16
+     52.58 seconds: ML NNI round 5 of 21, 101 of 1267 splits, 0 changes
+ML-NNI round 5: LogLk = -241393.612 NNIs 0 max delta 0.00 Time 52.83
+Turning off heuristics for final round of ML NNIs (converged)
+     52.83 seconds: ML NNI round 6 of 21, 1 of 1267 splits
+     54.17 seconds: ML NNI round 6 of 21, 101 of 1267 splits, 5 changes (max delta 1.199)
+     55.49 seconds: ML NNI round 6 of 21, 201 of 1267 splits, 5 changes (max delta 1.199)
+     56.84 seconds: ML NNI round 6 of 21, 301 of 1267 splits, 8 changes (max delta 1.199)
+     58.21 seconds: ML NNI round 6 of 21, 401 of 1267 splits, 9 changes (max delta 1.199)
+     59.63 seconds: ML NNI round 6 of 21, 501 of 1267 splits, 9 changes (max delta 1.199)
+     61.06 seconds: ML NNI round 6 of 21, 601 of 1267 splits, 12 changes (max delta 3.220)
+     62.40 seconds: ML NNI round 6 of 21, 701 of 1267 splits, 15 changes (max delta 3.220)
+     63.72 seconds: ML NNI round 6 of 21, 801 of 1267 splits, 15 changes (max delta 3.220)
+     65.14 seconds: ML NNI round 6 of 21, 901 of 1267 splits, 17 changes (max delta 5.766)
+     66.40 seconds: ML NNI round 6 of 21, 1001 of 1267 splits, 17 changes (max delta 5.766)
+     67.75 seconds: ML NNI round 6 of 21, 1101 of 1267 splits, 21 changes (max delta 5.766)
+     69.11 seconds: ML NNI round 6 of 21, 1201 of 1267 splits, 23 changes (max delta 8.337)
+ML-NNI round 6: LogLk = -241326.391 NNIs 24 max delta 8.34 Time 70.04 (final)
+     70.04 seconds: ML Lengths 1 of 1267 splits
+     70.42 seconds: ML Lengths 101 of 1267 splits
+     70.78 seconds: ML Lengths 201 of 1267 splits
+     71.15 seconds: ML Lengths 301 of 1267 splits
+     71.53 seconds: ML Lengths 401 of 1267 splits
+     71.89 seconds: ML Lengths 501 of 1267 splits
+     72.26 seconds: ML Lengths 601 of 1267 splits
+     72.62 seconds: ML Lengths 701 of 1267 splits
+     72.99 seconds: ML Lengths 801 of 1267 splits
+     73.36 seconds: ML Lengths 901 of 1267 splits
+     73.73 seconds: ML Lengths 1001 of 1267 splits
+     74.09 seconds: ML Lengths 1101 of 1267 splits
+     74.46 seconds: ML Lengths 1201 of 1267 splits
+Optimize all lengths: LogLk = -241322.301 Time 74.74
+     75.75 seconds: ML split tests for    100 of   1266 internal splits
+     77.79 seconds: ML split tests for    300 of   1266 internal splits
+     78.78 seconds: ML split tests for    400 of   1266 internal splits
+     80.81 seconds: ML split tests for    600 of   1266 internal splits
+     82.86 seconds: ML split tests for    800 of   1266 internal splits
+     84.83 seconds: ML split tests for   1000 of   1266 internal splits
+     86.85 seconds: ML split tests for   1200 of   1266 internal splits
+     88.03 seconds: Site likelihoods with rate category 1 of 4
+     88.58 seconds: Site likelihoods with rate category 2 of 4
+     89.09 seconds: Site likelihoods with rate category 3 of 4
+     89.60 seconds: Site likelihoods with rate category 4 of 4
+     90.08 seconds: Optimizing alpha round 1
+Gamma(4) LogLk = -241941.319 alpha = 1.166 rescaling lengths by 1.088
+Total time: 90.09 seconds Unique: 1269/1272 Bad splits: 5/1266 Worst delta-LogLk 2.617
+
+
+[2022-04-14 08:04:05] DEBUG: Evaluating phylogenetic tree with RAxML-NG... 
+[2022-04-14 08:04:12] DEBUG: done.
+
+[2022-04-14 08:04:12] INFO: Skipping training:
+$ treesapp train -i /root/data/imman/uniprot_data/NosZ_UniProt_update/intermediates/all_refs_filtered.fa -r /root/data/imman/uniprot_data/NosZ_UniProt_update/final_outputs/NosZ_build.pkl -o /root/data/imman/uniprot_data/NosZ_UniProt_update/intermediates/placement_trainer/ -m prot --num_procs 4 --max_examples 1000 --svm_kernel lin --trim_align -a /root/data/imman/uniprot_data/NosZ_UniProt_update/intermediates/accession_id_lineage_map.tsv.
+
+[2022-04-14 08:04:12] INFO: 
+To integrate this package for use in TreeSAPP you must copy /root/data/imman/uniprot_data/NosZ_UniProt_update/final_outputs/NosZ_build.pkl to a directory containing other reference packages you want to analyse. This may be in /usr/local/lib/python3.8/dist-packages/treesapp//data/ or elsewhere
+
+[2022-04-14 08:04:13] INFO: Summary of the updated reference package:
+ReferencePackage instance of NosZ (D0601):
+	Molecule type:                                      'prot'
+	TreeSAPP version:                                   '0.11.3'
+	Profile HMM length:                                 '582'
+	Substitution model used for phylogenetic inference: 'LG+G4'
+	Number of reference sequences (leaf nodes):          1272
+	Software used to infer phylogeny:                   'FastTree'
+	Date of last update:                                '2022-04-14'
+	Description:                                        'Nitrous-oxide reductase (TAT-dependent|Sec-dependent)'
+
+
+[2022-04-14 08:04:13] DEBUG: 	New sequences  = 946
+	Old HMM length = 580
+	New HMM length = 582
+
+[2022-04-14 08:04:13] INFO: TreeSAPP has finished successfully.
+
